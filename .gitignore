@@ -1,0 +1,13 @@
+*.psd
+*.pxr
+export
+_noncrypt_assets/pngexports
+_noncrypt_assets/buf
+_noncrypt_assets/buf/3
+_noncrypt_assets/buf/NPC
+_noncrypt_assets/buf/NPC/*
+_noncrypt_assets/buf/0
+_noncrypt_assets/buf/1
+_noncrypt_assets/buf/2
+_noncrypt_assets/record
+txt/.npclock

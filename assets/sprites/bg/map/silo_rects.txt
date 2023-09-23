@@ -1,0 +1,9 @@
+// rand_map_size is how big the random cutout will be
+// earth_coords (and the others) are: (x,y,W,H) of the randomized region where entire rand_map will be pulled from
+// 900x900 to test
+{ data
+rand_map_size s "48 48"
+earth_coords s "0 0 96 96"
+air_coords s "96 0 96 96"
+sea_coords s "0 96 96 96"
+}

@@ -1,0 +1,467 @@
+START
+ROUGE_G1,ROUGE_G2,ROUGE_B
+// solid UL,UR,DL,DR
+184 90 10 0 0
+188 90 10 0 0
+280 90 20 10 0
+300 90 10 0 0
+304 90 10 0 0
+340 90 10 0 0
+344 90 10 0 0
+320 40 40 5 5
+324 20 20 20 5
+360 90 20 10 0
+364 95 20 10 0
+368 90 20 10 0
+372 90 20 10 0
+384 90 20 0 0
+660 90 10 20 0
+664 90 10 20 0
+700 90 10 20 0
+704 90 10 20 0
+720 80 10 0 0
+724 90 5 20 0
+728 80 10 0 0
+732 70 50 5 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+set 360,364,368,372 no_change 90 376,377,378,379 1
+// set 365,361,373,369 no_change 90 365,365,373,373 5
+// set 369,373,361,365 no_change 90 361,365,361,365 5
+set 720,724,728,732 no_change 90 736,737,738,739 5
+anim 322 420,430
+anim 327 420,430
+anim 725 440
+anim 734 460
+bg2 240,244,248,252,305,345,400,404,408
+END
+START
+HILL_G1,HILL_G2,HILL_G3,HILL_G4,HILL_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+284 90 10 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 10 0 0
+404 90 10 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 0 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+set 720,724,728,732 no_change 90 720,736,720,737 10
+anim 341 420
+bg2 240,244,380,385,388,400,408
+END
+START
+SHORE_G1,SHORE_G2,SHORE_G3,SHORE_G4,SHORE_B
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 5 5 0
+304 90 0 0 0
+340 90 5 5 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 5 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 5 5 0
+384 90 0 0 0
+640 90 20 0 0
+644 90 10 10 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 10 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+1280 90 10 0 0 
+1284 90 10 0 0
+1300 90 10 0 0
+1304 90 10 0 0
+1308 90 10 0 0
+1312 90 10 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+set 360,364,368,372 no_change 90 376,377,378,379 1
+// anim 322 420,430
+// anim 1280 440
+// anim 1284 440
+// anim 1300 450
+// anim 1308 450
+bg2 240,244,248,252,304,305,344,345
+floor_ceil_butt
+END
+START
+CANYON_G1,CANYON_G2
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 0 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// anim 341 420
+bg2 240,244,248,252,305,345
+END
+START
+WOODS_G1,WOODS_G2,WOODS_G3,WOODS_G4,WOODS_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 80 0 0 0
+364 80 0 0 0
+368 80 20 0 0
+372 80 20 0 0
+384 90 0 0 0
+640 90 20 0 0
+660 90 20 0 0
+664 90 0 0 0
+700 90 20 0 0
+704 90 0 0 0
+720 80 5 0 0
+724 70 20 20 5
+728 80 5 0 0
+732 70 20 20 5
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// anim 341 420
+bg2 240,244,248,252,304,305,344,345
+END
+START
+RIVER_G1,RIVER_G2,RIVER_G3,RIVER_G4,RIVER_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 10 10 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 10 10 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// anim 341 420
+// bg2 240,244,248,252,305,345
+END
+START
+BASIN_G1,BASIN_G2,BASIN_G3,BASIN_G4,BASIN_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 10 10 0
+304 90 10 0 0
+340 90 10 10 0
+344 90 10 0 0
+320 40 10 0 0
+324 20 0 0 0
+360 90 5 5 0
+364 90 5 5 0
+368 90 5 5 0
+372 90 5 5 0
+384 90 0 0 0
+640 80 10 0 0
+644 80 20 0 0
+660 80 10 0 0
+664 80 20 0 0
+680 80 10 0 0
+684 80 10 0 0
+700 80 10 0 0
+704 90 0 0 0
+720 80 10 0 0
+724 80 10 0 0
+728 80 10 0 0
+732 80 10 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// anim 341 420
+bg2 240,244,248,252,302,305,342,345,380,388,400,408,1372,1376
+END
+START
+CLIFF_G1,CLIFF_G2,CLIFF_G3,CLIFF_G4,CLIFF_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 10 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 10 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 0 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+set 360,364,368,372 no_change 90 376,377,378,379 5
+anim 363 400
+bg2 240,244,248,252,305,345,380,388,400,408,500,504,508,512
+END
+START
+PASS_G0,PASS_G1,PASS_G2,PASS_G3,PASS_G4,PASS_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 10 0 0
+284 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+320 90 0 0 0
+324 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 10 0 0
+724 80 10 0 0
+728 80 10 0 0
+732 80 10 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// anim 341 420
+bg2 240,244,248,252,260,264,268,280,284,288,300,304,308,320,324,328,340,344,348,500,504,508,512,1400,1404,1408,1412,1420,1424,1428,1440,1444,1448,1460,1464,1468,1480,1484,1488,1500,1504,1508,1520,1524,1528,1532,1540,1544,1548,1560,1564,1568,1580,1584,1588,1600,1604,1608,1620,1624,1628
+// bg2 stuff 640,644,648,660,664,668,680,684,688,700,704,708,
+END
+START
+FALLS_G1,FALLS_G2,FALLS_G3,FALLS_G4,FALLS_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 70 0 0 0
+724 70 0 0 0
+728 70 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+set 360,364,368,372 no_change 90 376,377,378,379 5 396,397,398,399 5
+//set 720,724,728,732 no_change 60 752,753,754,755 20
+// anim 341 420
+anim 722 420,440
+anim 726 424,444
+anim 730 428,448
+anim 734 432,452
+bg2 240,244,248,252,260,264,268,280,284,288,300,304,308,320,324,328,340,344,348,500,504,508,512
+floor_ceil_butt
+END
+START
+RADIO_G1,RADIO_G2
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 20 0 0
+724 80 20 0 0
+728 80 0 0 0
+732 80 50 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// bg2 240,244,248,252,305,345
+END
+START
+RADIO_G3,RADIO_G4,RADIO_B
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 10 0 0
+284 90 10 0 0
+300 90 10 0 0
+304 90 10 0 0
+340 90 10 0 0
+344 90 10 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 0 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+// bg2 240,244,248,252,305,345
+END
+
+START
+EARTH_SILO_1B,EARTH_SILO_2B,AIR_SILO_1,AIR_SILO_2
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 0 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+bg2 240,244,248,252,305,345
+END
+
+START
+BASIC
+// solid UL,UR,DL,DR
+184 90 0 0 0
+188 90 0 0 0
+280 90 0 0 0
+300 90 0 0 0
+304 90 0 0 0
+340 90 0 0 0
+344 90 0 0 0
+320 40 0 0 0
+324 20 0 0 0
+360 90 0 0 0
+364 95 0 0 0
+368 90 0 0 0
+372 90 0 0 0
+384 90 0 0 0
+660 90 0 0 0
+664 90 0 0 0
+700 90 0 0 0
+704 90 0 0 0
+720 80 0 0 0
+724 90 0 0 0
+728 80 0 0 0
+732 70 0 0 0
+// if the set after 'set' (UL,UR,BL,BR) is in the pre-randomized tiledata,
+// either dont change at some probability or change to other sets at other probabilitiess
+// set 360,364,368,372 no_change 90 376,377,378,379 1
+bg2 240,244,248,252,305,345
+END

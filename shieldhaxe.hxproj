@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="CustomBuild" />
+    <movie input="" />
+    <movie path="Project.xml" />
+    <movie fps="30" />
+    <movie width="896" />
+    <movie height="512" />
+    <movie version="0" />
+    <movie minorVersion="0" />
+    <movie platform="Lime" />
+    <movie background="#ADAAA7" />
+    <movie preferredSDK="Haxe 3.0.0;3.0.0;" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="C:\HaxeToolkit\haxe\lib\flixel\4,0,0" />
+    <class path="C:\HaxeToolkit\haxe\lib\lime\2,9,0" />
+    <class path="C:\HaxeToolkit\haxe\lib\lime\2,9,1" />
+    <class path="C:\HaxeToolkit\haxe\lib\openfl\3,6,1" />
+    <class path="C:\HaxeToolkit\haxe\lib\hscript\2,0,7" />
+    <class path="C:\HaxeToolkit\haxe\lib\flixel-addons\2,0,0" />
+    <class path="source" />
+    <class path="C:\HaxeToolkit\haxe\lib\openfl\3,6,1\extern" />
+    <class path="export\windows\cpp\haxe" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option directives="flixel=4.0.0&#xA;lime=2.9.0&#xA;lime=2.9.1&#xA;openfl=3.6.1&#xA;hscript=2.0.7&#xA;flixel-addons=2.0.0&#xA;openfl-next&#xA;tools=2.9.0&#xA;HXCPP_STACK_TRACE&#xA;HXCPP_CHECK_POINTER&#xA;HXCPP_STACK_LINE&#xA;no-compilation&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;windows&#xA;desktop&#xA;display" />
+    <option flashStrict="False" />
+    <option noInlineOnDebug="False" />
+    <option mainClass="ApplicationMain" />
+    <option enabledebug="True" />
+    <option additional="--remap flash:openfl&#xA;--macro flixel.system.macros.FlxDefines.run()" />
+  </build>
+  <!-- haxelib libraries -->
+  <haxelib>
+    <!-- example: <library name="..." /> -->
+  </haxelib>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="source\ProjectClass.hx" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path=".old" />
+    <hidden path="obj" />
+    <hidden path="assets\data" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand>"$(CompilerPath)/haxelib" run lime build "$(OutputFile)" $(TargetBuild) -$(BuildConfig) -Dfdb</preBuildCommand>
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="True" />
+    <option testMovie="Custom" />
+    <option testMovieCommand="" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>

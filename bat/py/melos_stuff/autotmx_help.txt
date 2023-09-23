@@ -1,0 +1,65 @@
+I can do that for buffer mode
+
+Autotiler instructions are pretty easy:
+
+- The TMX tilesets (0_BASIN, etc) should stick to consistent formats. (EG ice tiles in the same place). BASIN's seems to be the largest. The other relevant things are like, after the solid tile tiypes, there's regular BG tiles, "Mechanical" bg tiles, and "Nature" BG tiles, which behave the same but if say a BG tile is next to a Nature BG, the BG tile will try to be a 'edge' BG tile, and a nature BG tile will be placed underneath. BG goes over Mech goes over Nature.
+
+--------------------------------------
+- you use bat/py/melos_stuff/autotmx_marina.py, which has three variables that are explained in there (the tmx, tilemeta and .bcsv). 
+
+TILEMETA:  I think we don't have to mess around with this since we ironed it out in the first autotiling stuff (might need to touch stuff for SILOS, though?) . The only thing here you'd touch is the animation data, which we added some convenience syntax to:
+
+430 ROUGE 430(3),431,432,433,432,431 6 r
+
+The 430(3) = 430,430,430 , and the 'r' meaning the animation can start on any offset into the animation
+
+BCSV: Always export the game's tiles in debug mode, i.e., press SHIFT+A if this is needed while in Tile Mode to flip things
+TMX: These are already in place and you shouldn't have to edit them, except to change the 0_ROUGE (etc) tileset they use, which should already be in place. 
+
+Parallel to the BG art. Only used by you to export PNGs. 
+-----------------------------------
+- Metadata is in autotmx_data.txt
+- metadata block for a set of maps is made of a START ... END section
+- maps using a metadata block are in a list after the START (see ROUGE_G1,ROUGE_G2 for example)
+
+----------------------------------------------
+First are these lines:- // solid UL,UR,DL,DR
+184 90 10 0 0
+etc...
+
+Meaning when the auto tiler turns a tile into tile 184, there's a 90 / (90+ 10+0+0) chance it stays as that, or a 10/(90+10+0+0) chance it turns into 184 + 1, etc for 184 + 2, 184+ 3
+
+----------------------------------------------
+
+- set 360,364,368,372 no_change 90 376,377,378,379 1
+- If after the autotiler does its thing, there's a 2x2 square of 
+
+360,364,
+368,372
+
+Then there's a 90/(90+1) chance it doesn't change, and a 1/(90+1) chance it changes to those other tiles.
+
+More than one possible set is possible, you could do like 
+
+set 360,364,368,372 no_change 90 376,377,378,379 1 400,401,402,403 5 
+
+etc as many times as you want
+----------------------------------------------
+anim 322 420,430
+
+If the autotiler sets down a 322 tile, it will be changed to 420 (and play the corresponding animation in the TILEMETA file)
+All used animations need to be present here, so the autotiler can 'undo' animated tiles back into regular solid tiles on successive uses of the autotiler
+
+
+-----------------------------------
+
+bg2 240,244,248,252,305,345
+
+Place autotiler-tiles here that collision-wise are in BG, but visually, are in the .tmx file's BG2 layer, with a background tile placed unederneath (e.g. fancy platform edges with pixel cut-outs)
+
+------
+
+floor_ceil_butt - doesn't do anything anymore . 
+
+
+This was done to give bg tiles adjacent to floors/ceilings an alternate type (like see beginning of SHORE_G1), but now you just place these tiles in the editor as 'bgbutt' types (added in the tilemeta), and the autotiler will change them to a 'pillar butt' (which seem to be tile 616, going downwards, 636, 656 ... 756)

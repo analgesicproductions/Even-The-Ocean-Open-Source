@@ -1,0 +1,185 @@
+BBG START
+BG1 START
+Pew 416 1088 499086 dir=0 bspd=80 fpattern=0 vistype=1 mb=6 fint=0.4
+Pew 400 1200 825985 dir=0 bspd=80 fpattern=0 vistype=1 mb=6 fint=0.4
+Pew 416 1312 754760 dir=0 bspd=80 fpattern=0 vistype=1 mb=6 fint=0.4
+Pod 400 1312 460048 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 384 1312 348059 dir=0 damage=24 vistype=0 tm_dead=3
+SavePoint 352 800 675942
+BG2 START
+Pod 640 560 474123 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 656 560 925003 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 560 640 220485 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 544 640 393491 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 672 560 386237 dir=0 damage=24 vistype=0 tm_dead=3
+SavePoint 64 624 225143
+BubbleSpawner 752 288 34405 bubble_type=0 vistype=0
+BubbleSwitch 608 288 442044 children="679237" vistype=0
+BubbleSwitch 464 656 994133 children="341003,737524" vistype=0
+Pod 144 720 827465 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 144 736 762454 dir=0 damage=24 vistype=0 tm_dead=3
+SapPad 224 800 921933 "=0 dmg=1 children=""" vis=0 dmg_rate=0.04
+SapPad 208 800 276170 "=0 dmg=1 children=""" vis=0 dmg_rate=0.04
+SapPad 96 784 889795 "=0 dmg=1 children=""" vis=0 dmg_rate=0.04
+SapPad 112 784 382547 "=0 dmg=1 children=""" vis=0 dmg_rate=0.04
+Weed 240 864 613150 vistype=0
+Weed 192 864 235079 vistype=0
+Weed 176 864 588374 vistype=0
+Weed 160 864 144251 vistype=0
+Weed 144 864 593286 vistype=0
+Weed 128 864 972473 vistype=0
+Weed 80 864 479175 vistype=0
+Weed 64 864 785610 vistype=0
+Pod 160 704 961273 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 96 1024 192134 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 112 1024 836805 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 128 1024 126838 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 144 1024 351911 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 160 1024 181281 dir=0 damage=24 vistype=0 tm_dead=3
+Spike 224 1024 515196 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 240 1024 105167 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 256 1024 673374 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 272 1024 38612 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 288 1024 703344 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Pod 304 960 873996 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 288 960 847849 dir=0 damage=24 vistype=1 tm_dead=3
+Wind 544 544 751438 angle=270 h=80 w=32 speed=60
+Wind 512 320 591114 angle=270 h=80 w=32 speed=60
+Wind 448 768 781613 angle=270 h=80 w=32 speed=60
+Wind 208 720 589592 angle=180 h=64 w=64 speed=30
+Pod 96 864 25189 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 112 864 954873 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 208 864 405166 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 224 864 358436 dir=0 damage=24 vistype=0 tm_dead=3
+CameraTrigger 0 1040 957901 enter="272,1248,64,1296" exit="64,1312,288,1248" nrenter=2 nrexit=2 width=416 vistype=0 height=256
+BubbleSwitch 112 1328 423902 "=0 vistype=1 children="175116"
+BubbleSpawner 224 1232 662027 bubble_type=0 vistype=1
+Pew 160 1280 339789 dir=0 bspd=80 fpattern=1 vistype=1 mb=5 fint=0.6
+Pod 192 1152 463695 dir=1 damage=24 vistype=1 tm_dead=3
+Pod 160 1056 567203 dir=2 damage=24 vistype=1 tm_dead=3
+Pod 176 1056 823558 dir=2 damage=24 vistype=1 tm_dead=3
+Pod 128 1152 490914 dir=3 damage=24 vistype=1 tm_dead=3
+Pod 144 1056 942945 dir=2 damage=24 vistype=1 tm_dead=3
+Wind 272 1136 880790 angle=270 h=80 w=32 speed=60
+VanishBlock 80 1328 175116 perma_open=0 vistype=1 s_open=0
+VanishBlock 656 288 679237 perma_open=0 vistype=0 s_open=0
+VanishBlock 416 656 737524 perma_open=0 vistype=0 s_open=0
+VanishBlock 432 656 341003 perma_open=0 vistype=0 s_open=0
+Wind 32 1136 822126 angle=90 h=80 w=32 speed=60
+Spike 112 1536 153773 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 128 1536 17331 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 144 1536 131642 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+SavePoint 32 1504 398674
+Spike 160 1536 235719 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 176 1536 633600 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 192 1536 706145 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 208 1536 331581 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 224 1536 288915 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 240 1536 774124 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 256 1536 194620 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 272 1536 428565 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 288 1536 867115 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 304 1536 934895 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 320 1536 362676 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 336 1536 452539 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 352 1536 702548 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 368 1536 217307 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 384 1536 269454 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 400 1536 31254 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Pod 112 1408 385610 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 128 1408 854738 dir=0 damage=24 vistype=0 tm_dead=3
+Spike 464 1456 500313 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 480 1456 257857 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 160 1648 1453 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 176 1648 712848 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 272 1648 326278 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 288 1648 737244 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 384 1648 305575 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 400 1648 96196 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Pod 448 1472 147103 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 448 1488 37822 dir=0 damage=24 vistype=0 tm_dead=3
+Wind 128 1600 421141 angle=0 h=48 w=320 speed=30
+VanishBlock 704 1632 738410 perma_open=0 vistype=0 s_open=0
+VanishBlock 720 1632 640774 perma_open=0 vistype=0 s_open=0
+VanishBlock 736 1632 498137 perma_open=0 vistype=0 s_open=0
+VanishBlock 752 1632 123485 perma_open=0 vistype=0 s_open=0
+VanishBlock 768 1632 921200 perma_open=0 vistype=0 s_open=0
+VanishBlock 704 1664 279440 perma_open=0 vistype=1 s_open=0
+VanishBlock 720 1664 572121 perma_open=0 vistype=1 s_open=0
+VanishBlock 736 1664 352131 perma_open=0 vistype=1 s_open=0
+VanishBlock 752 1664 429295 perma_open=0 vistype=1 s_open=0
+VanishBlock 768 1664 943602 perma_open=0 vistype=1 s_open=0
+BubbleSwitch 624 1760 760435 children="279440,572121,352131,352131,429295,943602" vistype=1
+BubbleSwitch 840 1760 465044 children="738410,640774,498137,498137,123485,921200" vistype=0
+BubbleSpawner 80 1840 866297 bubble_type=0 vistype=0
+BubbleSpawner 1136 1600 713037 bubble_type=0 vistype=1
+SavePoint 608 1600 907884
+Wind 192 1712 521189 angle=180 h=48 w=80 speed=50
+Pod 16 1712 548532 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 16 1760 912412 dir=0 damage=24 vistype=1 tm_dead=3
+Spike 336 1760 475141 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 240 1760 113951 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 256 1760 882045 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 272 1760 339181 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 288 1760 390509 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 304 1760 830646 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Spike 320 1760 447974 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=0 vert_bounce_vel=180 dmgtype=0
+Pod 448 1760 2535 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 464 1760 760072 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 480 1760 138778 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 496 1760 523411 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 512 1760 819667 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 528 1760 245648 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 544 1760 566015 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 656 1680 507325 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 640 1680 299064 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 624 1680 195658 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 608 1680 234783 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 208 1808 934418 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 368 1792 894541 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 528 2016 853655 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 544 2016 147118 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 560 2016 572660 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 464 1840 973781 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 464 1856 71093 dir=0 damage=24 vistype=0 tm_dead=3
+Spike 448 2016 804366 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 432 2016 907596 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 416 2016 513250 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 400 2016 888972 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 384 2016 888016 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 368 2016 341074 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 352 2016 592427 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 336 2016 589754 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 320 2016 173959 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 304 2016 247550 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 288 2016 337631 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 272 2016 460143 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 256 2016 142667 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 240 2016 123224 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 224 2016 356605 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 208 2016 755199 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 192 2016 238157 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 176 2016 83314 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 160 2016 422823 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 144 2016 507003 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 128 2016 360152 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 112 2016 362397 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 96 2016 562783 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 64 2016 550404 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 80 2016 416961 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 48 2016 605349 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+Spike 32 2016 323532 dir=0 timmer=0.25 hor_bounce_vel=166 vistype=1 vert_bounce_vel=180 dmgtype=0
+CameraTrigger 224 1776 492390 enter="608,1872" exit="624,1872" nrenter=1 nrexit=1 width=416 vistype=1 height=256
+Pod 480 2000 38015 dir=0 damage=24 vistype=1 tm_dead=3
+Pod 496 2000 371971 dir=0 damage=24 vistype=1 tm_dead=3
+Pew 976 1792 736352 dir=2 bspd=80 fpattern=0 vistype=1 mb=6 fint=0.4
+Wind 896 1920 117244 angle=270 h=96 w=16 speed=60
+CameraTrigger 864 1808 321151 enter="1056,2000" exit="1040,2000" nrenter=1 nrexit=1 width=416 vistype=0 height=256
+CameraTrigger 576 1408 81711 enter="688,1584,728,1584,768,1584" exit="704,1600,736,1600,752,1600" nrenter=3 nrexit=3 width=416 vistype=0 height=256
+BubbleSpawner 656 1776 847851 bubble_type=0 vistype=1
+BubbleSpawner 880 1760 927445 bubble_type=0 vistype=0
+FollowLaser 776 1360 519032 accel=0 axis_tracks_player=2 angvel=15 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+FollowLaser 776 1361 978508 accel=0 axis_tracks_player=2 angvel=15 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+FG2 START
+Weed 496 1824 241439 vistype=0
+Weed 480 1824 165848 vistype=0

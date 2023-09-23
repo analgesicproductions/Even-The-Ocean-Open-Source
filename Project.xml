@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app title="Even the Ocean" file="EventheOcean" main="Main" version="0.8.1" company="AnalgesicProductionsLLC" />
+	
+	<!-- 416 x 256 = 26 x 16 tiles -->
+	<window width="832" height="512" fps="60" orientation="landscape" resizable="false" vsync="true"  fullscreen="false" fullscreen-hotkey="false" />
+	<set name="BUILD_DIR" value="export" />
+
+	
+	<haxedef name="HXCPP_STACK_TRACE" /> 	
+	<haxedef name="HXCPP_CHECK_POINTER"/>
+	<haxedef name="HXCPP_STACK_LINE"/>
+	<classpath name="source" />
+	
+	<assets path="assets" if="desktop" >
+		<!-- unused / outdated / postgame -->
+		<sound path="data/beep.wav" id="Beep" />
+		
+		<!-- Blank song -->
+		<music path="mp3/song/null.ogg" id="null"  type="music" />
+		
+		<music path="mp3/song/pre_title.ogg" id="pre_title" type="music" />
+		<music path="mp3/song/title_2.ogg" id="title_2" type="music" />
+		
+		<!-- Fay Rouge / Intro / I0 -->
+		<music path="mp3/song/intro_scene_short.ogg" id="intro_scene_short" type="music" />
+		<music path="mp3/song/intro_scene_ambience.ogg" id="intro_scene_ambience" type="music" />
+		<music path="mp3/song/introcave_2.ogg" id="introcave_2" type="music" />
+		<music path="mp3/song/cassisdead.ogg" id="cassisdead" type="music" />
+		<music path="mp3/song/intro_plant_core.ogg" id="intro_plant_core" type="music" />
+		
+		
+		<!-- Inner World Map -->
+		<music path="mp3/song/themesong.ogg" id="themesong" type="music" />
+		<music path="mp3/song/map_intro.ogg" id="map_intro" type="music" />
+		
+		<!-- Intro City and Set 1 stuff -->
+		<music path="mp3/song/aliph_house_night.ogg" id="aliph_house_night" type="music"/>
+		<music path="mp3/song/wf_cass.ogg" id="wf_cass" type="music"/>
+		<music path="mp3/song/wf_yara.ogg" id="wf_yara" type="music"/>
+		<music path="mp3/song/mayor_intro.ogg" id="mayor_intro" type="music"/>
+		<music path="mp3/song/mayor_lobby.ogg" id="mayor_lobby" type="music"/>
+		<music path="mp3/song/wf_entryway.ogg" id="wf_entryway" type="music"/>
+		<music path="mp3/song/wf_square_intro.ogg" id="wf_square_intro" type="music"/>
+		 
+		<music path="mp3/song/aliphssong.ogg" id="aliphssong" type="music"/>
+		<music path="mp3/song/yara_theme.ogg" id="yara_theme" type="music"/>
+		
+		<music path="mp3/song/wf_lo_res.ogg" id="wf_lo_res" type="music" />
+		<music path="mp3/song/junkyard.ogg" id="junkyard" type="music" />
+		<music path="mp3/song/lullaby1.ogg" id="lullaby1" type="music" />
+		<music path="mp3/song/lullaby2.ogg" id="lullaby2" type="music" />
+		
+		
+		<!-- Shore -->
+		<music path="mp3/song/actualshoreout.ogg" id="actualshoreout" type="music" />
+		<music path="mp3/song/shorein.ogg" id="shorein" type="music" />
+		<music path="mp3/song/starfish.ogg" id="starfish" type="music" />
+		<music path="mp3/song/shore_core.ogg" id="shore_core" type="music" />
+		
+		<!-- Canyon -->
+		<music path="mp3/song/canyonin.ogg" id="canyonin" type="music" />
+		<music path="mp3/song/canyon_out.ogg" id="canyon_out"/>
+		<music path="mp3/song/canyon_cave.ogg" id="canyon_cave"/>
+		<music path="mp3/song/canyon_core.ogg" id="canyon_core"/>
+		
+		<!-- Intermission 1 and Set 2 stuff -->
+		<music path="mp3/song/s2_sirens.ogg" id="s2_sirens" type="music" />
+		<music path="mp3/song/history_debrief.ogg" id="history_debrief" type="music" />
+		<music path="mp3/song/wf_hi_res.ogg" id="wf_hi_res" type="music" />
+		<music path="mp3/song/mayor_apt.ogg" id="mayor_apt" type="music"/> 
+		<music path="mp3/song/aliph_new_apt.ogg" id="aliph_new_apt" type="music"/> 
+		
+		<!-- Hill -->
+		<music path="mp3/song/hill_out.ogg" id="hill_out" type="music"/>
+		<music path="mp3/song/hill_cabin.ogg" id="hill_cabin" type="music"/>
+		<music path="mp3/song/hill_storeroom.ogg" id="hill_storeroom" type="music"/>
+		<music path="mp3/song/hill_core.ogg" id="hill_core" type="music"/>
+		<music path="mp3/song/hill_in.ogg" id="hill_in" type="music"/>
+		
+		<!-- River -->
+		<music path="mp3/song/river_out.ogg" id="river_out" type="music" />
+		<music path="mp3/song/river_in.ogg" id="river_in" type="music" />
+		<music path="mp3/song/river_core.ogg" id="river_core" type="music" />
+		<music path="mp3/song/river_storeroom.ogg" id="river_storeroom" type="music" />
+		
+		<!-- Woods -->
+		<music path="mp3/song/woods_happy.ogg" id="woods_happy" type="music" />
+		<music path="mp3/song/woods_neutral.ogg" id="woods_neutral" type="music" />
+		<music path="mp3/song/woods_sad.ogg" id="woods_sad" type="music" />
+		<music path="mp3/song/woods_out.ogg" id="woods_out" type="music" />
+		<music path="mp3/song/woods_library.ogg" id="woods_library" type="music" />
+		<music path="mp3/song/woods_in.ogg" id="woods_in" type="music" />
+		<music path="mp3/song/woods_core.ogg" id="woods_core" type="music" />
+
+		
+		
+		<!-- Forest -->
+		<music path="mp3/song/forest_welcome_song.ogg" id="forest_welcome_song" type="music" />
+		<music path="mp3/song/forest_cheesy_town.ogg" id="forest_cheesy_town" type="music" />
+		<music path="mp3/song/forest_town.ogg" id="forest_town" type="music" />
+		<music path="mp3/song/forest_in.ogg" id="forest_in" type="music" />
+		<music path="mp3/song/forest_core.ogg" id="forest_core" type="music" />
+		<music path="mp3/song/forest_out.ogg" id="forest_out" type="music" />
+		
+		<!-- Intermission 2  -->
+		
+		<music path="mp3/song/wf_city_attack.ogg" id="wf_city_attack" type="music"/>
+		<music path="mp3/song/tower_depths.ogg" id="tower_depths" type="music"/>
+		<music path="mp3/song/tower_core.ogg" id="tower_core" type="music"/>
+		<music path="mp3/song/mayor_sad_i2.ogg" id="mayor_sad_i2" type="music"/>
+		<music path="mp3/song/wf_argue_talk.ogg" id="wf_argue_talk" type="music"/>
+		<music path="mp3/song/humus_theme.ogg" id="humus_theme" type="music"/>
+		<music path="mp3/song/yara_sad.ogg" id="yara_sad" type="music"/>
+		
+		<!-- Set 3 / Old City stuff  -->
+		<music path="mp3/song/tunnel.ogg" id="tunnel" type="music"/>
+		<music path="mp3/song/old_city_radio.ogg" id="old_city_radio" type="music"/>
+		<music path="mp3/song/old_city_out.ogg" id="old_city_out" type="music"/>
+		<music path="mp3/song/old_city_in.ogg" id="old_city_in" type="music"/>
+		<music path="mp3/song/outer_map.ogg" id="outer_map" type="music"/>
+		<music path="mp3/song/silo_out.ogg" id="silo_out" type="music"/>
+		<music path="mp3/song/silo_earth.ogg" id="silo_earth" type="music"/>
+		<music path="mp3/song/silo_sea.ogg" id="silo_sea" type="music"/>
+		<music path="mp3/song/silo_air.ogg" id="silo_air" type="music"/>
+		<music path="mp3/song/old_city_debrief.ogg" id="old_city_debrief" type="music"/>
+		
+		<!-- Pass / Earth Golem -->
+		
+		<music path="mp3/song/pass_out.ogg" id="pass_out" type="music"/>
+		<music path="mp3/song/earth.ogg" id="earth" type="music"/>
+		<music path="mp3/song/earth_boss.ogg" id="earth_boss" type="music"/>
+		<music path="mp3/song/g_out_earth.ogg" id="g_out_earth" type="music"/>
+		
+		<!-- Cliff / Air Golem -->
+		<music path="mp3/song/cliff_out.ogg" id="cliff_out" type="music"/>
+		<music path="mp3/song/cliffambient.ogg" id="cliffambient" type="music"/>
+		<music path="mp3/song/cliff_town.ogg" id="cliff_town" type="music"/>
+		<music path="mp3/song/cliffquiet.ogg" id="cliffquiet" type="music"/>
+		<music path="mp3/song/air.ogg" id="air" type="music"/>
+		<music path="mp3/song/air_core.ogg" id="air_core" type="music"/>
+		<music path="mp3/song/g_out_air.ogg" id="g_out_air" type="music"/>
+		
+		<!-- Falls / Sea Golem -->
+		<music path="mp3/song/sea_in.ogg" id="sea_in" type="music"/>
+		<music path="mp3/song/sea_boss.ogg" id="sea_boss" type="music"/>
+		<music path="mp3/song/falls_out.ogg" id="falls_out" type="music"/>
+		<music path="mp3/song/g_out_sea.ogg" id="g_out_sea" type="music"/>
+		<!-- Ending -->
+		
+		<music path="mp3/song/rain.ogg" id="rain" type="music"/>
+		<music path="mp3/song/radio_tower_final.ogg" id="radio_tower_final" type="music"/>
+		<music path="mp3/song/wf_after_tower.ogg" id="wf_after_tower" type="music"/>
+		<music path="mp3/song/soft_rain.ogg" id="soft_rain" type="music"/>
+		<music path="mp3/song/flood.ogg" id="flood" type="music"/>
+		<music path="mp3/song/wf_eto_song.ogg" id="wf_eto_song" type="music"/>
+		<music path="mp3/song/credits.ogg" id="credits" type="music"/>
+		
+		<!-- etc -->
+		
+		<music path="mp3/song/midworld.ogg" id="midworld" type="music"/>
+		<music path="mp3/song/sleepyglade.ogg" id="sleepyglade" type="music" />
+		<music path="mp3/song/risehill.ogg" id="risehill" type="music" />
+		<!--Maybe for the jail cell or some debugt hing?-->
+		<music path="mp3/song/untitled_a.ogg" id="untitled_a" type="music" />
+		<music path="mp3/song/inapond.ogg" id="inapond" type="music" />
+		<music path="mp3/song/secludedplace.ogg" id="secludedplace" type="music" />
+		<music path="mp3/song/trudge.ogg" id="trudge" />
+		<music path="mp3/song/sunlitten.ogg" id="sunlitten" />
+		<music path="mp3/song/sunlitten.ogg" id="funkbass" />
+		<music path="mp3/song/anotherbeach.ogg" id="anotherbeach" />
+		<music path="mp3/song/title_old.ogg" id="title"/>
+		<music path="mp3/song/intro_scene.ogg" id="intro_scene"/>
+		<music path="mp3/song/introcave.ogg" id="introcave"/>
+		<music path="mp3/song/northworld.ogg" id="northworld"/>
+			
+	</assets>
+	
+	<assets path="assets" if="desktop" />
+	
+
+	<haxelib name="flixel"/>
+    <haxelib name="openfl" />
+	
+
+	<!--<haxelib name="openfl-native" />-->
+	<haxelib name="hscript" />
+	<haxelib name="flixel-addons"/>
+	<set name="FLX_MOUSE_ADVANCED" value="true" />
+    <!--Disable the Flixel core debugger-->
+    <!--<set name="FLX_NO_DEBUG" />-->	
+	
+    <!--Disable the Flixel core recording system if your not using it-->
+    <set name="FLX_NO_RECORD" />
+	
+	
+	<!--Optimise inputs, be careful you will get null errors if you don't use conditionals in your game-->
+    <!--<set name="FLX_NO_MOUSE" if="mobile" />-->
+    <!--<set name="FLX_NO_KEYBOARD" if="mobile" />-->
+    <set name="FLX_NO_TOUCH" if="desktop" />
+    <!--<set name="FLX_NO_JOYSTICK" />-->
+
+</project>

@@ -1,0 +1,306 @@
+// USAGE:
+// Ctrl-F the entity name
+// F = float, I = int, S = string.
+
+
+// It's best practice to add a PRESET if you wish to use an entity a lot, rather than
+// hand editing many.
+
+// Hand editing is primarily for tweaking something in game.
+
+*****
+
+VIS-DMG  should be a comma-separated number list : "1,1". Dmgtype is almost always 0 or 1, 0 = dark damage, 1 = light damage.
+VIS is the Visual Type of the entity, generally this is 0 for the default dark and 1 for the default light spritesheet, but if you edit the misc/entity_spritesheets.son file of the game you can add other spritesheets 
+
+******************
+***** entity *****
+******************
+
+********
+**enemy**
+*********
+
+--- AimSpore
+		p.set("vis-dmg", "0,0"); 
+			vis-dmg types
+		p.set("bul_vel", 400);
+			speed of the bullet
+		p.set("t_wait", 1.5);
+			how long after a bullet disappears a new one is fired
+		p.set("nr_bounces", 2);
+			how many bounces the bullet does before disappearing if it doesnt hit the player
+		p.set("damage", 64);
+			how much damage is done to player if bullet touches player
+		p.set("hold_ticks", 60);
+			how many frames (60 fps update) the player gets "stuck" to the moving bullet
+		p.set("fixed_angle", -1);
+			if not equal to -1, then the aimspore always fires at this angle
+	
+--- ClimbSpore 
+		p.set("vis-dmg", "0,0");
+			// visual and dmage types - 0 = dark, 1 = ligtht
+		p.set("is_left", 0);
+			// Is this on a left wall or a right wall
+		p.set("tm_move", 2.3);
+			// how long it will travel in one direction up or down before switching direction. only decrements when actually moving
+		p.set("tm_shoot", 2);
+			// how long it will take while moving to stop to begin to shoot
+		p.set("vel", 70);
+			// speed of movement up and down th wal
+			
+--- Dasher
+	- behavior is rough. hurts on contact
+	- dashes wen you're in its line of sight. i need to refine this since the vertical space at which it detects you is off
+	
+	--- is_vert = goes up and down rather than left/right. not implemented 
+	
+--- LaunchBug
+	- either jumps between ceiling and floor or left and right walls. will track the player. hurts with contact damage. nonsolid.
+	- is_hor = 1 means will jump between left andr ight walls
+		- is_left = starts on the left wall (i.e., will begin with tracking the player vertically while on al eft wall). only applies
+			when is_hor = 1. if is_left = 0 then you should start the LaunchBug on a right wall.
+		- is_up - same concept but with floor/ceiling
+	- y/x vel refer to how fast it travels on a wall
+	- launchvel - how fast it launches from wall to wall
+
+--- SquishBounce
+	p.set("vis-dmg", "0,0");
+		dmgtype doesn't do anything, vistype can be used to change if you dont use GNPC_ID for the anim
+		
+	p.set("max_jump_multiplier", 1.4);
+		Default, you can reach 4 blocks high at neutral energy
+		
+	p.set("initintovel", 53);
+		How fast the bouncer moves downwards Initial
+		
+	p.set("outaccel", -280);
+		Acceleration applied to bouncer when it is moving downwards
+		
+	p.set("is_cloud", 0);
+		If = 1, then this is not collidable except when jumping on top
+		
+	p.set("GNPC_ID", "");
+		If set to a valid Generic NPC ID, then it will be loaded
+		
+	p.set("x_slow",-1);
+		If set to >0 then your velocity X is this when walking on top
+		
+	
+--- SquishyChaser 
+	p.set("vis-dmg", "0,0");
+	p.set("chasevel", 150);
+		how fast it can follow you
+	p.set("tm_allow_damage", 1.5);
+		a timer that resets when you get hurt, after it decrements all the way you can be hurt again
+	p.set("dmg_amt", 32);
+		how much yuo get hurt by touching
+--- WallBouncer 
+	*** MUST BE INSIDE OF A WALL TO WORK 
+			p.set("vis-dmg", "0,0");
+			// see climbspore
+		p.set("climb_vel", 60
+		// how fast it folllws you );
+--- WaterGlider
+	- If you jump on it, it launches on direction you are facing at 	velocity 'vel' with drag.x '5' 
+	- Does sap damage when touching
+*********
+***npc***
+*********
+
+--- Cauliflower
+	- Always does contact sap damage
+	- max_babies/nr_stalks/tm_shoot/tm_regrowth don't do anything yet 
+		- max babies - supposed to shoot out spores that grow into explodable cauliflower
+		- tm_shoot = latency for launching a new set of babies
+		- tm_regrowth - i'm not sure
+		- nr_stalks = number of stalk sprites connecting a floating caulilower to the ground
+	- is_self_aware 
+		--- if = 1, then it floats in air. stalk sprites anchor to ground. if you wall jump on it, it goes left/right. if yuo jump on it, then its x velocity matches the contact x velocity of the player, and it also moves downward
+		---- if = 0, it is stationary with no stalk	
+
+--- Mole
+	- init-energy = energy it starts with 
+	- max-energy - max energy (on scale of 0 to max_energy )
+	- vel_bounds - string, format "xmin,xmax,ymin,ymax" for velocities. energy clsoer to 0 = x veloicity closer to xmax. enrgy closer to max_energy = y velocity closer to ymax.
+	-turns_right = does this turn right when hitting a wall
+	- init-dir - does this start up/right/down/left
+	
+--- Pendulum
+	add it under Pendulum's entry in entity_spritesheets.son (because Pendulum is it's own dedicated entity, not a GenericNPC)
+ 
+you can actually just combine the spritesheets since what will be indexing into them is just the sets of animations in animations.txt . might be best this way since the sprites are small so easier to manage. just make sure they're separated in 32x32 px chunks
+ 
+ 
+in-editor, "vine_set" will load up the corrresponding entry in entity_Spritesheets.son's Pendulum entry - so "TEST" will load vine_TEST, etc. 
+ 
+when you add a new one to Pendulum in this metadata file just copy paste everything but change the anim_set. anim_set corresponds to the animation set in animations.txt  that is also under Pendulum.
+ 
+so in this case vine_TEST also has a corresponding animation set vine_TEST which is where the randomized leaves are pulled from. right now the bottom-thing on a vine/pendulum is determined by "anim_name". this will play that animation from the animation set vine_TEST so it's possible the randomized sprites on the vine will look like the bottom one. I can make it so that the bottom thing pulls from a different animation set, though.
+
+--- SetPiece
+	- Search "SetPiece" in generic_npc.son
+
+--- WirePoint
+	- When sent a message from a sappad, this will send an animation of sparkes to its first child. 
+	- combine with whatever tile to make this look okay
+	
+*********
+***util**
+*********
+--- BubbleSwitch   
+	- behavior must = vistype for normal default vistypes 0,1,2 (dark, light, both)
+--- Button
+	- Depending on vistype, when touched, sends a single energy point tick message to its children.
+	- One-time press.
+
+--- Elevator
+	- the grey boxes are 'consoles' - if the elevator is away from the console and you interact w/ the console then the elevator gets caleld up or down
+	- youc an chidl elevators to eachoher so that if you move one it moves the other one
+	- if youre standing on an elevator andi nteract, it goes up or down, they collide as clouds
+	
+--- LineCollider
+
+	- there's a free redbox to the right of the last pt on a segment. click and drag to add a new segment
+
+- click and drag any red box to move it, except for the first (need to ctrl+click)
+
+- hold ctrl while dragging to snap to grid
+
+- pts won't move in y-direction till you move a certain threshold
+
+** a pt should always stay between (with respect to the x axis) the pts next to it - otherwise collisions dont work
+
+* like deliting an entity, holding D and clicking a red box deletes that pt from the line collider. unless it's the left-most box then the entire thing gets deleted
+
+--- RaiseWall
+	p.set("needed_en", 64); Energy to open gate
+	p.set("energy", 0); Energy it starts with
+	p.set("vistype", VIS_DARK_DEBUG); What it looks like / its energy behavio
+	
+	p.set("s_open", 0); Is it open
+	p.set("permanent_open", 0); should it stay open through saves/moving maps
+	init_state - if set to -1, then this raisewall's state will be saved throughout the whel game
+	
+	p.set("is_wide", 0);  is it wide
+	p.set("raise_dir", 0); what direction does it raise
+	p.set("raise_distance", 32); how far does it raise
+	
+--- SoundZone
+	[wall type] / [floor type] (modify mode)
+ 
+where modify mode = both, wall, floor
+ 
+if you shift+click in the parenthesis it changes the modify mode
+ 
+if you shift+click on the types, you get the normal drag-down list. the difference being in 'both' mode both types change to what u select, or just one of them if in the other modes
+ 
+	
+--- Stopper
+	- This sends a single energize tick message to its children when it touches a sink platform. 
+	- It also sends a Stop message to anything it touches - right now only sinkplatforms. this causes the thing touching it to
+		snap its position to the stopper
+--- VanishBlock
+		p.set("vistype", VIS_DEBUG_DARK); // energy type needed to open
+		p.set("s_open", 0); // whether it's open or not right now  
+		p.set("perma_open", 0); // whether it stays open after a save or leaving the map
+		
+		// Gauntlet Variables
+		p.set("leg", -1);  // what leg it's on if needed
+		p.set("post_leg", 0); // what it should be after the leg is finished
+		p.set("pre_leg", 0); // whta it should be before the leg iss tarted
+**********
+***tool***
+**********
+
+--- CameraTrigger
+	I nrenter - number of green, entrance triggers (which trigger this camera lock)
+	I nrexit - "" but for exit
+	I width  - in theory, the width of where X camera movement will be restricted to (depending on vistype). doesn't work yet but if there's a good reason for it i might implement it
+	I height - "" 
+	I vistype 0 = horizontal lock (no x movement in camera), 1 = vertical (no y movement), 2 = all lock (Camera stays stuck with top-left corner at top left corenr of camera trigger box)
+
+--- Door
+	AUTO_INDEX: DONT CHANGE THIS
+	index ; What index door in the next map itll go to. leave at -1 to use dest_x dest_y instead.
+	dest_x :  if index >= 0, then if dest_x < 0 , you are offset 24 pixels to the left  - if dest_x = 0 , you are centered horizontally with the door, if > 0 , then you are offset 24 px to right
+	dest_y : 
+	next_cam_offset : format - float,float (e.g. 4,4 ) : offset the camera from centered around the player in the next map (if posible
+	script : path to script which can change behavior of where this door goes or if it is active
+	type - Visual type - 0 (DEBUG)
+	dest_map
+	behavior - 0 (AUTO - transitions when you touch), 1 (OPEN - press up to go through), 2 (CLOSED - doesn't open)
+
+--- SavePoint
+
+**********
+***trap***
+**********
+
+--- Gates (give you a lot)
+--- Singulars
+
+--- FollowLaser
+	I accel
+		angular acceleration. 
+			if not tracking player: accelerates towards +angvel , then switches to -accel acceleration till hitting -angvel, etc
+			if tracking player: i think it acceelrates indefinitely so set this to zero..?
+	I axis_tracks_player 
+		0 if doesn't follow the player's movement. will bounce left and right (or up and down)
+		1 if it does. will stay still
+	I angvel
+		see accel. anguar velocity when spinning
+	I is_fixed
+		this doenst doa nything
+	I vistype
+		dark or light
+	I tracking_vel
+		the velocity at which it follows the player if axis_tracks_player = 1
+		set to zero to not move
+	S tracked_axis
+		x or y . you may need to reload after changingt his variable. what axis it follows the player on
+	I fixed_angle
+		if tracking the player, and accel and angvel are zero, then it will face this direction (in degrees, with +x axis as 0 degrees, -x axis as 180 deg)
+	
+
+--- GasCloud
+	I type - visual type (0 - debug light, 1 - debug dark)
+	F vel - velocity
+	
+--- LavaPillar
+	* Rise speed
+	* Descend speed
+	* Active period
+	* Inactive Period
+	* Hurt period
+	* "pushiness" velocity (when riding on top)
+	* "pushiness" length 
+	* INITIAL LATENCY
+	
+--- MoveBlock
+	Moves around , as it moves from a corner it charges itself until you touch it and then it hurts you. you canw all jump and jump on it
+
+	accel how fast it accelerates to its max velocity 
+	max_vel max velocity 
+	init_dir which direction (urdl) it begins to move in when initialize
+	clockwise do its directions change CW or CCW
+	t_wait how long it waits at corners
+	vis-dmg   etc
+	
+--- Pew
+	* Firing rate
+	* Fireing type (light only, dark only, alternate)
+	* Bullet speed
+	
+--- RubberLaser
+	* Damage rate
+	* Damage
+	* Bounciness
+	* Active period
+	* Inactive period
+	* Initial latency
+--- SapPad
+	* max_storage= max energ this can stores
+--- Wind
+	* req_energy -  if > 0, requires this much energy (Via sap pad or whatever) to activate
+		- Set The wind as child of a raisewall and it will activate when raisewall raises

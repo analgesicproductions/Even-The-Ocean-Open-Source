@@ -1,0 +1,911 @@
+Even the Ocean Editor FAQ
+version 0.5
+2013-07-05
+
+Table of Contents
+
+[1.0] - General workflow notes
+	[1.0.1] - Importing CSV to DAM (Important!)
+	[1.0.2] - Testing: Setting beginning area 
+	[1.0.3] - Testing: Setting player sprite
+	[1.0.4] - Committing
+[1.1] - Instructions for in-game-editor
+	[1.1.1] - Basic instructions
+	[1.1.2] - Add entity mode
+		[1.1.2.1] - Door helper
+	[1.1.3] - Change/Create new map mode
+		[1.1.3.1] - What to do when making a new map
+		[1.1.3.2] - Map fast change
+	[1.1.4] - Edit entity mode
+	[1.1.5] - Tile map
+		[1.1.5.2] - Alternate useful controls
+		[1.1.5.3] - Saving/loading drafts
+	[1.1.6] - Draw order
+	[1.1.7] - Special functions (Death lock, editor checkpoint, etc...)
+	[1.1.8] - Moving BGs in-game
+	[1.1.9] Toggle FPS
+	[1.1.10] Invis tile
+[1.2] - Dialogue editing instructions
+[1.3] - Player physics thingies
+[1.4] - NPCs and scripting
+	[1.4.1] - GenericNPC API
+	[1.4.2] GenericNPC son properties
+[1.5] - The metadata and how to use (todo)
+	[1.5.0] ** FAST WAY TO CREATE NEW MAP AND BG
+	[1.5.1] Add a background image to the game
+		[1.5.1.1] Add a background set to a map	
+	[1.5.2] - Add a tileset to the game and specify its properties
+	- Add animated tiles to the game 
+	[1.5.4] Specify a tileset for a map
+	[1.5.5] Specify a song for a map
+	
+	- Add sound effects
+[1.6] Buffer mode
+[1.7] EASY CUTSCENE
+
+======================================
+======================================
+[1.0] General workflow notes
+======================================
+======================================
+
+	[1.0.1] - Import CSV to DAM using my importer
+		Workflow:
+			1. When someone mocks up a level and it is done or nearly done, and you want to tile it, communicate that so that you have a "lock" on that map and no changes are made.
+			1.5 Import.
+			2. Tile it in DAME.
+			3. When done, export. Note this will move the mocked-up-maps to an "_old" folder under the "csv" directory, so the game will automatically begin to use the freshly exported maps.
+		
+		Details:
+			1. Say we want to tile the map "TEST".
+			2. Create a group called "TEST" in the shield.dam file, save the DAME file.
+			3. Make 8 layers, 4 for old and 4 for new (of _BG, _BG2, _FG, _FG2)
+			2.5. Change line 7 of bat/import_csv.py (default_tileset_path = "...") to point to the full path of DEBUG2_tileset.png on your machine.
+				3. Run "bat/import_csv.py" . Type "yes" so the import process runs. The default behavior is to create NEW layers if they don't exist and overwrite OLD layers with whatever CSV on disk is described as "old" at the time.
+				3.5 *** If you want to force say, "TEST_BG.csv" to overwrite TEST_BG, *AFTER* you've exported once,  and other maps too, then type "yes TEST,MAPONE,MAPTWO ", etc.
+				4. The importer will import the CSVs. A note:
+					- If you've exported once, then "TEST_BG_OLD.csv",  "TEST_BG2_OLD.csv", etc.,  files will exist under "csv/_old". The import process will overwrite the "TEST_BG_OLD" node with the contents of "_old/TEST_BG_OLD.csv", and so forth. The "TEST_BG" node WILL NOT be overwritten with "TEST_BG.csv" unless you say so as said in step 3.
+					- If you haven't exported yet, the importer will create empty "TEST_BG" , "TEST_BG2", etc., nodes with the same dimensions as the pre-existing "TEST_BG.csv" files. 
+				5. At this point you'll need to change the "TEST_BG", "TEST_BG2", etc. tilesets to whatever tileset you want to use.
+			6. Tile the map
+			7. Export using the "newcsvTilemap.lua" exporter. Set the export csv directory to assets/csv/ . Make sure "export" is ticked on each group or layer within the group you want exported
+			7.5. Update assets/world.map as needed. Say you made a tileset called "HOUSE_tileset.png" (note the naming convention with _tileset ). Under TILESET_LIST in "world.map" you would add "HOUSE". Then you would change "DEBUG" in the line "TEST script DEBUG" under "BG_HASH" to "HOUSE".
+			8. That's it! 
+
+
+	[1.0.1.5] - Import CSV to DAM using DAME. Tedious, not recommended except for edge cases like what's happening with SHOREPLACE
+		1. You can use the above steps to create your 8 map layers (or you can make them manually, just follow the naming conventions)
+		2. Right click a map layer and click "Import map data". Select the corresponding CSV file.
+		3. Change the map layer's tileset to the right tileset and click okay.
+	[1.0.2] - Testing: Setting beginning area 
+		In source/state/GameState.hx , change line 42 (this line number is prone to change) to:
+			
+		next_state = STATE_TEST; 
+		
+		which will tell the game to start in that state. It's called "TestState" but that's a carry-over from really early coding that I didn't bother to change. It's the main mode of play that contains the world map, platforming sections, etc.
+		
+		Then in source/state/TestState.hx::92
+		
+		InitShortcut.SET_TEST_DREAM(this); // Set world mode and map name
+		
+		These are like what we did with Anodyne, but put into a different file to make things cleaner. Just open source/help/InitShortcut.hx . In a function in there you can specify four things: Beginning map name, beginning map mode, and beginning player coordinates.
+		
+		The properties:
+			next_world_mode - can be TestState.WORLD_MODE_MAP , WORLD_MODE_REAL or WORLD_MODE_DREAM . 
+			
+				WORLD_MODE_MAP is the world map. This is for both Even and Aliph.
+				WORLD_MODE_REAL is "real life" for Even - sidescrolling, but without the jumping physics.
+				WORLD_MODE_DREAM is daydreams or Aliph's world. sidescrolling with normal physics.
+				
+			MAP_NAME - The next map name. Note the naming convention: 
+				
+					"EM_" as a prefix means it's a world map for Even.
+					"ED_" = "E"ven "D"aydream.
+					"REAL" or "E_" = "REAL" Life for Even (bad prefix I know)
+					"MAP" = Aliph world "MAP" 
+					
+			next_player_x and next_player_y are self-explanatory
+				
+			
+
+	[1.0.3] - Testing: Setting player sprite
+		
+		Player sprite is automatically set by the map name as described above. For testing I've been using:
+			Even World Map Sprite: EM_TEST
+			Aliph World Map Sprite + Train: MAPONE 
+			Aliph Sidescroll : TEST
+			Even Dream Sidescroll : ED_TEST
+			Even Real Sidescroll : REALHOME
+		** You can toggle the debug display of shield hitboxes and animation/velocity debug by switching IS_DEBUG in Player.hx to false (Currently line 74)
+			
+	[1.0.4] Committing
+		- The game is programmed now so that you shouldn't have to touch anything in the source folder (hooray!). 
+		- Your changes will pretty much just be to stuff in the assets folder and bat/shield.dam and _noncrypt_assets, so when you go to commit something all you would have to issue is
+		- player file - source/player/Player.hx
+		- git add _noncrypt_assets assets bat/shield.dam 
+		- git commit -m "blha blah blah"
+		- git push origin animations
+
+======================================
+======================================
+[1.1] - In-game-editor instructions
+======================================
+======================================
+
+***************************
+[1.1.1] - Instructions -
+***************************
+
+ALL MODES:
+	
+-CTRL+ALT+E to exit the editor and resume control of the player.
+-Hold SHIFT and move the mouse to pan the screen.
+-SHIFT + arrows to fast scroll
+-The current MAP_NAME , MOUSE POSITION and MAP DIMENSIONS are shown in the bottom left.
+
+Press CTRL + ..
+- A to enter ADD ENTITY mode.
+- C to enter CHANGE MAPS mode.
+- E to enter EDIT ENTITY PROPERTY mode.
+- T to enter TILEMAP EDIT mode.
+
+
+***************************
+[1.1.2] Add entity mode (CTRL + A)
+***************************
+
+- TAB will hide the text
+- Q will toggle the number keys switching entity sets without holding alt
+- ALT + D + CLICK on an entity to delete it
+- CTRL + click to enter move mode, release mouse to place it, hold shift while moving to snap
+- Press P to move player to cursor
+- SHIFT + C/ SHIFT + V when over an entity: copy + paste.
+- SHIFT + S saves the current maps entities to an assets/map_ent/MAP_NAME.ent file.
+- SHIFT + L loads the entities from the assets/map_ent/MAP_NAME.ent file .
+- A list of entities you can add is displayed. 
+---  # (some number) chooses an entity to add from the current set of 10.
+--- ALT + # switches entity sets.
+- CLICK to place an entity.
+- Press CTRL + # to choose what layer to add the sprites to (more layers later if needed).
+--- Currently only (0) BBG, (1) BG1, (2) BG2 and (4) FG2 - sprites that sit on top of those layers.
+	- BBG = Behind BG1 tile
+	- BG1 = in front of BG1 tile
+	- BG2 = in front of BG2 tile
+	-FG2 = in front of FG2 tile
+-- only-CLICK on an entity to highlight it and show its depth in the layer. This will only work on entities in the current layer being aded to. 
+	-When an entity is highlighted, press arrows to move it pixel by pixel. press plus +/-or minus to move it within its layer
+	- Press CTRL++ or CTRL+- to mvoe between layers.
+
+	[1.1.2.1] Door Helper
+		1. In Add mode, press SHIFT+D to turn on Door Helper.
+		2. Add or click on a door.
+		3. If you added a door, SAVE THE ENT DATA!
+		4. Go to a new map if needed.
+		5. Click on door you want to link to, or add a new door.
+		6. Doors should be linked. SAVE YOUR DATA!!! 
+		7. If the initial door was in another map, go to that map again.
+		8. SAVE YOUR DATA!!
+		9. You are done. If you want to link another door, go to step 1.
+
+
+***************************
+[1.1.3] Change/Create Map Mode (CTRL + C)
+***************************
+- Press N to create a new map. 
+--- Enter in WIDTH , HEIGHT in TILES, then specify a NONEXISTING MAP NAME, and then an EXISTING TILESET PREFIX
+----- By "Existent" I mean you have added the tileset name to the assets/mappings/world.map file AT COMPILE TIME.
+----- Nonexistent means that there are no NEW_MAP_NAME_LAYER.csv files.
+- Press L to specify a map to load.
+- Press S to change map dimensions (lossy)
+	
+	[1.1.3.1] What to do when making a new map
+		1. Enter Create Map Mode (CTRL + C)
+		2. Press "N" to enter "Make a New map" submode 
+		3. Enter the width in tiles of the map, press ENTER
+		4. "" height ""
+		5. Enter CODENAME for the map - e.g. - SHOREPLACE, INTRO, ... 
+			**** Keep in mind the prefixes affect what "player" shows up (even, aliph, etc) (see [1.0.2] for prefixes)
+		6. Enter tileset prefix. E.g. - DEBUG2_tileset.png , you would enter "DEBUG2";
+			**** THE TILESET MUST EXIST
+		7. Press "y" or "n" to confirm. 
+		8. You should enter an empty map. You can tile and add entities now.
+		9. When you quit, you need to update the global metadata so that the game picks up these maps on later compiles. To do this, you'll need to at a minimum specify
+			-a set of background layers, 
+			-the tileset, 
+			-a default song for the map, and 
+			-the full name of the map. See the section on metadata for how to do this.
+			
+			See section 1.5 on how to do this, but as a quick reminder if my map was called TESTMAP and my backgruond layers set was BGSET and my tileset was TESTSET then I'd add
+			
+			TESTMAP BGSET TESTSET 
+			
+			under "BG_HASH" in "assets/world.map"
+	[1.1.3.2] Map fast change
+		You can use this feature to define a set of related maps and move between them quickly with the ALT + [Number Key] shortcut.
+		1. Open generic_npc.son , find "{ editor_fast"
+		2. follow instructions there
+		
+
+		
+
+***************************
+[1.1.4]Edit Entity Property Mode (CTRL + E)
+***************************
+1. Click the entity to edit.
+2. Press the number corresponding the attribute to edit.
+3. Enter the new value. Press ENTER to save it. You may press ESCAPE to go back to step 2. At any point you may click a new entity to go back to step 2.
+
+    ==============
+	Adding a child
+	==============
+Hold C and click on an entity to set it as a parent, then click on another thing to set it as the child.
+Children are used for parent-child relationships where a parent can send energy to a child (sappads and raisewalls, bubbleswitches and raisewalls)
+
+    ================
+	Setting a preset
+	================
+PRESETS ARE SET IN: assets/entity_presets.son
+Hover over an entity, press "P" to list presets (if any)
+Press the corresponding number to set the presets.
+
+***************************
+[1.1.5] TILEMAP EDIT MODE (CTRL + T)
+***************************
+- TAB will hide the tileset and text while tiling
+- Press SPACE while over a tile in the tilemap to "eyedropper" the tile type.
+- Press 1-4 to choose what layer to tile.
+- SHIFT + L to load, SHIFT + S to save (current map)
+- Press A to togle the active layer as the only visible layer.
+- SHIFT + click to delete tiles from the active layer.
+- You can drag the tileset around if you click its border.
+- CTRL + click to rectangle delete/create
+
+Stuff you can edit on the fly through external files
+----------------------------------------------------
+- Assuming that the backgrounds and tilesets are in the listing of the world.map file, 
+  you can change what maps have what tileset and what maps have what backgrounds images
+  as well as editing the metadata about a background image. These things will
+  be reloaded when you switch maps or load the current one again.
+- You can edit data about an entity through the map_ent/MAP_NAME.ent file. These changes
+  go into effect whenever the corresponding map is reloaded.
+- You can edit tileset bindings (What tiles are solid, etc) in the tile_meta/TILESET_NAME.tilemeta file.
+  These changes go into effect whenever a map with the corresponding tileset is loaded.
+	--- Also, you can specify animated tiles which will automatically pop up if you
+	--- place a corresponding tile. This should be straightforward
+- Set songs in assets/mp3/songtriggers.txt
+- Set sound effecs in sound.meta
+MAKE SURE THEY'RE EMBEDDED IN THE shieldhaxe.nmml IF IT'S A SONG.
+
+
+[1.1.5.2] Alternate things
+	
+	Arrow keys move a selector on the map view. Press "F" to place active tile, "Q" to delete. You can hold Q and F to tile/delete while moving with arrow keys.
+	
+	WASD moves the selector in the tileset.
+	
+	Hold CTRL, press F and move down/to the right to draw a square of tiles
+	
+	"E" expands the tileset view. from here you can select a tile and press E to go back to the smaller view. (not done yet)
+
+[1.1.5.3] - Saving/loading drafts
+
+	To save a draft to 1 of 10 slots, HOLD "O" and "S" at the same time, then press 0 to 9. If you're in map SHORE, and press O+S+1, then the file 
+		_noncrypt_assets/csv_drafts/SHORE/1
+		_noncrypt_assets/csv_drafts/SHORE/BG#1.csv
+		...
+	will show up.
+	
+	To load a draft, just press O+L+1 . This will load the csv in place, as well as with an old tileset if you had one.
+	
+	[WARNING] Doing a normal tileset SAVE after loading a draft WILL SAVE THIS OLD DATA OVER THE CURRENT! so don't do it. use git checkout -- assets/csv/etc if you mess up.
+	[WARNING] Doing a normal tileset LOAD after loading a draft WILL LOAD THE CURRENT MAP DATA OVER THE DRAFT YOU LOADED! so don't do it.
+		
+	
+-----------------
+Current Draw Order
+[1.1.6]
+------------------
+BG Image(s?) - parallax layer setc
+BBG sprites
+BG Tilemap
+BG Animated tiles
+BG2 Tilemap
+BG2 Sprites
+PLAYER
+FG Tilemap
+FG2 Tilemap
+FG2 Sprites
+
+***NOTE : Haven't decided how to sort draw order within groups yet
+
+
+------
+Special things
+[1.1.7]
+
+If you double click the lock icon in the top right of the editor, then the death lock will be on. You can't die with this option turned on, instead you stay at max energy.
+
+If you double click the ";+p / CHK" icon, it will move the editor checkpoint to the current player position. With the editor off, press ;+p to immediately warp to the checkpoint you set.
+
+CTRL-M mutes/unmutes game
+
+open editor during dialogue to cancel it
+
+Mving BGs in game
+[1.1.8]
+
+Go to change maps mode (sorry, this is a hack)
+Press SHIFT+B to toggle the moving BG modes. try to remember to turn this off before exiting the editor or whatever, but it doesnt really matter
+ 
+1. Press (1) to choose the BG layers of BG sprites. Press (2) to chooes the BG1 layers of bg sprites.
+	-current set displayed on bottom of screen
+2. Press Q and W to choose a layer within the layers.
+	-Current index will be displayed on bottom of screen.
+3. Use arrows to move the layers by one pixel.
+4. Use ALT+Arrows to move the parallax values. (left = lower x parallax, etc)
+5. Hold SHIFT to multiply these effects by 16.
+
+*** Each change tot he parameters shows the new layer parameters on the status text on the bottom of the screen. This is also logged into the flashdevelop logger so you can copy and paste the scrollx,scrolly,x,y values into world.map
+
+Toggle FPS
+[1.1.9]
+Go into change mode and press F
+
+invis tiles
+[1.1.10]
+See debug3 tilemeta for example usage. invis indices must have a matching one in the normal data (solid 55 must have an invishard 55). make sure the tile is blank in the tileset
+======================================
+======================================
+[1.2] - Dialogue editing instructions
+======================================
+======================================
+
+There are MAPs and SCENEs. The highest level distinction is via MAP - i.e., you can have a scene with the same name in multiple maps. The scene distinction is just to make chunking up dialogue easier. This is just like Anodyne, but without the unnecessary npc level of division.
+
+To define a MAP called "map_name" - only use alphanumeric and "_" for the names
+	
+MAP map_name
+ENDMAP
+
+Within a map, you can define SCENEs which are lines of dialogue that will play one after another, once per each time the dialogue trigger is triggered.
+
+Example:
+
+MAP map_name
+SCENE scene_1
+Line 1
+Line 2
+ENDSCENE
+SCENE scene_2
+Line 3
+Line 4
+ENDSCENE
+ENDMAP
+
+If you talk to an NPC that triggers the scene_1 SCENE of MAP map_name, then it will say "Line 1", then "Line 2", then "Line 1", etc. Same with scene_2, but Line 3, then Line 4, then Line 3, etc. With no scripts or directives, the default behavior is to just queue up the next line to be played on the next triggering of the dialogue trigger.
+
+***************
+LOOPSTART
+************
+- Place this on a separate line before a line of dialogue within a scene, and when you read through all of the lines of dialogue in the scene, it will by default play the line after this.
+
+e.g.:
+	
+Line 1
+LOOPSTART
+Line 2
+Line 3
+
+After reading Line 3, instead of going to Line 1, it will start at Line 2.
+
+
+************************************
+\n - This is the  "newline". If placed by itself in a sentence, it will force a linebreak.
+************************************
+
+************************************
+^ - To-do - should force the player to press the button to advance.
+************************************
+
+*******
+SCRIPTS
+*******
+
+Scripts currently work on a by-line level. They're mainly used for branching, but could possibly be used for adding a character portrait, or character name to the box. You need to put a script BEFORE any of the dialogue you want to be said in the line.
+
+Scripts are delimited by "%%", and the arguments to the script are delmited by a single "%".
+-----------------
+
+************************************************************************************
+"Yes no script" - allows multiple choices (an arbitrary amount, but don't get carried away..)
+************************************************************************************
+
+Syntax:
+%%yn%choice_1%next_pos% ... %%
+
+You can use as little as one choice, but each choice must be followed by the "next_pos" argument, which can be:
+	
+- A non-negative integer, indicating which line of dialogue you want to start RIGHT AWAY after the decision is chosen
+- -1 , which will by default queue up the next line of dialogue to be played on the next triggering of this map-scene
+- later:n , where n is a nonnegative integer - will do the same as "-1", but the next line to be played wil be "n"
+"n:in" e.g. "2:i4" - will do 2 next if item 4 is found
+
+2:i4:0 = Will show the choice that goes to line 2 if item four is NOT found
+2:e2:1 = will do if event 2 is nonzero
+2:s1:M,S = will show if state var 1 is set to NONZERO in map M, scene S
+
+Example:
+	Suppose a scene contains
+%%yn%Yes%2%No%1%Maybe%-1%I don't know.%later:3%%What are you?
+A horse
+A fairy
+A moose
+
+Will first say "What are you?" and then
+Will display a list:
+	
+	Yes
+	No
+	Maybe
+	I don't know.
+
+Choosing:
+	Yes - Automatically says "A fairy"
+	No - "" "A horse"
+	Maybe - Exits, but the next time it will say "A horse"
+	I don't know - Exits, but next time will say "A moose"
+	
+You can combine this with other scripts.
+
+%%after%2%%
+
+Don't place this in the same line as a "yes no script". But if this line is read, then the 2nd argument to the script will be the next thing that's played. i.e. if I added "%%after%2%%" to the line "A fairy" above, then it will continually play fairy every time I trigger the dialogue event. 
+
+%%im%% - skips to next right away
+%%im%m,s,p%% skips to next specific pos
+
+%%item%10%1%% sets item 10 to true
+
+%%inc_plays%% Changes the current scene's plays by +1
+
+skip_if (or skipif )
+%%skip_if%i%4%true%map%scene%pos%% (skips to m-s-p if Item 4 is found)
+%%skip_if%e%4%1%map%scene%pos%% ( skips to m-s-p if Event 4 value is 1)
+%%skip_if%dirty%*%*%map%scene%pos%% (skips to m-s-p if these scene played at least once) = * = same map
+%%skip_if%s%1%1%map%scene%pos%read_map%read_scene%% (skips if scene_state_1 = 1. read_map = read_scene = different thing to read state of)
+
+%%set_state%1%2%% (in current map/scene. scene_state_1 is set to 2 - also works with scene_state_2 )
+%%set_state%1%2%map%scene%% (in specific "map, scene" scene_state_1 is set to 2 - also works with scene_state_2 )
+
+%%speaker%p%% (arrow points to player)
+%%speaker%c%n% (arrow points to child # n of the NPC you interacted with)
+%%speaker%g%n% (same as child, but a GenericNPC-created sprite, in the 'sprites' array)
+%%speaker%none%% (no arrow)
+
+!! If not specified, arrow points to npc you talk to
+
+%%pic%ANIM_NAME%% Uses this animation from the frame anims for the portrait. Also sets the speaker name to the animation name
+
+%%name%NAME%% sets speaker name in box to NAME  overrides the name from the %%pic%% script
+
+
+%%center_down%% Centers the thing on the down
+------
+
+{} SCRIPTS
+
+WAIT,time
+PAN,ID,T,VEL_IN,VEL_OUT
+PIC,picid
+IMAGE_IN,(path within assets/sprites)
+IMAGE_OUT
+SOUND,touch_weed.wav
+
+NO "!?." ALLOWED!!!! DON'T USE "%"!!! NO SPACES!!!
+
+======================================
+======================================
+[1.3] = player physics things
+======================================
+======================================
+
+- In any level of energy you can usually reach up to 7 tiles wide jump - by catching the lip. 6 is good
+- Fast mode: -153 vy, 140 vx slope - 120 - only slows when walking uphill for a little bit at the beginning, might nede to switch snapping or zone for lettingy ou jump while running downhill
+	
+
+======================================
+======================================
+[1.4] - Editing NPCs and Scripted Objects
+
+2013-07-05 - GenericNPC objects stand in place and are possibly animated. They say things when you talk to them, what they say is possibly dictated by the results of an external script.
+- I'll add more behaviors as needed - movement scripts, sfx, animations, etc.
+
+1. Create a GenericNPC object in the editor. 
+1.5 Edit it to give it an id. (e.g. : "old_man")
+2. in aassets/misc/generic_npc.son , add an entry for the id. Instructions on how to do so are located in generic_npc.son
+3. If you want, create a script for the npc under scripts/ . Scripts only have access to the Registry object at the moment, for querying state of the game.
+4. If yuo need to add animations, make sure they are added  inside { GenericNPC 
+	-To find this just search "# START GENERICNPC" 
+There are 3 types of Scripted Objects
+-----
+	
+1. NPCs that talk with single animation
+	- Set the id of the Generic NPC to the npc you defined in generic_npc.son, so that the animation loads properly
+		- As for what dialogue to play, you can either specify this in the Generic NPC entity's map-scene-pos property , or in the generic_npc.son object 
+		
+(E.G.: "sign1" in generic_npc.son for an example of map and scene set in the generic_npc.son entry)
+(E.G.: in NPC_SHORE map, see any of the loungers for an example of map-scene-pos being set in the object)
+		
+2.  NPCs that affect game state or other things. - anything sprited  (with the in-game entity, set a valid ID, and always_scripted = 1. NPC will only do what is said in the script)
+
+(eg: starfish_blockage in generic_npc.son)
+
+3. NPCs with single animation that don't talk. Just set a valid ID, no dialogue options in the object
+
+(eg: none of these yet but they are supported)
+
+		p.set("id", "sign1");
+			- If this is a valid script under /assets/script/ , then each time you talk to it, the script runs once, IF has_dialogue = 1 YOU NEED TO USE THIS IF YOU WANT A SPRITE 
+		p.set("has_dialogue", 1);
+			- See above, if this = 0, then the only way this object will do anything is if always_scripted=1
+		p.set("always_scripted", 0);
+			- if = 1, the script pointed to by "id" will run each frame.
+		p.set("context_int_csv", "0,0");// maybe used
+			- a CSV of values used by a script (state vraiables, etc)
+		p.set("children", "");
+			- Normal children variable
+		p.set("map-scene-pos", "");
+			-useful for when theres no sprites yet
+			- Can either be "MAP,SCENE" or "MAP,SCENE,POS". If the former, then when you talk to this IF there is no valid script pointed to be "id", then if has_dialogue=1, the dialogue under map MAP and scene SCENE will play. Specifying a 3rd argument number, POS, will play that position of dialogue every time.
+
+[1.4.1] GenericNPC API
+
+
+[1.4.2] GenericNPC son properties
+//PLAYER WALK
+pw_dis i 16
+pw_facedir s "r"
+
+//Size of each frame
+w i 4
+h i 4
+
+//Offset data - new width, height, x-off, y-off 
+o s "2,2,1,1"
+
+//Can automake it just say this
+map s "river"
+scene s "fungus_1"
+pos i 0
+
+// sprtehsseet, animation set under animations.txt
+
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+
+//
+angular_v i 500 // sets angular velocity to 500 deg/s
+
+script s "person/pass/boulder.hx"
+
+==============
+[1.5] Metadata
+================
+
+	[1.5.0] fast way to make map/bg etc
+		I added "bat/py/add_bg.py" . i tested it with a test map and it works! Instructions are in-script. 
+
+You can run the add_map.py script first to generate the .ent and the .csv files, then run add_bg.py , and then when you recompile the game you should be abl eto enter the map immediately. NOTE, the BG picture you specify in add_bg.py needs to exist already. 
+	
+	add_bg.py asks for
+	1. the BG name relative to assets/sprites/bg (river/BG_1)
+	and optionally
+	2. the map name (RIVER_1)
+	3. the tilset name (RIVER)
+	
+	it then adds the following lines
+	
+	--- The line specifying the background image
+	river_BG_1 river/BG_1 [METADATA, including the size of the river/BG_1.png file)
+	
+	--- The line specifying the BG set
+	SET_RIVER_BG_1 river_BG_1 none
+	
+	--- And if #2 and #3 were specified, the line specifying the map, with the new BG set and given tileset name
+	RIVER_1 SET_RIVER_BG_1 RIVER
+
+
+		
+	[1.5.1] Add a background image to the game
+		1. Open "assets/world.map"
+		2. Let our BG image be called TEST.png , located under "assets/sprites/bg/"
+		3. Under "BG_LIST", we can add:
+			[lowercase alphanumeric string ID] [BG Image Filename] Width,height,parallax x, parallax y, initial x, initial y
+			
+			Most are self-explanatory, the alphanumeric string ID is so that we can use the same background multiple time
+			but with different parallax or initial x/y values. 
+			
+			parallax - the closer to zero a value, the slower it will move relative to the camera. 
+			
+			e.g.
+			
+			testuse TEST 360,360,0.5,1,50,50
+	
+	[1.5.1.1] Add a background set to a map
+		Sometimes you want to layer multiple background images  (and maybe foreground images) in a map with different parallax values. To do this you create a background image set.
+		
+		See "PARALLAX_SETS" under "assets/world.map"
+		
+		An example is: TEST_1 test,testmid,testnear none
+		
+		This means that when we specify a map to use the TEST_1 background set, it will layer the corresponding backgrounds under BG_LIST from back to front: test, testmid, testnear. It will not create any foreground layers because 'none' is specified. I didn't implement foreground layers yet but I will if need be.
+	
+	[1.5.2] Add a ti1eset to the game and specify its properties
+	
+		1. Let our tileset name be TEST .
+		2. Make the tileset called TEST_tileset.png and put it in "assets/tileset"
+		3. Under "TILESET_LIST" in "assets/world.map", add "TEST" .
+		4. Under "assets/tile_meta" create a file, TEST.tilemeta 
+		5. In the .tilemeta file you specify the collision or special properties of tiles. BY DEFAULT all tiles are non-collidable. To set a tile property you use a keyword:
+			solid, 
+			fr45 (floor-right-facing-45deg slope), fl45, 
+			cr45, cl45 (ceiling-left-facing-45deg slope), 
+			lo22l, hi22l (low/high-left-facing-22deg-slope), 
+			lo22r, hi22r, 
+			gasdark, gaslight, (adds energy quickly of that type when overlapping)
+			water_surface, water,  (needed for water - water_surface says where to "float", water allows you to swim)
+			top ("cloud" tile - only collidable from top, can jump through bottom).
+			
+			Next to each type is a number or a number.number. E.g. if I wanted tiles 15 and 40 through 50 to be solid, inside of the 
+			
+			START
+			END
+			
+			block I would add "solid 15 40.50" .
+		
+		6. Note you can put "also fg fg2" at the top and the fg layer will  have normal collision properties
+		
+
+	
+	- Add animated tiles to the game 
+	
+	[1.5.4] Specify a tileset for a map
+		Straightforward, under "BG_HASH" in "world.map" , find the row withy our map name (e.g. "TEST") , , then change the 3rd word to the name of the tileset. So right now "TEST" 's tileset is "DEBUG".
+		Note the tileset and corresponding tileset metadata must exist (see [1.5.2])
+		
+	[1.5.5] Specify a song for a map
+	
+		In "Assets/mp3/songtriggers.txt" , add (under the correct category)
+		
+		map map_name_in_lowercase
+		name_of_song_according_to_shieldhaxe.nmml
+		end
+		
+		there is scripting behavior but I'll probably be doing most of that. you can just put in "null" for the song name and nothing will play.
+	
+	- Add sound effects		
+		
+	
+[1.6] Buffer Mode / Big Select
+
+Big select for tiles works in tile mode (not done), big select for ents works in ent mode (done)
+While moving stuff press D to delete the original, or V to paste it. Click to delete the original and move the original (like cut/paste)
+
+
+Open Buffer Mode with CTRL+B
+Buffer Mode always starts in [MAIN MODE]
+
+Workflow (probably)
+
+0. "C" to go to change mode to choose a different buffer set (if needed.)
+1. Click and drag, then click on buffer region to select some tiles and entities.
+2. "S" to go to save mode, save to a slot.
+3. Do other stuff.
+4. "L" to go to load mode, choose a slot. Press Enter, see preview, press enter, move and place the entities as needed.
+
+
+
+
+
+[MAIN MODE]
+
+
+
+<Click, move, click> -> Make tentative buffer region visible.
+<Press V> - cut and paste (but allow for multiple pastings)
+<Press P> - cut and paste current selection, then return to initial moed
+<Press D> - delete
+<Click, if tentative buffer region visible> -> Make tentative buffer region active. You can now move this buffer around and click to move the entities/tiles
+
+<Press L> -> Go to LOAD MODE
+<Press S> -> If there is an active buffer region, go to SAVE MODE.
+<Press C> -> Go to CHANGE MODE
+
+<T + [1,2,3,4]> * Not implemented
+	-> Toggle saving/loading of BG1, BG2, FG1, FG2 tiles when selecting, saving or loading buffers.
+<E + [1,2,3,4,5]>  * Not implemented
+	-> Toggle saving/loading of BBG (1), BG1 (2), BG2 (3), FG2 (5)  sprites when selecting, saving or loading buffers.
+	! E + 4 does nothing
+<ALT + T> *Not implemented
+	-> Toggle saving/loading/etc of Tiles
+<ALT + E> * Not implemented
+	-> Toggle saving/loading/etc of entities
+	
+These statuses are displayed on top as Tile: [ON,OFF]1111 Ent: [ON,OFF]11101 . (On/Off determined by ALT+T or ALT+E, 1111 means all 4 tile layers are used, 0111 means all but BG1, etc.)
+
+[LOAD MODE]
+
+<WS> Change load slot by 10 
+<AD> Change load slot by 1
+<ENTER> If buffer exists on disk, shows a preview. 
+	-> BACKSPACE -> Cancels out, goes back to choosing Load Slot
+	-> Enter -> Confirms and adds the entities, goes back to MAIN MODE, with buffer active. (Click to paste.)
+
+[SAVE MODE]
+
+<WS> Change save slot by 10 
+<AD> Change save slot by 1
+<ENTER>  Asks if you want to save.
+	- >BACKSPACE go back to choosing slot
+	-> ENTER -> Saves the buffer to disk, goes back to choosing slot.
+	
+
+
+[CHANGE MODE] *Not implemented
+Enter in the set of buffesr you want to use and save to. Defaults to the map group you're in (e.g. SEA, SHORE, etc.). Map groups determined through GenericNPC.son 's "editor_fast" entry.
+
+
+[1.7] EASY CUTSCENE
+
+
+- Scripts go in "assets/script/cutscene/easy" and always end in ".txt"
+- to test "test.txt", change J_TEST_ID's contents to ONLY "test" . 
+- in-game, press SHIFT+Q and the cutscene will start running.
+- if you want to reset and play cutscene again while the cutscene is playing, hold SHIFT+R and press Q.
+
+!!! if you edit test.txt and save it, then the next time you replay the cutscene it will use that as the most recent cutscene script
+
+!!!  if you're in the middle of dialogue things might get stuck but
+otherwise it'll be fine.
+
+<COMMANDS>
+
+---> Commands are categorized to whether or not they block, i.e., wait for an action to complete before moving on to the next command.
+	
+<ADDING A SPRITE>
+
+add varname pathname 200 200 1 16 16
+	Adds an image located at 'pathname', of frame size 200x200, of alpha 1, and at initial position (16,16).
+	Creates the sprite called 'varname', which can be manipulated by commands below.
+	
+	EXAMPLE
+		add myPic bg/whiteforge/hi/museum 200 200 1 16 16
+	!!! The order you call 'add' determines the order the sprites are drawn, i.e. the first sprite added will always be below the rest.
+
+<ALWAYS BLOCKING>
+
+
+fade_scale <varlist>  <xs1,ys1,rxs1,rys1...>
+	target x/y scale, rate of change
+
+fade r
+	If r > 0, blocks until the black overlay fades to alpha=1 at a rate of r/frame. 
+	If r < 0, does the same, but fades to alpha=0
+
+wait t
+	Blocks for t seconds.
+	
+wait_for_input
+	Waits for player to press anything.
+	
+stop_at bg x,y
+	The sprite 'bg' will stop at (x,y).
+	---> You may do this for an arbitrary number of sprites as follows:
+	-------> stop_at bg,bg1,bg2 x1,y1,x2,y2,x3,y3
+	
+d_block
+	Blocks until there is no dialogue playing.
+	
+fade_alpha bg r
+	if r < 1, fades 'bg' to alpha = 0.
+	if r > 1, fades 'bg' to alpha = 1.
+	This command fades the alpha value according to this formula: bg.alpha = r * bg.alpha - (1/180).
+	---> Therefore, reasonable values for r are in the range [0.9,1.1]
+	!!! You may specify a comma-separated list of sprites to fade all of them.
+	---> e.g., fade_alpha bg,bg2,bg3 0.95
+	
+add_anim <varlst> <name> <frames> <fr> <loops (0/1)>
+play_anim <varlist> <name>
+				
+	
+ping_1
+	Blocks until some non-script code is ready to progress... probably only for melos use
+
+ping_final
+	Implies thatt he TestState will not let the easycutscnee end till the teststate's fg fade isall the way in
+<NON-BLOCKING>
+
+
+
+
+dialogue ending enter_tower 0
+	Plays the dialogue at map=ending, scene=enter_tower, position=0
+	
+music river_in
+	Fades to the song 'river_in'
+	
+sound menu_open.wav
+	Plays a sound
+	
+vel bg 10 10
+	Sets the sprite 'bg's velocity to (10,10)
+	!!! Can also specify a list of sprites like in <fade_alpha>
+	
+accel bg 100 100
+	Sets the sprite 'bg's acceleration to (10,10)
+	!!! Can also specify a list of sprites like in <fade_alpha>
+	
+pos bg 100 100
+	Sets the sprite 'bg's position to (100,100)
+	!!! Can also specify a list of sprites like in <fade_alpha>
+	
+alpha bg v
+	Sets the sprite 'bg's alpha to 'v'
+	!!! Can also specify a list of sprites like in <fade_alpha>
+	
+unstash_cam
+	Returns the camera to the position the cutscene started in. Should probably be called when returning control to the player.
+	
+done
+	Returns control to the player or to the currently running event. 
+
+<SOMETIMES-BLOCKING>
+
+cam_to x y time
+	if time IS NOT SPECIFIED, moves camera to x,y
+	if time IS SPECIFIED, pans camera to x,y in 'time' seconds.
+	
+	EXAMPLES
+		cam_to 50 200 4.2
+		cam_to 50 200
+
+	
+	
+
+
+
+
+
+======================================
+======================================
+[CHANGELOG]
+
+
+v 0.5
+------
+- A lot of stuff lolol
+
+v 0.25
+------
+- Copy paste sprites
+- allow goofy zoom out
+- soun deffects/music support kind of
+
+v0.2
+------
+- Fix saving issues
+- Combine move, delete into add mode
+- ADd a layer
+
+v0.15
+-----
+- Move tileset
+- Change entity properties
+- Add in animated tiles
+- Resize maps
+- Bugfixes
+v0.1
+----
+- Initial usable editor.
+

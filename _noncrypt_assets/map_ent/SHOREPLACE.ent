@@ -1,0 +1,51 @@
+BBG START
+LavaPillar 1536 96 16284 initlatency=0 pushticks=8 spddsnd=50 pushvel=6 tmactive=2.5 tmhurt=0.25 vistype=1 vert_push_vel=30 tmhide=1.5 spdrise=-50
+LavaPillar 1440 128 524224 initlatency=0 pushticks=8 spddsnd=50 pushvel=6 tmactive=2.5 tmhurt=0.25 vistype=1 vert_push_vel=30 tmhide=1.5 spdrise=-50
+LavaPillar 1376 80 503992 initlatency=0 pushticks=8 spddsnd=50 pushvel=6 tmactive=2.5 tmhurt=0.25 vistype=1 vert_push_vel=30 tmhide=1.5 spdrise=-50
+Pod 1584 192 131067 dir=1 damage=24 vistype=1 tm_dead=3
+Pod 1680 128 800309 dir=3 damage=24 vistype=1 tm_dead=3
+Pod 1600 240 386369 dir=1 damage=24 vistype=1 tm_dead=3
+LavaPillar 1296 560 189157 initlatency=0 pushticks=8 spddsnd=50 pushvel=6 tmactive=2.5 tmhurt=0.25 vistype=0 vert_push_vel=-50 tmhide=1.5 spdrise=-50
+BG1 START
+BG2 START
+SavePoint 960 256 816112
+SavePoint 1424 336 558549
+Pod 1264 272 41334 dir=2 damage=24 vistype=1 tm_dead=3
+Pod 1312 336 148269 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 1520 368 376570 dir=0 damage=24 vistype=0 tm_dead=3
+Pod 1584 368 496130 dir=0 damage=24 vistype=1 tm_dead=3
+CameraTrigger 1120 416 186614 enter="1436,540,1538,544" exit="1487,500" nrenter=2 nrexit=1 width=448 vistype=1 height=256
+RaiseWall 1696 352 411003 children="" permanent_open=0 needed_en=64 vistype=0 s_open=0 energy=0
+RaiseWall 1728 352 434571 children="" permanent_open=0 needed_en=64 vistype=0 s_open=0 energy=0
+CameraTrigger 1024 176 735848 enter="1076,270,1390,352" exit="1029,271,1457,352" nrenter=2 nrexit=2 width=448 vistype=1 height=256
+OrbSlot 1360 448 751894 vis=1 children="411003"
+LavaPillar 1856 512 973597 initlatency=1 pushticks=8 spddsnd=50 pushvel=4 tmactive=2.5 tmhurt=0.25 vistype=0 vert_push_vel=5 tmhide=1.5 spdrise=-50
+LavaPillar 1808 528 697860 initlatency=0.5 pushticks=8 spddsnd=50 pushvel=6 tmactive=2.5 tmhurt=0.25 vistype=0 vert_push_vel=5 tmhide=1.5 spdrise=-50
+LavaPillar 1760 528 873808 initlatency=0 pushticks=8 spddsnd=50 pushvel=6 tmactive=2.5 tmhurt=0.25 vistype=0 vert_push_vel=5 tmhide=1.5 spdrise=-50
+OrbSlot 1664 256 402321 vis=0 children="434571"
+RaiseWall 1808 432 783973 children="" permanent_open=0 needed_en=64 vistype=0 s_open=0 energy=32
+OrbSlot 1888 544 721735 vis=1 children="783973"
+Door 1888 352 595806 behavior=0 dest_x=29 dest_map="SHOREPLACEA" s_visited=1 type=0 script="" dest_y=334
+Door 0 64 881349 behavior=0 dest_x=0 dest_map="MAPONE" s_visited=1 type=2 script="" dest_y=0
+FollowLaser 1328 32 641681 accel=0 axis_tracks_player=1 angvel=0 is_fixed=1 tracking_axis="x" vistype=0 tracking_vel=120 tracked_axis="x" fixed_angle=90
+RaiseWall 1360 16 703326 children="" permanent_open=0 needed_en=64 vistype=1 s_open=0 energy=0
+SapPad 1328 160 535624 children="703326" dmg=1 vis=1 dmg_rate=0.04
+RaiseWall 1280 400 69291 children="" permanent_open=0 needed_en=64 vistype=0 s_open=0 energy=0
+SapPad 1088 544 867943 children="69291" dmg=1 vis=0 dmg_rate=0.04
+Pew 1408 608 359778 dir=0 bspd=40 fpattern=0 vistype=0 mb=4 fint=0.7
+Pew 1568 608 738192 dir=0 bspd=40 fpattern=0 vistype=0 mb=4 fint=0.7
+Weed 1455 211 665989 vistype=1
+Weed 1439 211 490406 vistype=1
+Weed 1536 179 692552 vistype=1
+Weed 1552 179 109451 vistype=1
+Door 1872 32 632268 behavior=1 dest_x=31 dest_map="SHOREPLACEA" s_visited=1 type=0 script="" dest_y=55
+Weed 1072 112 588960 vistype=0
+Weed 1136 112 466656 vistype=0
+Weed 1168 112 163939 vistype=0
+Wind 752 576 61401 angle=270 h=64 w=32 speed=100
+FollowLaser 1168 400 405274 accel=0 axis_tracks_player=1 angvel=0 is_fixed=1 vistype=1 tracking_vel=50 tracked_axis="x" fixed_angle=90
+FollowLaser 1120 400 310859 accel=0 axis_tracks_player=1 angvel=0 is_fixed=1 vistype=1 tracking_vel=50 tracked_axis="x" fixed_angle=90
+AliphItem 1159 63 893298 inv_type=0 id=-1
+AliphItem 95 526 772570 inv_type=0 id=-1
+AliphItem 1892 216 598134 inv_type=0 id=-1
+FG2 START

@@ -1,0 +1,27 @@
+BBG START
+BG1 START
+BG2 START
+Pod 1008 704 188338 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewWaterShooter 1136 672 632716 tile_height=4 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=320
+NewWaterShooter 1072 528 684423 tile_height=4 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=320
+BarbedWire 2192 992 484842 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="732343" wire_tile_width=3 is_gauntlet=1
+BarbedWire 2256 832 732343 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="553414" wire_tile_width=3 is_gauntlet=1
+BarbedWire 2240 720 553414 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Door 592 834 746040 index=2 AUTO_INDEX=0 behavior=1 type=4 script="" dest_x=-2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_3" next_cam_offset="0,0"
+SavePoint 952 720 350412
+GenericNPC 736 640 607269 has_dialogue=1 map-scene-pos="SHORE,CLARISEED_OBSERVER" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="clariseed_observer"
+GenericNPC 992 304 906917 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="clariseed_plant"
+GenericNPC 531 689 225982 has_dialogue=1 map-scene-pos="SHORE,SIGN,1" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="signshore"
+Pod 1040 432 2864 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1040 416 761710 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1664 944 444885 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1680 944 536238 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1696 944 24823 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BarbedWire 0 720 455941 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="145438" wire_tile_width=3 is_gauntlet=1
+BarbedWire 48 992 145438 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Pod 1216 720 447955 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 992 560 800221 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START
+SetPiece 0 760 105664 tile_size="2489,322" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=3 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 0 752 848395 tile_size="2490,22" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=2 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 0 750 579273 tile_size="2490,22" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=6 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

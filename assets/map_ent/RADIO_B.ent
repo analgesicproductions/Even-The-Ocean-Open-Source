@@ -1,0 +1,103 @@
+BBG START
+BG1 START
+BG2 START
+PlantBlock 736 2400 916357 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+PlantBlockAccepter 784 2192 122832 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="468622"
+Wind 432 2368 714402 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=224 speed=50
+WalkPod 560 2352 874255 FISH_RADIUS=0 starts_moving_left_or_down=1 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=2 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 480 2416 196411 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 576 2352 187060 FISH_RADIUS=0 starts_moving_left_or_down=1 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=2 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 464 2416 706696 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 480 2240 999704 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 496 2240 300810 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 544 2176 654040 FISH_RADIUS=0 starts_moving_left_or_down=1 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=2 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 560 2176 974448 FISH_RADIUS=0 starts_moving_left_or_down=1 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=2 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+Wind 400 2192 416511 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=224 speed=50
+Wind 320 2288 816231 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=70
+NewCamTrig 832 384 260964 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=130
+BubbleSpawner 1440 2368 230772 vistype=1 bubble_type=1
+PlantBlock 1360 2400 330758 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+PlantBlockAccepter 2224 2368 282199 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="468622"
+PlantBlock 1456 2224 502002 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+NewWaterShooter 1376 2064 793001 tile_height=10 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="1,1" is_vert=1 max_vel=280
+Floater 1472 2016 392554 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Pod 1408 2080 333830 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1408 2064 529408 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1360 2160 75107 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1360 2176 837993 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1360 2144 691571 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1408 2048 20116 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Floater 1536 1984 390465 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+PlantBlockAccepter 1648 1952 122725 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="468622"
+Pod 1312 2064 762499 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 2080 402070 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 2096 640355 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 912 2384 62318
+ExtendStem 1360 1760 143105 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=10 return_vel=35 angle=0 deaccel=150
+PlantBlock 1376 1728 401198 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 1840 1616 810196 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="468622"
+ExtendStem 1712 1712 942521 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=2 return_vel=35 angle=225 deaccel=150
+PlantBlockAccepter 112 1840 291051 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="468622"
+PlantBlock 720 1840 568532 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+NewCamTrig 64 1648 314608 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=48 tile_h=16
+FollowLaser 624 1680 934117 dmgtype=0 accel=50 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+VanishBlock 544 1808 88253 vistype=0
+VanishBlock 544 1824 674160 vistype=0
+Pod 672 1792 714148 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=1 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+VanishBlock 544 1680 891918 vistype=0
+VanishBlock 544 1792 594605 vistype=0
+VanishBlock 544 1776 58765 vistype=0
+VanishBlock 640 1808 394295 vistype=1
+VanishBlock 640 1824 608003 vistype=1
+Pod 480 1792 898716 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=1 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+VanishBlock 432 1744 460788 vistype=0
+VanishBlock 432 1728 311995 vistype=0
+VanishBlock 368 1680 288205 vistype=1
+VanishBlock 368 1696 94320 vistype=1
+Pod 208 1824 351931 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=1 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlock 672 1584 629416 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+PlantBlockAccepter 480 1184 379637 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="468622"
+SinkPlatform 576 1472 60281 yvel=30 return_rate=14.5 xvel=37 returns_home=0
+SinkPlatform 560 1296 463694 yvel=30 return_rate=14.5 xvel=37 returns_home=0
+PlantBlock 1312 1248 149814 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+WalkBlock 1456 1248 124543 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="1,1" decel-frames="120,20,30" f_speed=16 w,h="4,1"
+WalkBlock 1696 1264 223939 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="1,1," decel-frames="120,20,30" f_speed=16 w,h="4,2"
+WalkBlock 1888 1280 245472 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="1,1," decel-frames="120,20,30" f_speed=16 w,h="4,2"
+PlantBlockAccepter 2096 1120 88925 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="468622"
+NewCamTrig 1248 1056 25057 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=58 tile_h=20
+NewCamTrig 1344 1200 227125 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=1 tile_w=6 tile_h=6
+RevolveSpore 480 976 211816 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 624 896 921606 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 528 784 535526 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+PlantBlock 560 1056 713308 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 640 704 647321 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="468622"
+SmashHand 1264 688 987862 tm_pause=0.5 accel=1000 vis-dmg="0,0" vel_follow=150 tm_wait=0 aggro_dims="612,316" dir=3 init_vel=150 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+PlantBlock 1312 992 692687 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 1536 800 611111 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="468622"
+NewWaterShooter 1728 880 831076 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+RaiseWall 1472 768 242474 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 1632 800 96990 t_wait=0 vistype=1 damage=24 children="242474,709608"
+NewCamTrig 1248 704 880183 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=40 tile_h=22
+NewCamTrig 832 0 82586 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=24
+Door 1168 2452 462459 index=1 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="RADIO_G4" next_cam_offset="0,0"
+NewCamTrig 272 2032 749540 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=35 tile_h=33
+NewCamTrig 416 1104 724224 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=34
+NewCamTrig 1248 2256 579544 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=65 tile_h=16
+NewCamTrig 1248 1856 616320 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=31 tile_h=27
+NewCamTrig 1248 1520 828369 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=43 tile_h=22
+NewCamTrig 320 640 303522 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=32 tile_h=29
+GenericNPC 976 2400 468622 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="radio_elevator"
+SavePoint 912 1712 96015
+SavePoint 912 1120 673982
+WirePoint 1632 832 709608 pos="0,16,-160,16,-160,-32" vistype=0 forceTargetDir=-1 children="242474"
+Door 1024 0 566520 index=0 AUTO_INDEX=2 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="RADIO_B2" next_cam_offset="0,0"
+RevolveSpore 1168 2336 449899 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Pod 1360 1776 226251 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1376 1776 279804 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1392 1776 214561 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 1488 714734 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 1488 775219 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Button 928 2528 240207 t_wait=-1 vistype=1 damage=1 children="468622"
+RevolveSpore 1136 1680 434207 hurt_ticks=5 base_vel=500 vis-dmg="2,2"
+SetPiece 880 2272 843884 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START

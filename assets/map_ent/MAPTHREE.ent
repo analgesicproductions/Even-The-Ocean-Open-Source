@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+Door 624 1440 627386 index=0 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="CLIFF" next_cam_offset="0,0"
+Door 96 800 629439 index=1 AUTO_INDEX=3 behavior=1 type=1 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="WHITE_TUNNEL" next_cam_offset="0,0"
+Door 528 208 599966 index=0 AUTO_INDEX=4 behavior=1 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="BIGCLIFF_SHORE" next_cam_offset="0,0"
+GenericNPC 160 768 625459 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+SetPiece 521 176 873735 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=5 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START
+SetPiece 617 1408 890636 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=5 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

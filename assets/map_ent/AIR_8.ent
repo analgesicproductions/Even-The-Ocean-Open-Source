@@ -1,0 +1,81 @@
+BBG START
+BG1 START
+BG2 START
+PlantBlock 288 528 777633 behavior=2 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlock 256 528 636024 behavior=1 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlock 224 528 821712 behavior=0 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 576 256 2155 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+HurtOutlet 368 304 727346 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 432 240 646244 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 432 304 459512 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 496 240 266568 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 496 304 709918 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+RevolveSpore 400 304 379784 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 400 208 605646 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 464 208 946450 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 528 208 318550 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 400 384 975944 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+HurtOutlet 432 384 409674 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 432 176 752825 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 496 176 644759 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 496 384 836375 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+RevolveSpore 464 384 347631 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 464 272 484995 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 464 336 344732 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Spike 528 368 645474 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 528 336 469179 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 528 400 682267 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 432 416 313066 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+RevolveSpore 400 352 847428 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+AimSpore 576 496 146547 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=140
+AimSpore 432 496 366476 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=140
+Wind 352 576 326515 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=240 speed=35
+PlantBlockAccepter 592 752 496136 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+HurtOutlet 256 240 76310 init_wait=0 dmgtype=0 tm_off=1 tm_on=0.5 dmg=24 vistype=0
+EdgeDoor 672 640 279488 is_wide=0 vistype=0 only_open_dir=1
+HurtOutlet 256 304 627175 init_wait=0 dmgtype=0 tm_off=1 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 288 336 433985 init_wait=0 dmgtype=0 tm_off=1 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 288 272 122076 init_wait=0 dmgtype=0 tm_off=1 tm_on=0.5 dmg=24 vistype=0
+Wind 192 240 680222 h=160 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=150
+HurtOutlet 176 256 346530 init_wait=0 dmgtype=1 tm_off=1 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 208 304 744535 init_wait=0 dmgtype=1 tm_off=1 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 176 352 364549 init_wait=0 dmgtype=1 tm_off=1 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 208 400 505 init_wait=0 dmgtype=1 tm_off=1 tm_on=0.5 dmg=24 vistype=1
+Wind 64 256 437898 h=192 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=112 speed=50
+PlantBlockAccepter 192 448 539290 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+PlantBlockAccepter 144 256 130166 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+Wind 64 272 955723 h=192 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=112 speed=30
+AimSpore 384 624 266975 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=180
+AimSpore 528 624 44094 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=180
+Pew 592 592 924678 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 224 480 986118 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 464 929565 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 464 878328 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 496 354865 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 480 740451 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 352 496 306080 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlockAccepter 544 720 790715 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+Wind 336 688 85943 h=64 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=240 speed=50
+AimSpore 480 496 108207 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=140
+AimSpore 528 496 413749 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=140
+AimSpore 432 624 480557 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=140
+AimSpore 480 624 463235 fixed_angle=-1 nr_bounces=0 t_wait=2 vis-dmg="0,0" hold_ticks=10 damage=64 bul_vel=140
+BallDropper 48 656 631565 dampen=0.8 tm_shoot=2 nr_balls=1 vis-dmg="0,0" x_vel=200 y_accel=520 damage=32
+BallDropper 48 592 329044 dampen=0.8 tm_shoot=1 nr_balls=1 vis-dmg="0,0" x_vel=200 y_accel=520 damage=32
+BallDropper 304 592 114658 dampen=0.8 tm_shoot=1 nr_balls=1 vis-dmg="1,1" x_vel=-400 y_accel=520 damage=32
+BallDropper 304 656 611106 dampen=0.8 tm_shoot=1 nr_balls=1 vis-dmg="1,1" x_vel=-200 y_accel=520 damage=32
+PlantBlockAccepter 208 576 405328 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+Pew 512 736 248785 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+RevolveSpore 624 396 991635 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 672 352 89179 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 720 304 273530 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Pew 768 384 313501 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 768 320 57090 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 768 272 609578 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+PlantBlockAccepter 640 208 777300 vis-dmg="0,0" behavior=3 init_state=0 s_on=0 children="372291"
+Door 784 432 574460 index=8 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_OUT" next_cam_offset="0,0"
+RaiseWall 656 496 372291 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=2 permanent_open=1 s_open=0 children=""
+Door 736 496 69205 index=3 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+SavePoint 736 672 306527
+AliphItem 816 496 179509 removes=0 vis_set=0 id=40
+FG2 START

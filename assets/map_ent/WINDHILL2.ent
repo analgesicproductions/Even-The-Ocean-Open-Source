@@ -1,0 +1,18 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 336 838483 index=1 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL" next_cam_offset="0,0"
+Door 16 96 815253 index=5 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL" next_cam_offset="0,0"
+GenericNPC 160 336 32013 has_dialogue=1 map-scene-pos="p,dj,268" always_scripted=0 context_int_csv="0,0" debug_name="LOL_WHYS_THIS_ROOM_SO_BIG,,,_LOOKS_LIKE_A_JOB_FOR_TRIPLE_SPEED_MODE" children="" id="joni"
+Pod 448 336 239482 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 352 146706 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 544 336 405356 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 544 352 792995 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 544 544 685931 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 544 788743 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 576 544 772050 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 752 528 357232 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 768 528 239271 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 784 528 450659 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 320 336 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,53" debug_name="" children="" id="dev_info"
+FG2 START

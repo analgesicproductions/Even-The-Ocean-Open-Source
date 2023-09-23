@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+CameraTrigger 112 144 23572 enter="192,336,640,336" exit="688,288" nrenter=2 nrexit=1 width=640 vistype=2 height=320
+CameraTrigger 480 176 363529 enter="736,352" exit="816,336" nrenter=1 nrexit=1 width=416 vistype=2 height=320
+Door 16 112 689077 AUTO_INDEX=0 behavior=0 dest_x=-1 dest_map="OLD_4" index=11 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+FG2 START

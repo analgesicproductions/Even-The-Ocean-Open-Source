@@ -1,0 +1,18 @@
+BBG START
+BG1 START
+Door 752 1232 689757 index=0 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=200 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_COURTYARD" next_cam_offset="0,0"
+BG2 START
+Door 496 1268 323560 index=5 AUTO_INDEX=3 behavior=0 type=3 script="" dest_x=1 dest_y=2 s_visited=1 custom_size="0,0" dest_map="WOODS_PATH" next_cam_offset="0,0"
+Wind 176 1152 51566 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=50
+Wind 191 1028 865346 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=100
+Wind 64 896 425196 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=150
+Wind 320 784 688496 h=16 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=160 speed=150
+Wind 264 955 890866 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=160 speed=150
+Wind 146 634 426550 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=250
+Wind 224 608 641595 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=250
+Wind 307 571 990961 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=250
+Wind 400 531 314676 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=400
+Door 0 496 73381 index=1 AUTO_INDEX=5 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_TOP" next_cam_offset="0,0"
+GenericNPC 240 1177 28285 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="james2"
+GenericNPC 400 1168 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,83" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,94 @@
+BBG START
+BG1 START
+BG2 START
+PlantBlock 240 416 502002 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+NewWaterShooter 160 256 793001 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=10 fall_dampen=0
+Floater 256 208 392554 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 192 272 333830 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 192 256 529408 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 144 352 75107 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 144 368 837993 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 144 336 691571 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 192 240 20116 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 320 176 390465 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+PlantBlockAccepter 432 144 122725 behavior=0 init_state=0 vis-dmg="1,1" s_on=0 children=""
+Pod 96 256 762499 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 96 272 402070 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 96 288 640355 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 64 384 703479 always_scripted=0 debug_name="SHORE" context_int_csv="0,0" children="" map-scene-pos="p,dj,207" id="sign1" has_dialogue=1
+PlantBlock 1008 368 916357 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+PlantBlockAccepter 1056 160 122832 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+Wind 704 336 714402 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=224 speed=50
+WalkPod 768 384 79510 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 816 320 910979 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 832 320 874255 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 752 384 196411 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 848 320 187060 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 736 384 706696 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 736 208 761437 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 752 208 999704 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 768 208 300810 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 816 144 654040 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 832 144 974448 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 848 144 767486 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+Wind 672 160 416511 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=224 speed=50
+GenericNPC 1072 336 883938 always_scripted=0 debug_name="HILL" context_int_csv="0,0" children="" map-scene-pos="p,dj,208" id="sign1" has_dialogue=1
+Wind 592 256 816231 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=80 w=32 speed=70
+BubbleSpawner 1312 160 230772 bubble_type=1 vistype=1
+PlantBlock 1232 192 330758 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+PlantBlockAccepter 2096 160 282199 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+GenericNPC 1200 160 444914 always_scripted=0 debug_name="CANYON" context_int_csv="0,0" children="" map-scene-pos="p,dj,209" id="sign1" has_dialogue=1
+ExtendStem 144 768 143105 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=10 vis-dmg="2,2" vel=55 deaccel=150
+PlantBlock 160 736 401198 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 624 624 810196 behavior=0 init_state=0 vis-dmg="1,1" s_on=0 children=""
+ExtendStem 496 720 942521 angle=225 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+GenericNPC 64 688 388168 always_scripted=0 debug_name="RIVER" context_int_csv="0,0" children="" map-scene-pos="p,dj,210" id="sign1" has_dialogue=1
+PlantBlock 976 976 629416 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+PlantBlockAccepter 784 576 379637 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+SinkPlatform 880 864 60281 return_rate=14.5 returns_home=0 yvel=30 xvel=37
+SinkPlatform 864 688 463694 return_rate=14.5 returns_home=0 yvel=30 xvel=37
+GenericNPC 880 944 662211 always_scripted=0 debug_name="WOODS" context_int_csv="0,0" children="" map-scene-pos="p,dj,211" id="sign1" has_dialogue=1
+PlantBlockAccepter 1216 736 291051 behavior=0 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 1824 736 568532 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+NewCamTrig 1168 544 314608 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=16 is_hor_leveler=0 transition_v=390 tile_w=45
+FollowLaser 1728 576 934117 accel=50 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+VanishBlock 1648 704 88253 vistype=0
+VanishBlock 1648 720 674160 vistype=0
+Pod 1776 688 714148 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 1648 576 891918 vistype=0
+VanishBlock 1648 688 594605 vistype=0
+VanishBlock 1648 672 58765 vistype=0
+VanishBlock 1744 704 394295 vistype=1
+VanishBlock 1744 720 608003 vistype=1
+Pod 1584 688 898716 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 1536 640 460788 vistype=0
+VanishBlock 1536 624 311995 vistype=0
+VanishBlock 1536 608 804248 vistype=0
+VanishBlock 1472 576 288205 vistype=1
+VanishBlock 1472 592 94320 vistype=1
+Pod 1312 720 351931 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1856 704 775442 always_scripted=0 debug_name="BASIN" context_int_csv="0,0" children="" map-scene-pos="p,dj,212" id="sign1" has_dialogue=1
+PlantBlock 64 1296 149814 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+WalkBlock 208 1296 124543 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="4,1" vis-dmg="1,1" starts_moving_left_or_down=0
+WalkBlock 448 1312 223939 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="4,2" vis-dmg="1,1," starts_moving_left_or_down=0
+WalkBlock 640 1328 245472 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="4,2" vis-dmg="1,1," starts_moving_left_or_down=0
+PlantBlockAccepter 848 1168 88925 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+NewCamTrig 16 1104 25057 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=20 is_hor_leveler=0 transition_v=390 tile_w=54
+NewCamTrig 96 1248 227125 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=6 is_hor_leveler=0 transition_v=390 tile_w=6
+GenericNPC 32 1264 684839 always_scripted=0 debug_name="PASS" context_int_csv="0,0" children="" map-scene-pos="p,dj,213" id="sign1" has_dialogue=1
+RevolveSpore 1072 1440 211816 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1216 1360 921606 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1120 1248 535526 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+PlantBlock 1152 1520 713308 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 1232 1168 647321 behavior=0 init_state=0 vis-dmg="1,1" s_on=0 children=""
+GenericNPC 1088 1488 997935 always_scripted=0 debug_name="CLIFF" context_int_csv="0,0" children="" map-scene-pos="p,dj,214" id="sign1" has_dialogue=1
+SmashHand 1472 1072 987862 accel=1000 aggro_dims="612,316" init_vel=150 dmg=64 dir=3 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+PlantBlock 1520 1360 692687 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 1744 1184 611111 behavior=0 init_state=0 vis-dmg="1,1" s_on=0 children=""
+NewWaterShooter 1936 1264 831076 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="0,0" tile_height=6 fall_dampen=0
+RaiseWall 1680 1152 242474 children="" energy=1 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=24
+Button 1840 1184 96990 children="242474" t_wait=0 vistype=1 damage=24
+NewCamTrig 1456 1088 880183 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=21 is_hor_leveler=0 transition_v=390 tile_w=39
+RaiseWall 1680 1120 636951 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=24
+GenericNPC 1488 1328 846604 always_scripted=0 debug_name="FALLS" context_int_csv="0,0" children="" map-scene-pos="p,dj,215" id="sign1" has_dialogue=1
+FG2 START

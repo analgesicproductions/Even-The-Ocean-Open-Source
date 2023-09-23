@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 -80 795331 index=5 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAP3" next_cam_offset="0,0"
+Door 864 160 889709 index=1 AUTO_INDEX=1 behavior=1 type=4 script="TOOL/DOORS/SILOBLOCK.HX" dest_x=1 dest_y=1 s_visited=1 custom_size="0,0" dest_map="SEA_SILO_1" next_cam_offset="0,0"
+SoundZone 16 128 764233 tile_w=8 type="sand" revert_on_exit=0 tile_h=8 wall_type="generic"
+SavePoint 752 160 30461
+FG2 START
+LineCollider 272 160 293811 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,96,16,144,32,208,32,272,16,304,0,384,0,448,16" invis=1

@@ -1,0 +1,62 @@
+BBG START
+BG1 START
+BG2 START
+Checkpoint 816 96 994933 gauntlet_id=100 vistype=0 leg_id=0
+Checkpoint 48 480 7270 gauntlet_id=100 vistype=0 leg_id=1
+Checkpoint 480 448 674156 gauntlet_id=100 vistype=0 leg_id=2
+Checkpoint 832 560 311652 gauntlet_id=100 vistype=0 leg_id=3
+Checkpoint 480 768 370132 gauntlet_id=100 vistype=0 leg_id=4
+Door 880 96 228403 AUTO_INDEX=0 behavior=1 dest_x=0 dest_map="MOTION_DEMO_1" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 368 768 888487 AUTO_INDEX=1 behavior=1 dest_x=0 dest_map="MOTION_DEMO_1" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Wind 160 144 847098 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=640 speed=150
+Pod 608 112 184843 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 560 112 147446 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 496 128 981707 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 448 48 686837 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 752 80 788024 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 800 112 606801 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 224 128 529142 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+RaiseWall 432 480 294809 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=2 vistype=0 s_open=0 needed_en=2
+Button 112 240 698780 children="294809" t_wait=0 vistype=0 damage=16
+Button 416 240 988905 children="294809" t_wait=0 vistype=0 damage=16
+Wind 192 272 582331 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=240 w=16 speed=100
+Wind 352 272 902817 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=240 w=16 speed=100
+Spike 112 432 940165 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 416 432 745674 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Wind 224 400 171146 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=48 speed=70
+Pew 192 224 885271 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1.4
+Pew 352 224 312399 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=0 mb=4 fint=1.4
+Wind 288 352 312871 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=48 speed=70
+Fish 288 544 484887 behavior=0 vel_range="20,60" t_behave=0.4
+Fish 320 544 342574 behavior=0 vel_range="20,60" t_behave=0.4
+Spike 416 320 195874 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+ShockFloat 224 256 769566 float_vel=50 t_off=1 t_hurt=0.04 vistype=0 t_on=0.4
+Spike 240 560 492422 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 304 560 618627 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+RubberLaser 592 400 301398 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 640 320 479156 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=1 tinact=2 sbouncev=-180
+RubberLaser 464 224 774393 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+Spike 656 352 806395 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 656 384 307122 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+GenericNPC 848 96 892451 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="DEMO,SIGN,22" id="sign1" has_dialogue=1
+RubberLaser 816 672 492222 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=0.5 sbouncev=-180
+Spike 720 688 929903 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 608 688 502247 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+SavePoint 416 656 392510
+Pod 752 720 262758 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 752 736 546285 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 816 720 373909 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 816 736 126359 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Wind 752 768 781162 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=80 w=80 speed=90
+Pew 640 928 54613 bspd=40 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pew 816 912 84710 bspd=40 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=0 mb=4 fint=0.7
+LaunchBug 784 352 587083 bul_dmg=20 is_left=1 bul_nVelFreq="0,100,0.2" ishor=1 is_up=0 tm_hurt=0.02 vistype=1 y_vel=100 x_vel=100 launch_vel=150
+RaiseWall 896 544 641328 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=0 s_open=0 needed_en=64
+SapPad 816 464 732448 children="641328" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+AimSpore 912 256 293824 bul_vel=360 fixed_angle=-1 nr_bounces=0 hold_ticks=10 damage=32 vis-dmg="0,0" t_wait=2
+WaterShooter 672 880 876436 bul_vel_scale=1 max_bullet_vel=-300 script_path="trap/WaterShooter_hs.hx" tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=5
+HurtOutlet 624 752 184733 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 720 832 918039 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 720 752 532273 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 624 816 709235 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+FG2 START

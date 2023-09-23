@@ -1,0 +1,37 @@
+BBG START
+BG1 START
+BG2 START
+ArmLocker 560 240 930845 hor_passage=1 dir=0 is_exit=0 vis-dmg="0,0"
+ArmLocker 480 112 634159 hor_passage=1 dir=2 is_exit=1 vis-dmg="0,0"
+Pew 864 160 170321 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=15 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=11111000
+Pew 864 176 217203 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=15 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=11111000
+FollowLaser 640 80 499904 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=60 is_dream=0 tracked_axis="x" is_fixed=1
+Pew 720 224 17407 fint_TICKS=-1 fint=0.3 fpattern=2 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 704 96 400522 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 112 5948 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 112 710192 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+ArmLocker 1008 256 111307 hor_passage=1 dir=2 is_exit=0 vis-dmg="0,0"
+BarbedWire 960 112 299022 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="474013" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1104 112 474013 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+ArmLocker 976 128 283607 hor_passage=1 dir=1 is_exit=1 vis-dmg="0,0"
+Wind 1056 128 597518 h=144 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=120
+ArmLocker 1424 192 876100 hor_passage=1 dir=1 is_exit=0 vis-dmg="0,0"
+Pew 1488 248 630629 fint_TICKS=-1 fint=0.2 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=3 mb=15 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern=22200000
+Pew 1488 152 196572 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=15 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern=11100000
+FollowLaser 1232 96 111112 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=200 is_dream=0 tracked_axis="x" is_fixed=1
+Door 1568 112 668942 index=0 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SILO2_3" next_cam_offset="0,0"
+ArmLocker 144 320 907664 hor_passage=1 dir=1 is_exit=0 vis-dmg="0,0"
+ArmLocker 304 288 105451 hor_passage=1 dir=0 is_exit=0 vis-dmg="0,0"
+Pew 368 304 856495 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=15 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=111000
+Pew 448 56 250047 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=15 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=1
+ArmLocker 160 144 814108 hor_passage=1 dir=1 is_exit=0 vis-dmg="0,0"
+Pew 288 16 642116 fint_TICKS=-1 fint=0.2 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=15 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=1
+Pod 1504 96 71953 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1520 96 141168 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1536 96 714043 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1328 128 724990 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1344 128 552649 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1120 256 751834 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 48 0 764207 index=1 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="SILO_A0" next_cam_offset="0,0"
+SavePoint 912 272 996821
+FG2 START

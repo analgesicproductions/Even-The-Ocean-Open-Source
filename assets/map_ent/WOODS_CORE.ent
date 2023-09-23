@@ -1,0 +1,56 @@
+BBG START
+BG1 START
+BG2 START
+Door 272 96 164053 index=11 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_IN1" next_cam_offset="0,0"
+SinkPlatform 48 240 917382 yvel=30 return_rate=0.2 xvel=37 returns_home=1
+SinkPlatform 176 240 423087 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+RaiseWall 96 128 8115 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=-1 needed_en=64 permanent_open=0 s_open=0 children=""
+HurtOutlet 80 272 125445 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 96 288 671058 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 128 288 60110 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 144 272 60938 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+Dropper 160 448 814166 vistype=0 drop_latency=1 max_drops=3
+Dropper 192 448 942950 vistype=0 drop_latency=1 max_drops=3
+Dropper 80 480 55591 vistype=1 drop_latency=1 max_drops=3
+Dropper 48 480 1666 vistype=1 drop_latency=1 max_drops=3
+HurtOutlet 0 672 467927 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 0 560 237882 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 96 624 818185 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 128 640 348547 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 224 576 568364 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 224 688 107279 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+Pod 144 720 529899 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 720 153273 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 720 435396 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 16 720 979402 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 64 480 679670 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 176 448 784157 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+RaiseWall 96 96 22477 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=3 init_state=-1 needed_en=64 permanent_open=0 s_open=0 children=""
+SinkPlatform 400 224 64057 yvel=30 return_rate=0.2 xvel=37 returns_home=1
+SinkPlatform 320 224 736259 yvel=30 return_rate=0.2 xvel=37 returns_home=1
+Door 464 32 162794 index=10 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_G2_2" next_cam_offset="0,0"
+Spike 272 720 876391 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 336 720 962283 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 384 720 601754 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 448 720 722691 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+HurtOutlet 368 688 83628 init_wait=0 dmgtype=0 tm_off=0.25 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 464 688 733641 init_wait=0 dmgtype=0 tm_off=0.25 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 464 640 942396 init_wait=0 dmgtype=0 tm_off=0.25 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 368 640 792225 init_wait=0 dmgtype=0 tm_off=0.25 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 288 512 145157 init_wait=0 dmgtype=0 tm_off=0.25 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 352 512 300070 init_wait=0 dmgtype=0 tm_off=0.25 tm_on=0.5 dmg=24 vistype=0
+Pew 256 432 617585 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 256 592 924909 fint_TICKS=-1 fint=0.5 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=5 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Stopper 176 768 824063 children="32323"
+Stopper 48 768 507703 children="32323"
+RaiseWall 240 704 32323 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=2 init_state=-1 needed_en=2 permanent_open=0 s_open=0 children="396002"
+RaiseWall 240 656 138905 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=-1 needed_en=2 permanent_open=0 s_open=0 children="824262"
+Stopper 304 768 127605 children="138905"
+Stopper 416 768 510657 children="138905"
+GenericNPC 224 608 396002 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="woods_core_light"
+GenericNPC 256 608 824262 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="1,0" debug_name="" children="" id="woods_core_light"
+SinkPlatform 192 48 303343 yvel=30 return_rate=0.2 xvel=37 returns_home=1
+SavePoint 400 48 909469
+SavePoint 128 64 962127
+GenericNPC 224 160 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,81" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 112 144 724521 index=0 AUTO_INDEX=0 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_TRAIN_LO" next_cam_offset="0,0"
+GenericNPC 320 144 372826 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="FUNERAL" children="" id="city_s_funeral"
+TrainTrigger 208 0 41109 event_id="none" id=0
+NewCamTrig 16 0 24299 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=39 tile_h=16
+FG2 START

@@ -1,0 +1,49 @@
+BBG START
+BG1 START
+BG2 START
+MovePod 240 160 996043 launch_vel=250 tm_reset=2 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 240 224 409978 launch_vel=250 tm_reset=2 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 288 272 599242 launch_vel=250 tm_reset=2 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 192 272 864144 launch_vel=250 tm_reset=2 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+Pod 112 16 319278 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 160 16 983163 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 272 112 769351 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 144 96 932391 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 192 352 447652 launch_vel=250 tm_reset=2 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 288 352 313414 launch_vel=250 tm_reset=2 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 224 592 895784 launch_vel=280 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=1 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 272 544 204677 launch_vel=280 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=7 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1248 416 392157 launch_vel=300 tm_reset=0.5 launch_dir=2 vis-dmg="1,1" behavior=0 dir=2 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1312 400 911757 launch_vel=329 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1376 416 92094 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1" behavior=0 dir=6 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1312 480 47067 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=32 move_vel=20 min_max="48,48"
+MovePod 1312 528 236473 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=32 move_vel=20 min_max="48,48"
+Pod 1184 560 783208 dmgtype=0 tm_dead=0.5 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1456 560 282175 dmgtype=0 tm_dead=0.5 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 1942 400 811247 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=2 dir=2 touch_dmg=32 move_vel=20 min_max="32,32"
+MovePod 1910 336 424919 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1942 272 465803 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+Pod 2000 416 217681 dmgtype=1 tm_dead=0.5 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1976 432 480641 dmgtype=0 tm_dead=0.5 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 1846 400 675819 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=32 move_vel=20 min_max="32,32"
+MovePod 1830 336 275791 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1830 272 997115 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1830 208 198663 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 1942 192 14970 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=20 min_max="8,8"
+MovePod 512 448 353784 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=0 touch_dmg=32 move_vel=25 min_max="16,16"
+Door 2112 112 583710 index=0 AUTO_INDEX=4 behavior=0 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_SILO_2" next_cam_offset="0,0"
+MovePod 686 379 870407 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=2 dir=2 touch_dmg=32 move_vel=25 min_max="32,32"
+MovePod 688 288 441690 launch_vel=250 tm_reset=0.5 launch_dir=4 vis-dmg="0,0" behavior=2 dir=2 touch_dmg=32 move_vel=25 min_max="32,32"
+NewCamTrig 0 0 51961 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=40.875
+NewCamTrig 416 0 759140 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=43 tile_h=41
+NewCamTrig 1104 144 240783 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=30
+NewCamTrig 1520 48 572171 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=42 tile_h=28
+WalkPod 1584 336 831697 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=1 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 1632 336 687483 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=1 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 1680 336 892854 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=1 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 1728 352 35004 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=1 climbs_corners=1 AUTO_ORIENT=1 dmg=24 f_speed=16
+MovePod 1600 432 161991 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 1680 416 628617 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+Door 0 -124 330748 index=1 AUTO_INDEX=5 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SILO_E0" next_cam_offset="0,0"
+SavePoint 80 80 720112
+FG2 START

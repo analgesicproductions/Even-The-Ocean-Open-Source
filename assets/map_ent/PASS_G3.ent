@@ -1,0 +1,113 @@
+BBG START
+BG1 START
+BG2 START
+WalkBlock 368 144 635850 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="1,1" decel-frames="120,20,30" f_speed=16 w,h="2,8"
+NewCamTrig 0 480 521546 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=79 tile_h=18
+Pew 48 848 984757 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=15 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern=11110000
+NewCamTrig 0 768 44395 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=33 tile_h=17
+OrbSlot 432 848 165745 transmit_en=16 vis=0 angle=180 children="949763,509893" needed_en=0
+NewCamTrig 528 768 25800 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=75 tile_h=22
+WalkBlock 1104 912 659202 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,5"
+WalkBlock 1248 816 14075 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=2 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,7"
+WalkBlock 1520 928 858953 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,7"
+Pod 1152 928 898164 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1152 944 803825 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1200 928 970691 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1200 944 419023 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkBlock 1328 960 735810 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,5"
+WalkBlock 1392 848 669573 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=2 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,3"
+Pod 1488 864 957084 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1520 864 15502 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1472 1008 360092 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1440 1008 295565 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkBlock 1600 880 5346 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=3 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,2"
+WalkBlock 1392 992 965863 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,3"
+WalkBlock 1856 672 808885 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=1 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="8,1"
+WalkBlock 2032 608 842363 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=3 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="8,2"
+WalkBlock 2000 752 843516 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,5"
+Wind 1984 656 480958 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=70
+Pod 2064 784 559595 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2064 768 477736 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 2304 368 483412 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=15 bspd=300 white_no_dmg=0 is_dream=0 rhythm_pattern=11110000
+OrbSlot 2832 368 341209 transmit_en=16 vis=0 angle=0 children="194348,84426" needed_en=0
+NewCamTrig 2240 320 559386 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=50 tile_h=16
+NewCamTrig 0 0 967740 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=62 tile_h=30
+NewCamTrig 1728 368 454910 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=32 tile_h=35
+SavePoint 144 128 293537
+SavePoint 912 400 915642
+SavePoint 992 912 599288
+SavePoint 2288 496 535861
+Door 0 -112 134366 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_G2" next_cam_offset="0,0"
+Pod 144 656 378353 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 656 210444 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 112 656 792408 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkBlock 640 928 390889 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,5"
+Pod 560 832 131680 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 848 134130 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 864 468105 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 3024 256 594478 index=1 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_G4" next_cam_offset="0,0"
+WirePoint 2832 352 84426 pos="0,-16,16,-16,16,112" vistype=0 forceTargetDir=-1 children="194348"
+WirePoint 432 864 509893 pos="0,16,16,16,16,64" vistype=0 forceTargetDir=-1 children="949763"
+RaiseWall 448 944 949763 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=2 init_state=0 needed_en=48 permanent_open=1 s_open=0 children=""
+RaiseWall 2848 480 194348 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=2 init_state=0 needed_en=48 permanent_open=1 s_open=0 children=""
+SetPiece 48 48 671509 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 912 80 720116 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SpikeExtend 304 304 871130 vel_extend=200 tm_wait_at_ends=0.7 dir=0 accel_extend=1000 vis-dmg="1,1" dmg=20 vel_retract=120
+SpikeExtend 544 272 327091 vel_extend=200 tm_wait_at_ends=0.7 dir=0 accel_extend=1000 vis-dmg="1,1" dmg=20 vel_retract=120
+SpikeExtend 192 848 716908 vel_extend=200 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 592 592 517996 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 2704 368 393179 vel_extend=300 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 656 624 442746 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 2448 368 577513 vel_extend=300 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 2576 368 360475 vel_extend=300 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 496 112 896224 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 272 848 862303 vel_extend=200 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 720 656 930784 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 352 848 671591 vel_extend=200 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 2384 448 774502 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="1,1," dmg=48 vel_retract=120
+FG2 START
+SetPiece 160 16 704073 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 16 112 649267 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 112 288 935059 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 80 224 57238 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 640 112 776986 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 880 192 482707 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 688 416 659972 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 784 48 959568 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 848 688 892928 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 816 336 781291 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 432 560 655731 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 304 560 962631 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 240 528 825773 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 480 512 968 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 336 640 873501 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 112 528 897275 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 112 720 129803 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 61 986 455350 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 368 976 733321 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 288 992 575011 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 448 720 369299 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 640 1008 97359 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 976 928 278236 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 928 992 83737 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1056 688 134017 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1232 688 43317 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1456 1040 82019 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1648 864 785850 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1648 688 804079 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1872 816 684019 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1808 864 46736 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1840 384 907696 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1760 400 416022 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1904 304 533746 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2160 320 277008 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2192 512 630492 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2192 656 510482 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2126 773 253263 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2112 880 691666 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2528 512 438594 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2848 320 409154 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2896 512 717208 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2800 544 157793 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2928 432 789124 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 912 800 306141 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

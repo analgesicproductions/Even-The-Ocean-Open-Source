@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+Door 1024 384 619153 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="PASS_PLATEAU" next_cam_offset="0,0"
+Door 0 368 885937 index=3 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="PASS_BUILDING_1" next_cam_offset="0,0"
+Door 560 640 583149 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="PASS_RIVERSIDE" next_cam_offset="0,0"
+BG2 START
+SavePoint 432 528 871690
+GenericNPC 656 640 625808 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,22" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,72 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 208 192 657616 has_dialogue=1 map-scene-pos="p,dj,147" always_scripted=0 context_int_csv="0,0" debug_name="WF_GOV_MAYOR" children="" id="sign1"
+GenericNPC 304 112 419166 has_dialogue=1 map-scene-pos="TEST,LINETEST,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 128 416 120862 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_RADIO_TOWER" children="" id="ending_tower_end"
+Door 224 416 442008 index=6 AUTO_INDEX=6 behavior=1 type=0 script="TOOL/DOORS/8C_ENTER_TOWER.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CITY" next_cam_offset="0,0"
+GenericNPC 96 496 228423 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_MAYOR" children="" id="ending_mayor"
+GenericNPC 59 581 947996 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_ENTER_CITY" children="" id="ending_city_enter"
+GenericNPC 64 640 813137 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="OLD_RADIO_CONSOLE" children="" id="old_final_debrief"
+Door 144 640 454036 index=7 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CITY" next_cam_offset="0,0"
+GenericNPC 253 643 347187 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="OLD_CITY_BED" children="" id="old_city_yara"
+GenericNPC 400 112 249809 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_YARA" children="" id="i2_yara"
+GenericNPC 512 112 600280 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_HUMUS" children="" id="i2_humus"
+TrainTrigger 384 0 639822 event_id="none" id=0
+GenericNPC 624 112 201244 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_CROWD" children="" id="i2_crowd_angry"
+Door 208 240 367859 index=7 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="OLD_5" next_cam_offset="0,0"
+GenericNPC 730 112 827687 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_MAYOR_SAD" children="" id="i2_mayor_sad"
+GenericNPC 721 192 761 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_MAYOR_INIT" children="" id="i2_mayor_init"
+GenericNPC 384 192 114477 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="G2_G_END" children="" id="g2_1_end"
+Door 320 208 855863 index=9 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="NPC_CITY" next_cam_offset="0,0"
+GenericNPC 592 192 266372 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER_CHECKIN" children="" id="g2_1_checkin"
+GenericNPC 592 288 527303 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=5 debug_name="WOODS_CHECKIN" children="" id="g2_1_checkin"
+GenericNPC 592 368 97594 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="BASIN_CHECKIN" children="" id="g2_1_checkin"
+Door 544 224 451482 index=10 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CITY" next_cam_offset="0,0"
+GenericNPC 496 192 713150 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER_BLOCKER" children="" id="s2_nature_blocker"
+GenericNPC 496 288 475624 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=5 debug_name="WOODS_BLOCKER" children="" id="s2_nature_blocker"
+GenericNPC 496 368 259051 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="BASIN_BLOCKER" children="" id="s2_nature_blocker"
+Door 544 384 880204 index=10 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CITY" next_cam_offset="0,0"
+GenericNPC 688 304 873958 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="G2_1_DEBRIEF" children="" id="g2_1_debrief"
+GenericNPC 768 304 615806 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="G2_1_HISTORY" children="" id="g2_1_debrief"
+GenericNPC 700 464 24866 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="G2_1_YARA_OUTSIDE" children="" id="yara_in_garden"
+GenericNPC 756 477 196421 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="G2_1_YARA_IN" children="" id="g2_1_yara"
+GenericNPC 496 480 937390 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ALIPH_NEW_BED" children="" id="aliph_new_apt_bed"
+GenericNPC 544 464 877724 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="4K_ALIPH_SLEEP" children="" id="g2_1_aliph_sleep"
+GenericNPC 336 656 281490 has_dialogue=1 map-scene-pos="S3,FIND_MAPS,0" always_scripted=0 context_int_csv="0,0" debug_name="MAP_DRAWER" children="" id="sign1"
+GenericNPC 400 656 418202 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="OLDCITY_BLOCKR" children="" id="old_city_blocker"
+GenericNPC 240 704 121407 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv="0,0" debug_name="BOMB_EARTH" children="" id="old_bomb_holder"
+GenericNPC 240 752 424508 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv=1 debug_name="BOMB_AIR" children="" id="old_bomb_holder"
+GenericNPC 320 752 266257 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv=2 debug_name="BOMB_SEA" children="" id="old_bomb_holder"
+GenericNPC 576 640 667372 has_dialogue=1 map-scene-pos="p,dj,149" always_scripted=0 context_int_csv=0 debug_name="FALLS_AREA" children="" id="sign1"
+GenericNPC 720 704 251417 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="SHARON" children="" id="falls_sharon"
+FlameOn 64 432 292408 dmg=36 tm_dmg=0.018 vel=100 vis-dmg="1,1"
+GenericNPC 464 704 1968 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=10 debug_name="LIGHT1" children="" id="falls_npc"
+GenericNPC 608 704 432603 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=0 debug_name="DARK1" children="" id="falls_npc"
+GenericNPC 512 704 761552 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=11 debug_name="LIGHT2" children="" id="falls_npc"
+GenericNPC 560 704 238151 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=12 debug_name="LIGHT3" children="" id="falls_npc"
+GenericNPC 640 704 393694 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="DARK2" children="" id="falls_npc"
+GenericNPC 672 704 879143 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="DARK3" children="" id="falls_npc"
+VanishBlock 384 176 374395 vistype=1
+Pod 432 96 961606 dmgtype=0 tm_dead=1 vistype=1 is_vanish_switch=1 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FollowLaser 592 160 460176 dmgtype=0 accel=50 fixed_angle=90 vistype=0 axis_tracks_player=0 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 400 176 509072 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 432 256 372639 dmgtype=0 accel=0 fixed_angle=180 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="Y" is_fixed=1
+FollowLaser 528 208 306460 dmgtype=0 accel=50 fixed_angle=0 vistype=0 axis_tracks_player=0 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="Y" is_fixed=1
+VanishBlock 432 176 168510 vistype=1
+VanishBlock 432 224 371412 vistype=1
+VanishBlock 528 160 693799 vistype=1
+VanishBlock 528 240 794174 vistype=1
+VanishBlock 480 176 935545 vistype=1
+VanishBlock 624 192 574636 vistype=1
+BarbedWire 96 96 726588 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 16 96 998290 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="726588" wire_tile_width=3 is_gauntlet=1
+Pod 192 48 613851 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 256 48 685756 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkBlock 432 128 168231 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,1"
+WalkBlock 368 64 210481 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=1 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,1"
+BarbedWire 96 128 872059 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+SmashHand 48 32 529920 tm_pause=1 accel=1000 vis-dmg="1,1" vel_follow=150 tm_wait=0 aggro_dims="200,200" dir=2 init_vel=150 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+GenericNPC 576 32 613080 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="DAVE" children="" id="dave"
+GenericNPC 656 80 670479 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="RONALD" children="" id="ronald"
+FG2 START

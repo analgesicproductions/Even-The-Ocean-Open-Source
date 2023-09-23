@@ -1,0 +1,53 @@
+BBG START
+BG1 START
+BG2 START
+Door 832 64 318142 index=3 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_5" next_cam_offset="0,0"
+MiniMoveBlock 752 240 716880 is_y=0 max_accel=600 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0
+MiniMoveBlock 848 128 533725 is_y=0 max_accel=450 dir=2 vis-dmg="1,1" dmg=16 max_vel=300 tm_wait=0
+MiniMoveBlock 688 240 592639 is_y=0 max_accel=600 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0
+MiniMoveBlock 720 240 384450 is_y=0 max_accel=600 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0
+MiniMoveBlock 848 160 184732 is_y=0 max_accel=450 dir=2 vis-dmg="1,1" dmg=16 max_vel=300 tm_wait=0
+MiniMoveBlock 848 192 672495 is_y=0 max_accel=450 dir=2 vis-dmg="1,1" dmg=16 max_vel=300 tm_wait=0
+MiniMoveBlock 848 224 451773 is_y=0 max_accel=450 dir=2 vis-dmg="1,1" dmg=16 max_vel=300 tm_wait=0
+Broadcaster 784 400 96952 vel=100 vis-dmg="0,0" timer=-1 children="485530"
+Broadcaster 896 400 485530 vel=100 vis-dmg="0,0" timer=-1 children=""
+Broadcaster 640 560 539559 vel=50 vis-dmg="1,1" timer=-1 children="691917"
+Broadcaster 896 560 473070 vel=50 vis-dmg="1,1" timer=-1 children=""
+Broadcaster 80 304 960068 vel=100 vis-dmg="0,0" timer=0.5 children="921121"
+Broadcaster 224 304 921121 vel=100 vis-dmg="0,0" timer=-1 children="696272"
+Broadcaster 368 304 696272 vel=100 vis-dmg="0,0" timer=-1 children="613961"
+Broadcaster 528 304 613961 vel=100 vis-dmg="0,0" timer=-1 children=""
+Broadcaster 80 400 722200 vel=100 vis-dmg="1,1" timer=0.5 children="172471"
+Broadcaster 224 400 172471 vel=100 vis-dmg="1,1" timer=-1 children="959797"
+Broadcaster 384 400 959797 vel=100 vis-dmg="1,1" timer=-1 children="867874"
+Broadcaster 544 400 867874 vel=100 vis-dmg="1,1" timer=-1 children=""
+FollowLaser 288 336 629651 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=150 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 208 240 13160 dmgtype=1 accel=0 fixed_angle=90 vistype=1 axis_tracks_player=1 angvel=0 tracking_vel=150 is_dream=0 tracked_axis="x" is_fixed=1
+MiniMoveBlock 784 240 223011 is_y=0 max_accel=600 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0
+MiniMoveBlock 848 256 721942 is_y=0 max_accel=450 dir=2 vis-dmg="1,1" dmg=16 max_vel=300 tm_wait=0
+Broadcaster 640 432 691917 vel=50 vis-dmg="1,1" timer=-1 children=""
+Broadcaster 896 432 994799 vel=50 vis-dmg="1,1" timer=0.5 children="473070"
+Inverter 288 272 11824 only_once=1 vis-dmg="0,0"
+Inverter 288 368 919088 only_once=1 vis-dmg="0,0"
+Inverter 464 448 275167 only_once=1 vis-dmg="0,0"
+Inverter 400 576 635991 only_once=1 vis-dmg="0,0"
+Inverter 320 464 995261 only_once=1 vis-dmg="0,0"
+Inverter 544 576 664303 only_once=1 vis-dmg="0,0"
+Inverter 240 576 523833 only_once=1 vis-dmg="0,0"
+Inverter 160 448 328127 only_once=1 vis-dmg="0,0"
+Wind 176 640 842165 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=400 speed=220
+LaunchBug 496 496 233795 bul_dmg=20 is_up=0 launch_vel=100 ishor=1 vistype=0 is_left=1 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+LaunchBug 416 512 867811 bul_dmg=20 is_up=0 launch_vel=100 ishor=1 vistype=0 is_left=1 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+MiniMoveBlock 368 448 820677 is_y=0 max_accel=300 dir=2 vis-dmg="0,0" dmg=16 max_vel=200 tm_wait=0.5
+MiniMoveBlock 368 576 54670 is_y=0 max_accel=300 dir=2 vis-dmg="0,0" dmg=16 max_vel=200 tm_wait=0.5
+BallDropper 384 736 919870 dampen=0.9 tm_shoot=1 nr_balls=1 vis-dmg="0,0" x_vel=-140 y_accel=500 damage=32
+BallDropper 416 880 585476 dampen=0.99 tm_shoot=1 nr_balls=1 vis-dmg="1,1" x_vel=-240 y_accel=500 damage=32
+MiniMoveBlock 544 880 484325 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 672 752 169713 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 544 752 36258 is_y=1 max_accel=300 dir=2 vis-dmg="1,1" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 672 880 435475 is_y=0 max_accel=300 dir=2 vis-dmg="1,1" dmg=24 max_vel=200 tm_wait=0.2
+Door 896 608 977801 index=4 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_5" next_cam_offset="0,0"
+SavePoint 864 80 463666
+SavePoint 656 400 725842
+SavePoint 592 480 564113
+FG2 START

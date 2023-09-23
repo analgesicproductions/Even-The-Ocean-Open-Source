@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 -128 177586 index=7 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=3 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+Door 256 176 673435 index=0 AUTO_INDEX=1 behavior=1 type=0 script="TOOL/DOORS/BLOCK_TUNNEL.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TUNNEL_2" next_cam_offset="0,0"
+SavePoint 128 144 788588
+FG2 START

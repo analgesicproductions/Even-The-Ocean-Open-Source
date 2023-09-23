@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 784 32 47101 AUTO_INDEX=0 behavior=0 dest_x=1 dest_map="CANYON_2" index=4 s_visited=0 next_cam_offset="0,0" type=2 script="" dest_y=8
+GenericNPC 656 272 495060 always_scripted=0 debug_name="REM_PROTECTOR" context_int_csv="0,0" children="" map-scene-pos="CANYON,PROTECTOR" id="rem_protector" has_dialogue=1
+FG2 START

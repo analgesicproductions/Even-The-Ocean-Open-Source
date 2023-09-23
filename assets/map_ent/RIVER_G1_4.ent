@@ -1,0 +1,27 @@
+BBG START
+BG1 START
+BG2 START
+Cauliflower 192 336 373198 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.1 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Spike 320 240 469519 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 352 256 482615 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+EdgeDoor 80 16 974696 is_wide=1 vistype=0 only_open_dir=-1
+Door 80 0 14714 index=0 AUTO_INDEX=0 behavior=0 type=1 script="" dest_x=0 dest_y=-39 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_3" next_cam_offset="0,0"
+Cauliflower 640 288 629782 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.1 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 832 272 872690 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.1 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 992 272 37344 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.1 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Bouncer 1360 240 377596 u_or_r=0 is_hor=0
+Cauliflower 1184 336 38260 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.1 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Neutralizer 1376 320 464917
+Button 1568 96 849042 t_wait=1.5 vistype=0 damage=48 children="476367"
+WirePoint 1584 96 476367 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="1100"
+WirePoint 1584 576 1100 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="472009"
+WirePoint 544 576 472009 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="455098"
+WirePoint 544 336 455098 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="679349"
+RaiseWall 512 320 679349 energy=0 is_wide=1 raise_distance=48 vistype=0 raise_dir=2 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 512 352 935751 t_wait=1.5 vistype=0 damage=48 children="847363"
+RaiseWall 544 160 847363 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Door 1200 16 946203 index=0 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_5" next_cam_offset="0,0"
+Door 96 0 963664 index=0 AUTO_INDEX=0 behavior=0 type=1 script="" dest_x=0 dest_y=-40 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_3" next_cam_offset="0,0"
+SavePoint 80 192 736643
+GenericNPC 240 368 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,70" debug_name="" children="" id="dev_info"
+FG2 START

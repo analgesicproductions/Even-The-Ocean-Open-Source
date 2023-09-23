@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 1584 0 39879 AUTO_INDEX=0 behavior=0 dest_x=1 dest_map="MAPONE" index=19 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Door 0 0 917368 AUTO_INDEX=1 behavior=0 dest_x=-1 dest_map="MAPONE" index=20 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Pod 1440 112 789852 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1504 160 180125 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+FG2 START

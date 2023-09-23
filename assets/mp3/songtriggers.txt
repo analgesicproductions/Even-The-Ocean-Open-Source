@@ -1,0 +1,906 @@
+list cliffambient,cliffquiet,sunlitten,trudge,funkbass,anotherbeach,sleepyglade,null,risehill,title,introcave,actualshoreout,shorein,shore_core,starfish,title_2,intro_scene,intro_scene_short,intro_scene_ambience,intro_plant_core,yara_theme,forest_out,forest_welcome_song,forest_cheesy_town,forest_town,forest_in,canyonin,canyon_out,canyon_core,canyon_cave,introcave_2,cassisdead,map_intro,themesong,aliphssong,aliph_house_night,mayor_apt,wf_cass,wf_yara,wf_lo_res,wf_hi_res,mayor_intro,mayor_lobby,wf_square_intro,hill_out,hill_in,hill_cabin,hill_storeroom,hill_core,river_storeroom,river_out,river_in,river_core,s2_sirens,history_debrief,tower_depths,tower_core,wf_argue_talk,outer_map,silo_sea,silo_earth,yara_sad,tunnel,old_city_in,rain,humus_theme,aliph_new_apt,woods_happy,woods_sad,woods_neutral,woods_core,woods_library,woods_out,woods_in,woods_core,wf_city_attack,cliff_town,forest_core,air_core,falls_out,sea_in,sea_boss,old_city_debrief,earth_boss,cliff_out,wf_after_tower,soft_rain,wf_eto_song,pass_out,earth,silo_air,old_city_out,junkyard,old_city_radio,silo_out,g_out_earth,g_out_air,g_out_sea,air,radio_tower_final,mayor_sad_i2,midworld,inapond,untitled_a,lullaby1,lullaby2,pre_title,credits,wf_entryway,northworld,secludedplace,flood ignore
+# the list pre-loads songs so that you dont get a delay when first plays??
+
+map parents_1
+aliphssong
+end
+map lopez_1
+woods_neutral
+end
+map camtest
+null
+end
+map wf_j
+junkyard
+end
+map wf_js
+junkyard
+end
+map wf_jc
+junkyard
+end
+map wf_jh
+junkyard
+end
+
+map radio_g1
+radio_tower_final
+end
+map radio_g2
+radio_tower_final
+end
+map radio_g3
+radio_tower_final
+end
+map radio_g4
+radio_tower_final
+end
+
+map radio_b
+radio_tower_final
+end
+map radio_b2
+soft_rain
+end
+
+map radio_d1
+tower_depths
+end
+
+map radio_db
+tower_core
+end
+
+# 120 Debug maps
+map test
+if playtime > 25 none
+null
+end
+
+map motion_demo_1
+canyonin
+end
+
+# FAY ROUGE INTRO
+
+map falls_1
+woods_happy
+end
+
+map falls_2
+falls_out
+end
+
+map falls_set
+falls_out
+end
+
+map falls_b
+sea_boss
+end
+
+map falls_g1
+sea_in
+end
+map falls_g2
+sea_in
+end
+map falls_g3
+sea_in
+end
+map falls_g4
+sea_in
+end
+
+map cliff_1
+cliff_out
+end
+map cliff_2
+cliff_out
+end
+
+map cliff_3
+cliffambient
+end
+
+map cliff_4
+cliffambient
+end
+
+map cliff_b
+air_core
+end
+
+map cliff_town
+cliff_town
+end
+
+map air_2
+air
+end
+
+map cliff_g1
+air
+end
+map cliff_g2
+air
+end
+map cliff_g3
+air
+end
+map cliff_g4
+air
+end
+
+map pass_1
+pass_out
+end
+map pass_2
+pass_out
+end
+map pass_3
+pass_out
+end
+
+map pass_b
+earth_boss
+end
+map pass_g0
+g_out_earth
+end
+map pass_g1
+earth
+end
+map pass_g3
+earth
+end
+map pass_g2
+earth
+end
+map pass_g4
+earth
+end
+
+map rouge_g1
+introcave_2
+end
+map rouge_g2
+introcave_2
+end
+map rouge_b
+intro_plant_core
+end
+map rouge_0
+intro_scene_ambience
+end
+map rouge_1
+intro_scene_ambience
+end
+map rouge_2
+intro_scene_ambience
+end
+map rouge_3
+intro_scene_ambience
+end
+
+map rouge_4
+cassisdead
+end
+
+
+
+
+map forest1
+forest_out
+end
+
+map basin_1
+forest_out
+end
+
+map basin_2
+forest_out
+end
+
+map basin_3
+forest_town
+end
+
+map basin_b
+forest_core
+end
+
+map basin_g1
+forest_in
+end
+map basin_g2
+forest_in
+end
+map basin_g3
+forest_in
+end
+map basin_g4
+forest_in
+end
+
+
+map river_1
+river_out
+end
+
+map river_2
+river_out
+end
+
+map river_3
+river_out
+end
+
+map river_g1
+river_in
+end
+map river_g2
+river_in
+end
+map river_g3
+river_in
+end
+map river_g4
+river_in
+end
+
+map river_b
+river_core
+end
+
+map woods_1
+woods_out
+end
+
+map woods_2
+woods_out
+end
+
+map woods_3
+woods_library
+end
+
+map woods_g1
+woods_in
+end
+
+map woods_g2
+woods_in
+end
+
+map woods_g3
+woods_in
+end
+
+map woods_g4
+woods_in
+end
+
+map woods_b
+woods_core
+end
+
+map canyon_1
+canyon_out
+end
+map canyon_2
+canyon_out
+end
+map canyon_3
+canyon_out
+end
+map canyon_4
+canyon_out
+end
+map canyon_5
+canyon_cave
+end
+map canyon_6
+canyon_out
+end
+
+map hill_1
+hill_out
+end
+map hill_2
+hill_out
+end
+map hill_3
+hill_out
+end
+map hill_4
+hill_out
+end
+map hill_5
+hill_out
+end
+map hill_g1
+hill_in
+end
+map hill_g3
+hill_in
+end
+map hill_g2
+hill_in
+end
+map hill_g4
+hill_in
+end
+map hill_b
+hill_core
+end
+
+
+
+
+map map2
+outer_map
+end
+
+map map3
+outer_map
+end
+
+map intro_ascent
+risehill
+end
+map intro_item
+risehill
+end
+map intro
+intro_scene_ambience
+end
+map introcave
+introcave
+end
+
+map intro_g1_1
+introcave_2
+end
+
+map intro_b
+intro_plant_core
+end
+
+map map1
+script
+if (R.event_state[18] == 1) return "rain";
+return "themesong";
+end
+
+#### CITY
+
+map wf_gov_lobby
+mayor_lobby
+end
+
+map wf_gov_mayor
+mayor_intro
+end
+
+map wf_entry
+wf_lo_res
+end
+
+map wf_train
+wf_square_intro
+end
+
+map wf_square
+wf_square_intro
+end
+
+map wf_lores
+wf_lo_res
+end
+
+
+map wf_lores
+wf_lo_res
+end
+
+map wf_lo_1
+script
+if (R.event_state[47] == 1) return "wf_after_tower";
+return "wf_lo_res";
+end
+
+map wf_lo_0
+script
+if (R.event_state[17] == 1) return "rain";
+if (R.event_state[39] == 1) return "wf_hi_res";
+return "wf_entryway";
+end
+
+map wf_gov_jail
+humus_theme
+end
+
+map wf_gov_hist
+history_debrief
+end
+
+map wf_aliph2
+aliph_new_apt
+end
+
+map radio_lobby
+null
+end
+
+map wf_hi_1
+script
+if (R.event_state[47] == 1) return "wf_after_tower";
+if (R.event_state[17] == 1) return "rain";
+if (R.event_state[39] == 1) return "wf_hi_res";
+return "wf_square_intro";
+end
+
+map wf_hi_2
+script
+if (R.event_state[39] == 1) return "wf_hi_res";
+return "wf_square_intro";
+end
+
+map tunnel_1
+silo_out
+end
+map tunnel_2
+tunnel
+end
+map tunnel_3
+tunnel
+end
+map tunnel_4
+silo_out
+end
+map tunnel_5
+tunnel
+end
+map tunnel_6
+silo_out
+end
+
+map kv_radio
+old_city_radio
+end
+map kv_1
+old_city_out
+end
+map kv_gov
+old_city_radio
+end
+
+map silo_s0
+silo_out
+end
+map sea_silo_0
+silo_out
+end
+map earth_silo_0
+silo_out
+end
+map air_silo_0
+silo_out
+end
+
+map silo_e0
+silo_out
+end
+
+map silo_a0
+silo_out
+end
+
+#########
+# START SHORE #
+#########
+
+map shore_1
+actualshoreout
+end
+map shore_2
+actualshoreout
+end
+map shore_3
+starfish
+end
+map shore_4
+actualshoreout
+end
+map shore_5
+actualshoreout
+end
+map shore_6
+actualshoreout
+end
+
+map _null
+null
+end
+
+map shore_g1
+shorein
+end
+map shore_g2
+shorein
+end
+map shore_g3
+shorein
+end
+map shore_g4
+shorein
+end
+map shore_g5
+shorein
+end
+
+map shore_b
+shore_core
+end
+
+map shoreplace
+actualshoreout
+end
+
+map shoreplace_enter
+actualshoreout
+end
+
+map shoreplace_core
+shore_core
+end
+
+map shoreplacea
+shorein
+end
+
+map shoreplaceb
+actualshoreout
+end
+
+map shoreplacec
+shorein
+end
+
+map shoreplace_out
+actualshoreout
+end
+
+map shoreplace_tunnel
+shorein
+end
+
+map shoreplace_secret
+actualshoreout
+end
+
+map shoreplace_down
+shorein
+end
+
+map shoreplace_end
+shorein
+end
+
+map starfish
+starfish
+end
+
+map northisland_1
+actualshoreout
+end
+map island_2
+actualshoreout
+end
+map island_lazy
+actualshoreout
+end
+map island_seed
+actualshoreout
+end
+
+
+# CANYON
+
+map canyon_river
+canyon_out
+end
+
+map canyon_sex
+canyon_cave
+end
+
+map canyon_dream
+canyon_cave
+end
+
+map canyon_left
+canyon_out
+end
+
+map canyon_top
+canyon_out
+end
+
+map canyon_g1
+canyonin
+end
+
+map canyon_g2
+canyonin
+end
+map canyon_g4
+canyonin
+end
+map canyon_g3
+canyonin
+end
+
+map canyon_b
+canyon_core
+end
+
+map canyon_g1_1
+null
+end
+map canyon_g1_2
+canyon_out
+end
+
+map canyon_g1_3
+canyonin
+end
+
+map canyon_g1_boss
+canyon_core
+end
+
+map windhill 
+hill_out
+end
+
+map windhill2
+hill_out
+end
+map windhill3
+hill_out
+end
+
+map windhillg1
+hill_in
+end
+
+map windhillboss
+hill_core
+end
+
+# MID CONTINENT
+
+map woods_enter
+woods_out
+end
+
+map woods_path
+woods_out
+end
+
+map woods_in1
+woods_out
+end
+
+map woods_start
+woods_out
+end
+
+map woods_up1
+woods_out
+end
+
+map woods_g1_1
+woods_in
+end
+
+map woods_g1_2
+woods_in
+end
+
+
+map riverpass
+null
+end
+
+# OUTER 
+
+map sea_1
+sea_in
+end
+
+# PASS
+
+map earth_silo_1
+silo_earth
+end
+map earth_silo_2
+silo_earth
+end
+map earth_silo_1b
+silo_earth
+end
+map earth_silo_2b
+silo_earth
+end
+map earth_silo_3
+silo_earth
+end
+map air_silo_1
+silo_air
+end
+map air_silo_2
+silo_air
+end
+map sea_silo_1
+silo_sea
+end
+map sea_silo_2
+silo_sea
+end
+
+map npc_pass
+pass_out
+end
+
+map earth_1
+silo_out
+end
+
+map earth_2
+earth
+end
+
+map earth_3
+earth
+end
+
+map earth_4
+earth
+end
+
+map earth_5
+earth
+end
+
+map earth_6
+earth
+end
+
+map earth_7
+earth
+end
+
+map earth_boss
+earth_boss
+end
+
+#125  Non-game areas (Title, etc)
+map _title
+title_2
+end
+
+
+# POSTGAME
+
+map old_enter
+silo_out
+end
+
+map ___0
+tunnel
+end
+
+map ___1
+tunnel
+end
+
+map ___2
+tunnel
+end
+
+map glade1
+sleepyglade
+end
+
+map o_tower1
+tunnel
+end
+map d_tower
+tunnel
+end
+
+map mapone
+northworld
+end
+
+map maptwo
+midworld
+end
+
+map maptwo
+midworld
+end
+
+map mapthree
+secludedplace
+end
+
+map desert_1
+soft_rain
+end
+
+map descent
+null
+end
+
+map biglake 
+inapond
+end
+
+map field_intro
+sleepyglade
+end
+
+map town_enter
+silo_out
+end
+
+map canyonplace
+null
+end
+
+map mapfour
+untitled_a
+end
+
+map old_1
+untitled_a
+end
+
+map intro_demo
+risehill
+end
+
+map river
+river_out
+end
+
+map pass_enter
+pass_out
+end
+map pass_artist
+pass_out
+end
+
+map white_tunnel
+anotherbeach
+end
+
+map cliff
+cliff_out
+end
+
+map hill_g1_1
+hill_out
+end
+
+map hill_g1_2
+hill_in
+end
+map hill_g1_3
+hill_in
+end
+

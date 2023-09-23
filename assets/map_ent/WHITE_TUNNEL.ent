@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 0 467784 index=7 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+Door 3184 48 406545 index=3 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="MAPTHREE" next_cam_offset="0,0"
+SavePoint 2976 368 286726 autosaves=0
+SavePoint 144 240 753658 autosaves=0
+GenericNPC 64 224 261044 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,23" debug_name="" children="" id="dev_info"
+GenericNPC 336 288 384356 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="orb_gate"
+FG2 START

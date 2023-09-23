@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 80 192 612845 AUTO_INDEX=1 behavior=1 dest_x=176 dest_map="EM_TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=144
+Door 144 144 5192 AUTO_INDEX=3 behavior=1 dest_x=0 dest_map="OLD_3" index=8 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+SavePoint 160 208 198823
+FG2 START

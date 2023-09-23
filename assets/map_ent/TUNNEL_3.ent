@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+GenericNPC 208 448 449637 always_scripted=1 debug_name="" context_int_csv=1 children="" map-scene-pos="" id="tunnel_train" has_dialogue=0
+BG2 START
+TrainTrigger 0 0 262670 id=0 event_id="none"
+FG2 START

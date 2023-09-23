@@ -1,0 +1,14 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 928 78473 index=1 AUTO_INDEX=0 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="KV_1" next_cam_offset="0,0"
+GenericNPC 192 912 813137 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="OLD_RADIO_CONSOLE" children="997842" id="old_final_debrief"
+RaiseWall 384 784 997842 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+Door 432 448 435230 index=0 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="KV_GOV" next_cam_offset="0,0"
+SavePoint 128 944 348733
+NewCamTrig 0 336 943596 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=42
+NewCamTrig 416 336 141587 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=42
+SongTrigger 640 848 153477 name="OLD_CITY_IN"
+SongTrigger 608 848 68837 name="OLD_CITY_RADIO"
+GenericNPC 296 928 972158 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="screen_kv"
+FG2 START

@@ -1,0 +1,39 @@
+BBG START
+BG1 START
+BG2 START
+MovePod 560 256 498889 launch_vel=350 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 560 112 241278 launch_vel=350 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 656 112 236049 launch_vel=350 tm_reset=0.5 launch_dir=7 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 656 256 751512 launch_vel=350 tm_reset=0.5 launch_dir=7 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+Spike 496 32 560907 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 496 80 789368 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+MovePod 560 608 484334 launch_vel=350 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 560 544 928989 launch_vel=350 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 560 464 88762 launch_vel=350 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 560 368 714033 launch_vel=350 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 656 368 474913 launch_vel=350 tm_reset=0.5 launch_dir=7 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 656 464 332857 launch_vel=350 tm_reset=0.5 launch_dir=7 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 656 544 334711 launch_vel=350 tm_reset=0.5 launch_dir=7 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 656 608 199437 launch_vel=350 tm_reset=0.5 launch_dir=7 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 352 368 901670 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 304 304 583437 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 368 240 55184 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 304 176 561544 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 304 240 201646 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 224 320 302971 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 224 240 676483 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 224 160 107495 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 144 240 293322 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 80 240 527902 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 144 304 801772 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 144 176 19512 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+RaiseWall 208 448 760578 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=1 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+RaiseWall 208 496 732268 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=3 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 32 112 659550 t_wait=0 vistype=1 damage=1 children="760578"
+Button 384 112 19953 t_wait=0 vistype=1 damage=1 children="732268"
+MovePod 384 368 43767 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+Door 752 32 214772 index=1 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_SILO_2" next_cam_offset="0,0"
+GenericNPC 352 656 121407 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv="0,0" debug_name="BOMB_EARTH" children="" id="old_bomb_holder"
+SavePoint 688 672 386098
+Door 208 704 87007 index=9 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+FG2 START

@@ -1,0 +1,147 @@
+BBG START
+BG1 START
+BG2 START
+NewWaterShooter 160 272 974358 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=4 fall_dampen=3.2
+NewWaterShooter 368 240 300047 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+Pod 208 304 696992 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 304 240 273233 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 288 160 438192 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 288 144 19399 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 288 128 298702 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 288 112 374315 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 48 160 868017 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,247" id="sign1" has_dialogue=1
+Pod 416 160 914415 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 432 160 359467 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 448 160 997030 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 64 272 366189 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 288 322649 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 304 861454 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+NewWaterShooter 256 272 166867 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=4 fall_dampen=3.2
+Pod 416 320 610075 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 432 320 988876 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 448 320 958957 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 1344 176 851463 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 816 608 5902 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 1344 112 207570 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 928 608 660147 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+GenericNPC 1104 240 910910 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,248" id="sign1" has_dialogue=1
+CameraTrigger 1072 48 237709 enter="1104,48,1648,176" exit="1104,192,1648,192" nrenter=2 nrexit=2 width=416 vistype=1 height=256
+Floater 768 176 532394 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 768 80 209244 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 768 112 582444 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 768 96 130242 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 880 176 803610 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 896 176 729358 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 912 176 116412 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 912 128 888000 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 928 128 574827 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 624 240 803821 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,249" id="sign1" has_dialogue=1
+CameraTrigger 592 48 555536 enter="624,176,976,176" exit="624,192,976,192" nrenter=2 nrexit=2 width=416 vistype=1 height=256
+GenericNPC 704 240 590872 always_scripted=0 debug_name="THE_PURPOSE_OF_THE_CAMERA_LOCK_IS_TO_SHOW_THE_PLAYER_THEY_ARENT_MISSING_ANYTHING_ON_THE_LOWER_PATH_SO_IF_THEY_JUST_MAKE_THE_JUMP_THEY_WONT_BE_TEMPTETED_TO_CHECK_IF_THEY_MISSED_SOMETHING" context_int_csv="0,0" children="" map-scene-pos="p,dj,250" id="sign1" has_dialogue=1
+Floater 1440 144 912623 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 1456 64 11223 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1408 256 834093 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1424 256 726590 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1440 256 107559 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1584 128 471571 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1600 128 682823 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1568 224 996601 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1568 192 264043 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1568 208 576293 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1424 64 144720 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 1344 80 90925 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Floater 1296 256 726940 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 1184 256 564992 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1200 256 506244 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1216 256 598019 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+NewWaterShooter 160 560 383099 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=4 fall_dampen=3.2
+NewWaterShooter 320 560 538307 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=5 fall_dampen=3.2
+Pod 384 528 61167 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 512 528 559305 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+NewWaterShooter 448 560 16125 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=5 fall_dampen=3.2
+CameraTrigger 64 416 583704 enter="80,592" exit="608,592" nrenter=1 nrexit=1 width=416 vistype=1 height=256
+GenericNPC 32 592 81239 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,251" id="sign1" has_dialogue=1
+Pod 240 544 459635 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 256 544 181266 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 448 432 635964 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 464 432 195263 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 432 432 405551 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 544 432 357126 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 544 448 442260 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 544 464 662218 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Floater 1008 608 818852 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1120 608 837736 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 960 592 389354 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+Pod 1056 592 1147 children="" AUTO_ORIENT=0 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+Pod 864 608 658682 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 880 608 160479 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1040 608 813211 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1088 608 259671 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Floater 752 544 158276 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 816 480 78252 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 800 480 19400 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 1184 544 228580 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 1120 480 664435 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1104 480 965288 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1136 480 621510 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1152 480 769795 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 784 480 499429 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 832 480 383750 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 1392 832 273648 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1392 752 839565 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1392 672 365392 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1392 592 634474 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1392 512 369230 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1392 432 913448 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1392 912 856630 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+GenericNPC 1328 896 432725 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,252" id="sign1" has_dialogue=1
+GenericNPC 704 592 101652 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,253" id="sign1" has_dialogue=1
+Floater 1600 832 525887 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1600 752 217539 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1600 672 108497 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1600 592 793174 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1600 512 895151 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1600 432 840966 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1600 912 236941 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 1616 864 160254 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1584 624 545647 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1584 464 856828 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1584 480 47705 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1536 896 539171 always_scripted=0 debug_name="SAFE_VERSION_IS_FUN_AND_ALSO_PREPS_YOU_FOR_DANGEROUS_VERSION" context_int_csv="0,0" children="" map-scene-pos="p,dj,254" id="sign1" has_dialogue=1
+Pod 1616 784 631591 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1616 800 757022 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1584 544 22330 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+NewWaterShooter 1840 192 924826 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=10 fall_dampen=3.2
+NewWaterShooter 1936 192 842175 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=10 fall_dampen=3.2
+NewWaterShooter 2064 192 709564 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=10 fall_dampen=3.2
+Pod 1888 320 427641 children="" AUTO_ORIENT=0 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+Pod 2000 320 27037 children="" AUTO_ORIENT=0 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+Pod 1984 336 575938 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2032 336 76733 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 1760 112 728926 always_scripted=0 debug_name="IGNORE--NOT_A_FORMED_IDEA" context_int_csv="0,0" children="" map-scene-pos="p,dj,255" id="sign1" has_dialogue=1
+NewWaterShooter 2016 560 111042 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+Pew 1952 576 835837 bspd=60 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern=1 white_no_dmg=0 vistype=1 mb=100 fint=0.4
+NewWaterShooter 2160 560 695801 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+NewWaterShooter 2304 560 105631 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+Pod 2272 496 357343 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2272 512 937819 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2272 480 566789 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 1760 624 842057 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,256" id="sign1" has_dialogue=1
+NewWaterShooter 1840 560 335277 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+NewWaterShooter 160 944 534557 extra_shield_push=13 accel=13 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+Floater 96 864 720493 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 64 848 588232 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 864 523387 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 880 473432 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 896 313115 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 960 173302 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 976 706879 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 112 1024 568688 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 96 1024 588307 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Floater 192 816 600483 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 256 816 79284 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+SapPad 224 832 939010 children="548205" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 320 800 548205 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=24
+GenericNPC 320 1008 445335 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,257" id="sign1" has_dialogue=1
+Door 432 96 283525 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_6" index=6 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

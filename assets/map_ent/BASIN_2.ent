@@ -1,0 +1,39 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 0 990340 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BASIN_1" next_cam_offset="0,0"
+Door 192 1136 655858 index=1 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="BASIN_3" next_cam_offset="0,0"
+SquishBounce 1168 576 475874 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+SquishBounce 1088 656 47893 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+Pod 672 320 490476 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=3 damage=24 children=""
+Pod 672 336 16308 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 576 368 144488 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 576 352 345767 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=1 damage=24 children=""
+Pod 480 368 322086 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 496 368 902469 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 1136 432 773666 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 1152 432 774755 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 1168 432 921820 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 976 768 451683 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=2 damage=24 children=""
+Pod 960 768 186118 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=2 damage=24 children=""
+Pod 1120 592 168833 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 1136 592 282014 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 1040 576 230133 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=3 damage=24 children=""
+Pod 1040 592 273472 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=3 damage=24 children=""
+SoundZone 176 256 849968 tile_w=16 type="rock" revert_on_exit=0 tile_h=11 wall_type="rock"
+SquishBounce 560 272 253413 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 704 224 183494 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 736 272 332555 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 752 320 975294 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 880 256 426910 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 928 336 888065 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 960 368 210282 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 1008 400 308336 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=0
+Pod 816 320 781013 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+SquishBounce 608 320 513321 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 1248 496 615961 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 1072 768 64924 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 928 688 596413 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+SquishBounce 1008 656 124551 hitbox_w=32 GNPC_ID="TREE_NUB" x_slow=-1 is_cloud=0 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=0
+FG2 START
+LineCollider 192 352 816596 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,84,4,100,14,240,32" invis=1

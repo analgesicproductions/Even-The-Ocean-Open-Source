@@ -1,0 +1,47 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 2080 446599 index=7 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 448 2320 286061
+Wind 496 1808 204129 h=288 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=256 speed=140
+Pod 368 2096 75961 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 2048 737913 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 2032 909262 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 2128 353617 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 2112 599824 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 2224 376178 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 656 2256 649770 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 608 2256 204182 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 1776 52266 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 1776 132313 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 1776 186123 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 768 1794 765896 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 480 1968 686364 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 480 2016 933492 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Wind 464 1408 679585 h=64 req_energy=0 angle=250 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=100
+Pod 624 2032 617752 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 2000 989631 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 1952 324625 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 768 1536 204048 index=0 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL2" next_cam_offset="0,0"
+HurtOutlet 624 1632 981633 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 608 1616 336066 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+Door 768 1136 259831 index=1 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL2" next_cam_offset="0,0"
+Wind 768 928 394433 h=160 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=120
+Pew 768 1072 195646 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+HurtOutlet 384 944 701651 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 384 976 157434 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 384 912 275028 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 384 784 693892 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 384 752 496739 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 384 720 265708 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+Door 768 160 442709 index=1 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL3" next_cam_offset="0,0"
+GasCloud 318 2182 388431 type=0 vel=50
+GenericNPC 208 2304 701993 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_1_pile"
+GenericNPC 272 2272 438265 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="g1_1_pile"
+SavePoint 112 2320 73831
+GenericNPC 608 416 434974 has_dialogue=1 map-scene-pos="p,dj,265" always_scripted=0 context_int_csv="0,0" debug_name="WOW_A_BRANCHING_PATH,,,_PRETTY_COOL_RIGHT,_DID_YOU_GO_RIGHT_OR_LEFT" children="" id="joni"
+GenericNPC 656 400 636592 has_dialogue=1 map-scene-pos="p,dj,266" always_scripted=0 context_int_csv="0,0" debug_name="WE_REALIZED_THAT_THIS_SORT_OF_BRANCHING_WAS_ACTUALLY_NOT_THAT_INTERESTING,_SO_INSTEAD_WE_TRIED_TO_DESIGN_PRIMARILY_LINEAR_CHALLENGES_THAT_COULD_BE_SURMOUNTED_IN_A_GRADATION_OF_WAYS" children="" id="joni"
+GenericNPC 704 400 608329 has_dialogue=1 map-scene-pos="p,dj,267" always_scripted=0 context_int_csv="0,0" debug_name="WE_WANTED_YOU_TO_THINK,_HOW_WILL_I_APPROACH_THIS_CHALLENGE,_NOT,_WHAT_AM_I_MISSING_ON_THE_OTHER_SIDE" children="" id="joni"
+GenericNPC 176 2304 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,52" debug_name="" children="" id="dev_info"
+GenericNPC 608 1216 878043 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,54" debug_name="" children="" id="dev_info"
+FG2 START

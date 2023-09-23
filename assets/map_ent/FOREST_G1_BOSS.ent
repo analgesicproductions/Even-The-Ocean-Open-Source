@@ -1,0 +1,70 @@
+BBG START
+BG1 START
+BG2 START
+Door 496 0 120140 index=13 AUTO_INDEX=9 behavior=0 type=4 script="" dest_x=-1 dest_y=-4 s_visited=1 custom_size="0,0" dest_map="FOREST_G1" next_cam_offset="0,0"
+PlantBlock 128 576 97449 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 112 96 389012 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="31630"
+Wind 48 240 344797 h=16 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=10
+Wind 48 144 369380 h=32 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=20
+Pod 80 544 915481 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 560 177956 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BubbleSpawner 112 448 809180 vistype=0 bubble_type=0
+Pod 48 336 910922 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 48 320 230501 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 544 21846 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 560 482586 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 480 692351 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 496 22005 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 512 417059 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SapPad 352 496 272606 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=1 dmg=1 children=""
+Mole 352 480 623147 init_dir=1 max_energy=32 init_energy=16 vel_bounds="50,100,50,100" turns_right=1
+SapPad 288 544 243202 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="272606,396086"
+Pew 688 528 117963 fint_TICKS=-1 fint=1.2 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=3 mb=4 bspd=140 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 512 560 184625 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 592 560 970554 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlockAccepter 752 560 680610 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="31630"
+MoleTile 448 480 968362 behavior=-1 off=0 dir=3
+MoleTile 448 384 373151 behavior=-1 off=0 dir=1
+MoleTile 480 384 894651 behavior=-1 off=0 dir=2
+MoleTile 480 480 746642 behavior=-1 off=0 dir=0
+MoleTile 512 480 680952 behavior=-1 off=0 dir=3
+MoleTile 512 384 107229 behavior=-1 off=0 dir=1
+MoleTile 592 384 631618 behavior=-1 off=0 dir=2
+MoleTile 544 480 346384 behavior=-1 off=0 dir=0
+RaiseWall 688 432 720931 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=2 init_state=0 needed_en=4 permanent_open=1 s_open=0 children=""
+RaiseWall 320 512 396086 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=18 permanent_open=1 s_open=0 children=""
+ShockFloat 192 192 500459 t_off=1.5 float_vel=50 vistype=0 t_on=0.5 t_hurt=0.02
+PlantBlock 160 176 236845 behavior=1 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 400 64 136952 vis-dmg="0,0" behavior=1 init_state=0 s_on=1 children="31630"
+ShockFloat 336 144 62656 t_off=1.5 float_vel=50 vistype=0 t_on=0.5 t_hurt=0.02
+Pew 240 384 426427 fint_TICKS=-1 fint=1 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 304 288 959807 fint_TICKS=-1 fint=1.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+PlantBlockAccepter 528 352 28379 vis-dmg="0,0" behavior=1 init_state=0 s_on=0 children="31630"
+MoleTile 592 432 962411 behavior=-1 off=0 dir=3
+MoleTile 544 432 48228 behavior=-1 off=0 dir=1
+RaiseWall 656 32 51533 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+EdgeDoor 496 32 296402 is_wide=1 vistype=0 only_open_dir=0
+PlantBlockAccepter 112 320 536904 vis-dmg="0,0" behavior=1 init_state=0 s_on=0 children="31630"
+PlantBlock 688 352 81559 behavior=2 float_dis=24 dir=0 vis-dmg="0,0"
+Pod 544 256 295087 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlockAccepter 1200 192 30290 vis-dmg="0,0" behavior=2 init_state=0 s_on=1 children="31630"
+FollowLaser 992 32 661881 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=120 is_dream=0 tracked_axis="x" is_fixed=1
+ShockFloat 928 416 229060 t_off=0.5 float_vel=50 vistype=0 t_on=0.5 t_hurt=0.02
+PlantBlockAccepter 1248 400 544504 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="31630"
+ShockFloat 1120 352 159503 t_off=0.5 float_vel=50 vistype=0 t_on=0.5 t_hurt=0.02
+Pod 1200 336 832073 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1200 320 981574 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1184 320 361298 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 912 448 454385 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 912 464 1547 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 912 480 433264 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 448 240 31630 energy=2 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=5 permanent_open=1 s_open=0 children=""
+Door 496 240 461579 index=24 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 496 128 787521
+GenericNPC 400 112 824316 has_dialogue=1 map-scene-pos="p,dj,113" always_scripted=0 context_int_csv="0,0" debug_name="WELCOME_TO_THE_FOREST_BOSS_ROOM,_THIS_AREA_ACTUALLY_HAS_SOME_PRETTY_NEAT,,,BUT_TOO_FINICKY,,,_DESIGN_IN_IT" children="" id="joni"
+GenericNPC 720 320 633755 has_dialogue=1 map-scene-pos="p,dj,114" always_scripted=0 context_int_csv="0,0" debug_name="WE_CUT_ROTATIONAL_CRYSTAL_LENSES_FROM_THE_FINAL_GAME,_SO_THERES_NO_PROPER_ART_FOR_THE_RECEPTORS,,,_SO_I_JUST_DREW_THESE_BLUE_LINES_THAT_WILL_GUIDE_YOU_WHERE_YOU_NEED_TO_TAKE_THEM" children="" id="joni"
+SapPad 720 416 739902 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="720931"
+SapPad 592 496 181590 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children=""
+GenericNPC 416 240 399519 has_dialogue=1 map-scene-pos="p,dj,115" always_scripted=0 context_int_csv="0,0" debug_name="WHEN_YOUVE_PLACED_ENOUGH_CRYSTAL_LENSES,_EXIT_HERE" children="" id="joni"
+AliphItem 624 656 597572 removes=0 vis_set=0 id=38
+FG2 START

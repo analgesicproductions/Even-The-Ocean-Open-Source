@@ -1,0 +1,56 @@
+BBG START
+Door 624 64 888423 index=1 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_DOWN" next_cam_offset="0,0"
+BG1 START
+Weed 432 944 531587 vistype=0 dir=0
+Pod 400 924 739651 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 880 362159 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 900 97276 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RubberLaser 528 1360 624201 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=12
+BG2 START
+WaterShooter 170 1536 182245 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-400
+Weed 224 1536 896022 vistype=0 dir=0
+Weed 240 1536 887608 vistype=0 dir=0
+Weed 288 1536 937629 vistype=0 dir=0
+Weed 272 1536 427992 vistype=0 dir=0
+Door 40 -12 136218 index=-1 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=1098 dest_y=647 s_visited=1 custom_size="0,0" dest_map="SHOREPLACEB" next_cam_offset="0,0"
+Pod 96 688 999973 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 672 329250 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 144 672 325687 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 16 496 282102 fint_TICKS=-1 fint=0.15 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=1 mb=3 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 144 512 516217 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 160 528 198946 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 176 528 903718 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 512 102100 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 16 512 221768 fint_TICKS=-1 fint=0.15 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=1 mb=3 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 368 1232 181040 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 384 1184 934243 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+HurtOutlet 0 880 145696 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 0 928 887163 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 0 816 750942 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+Pod 16 1008 85772 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 1072 551121 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+HurtOutlet 96 880 646267 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 96 944 367543 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+Pod 16 1200 475863 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 16 1296 546679 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 16 1376 55035 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 1072 201311 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 1088 514226 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 448 1024 142965 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 512 1040 400387 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 576 768 51664 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+HurtOutlet 432 704 939102 init_wait=0 dmgtype=1 tm_off=0.5 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 560 688 175194 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 560 608 774902 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+EdgeDoor 32 16 342066 is_wide=1 vistype=0 only_open_dir=-1
+EdgeDoor 608 64 53519 is_wide=0 vistype=0 only_open_dir=-1
+RubberLaser 400 176 825024 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=2 tact=2 damage=12
+RubberLaser 176 104 225712 vtype=0 tinact=0.3 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=12
+RubberLaser 176 200 965033 vtype=0 tinact=0.3 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=12
+RubberLaser 192 280 370853 vtype=0 tinact=0.3 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=12
+RubberLaser 208 348 42858 vtype=0 tinact=0.3 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=12
+RubberLaser 400 376 375515 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=2 tact=2 damage=12
+RubberLaser 400 248 918346 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=2 tact=2 damage=12
+GenericNPC 112 432 552910 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,50" debug_name="" children="" id="dev_info"
+FG2 START
+SavePoint 32 80 717532

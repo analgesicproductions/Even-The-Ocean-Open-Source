@@ -1,0 +1,25 @@
+BBG START
+BG1 START
+BG2 START
+EdgeDoor 64 336 574263 is_wide=0 vistype=0 only_open_dir=-1
+RaiseWall 304 320 357042 energy=32 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=32 permanent_open=1 s_open=1 children=""
+RaiseWall 304 352 900976 energy=64 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=64 permanent_open=1 s_open=1 children=""
+RaiseWall 304 288 451428 energy=32 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=32 permanent_open=1 s_open=1 children=""
+OrbSlot 480 288 388348 transmit_en=16 vis=1 angle=0 children="787258,451428" needed_en=0
+Pew 176 336 102841 fint_TICKS=-1 fint=0.125 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=1 mb=15 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=11110000
+RaiseWall 576 288 787258 energy=32 is_wide=0 raise_distance=16 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=1 children=""
+MirrorLaser 496 176 675391 t_shoot=0.25 init_wait=0 pattern=1 vel=130 dir=2 vis-dmg="0,0" dmg=48 t_TICKS=0
+Pew 592 304 615179 fint_TICKS=-1 fint=0.25 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=3 mb=10 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=22220000
+MirrorLaser 416 176 483159 t_shoot=1 init_wait=0 pattern=1 vel=130 dir=3 vis-dmg="0,0" dmg=48 t_TICKS=0
+OrbSlot 224 192 177545 transmit_en=16 vis=1 angle=0 children="357042,74986" needed_en=0
+SapPad 144 320 860820 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="900976"
+RaiseWall 144 304 74986 energy=32 is_wide=1 raise_distance=64 vistype=0 raise_dir=3 init_state=0 needed_en=32 permanent_open=1 s_open=1 children=""
+Pew 144 176 251583 fint_TICKS=-1 fint=0.5 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 48 224 302785 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 48 208 314622 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 0 336 576992 index=3 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SILO1_2" next_cam_offset="0,0"
+GenericNPC 448 544 266257 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv=2 debug_name="BOMB_SEA" children="" id="old_bomb_holder"
+SavePoint 96 352 599570
+Door 320 544 12403 index=10 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+GenericNPC 32 336 895746 has_dialogue=1 map-scene-pos="p,dj,261" always_scripted=0 context_int_csv="0,0" debug_name="SORRY" children="" id="joni"
+FG2 START

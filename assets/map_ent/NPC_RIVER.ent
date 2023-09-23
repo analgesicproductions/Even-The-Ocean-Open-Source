@@ -1,0 +1,79 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 144 96 945049 always_scripted=0 debug_name="FUNGUS" context_int_csv="0,0" children="" map-scene-pos=0 id="fungus" has_dialogue=1
+GenericNPC 272 128 105995 always_scripted=0 debug_name="DAMIEN" context_int_csv="0,0" children="" map-scene-pos=0 id="river_old_man" has_dialogue=1
+GenericNPC 16 112 686012 always_scripted=0 debug_name="HIGH_GUY" context_int_csv="0,0" children="" map-scene-pos=0 id="high_guy" has_dialogue=1
+GenericNPC 64 112 71603 always_scripted=0 debug_name="LOW_GUY" context_int_csv="0,0" children="" map-scene-pos=0 id="low_guy" has_dialogue=1
+GenericNPC 16 176 839863 always_scripted=0 debug_name="SIGN" context_int_csv="0,0" children="" map-scene-pos=0 id="river_welcome_sign" has_dialogue=1
+GenericNPC 112 160 832649 always_scripted=0 debug_name="TROPHY_OLD" context_int_csv="0,0" children="" map-scene-pos="RIVER,TROPHY_1,0" id="trophy_old" has_dialogue=1
+GenericNPC 192 160 849881 always_scripted=0 debug_name="TROPHY_YOUNG" context_int_csv="0,0" children="" map-scene-pos="_" id="trophy_young" has_dialogue=1
+GenericNPC 64 176 955066 always_scripted=0 debug_name="PARK_SIGN" context_int_csv="0,0" children="" map-scene-pos=0 id="river_park_sign" has_dialogue=1
+GenericNPC 304 160 438695 always_scripted=0 debug_name="TABLE_GUY" context_int_csv="0,0" children="" map-scene-pos="_" id="table_dude" has_dialogue=1
+GenericNPC 384 160 368930 always_scripted=1 debug_name="GUARD" context_int_csv="0,0" children="" map-scene-pos="" id="river_guard" has_dialogue=0
+RaiseWall 448 160 375734 children="368930" energy=16 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=1 needed_en=16
+GenericNPC 464 112 856422 always_scripted=0 debug_name="FOODLOCKER" context_int_csv="0,0" children="" map-scene-pos="RIVER,STORAGE,0" id="river_foodlocker" has_dialogue=1
+GenericNPC 512 112 917446 always_scripted=0 debug_name="MEDS" context_int_csv="0,0" children="" map-scene-pos="RIVER,STORAGE,1" id="river_meds" has_dialogue=1
+GenericNPC 560 112 317623 always_scripted=0 debug_name="CLARISEED" context_int_csv="0,0" children="" map-scene-pos="RIVER,STORAGE,2" id="river_clariseed" has_dialogue=1
+GenericNPC 624 112 966921 always_scripted=0 debug_name="XXXMAGS" context_int_csv="0,0" children="" map-scene-pos="RIVER,STORAGE,3" id="river_xxx" has_dialogue=1
+GenericNPC 560 160 66729 always_scripted=0 debug_name="SHEARS" context_int_csv="0,0" children="" map-scene-pos="RIVER,STORAGE,4" id="river_shears" has_dialogue=1
+GenericNPC 512 160 420968 always_scripted=0 debug_name="MATCHES" context_int_csv="0,0" children="" map-scene-pos="RIVER,STORAGE,7" id="river_matches" has_dialogue=1
+SapPad 400 208 612037 children="375734" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 432 192 890000 children="375734" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+Door 368 80 153468 AUTO_INDEX=0 behavior=1 dest_x=400 dest_map="NPC_RIVER" index=-1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=84
+GenericNPC 416 48 456711 always_scripted=0 debug_name="STORAGE_SIGN" context_int_csv="0,0" children="" map-scene-pos=0 id="river_storage_sign" has_dialogue=1
+GenericNPC 592 48 161164 always_scripted=0 debug_name="CAFE1" context_int_csv="0,0" children="" map-scene-pos="" id="river_cafe_1" has_dialogue=1
+GenericNPC 651 42 231525 always_scripted=0 debug_name="CAFE2" context_int_csv="0,0" children="" map-scene-pos="" id="river_cafe_2" has_dialogue=1
+GenericNPC 512 32 295066 always_scripted=1 debug_name="CAFE_OWNER" context_int_csv="0,0" children="" map-scene-pos="" id="river_cafe_owner" has_dialogue=0
+GenericNPC 208 96 300483 always_scripted=1 debug_name="FUNGUSBLOCK" context_int_csv="0,0" children="" map-scene-pos=0 id="fungus_blocker" has_dialogue=0
+SmashHand 144 256 641759 accel=1000 aggro_pos="-100,-100" aggro_dims="200,200" init_vel=150 dmg=64 dir=2 tm_pause=0.65 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+GenericNPC 112 32 99606 always_scripted=0 debug_name="TEST" context_int_csv="0,0" children="" map-scene-pos="TEST,LINETEST,0" id="test" has_dialogue=1
+TrainTrigger 480 16 14323 id=0 event_id="none"
+GenericNPC 336 256 48015 always_scripted=1 debug_name="CUTTEST" context_int_csv="0,0" children="" map-scene-pos="" id="hilltest" has_dialogue=0
+ArmLocker 272 416 546729 dir=0 vis-dmg="0,0" is_exit=0
+ArmLocker 416 416 24431 dir=0 vis-dmg="0,0" is_exit=1
+Pew 416 416 119772 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+ArmLocker 336 416 563235 dir=3 vis-dmg="0,0" is_exit=0
+ArmLocker 282 487 461178 dir=1 vis-dmg="0,0" is_exit=0
+ArmLocker 404 472 202025 dir=2 vis-dmg="0,0" is_exit=0
+LightBox 288 32 874487 alpha=0.8 density=0.28 coords="0,0,39,0,32,32,0,32" nr_gas_particles=15 minmax_vel="20,30" shapetype=2 particle_color="0xff0000" is_gas=0
+Pendulum 144 608 217431 extra_len=1 anim_name="test_star" line_alpha=0.8 l=96 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="1,1" vine_set="0" line_rgb="0xffffff"
+ExtendStem 576 720 726449 angle=180 accel=70 return_vel=25 tm_hurt=0.1 tile_width=3 vis-dmg="1,1" vel=50 deaccel=70
+ExtendStem 608 624 825235 angle=45 accel=70 return_vel=25 tm_hurt=0.1 tile_width=5 vis-dmg="1,1" vel=50 deaccel=150
+ExtendStem 544 688 995889 angle=90 accel=70 return_vel=25 tm_hurt=0.1 tile_width=3 vis-dmg="0,0" vel=50 deaccel=150
+ExtendStem 386 696 117218 angle=0 accel=70 return_vel=25 tm_hurt=0.1 tile_width=3 vis-dmg="1,1" vel=50 deaccel=150
+Spike 496 624 663042 bounce_vel_max=250 bounce_vel_min=150 dir=0 bounce_vel_mid=200 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 480 624 155086 bounce_vel_max=250 bounce_vel_min=150 dir=0 bounce_vel_mid=200 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 512 624 398838 bounce_vel_max=250 bounce_vel_min=150 dir=0 bounce_vel_mid=200 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 336 560 322714 bounce_vel_max=250 bounce_vel_min=150 dir=1 bounce_vel_mid=200 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 432 560 792994 bounce_vel_max=250 bounce_vel_min=150 dir=3 bounce_vel_mid=200 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 384 512 783832 bounce_vel_max=250 bounce_vel_min=150 dir=2 bounce_vel_mid=200 hor_bounce_vel=166 vistype=0 dmgtype=0
+RubberLaser 528 560 717217 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+GenericNPC 688 480 185446 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="TEST,YES_HOLD,0" id="sign1" has_dialogue=1
+GhostLight 592 528 113719 is_ghost=0 light_radius=32 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=60 tm_hurt=0.1
+GhostLight 496 464 568528 is_ghost=1 light_radius=32 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=60 tm_hurt=0.1
+SapPad 576 512 113713 children="113719" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 608 512 145172 children="113719" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+WalkPod 736 448 730537 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+WalkPod 704 416 829858 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkPod 736 384 989338 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=1 dir=2
+WalkPod 768 416 714141 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=1 dir=3
+WalkPod 576 416 14966 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=1 dir=0
+WalkPod 624 416 713154 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 608 288 972973 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=10 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 736 320 259707 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+WalkPod 704 288 620827 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkPod 736 256 933964 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=1 dir=2
+WalkPod 768 288 510016 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=1 dir=3
+WalkPod 656 256 271653 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=15 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=3
+WalkPod 576 400 488128 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 640 352 251164 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=1 dir=0
+WalkPod 624 400 677923 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=15 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=1 dir=2
+WalkPod 592 288 239476 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=10 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 576 288 387961 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=10 dmg=48 tm_dead=2 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+AliphItem 416 112 769967 id=15 vis_set=0 removes=1
+AliphItem 224 58 501957 id=15 vis_set=0 removes=0
+AliphItem 432 112 676554 id=13 vis_set=0 removes=1
+AliphItem 249 60 730789 id=13 vis_set=0 removes=0
+Door 752 192 780031 AUTO_INDEX=1 behavior=1 dest_x=1 dest_map="OLD_5" index=11 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

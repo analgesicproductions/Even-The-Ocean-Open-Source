@@ -1,0 +1,40 @@
+BBG START
+BG1 START
+BG2 START
+Cauliflower 864 896 805638 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 784 800 603958 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Pod 736 736 410632 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 736 928318 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 736 752 94239 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Cauliflower 448 752 116137 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=5
+Spike 704 720 96342 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 720 720 984514 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 640 688 590991 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 656 688 505755 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Bouncer 560 1024 563846 u_or_r=1 is_hor=1
+Cauliflower 384 480 516927 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=5
+Spike 512 464 168906 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 512 480 500007 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Bouncer 432 592 565953 u_or_r=1 is_hor=1
+Cauliflower 688 448 32959 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=5
+Cauliflower 736 512 334258 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=5
+Bouncer 816 192 896308 u_or_r=0 is_hor=0
+Cauliflower 608 288 141698 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=5
+Cauliflower 704 304 416322 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=5
+Cauliflower 528 304 795108 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=5
+Cauliflower 288 192 254798 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=5
+Cauliflower 512 144 591205 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=5
+SapPad 608 96 862164 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="730132"
+RaiseWall 512 64 730132 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+Door 112 1104 206164 index=0 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=0 dest_y=16 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_4" next_cam_offset="0,0"
+EdgeDoor 96 1088 95975 is_wide=1 vistype=0 only_open_dir=-1
+EdgeDoor 1088 464 942216 is_wide=0 vistype=0 only_open_dir=-1
+Door 1104 464 780118 index=3 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_2" next_cam_offset="0,0"
+Door 96 1104 123188 index=0 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_4" next_cam_offset="0,0"
+Pod 800 1008 892508 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 820 1026 631016 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 793 1028 955920 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 1040 480 75822
+SavePoint 224 208 16766
+GenericNPC 912 1008 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,69" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,66 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 96 864101 index=4 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=-2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_G1_3" next_cam_offset="0,0"
+BubbleSpawner 336 176 918347 vistype=0 bubble_type=0
+PlantBlock 272 240 223884 behavior=2 float_dis=36 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 448 240 945524 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="785034"
+PlantBlockAccepter 496 304 160668 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="785034"
+Pod 464 96 245537 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 96 74406 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 96 334114 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 96 304728 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 256 624201 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+EdgeDoor 432 272 246041 is_wide=0 vistype=0 only_open_dir=1
+RubberLaser 240 384 81191 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=1.4 face_l_no_dmg=0 dir=0 tact=2 damage=8
+RubberLaser 48 304 932541 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=2 tact=2 damage=8
+PlantBlock 32 240 81714 behavior=2 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 144 512 312870 vis-dmg="0,0" behavior=1 init_state=0 s_on=0 children="785034"
+Pod 64 176 639060 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 160 952902 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 160 207747 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 160 240933 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RubberLaser 320 624 689751 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=1.4 face_l_no_dmg=0 dir=0 tact=1 damage=8
+Pod 64 656 342921 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 656 82349 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 512 806941 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 528 786161 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 544 926606 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 160 576 828134 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 176 576 606738 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 576 437327 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 256 576 471789 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 272 576 38489 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 656 724457 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 656 268863 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlockAccepter 384 688 825359 vis-dmg="0,0" behavior=1 init_state=0 s_on=0 children="785034"
+Pod 288 576 940899 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 320 576 622849 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+EdgeDoor 432 656 248816 is_wide=0 vistype=0 only_open_dir=-1
+PlantBlock 400 624 871287 dir=0 vis-dmg="0,0" behavior=3 children="170067" float_dis=24
+PlantBlockAccepter 128 240 444507 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="785034"
+HurtOutlet 576 688 865487 init_wait=0 dmgtype=0 tm_off=1 tm_on=1 dmg=24 vistype=0
+HurtOutlet 640 576 253518 init_wait=0 dmgtype=0 tm_off=1 tm_on=1 dmg=24 vistype=0
+HurtOutlet 544 512 927408 init_wait=0 dmgtype=0 tm_off=1 tm_on=1 dmg=24 vistype=0
+EdgeDoor 672 304 183805 is_wide=1 vistype=0 only_open_dir=2
+PlantBlock 528 368 779347 behavior=3 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 736 176 157142 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="785034"
+HurtOutlet 656 496 939234 init_wait=0 dmgtype=0 tm_off=1 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 720 416 800143 init_wait=0 dmgtype=0 tm_off=1 tm_on=0.5 dmg=24 vistype=0
+Pod 512 400 377796 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 416 107512 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 432 141068 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 448 964325 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 464 24628 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 528 400 773484 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 432 178076 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 528 544 670265 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 512 568554 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 768 336 898793 has_dialogue=1 map-scene-pos="DEMO,SIGN,23" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_end"
+RaiseWall 336 416 785034 energy=4 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=1 needed_en=4 permanent_open=1 s_open=1 children=""
+Door 416 416 446501 index=5 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 80 112 420497
+GenericNPC 144 208 826079 has_dialogue=1 map-scene-pos="p,dj,45" always_scripted=0 context_int_csv="0,0" debug_name="HERES_THE_BOSS_ROOM,_BUT_IM_HAVING_A_HARD_TIME_PIECING_TOGETHER_HOW_THIS_ALL_WAS_SUPPOSED_TO_WORK,,,_SO_I_OPENED_UP_THE_EXIT_IN_THE_CENTER_BACK_TO_THE_OVERWORLD,,," children="" id="joni"
+GenericNPC 368 416 192241 has_dialogue=1 map-scene-pos="p,dj,46" always_scripted=0 context_int_csv="0,0" debug_name="CONGRATS_ON_FINISHING_OLD_CANYON_WHOOO" children="" id="joni"
+AliphItem 800 768 567023 removes=0 vis_set=0 id=34
+FG2 START

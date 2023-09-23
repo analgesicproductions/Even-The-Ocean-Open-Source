@@ -1,0 +1,52 @@
+BBG START
+BG1 START
+Door 784 672 900737 index=1 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_5" next_cam_offset="0,0"
+EdgeDoor 752 672 833249 is_wide=0 vistype=0 only_open_dir=-1
+BG2 START
+EdgeDoor 384 16 584794 is_wide=1 vistype=0 only_open_dir=-1
+Door 394 -6 481115 index=3 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_1" next_cam_offset="0,0"
+Door 0 688 721502 index=1 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_3" next_cam_offset="0,0"
+EdgeDoor 32 688 836492 is_wide=0 vistype=0 only_open_dir=-1
+Bouncer 64 224 363214 u_or_r=1 is_hor=1
+Cauliflower 96 80 307206 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Button 96 64 414911 t_wait=1.5 vistype=1 damage=48 children="817088"
+Cauliflower 144 160 184846 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+RaiseWall 16 256 412820 energy=0 is_wide=0 raise_distance=16 vistype=1 raise_dir=1 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+RaiseWall 128 240 817088 energy=1 is_wide=1 raise_distance=32 vistype=1 raise_dir=1 init_state=0 needed_en=1 permanent_open=1 s_open=1 children=""
+Button 144 256 273038 t_wait=1.5 vistype=1 damage=48 children="262871"
+RaiseWall 160 32 262871 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 176 48 538375 t_wait=1.5 vistype=1 damage=48 children="87803"
+Pod 16 144 92629 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 128 567441 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 144 441390 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 48 32 87803 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 64 48 623800 t_wait=1.5 vistype=1 damage=48 children="412820"
+Cauliflower 48 496 878263 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 80 368 153196 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 192 432 416222 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 144 352 193522 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 48 368 48203 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 144 464 744009 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 224 464 668300 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+RaiseWall 160 528 279638 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+RaiseWall 384 496 801590 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=20 permanent_open=1 s_open=0 children=""
+RaiseWall 336 496 640156 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=10 permanent_open=1 s_open=0 children=""
+SapPad 304 528 376359 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="279638,640156"
+SapPad 368 528 595487 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=1 reverse=0 dmg=1 children="801590"
+Cauliflower 256 368 905867 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 112 448 418397 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+LaunchBug 560 640 166036 bul_dmg=20 is_up=0 launch_vel=100 ishor=1 vistype=0 is_left=0 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+LaunchBug 560 656 810397 bul_dmg=20 is_up=0 launch_vel=150 ishor=1 vistype=1 is_left=0 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=80
+Cauliflower 48 656 8820 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 112 656 419528 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 176 672 340095 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Door 704 64 944122 index=1 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_TUBE" next_cam_offset="0,0"
+Pod 704 624 495336 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 544 392307 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 448 196107 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 352 256329 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 256 657127 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 400 80 481000
+SavePoint 16 448 568723
+GenericNPC 208 80 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,68" debug_name="" children="" id="dev_info"
+FG2 START

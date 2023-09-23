@@ -1,0 +1,68 @@
+BBG START
+BG1 START
+BG2 START
+Door 784 1936 31615 AUTO_INDEX=1 custom_size="0,0" behavior=0 dest_x=1 dest_map="CANYON_B" index=1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=14
+Door 784 1344 748653 AUTO_INDEX=3 custom_size="0,0" behavior=0 dest_x=32 dest_map="CANYON_G1" index=-1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=632
+Door 784 800 641510 AUTO_INDEX=5 custom_size="0,0" behavior=0 dest_x=32 dest_map="CANYON_G1" index=-1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=88
+Wind 384 848 435802 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=80 speed=40
+Wind 416 944 978258 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=64 speed=55
+Pod 512 752 571252 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 512 768 598072 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 480 768 935732 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 720 784 445504 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 704 768 45714 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 704 752 708249 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Spike 704 1184 112115 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 720 1184 144342 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 736 1184 816580 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 672 944 282197 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 672 976 440141 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 672 1008 607079 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 672 1040 162996 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 704 960 597709 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 704 992 610927 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 704 1024 256915 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 704 1056 263119 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Pew 688 1136 264370 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=0 mb=10 fint=0.4
+Wind 480 1344 672077 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=128 speed=55
+Wind 496 1264 81411 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=16 w=32 speed=50
+Spike 704 1264 339301 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Pod 672 1264 315503 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+CameraTrigger 384 1056 631511 enter="680,1056" exit="704,1136,656,1136" nrenter=1 nrexit=2 width=416 vistype=1 height=256
+Door 0 1936 509623 AUTO_INDEX=6 custom_size="0,0" behavior=0 dest_x=-1 dest_map="CANYON_3" index=1 s_visited=1 next_cam_offset="0,0" type=2 script="TOOL/DOORS/CANYON_G1_2.HX" dest_y=8
+Door 784 624 241344 AUTO_INDEX=8 custom_size="0,0" behavior=0 dest_x=1 dest_map="CANYON_G1_3" index=2 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 784 224 971813 AUTO_INDEX=7 custom_size="0,0" behavior=0 dest_x=1 dest_map="CANYON_G1_3" index=3 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+BarbedWire 128 720 544876 children="8607" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 384 1072 8607 children="644200" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 640 1120 644200 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 480 752 677976 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 736 784 675150 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+CameraTrigger 384 608 444407 enter="592,656,528,672" exit="576,640,592,736,608,640" nrenter=1 nrexit=3 width=416 vistype=1 height=256
+Wind 544 624 567974 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=32 speed=70
+Pod 656 528 71948 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 656 544 699791 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 656 560 918507 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 640 512 102845 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 672 576 422399 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+HurtOutlet 576 256 770623 dmg=24 init_wait=0 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 656 272 542017 dmg=24 init_wait=1.3 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 576 288 709336 dmg=24 init_wait=0 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 576 320 241908 dmg=24 init_wait=0 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 576 352 301317 dmg=24 init_wait=0 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 576 384 963322 dmg=24 init_wait=0 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 576 416 380977 dmg=24 init_wait=0 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 656 304 496922 dmg=24 init_wait=1.3 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 656 336 144892 dmg=24 init_wait=1.3 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 656 368 263653 dmg=24 init_wait=1.3 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 656 400 219562 dmg=24 init_wait=1.3 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+HurtOutlet 656 432 36605 dmg=24 init_wait=1.3 tm_off=1.6 vistype=0 tm_on=1 dmgtype=0
+Wind 640 352 171268 angle=90 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=16 speed=60
+Wind 592 288 883672 angle=90 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=16 speed=60
+Wind 640 224 418222 angle=90 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=16 speed=60
+Pod 672 464 103497 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 672 480 883936 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Spike 640 1872 841525 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+SavePoint 464 2032 287266
+GenericNPC 736 1936 140031 always_scripted=1 debug_name="DIFJ" context_int_csv=1 children="" map-scene-pos="" id="gauntletblocker" has_dialogue=0
+FG2 START
+Checkpoint 672 800 628343 gauntlet_id=2 vistype=0 leg_id=4

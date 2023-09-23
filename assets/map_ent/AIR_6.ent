@@ -1,0 +1,51 @@
+BBG START
+BG1 START
+BG2 START
+Broadcaster 144 320 346449 vel=150 vis-dmg="1,1" timer=0.5 children="671003,671003,264077,462610"
+Broadcaster 336 224 671003 vel=100 vis-dmg="0,0" timer=-1 children="264077"
+Broadcaster 448 160 264077 vel=100 vis-dmg="0,0" timer=-1 children="462610"
+Broadcaster 512 80 462610 vel=100 vis-dmg="0,0" timer=-1 children=0
+Broadcaster 368 32 977185 vel=100 vis-dmg="0,0" timer=-1 children="910067"
+Broadcaster 256 80 910067 vel=80 vis-dmg="0,0" timer=-1 children="121441"
+Broadcaster 160 144 121441 vel=100 vis-dmg="0,0" timer=0.5 children="914963"
+Broadcaster 32 160 914963 vel=100 vis-dmg="0,0" timer=-1 children=0
+Wind 256 48 331812 h=32 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=160 speed=100
+EdgeDoor 432 16 928720 is_wide=1 vistype=0 only_open_dir=-1
+Wind 160 112 828447 h=32 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=160 speed=100
+RevolveSpore 256 192 828859 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+AimSpore 128 368 205364 fixed_angle=220 nr_bounces=0 t_wait=0.5 vis-dmg="0,0" hold_ticks=30 damage=64 bul_vel=360
+Spike 48 592 377558 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+RevolveSpore 64 336 505287 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+RevolveSpore 112 416 785043 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+RevolveSpore 96 464 193554 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Spike 128 640 39625 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+RevolveSpore 464 752 477564 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+RevolveSpore 544 656 770328 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+RevolveSpore 432 592 189572 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+Button 96 64 348903 t_wait=0 vistype=0 damage=1 children="424001"
+RaiseWall 80 304 424001 energy=0 is_wide=1 raise_distance=48 vistype=0 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+SquishBounce 80 816 513864 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 192 832 140240 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 384 832 367056 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+Wind 128 528 706075 h=64 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=100
+Wind 48 512 216999 h=16 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=150
+AimSpore 160 400 161319 fixed_angle=310 nr_bounces=15 t_wait=0.5 vis-dmg="1,1" hold_ticks=30 damage=8 bul_vel=180
+SquishBounce 160 608 762032 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+BallDropper 256 528 687451 dampen=0.8 tm_shoot=1 nr_balls=3 vis-dmg="0,0" x_vel=140 y_accel=520 damage=32
+AimSpore 272 400 831609 fixed_angle=310 nr_bounces=15 t_wait=0.5 vis-dmg="1,1" hold_ticks=30 damage=8 bul_vel=180
+AimSpore 400 400 180659 fixed_angle=310 nr_bounces=15 t_wait=0.5 vis-dmg="1,1" hold_ticks=30 damage=8 bul_vel=180
+AimSpore 528 400 982120 fixed_angle=310 nr_bounces=15 t_wait=0.5 vis-dmg="1,1" hold_ticks=30 damage=8 bul_vel=180
+RevolveSpore 80 672 910215 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Spike 16 944 579010 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 48 688 936026 dmgtype=1 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+Spike 96 720 689620 dmgtype=1 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+RaiseWall 560 480 926465 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+EdgeDoor 688 16 910498 is_wide=1 vistype=0 only_open_dir=2
+BallDropper 608 80 492371 dampen=0.9 tm_shoot=1 nr_balls=3 vis-dmg="0,0" x_vel=140 y_accel=520 damage=32
+BallDropper 608 240 748729 dampen=0.9 tm_shoot=1 nr_balls=3 vis-dmg="0,0" x_vel=140 y_accel=520 damage=32
+BallDropper 608 384 853313 dampen=0.9 tm_shoot=1 nr_balls=3 vis-dmg="0,0" x_vel=140 y_accel=520 damage=32
+Button 240 368 972464 t_wait=1.5 vistype=1 damage=1 children="926465"
+Door 432 0 280323 index=15 AUTO_INDEX=0 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="AIR_4" next_cam_offset="0,0"
+Door 688 0 753844 index=1 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="AIR_4" next_cam_offset="0,0"
+GenericNPC 624 528 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,103" debug_name="" children="" id="dev_info"
+FG2 START

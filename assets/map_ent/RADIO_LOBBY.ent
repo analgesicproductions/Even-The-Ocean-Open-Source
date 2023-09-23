@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 112 505365 index=2 AUTO_INDEX=0 behavior=1 type=0 script="TOOL/DOORS/EXIT_RADIO.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_HI_1" next_cam_offset="0,0"
+Door 256 80 571283 index=0 AUTO_INDEX=1 behavior=1 type=0 script="TOOL/DOORS/ENTER_RADIO_CLIMB.HX" dest_x=-3 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RADIO_G1" next_cam_offset="0,0"
+Door 240 224 691185 index=1 AUTO_INDEX=2 behavior=1 type=0 script="TOOL/DOORS/ENTER_RADIO_DEPTH.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RADIO_D1" next_cam_offset="0,0"
+SavePoint 64 128 505740
+GenericNPC 144 112 127070 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,0" debug_name="" children="" id="dev_info"
+FG2 START

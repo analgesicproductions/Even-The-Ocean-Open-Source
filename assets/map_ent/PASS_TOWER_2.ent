@@ -1,0 +1,13 @@
+BBG START
+BG1 START
+BG2 START
+Door 296 192 478740 index=0 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="PASS_BUILDING_1" next_cam_offset="0,0"
+Door 360 80 418090 index=0 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="PASS_ROOF" next_cam_offset="0,0"
+Door 248 80 390048 index=1 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="PASS_BUILDING_1" next_cam_offset="0,0"
+Door 32 480 773469 index=0 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="PASS_BASEMENT" next_cam_offset="0,0"
+GenericNPC 384 192 878766 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 304 80 540384 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 64 80 425121 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 64 352 350288 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+FG2 START
+TileFader 32 416 505514

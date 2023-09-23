@@ -1,0 +1,32 @@
+BBG START
+BG1 START
+GenericNPC 560 320 406684 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children=0 id="radio_depth_core"
+GenericNPC 608 432 951377 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children=0 id="radio_depth_sub"
+GenericNPC 864 336 655517 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children=0 id="radio_depth_sub"
+GenericNPC 384 320 837030 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children=0 id="radio_depth_sub"
+BG2 START
+Door 560 176 413899 index=2 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RADIO_D1" next_cam_offset="0,0"
+NewCamTrig 0 0 924237 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=78 tile_h=38.875
+EdgeDoor 656 176 308864 is_wide=0 vistype=0 only_open_dir=3
+FollowLaser 400 496 520783 dmgtype=0 accel=0 fixed_angle=0 vistype=0 axis_tracks_player=0 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+VanishBlock 576 464 154507 vistype=1
+VanishBlock 592 464 169864 vistype=1
+VanishBlock 608 464 474960 vistype=1
+VanishBlock 800 464 957248 vistype=1
+VanishBlock 816 464 380955 vistype=1
+VanishBlock 832 464 22142 vistype=1
+Spike 800 480 986143 dmgtype=0 bounce_vel_min=125 dir=0 vistype=0 hor_bounce_vel=166 bounce_vel_mid=210 bounce_vel_max=250
+Spike 816 480 277079 dmgtype=0 bounce_vel_min=125 dir=0 vistype=0 hor_bounce_vel=166 bounce_vel_mid=210 bounce_vel_max=250
+Spike 832 480 276529 dmgtype=0 bounce_vel_min=125 dir=0 vistype=0 hor_bounce_vel=166 bounce_vel_mid=210 bounce_vel_max=250
+Pod 880 272 169591 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 272 530045 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+VanishBlock 720 464 960133 vistype=1
+VanishBlock 704 464 766281 vistype=1
+Pod 576 384 58682 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 736 192 848254
+Pod 320 336 371072 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 336 376999 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 384 847857 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 384 397675 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 384 481680 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

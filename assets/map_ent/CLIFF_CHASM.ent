@@ -1,0 +1,17 @@
+BBG START
+BG1 START
+BG2 START
+RaiseWall 880 304 771609 energy=20 is_wide=0 raise_distance=32 vistype=0 raise_dir=2 init_state=-1 needed_en=20 permanent_open=1 s_open=1 children=""
+RaiseWall 880 272 762025 energy=20 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=-1 needed_en=20 permanent_open=1 s_open=1 children=""
+RevolveSpore 896 304 643290 hurt_ticks=5 base_vel=800 vis-dmg="0,0"
+RaiseWall 320 288 956697 energy=22 is_wide=2 raise_distance=32 vistype=0 raise_dir=2 init_state=-1 needed_en=22 permanent_open=1 s_open=1 children=""
+RaiseWall 320 256 744019 energy=22 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=-1 needed_en=22 permanent_open=1 s_open=1 children=""
+SapPad 960 176 424183 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="956697,744019,771609,762025"
+RevolveSpore 304 288 71174 hurt_ticks=5 base_vel=800 vis-dmg="0,0"
+SavePoint 1024 160 598086
+Door 1264 -80 716410 index=3 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_MAIN" next_cam_offset="0,0"
+Door 0 -64 196321 index=2 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_EDGE" next_cam_offset="0,0"
+BarbedWire 240 688 237117 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="808339" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1104 688 808339 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+GenericNPC 1152 144 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,104" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,23 @@
+BBG START
+BG1 START
+BG2 START
+Door 112 144 268842 index=19 AUTO_INDEX=0 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="OLD_4" next_cam_offset="0,0"
+Door 240 192 626641 index=2 AUTO_INDEX=584 behavior=1 type=1 script="TOOL/DOORS/BLOCK_WF.HX" dest_x=-8 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_LO_0" next_cam_offset="0,0"
+GenericNPC 112 64 964345 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="WORLDMAP_EVENTS" children="" id="intro_map"
+Door 206 110 519555 index=1 AUTO_INDEX=4 behavior=6 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="24,24" dest_map="SHORE_1" next_cam_offset="0,0"
+Door 80 192 623678 index=1 AUTO_INDEX=3 behavior=1 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="HILL_1" next_cam_offset="0,0"
+Door 112 304 111954 index=1 AUTO_INDEX=2 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_1" next_cam_offset="0,0"
+GenericNPC 196 183 376991 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MAP_TUTORIAL" children="" id="map_tutorial"
+TrainTrigger 128 32 5029 event_id="none" id=0
+GenericNPC 256 32 978862 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,0" debug_name="FLOOD" children="" id="ending_flood"
+GenericNPC 208 176 38994 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="POST_I2_MAP" children="" id="post_i2_map"
+Door 208 288 794612 index=0 AUTO_INDEX=7 behavior=7 type=1 script="TOOL/DOORS/TUNNELBLOCKER.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TUNNEL_1" next_cam_offset="0,0"
+Door 416 224 413612 index=1 AUTO_INDEX=9 behavior=1 type=1 script="TOOL/DOORS/BLOCK_S2.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_1" next_cam_offset="0,-48"
+Door 320 160 425248 index=1 AUTO_INDEX=8 behavior=1 type=1 script="TOOL/DOORS/BLOCK_S2.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODS_1" next_cam_offset="0,0"
+Door 320 352 612209 index=1 AUTO_INDEX=10 behavior=1 type=1 script="TOOL/DOORS/BLOCK_S2.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BASIN_1" next_cam_offset="0,0"
+GenericNPC 144 256 153810 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="TUNNEL0PLACER" children="794612" id="tunnel_placer"
+Door 414 271 87610 index=1 AUTO_INDEX=9 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_1" next_cam_offset="0,-48"
+Door 336 208 839559 index=1 AUTO_INDEX=8 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODS_1" next_cam_offset="0,0"
+GenericNPC 240 64 59174 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MAP1DOORS" children="519555" id="map1_doors"
+GenericNPC 144 208 50154 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="DIALOGUETEST" children="" id="worldmap_dialogue"
+FG2 START

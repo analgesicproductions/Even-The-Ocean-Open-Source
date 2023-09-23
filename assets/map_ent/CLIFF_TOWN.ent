@@ -1,0 +1,18 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 512 256 277317 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="disappearblock"
+GenericNPC 544 256 236369 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="disappearblock"
+GenericNPC 448 256 829102 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="disappearblock"
+Spike 448 288 244884 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 544 288 489775 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Door 432 1136 83537 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_EDGE" next_cam_offset="0,0"
+BarbedWire 0 1216 38085 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="59730" wire_tile_width=3 is_gauntlet=1
+BarbedWire 304 1248 59730 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Pod 768 512 447554 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children="303084"
+Pod 800 512 630507 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 736 512 856992 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+VanishBlock 768 528 303084 perma_open=1 vistype=1 init_state=-1 s_open=0 needed_en=5
+Door 656 0 777927 index=0 AUTO_INDEX=3 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="CLIFF_MAIN_UP" next_cam_offset="0,0"
+GenericNPC 336 864 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,108" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Pew 236 58 103220 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+SavePoint 112 256 967036
+GasCloud 147 139 655772 type=0 vel=50
+GasCloud 132 159 238558 type=0 vel=50
+GasCloud 122 65 957222 type=0 vel=50
+GasCloud 97 109 738395 type=0 vel=50
+Door 528 112 237922 index=9 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="OLD_4" next_cam_offset="0,0"
+FG2 START

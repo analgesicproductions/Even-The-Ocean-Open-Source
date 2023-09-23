@@ -1,0 +1,25 @@
+BBG START
+BG1 START
+BG2 START
+Pew 208 48 698256 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=80 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Door 224 304 354235 index=9 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE" next_cam_offset="0,0"
+Door 224 400 864229 index=1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SEANLET" next_cam_offset="0,0"
+Door 752 304 778538 index=-1 AUTO_INDEX=4 behavior=1 type=0 script="" dest_x=96 dest_y=808 s_visited=1 custom_size="0,0" dest_map="INTROCAVE" next_cam_offset="0,0"
+Door 768 400 713789 index=1 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=-10 dest_y=30 s_visited=1 custom_size="0,0" dest_map="JONLET" next_cam_offset="0,0"
+Door 432 576 32246 index=0 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="DEMO_1_2" next_cam_offset="0,0"
+Pod 688 96 758571 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 96 431837 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+HelpTip 624 160 590009 on_bottom=1 id=0
+Pod 608 64 654328 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 64 833937 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 16 112 264125 fint_TICKS=-1 fint=0.4 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=7 bspd=240 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+HelpTip 848 144 176988 on_bottom=1 id=14
+HelpTip 753 63 607947 on_bottom=1 id=13
+HelpTip 640 32 455918 on_bottom=1 id=12
+HelpTip 69 30 850787 on_bottom=1 id=6
+HelpTip 736 160 12904 on_bottom=1 id=1
+HelpTip 480 352 13814 on_bottom=1 id=15
+GenericNPC 704 224 53155 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="sunfish"
+GenericNPC 576 240 765124 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="hippo"
+Door 624 160 801906 index=6 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="OLD_1" next_cam_offset="0,0"
+FG2 START

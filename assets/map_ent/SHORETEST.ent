@@ -1,0 +1,203 @@
+BBG START
+BG1 START
+Wind 1088 528 440111 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=272 speed=50
+BG2 START
+WaterShooter 240 176 889078 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+Floater 48 128 694432 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+WaterShooter 448 288 388181 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+WaterShooter 688 288 646673 bul_vel_scale=1 max_bullet_vel=-240 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+Pod 512 288 793564 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 752 240 367660 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 640 288 498301 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Floater 144 336 201406 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 80 368 684183 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+HurtOutlet 256 656 127646 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+Floater 160 672 320502 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+HurtOutlet 208 656 62263 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+Pod 352 528 985460 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 352 544 455562 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 256 528 772781 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 256 544 566161 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 208 528 53310 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 208 544 182171 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Floater 320 704 774324 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Pod 144 544 393389 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 144 528 724817 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Floater 320 432 555670 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 688 416 463161 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 400 416 249683 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 624 416 479536 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 560 448 205017 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 736 448 896820 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Floater 656 800 189734 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 688 688 528333 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+RaiseWall 560 512 50008 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 752 592 122596 children="" t_wait=1.5 vistype=0 damage=1
+Floater 544 800 648509 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Pod 656 128 806742 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+WaterShooter 139 1104 541680 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=3
+WaterShooter 80 1056 425390 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=3
+WaterShooter 608 1136 827191 bul_vel_scale=1 max_bullet_vel=-280 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+WaterShooter 480 1136 168321 bul_vel_scale=1 max_bullet_vel=-280 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+WaterShooter 544 1136 778497 bul_vel_scale=1 max_bullet_vel=-280 tm_charge=1 tm_init=0.5 vistype=0 tm_idle=2 num_bullets=2
+Button 544 928 926719 children="" t_wait=1.5 vistype=1 damage=1
+RaiseWall 736 912 165982 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+HurtOutlet 594 707 999782 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+HurtOutlet 608 720 933076 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 592 624 962789 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 608 608 548093 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+Pod 432 1136 93833 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 448 1136 988824 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 688 1136 502237 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 720 1120 852626 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+WaterShooter 112 1360 272481 bul_vel_scale=1.3 max_bullet_vel=-350 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+Floater 304 1296 940648 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+RaiseWall 64 1184 792413 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=64 raise_dir=1 vistype=1 s_open=0 needed_en=1
+Spike 120 1168 184729 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Pod 192 1280 977426 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=2 dmgtype=0
+Button 176 1216 7057 children="792413" t_wait=1.5 vistype=1 damage=1
+Floater 576 1456 468518 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 528 1360 82265 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 608 1360 420639 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+WaterShooter 112 1568 491557 bul_vel_scale=1 max_bullet_vel=-250 tm_charge=0.2 tm_init=0 vistype=0 tm_idle=0 num_bullets=1
+Pod 240 1520 2210 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 176 1568 298408 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+WaterShooter 304 880 361777 bul_vel_scale=1 max_bullet_vel=-280 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+WaterShooter 384 880 361868 bul_vel_scale=1 max_bullet_vel=-280 tm_charge=1 tm_init=0 vistype=0 tm_idle=2 num_bullets=2
+Pew 416 768 410697 bspd=100 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.3
+Pew 288 768 389749 bspd=100 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.3
+Pod 384 768 18182 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 304 768 301488 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 400 768 767420 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+WaterShooter 864 256 33412 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=2
+WaterShooter 864 256 26658 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=0 tm_init=1 vistype=0 tm_idle=0 num_bullets=2
+WaterShooter 864 576 766339 bul_vel_scale=1 max_bullet_vel=-350 tm_charge=0 tm_init=1 vistype=0 tm_idle=0 num_bullets=1
+RaiseWall 976 384 102762 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 976 320 561021 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 1024 464 793544 children="102762" t_wait=1.5 vistype=1 damage=1
+Button 992 400 196360 children="561021" t_wait=1.5 vistype=1 damage=1
+WaterShooter 816 1168 409205 bul_vel_scale=1 max_bullet_vel=-350 tm_charge=0 tm_init=1 vistype=0 tm_idle=0 num_bullets=1
+Floater 816 1024 728640 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 848 1024 209058 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 912 1024 374205 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 944 1024 700580 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1027 736 857789 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Floater 1053 736 689198 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="0,0" rise_vel=15
+WaterShooter 973 1168 596636 bul_vel_scale=1 max_bullet_vel=-350 tm_charge=0 tm_init=1 vistype=0 tm_idle=0 num_bullets=1
+Floater 1008 1024 366738 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1040 1024 187935 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Pod 832 912 8933 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 928 912 493509 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1024 912 702908 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 816 1440 354227 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 864 1520 408990 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 880 1440 878997 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 896 1328 353649 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 736 1296 251689 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 768 1376 12666 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 828 1286 320986 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 800 1568 772117 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+RaiseWall 960 1248 208193 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 800 1216 846284 children="208193" t_wait=1.5 vistype=1 damage=1
+WaterShooter 80 1952 696657 bul_vel_scale=1 max_bullet_vel=-400 tm_charge=0.2 tm_init=0 vistype=0 tm_idle=0 num_bullets=1
+RaiseWall 64 1744 992061 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+Button 32 1824 16198 children="992061" t_wait=1.5 vistype=0 damage=1
+WaterShooter 288 1888 16973 bul_vel_scale=1.4 max_bullet_vel=-380 tm_charge=0.2 tm_init=0 vistype=0 tm_idle=0 num_bullets=2
+Pod 144 1856 315113 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 144 1600 687753 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 144 1632 851278 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Spike 80 1920 372964 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 112 1920 486710 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 144 1920 694437 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Floater 896 736 633171 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Floater 928 736 140180 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="0,0" rise_vel=15
+Floater 896 784 716248 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Floater 928 784 610739 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="0,0" rise_vel=15
+Floater 896 832 543862 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Floater 928 832 51348 base_dmg=20 min_launch=-100 launch_mul=1.35 vis-dmg="0,0" rise_vel=15
+RaiseWall 864 672 749232 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=2
+Button 864 768 758302 children="749232" t_wait=0 vistype=0 damage=1
+Button 960 736 940346 children="749232" t_wait=0 vistype=0 damage=1
+WaterShooter 1040 336 616545 bul_vel_scale=1 max_bullet_vel=-400 tm_charge=0 tm_init=1 vistype=0 tm_idle=0 num_bullets=1
+RaiseWall 1008 32 957197 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 1072 80 739746 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=2 vistype=1 s_open=0 needed_en=1
+RaiseWall 1072 208 755172 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 1024 208 196709 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 992 96 411425 children="196709" t_wait=1.5 vistype=1 damage=1
+Button 1104 96 364533 children="755172" t_wait=1.5 vistype=1 damage=1
+Button 1088 224 956972 children="957197" t_wait=1.5 vistype=1 damage=1
+Button 992 224 478924 children="739746" t_wait=1.5 vistype=1 damage=1
+Pod 1056 16 437331 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1040 16 336448 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1024 16 892100 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1072 16 789948 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+WaterShooter 1040 1488 517134 bul_vel_scale=1 max_bullet_vel=-380 tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=1
+WaterShooter 1040 1504 251673 bul_vel_scale=1 max_bullet_vel=-380 tm_charge=0 tm_init=0.5 vistype=0 tm_idle=0 num_bullets=1
+WaterShooter 112 2320 239842 bul_vel_scale=1 max_bullet_vel=-450 tm_charge=0.2 tm_init=0 vistype=0 tm_idle=0 num_bullets=1
+WaterShooter 192 2320 959918 bul_vel_scale=1 max_bullet_vel=-450 tm_charge=0.2 tm_init=0 vistype=0 tm_idle=0 num_bullets=1
+Floater 160 2128 175712 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 240 2128 311001 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 80 2128 515750 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Pod 112 1984 391624 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1984 864267 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 192 1984 413312 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 208 1984 237325 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 304 2048 129982 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 400 2176 38675 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 384 2048 413779 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Button 496 2112 488820 children="" t_wait=1.5 vistype=0 damage=1
+RaiseWall 560 2304 126818 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 592 2304 712854 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Floater 640 2192 835866 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+FollowLaser 672 2096 478293 accel=0 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=0 vistype=0 tracking_vel=50 tracked_axis="x" fixed_angle=90
+Floater 592 2192 176989 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 688 2192 849498 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 736 2192 332702 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 1056 1792 41362 base_dmg=24 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1088 1792 319422 base_dmg=24 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1056 1920 985642 base_dmg=24 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 1088 1920 352039 base_dmg=24 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+HurtOutlet 1072 1984 862519 dmg=24 init_wait=0 tm_off=0.1 vistype=0 tm_on=0.5 dmgtype=0
+HurtOutlet 1072 1856 372354 dmg=24 init_wait=0 tm_off=0.1 vistype=0 tm_on=0.5 dmgtype=0
+Wind 992 1744 221516 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=192 w=32 speed=150
+WaterShooter 992 1920 132912 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=0 tm_init=0 vistype=0 tm_idle=0.5 num_bullets=1
+Pod 992 1680 719364 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1008 1680 133800 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+WaterShooter 912 1920 337006 bul_vel_scale=1 max_bullet_vel=-300 tm_charge=0 tm_init=0 vistype=0 tm_idle=0.5 num_bullets=1
+Wind 912 1744 371643 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=192 w=32 speed=150
+Pod 912 1744 784389 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 928 1808 165730 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 912 1872 506237 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 832 2192 273366 base_dmg=32 min_launch=-230 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 912 2192 818170 base_dmg=32 min_launch=-230 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Spike 800 2176 55618 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 960 2128 330078 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 976 2208 269844 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 816 2128 554362 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+WaterShooter 864 2368 277140 bul_vel_scale=1 max_bullet_vel=-250 tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=1
+Floater 1248 112 141403 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 1200 224 219739 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 1280 336 552034 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Pew 1168 400 284481 bspd=40 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Floater 1168 480 519863 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1248 480 734426 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1216 432 802578 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=100
+Floater 1152 592 27235 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1200 592 541758 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1248 592 669375 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1296 592 725549 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1184 640 292628 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=100
+Floater 1264 640 348820 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=100
+Floater 1360 592 683497 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1424 592 537390 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1184 784 929700 base_dmg=20 min_launch=-150 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Floater 1248 784 138438 base_dmg=20 min_launch=-150 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Spike 1168 848 907036 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1200 848 198771 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1232 848 419556 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1264 848 893879 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1296 848 934038 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Floater 1296 784 562139 base_dmg=20 min_launch=-150 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Pew 1264 880 761898 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="1,2" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Door 128 64 362667 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_6" index=7 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

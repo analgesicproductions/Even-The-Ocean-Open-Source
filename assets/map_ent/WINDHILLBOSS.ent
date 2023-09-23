@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 32 48 55238 index=7 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="HILL_G1_BOSS" next_cam_offset="0,0"
+Door 16 752 863040 index=7 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+GenericNPC 160 752 723593 has_dialogue=1 map-scene-pos="p,dj,269" always_scripted=0 context_int_csv="0,0" debug_name="CONGRATS_ON_COMPLETING_OLD_HILL_GAUNTLET,_THIS_TUNNEL_WILL_TAKE_YOU_BACK_TO_THE_OVERWORLD" children="" id="joni"
+AliphItem -32 800 965569 removes=0 vis_set=0 id=35
+FG2 START

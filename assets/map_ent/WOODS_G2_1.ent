@@ -1,0 +1,55 @@
+BBG START
+BG1 START
+Dropper 160 352 432582 vistype=0 drop_latency=1 max_drops=3
+Dropper 240 304 818821 vistype=0 drop_latency=1 max_drops=3
+Dropper 272 304 156675 vistype=0 drop_latency=1 max_drops=3
+Dropper 352 336 157052 vistype=0 drop_latency=1 max_drops=3
+Spike 608 864 71214 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 592 864 702749 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 576 864 466308 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 864 263844 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 544 864 477548 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 528 864 42283 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 512 864 405207 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+SapPad 480 544 163183 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=0 reverse=0 dmg=1 children="8257"
+SapPad 48 528 661640 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=0 reverse=0 dmg=1 children="251464"
+Pod 448 512 420367 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 32 512 868610 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 432 416 251464 energy=64 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=0 s_open=1 children=""
+RaiseWall 64 496 8257 energy=64 is_wide=0 raise_distance=32 vistype=0 raise_dir=2 init_state=0 needed_en=64 permanent_open=0 s_open=1 children=""
+Wind 320 672 134480 h=160 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=160 speed=100
+SinkPlatform 352 720 970741 yvel=30 return_rate=0.2 xvel=60 returns_home=1
+Pod 288 624 761458 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 336 624 918077 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 624 234325 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 672 525913 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 640 309094 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+LaunchBug 48 688 543934 bul_dmg=20 is_up=0 launch_vel=100 ishor=0 vistype=0 is_left=0 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+LaunchBug 80 800 666053 bul_dmg=20 is_up=0 launch_vel=100 ishor=1 vistype=1 is_left=0 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+HurtOutlet 128 768 117497 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 176 720 283125 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 176 816 792188 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 64 704 959012 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 64 800 23529 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+Door 160 928 422832 index=3 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=0 dest_y=3 s_visited=1 custom_size="0,0" dest_map="WOODS_G2_2" next_cam_offset="0,0"
+BG2 START
+SinkPlatform 528 96 645763 yvel=130 return_rate=0.5 xvel=37 returns_home=1
+Pew 176 128 460976 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 304 128 904295 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+SinkPlatform 336 176 572466 yvel=40 return_rate=10 xvel=37 returns_home=1
+Pew 528 160 254360 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 76 257 144101 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 112 256 373946 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 144 96 903053 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 320 96 729307 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 96 166381 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 0 80 390315 index=3 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_G1_2" next_cam_offset="0,0"
+SinkPlatform 240 464 836293 yvel=60 return_rate=0.5 xvel=0 returns_home=1
+SinkPlatform 160 512 432332 yvel=60 return_rate=0.5 xvel=0 returns_home=1
+SinkPlatform 272 400 100102 yvel=60 return_rate=0.5 xvel=0 returns_home=1
+SinkPlatform 352 480 622419 yvel=60 return_rate=0.5 xvel=0 returns_home=1
+LaunchBug 80 688 98970 bul_dmg=20 is_up=0 launch_vel=100 ishor=0 vistype=0 is_left=0 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+LaunchBug 112 688 209041 bul_dmg=20 is_up=0 launch_vel=100 ishor=0 vistype=0 is_left=0 tm_hurt=0.02 bul_nVelFreq="0,100,0.2" x_vel=50 y_vel=50
+SavePoint 384 96 269220
+SavePoint 496 432 529313
+FG2 START

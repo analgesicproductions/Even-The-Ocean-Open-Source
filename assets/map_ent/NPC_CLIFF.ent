@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 96 48 121691 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="CLIFF,SIGNS,0" id="cliff_sign_1" has_dialogue=1
+GenericNPC 128 48 87059 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="CLIFF,SIGNS,1" id="cliff_sign_1" has_dialogue=1
+GenericNPC 240 48 595319 always_scripted=1 debug_name="LASTSIGN" context_int_csv="0,0" children="" map-scene-pos="" id="cliff_last_sign" has_dialogue=0
+GenericNPC 240 144 105780 always_scripted=1 debug_name="DYING_PERSON_INIT" context_int_csv="0,0" children="" map-scene-pos="" id="dying_person_init" has_dialogue=0
+Door 160 48 806065 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="NPC_CLIFF" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+GenericNPC 308 144 317227 always_scripted=1 debug_name="INCENSE" context_int_csv="0,0" children="" map-scene-pos="" id="incense" has_dialogue=0
+Door 416 144 976750 AUTO_INDEX=1 behavior=1 dest_x=1 dest_map="OLD_5" index=14 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

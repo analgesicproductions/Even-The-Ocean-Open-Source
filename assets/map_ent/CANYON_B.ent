@@ -1,0 +1,56 @@
+BBG START
+BG1 START
+SetPiece 1312 496 939493 tile_size="0,0" fades_when_overlap=0 TYPE="group4" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+BG2 START
+GenericNPC 1360 576 131754 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_end"
+Button 1712 640 402994 t_wait=-1 vistype=1 damage=5 children="131754"
+Door 0 0 998936 index=0 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_G4" next_cam_offset="0,0"
+PlantBlock 240 736 874676 behavior=1 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 656 720 133785 vis-dmg="0,0" behavior=1 init_state=0 s_on=0 children="272969,131754,325866,60672"
+PlantBlock 848 736 595936 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 864 416 465378 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="574395,131754,395422,416532"
+PlantBlock 864 496 995294 dir=0 vis-dmg="0,0" behavior=1 children=0 float_dis=32
+PlantBlockAccepter 976 720 872059 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="574395,131754,521848,294011"
+PlantBlock 1280 336 461428 behavior=1 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 1520 112 150413 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="131754,998782"
+PlantBlock 1216 864 330758 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+PlantBlockAccepter 1664 832 282199 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="131754,194052"
+Pod 1616 880 476202 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1600 880 686094 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlock 176 256 375245 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 256 256 369084 vis-dmg="1,1" behavior=0 init_state=0 s_on=0 children="863381,131754,368015,559312"
+RaiseWall 304 224 863381 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+SavePoint 128 240 193851 autosaves=0
+RaiseWall 352 256 140393 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=3 init_state=0 needed_en=3 permanent_open=1 s_open=0 children=""
+SapPad 448 144 879374 max_storage=64 vis=1 dmg_rate=0.01 one_for_all=1 reverse=0 dmg=1 children="140393,967401,324008,365988"
+GenericNPC 480 208 422491 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="LOPEZ" children="" id="paxlopez_g1"
+EdgeDoor 416 112 192856 is_wide=0 vistype=0 only_open_dir=3
+NewCamTrig 0 0 74868 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=42 tile_h=21
+NewCamTrig 112 336 577076 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=37 tile_h=38
+NewCamTrig 704 288 929013 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=41
+RaiseWall 592 752 272969 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=3 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+NewCamTrig 1120 416 741914 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=18
+NewCamTrig 1168 48 487758 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=28 tile_h=23
+NewCamTrig 1136 704 761271 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=37 tile_h=16
+SavePoint 1280 592 194196 autosaves=0
+SavePoint 768 880 787732 autosaves=0
+Pod 1168 784 907042 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1168 800 345054 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 1354 539 325866 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 1328 513 368015 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 1410 507 998782 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 1374 521 395422 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 1375 545 521848 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 1418 549 194052 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+WirePoint 448 160 324008 pos="0,128,-32,128,-32,96" vistype=0 forceTargetDir=-1 children="967401"
+RaiseWall 416 224 967401 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=3 permanent_open=1 s_open=0 children="422491"
+WirePoint 448 160 365988 pos="0,144,-64,144,-64,96" vistype=0 forceTargetDir=0 children="140393"
+WirePoint 256 288 559312 pos="0,16,48,16,48,-32" vistype=0 forceTargetDir=-1 children="863381"
+WirePoint 656 736 60672 pos="0,16,-32,16" vistype=0 forceTargetDir=3 children="272969"
+WirePoint 1008 720 294011 pos="32,0,32,-48,0,-48,0,-80" vistype=0 forceTargetDir=-1 children="574395"
+WirePoint 864 448 416532 pos="0,16,48,16,48,64,144,64,144,128,176,128,176,192,144,192" vistype=0 forceTargetDir=3 children="574395"
+RaiseWall 1008 608 574395 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=2 permanent_open=1 s_open=0 children=""
+Elevator 160 480 959124 vis-dmg="1,1" has_console=1 is_basin=0 rise_height=16 override_anim_prefix="" door_info="none" rise_vel=100 starts_at_top=1 children=""
+SetPiece 48 176 315878 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+Pod 320 112 76160 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

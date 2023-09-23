@@ -1,0 +1,36 @@
+BBG START
+BG1 START
+BG2 START
+RaiseWall 432 672 651113 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=2 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+OrbSlot 944 656 623636 transmit_en=16 vis=0 angle=0 children="672689,651113" needed_en=0
+FollowLaser 1296 560 774508 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="x" is_fixed=1
+RaiseWall 1280 560 733811 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=-1 needed_en=32 permanent_open=0 s_open=0 children=""
+SapPad 1456 608 317615 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="733811,380618"
+WirePoint 928 656 672689 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="297038"
+WirePoint 432 656 297038 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children=0
+Pew 1504 528 454844 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+WaterGlider 1024 832 8190 vis=0 vis-dmg="0,0" drag=50 dark_vel="62,56" light_vel="38,70" vel=80 tm_hurt=0.09 dmg=48 tm_move=4
+Weed 1648 640 981111 vistype=0 dir=0
+Weed 1664 640 979951 vistype=0 dir=0
+Weed 1680 640 87297 vistype=0 dir=0
+Weed 1680 640 517004 vistype=0 dir=0
+Weed 1696 640 322606 vistype=0 dir=0
+Weed 1712 640 978221 vistype=0 dir=0
+Weed 1728 640 506643 vistype=0 dir=0
+BugSwarm 1760 768 896791 accel=55 vistype=0 follows=0 nr_bugs=6 anims="test1,test2" dontpush=0 chase_radius=300 bug_radius=18 vel=12
+Pod 1504 624 862840 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1632 800 108974 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1696 800 58047 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1776 560 229237 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 0 560 578611 index=17 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 448 816 759660
+GenericNPC 320 816 844820 has_dialogue=1 map-scene-pos="SHORE,SIGN,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 576 688 434973 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+RevolveSpore 2288 32 756285 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+WaterShooter 2304 464 35118 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-300
+WirePoint 1456 592 380618 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="773037"
+WirePoint 1456 544 773037 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="232253"
+WirePoint 1280 544 232253 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children=""
+GenericNPC 384 800 552910 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,46" debug_name="" children="" id="dev_info"
+GenericNPC 2240 448 486838 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,47" debug_name="" children="" id="dev_info"
+FG2 START

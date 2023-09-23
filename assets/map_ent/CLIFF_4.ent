@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 1184 471249 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_3" next_cam_offset="0,0"
+GenericNPC 432 1504 475168 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="incense"
+GenericNPC 448 1504 59738 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dying_person_init"
+Door 1408 0 483320 index=6 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=-8 s_visited=1 custom_size="64,16" dest_map="CLIFF_2" next_cam_offset="0,0"
+FG2 START

@@ -1,0 +1,40 @@
+also fg
+solid_invis_map 20,60 42,82 41,81 43,83 44,84 45,85 46,86 47,87 48,88 40,80 31,71 32,72 21,89 2,5
+START
+solid 20 21 23 60 100 120 140
+fl45 41 81 101 121 141
+fr45 42 82 102 122 142
+cl45 43 83 103 123 143
+cr45 44 84 104 124 144
+lo22l 45 85
+hi22l 46 86
+hi22r 47 87
+lo22r 48 88
+water_surface 31 71
+water 32 72
+top 40 80
+gasdarklo 25
+gasdark 26
+gasdarkhi 27
+gaslightlo 28
+gaslight 29
+gaslighthi 30
+floor_ice 23
+noclimb 22
+permeable 21 89
+sand 73
+diff_easy 3
+diff_normal 4 
+organic 2 5
+cloud_no_drop 408
+l_to_r 409
+u_to_d 410
+r_to_l 411
+
+invishard 60 71 72 80.89 73 5
+END
+
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+
+END

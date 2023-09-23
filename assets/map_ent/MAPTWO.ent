@@ -1,0 +1,24 @@
+BBG START
+BG1 START
+BG2 START
+Door 528 864 531949 index=0 AUTO_INDEX=0 behavior=1 type=1 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="DESERT_1" next_cam_offset="0,0"
+Door 528 912 673109 index=1 AUTO_INDEX=1 behavior=1 type=1 script="" dest_x=2 dest_y=14 s_visited=1 custom_size="0,0" dest_map="DESERT_1" next_cam_offset="0,0"
+Door 472 1178 499655 index=2 AUTO_INDEX=2 behavior=1 type=1 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="32,32" dest_map="EARTH_1" next_cam_offset="0,0"
+Door 1424 256 623801 index=0 AUTO_INDEX=3 behavior=1 type=4 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="BLUEROCKOUT" next_cam_offset="0,0"
+Door 1488 1280 698302 index=0 AUTO_INDEX=4 behavior=1 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="32,32" dest_map="SHALLOW_0" next_cam_offset="0,0"
+Door 2016 640 826082 index=0 AUTO_INDEX=7 behavior=1 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="32,32" dest_map="WHITE_TUNNEL" next_cam_offset="0,0"
+Door 128 176 138509 index=2 AUTO_INDEX=8 behavior=1 type=1 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="PASS_DOWN" next_cam_offset="0,0"
+GenericNPC 1968 672 127958 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,20" debug_name="" children="" id="dev_info"
+Door 720 464 837205 index=0 AUTO_INDEX=9 behavior=1 type=1 script="" dest_x=1 dest_y=10 s_visited=1 custom_size="32,32" dest_map="SILO_E0" next_cam_offset="0,0"
+GenericNPC 768 528 679243 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,38" debug_name="" children="" id="dev_info"
+Door 768 464 31749 index=0 AUTO_INDEX=10 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="32,32" dest_map="SILO_A0" next_cam_offset="0,0"
+Door 816 464 58593 index=0 AUTO_INDEX=10 behavior=1 type=1 script="" dest_x=2 dest_y=12 s_visited=1 custom_size="32,32" dest_map="SILO_S0" next_cam_offset="0,0"
+GenericNPC 176 192 625459 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 560 800 667149 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 1056 464 109901 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 1696 1344 479303 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 2048 672 33759 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+SetPiece 1424 224 295432 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1488 1248 685507 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 472 1152 436792 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START

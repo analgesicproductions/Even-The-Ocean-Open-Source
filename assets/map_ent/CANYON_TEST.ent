@@ -1,0 +1,157 @@
+BBG START
+BG1 START
+BG2 START
+Pod 336 832 413146 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 352 832 180067 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 832 661377 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 80 832 469872 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 176 704 274400 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 192 704 324423 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 464 656 742746 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 480 656 833427 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 288 320 567722 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 304 320 53395 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 384 320 639999 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 400 320 192509 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 320 320 649044 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 368 320 914350 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 176 96 571091 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 192 96 434904 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 208 96 729248 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 176 869624 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 192 208723 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 160 533747 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 528 80 932876 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 544 80 69558 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 560 80 833353 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 576 80 130724 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 528 816 908192 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 528 832 342579 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+RubberLaser 128 1104 492010 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+Pod 208 1120 146118 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 224 1120 259744 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+RubberLaser 384 1008 261190 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+Pod 672 1072 380431 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 1088 626262 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 1056 790691 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 496 1120 767566 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 512 1120 903462 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 352 1088 590585 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 368 1088 359688 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 304 1328 81902 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 320 1328 809493 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 336 1328 11688 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+RubberLaser 496 1344 30373 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=1 tinact=2 sbouncev=-180
+Pod 96 1344 46452 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 96 1360 491379 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+RubberLaser 1088 400 388498 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 1088 272 366553 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=2 dir=0 tact=2 vtype=1 tinact=2 sbouncev=-180
+RubberLaser 1088 144 978281 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+Pod 928 352 271018 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 944 352 489412 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1040 496 965732 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1056 496 668842 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1072 496 810726 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Spike 1072 208 71721 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Pod 1280 192 264661 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1280 176 196682 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1216 128 907854 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1216 144 847445 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1392 176 70604 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1392 192 823976 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1328 128 936196 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1328 144 797310 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+RubberLaser 848 800 91248 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 1136 688 803767 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=2 dir=0 tact=2 vtype=1 tinact=2 sbouncev=-180
+BarbedWire 912 720 762212 children="650379" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 976 720 650379 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 2128 32 476869 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2112 32 979307 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+BubbleSpawner 2416 1504 683340 bubble_type=0 vistype=0
+RaiseWall 1968 1328 931523 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=64
+BubbleSwitch 2096 1328 364850 behave_type=2 vistype=2 children="931523"
+BubbleSpawner 1264 880 620029 bubble_type=0 vistype=0
+Pod 1408 784 844476 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1424 784 36097 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1680 752 614136 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1600 768 613373 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1600 752 739030 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+BubbleSwitch 1728 672 956620 behave_type=2 vistype=2 children="506629"
+Pod 1312 912 629076 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1312 928 555093 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1648 656 966855 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1664 656 693340 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+RubberLaser 624 1344 90004 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=1 tinact=2 sbouncev=-180
+BubbleSpawner 688 1504 349867 bubble_type=1 vistype=1
+BubbleSwitch 832 1504 651893 behave_type=2 vistype=2 children="483082"
+BubbleSpawner 1296 1504 248979 bubble_type=1 vistype=1
+Pod 1390 1454 238859 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1486 1358 867368 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1470 1374 345385 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+BubbleSwitch 1616 1344 100198 behave_type=2 vistype=2 children="458921"
+RaiseWall 1648 1312 458921 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=64
+Pod 1520 1328 987412 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1536 1328 41074 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1552 1328 721419 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1568 1328 144685 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1344 1376 40174 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1360 1376 253893 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1376 1376 709259 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2144 1376 297367 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2192 1376 87154 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2144 1456 18531 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2192 1456 979127 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2000 1456 571765 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2032 1456 123594 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2256 1472 92509 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2272 1472 277396 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2288 1472 499932 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Wind 2352 1328 67115 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=80 w=48 speed=80
+Pod 2160 1232 838067 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2176 1232 406923 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2256 1216 537014 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2272 1216 350752 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2224 1312 137357 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2208 1312 80643 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2048 1328 715629 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2080 1536 201956 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2096 1536 549791 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2048 1344 506155 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2048 1312 791777 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+RubberLaser 960 1104 380600 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=1 tinact=2 sbouncev=-180
+BubbleSpawner 880 1152 880250 bubble_type=1 vistype=1
+RubberLaser 896 1056 873481 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=1 tinact=2 sbouncev=-180
+GenericNPC 832 1088 484474 always_scripted=0 debug_name="SILLY_FUN__CLD_HAVE_BIGGER_ROOM" context_int_csv="0,0" children="" map-scene-pos="p,dj,57" id="sign1" has_dialogue=1
+GenericNPC 1984 1504 844057 always_scripted=0 debug_name="ATMOSPHERE_NOT_HARD-SMASHHANDTILES_COULD_BE_EASY_SETTING_BLOCKS" context_int_csv="0,0" children="" map-scene-pos="p,dj,58" id="sign1" has_dialogue=1
+GenericNPC 2160 1424 990024 always_scripted=0 debug_name="ALLOWS_YOU_TO_GET_OUT_IF_BUBBLE_POPS,_ALSO_A_SHORTCUT_IF_YOU_HAVE_MAX_LIGHT._NOT_SURE_IF_SHORTCUTS_ARE_JUST_CONFUSING_THOUGH" context_int_csv="0,0" children="" map-scene-pos="p,dj,59" id="sign1" has_dialogue=1
+Pod 1248 1248 442400 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1216 1248 448225 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1232 1248 232269 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1152 1312 972456 always_scripted=0 debug_name="THIS_LONG_PART_INCENTIVIZES_UNBALANCE--LIT_ALLOWS_JUMPING_TO_THE_CLOUD_TILES,_DARK_ALLOWS_SOME_FUN_FASTRUNNING" context_int_csv="0,0" children="" map-scene-pos="p,dj,60" id="sign1" has_dialogue=1
+Pod 1584 272 527391 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1584 256 329716 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1520 208 788174 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1520 224 326314 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1760 256 394886 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1760 272 740544 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1696 208 974695 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1696 224 116590 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1760 144 136065 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1584 144 619183 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1584 160 305123 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1760 160 779538 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1520 544 720141 always_scripted=0 debug_name="WE_TEND_TO_DESIGN_TOO_SMALL_MAKING_THINGS_FINICKY,_DO_U_THINK_THIS_EXPANDED_VERSION_OF_LEFT_IS_BETTER" context_int_csv="0,0" children="" map-scene-pos="p,dj,61" id="sign1" has_dialogue=1
+GenericNPC 1632 496 886598 always_scripted=0 debug_name="MORE_SPACE_ALSO_MAKES_THE_SHIFTING_ENERGY_EFFECTS_MORE_MEANINGFUL" context_int_csv="0,0" children="" map-scene-pos="p,dj,62" id="sign1" has_dialogue=1
+BubbleSwitch 1184 1184 495874 behave_type=2 vistype=2 children="464281"
+RaiseWall 1232 1152 464281 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Door 16 1504 677039 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=-1 dest_map="OLD_6" index=5 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+RaiseWall 880 1472 483082 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 1744 688 506629 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+RubberLaser 1888 752 939764 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=3 sbouncev=-180
+RubberLaser 1840 1056 420852 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=1 tinact=2 sbouncev=-180
+RubberLaser 2304 320 767219 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 2304 256 692003 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=1 tinact=2 sbouncev=-180
+RubberLaser 1936 896 963002 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 2496 112 607084 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 1887 691 167907 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=3 sbouncev=-180
+FG2 START

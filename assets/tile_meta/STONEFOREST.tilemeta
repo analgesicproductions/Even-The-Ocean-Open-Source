@@ -1,0 +1,15 @@
+START
+solid 1.39
+cl45 101 103
+cr45 100 102
+fl45 60 61
+fr45 61 71
+lo22l 62 72 66
+hi22l 63 73 67
+lo22r 65 75 69
+hi22r 64 74 68
+top 40.45
+END
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+END

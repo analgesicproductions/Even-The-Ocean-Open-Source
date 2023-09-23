@@ -1,0 +1,41 @@
+BBG START
+BG1 START
+BG2 START
+Wind 400 1440 907156 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=30
+Wind 528 1440 587767 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=30
+Wind 576 1248 681602 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=50
+Wind 656 1376 979627 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=30
+Wind 720 1280 110053 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=30
+Wind 720 1152 986618 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=30
+Wind 832 1264 724734 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=30
+Wind 992 1280 532967 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=60
+Pod 336 1456 428671 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 352 1456 870410 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 272 1472 321328 autosaves=0
+Pod 816 1376 296037 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 832 1376 151581 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1120 1440 782732 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1136 1440 375523 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Wind 1056 1408 929975 h=48 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=60
+Wind 1168 1328 547677 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=40
+Wind 848 1120 759811 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=60
+Wind 832 880 900169 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=50
+Wind 640 992 241413 h=64 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=45
+Wind 256 256 182233 h=64 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=128 speed=50
+SavePoint 144 304 715665 autosaves=0
+Wind 528 160 519467 h=96 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=90
+Wind 721 97 593078 h=48 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=112 speed=50
+Wind 752 240 730634 h=48 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=112 speed=50
+Wind 992 320 846634 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=80
+Wind 1136 192 879398 h=64 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=144 speed=30
+GenericNPC 640 112 480486 has_dialogue=1 map-scene-pos="CITY,WF_JH,3" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_trunks"
+GenericNPC 928 352 758106 has_dialogue=1 map-scene-pos="CITY,WF_JH,4" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_pollen"
+GenericNPC 208 288 90791 has_dialogue=1 map-scene-pos="CITY,WF_JH,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_roots"
+GenericNPC 464 224 204964 has_dialogue=1 map-scene-pos="CITY,WF_JH,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_dahlia"
+TrainTrigger 1072 112 201760 event_id="none" id=0
+GenericNPC 1312 242 464798 has_dialogue=0 map-scene-pos=0 always_scripted=1 context_int_csv=2 debug_name="" children="" id="junk_animal"
+BarbedWire 928 32 883829 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1376 144 992718 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="837877" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1360 64 837877 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 880 16 148210 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="883829" wire_tile_width=3 is_gauntlet=1
+FG2 START

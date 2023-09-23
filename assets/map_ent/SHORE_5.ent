@@ -1,0 +1,17 @@
+BBG START
+BG1 START
+BG2 START
+Door 848 834 241486 index=3 AUTO_INDEX=0 behavior=1 type=4 script="" dest_x=-2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_3" next_cam_offset="0,0"
+GenericNPC 1024 688 542072 has_dialogue=1 map-scene-pos="SHORE,LOUNGER_1" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="lounger_still"
+GenericNPC 1360 656 310391 has_dialogue=1 map-scene-pos="SHORE,LOUNGER_3,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="lounger_chairs"
+GenericNPC 704 688 378364 has_dialogue=1 map-scene-pos="SHORE,LOUNGER_4" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="lounger_sandy"
+GenericNPC 1200 656 232362 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="angry_lounger"
+GenericNPC 944 672 225982 has_dialogue=1 map-scene-pos="SHORE,SIGN,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="signshore"
+BarbedWire 0 720 728412 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="13890" wire_tile_width=3 is_gauntlet=1
+BarbedWire 16 1024 13890 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1968 720 607585 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="261905" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1872 1040 261905 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+FG2 START
+SetPiece 0 776 618580 tile_size="2637,331" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=3 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 0 766 876316 tile_size="2634,23" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=2 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 0 768 843945 tile_size="2634,21" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=6 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

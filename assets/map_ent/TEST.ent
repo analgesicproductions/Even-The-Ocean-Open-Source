@@ -1,0 +1,34 @@
+BBG START
+Pew 32 122 136185 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Wind 400 32 242833 h=192 req_energy=0 angle=22 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=192 speed=40
+BG1 START
+BG2 START
+SavePoint 688 160 695876
+Pew 317 373 17437 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+RubberLaser 456 389 159550 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=2 tact=4 damage=4
+LavaPillar 464 528 432316 stick_out_px=96 spdrise=-50 vistype=0 tmhide=1.5 pushvel=6 pushticks=8 initlatency=0 vert_push_vel=-50 tmactive=2.5
+Door 240 480 781891 index=-1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=0 custom_size="0,0" dest_map="TEST" next_cam_offset="0,0"
+Door 224 480 400988 index=-1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=50 dest_y=50 s_visited=0 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+GenericNPC 142 605 882516 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bigfuckingstag"
+Pew 176 144 431789 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 208 144 573254 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+GenericNPC 144 160 298457 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="test_tree2"
+GenericNPC 240 160 123181 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="test_tree"
+Door 304 240 794617 index=14 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="OLD_4" next_cam_offset="0,0"
+Door 576 224 707174 index=-1 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=624 dest_y=306 s_visited=1 custom_size="0,0" dest_map="TESTTWO" next_cam_offset="0,0"
+SavePoint 320 592 452828
+Checkpoint 576 480 170673 leg_id=1 gauntlet_id=0 vistype=0
+Door 128 672 243984 index=-1 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=646 dest_y=278 s_visited=1 custom_size="0,0" dest_map="TESTTWO" next_cam_offset="0,0"
+RaiseWall 640 224 931193 energy=64 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=1 needed_en=64 permanent_open=1 s_open=1 children=""
+SapPad 720 208 644065 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="931193"
+Checkpoint 704 128 712555 leg_id=0 gauntlet_id=0 vistype=0
+StickySlime 336 176 529526 vistype=0 init_wall_dir=0
+Cauliflower 352 80 906085 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+AliphItem 193 221 820566 inv_type=0 removes=0 vis_set=0 id=0
+AliphItem 67 589 829689 inv_type=1 removes=0 vis_set=0 id=1
+AliphItem 220 259 146133 inv_type=0 removes=0 vis_set=0 id=1
+AliphItem 136 248 195525 inv_type=0 removes=0 vis_set=0 id=-1
+AliphItem 239 233 832948 inv_type=0 removes=0 vis_set=0 id=2
+AliphItem 97 598 525126 inv_type=0 removes=0 vis_set=0 id=0
+AliphItem 100 576 81206 inv_type=1 removes=0 vis_set=0 id=2
+FG2 START

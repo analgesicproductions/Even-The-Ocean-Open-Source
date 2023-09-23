@@ -1,0 +1,21 @@
+BBG START
+BG1 START
+BG2 START
+Door 784 48 116786 index=3 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="CANYON_2" next_cam_offset="0,0"
+GenericNPC 336 80 704087 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_war"
+GenericNPC 192 112 833139 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_rem"
+GenericNPC 448 272 790401 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_rock"
+GenericNPC 544 96 937314 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_bread"
+GenericNPC 474 224 691247 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed"
+GenericNPC 572 224 600783 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 384 224 392568 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 496 416 715289 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 266 416 511317 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 283 224 434585 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed"
+GenericNPC 378 416 606977 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed"
+GenericNPC 192 224 490985 has_dialogue=1 map-scene-pos="CANYON,MARBLE" always_scripted=0 context_int_csv="0,0" debug_name=0 children="" id="marble_sleeper"
+GenericNPC 224 416 950807 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GOLM" children="" id="golem_dream"
+GenericNPC 704 416 211902 has_dialogue=1 map-scene-pos="CANYON,DIDNEY" always_scripted=0 context_int_csv="0,0" debug_name="DIDNEY" children="" id="didney"
+Pod 608 432 109883 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+Pod 624 432 299489 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 AUTO_ORIENT=1 dir=0 damage=24 children=""
+FG2 START

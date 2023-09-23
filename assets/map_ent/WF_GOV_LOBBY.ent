@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 480 80 601854 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="city_s_armor_intro" has_dialogue=0
+GenericNPC 160 48 754963 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="screen_lobby" has_dialogue=0
+TrainTrigger 0 0 650734 id=0 event_id="none"
+FG2 START

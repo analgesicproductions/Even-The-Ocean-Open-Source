@@ -1,0 +1,20 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 0 711997 index=1 AUTO_INDEX=12 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="OLD_2" next_cam_offset="0,0"
+SoundZone 656 80 326169 tile_w=32 type="snow" revert_on_exit=0 tile_h=6 wall_type="generic"
+SoundZone 160 32 662809 tile_w=31 type="tile" revert_on_exit=0 tile_h=19 wall_type="tile"
+SoundZone 0 192 587100 tile_w=10 type="generic" revert_on_exit=0 tile_h=8 wall_type="generic"
+SoundZone 1168 128 769609 tile_w=10 type="wood" revert_on_exit=0 tile_h=11 wall_type="generic"
+SoundZone 1328 64 727532 tile_w=10 type="metal" revert_on_exit=0 tile_h=11 wall_type="metal"
+GenericNPC 368 192 203418 has_dialogue=1 map-scene-pos="p,dj,195" always_scripted=0 context_int_csv="0,0" debug_name="WE_USED_A_FEW_DIFFERENT_METHODS_OF_TASK_ORGANIZATION_OVER_THE_YEARS_WE_WORKED_ON_EVEN_THE_OCEAN,,,_BUT_AS_TIME_WENT_ON_WE_GRAVITATED_TOWARDS_JUST_USING_BULLET_POINTS_ON_SIMPLE_SHARED_DOCUMENTS,,,_AS_WELL_AS_EMAIL_AND_OCCASIONALLY_LIVE_CHAT" children="" id="joni"
+GenericNPC 576 128 624849 has_dialogue=1 map-scene-pos="p,dj,196" always_scripted=0 context_int_csv="0,0" debug_name="HERES_A_PEEK_AT_ONE_OF_MY_PHOTOSHOP_DOCUMENTS,,,_THE_MAIN_NATURE_ART_PROCESS_INVOLVED_DRAWING_SILHOUETTES_OF_THE_MAIN_SHAPES_ON_DIFFERENT_LAYERS_WITH_THE_LASSO_TOOL,,,,_CHECKING_TO_SEE_IF_THE_SILHOUETTE_VERSION_FELT_GOOD_IN_GAME,_THEN_FILLING_IN_THE_SILHOUETTES_WITH_SHADING_AND_TEXTURE" children="" id="joni"
+GenericNPC 1184 112 38113 has_dialogue=1 map-scene-pos="p,dj,197" always_scripted=0 context_int_csv="0,0" debug_name="ALMOST_ALL_THE_EFFECTS_ANIMATION_IN_EVEN_THE_OCEAN_IS_JUST_2_LOOPING_TEXTURES_ON_TOP_OF_EACH_OTHER,_SCROLLING_AT_DIFFERENT_SPEEDS" children="" id="joni"
+GenericNPC 896 48 923384 has_dialogue=1 map-scene-pos="p,dj,198" always_scripted=0 context_int_csv="0,0" debug_name="ITS_GENERALLY_CONSIDERED_A_NEGATIVE_TO_HAVE_LOW_RESOLUTION_ART,_AT_LEAST_IF_ITS_NOT_PIXEL_ART,,,_PAINTING_LOW_RES_BACKGROUNDS_IS_SORT_OF_FUNNY,,,_BUT_IT_WAS_A_SPEEDY_AND_SATISFYING_PROCESS_FOR_ME,_AND_I_THINK_THE_TRANSITIONS_BETWEEN_THE_NATURE_AREAS_AND_THE_POWER_PLANTS_AND_THE_OVERALL_AESTHETIC_COHESION_OF_THE_GAME_MAYBE_CAN_ENCOURAGE_PEOPLE_TO_BE_A_BIT_LESS_STRICT_ABOUT_DEFINING_THE_BOUNDARIES_OF_TECHNIQUES" children="" id="joni"
+GenericNPC 992 64 614595 has_dialogue=1 map-scene-pos="p,dj,199" always_scripted=0 context_int_csv="0,0" debug_name="FIND_A_PROCESS_THAT_WORKS_FOR_YOU_AND_RUN_WITH_IT,,,_DOESNT_MATTER_IF_ITS_IMPERFECT,,,_EVERYTHING_IS_IMPERFECT" children="" id="joni"
+NewWaterShooter 1264 160 388773 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="1,1" is_vert=1 max_vel=280
+Pod 320 224 373419 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 319 208 238878 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 176 642780 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 192 40452 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

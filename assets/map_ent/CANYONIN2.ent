@@ -1,0 +1,22 @@
+BBG START
+LavaPillar 576 192 770523 stick_out_px=96 spdrise=-100 vistype=1 tmhide=1.5 pushvel=6 pushticks=8 initlatency=0 vert_push_vel=15 tmactive=2.5
+LavaPillar 512 192 422514 stick_out_px=96 spdrise=-100 vistype=0 tmhide=1.5 pushvel=6 pushticks=8 initlatency=0.5 vert_push_vel=15 tmactive=2.5
+LavaPillar 464 256 269445 stick_out_px=96 spdrise=-100 vistype=0 tmhide=1.5 pushvel=6 pushticks=8 initlatency=0 vert_push_vel=15 tmactive=2.5
+BG1 START
+BG2 START
+FollowLaser 752 400 993526 dmgtype=1 accel=0 fixed_angle=90 vistype=1 axis_tracks_player=1 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 752 400 85783 dmgtype=1 accel=0 fixed_angle=270 vistype=1 axis_tracks_player=1 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="x" is_fixed=1
+Pew 640 320 963052 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 672 320 843982 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 656 320 111635 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+SapPad 608 416 624926 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="588655"
+RaiseWall 400 448 588655 energy=0 is_wide=0 raise_distance=16 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=0 s_open=0 children=""
+GasCloud 583 474 500264 type=0 vel=50
+SapPad 496 496 173501 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="588655"
+Pod 432 176 696478 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 160 888496 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 576 160 413428 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 224 559035 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 768 32 349978 index=5 AUTO_INDEX=1 behavior=1 type=800 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONOUT1" next_cam_offset="0,0"
+GenericNPC 608 192 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,118" debug_name="" children="" id="dev_info"
+FG2 START

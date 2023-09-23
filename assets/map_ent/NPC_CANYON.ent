@@ -1,0 +1,34 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 112 672 648698 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=64 debug_name="" children="" id="dreamblock"
+SapPad 192 736 399439 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="213886,4376"
+GenericNPC 144 672 830595 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=48 debug_name="" children="" id="dreamblock"
+GenericNPC 80 672 198789 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=80 debug_name="" children="" id="dreamblock"
+GenericNPC 48 672 936986 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=96 debug_name="" children="" id="dreamblock"
+GenericNPC 144 704 611976 has_dialogue=1 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="830595,648698,198789,936986" id="dreamsmoker"
+SapPad 144 736 213886 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=0 reverse=1 dmg=1 children="611976"
+WirePoint 176 736 4376 pos="0,16" force_dir=-1 invert=0 vistype=2 no_draw_child=0 children="965011"
+WirePoint 160 736 965011 pos="0,16" force_dir=-1 invert=0 vistype=2 no_draw_child=0 children=""
+Pew 192 544 449328 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=1 rhythm_pattern="1,1"
+Pew 224 544 21036 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=1 rhythm_pattern="1,1"
+FollowLaser 288 560 521244 dmgtype=0 accel=0 fixed_angle=180 vistype=0 axis_tracks_player=1 angvel=40 tracking_vel=0 is_dream=1 tracked_axis="x" is_fixed=0
+GenericNPC 384 576 495060 has_dialogue=1 map-scene-pos="CANYON,PROTECTOR" always_scripted=0 context_int_csv="0,0" debug_name="REM_PROTECTOR" children="" id="rem_protector"
+GenericNPC 512 576 541727 has_dialogue=0 map-scene-pos="CANYON,MARBLE" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="marble_dream"
+GenericNPC 384 656 779745 has_dialogue=1 map-scene-pos="CANYON,AWAKE" always_scripted=0 context_int_csv="0,0" debug_name="AWAKE" children="" id="awake_sleeper"
+SavePoint 256 688 809773
+GenericNPC 304 704 756744 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="MOONDERFUL" children="" id="moonderful"
+GenericNPC 410 464 628851 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ROCKS" children="" id="dream_rock"
+GenericNPC 608 544 693962 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="war_dream"
+GenericNPC 448 704 821424 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="FOOD_DREAM" children="" id="dream_bread"
+GenericNPC 464 640 490985 has_dialogue=1 map-scene-pos="CANYON,MARBLE" always_scripted=0 context_int_csv="0,0" debug_name="MARBLE_PERSON" children="" id="marble_sleeper"
+GenericNPC 528 704 950807 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GOLEM_DREAM" children="" id="golem_dream"
+GenericNPC 336 704 383124 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="moon_stew"
+Door 32 704 699694 index=9 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="OLD_5" next_cam_offset="0,0"
+GenericNPC 144 352 274241 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=0 debug_name="HELPALIPH" children="" id="canyon_aliph"
+TrainTrigger 240 336 11704 event_id="none" id=0
+TrainTrigger 80 416 807262 event_id="none" id=1
+AliphItem 224 672 10299 removes=0 vis_set=0 id=12
+AliphItem 260 672 479424 removes=1 vis_set=0 id=12
+AliphItem 640 688 876206 removes=0 vis_set=0 id=12
+FG2 START

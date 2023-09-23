@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+EdgeDoor 896 528 615763 is_wide=0 vistype=0 only_open_dir=-1
+Door 944 528 195548 AUTO_INDEX=0 behavior=0 dest_x=0 dest_map="RIVER_TOWER" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 0 528 490836 AUTO_INDEX=1 behavior=0 dest_x=0 dest_map="RIVER_G1_2" index=8 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+EdgeDoor 32 528 917 is_wide=0 vistype=0 only_open_dir=-1
+Wind 144 560 288627 angle=0 req_energy=0 h=16 w=48 speed=100
+Wind 336 560 451937 angle=0 req_energy=0 h=16 w=64 speed=100
+Wind 480 560 367574 angle=0 req_energy=0 h=16 w=80 speed=100
+FG2 START

@@ -1,0 +1,14 @@
+BBG START
+BG1 START
+BG2 START
+Cauliflower 848 704 695527 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 912 640 282377 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 960 704 961484 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Door 240 400 407198 index=4 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=15 s_visited=1 custom_size="0,0" dest_map="RIVER_PATH" next_cam_offset="0,0"
+Door 16 448 925264 index=2 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_A" next_cam_offset="0,0"
+Door 16 112 651228 index=8 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_TOP" next_cam_offset="0,0"
+EdgeDoor 32 112 18978 is_wide=0 vistype=0 only_open_dir=-1
+Door 1584 448 753526 index=3 AUTO_INDEX=9 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER" next_cam_offset="0,0"
+Door 1584 -80 433240 index=5 AUTO_INDEX=8 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER" next_cam_offset="0,0"
+GenericNPC 272 400 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,60" debug_name="" children="" id="dev_info"
+FG2 START

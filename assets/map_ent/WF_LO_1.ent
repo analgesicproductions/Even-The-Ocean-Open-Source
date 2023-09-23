@@ -1,0 +1,20 @@
+BBG START
+BG1 START
+BG2 START
+Door 800 176 78531 index=0 AUTO_INDEX=3 behavior=1 type=5 script="TOOL/DOORS/YARA_HOUSE.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_YARA" next_cam_offset="0,0"
+TrainTrigger 487 7 350864 event_id="none" id=0
+GenericNPC 672 176 957379 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_YARA" children="" id="ending_init_yara"
+GenericNPC 688 176 360519 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_FINAL" children="" id="ending_final"
+GenericNPC 656 176 115595 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="YARA_GARDN" children="" id="yara_in_garden"
+Door 400 176 230684 index=0 AUTO_INDEX=10 behavior=1 type=5 script="TOOL/DOORS/ALIPH_HOUSE.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_ALIPH" next_cam_offset="0,0"
+GenericNPC 480 176 583215 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="G1_1_YARA" children="" id="g1_1_yara"
+GenericNPC 496 176 168457 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="G1_2_YARA" children="" id="g1_2_yara"
+GenericNPC 703 175 201244 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_CROWD" children="" id="i2_crowd_angry"
+Door 928 176 15950 index=0 AUTO_INDEX=11 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_TRAIN_LO" next_cam_offset="0,0"
+GenericNPC 1149 152 281505 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ALOE" children="" id="aloe"
+SavePoint 368 192 810383
+TrainTrigger 496 16 380147 event_id="none" id=1
+GenericNPC 528 176 985798 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ROOTSINTRO" children="" id="intro_roots"
+NewCamTrig 224 128 321462 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=54 tile_h=6
+FG2 START
+LineCollider 1104 208 102868 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,32,-10,106,-10" invis=1

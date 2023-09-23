@@ -1,0 +1,54 @@
+BBG START
+BG1 START
+BG2 START
+Door 48 16 93591 index=5 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_A" next_cam_offset="0,0"
+Door 352 416 948191 index=4 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_A" next_cam_offset="0,0"
+Door 672 128 121385 index=3 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+Door 96 592 874774 index=2 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+Door 240 592 896546 index=4 AUTO_INDEX=6 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+SavePoint 176 656 787010
+Door 288 880 197415 index=6 AUTO_INDEX=4 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+Door 1232 656 124090 index=7 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+Door 736 1104 343246 index=5 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+Cauliflower 352 880 994391 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 416 848 210231 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 464 800 92950 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 560 752 249654 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Wind 384 928 973875 h=16 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=100
+Wind 432 912 585106 h=16 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=150
+Wind 464 896 969074 h=16 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=150
+Wind 496 864 579498 h=16 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=150
+Cauliflower 480 688 305729 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 304 816 728131 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Spike 576 688 54846 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 576 704 636696 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Cauliflower 690 674 62034 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 819 685 672257 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 931 689 902575 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 1040 688 299290 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Pew 720 576 435184 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 848 576 678242 fint_TICKS=-1 fint=0.1 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 960 576 97302 fint_TICKS=-1 fint=0.1 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 1088 576 223664 fint_TICKS=-1 fint=0.1 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=250 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+PlantBlockAccepter 480 1088 500380 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="811877,147320,783948"
+PlantBlock 704 1136 492300 behavior=3 float_dis=24 dir=0 vis-dmg="0,0"
+Cauliflower 608 1152 591091 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 656 1088 497643 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Weed 496 1216 197707 vistype=0 dir=0
+Pod 544 1216 543799 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 576 1216 586011 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 608 1216 60401 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 1200 76873 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 1184 537202 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Cauliflower 384 1072 797512 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 384 1152 758426 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 304 1152 648039 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 304 1072 921220 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+GenericNPC 96 976 811877 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name=0 children="" id="fungus_trigger"
+RaiseWall 160 64 783948 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=-1 needed_en=1 permanent_open=1 s_open=0 children=0
+RaiseWall 208 64 147320 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=0 init_state=-1 needed_en=1 permanent_open=1 s_open=0 children=""
+Cauliflower 224 1152 58491 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 224 1072 900113 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+GenericNPC 304 112 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,65" debug_name="" children="" id="dev_info"
+GenericNPC 320 912 821422 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,66" debug_name="" children="" id="dev_info"
+FG2 START

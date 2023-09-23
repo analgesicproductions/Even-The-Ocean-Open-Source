@@ -1,0 +1,24 @@
+BBG START
+BG1 START
+BG2 START
+Door 176 368 192249 index=1 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=-4 s_visited=1 custom_size="0,0" dest_map="AIR_5" next_cam_offset="0,0"
+Door 544 608 123832 index=1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=3 s_visited=1 custom_size="0,0" dest_map="AIR_6" next_cam_offset="0,0"
+Door 544 480 406010 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_7" next_cam_offset="0,0"
+Door 352 576 92740 index=9 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_OUT" next_cam_offset="0,0"
+Door 784 368 801815 index=0 AUTO_INDEX=4 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_3" next_cam_offset="0,0"
+EdgeDoor 544 16 93370 is_wide=1 vistype=0 only_open_dir=-1
+Door 544 0 217645 index=0 AUTO_INDEX=5 behavior=0 type=3 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="AIR_5" next_cam_offset="0,0"
+RevolveSpore 320 288 643337 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+RevolveSpore 368 352 691094 hurt_ticks=5 base_vel=500 vis-dmg="1,1"
+Wind 208 272 101579 h=48 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=80 speed=100
+Spike 320 144 60320 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 384 192 996554 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Door 336 768 80155 index=0 AUTO_INDEX=15 behavior=0 type=3 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="AIR_6" next_cam_offset="0,0"
+EdgeDoor 336 752 60466 is_wide=1 vistype=0 only_open_dir=-1
+Door 0 48 88556 index=1 AUTO_INDEX=7 behavior=0 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_7" next_cam_offset="0,0"
+RaiseWall 512 32 288376 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=4 permanent_open=1 s_open=0 children=""
+SavePoint 400 384 678027
+SavePoint 48 304 286895
+SavePoint 256 640 779419
+GenericNPC 496 400 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,102" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 400 720 500525 index=1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="TOWN_IN" next_cam_offset="0,0"
+GreenhousePlant 353 656 370124 id=0
+GreenhousePlant 272 656 261311 id=2
+GreenhousePlant 432 672 981093 id=3
+FG2 START

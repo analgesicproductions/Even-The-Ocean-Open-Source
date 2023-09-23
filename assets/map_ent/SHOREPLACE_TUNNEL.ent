@@ -1,0 +1,25 @@
+BBG START
+BG1 START
+Weed 608 432 612458 vistype=1 dir=0
+Weed 752 432 845429 vistype=1 dir=0
+BG2 START
+Wind 400 416 304810 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Weed 96 352 992983 vistype=0 dir=0
+Weed 240 384 243957 vistype=0 dir=0
+Weed 144 352 892128 vistype=0 dir=0
+Weed 336 320 254791 vistype=1 dir=0
+Weed 544 336 759483 vistype=1 dir=0
+Weed 608 336 177717 vistype=1 dir=0
+Weed 496 432 913625 vistype=1 dir=0
+Wind 208 432 529845 h=48 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=100
+Wind 864 432 45529 h=48 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=80
+SavePoint 128 352 76937
+Dropper 432 208 153838 vistype=0 drop_latency=0.2 max_drops=3
+Door 960 64 810830 index=-1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=403 dest_y=407 s_visited=1 custom_size="0,0" dest_map="NORTHISLAND_1" next_cam_offset="0,0"
+Door 16 336 792795 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACEA" next_cam_offset="0,0"
+Dropper 672 208 187317 vistype=0 drop_latency=0.2 max_drops=3
+Dropper 709 208 907086 vistype=0 drop_latency=0.2 max_drops=3
+Dropper 960 304 450322 vistype=1 drop_latency=0.2 max_drops=3
+GenericNPC 1008 48 552910 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,44" debug_name="" children="" id="dev_info"
+AliphItem 864 144 469196 inv_type=0 removes=0 vis_set=0 id=-1
+FG2 START

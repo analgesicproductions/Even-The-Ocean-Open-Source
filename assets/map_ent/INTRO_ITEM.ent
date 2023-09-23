@@ -1,0 +1,57 @@
+BBG START
+BG1 START
+BG2 START
+Door 5 348 963555 index=0 AUTO_INDEX=1 behavior=0 type=0 script="TOOL/DOORS/INTRO_ITEM.HX" dest_x=922 dest_y=327 s_visited=0 custom_size="0,0" dest_map="INTRO_ASCENT" next_cam_offset="0,0"
+Pod 288 240 512223 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 240 247976 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 208 986190 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 208 740070 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 208 984504 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 192 127121 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 240 88699 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 240 204554 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 640 368 222026 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 320 269403 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 576 368 690333 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 368 953386 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 368 77080 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Weed 64 368 200619 vistype=0 dir=0
+Weed 112 368 398605 vistype=0 dir=0
+Weed 128 368 385139 vistype=0 dir=0
+Weed 176 368 197339 vistype=0 dir=0
+Weed 224 368 492504 vistype=0 dir=0
+Weed 256 368 314032 vistype=0 dir=0
+Weed 272 368 289845 vistype=0 dir=0
+Weed 336 368 853625 vistype=0 dir=0
+Weed 240 304 932449 vistype=0 dir=0
+Weed 336 304 481504 vistype=0 dir=0
+Weed 192 304 301829 vistype=0 dir=0
+Weed 176 304 429645 vistype=0 dir=0
+Weed 144 304 962552 vistype=0 dir=0
+Weed 272 304 810674 vistype=0 dir=0
+Weed 64 304 374583 vistype=0 dir=0
+Weed 96 208 805633 vistype=1 dir=0
+Weed 160 208 397356 vistype=1 dir=0
+Weed 208 208 575742 vistype=1 dir=0
+Weed 240 208 303974 vistype=1 dir=0
+Weed 272 208 965980 vistype=1 dir=0
+Weed 304 208 695886 vistype=1 dir=0
+Weed 336 208 418315 vistype=1 dir=0
+Weed 192 208 163031 vistype=1 dir=0
+Weed 119 209 735236 vistype=1 dir=0
+Weed 133 208 992466 vistype=1 dir=0
+Weed 178 209 463018 vistype=1 dir=0
+Weed 16 304 883702 vistype=0 dir=0
+Weed 112 304 901611 vistype=0 dir=0
+Weed 80 304 824743 vistype=0 dir=0
+Weed 32 304 70862 vistype=0 dir=0
+Weed 314 305 829984 vistype=0 dir=0
+Weed 306 367 182486 vistype=0 dir=0
+Weed 206 368 314023 vistype=0 dir=0
+Pod 160 368 481699 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 368 390443 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 288 74998 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 288 592130 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 848 240 561 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 928 176 671828 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

@@ -1,0 +1,14 @@
+BBG START
+BG1 START
+BG2 START
+SoundZone 3072 640 841511 tile_w=8 type="sand" revert_on_exit=0 tile_h=8 wall_type="generic"
+Wind 96 176 648692 h=16 req_energy=0 angle=180 global=1 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=25
+Door 3184 464 19284 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=0 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+Door 0 0 814199 index=1 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+SavePoint 3040 704 530182
+GenericNPC 2992 688 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,84" debug_name="" children="" id="dev_info"
+GenericNPC 176 416 512682 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,85" debug_name="" children="" id="dev_info"
+Pod 2896 688 982537 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2912 688 770155 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2928 688 634318 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

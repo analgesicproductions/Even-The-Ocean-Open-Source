@@ -1,0 +1,366 @@
+BBG START
+BG1 START
+BG2 START
+VanishBlock 832 144 911548 vistype=1
+VanishBlock 832 128 480941 vistype=1
+Pod 784 144 195999 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 688 144 59314 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 832 112 166341 vistype=1
+VanishBlock 832 96 890227 vistype=1
+SquishBounce 944 160 693275 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 880 144 430516 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 176 144 29748 vistype=0
+VanishBlock 176 128 964137 vistype=0
+VanishBlock 272 144 967168 vistype=1
+VanishBlock 272 128 365399 vistype=1
+Pod 224 128 960112 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 128 495 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 176 112 988141 vistype=0
+VanishBlock 176 96 311631 vistype=0
+VanishBlock 272 112 168889 vistype=1
+VanishBlock 272 96 970248 vistype=1
+Pod 32 112 983107 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 64 144 877714 vistype=1
+VanishBlock 64 128 401559 vistype=1
+VanishBlock 64 112 713250 vistype=1
+VanishBlock 64 96 313744 vistype=1
+SquishBounce 384 160 788885 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 320 128 869137 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 368 96 179286 vistype=0
+VanishBlock 368 112 462088 vistype=0
+VanishBlock 368 128 350736 vistype=0
+VanishBlock 368 144 625510 vistype=0
+SquishBounce 96 240 716713 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 256 176 18720 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 256 192 900600 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 160 192 180905 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 160 176 625794 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 352 176 914447 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 352 192 470406 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 576 96 331008 vistype=0
+VanishBlock 576 112 960148 vistype=0
+VanishBlock 576 128 925711 vistype=0
+VanishBlock 576 144 706951 vistype=0
+Pod 544 112 302296 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 928 128 25110 vistype=1
+VanishBlock 928 144 87623 vistype=1
+VanishBlock 1040 96 353271 vistype=0
+VanishBlock 1040 112 132162 vistype=0
+VanishBlock 1040 128 67284 vistype=0
+VanishBlock 1040 144 64824 vistype=0
+SquishBounce 672 240 914023 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 816 176 618740 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 816 192 212022 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 720 256 714430 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 736 256 903462 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 752 256 744816 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 944 128 915214 vistype=1
+VanishBlock 944 144 450377 vistype=1
+Pod 928 256 9075 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 944 256 252871 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 960 256 613954 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SquishBounce 320 464 777619 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+SquishBounce 80 464 39382 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+SquishBounce 560 464 438446 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 240 544 854715 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 224 544 759306 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 208 544 243022 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 480 544 49646 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 464 544 550770 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 448 544 642398 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 336 432 984005 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 464 448 691478 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 448 448 529762 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 512 400 931354 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 608 448 545806 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 624 448 12017 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 656 544 145274 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 544 973492 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 688 400 682606 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 32 144 593389 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,19" id="sign1" has_dialogue=1
+GenericNPC 538 146 204444 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,20" id="sign1" has_dialogue=1
+GenericNPC 16 400 990798 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,21" id="sign1" has_dialogue=1
+FollowLaser 1424 128 538843 accel=50 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+OrbSlot 1616 240 796117 children="570333" transmit_en=16 vis=0 needed_en=0
+Mole 1536 240 853269 init_dir=1 init_energy=64 turns_right=1 vel_bounds="50,100,50,100" max_energy=128
+SapPad 1536 256 570333 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+SapPad 1424 256 709732 children="280996" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 1312 256 280996 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=3 vistype=1 s_open=0 needed_en=16
+VanishBlock 1184 144 821307 vistype=0
+VanishBlock 1184 160 765892 vistype=0
+VanishBlock 1184 176 424259 vistype=0
+VanishBlock 1296 96 196622 vistype=1
+VanishBlock 1312 96 814446 vistype=1
+VanishBlock 1584 64 379920 vistype=1
+VanishBlock 1584 80 925234 vistype=1
+Pod 1136 144 673073 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1712 176 995938 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+FollowLaser 896 368 286193 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="x" fixed_angle=90
+OrbSlot 1456 384 252854 children="384186" transmit_en=16 vis=1 needed_en=0
+RaiseWall 1472 432 384186 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=24
+SapPad 1424 544 546618 children="384186" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+Pod 1376 496 532713 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1392 496 733333 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SapPad 1152 544 188631 children="461955" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 1216 432 461955 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=24
+OrbSlot 1200 384 615048 children="461955" transmit_en=16 vis=1 needed_en=0
+Pod 1296 496 331401 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1296 512 628562 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1296 528 452701 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 992 448 7546 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1008 448 237889 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 912 480 516083 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 928 480 220991 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 944 480 936609 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1168 160 399977 always_scripted=0 debug_name="NOT_SURE_EXACTLY_HOW_THIS_WILL_PLAY_OUT_VISUALLY_BUT_BASICALLY_THERES_LIKE_A_SECRET_PASSAGE_AND_U_HAVE_TO_GO_ABOVE_TO_NOT_BLOCK_THE_LASER" context_int_csv="0,0" children="" map-scene-pos="p,dj,22" id="sign1" has_dialogue=1
+GenericNPC 864 512 541099 always_scripted=0 debug_name="DOORS_CLOSE_RIGHT_AFTER_U_LIKE_YOURE_IN_A_COOL_MOVIE1_BASICALLY_U_JUST_HAVE_TONOT_TRY_TO_CLIMB_UP_RIGHT_NEXT_TO_THE_DOORS_BECAUSE_THEN_YOU_WONT_MAKE_IT" context_int_csv="0,0" children="" map-scene-pos="p,dj,23" id="sign1" has_dialogue=1
+Pew 1760 416 656405 bspd=100 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1,1,0,0,0,0,0,0,0,0" white_no_dmg=0 vistype=1 mb=9 fint=0.2
+GenericNPC 1648 464 518975 always_scripted=0 debug_name="PERIODICALLY_STOP_PEWS" context_int_csv="0,0" children="" map-scene-pos="p,dj,24" id="sign1" has_dialogue=1
+Pod 1792 480 346216 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 1824 416 85908 vistype=1
+VanishBlock 1824 480 285500 vistype=1
+VanishBlock 1824 464 837298 vistype=1
+VanishBlock 1824 400 226048 vistype=1
+VanishBlock 1744 464 727681 vistype=0
+VanishBlock 1744 480 427030 vistype=0
+Pod 1696 448 737338 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 1744 448 31262 vistype=0
+SapPad 2176 592 323678 children="200414" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 2272 512 200414 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=24
+OrbSlot 2208 416 358639 children="200414" transmit_en=16 vis=1 needed_en=0
+Pod 2192 480 995034 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2192 464 672575 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1952 512 221602 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1968 512 93959 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1824 560 336401 always_scripted=0 debug_name="THIS_IMPLEMENTATION_IS_TOO_CRAMPED,IT_WILL_BE_EXPANDED_IN_FINAL_DRAFT" context_int_csv="0,0" children="" map-scene-pos="p,dj,25" id="sign1" has_dialogue=1
+GenericNPC 2448 464 820595 always_scripted=0 debug_name="SIMPLE_FUN_THING,_MIGHT_ADD_A_BIT_OF_COMPLICATION" context_int_csv="0,0" children="" map-scene-pos="p,dj,26" id="sign1" has_dialogue=1
+VanishBlock 2640 416 294725 vistype=1
+Pod 2432 352 300444 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+RaiseWall 2928 464 98640 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=48
+OrbSlot 2896 416 258043 children="98640" transmit_en=16 vis=1 needed_en=0
+Pew 2560 416 293116 bspd=60 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern=111000000 white_no_dmg=0 vistype=1 mb=20 fint=0.3
+SapPad 2560 544 564794 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+VanishBlock 2720 416 237217 vistype=0
+VanishBlock 2800 416 523335 vistype=1
+Pod 2608 528 637326 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2688 528 467728 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2768 528 102476 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Mole 2560 528 828541 init_dir=1 init_energy=64 turns_right=1 vel_bounds="50,60,50,60" max_energy=128
+SapPad 2832 544 668589 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+VanishBlock 2432 384 64652 vistype=0
+VanishBlock 2448 384 275768 vistype=0
+SapPad 2528 496 960475 children="564794" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+FollowLaser 48 672 860332 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="x" fixed_angle=90
+RaiseWall 80 672 110586 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=64
+VanishBlock 208 784 56237 vistype=0
+VanishBlock 208 800 208672 vistype=0
+VanishBlock 208 816 329798 vistype=0
+VanishBlock 208 848 150976 vistype=0
+VanishBlock 208 864 890191 vistype=0
+VanishBlock 304 912 123946 vistype=1
+VanishBlock 304 880 709080 vistype=1
+VanishBlock 304 896 645803 vistype=1
+VanishBlock 304 768 688837 vistype=1
+VanishBlock 304 752 713077 vistype=1
+VanishBlock 304 736 572276 vistype=1
+VanishBlock 304 784 484916 vistype=1
+Pod 256 880 689388 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 256 768 967126 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 208 912 676858 vistype=0
+Pod 304 688 501396 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 208 928 122712 vistype=0
+Pew 48 816 944569 bspd=100 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern=11000 white_no_dmg=0 vistype=1 mb=20 fint=0.3
+SapPad 112 832 402321 children="110586" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+Pod 64 784 247820 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 64 768 429805 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 208 944 438671 vistype=0
+VanishBlock 208 960 931829 vistype=0
+Pod 256 944 257133 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 304 928 459872 vistype=1
+VanishBlock 208 976 209372 vistype=0
+VanishBlock 304 944 197884 vistype=1
+Pod 256 1008 312289 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 192 848 580434 vistype=1
+VanishBlock 192 864 767467 vistype=1
+VanishBlock 192 880 222591 vistype=1
+VanishBlock 192 896 687444 vistype=1
+VanishBlock 208 832 554328 vistype=0
+OrbSlot 384 880 593530 children="" transmit_en=16 vis=1 needed_en=0
+FollowLaser 896 672 17237 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="Y" fixed_angle=180
+RaiseWall 880 704 427190 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=64
+SapPad 832 784 672751 children="427190" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+FollowLaser 672 672 759190 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="x" fixed_angle=90
+VanishBlock 720 880 691837 vistype=0
+VanishBlock 720 896 182182 vistype=0
+VanishBlock 720 912 506292 vistype=0
+VanishBlock 720 1024 667605 vistype=0
+VanishBlock 720 1040 475837 vistype=0
+VanishBlock 720 1056 66990 vistype=0
+VanishBlock 800 944 251186 vistype=1
+VanishBlock 800 960 988095 vistype=1
+VanishBlock 800 976 27880 vistype=1
+Pod 768 976 271037 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 752 912 481570 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 720 928 178651 vistype=0
+VanishBlock 800 992 790740 vistype=1
+VanishBlock 720 1072 711892 vistype=0
+Pod 608 768 999930 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 624 768 355137 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 640 768 55872 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 672 864 668470 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 672 880 443591 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 672 896 709762 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 672 912 919211 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+OrbSlot 576 1088 266724 children="235554" transmit_en=16 vis=1 needed_en=0
+Pod 656 1104 726016 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 896 1072 853641 vistype=1
+VanishBlock 880 1072 953623 vistype=1
+Pod 736 720 574763 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 752 720 609028 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 768 720 569082 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 704 928 706935 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 704 944 472277 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 704 960 285197 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 608 1088 385054 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 688 1088 583122 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 624 1072 79219 vistype=1
+VanishBlock 608 1072 537550 vistype=1
+VanishBlock 592 1072 341580 vistype=1
+RaiseWall 800 1136 235554 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=0 s_open=0 needed_en=2
+VanishBlock 800 1008 349934 vistype=1
+GenericNPC 48 720 316566 always_scripted=0 debug_name="FAILED_ATTEMPT,_IDEA_TO_THE_RIGHT_IS_BETTER_VERION" context_int_csv="0,0" children="" map-scene-pos="p,dj,27" id="sign1" has_dialogue=1
+GenericNPC 592 720 382468 always_scripted=0 debug_name="ATTEMPT_AT_A_BIG_ROOM_USING_BASIN_FOCUS_ENTS,_ITS_A_BIT_HARD_TO_USE_THESE_KINDS_OF_THINGS_BECAUSE_SEEING_ALL_THE_WIRE_CONNECTIONS_AND_LASER_POSITIONS_IS_SO_IMPORTANT,,,_BUT_I_THINK_THIS_IS_OK/" context_int_csv="0,0" children="" map-scene-pos="p,dj,28" id="sign1" has_dialogue=1
+PlantBlock 1024 864 813886 behavior=1 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 1536 832 461397 behavior=1 init_state=0 vis-dmg="0,0" s_on=1 children=""
+Pod 1152 752 44147 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1168 752 115969 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+FollowLaser 1040 704 918763 accel=50 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+Pod 1328 752 672446 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1344 752 767844 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1360 752 234042 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1072 784 958603 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1072 800 404451 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+PlantBlock 992 1152 498054 behavior=1 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 1616 1104 715311 behavior=1 init_state=0 vis-dmg="0,0" s_on=0 children=""
+FollowLaser 1072 992 607177 accel=50 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+VanishBlock 1040 1104 965356 vistype=1
+VanishBlock 1040 1120 776243 vistype=1
+VanishBlock 1040 1136 38182 vistype=1
+VanishBlock 1168 1120 836542 vistype=0
+Pod 1040 1008 406225 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 1168 1104 20272 vistype=0
+VanishBlock 1168 1088 821332 vistype=0
+VanishBlock 1168 992 330377 vistype=1
+VanishBlock 1168 1072 150751 vistype=0
+VanishBlock 1168 1056 611061 vistype=0
+VanishBlock 1168 1136 289657 vistype=0
+VanishBlock 1264 1120 423285 vistype=1
+VanishBlock 1264 1104 829956 vistype=1
+VanishBlock 1248 1120 63650 vistype=1
+VanishBlock 1248 1104 768302 vistype=1
+Pod 1328 1104 574959 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+VanishBlock 1408 1120 823281 vistype=1
+VanishBlock 1408 1104 928801 vistype=1
+VanishBlock 1408 1088 705238 vistype=1
+VanishBlock 1408 1072 413435 vistype=1
+VanishBlock 1408 1056 262093 vistype=1
+Pod 1360 1008 36685 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1424 1120 652160 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1472 1040 702733 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1008 752 80990 always_scripted=0 debug_name="SIMPLE_COVER_WHEN_VULNERABLE_IDEA" context_int_csv="0,0" children="" map-scene-pos="p,dj,29" id="sign1" has_dialogue=1
+GenericNPC 992 1040 22573 always_scripted=0 debug_name="GOTTA_LOCK_UP_THE_FOLLOWLASER_AND_AVOID_THE_SWITCHES_SO_YOU_DONT_RELEASE_IT" context_int_csv="0,0" children="" map-scene-pos="p,dj,30" id="sign1" has_dialogue=1
+Pod 1552 1056 147863 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+FollowLaser 1760 656 911610 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="x" fixed_angle=90
+PlantBlock 1632 880 93743 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+Pew 1760 752 860334 bspd=140 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="2,2,2,0,0,0,0,0,0,0,0" white_no_dmg=0 vistype=0 mb=20 fint=0.2
+Pew 2160 832 965145 bspd=140 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="2,2,2,0,0,0,0,0,0,0,0" white_no_dmg=0 vistype=0 mb=20 fint=0.2
+SquishBounce 2016 768 784361 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+PlantBlockAccepter 2384 768 423558 behavior=0 init_state=0 vis-dmg="0,0" s_on=1 children=""
+Pod 2096 864 762169 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2112 864 988292 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2128 864 559788 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2080 864 317991 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SapPad 1744 1072 157265 children="128069" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 1744 992 128069 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+SapPad 2000 992 610571 children="554964" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 2096 1088 554964 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=16
+PlantBlockAccepter 1728 1184 314729 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+PlantBlock 2112 1184 511792 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+Pod 704 912 783043 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Mole 1744 976 641056 init_dir=1 init_energy=64 turns_right=1 vel_bounds="50,100,50,100" max_energy=128
+SquishBounce 1856 1088 862065 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 1904 1024 859240 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 1824 1072 412907 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1840 1072 813859 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2032 1072 455963 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SquishBounce 1712 1152 867435 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+Pod 1760 1120 507402 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2000 1152 674478 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2000 1168 811573 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1872 1168 724400 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1808 1168 857266 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1840 1168 936314 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 2144 1040 799607 always_scripted=0 debug_name="COULD_PROBABLY_BE_WIDENED_A_BIT" context_int_csv="0,0" children="" map-scene-pos="p,dj,31" id="sign1" has_dialogue=1
+FollowLaser 2672 672 456687 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="x" fixed_angle=90
+FollowLaser 2816 1008 578771 accel=50 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=1 tracking_vel=0 tracked_axis="Y" fixed_angle=180
+VanishBlock 2592 688 224830 vistype=0
+VanishBlock 2608 688 706761 vistype=0
+VanishBlock 2624 688 187086 vistype=0
+VanishBlock 2640 688 132821 vistype=0
+VanishBlock 2656 688 623001 vistype=0
+VanishBlock 2672 688 993154 vistype=0
+VanishBlock 2688 688 391542 vistype=0
+VanishBlock 2704 688 427144 vistype=0
+VanishBlock 2720 688 599282 vistype=0
+VanishBlock 2736 688 495468 vistype=0
+VanishBlock 2752 688 557453 vistype=0
+VanishBlock 2768 688 989323 vistype=0
+VanishBlock 2784 688 633281 vistype=0
+VanishBlock 2800 816 837771 vistype=1
+VanishBlock 2800 832 573229 vistype=1
+VanishBlock 2800 848 54581 vistype=1
+VanishBlock 2800 864 249798 vistype=1
+VanishBlock 2800 880 583787 vistype=1
+VanishBlock 2800 896 192570 vistype=1
+VanishBlock 2800 912 71514 vistype=1
+VanishBlock 2800 928 614889 vistype=1
+VanishBlock 2800 944 136350 vistype=1
+VanishBlock 2800 960 774728 vistype=1
+VanishBlock 2800 976 820730 vistype=1
+VanishBlock 2800 992 772466 vistype=1
+VanishBlock 2800 1008 648311 vistype=1
+VanishBlock 2800 1024 70719 vistype=1
+VanishBlock 2576 688 570399 vistype=0
+VanishBlock 2560 688 170171 vistype=0
+VanishBlock 2544 688 286653 vistype=0
+SapPad 2704 1072 991937 children="567463" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 2736 1120 567463 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+Mole 2736 1104 153885 init_dir=1 init_energy=64 turns_right=1 vel_bounds="25,50,25,50" max_energy=128
+SapPad 2816 784 425671 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+VanishBlock 2848 704 287433 vistype=0
+VanishBlock 2848 720 9595 vistype=0
+VanishBlock 2800 704 568682 vistype=1
+VanishBlock 2800 720 368537 vistype=1
+VanishBlock 2848 736 329324 vistype=0
+VanishBlock 2800 736 514834 vistype=1
+MoleTile 2848 1104 695609 behavior=-1 off=0 dir=3
+MoleTile 2848 768 624553 behavior=-1 off=0 dir=2
+CameraTrigger 2480 912 68037 enter="2512,1040" exit="2480,1040" nrenter=1 nrexit=1 width=416 vistype=0 height=256
+Pod 2848 1056 807444 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2848 944 931917 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2848 832 680052 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 2640 1040 184674 always_scripted=0 debug_name="GENERAL_IDEA_HERE_IS_THAT_YOU_CAN_TAKE_COVER_ON_THE_LEFT_SIDE_WHEN_THE_FOLLOWLASERS_SWITCH_BUT_THERE_SEEMS_TO_BE_WEIRD_BUGS_HAPPENING" context_int_csv="0,0" children="" map-scene-pos="p,dj,32" id="sign1" has_dialogue=1
+VanishBlock 2576 1040 764192 vistype=0
+VanishBlock 2576 1056 526079 vistype=0
+Pod 2560 1024 418134 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1200 1376 420776 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1312 1376 500235 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1408 1376 245982 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=1 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Mole 1008 1296 526326 init_dir=1 init_energy=64 turns_right=1 vel_bounds="50,100,50,100" max_energy=128
+SapPad 1008 1312 836845 children="" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=1 dmg_rate=0.04
+SapPad 1024 1424 965638 children="836845" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+VanishBlock 1088 1296 305653 vistype=0
+VanishBlock 1216 1296 723362 vistype=1
+Door 464 0 645085 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_6" index=14 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+Pod 2544 448 621405 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+FG2 START

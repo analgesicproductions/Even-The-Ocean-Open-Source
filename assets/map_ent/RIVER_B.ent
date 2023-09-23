@@ -1,0 +1,60 @@
+BBG START
+BG1 START
+SetPiece 560 480 936897 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=5 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+BG2 START
+GenericNPC 592 576 25975 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g2_1_end"
+Door 496 16 208965 index=0 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=-1 dest_y=-16 s_visited=1 custom_size="0,0" dest_map="RIVER_G4" next_cam_offset="0,0"
+Button 576 1072 793218 t_wait=-1 vistype=1 damage=1 children="25975"
+GenericNPC 432 288 857832 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="PAXTONDEAD" children="713728" id="g2_1_paxton"
+PlantBlock 288 624 323004 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+ExtendStem 96 640 516958 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=270 deaccel=150
+Pod 288 560 368993 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 848 690274 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 848 952878 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 272 784 287650 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 784 417675 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlock 608 864 396399 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+ExtendStem 448 832 162691 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=6 return_vel=35 angle=180 deaccel=150
+PlantBlockAccepter 176 832 295153 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="25975,29525"
+ExtendStem 1152 448 316956 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=0 deaccel=150
+ExtendStem 1408 448 572901 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=270 deaccel=150
+PlantBlockAccepter 1552 352 228231 vis-dmg="1,1" behavior=1 init_state=0 s_on=0 children="25975,922101"
+PlantBlock 1024 576 857681 behavior=1 float_dis=32 dir=0 vis-dmg="1,1"
+Pew 1056 336 638519 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0"
+ExtendStem 1184 944 259231 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=6 return_vel=35 angle=180 deaccel=150
+Pew 1296 928 841070 fint_TICKS=-1 fint=0.2 fpattern=2 vistype=1 bullet_vis="-1,-1" dir=3 mb=10 bspd=130 white_no_dmg=0 is_dream=0 rhythm_pattern="2,2,0,0,0,0,0,0,0,0"
+Pew 896 832 346854 fint_TICKS=-1 fint=0.2 fpattern=2 vistype=1 bullet_vis="-1,-1" dir=1 mb=10 bspd=130 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0,0,0,0"
+PlantBlock 1040 1024 60872 behavior=0 float_dis=32 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 1376 832 455709 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="25975,270432"
+Pod 128 560 767075 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 464 331247 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PlantBlockAccepter 16 384 608366 vis-dmg="0,0" behavior=1 init_state=0 s_on=0 children="25975,21875"
+BarbedWire 464 304 713728 saves_state=0 dmgtype=0 s_save=1 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="495630" wire_tile_width=3 is_gauntlet=1
+BarbedWire 672 304 495630 saves_state=0 dmgtype=0 s_save=1 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+NewCamTrig 144 736 985396 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=36 tile_h=16
+NewCamTrig 720 736 220293 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=45 tile_h=22
+NewCamTrig 0 304 780425 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=27 tile_h=24
+NewCamTrig 944 176 385506 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=41 tile_h=29
+NewCamTrig 256 0 654886 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=41 tile_h=23
+NewCamTrig 432 368 395933 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=32 tile_h=23
+EdgeDoor 496 32 406990 is_wide=1 vistype=0 only_open_dir=0
+SavePoint 400 128 249312 autosaves=0
+SavePoint 704 592 651114 autosaves=0
+ExtendStem 480 256 452864 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=0 deaccel=150
+Pod 304 560 813351 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 272 560 848595 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 336 829897 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 80 336 406646 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 336 114377 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 656 784 135561 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 656 800 312840 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+ExtendStem 992 848 191936 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=6 return_vel=35 angle=0 deaccel=150
+Pew 1216 336 755745 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,1,0,0,0"
+Pew 1328 272 593137 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=2 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,1,0,0,0"
+Pew 1456 272 718778 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,1,0,0,0"
+GenericNPC 573 509 21875 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 586 542 29525 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 668 513 922101 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="console_light"
+GenericNPC 652 544 270432 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children=0 id="console_light"
+SetPiece 368 64 443203 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START

@@ -1,0 +1,33 @@
+// Map_name floorsound wallsound
+ROUGE_G step_rock.wav step_rock.wav
+ROUGE_B step_rock.wav step_rock.wav
+SHORE_G step_rock.wav step_rock.wav
+SHORE_B step_rock.wav step_rock.wav
+CANYON_G step_rock.wav step_rock.wav
+CANYON_B step_rock.wav step_rock.wav
+HILL_G step_rock.wav step_rock.wav
+HILL_B step_rock.wav step_rock.wav
+BASIN_G step_rock.wav step_rock.wav
+BASIN_B step_rock.wav step_rock.wav
+WOODS_G step_rock.wav step_rock.wav
+WOODS_B step_rock.wav step_rock.wav
+RIVER_G step_rock.wav step_rock.wav
+RIVER_B step_rock.wav step_rock.wav
+EARTH_SILO_1B step_rock.wav step_rock.wav
+EARTH_SILO_2B step_rock.wav step_rock.wav
+AIR_SILO_1 step_rock.wav step_rock.wav
+AIR_SILO_2 step_rock.wav step_rock.wav
+SEA_SILO_1 step_rock.wav step_rock.wav
+SEA_SILO_2 step_rock.wav step_rock.wav
+PASS_G step_golem.wav step_golem.wav
+PASS_B step_golem.wav step_golem.wav
+CLIFF_G step_golem.wav step_golem.wav
+CLIFF_B step_golem.wav step_golem.wav
+FALLS_G step_golem.wav step_golem.wav
+FALLS_B step_golem.wav step_golem.wav
+RADIO_LOBBY step_rock.wav step_rock.wav
+RADIO_G step_rock.wav step_rock.wav
+RADIO_B step_rock.wav step_rock.wav
+RADIO_D step_rock.wav step_rock.wav
+// default must be last, these sonds play if nothing else
+default step_dirtg step_dirtg

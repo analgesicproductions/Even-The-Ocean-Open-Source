@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 576 32 198991 always_scripted=1 debug_name="ALIPH_POST_ROUGE" context_int_csv="0,0" children="" map-scene-pos="" id="city_s_aliph_fade_2" has_dialogue=0
+GenericNPC 544 160 884443 always_scripted=1 debug_name="ALIPH_POST_PAMPHLETS" context_int_csv="0,0" children="" map-scene-pos=0 id="city_s_aliph_home_intro" has_dialogue=1
+GenericNPC 480 80 38695 always_scripted=1 debug_name="SCREENALIPH" context_int_csv="0,0" children="" map-scene-pos="" id="screen_aliph" has_dialogue=0
+TrainTrigger 0 0 378426 id=0 event_id="none"
+FG2 START

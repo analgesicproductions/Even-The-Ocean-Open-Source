@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Door 864 528 972321 index=1 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_3" next_cam_offset="0,0"
+Door 656 592 114019 index=1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_4" next_cam_offset="0,0"
+Door 496 592 70804 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_4" next_cam_offset="0,0"
+Door 304 592 664482 index=0 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_6" next_cam_offset="0,0"
+Door 208 592 464881 index=1 AUTO_INDEX=4 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_6" next_cam_offset="0,0"
+Door 0 384 963898 index=0 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_7" next_cam_offset="0,0"
+GenericNPC 800 384 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,90" debug_name="" children="" id="dev_info"
+FG2 START

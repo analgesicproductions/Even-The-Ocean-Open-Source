@@ -1,0 +1,48 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 0 167908 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_1" next_cam_offset="0,-32"
+Door 1072 608 704520 index=0 AUTO_INDEX=1 behavior=1 type=4 script="" dest_x=3 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_3" next_cam_offset="0,0"
+Door 1200 528 459512 index=1 AUTO_INDEX=2 behavior=1 type=4 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="32,32" dest_map="SHORE_3" next_cam_offset="0,0"
+NewWaterShooter 2912 336 743455 tile_height=6 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="1,1" is_vert=1 max_vel=320
+SavePoint 3616 192 112070
+WalkPod 3088 208 703043 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+WalkPod 3104 208 193884 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+WalkPod 3120 208 595021 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+WalkPod 3136 208 306383 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="1,1" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+Pod 2816 448 957280 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2880 208 942099 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2880 224 758977 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2880 240 633469 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkPod 3280 160 105509 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="0,0" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+WalkPod 3296 160 997583 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="0,0" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+WalkPod 3312 160 857571 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="0,0" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+WalkPod 3328 160 367853 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="0,0" decel-frames="120,20,30" tm_dead=1 dir=0 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=15
+NewWaterShooter 3440 224 668053 tile_height=5 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="1,1" is_vert=1 max_vel=320
+GenericNPC 885 506 355332 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="clam_entrance"
+Door 2368 -112 797746 index=0 AUTO_INDEX=4 behavior=0 type=2 script="TOOL/DOORS/SM.HX" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_G1" next_cam_offset="0,0"
+BarbedWire 1216 304 426492 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="471966" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1104 160 471966 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+GreenhousePlant 1184 288 517828 id=-1
+GenericNPC 1008 256 675607 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=0 debug_name="AFAWE" children="" id="shore_aliph"
+NewWaterShooter 1616 304 220438 tile_height=4 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+NewWaterShooter 1824 192 706112 tile_height=4 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+Pod 1888 240 539539 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1872 240 328468 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1568 352 237849 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1584 352 105615 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SapPad 1056 320 329781 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="485400,460100"
+Pod 800 336 795010 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 784 336 944390 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+TrainTrigger 944 128 790010 event_id="none" id=0
+TrainTrigger 848 128 451351 event_id="none" id=1
+RaiseWall 864 352 485400 energy=24 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=24 permanent_open=0 s_open=1 children=""
+GenericNPC 2304 32 13650 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GA" children="" id="gauntletblocker"
+SavePoint 2128 128 282665
+SapPad 800 416 888830 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="786417,485400"
+FG2 START
+NewCamTrig 0 160 625731 hor_leveler_px_up=64 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=8 tile_h=7
+SetPiece 928 432 725257 tile_size="0,0" fades_when_overlap=1 TYPE="group1" auto_scroll_dir=0 id=0 border_shrink=4 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+PushField 924 443 37945 h=50 hor_push=-20 w=16
+WirePoint 1056 336 460100 pos="0,48,-208,48,-208,16" vistype=0 forceTargetDir=0 children="485400"
+WirePoint 800 432 786417 pos="0,16,16,16,16,-80,48,-80" vistype=0 forceTargetDir=1 children="485400"

@@ -1,0 +1,58 @@
+BBG START
+BG1 START
+SetPiece 1248 920 542209 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1424 920 745635 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+BG2 START
+Door 0 624 765775 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_1" next_cam_offset="0,0"
+ExtendStem 1536 624 24829 accel=100 tm_hurt=0.1 vel=70 vis-dmg="2,2" tile_width=3 return_vel=35 angle=0 deaccel=150
+Door 3376 640 664440 index=0 AUTO_INDEX=1 behavior=0 type=2 script="TOOL/DOORS/SM.HX" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1" next_cam_offset="0,0"
+GenericNPC 1832 711 675889 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="POSTOFFICE" children="" id="river_post_office"
+GenericNPC 1920 720 248951 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MSG_BOARD" children="" id="river_message_board"
+GenericNPC 2538 784 105995 has_dialogue=1 map-scene-pos="RIVER,TOWER_MAN,0" always_scripted=0 context_int_csv="0,0" debug_name="DAMIEN" children="" id="river_old_man"
+GenericNPC 2288 720 832649 has_dialogue=1 map-scene-pos="RIVER,TROPHY_2,0" always_scripted=0 context_int_csv="0,0" debug_name="TROPHY_OLD" children="" id="trophy_old"
+GenericNPC 2192 720 849881 has_dialogue=1 map-scene-pos="RIVER,TROPHY_1,0" always_scripted=0 context_int_csv="0,0" debug_name="TROPHY_YOUNG" children="" id="trophy_young"
+GenericNPC 640 848 368930 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GUARD" children="" id="river_guard"
+GenericNPC 1232 711 295066 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="CAFE_OWNER" children="" id="river_cafe_owner"
+NewCamTrig 1776 736 865362 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=14 tile_h=5
+NewCamTrig 1104 688 231679 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=21 tile_h=6
+NewCamTrig 1248 976 833685 hor_leveler_px_up=96 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=12 tile_h=8
+GenericNPC 1312 880 138651 has_dialogue=1 map-scene-pos="RIVER,AYANO" always_scripted=0 context_int_csv="0,0" debug_name="AYANO" children="" id="ayano"
+GenericNPC 1472 880 220244 has_dialogue=1 map-scene-pos="RIVER,TAKUMI" always_scripted=0 context_int_csv="0,0" debug_name="TAKUMI" children="" id="takumi"
+ExtendStem 1696 848 450599 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=270 deaccel=150
+Pod 2080 736 37786 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2016 736 811523 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 2512 720 760920 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=8 tile_h=7
+SoundZone 624 832 662764 tile_w=8 type="dirt" revert_on_exit=0 tile_h=8 wall_type="generic"
+SetPiece 0 924 486749 tile_size="3467,119" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=6 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=1 auto_scroll_fps=30 blend_1ad2mu3sc=-1
+SetPiece 16 930 860219 tile_size="3468,124" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=2 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+NewCamTrig 1168 848 955688 hor_leveler_px_up=96 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=25 tile_h=6
+NewCamTrig 624 832 357815 hor_leveler_px_up=112 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=4 tile_h=6
+NewCamTrig 0 832 588322 hor_leveler_px_up=112 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=17 tile_h=6
+NewCamTrig 2832 832 15709 hor_leveler_px_up=96 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=36 tile_h=6
+NewCamTrig 2144 736 385060 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=14 tile_h=5
+GenericNPC 3344 768 275649 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=3 debug_name="SDFG" children="" id="gauntletblocker"
+GenericNPC 2928 848 113147 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GATE" children="" id="river_locked_gate"
+GenericNPC 2866 864 218609 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GATEKEEPR" children="113147" id="river_jr_gatekeeper"
+GenericNPC 112 784 32239 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="RIVERSOUND" children="" id="riversound"
+SavePoint 3264 880 619231
+SongTrigger 1306 496 956661 name="RIVER_STOREROOM"
+SongTrigger 1328 496 72623 name="RIVER_STOREROOM"
+SongTrigger 1286 496 270890 name="RIVER_STOREROOM"
+SongTrigger 1536 592 471300 name="RIVER_OUT"
+SongTrigger 1552 592 636681 name="RIVER_OUT"
+SongTrigger 1276 433 533879 name="RIVER_OUT"
+SongTrigger 1302 433 43867 name="RIVER_OUT"
+SongTrigger 1334 432 872060 name="RIVER_OUT"
+SongTrigger 1543 522 851349 name="RIVER_STOREROOM"
+GenericNPC 1152 608 408480 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="riverbird"
+GenericNPC 1376 464 436533 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="riverbird"
+GenericNPC 1952 496 478789 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+GenericNPC 1920 497 172034 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+GenericNPC 1984 503 742088 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="riverbird"
+GenericNPC 1920 642 882007 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=0 debug_name="" children="" id="riverbird"
+GenericNPC 1936 678 201923 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+GenericNPC 2160 688 88029 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+GenericNPC 1360 656 530128 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+GenericNPC 1552 462 341287 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+GenericNPC 1520 463 360734 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="riverbird"
+FG2 START

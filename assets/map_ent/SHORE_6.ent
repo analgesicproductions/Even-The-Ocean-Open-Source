@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 752 966937 index=4 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_2" next_cam_offset="0,0"
+NewWaterShooter 672 832 784874 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="1,1" is_vert=1 max_vel=280
+GenericNPC 2064 192 13650 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GA" children="" id="gauntletblocker"
+Door 2128 16 339584 index=0 AUTO_INDEX=1 behavior=0 type=2 script="TOOL/DOORS/SM.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_G1" next_cam_offset="0,0"
+FG2 START

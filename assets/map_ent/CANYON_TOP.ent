@@ -1,0 +1,24 @@
+BBG START
+BG1 START
+BG2 START
+Door 856 608 579341 index=0 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="CANYON_LEFT" next_cam_offset="0,0"
+EdgeDoor 848 592 378855 is_wide=1 vistype=0 only_open_dir=-1
+BarbedWire 1376 368 467332 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1424 256 393111 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="467332" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1376 144 779895 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="393111" wire_tile_width=3 is_gauntlet=1
+Pod 208 304 779741 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 304 637298 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 272 45090 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 272 139301 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 272 972114 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 528 240 203711 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 544 240 776781 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 240 259249 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 304 432 222597 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="PHONE_IN" children="" id="s_3b_call_mayor"
+GenericNPC 400 400 238692 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_1_pile"
+GenericNPC 144 400 369319 has_dialogue=1 map-scene-pos="NATURE_BLOCKER" always_scripted=1 context_int_csv="0,0" debug_name="NATURE_BLOCKER" children="" id="nature_blocker"
+Door 0 32 873560 index=3 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYONOUT2" next_cam_offset="0,0"
+SavePoint 96 272 609756
+GenericNPC 48 256 612077 has_dialogue=1 map-scene-pos="p,dj,71" always_scripted=0 context_int_csv="0,0" debug_name="CANYON_IS_ONE_OF_THE_FEW_AREAS_THAT_GOT_TO_A_PRETTY_FINISHED_STATE_IN_THE_ALL_PIXEL_ART_STYLE,,,_MORE_COMMENTARY_ON_WHY_WE_DIDNT_GO_FORWARD_WITH_THAT_IN_SHORE" children="" id="joni"
+GenericNPC 176 288 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,120" debug_name="" children="" id="dev_info"
+FG2 START

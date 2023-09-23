@@ -1,0 +1,28 @@
+START
+solid 4 11,25 35
+fr45 17
+fl45 12
+cl45 2
+cr45 7
+permeable 4
+lo22l 13
+hi22l 14
+lo22r 16
+hi22r 15
+gasdark 33
+gaslight 34	
+gasdarklo 23
+gaslightlo 24
+gasdarkhi 43
+gaslighthi 44
+water_surface 30
+floor_ice 35
+water 40
+top 8
+noclimb 25
+END
+
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+# 10 DEBUG 0,1 15
+END

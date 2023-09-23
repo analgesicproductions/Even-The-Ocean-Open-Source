@@ -1,0 +1,56 @@
+BBG START
+BG1 START
+Door 320 1952 905400 index=0 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="TEST" next_cam_offset="0,0"
+GenericNPC 368 1920 878777 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="moon_mural"
+BG2 START
+Wind 512 1280 554617 h=240 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=100
+Wind 448 592 316130 h=240 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=120
+Wind 416 256 566652 h=240 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=110
+Door 39 16 214620 index=0 AUTO_INDEX=0 behavior=0 type=1 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="CANYON_TOP" next_cam_offset="0,0"
+Door 0 2032 342259 index=0 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_DREAM" next_cam_offset="0,0"
+Door 16 704 998367 index=0 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_ITEM" next_cam_offset="0,0"
+EdgeDoor 32 32 819962 is_wide=1 vistype=0 only_open_dir=-1
+Door 768 2080 254370 index=2 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_RIVER" next_cam_offset="0,0"
+Door 768 1936 341567 index=1 AUTO_INDEX=4 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_RIVER" next_cam_offset="0,0"
+BarbedWire 784 1568 605712 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="524191" wire_tile_width=3 is_gauntlet=1
+BarbedWire 624 1696 524191 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="485759" wire_tile_width=3 is_gauntlet=1
+BarbedWire 576 1872 485759 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Pod 640 1856 465092 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 656 1856 437029 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 1856 459595 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 688 1840 575068 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 1824 208071 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 736 1824 36723 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Wind 480 928 859595 h=240 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=100
+TileFader 128 784 171014
+BarbedWire 784 272 934569 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="520010" wire_tile_width=3 is_gauntlet=1
+BarbedWire 512 480 520010 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+GenericNPC 480 2080 671007 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="moon_stew"
+GenericNPC 544 2048 820689 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="moon_table"
+GenericNPC 496 2064 901582 has_dialogue=1 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="moonderful"
+Pendulum 416 2064 972563 vis-dmg="0,0" anim_name="TEST_STAR" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=96 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 448 2080 307335 vis-dmg="0,0" anim_name="PLUTO" line_rgb="0X485861" no_y_movement=0 line_alpha=0.5 l=64 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 384 2048 994794 vis-dmg="0,0" anim_name="PLUTO" line_rgb="0X485861" no_y_movement=0 line_alpha=0.5 l=80 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 396 2076 167411 vis-dmg="0,0" anim_name="MARS" line_rgb="0X485861" no_y_movement=0 line_alpha=0.5 l=108 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 379 1993 474360 vis-dmg="0,0" anim_name="test_star" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=96 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 656 2032 554197 vis-dmg="0,0" anim_name="test_star" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=48 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 464 2068 477383 vis-dmg="0,0" anim_name="MARS" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=52 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 400 1984 338384 vis-dmg="0,0" anim_name="MARS" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=80 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 592 1984 414494 vis-dmg="0,0" anim_name="PLUTO" line_rgb="0X485861" no_y_movement=0 line_alpha=0.5 l=64 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 576 1968 734585 vis-dmg="0,0" anim_name="MARS" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=52 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 672 2016 281199 vis-dmg="0,0" anim_name="MARS" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=52 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pendulum 596 1952 999442 vis-dmg="0,0" anim_name="test_star" line_rgb="0X5B777B" no_y_movement=0 line_alpha=0.5 l=96 vine_set="0" nr_vine=5 extra_len=1 upside_down=0
+Pod 176 864 852070 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 864 196239 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 864 144407 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 136 848 557585 has_dialogue=1 map-scene-pos="p,dj,47" always_scripted=0 context_int_csv="0,0" debug_name="IF_YOU_GET_A_BUNCH_OF_LIGHT_ENERGY_AND_JUMP_DIRECTLY_UP_RIGHT_HERE_YOU_FIND_A_SECRET_PATH_TO_THE_RED_EMERALD_MARBLE" children="" id="joni"
+GenericNPC 80 704 677426 has_dialogue=1 map-scene-pos="p,dj,48" always_scripted=0 context_int_csv="0,0" debug_name="I_DONT_REALLY_REMEMBER_WHERE_IN_THIS_COMING_AREA_THE_MARBLE_ACTUALLY_WAS,,," children="" id="joni"
+Pod 64 864 649344 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 880 685762 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 176 2032 249242 has_dialogue=1 map-scene-pos="p,dj,49" always_scripted=0 context_int_csv="0,0" debug_name="CALLUNA_WAS_ORIGINALLY_NAMED_MOONDERFUL_AND_WAS_A_LOT_MORE_WACKY_AND_CONTRARIAN_IN_A_ROALD_DAHL_CHARACTER_SORT_OF_WAY" children="" id="joni"
+GenericNPC 272 2080 824052 has_dialogue=1 map-scene-pos="p,dj,50" always_scripted=0 context_int_csv="0,0" debug_name="AND_WHILE_THERES_NOTHING_WRONG_WITH_BEING_WACKY,_AS_THE_TONE_OF_THE_GAME_GENERALLY_GREW_MORE_REALISTIC_AND_LESS_DREAMLIKE,_I_WANTED_TO_MAKE_SURE_THAT_THIS_CHARACTER_DIDNT_SEEM_LIKE_THEY_WERE_BEING_MADE_FUN_OF_BY_THE_GAME,,,_I_WANTED_THEM_TO_COME_ACROSS_AS_GENTLE_AND_SENSITIVE_AS_THEY_WERE_IN_MY_MIND_TO_A_MORE_CASUAL_OBSERVER" children="" id="joni"
+GenericNPC 672 2080 606859 has_dialogue=1 map-scene-pos="p,dj,51" always_scripted=0 context_int_csv="0,0" debug_name="THIS_MOON_MURAL_IS_ONE_OF_THE_LAST_VESTIGES_OF_DAN_FESSLERS_HD_INDEX_PAINTING_PIXEL_ART_TECHNIQUE_,,," children="" id="joni"
+GenericNPC 720 2080 486200 has_dialogue=1 map-scene-pos="p,dj,52" always_scripted=0 context_int_csv="0,0" debug_name="ITS_A_REALLY_NEAT_PHOTOSHOP_TECHNIQUE_WHERE_YOU_USE_ADJUSTMENT_LAYERS_IN_PHOTOSHOP_TO_PAINT_WITH_NORMAL_HD_BRUSHES_AND_HAVE_IT_SORT_OF_BE_INSTANTLY_CONVERTED_TO_PIXEL_ART,,,_I_TRIED_IT_FOR_A_WHILE_BEFORE_SIMPLY_USING_HD_ART,,,,_WELL_NONPIXEL_ART_THAT_IS" children="" id="joni"
+GenericNPC 624 1936 971846 has_dialogue=1 map-scene-pos="p,dj,53" always_scripted=0 context_int_csv="0,0" debug_name="THIS_SECRET_AREA_WAS_GOING_TO_CONTAIN_AN_ITEM_SIMILAR_TO_THE_RED_EMERALD_MARBLE,_BUT_LIKE_A_SCARY_VERSION_THAT_WOULD_ALLOW_YOU_TO_GO_THROUGH_A_NEARBY_AREA_THEMED_AFTER_NIGHTMARES,,,_SO_IT_WOULD_BE_LIKE_THE_NEGATIVE_VERSION_OF_DREAMDRAM" children="" id="joni"
+GenericNPC 368 2080 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,122" debug_name="" children="" id="dev_info"
+FG2 START

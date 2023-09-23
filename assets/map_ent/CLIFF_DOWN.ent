@@ -1,0 +1,19 @@
+BBG START
+BG1 START
+BG2 START
+SinkPlatform 992 400 847176 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+BarbedWire 928 592 212138 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="861710" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1056 592 861710 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Wind 768 512 86903 h=80 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=80 speed=50
+BarbedWire 224 624 661363 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="929306" wire_tile_width=3 is_gauntlet=1
+BarbedWire 832 608 929306 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children=0 wire_tile_width=3 is_gauntlet=1
+RevolveSpore 880 512 5940 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+Wind 480 480 979479 h=64 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=96 speed=50
+RevolveSpore 496 576 914489 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+SinkPlatform 320 544 69994 yvel=30 return_rate=15 xvel=37 returns_home=1
+RevolveSpore 160 592 953344 hurt_ticks=5 base_vel=420 vis-dmg="0,0"
+Door 0 608 577358 index=1 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=1 dest_y=2 s_visited=1 custom_size="0,0" dest_map="CLIFF_MAIN_UP" next_cam_offset="0,0"
+SavePoint 112 576 101825
+Door 0 -111 854030 index=4 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_1" next_cam_offset="0,0"
+SavePoint 912 544 139464
+FG2 START

@@ -1,0 +1,40 @@
+BBG START
+BG1 START
+BG2 START
+Pew 240 16 985182 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 432 16 923916 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Door 272 48 186173 index=1 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="___2" next_cam_offset="0,0"
+Door 512 3424 276426 index=2 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="GLADE1" next_cam_offset="0,0"
+SavePoint 304 48 332776
+Floater 336 3408 230595 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 368 3376 191639 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 352 3344 409215 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 368 3168 620367 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 400 3120 99008 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 704 2832 418652 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 656 2800 372352 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 704 2784 663112 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 688 2752 781244 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 144 2352 752383 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 160 2304 871005 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 192 2272 300735 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 688 1920 368688 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 672 1840 870776 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 640 1728 77113 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 656 1632 196761 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 624 1552 834259 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 672 1456 305252 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 624 1376 525373 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 288 1296 933660 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 320 1232 503050 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 272 1216 949705 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 368 736 78403 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 384 640 583134 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 320 320 944055 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 320 224 125423 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 304 272 625455 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 320 384 937438 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 320 256 797273 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 320 144 439301 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+SavePoint 432 3440 501134
+FG2 START

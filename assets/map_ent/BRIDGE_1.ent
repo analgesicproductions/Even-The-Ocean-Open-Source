@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 17 -80 107898 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=0 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+Door 1103 -63 763155 index=1 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+FG2 START

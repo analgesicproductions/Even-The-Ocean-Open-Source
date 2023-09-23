@@ -1,0 +1,55 @@
+BBG START
+BG1 START
+Wind 128 416 187871 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Weed 192 608 977776 vistype=0 dir=0
+Weed 208 608 24281 vistype=0 dir=0
+Weed 240 608 530444 vistype=0 dir=0
+Weed 272 608 576375 vistype=0 dir=0
+Weed 288 608 816234 vistype=0 dir=0
+Weed 224 608 612054 vistype=0 dir=0
+Weed 256 608 270180 vistype=0 dir=0
+Weed 304 608 921851 vistype=0 dir=0
+Weed 320 608 117395 vistype=0 dir=0
+Weed 336 608 792072 vistype=0 dir=0
+Wind 240 320 535811 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Weed 240 336 516048 vistype=0 dir=0
+Weed 224 336 47131 vistype=0 dir=0
+Weed 208 336 524983 vistype=0 dir=0
+Weed 192 336 590405 vistype=0 dir=0
+Weed 176 336 34160 vistype=0 dir=0
+Weed 160 336 76522 vistype=0 dir=0
+BG2 START
+Weed 624 240 541844 vistype=0 dir=0
+Weed 512 240 76704 vistype=0 dir=0
+Weed 448 240 301084 vistype=0 dir=0
+Weed 848 48 666931 vistype=1 dir=0
+Weed 832 48 433972 vistype=1 dir=0
+Weed 432 240 688860 vistype=0 dir=0
+Pod 160 144 787156 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 144 941541 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 464 14217 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 400 711485 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 336 15446 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 528 336 344130 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 400 616461 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 528 464 165025 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 16 240 987576 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 48 240 887794 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Wind 640 672 171864 h=144 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=80
+Weed 416 768 670994 vistype=0 dir=0
+Weed 464 768 73729 vistype=0 dir=0
+Pod 432 752 941652 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 752 218092 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 880 672 581759 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 880 704 871995 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 880 736 453211 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 880 768 583639 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 944 128 1434 index=3 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="INTRO_DEMO" next_cam_offset="0,0"
+Pew 720 192 903786 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 464 768 16828 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=4 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 672 368 763477 fint_TICKS=-1 fint=1 fpattern=0 vistype=10 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 352 208 624110 fint_TICKS=-1 fint=0.4 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=8 bspd=110 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 416 768 828900 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=4 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+BugSwarm 310 177 382246 accel=55 vistype=0 follows=0 nr_bugs=30 anims="test1,test2" dontpush=0 chase_radius=300 bug_radius=18 vel=12
+AliphItem 672 448 561281 inv_type=0 removes=0 vis_set=0 id=2
+FG2 START

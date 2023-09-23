@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 544 256 154818 AUTO_INDEX=1 behavior=1 dest_x=0 dest_map="O_TOWER1" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 416 16 450028 AUTO_INDEX=0 behavior=1 dest_x=0 dest_map="___1" index=3 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

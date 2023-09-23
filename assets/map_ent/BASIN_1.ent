@@ -1,0 +1,50 @@
+BBG START
+BG1 START
+BG2 START
+Door 3136 608 784978 index=1 AUTO_INDEX=0 behavior=0 type=3 script="" dest_x=0 dest_y=4 s_visited=1 custom_size="0,0" dest_map="BASIN_3" next_cam_offset="0,0"
+SquishBounce 416 352 638963 hitbox_w=32 GNPC_ID="FALLS_FLOAT" x_slow=-1 is_cloud=1 vis-dmg="1,1" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+SquishBounce 560 320 717026 hitbox_w=32 GNPC_ID="FALLS_FLOAT" x_slow=-1 is_cloud=1 vis-dmg="1,1" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+Pod 1520 256 799119 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1520 240 348414 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SquishBounce 1504 176 110773 hitbox_w=32 GNPC_ID="FALLS_FLOAT" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+SquishBounce 2016 352 582145 hitbox_w=32 GNPC_ID="FALLS_FLOAT" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+SquishBounce 2080 320 78635 hitbox_w=32 GNPC_ID="FALLS_FLOAT" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+SquishBounce 2160 288 651829 hitbox_w=32 GNPC_ID="FALLS_FLOAT" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=16 children="" max_jump_multiplier=1.4
+SquishBounce 2112 400 283811 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+Door 0 64 873652 index=10 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+GenericNPC 336 256 97594 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="BASIN_CHECKIN" children="585735" id="g2_1_checkin"
+GenericNPC 160 224 259051 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="BASIN_BLOCKER" children="" id="s2_nature_blocker"
+SavePoint 528 416 604068
+Pod 2176 304 33662 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2176 336 4048 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2016 336 21815 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1952 400 797715 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1920 400 432030 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1936 400 334074 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 272 224 585735 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="ENTERAREA" children="" id="s1_s2_area_enter"
+TrainTrigger 176 144 498189 event_id="none" id=11
+TrainTrigger 480 144 129342 event_id="none" id=10
+SapPad 1616 352 247151 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="927941,742622"
+Pod 2016 304 698379 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2176 272 925774 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SapPad 2272 416 787136 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="908855,23308"
+Pod 1296 336 146708 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 336 668406 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Elevator 3200 480 915356 vis-dmg="0,0" has_console=1 is_basin=0 rise_height=12 override_anim_prefix="" door_info="BASIN_3,17,16" rise_vel=100 starts_at_top=1 children=""
+GenericNPC 3104 448 687860 has_dialogue=1 map-scene-pos="FOREST,BASIN_SIGN,0" always_scripted=0 context_int_csv="0,0" debug_name="ADFAD" children="" id="signshore"
+SoundZone 16 272 151972 tile_w=8 type="snow" revert_on_exit=0 tile_h=8 wall_type="dirt"
+GenericNPC 1616 320 493036 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="DOLLY_GATE" children="927941" id="dolly_lift"
+BarbedWire 3264 208 195377 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="72252" wire_tile_width=3 is_gauntlet=1
+BarbedWire 3280 336 72252 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+GenericNPC 2608 304 443642 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="YOUNG_MEMORY" children="239920,692589,996049,890343,375161" id="forest_young_memory"
+SetPiece 2720 320 239920 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+WirePoint 1616 368 742622 pos="0,16,-48,16,-48,-128,-64,-128,-64,-96" vistype=0 forceTargetDir=-1 children="927941"
+RaiseWall 1552 288 927941 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=2 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+FG2 START
+WirePoint 2272 432 23308 pos="0,16,-32,16,-32,-16,-64,-16" vistype=0 forceTargetDir=3 children="908855"
+RaiseWall 2208 384 908855 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=24 permanent_open=1 s_open=0 children=""
+SetPiece 2656 576 627332 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=4 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2672 320 890343 tile_size="86,45" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=4 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2672 320 375161 tile_size="86,45" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=4 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=25 blend_1ad2mu3sc=-1
+SetPiece 2688 288 692589 tile_size="57,41" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=4 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=25 blend_1ad2mu3sc=-1
+SetPiece 2688 288 996049 tile_size="57,41" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=4 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=25 blend_1ad2mu3sc=-1

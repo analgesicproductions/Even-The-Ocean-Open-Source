@@ -1,0 +1,56 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 480 729694 index=7 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=-3 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SEA_4" next_cam_offset="0,0"
+Door 544 128 562818 index=1 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SEA_BOSS" next_cam_offset="0,0"
+SmashHand 64 400 193709 tm_pause=0.65 accel=1000 vis-dmg="0,0" aggro_pos="-192,-80" vel_follow=150 tm_wait=0 aggro_dims="200,200" dir=3 init_vel=150 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+Pod 64 560 415229 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 560 638529 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 560 354101 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 560 448617 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Spike 240 464 226156 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 240 480 551430 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 96 432 301290 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+Spike 80 432 978540 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+Pod 32 432 938750 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 32 400 125558 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 32 416 489986 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FlameBlower 32 320 124293 blow_vel=80 tm_off=-1 flame_distance=100 vis-dmg="0,0" nr_flames=9 dir=1 tm_hurt=0.033 tm_on=-1 tm_new_flame=0.2
+SmashHand 304 336 656397 tm_pause=0.65 accel=1000 vis-dmg="1,1" aggro_pos="-112,-160" vel_follow=150 tm_wait=0 aggro_dims="250,250" dir=1 init_vel=150 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+BarbedWire 304 400 409926 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="855351" wire_tile_width=3 is_gauntlet=1
+BarbedWire 304 560 855351 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Pod 384 464 906201 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 480 562993 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 464 531138 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 448 503802 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 544 639240 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 480 551835 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 560 952492 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Wind 512 496 518905 h=16 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=40
+Wind 512 416 861307 h=16 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=40
+Wind 512 336 227773 h=16 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=40
+Pod 512 368 719542 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Wind 448 368 900459 h=16 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=40
+Pod 304 224 964701 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 320 224 256814 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 336 224 339039 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BarbedWire 32 160 924337 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="157767" wire_tile_width=3 is_gauntlet=1
+BarbedWire 16 240 157767 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="979538" wire_tile_width=3 is_gauntlet=1
+BarbedWire 96 288 979538 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+SmashHand 32 80 901369 tm_pause=0.65 accel=1000 vis-dmg="1,1" vel_follow=150 tm_wait=0 aggro_dims="250,200" dir=2 init_vel=150 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+Pod 208 256 237119 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 256 503443 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 80 946329 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 96 273980 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 112 554879 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BarbedWire 432 96 711527 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 432 176 995278 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="711527" wire_tile_width=3 is_gauntlet=1
+Spike 288 128 843993 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+EdgeDoor 512 128 883684 is_wide=0 vistype=0 only_open_dir=-1
+SmashHand 288 64 532892 tm_pause=0.65 accel=1000 vis-dmg="0,0" vel_follow=150 tm_wait=0 aggro_dims="200,200" dir=3 init_vel=150 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+Pod 272 144 495448 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 32 496 352066
+SavePoint 432 256 18729
+Pod 128 512 704805 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 528 361736 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

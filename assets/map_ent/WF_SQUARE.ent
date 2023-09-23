@@ -1,0 +1,17 @@
+BBG START
+BG1 START
+BG2 START
+TrainTrigger 0 544 728259 event_id="none" id=0
+TrainTrigger 144 544 34526 event_id="none" id=1
+GenericNPC 128 608 119905 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="ALIPH_FADES_INTRO" children="" id="city_s_aliph_fade_1"
+TrainTrigger 176 496 426104 event_id="none" id=2
+TrainTrigger 144 64 198166 event_id="none" id=3
+TrainTrigger 384 528 572268 event_id="none" id=4
+GenericNPC 400 608 939215 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="I0_ALIPH" children="" id="city_s_aliph_out_after_intro"
+Door 480 672 691358 index=0 AUTO_INDEX=0 behavior=1 type=0 script="TOOL/DOORS/ENTER_HIRES.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_HIRES" next_cam_offset="0,0"
+Door 304 752 625812 index=0 AUTO_INDEX=1 behavior=1 type=0 script="TOOL/DOORS/ENTER_RADIO.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_RADIO_LOBBY" next_cam_offset="0,0"
+Door 64 672 163269 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_ENTRY" next_cam_offset="0,0"
+SavePoint 544 688 484645
+GenericNPC 224 624 254226 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="I1_HUMUS" children="" id="i1_humus"
+GenericNPC 416 672 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,127" debug_name="" children="" id="dev_info"
+FG2 START

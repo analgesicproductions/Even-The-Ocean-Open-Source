@@ -1,0 +1,9 @@
+BBG START
+Door 16 144 686361 index=7 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONOUT1" next_cam_offset="0,0"
+BG1 START
+BG2 START
+SavePoint 128 176 424626
+Door 768 1392 90964 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="CANYON_TOP" next_cam_offset="0,0"
+GenericNPC 304 352 759682 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="canyonout2sign"
+GenericNPC 352 352 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,119" debug_name="" children="" id="dev_info"
+FG2 START

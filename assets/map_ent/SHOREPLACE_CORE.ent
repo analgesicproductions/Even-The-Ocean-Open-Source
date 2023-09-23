@@ -1,0 +1,56 @@
+BBG START
+BG1 START
+WaterShooter 160 720 327173 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-300
+WaterShooter 608 720 787834 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-300
+WaterShooter 512 544 158357 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-400
+RubberLaser 688 192 689639 vtype=0 tinact=2 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=3 damage=8
+Pew 400 320 107186 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+BG2 START
+FollowLaser 176 320 892360 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=40 is_dream=0 tracked_axis="x" is_fixed=1
+Pod 240 272 188590 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 272 320758 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 144 256 677492 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 176 874300 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 112 71811 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 752 80 937871 index=11 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_END" next_cam_offset="0,0"
+RaiseWall 576 80 759697 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Door 327 704 702291 index=3 AUTO_INDEX=1 behavior=1 type=0 script="TOOL/DOORS/LEAVE_GAUNTLET_CORE.HX" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_END" next_cam_offset="0,0"
+GenericNPC 288 656 813934 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="shore_core"
+GenericNPC 320 656 515990 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="shore_core"
+GenericNPC 336 672 136388 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="shore_core"
+GenericNPC 352 656 967767 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="shore_core"
+GenericNPC 384 656 165936 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="shore_core"
+GenericNPC 336 576 114334 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="shore_core"
+GenericNPC 320 560 875434 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="shore_core"
+GenericNPC 352 560 357223 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="shore_core"
+RaiseWall 336 400 895495 energy=0 is_wide=0 raise_distance=16 vistype=1 raise_dir=1 init_state=0 needed_en=5 permanent_open=1 s_open=0 children="759697"
+Pew 272 32 147653 fint_TICKS=-1 fint=0.35 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=3 bspd=90 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 544 48 689982 fint_TICKS=-1 fint=0.35 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=3 mb=3 bspd=90 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+HurtOutlet 16 608 100665 init_wait=0 dmgtype=0 tm_off=0 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 48 544 642120 init_wait=0 dmgtype=0 tm_off=0 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 16 480 432158 init_wait=0 dmgtype=1 tm_off=0 tm_on=0.5 dmg=24 vistype=1
+Weed 32 672 605332 vistype=0 dir=0
+Weed 64 672 190736 vistype=0 dir=0
+Weed 256 720 303324 vistype=0 dir=0
+Weed 384 720 210758 vistype=1 dir=0
+HurtOutlet 32 176 257173 init_wait=0 dmgtype=1 tm_off=0 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 64 96 282887 init_wait=0 dmgtype=1 tm_off=0 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 96 64 267564 init_wait=0 dmgtype=1 tm_off=0 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 144 64 306918 init_wait=0 dmgtype=1 tm_off=0 tm_on=0.5 dmg=24 vistype=1
+PlantBlock 464 736 583917 behavior=3 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 16 432 252985 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="895495,136388"
+PlantBlockAccepter 192 64 383381 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="895495,515990"
+PlantBlockAccepter 448 96 612544 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="895495,967767"
+PlantBlockAccepter 752 608 975856 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="895495,813934"
+PlantBlockAccepter 464 400 387455 vis-dmg="0,0" behavior=0 init_state=0 s_on=0 children="895495,165936"
+PlantBlock 176 224 630175 behavior=3 float_dis=24 dir=0 vis-dmg="0,0"
+Pod 704 368 640588 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 416 968481 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 464 651090 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 544 704 581604 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_end"
+GenericNPC 688 576 874501 has_dialogue=1 map-scene-pos="p,dj,240" always_scripted=0 context_int_csv="0,0" debug_name="UHHH,_I_ADDED_THIS_WEIRD_STICKING_OUT_PART_BECAUSE_PUTTING_THE_LENS_IN_THE_RECEPTOR_WHILE_UNDERWATER_WAS_BROKEN,,,_BUT_LIKE_YOU_DONT_HAVE_TO_DO_THIS_LOL" children="" id="joni"
+SavePoint 432 720 631211
+SavePoint 624 96 851987
+GenericNPC 688 80 691755 has_dialogue=1 map-scene-pos="p,dj,241" always_scripted=0 context_int_csv="0,0" debug_name="HOOO_BOY_THAT_WAS_ROUGH" children="" id="joni"
+AliphItem 752 -32 562404 removes=0 vis_set=0 id=33
+FG2 START

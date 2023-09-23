@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+Door 272 272 504661 index=0 AUTO_INDEX=0 behavior=1 type=5 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="EARTH_2" next_cam_offset="0,0"
+Door 16 48 798294 index=1 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="EARTH_BOSS" next_cam_offset="0,0"
+Door 1424 354 679109 index=2 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+SavePoint 848 592 607658
+GenericNPC 1136 592 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,86" debug_name="" children="" id="dev_info"
+GenericNPC 528 1024 835456 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,87" debug_name="" children="" id="dev_info"
+FG2 START

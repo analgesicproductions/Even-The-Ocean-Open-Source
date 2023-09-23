@@ -1,0 +1,52 @@
+BBG START
+BG1 START
+Pendulum 561 438 417250 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=48 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 546 436 520335 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=48 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+BG2 START
+Door 1856 0 188767 AUTO_INDEX=0 behavior=0 dest_x=5 dest_map="HILL_2" index=0 s_visited=1 next_cam_offset="0,0" type=3 script="" dest_y=-6
+Pod 608 496 603403 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 624 496 169973 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 704 336 833527 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Spike 624 416 785322 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 640 416 66016 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 768 400 348136 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 784 400 949958 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 144 336 704054 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 144 320 471900 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Pod 592 336 3356 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 768 320 326623 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 784 320 687922 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 704 432 727992 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 704 448 319474 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Spike 1072 384 828709 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1056 384 829448 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Pod 1056 416 583889 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1072 416 840816 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+BugSwarm 976 384 498677 accel=100 chase_radius=300 bug_radius=12 anims="test1,test2" nr_bugs=4 vistype=0 vel=32 follows=0
+BugSwarm 930 351 897525 accel=100 chase_radius=300 bug_radius=12 anims="test1,test2" nr_bugs=4 vistype=0 vel=32 follows=0
+BugSwarm 1488 256 637050 accel=500 chase_radius=100 bug_radius=40 anims="test1,test2" nr_bugs=15 vistype=0 vel=70 follows=1
+Pod 1040 416 844665 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1088 416 288512 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pendulum 575 438 934646 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=90 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 658 438 433652 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=80 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 670 438 528831 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=80 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 694 436 773339 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=80 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 534 437 633284 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=32 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 591 436 896720 extra_len=1 anim_name="LILYPAD" line_alpha=0.5 l=90 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Door 0 160 551101 AUTO_INDEX=1 behavior=0 dest_x=-1 dest_map="MAP1" index=3 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+GenericNPC 208 304 112988 always_scripted=1 debug_name="BLOCKER" context_int_csv="0,0" children="" map-scene-pos="" id="nature_blocker" has_dialogue=0
+GenericNPC 256 272 141667 always_scripted=1 debug_name="MAYOR" context_int_csv="0,0" children="" map-scene-pos="" id="s_3b_call_mayor" has_dialogue=0
+GenericNPC 304 272 701993 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="g1_1_pile" has_dialogue=0
+GenericNPC 1680 192 438265 always_scripted=1 debug_name="" context_int_csv=1 children="" map-scene-pos="" id="g1_1_pile" has_dialogue=0
+SavePoint 272 336 498833
+GenericNPC 1440 368 652285 always_scripted=1 debug_name="WILBERT" context_int_csv="0,0" children="" map-scene-pos="HILL,WILBERT_INIT,0" id="wilbert" has_dialogue=1
+GenericNPC 1776 80 315376 always_scripted=1 debug_name="SHANTEL" context_int_csv="0,0" children="" map-scene-pos="" id="shantel" has_dialogue=0
+GenericNPC 1360 384 759194 always_scripted=0 debug_name="DEAD_TREES" context_int_csv="0,0" children="" map-scene-pos="HILL,DEADTREE,0" id="deadtrees" has_dialogue=1
+GenericNPC 1392 256 565922 always_scripted=1 debug_name="FAN" context_int_csv="0,0" children="89373,637050" map-scene-pos="HILL,FAN,0" id="hillfan" has_dialogue=1
+Wind 1408 256 89373 angle=0 global=0 en_align=-1 invis=0 req_energy=1 h=32 w=64 speed=50
+GenericNPC 1488 352 76287 always_scripted=0 debug_name="NOTE_I_ADDED_SOME_TILE_UP_HERE_SO_THAT_DURING_WILBERT_U_CAN_SEE_THE_BUGS" context_int_csv="0,0" children="" map-scene-pos="p,dj,116" id="sign1" has_dialogue=1
+FG2 START
+Pendulum 585 440 26905 extra_len=1 anim_name="LILYPAD" line_alpha=0.8 l=74 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 606 439 650415 extra_len=1 anim_name="LILYPAD" line_alpha=0.8 l=74 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 662 440 790678 extra_len=1 anim_name="LILYPAD" line_alpha=0.8 l=55 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"
+Pendulum 677 441 683551 extra_len=1 anim_name="LILYPAD" line_alpha=0.8 l=53 no_y_movement=1 upside_down=1 nr_vine=0 vis-dmg="0,0" vine_set="HILL" line_rgb="0XABB97C"

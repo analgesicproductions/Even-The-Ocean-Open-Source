@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 32 128 189676 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="WF_GOV_LOBBY" index=3 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+GenericNPC 189 115 347187 always_scripted=1 debug_name="OLD_CITY_BED" context_int_csv="0,0" children="" map-scene-pos="" id="old_city_yara" has_dialogue=0
+FG2 START

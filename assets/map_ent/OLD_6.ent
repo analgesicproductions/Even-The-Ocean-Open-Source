@@ -1,0 +1,26 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 464 864 39208
+Door 0 339 809948 index=7 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+Door 720 832 551173 index=0 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ROUGE_TEST" next_cam_offset="0,0"
+Door 672 720 508162 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="HILL_TEST2" next_cam_offset="0,0"
+Door 640 720 294137 index=0 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="HILL_TEST" next_cam_offset="0,0"
+Door 496 720 400006 index=0 AUTO_INDEX=4 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_TEST2" next_cam_offset="0,0"
+Door 464 720 629329 index=0 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_TEST" next_cam_offset="0,0"
+Door 400 720 319761 index=0 AUTO_INDEX=6 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_TEST" next_cam_offset="0,0"
+Door 368 720 665891 index=0 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORETEST" next_cam_offset="0,0"
+Door 368 576 889570 index=0 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVERTEST" next_cam_offset="0,0"
+Door 400 576 50299 index=0 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_TEST" next_cam_offset="0,0"
+Door 448 576 616227 index=0 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODSTEST" next_cam_offset="0,0"
+Door 480 576 448546 index=0 AUTO_INDEX=11 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODS_TEST" next_cam_offset="0,0"
+Door 512 576 770388 index=0 AUTO_INDEX=12 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODS_TEST2" next_cam_offset="0,0"
+Door 656 576 477821 index=0 AUTO_INDEX=13 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BASIN_TEST" next_cam_offset="0,0"
+Door 704 576 553914 index=0 AUTO_INDEX=14 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BASIN_TEST2" next_cam_offset="0,0"
+Door 656 448 220517 index=0 AUTO_INDEX=15 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_TEST" next_cam_offset="0,0"
+Door 496 464 942287 index=0 AUTO_INDEX=16 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="FALLS_TEST2" next_cam_offset="0,0"
+Door 464 464 635280 index=0 AUTO_INDEX=17 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="FALLS_TEST" next_cam_offset="0,0"
+Door 416 464 981179 index=0 AUTO_INDEX=18 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_TEST2" next_cam_offset="0,0"
+Door 384 464 466811 index=0 AUTO_INDEX=19 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_TEST" next_cam_offset="0,0"
+GenericNPC 384 848 622050 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,30" debug_name="" children="" id="dev_info"
+FG2 START

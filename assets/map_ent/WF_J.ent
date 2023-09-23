@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 80 144 274424 index=0 AUTO_INDEX=0 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="WF_TRAIN_LO" next_cam_offset="0,0"
+GenericNPC 336 144 263047 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="junk_enter"
+SavePoint 176 160 840194
+FG2 START

@@ -1,0 +1,84 @@
+BBG START
+GenericNPC 352 992 680386 has_dialogue=1 map-scene-pos="CANYON,POEM,0" always_scripted=0 context_int_csv="0,0" debug_name="POEM" children=0 id="canyon_poem"
+BarbedWire 432 1371 922688 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 538 1371 989702 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 802 1374 360276 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 923 1341 644166 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="" wire_tile_width=3 is_gauntlet=1
+BG1 START
+BG2 START
+Door 64 4 513436 index=0 AUTO_INDEX=0 behavior=0 type=3 script="" dest_x=3 dest_y=-8 s_visited=1 custom_size="0,0" dest_map="CANYON_1" next_cam_offset="0,0"
+Pod 496 768 671585 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RubberLaser 384 720 528209 vtype=0 tinact=1 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=2 tact=2 damage=8
+Door 1568 912 179867 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_3" next_cam_offset="0,0"
+Door 0 1360 700765 index=0 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_5" next_cam_offset="0,0"
+GenericNPC 432 992 901582 has_dialogue=1 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="moonderful"
+BarbedWire 912 608 544837 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Elevator 112 144 804194 vis-dmg="0,0" has_console=1 is_basin=0 rise_height=10 override_anim_prefix="" door_info="none" rise_vel=100 starts_at_top=0 children=""
+SquishBounce 176 608 454665 hitbox_w=32 GNPC_ID="CANYON_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="1,1" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="724730" max_jump_multiplier=1.3
+Pod 144 608 225762 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children="454665"
+BarbedWire 736 128 977127 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Pod 800 960 533173 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 832 896 362415 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 576 416 452864 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 448 518799 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 880 816 292907 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 816 940895 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Elevator 608 1392 936107 vis-dmg="1,1" has_console=0 is_basin=0 rise_height=13 override_anim_prefix="" door_info="none" rise_vel=100 starts_at_top=0 children="718496"
+Elevator 640 1184 718496 vis-dmg="1,1" has_console=0 is_basin=0 rise_height=13 override_anim_prefix="" door_info="none" rise_vel=100 starts_at_top=1 children="936107"
+BarbedWire 1200 1152 94136 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="744975" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1200 1232 744975 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+RaiseWall 96 592 724730 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+GenericNPC 1088 1216 274241 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=0 debug_name="HELPALIPH" children="" id="canyon_aliph"
+TrainTrigger 1111 985 11704 event_id="none" id=0
+TrainTrigger 912 1072 807262 event_id="none" id=1
+GenericNPC 272 1248 71270 has_dialogue=1 map-scene-pos="CANYON,INTROSIGN" always_scripted=0 context_int_csv="0,0" debug_name="INFOSIGN" children="" id="canyon_sign"
+GenericNPC 1243 1339 211902 has_dialogue=1 map-scene-pos="CANYON,DIDNEY" always_scripted=0 context_int_csv="0,0" debug_name="DIDNEY" children="" id="didney"
+GenericNPC 48 592 495060 has_dialogue=1 map-scene-pos="CANYON,PROTECTOR" always_scripted=1 context_int_csv="0,0" debug_name="REM_PROTECTOR" children="" id="rem_protector"
+Pod 1360 1152 538813 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1344 1152 912256 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 320 976 949548 hor_leveler_px_up=64 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=14 tile_h=4
+NewCamTrig 0 0 90636 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=100 tile_h=91
+GenericNPC 784 1360 600783 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer3"
+GenericNPC 416 1360 392568 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer4"
+GenericNPC 912 1312 511317 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer4"
+GenericNPC 416 1568 950807 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GOLM" children="" id="golem_dream"
+GenericNPC 672 1360 915909 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer2"
+SavePoint 224 1264 746260
+SavePoint 448 176 24401
+GenericNPC 528 1360 303000 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+BarbedWire 684 84 579630 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="977127" wire_tile_width=3 is_gauntlet=1
+BarbedWire 880 576 993419 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="544837" wire_tile_width=3 is_gauntlet=1
+FG2 START
+SetPiece 352 896 184331 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 336 832 177117 tile_size="0,0" fades_when_overlap=1 TYPE="group1" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 403 169 882558 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 408 179 436449 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 144 128 504541 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 347 140 350598 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 432 496 812360 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 336 704 366166 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 345 714 662642 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 560 704 219562 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 304 1024 280525 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 312 1035 473257 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 779 1376 756865 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 944 1328 747104 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 953 1338 996432 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1015 1329 582081 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1115 1375 809632 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+GenericNPC 1002 1168 198789 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=16 debug_name="" children="197791" id="dreamblock"
+GenericNPC 752 1056 937314 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_bread"
+BarbedWire 768 1200 804807 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="360276" wire_tile_width=3 is_gauntlet=1
+BarbedWire 976 1168 197791 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="644166" wire_tile_width=3 is_gauntlet=1
+GenericNPC 400 1232 790401 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_rock"
+GenericNPC 431 1031 704087 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="dream_war"
+BarbedWire 496 1152 850855 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="989702" wire_tile_width=3 is_gauntlet=1
+BarbedWire 416 1264 496181 saves_state=0 dmgtype=1 s_save=0 vistype=1 max_energy=32 start_state=0 is_ring=0 is_dream=1 children="922688" wire_tile_width=3 is_gauntlet=1
+SetPiece 176 16 464905 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 352 32 119605 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 304 480 803383 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 544 880 595984 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 176 16 912330 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 352 32 954872 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 304 480 66907 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 544 880 785701 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

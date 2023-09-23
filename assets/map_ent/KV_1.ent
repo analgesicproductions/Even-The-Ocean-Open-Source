@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 1040 272 200764 index=0 AUTO_INDEX=1 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="KV_RADIO" next_cam_offset="0,0"
+Door 0 0 817259 index=10 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=2 dest_y=4 s_visited=1 custom_size="0,0" dest_map="MAP2" next_cam_offset="0,0"
+GenericNPC 832 96 413990 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="old_city_blocker"
+GenericNPC 96 112 793166 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="old_city_blocker"
+FG2 START
+LineCollider 560 288 399131 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,64,16,176,16,208,0,256,-16,304,-16" invis=1

@@ -1,0 +1,45 @@
+BBG START
+BG1 START
+BG2 START
+PlantBlockAccepter 448 256 496427 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 64 448 284892 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+WalkBlock 144 256 633117 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="2,6" vis-dmg="1,1" starts_moving_left_or_down=0
+Pew 336 336 893465 bspd=40 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="0,1" white_no_dmg=0 vistype=1 mb=2 fint=1
+FollowLaser 304 528 96237 accel=0 dmgtype=0 axis_tracks_player=0 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=157
+WalkBlock 112 656 911298 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 240 624 361215 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,4" vis-dmg="0,0" starts_moving_left_or_down=0
+PlantBlockAccepter 432 656 751440 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 32 720 651925 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+Door 448 480 668112 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_6" index=18 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+PlantBlockAccepter 1232 192 31382 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 864 224 430080 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+WalkBlock 1456 224 745047 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=0
+WalkBlock 1568 224 967591 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=0
+WalkBlock 1680 224 392962 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=0
+PlantBlock 1392 240 916482 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+WalkBlock 1776 208 702420 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=1
+PlantBlockAccepter 1904 224 792420 behavior=1 init_state=0 vis-dmg="1,1" s_on=1 children=""
+Pod 1488 176 725550 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1504 176 84862 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1616 240 133055 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1632 240 655868 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1840 160 185589 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1856 160 22954 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1680 160 776690 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1664 160 285354 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+WalkBlock 912 432 701040 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="1,8" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1024 464 984527 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="1,8" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1136 432 135202 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="1,8" vis-dmg="0,0" starts_moving_left_or_down=0
+PlantBlock 848 512 843659 behavior=0 dir=0 vis-dmg="1,1" float_dis=32
+Pew 992 400 387493 bspd=100 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern=1100000 white_no_dmg=0 vistype=1 mb=15 fint=0.3
+Pew 1184 608 908267 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern=101000 white_no_dmg=0 vistype=1 mb=15 fint=0.3
+WalkBlock 1232 496 935284 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="1,6" vis-dmg="0,0" starts_moving_left_or_down=0
+PlantBlockAccepter 1328 608 935488 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+PlantBlockAccepter 1408 1008 892225 behavior=0 init_state=0 vis-dmg="1,1" s_on=1 children=""
+PlantBlock 1152 784 150928 behavior=0 dir=0 vis-dmg="1,1" float_dis=32
+SpikeExtend 1136 192 356707 accel_extend=1000 dmg=48 dir=0 vel_extend=250 vis-dmg="0,0" vel_retract=120 tm_wait_at_ends=0.7
+SpikeExtend 1200 896 763552 accel_extend=1000 dmg=48 dir=1 vel_extend=300 vis-dmg="1,1" vel_retract=120 tm_wait_at_ends=0.7
+SpikeExtend 1040 208 923417 accel_extend=1000 dmg=48 dir=0 vel_extend=250 vis-dmg="0,0" vel_retract=120 tm_wait_at_ends=0.7
+SpikeExtend 944 224 23615 accel_extend=1000 dmg=48 dir=0 vel_extend=250 vis-dmg="0,0" vel_retract=120 tm_wait_at_ends=0.7
+SpikeExtend 1312 816 938890 accel_extend=1000 dmg=48 dir=3 vel_extend=300 vis-dmg="1,1," vel_retract=120 tm_wait_at_ends=0.7
+FG2 START

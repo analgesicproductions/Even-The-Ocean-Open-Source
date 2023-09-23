@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+Wind 624 1328 303272 h=48 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=50
+Wind 640 1200 317742 h=48 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=50
+Door 80 1568 537384 index=3 AUTO_INDEX=0 behavior=0 type=4 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="CLIFF_TOWN" next_cam_offset="0,0"
+SavePoint 240 1552 349065
+Door 528 0 57632 index=1 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=1 dest_y=-3 s_visited=0 custom_size="0,0" dest_map="CLIFF_DOWN" next_cam_offset="0,0"
+GenericNPC 256 1472 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,109" debug_name="" children="" id="dev_info"
+FG2 START

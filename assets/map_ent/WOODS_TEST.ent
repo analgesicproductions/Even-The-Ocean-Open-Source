@@ -1,0 +1,114 @@
+BBG START
+BG1 START
+BG2 START
+GhostLight 192 112 466083 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.1
+GhostLight 272 64 902382 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.1
+GhostLight 64 272 959286 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.1
+GhostLight 136 260 354516 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.1
+RaiseWall 32 224 539336 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=1
+Button 496 272 860819 children="539336" t_wait=0 vistype=1 damage=1
+Pod 160 272 455218 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 224 272 145317 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SinkPlatform 96 448 167039 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 195 455 124542 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 336 480 374128 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+GhostLight 624 336 438043 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 642 280 235318 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+Pod 656 176 734873 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 656 192 821023 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 656 96 118622 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 656 112 621951 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 608 336 541293 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GhostLight 480 720 807772 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 521 674 120937 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+RaiseWall 752 448 96425 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 496 480 308987 children="96425" t_wait=0 vistype=1 damage=1
+SinkPlatform 896 64 332490 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+GhostLight 816 160 365479 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 880 151 817678 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=100 tm_hurt=0.08
+Pod 992 160 514931 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1008 160 87768 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+SinkPlatform 1264 176 657229 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 1280 80 174742 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 1344 144 976107 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+GhostLight 464 256 76078 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.1
+GhostLight 784 320 265831 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 1104 320 676362 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 864 304 769354 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+Pod 880 320 239688 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1040 320 520177 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SinkPlatform 1296 432 853765 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+RaiseWall 1072 496 123583 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 1104 704 519374 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 1040 672 301541 children="123583" t_wait=0 vistype=1 damage=1
+Button 1088 512 135116 children="519374" t_wait=0 vistype=1 damage=1
+GhostLight 909 512 451928 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=125 tm_hurt=0.08
+GhostLight 1232 896 740268 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=125 tm_hurt=0.08
+GhostLight 1200 896 858463 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=125 tm_hurt=0.08
+Pod 1408 656 713781 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1488 656 345828 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1600 656 791531 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1296 896 199981 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+SapPad 1552 96 493678 children="642389" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 1504 256 712395 children="831884" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 1472 176 831884 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=16
+RaiseWall 1696 80 642389 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=16
+GhostLight 1488 304 35441 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 1456 304 976877 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+RaiseWall 1984 352 885417 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 1872 48 574690 children="885417" t_wait=0 vistype=1 damage=1
+Wind 1872 320 540855 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=120
+Wind 1824 224 148395 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=120
+Wind 1872 145 558341 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=120
+GhostLight 1874 44 488495 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=125 tm_hurt=0.08
+GhostLight 1872 368 689009 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=125 tm_hurt=0.08
+Floater 400 944 513723 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 528 944 402571 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 464 1008 859645 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+GhostLight 48 1184 147752 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+Wind 368 1248 88157 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=150
+Wind 480 1246 78599 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=150
+Wind 592 1248 578742 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=150
+GhostLight 315 1289 801125 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=250 tm_hurt=0.08
+Wind 576 1408 177157 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=150
+Wind 432 1408 170606 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=150
+SinkPlatform 1072 1248 894526 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 1184 1168 568936 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 1120 1072 531815 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+GhostLight 1408 1264 518142 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 1493 1300 72318 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=200 tm_hurt=0.08
+GhostLight 1534 1304 390428 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=130 tm_hurt=0.08
+SinkPlatform 1856 640 353568 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 1936 704 765424 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 2016 592 42849 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 2080 736 241098 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+Spike 2032 784 726325 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 2064 784 941758 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 1872 784 342429 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 1904 784 955289 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 1952 784 258040 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 dmgtype=1
+Spike 1984 784 102521 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 dmgtype=1
+Spike 1968 784 936107 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 dmgtype=1
+Spike 2112 784 810175 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 dmgtype=1
+SinkPlatform 2176 256 289491 return_rate=4.5 returns_home=1 yvel=30 xvel=37
+GhostLight 2070 279 314823 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 2128 208 609431 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+GenericNPC 2032 272 176359 always_scripted=0 debug_name="SORTA_EQUIVALENT_TO_FIGHTING_A_REGENERATING_ENEMY" context_int_csv="0,0" children="" map-scene-pos="p,dj,280" id="sign1" has_dialogue=1
+Door 32 96 814591 AUTO_INDEX=0 behavior=1 dest_x=-1 dest_map="OLD_6" index=11 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START
+SapPad 176 976 526807 children="294220" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 464 928 485112 children="58074" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 320 1056 294220 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=64
+RaiseWall 624 1056 58074 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=64
+GhostLight 176 1072 731615 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 464 1072 417024 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 56 1064 416864 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+Pod 832 1056 746517 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 944 1056 340425 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 784 1216 696174 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 880 1216 134581 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 912 1392 269779 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 800 1392 415359 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pew 736 1344 40670 bspd=80 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.45
+GhostLight 768 896 614034 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GhostLight 764 888 438586 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=165 tm_hurt=0.08

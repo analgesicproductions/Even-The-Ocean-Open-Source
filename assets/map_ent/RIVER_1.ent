@@ -1,0 +1,30 @@
+BBG START
+BG1 START
+BG2 START
+ExtendStem 2528 368 768296 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=315 deaccel=150
+ExtendStem 896 336 206414 accel=100 tm_hurt=0.1 vel=70 vis-dmg="2,2" tile_width=3 return_vel=35 angle=0 deaccel=150
+ExtendStem 1440 320 475847 accel=100 tm_hurt=0.1 vel=70 vis-dmg="2,2" tile_width=3 return_vel=35 angle=180 deaccel=150
+Pod 1296 368 397716 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1280 368 197636 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1376 368 739517 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1392 368 942044 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 368 991938 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1328 368 952841 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1344 368 91981 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1360 368 679767 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+ExtendStem 1200 336 793264 accel=100 tm_hurt=0.1 vel=70 vis-dmg="2,2" tile_width=3 return_vel=35 angle=0 deaccel=150
+Door 3312 80 85382 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_2" next_cam_offset="0,0"
+Pod 2624 368 810643 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2608 368 918824 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2592 368 594730 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 0 112 387802 index=9 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=4 dest_y=2 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+GenericNPC 320 272 266372 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER_CHECKIN" children="585735" id="g2_1_checkin"
+GenericNPC 112 224 713150 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER_BLOCKER" children="" id="s2_nature_blocker"
+SavePoint 544 368 197769 autosaves=0
+GenericNPC 240 256 585735 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="ENTERAREA" children="" id="s1_s2_area_enter"
+TrainTrigger 144 176 154173 event_id="none" id=11
+TrainTrigger 512 176 819569 event_id="none" id=10
+Pod 2687 352 549900 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2687 336 135721 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2687 320 566764 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START

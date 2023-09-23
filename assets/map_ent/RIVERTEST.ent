@@ -1,0 +1,107 @@
+BBG START
+BG1 START
+BG2 START
+WaterGlider 208 128 21740 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=8 vis-dmg="0,0" tm_hurt=0.11 drag=70
+WaterGlider 288 128 340946 dmg=48 dark_vel="65,47" light_vel="43,70" tm_move=8 vis-dmg="1,1" tm_hurt=0.11 drag=70
+WaterGlider 64 112 79249 dmg=48 dark_vel="65,47" light_vel="43,70" tm_move=8 vis-dmg="1,1" tm_hurt=0.11 drag=70
+WaterGlider 48 320 716346 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=8 vis-dmg="0,0" tm_hurt=0.11 drag=70
+Wind 304 304 802942 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=16 w=320 speed=-50
+WaterGlider 352 384 738052 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=8 vis-dmg="0,0" tm_hurt=0.11 drag=70
+WaterGlider 352 272 706519 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=8 vis-dmg="0,0" tm_hurt=0.11 drag=70
+WaterGlider 64 528 585462 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=8 vis-dmg="0,0" tm_hurt=0.11 drag=70
+Pod 80 736 740558 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 736 60800 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 48 736 130728 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 160 720 269712 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 96 736 708746 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+WaterGlider 304 832 614885 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=2 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 400 688 626933 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=2 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 448 576 287771 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=2 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Wind 480 496 334626 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=352 w=32 speed=50
+WaterGlider 528 752 85029 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=2 vis-dmg="0,0" tm_hurt=0.2 drag=70
+WaterGlider 640 752 360963 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=2 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Pod 368 752 366912 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 320 528 623740 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 560 528 958954 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 528 592 237820 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 400 832 292585 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+WaterGlider 816 240 77261 dmg=48 dark_vel="65,47" light_vel="43,70" tm_move=8 vis-dmg="1,1" tm_hurt=0.11 drag=70
+Pod 624 144 404804 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 640 160 297029 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Cauliflower 784 432 823401 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.05 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 867 794 192109 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=40 tm_damage=0.05 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 847 699 307560 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=40 tm_damage=0.05 vistype=0 tm_shoot=10 nr_stalks=3
+WaterGlider 53 1105 212758 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=5 vis-dmg="1,1" tm_hurt=0.2 drag=70
+Button 240 1008 629093 children="400622" t_wait=0 vistype=1 damage=1
+Button 224 928 439601 children="400622" t_wait=0 vistype=1 damage=1
+RaiseWall 272 1104 400622 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=2
+WaterGlider 432 1120 376102 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=10 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 576 1120 716663 dmg=48 dark_vel="65,60" light_vel="35,70" tm_move=10 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Spike 448 1008 911647 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 448 1040 132942 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 528 1008 88557 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 528 1040 244994 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 608 1008 709716 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 608 1040 911676 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Button 352 944 584116 children="788987" t_wait=0 vistype=1 damage=1
+RaiseWall 688 1120 788987 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Pew 752 1088 24075 bspd=40 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pew 864 992 204178 bspd=40 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+WaterGlider 800 1152 997350 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=10 vis-dmg="1,1" tm_hurt=0.1 drag=70
+WaterGlider 192 1296 910405 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=5 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 368 1296 948704 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=5 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 576 1296 871935 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=5 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 576 1232 264618 dmg=48 dark_vel="65,47" light_vel="35,70" tm_move=5 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Wind 112 1360 423449 angle=90 global=0 en_align=1 invis=0 req_energy=1 h=288 w=96 speed=70
+Button 48 1392 618069 children="423449" t_wait=0 vistype=1 damage=1
+Button 48 1472 177235 children="423449" t_wait=0 vistype=0 damage=1
+Wind 16 1456 834965 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=304 w=80 speed=70
+WaterGlider 64 1728 486657 dmg=48 dark_vel="62,56" light_vel="38,70" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 16 1728 300876 dmg=48 dark_vel="62,56" light_vel="38,70" tm_move=8 vis-dmg="0,0" tm_hurt=0.2 drag=70
+WaterGlider 480 1424 807803 dmg=48 dark_vel="62,56" light_vel="38,70" tm_move=3.5 vis-dmg="0,0" tm_hurt=0.2 drag=70
+WaterGlider 464 1760 455632 dmg=48 dark_vel="62,56" light_vel="2,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 857 1766 510555 dmg=48 dark_vel="120,10" light_vel="2,200" tm_move=4 vis-dmg="0,0" tm_hurt=0.2 drag=70
+WaterGlider 624 1616 281934 dmg=48 dark_vel="62,56" light_vel="38,70" tm_move=3.5 vis-dmg="0,0" tm_hurt=0.2 drag=70
+WaterGlider 352 1584 233848 dmg=48 dark_vel="100,40" light_vel="38,70" tm_move=3.5 vis-dmg="0,0" tm_hurt=0.2 drag=70
+WaterGlider 48 2256 913175 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 187 2257 581222 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 333 2253 261464 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+Cauliflower 528 1904 254480 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 656 1904 143914 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 535 2133 999627 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 608 2112 541380 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 688 2080 73338 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 784 2064 727152 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 880 2032 198444 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 528 2288 710870 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 656 2288 554465 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+WaterGlider 765 2322 607038 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 64 2688 242743 dmg=48 dark_vel="62,80" light_vel="38,70" tm_move=5 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 560 2720 93726 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+Cauliflower 144 3088 461383 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+WaterGlider 288 3056 145173 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 320 2944 625232 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Floater 80 2848 747326 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 256 2848 868718 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Button 336 2800 58837 children="" t_wait=1.5 vistype=1 damage=1
+RaiseWall 352 3072 979674 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=64
+Cauliflower 176 2896 428337 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 160 1056 7689 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 368 3008 824170 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 480 3040 363293 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 544 2880 899301 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 544 2816 325199 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 624 2880 498520 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 432 2944 885960 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+RaiseWall 576 3120 777074 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=8
+Cauliflower 640 2992 817961 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 816 3008 913172 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+WaterGlider 736 3072 599990 dmg=48 dark_vel="62,56" light_vel="38,100" tm_move=4 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Cauliflower 768 2864 68696 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+SapPad 848 2976 520067 children="777074" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+WaterGlider 816 2720 246502 dmg=48 dark_vel="62,56" light_vel="0,90" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 736 2672 118238 dmg=48 dark_vel="62,56" light_vel="0,90" tm_move=2 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 896 2592 730896 dmg=48 dark_vel="62,56" light_vel="0,90" tm_move=4 vis-dmg="1,1" tm_hurt=0.2 drag=70
+WaterGlider 860 2498 6554 dmg=48 dark_vel="62,0" light_vel="0,90" tm_move=4 vis-dmg="0,0" tm_hurt=0.2 drag=70
+Door 128 176 943615 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_6" index=8 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

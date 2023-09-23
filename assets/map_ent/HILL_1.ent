@@ -1,0 +1,105 @@
+BBG START
+BG1 START
+PushField 2032 80 168845 h=160 hor_push=-60 w=32
+PushField 1584 80 715908 h=160 hor_push=-30 w=20
+PushField 2528 96 965810 h=160 hor_push=-80 w=32
+BG2 START
+BugSwarm 1600 208 441750 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=1 chase_radius=300 bug_radius=24 vel=12
+NewCamTrig 0 0 451635 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=202 tile_h=29
+SoundZone 64 160 310813 tile_w=14 type="grass" revert_on_exit=0 tile_h=8 wall_type="generic"
+SoundZone 304 160 94088 tile_w=14 type="rock" revert_on_exit=0 tile_h=8 wall_type="generic"
+SoundZone 528 208 82331 tile_w=6 type="dirt" revert_on_exit=0 tile_h=8 wall_type="generic"
+SoundZone 624 192 739248 tile_w=5 type="grass" revert_on_exit=0 tile_h=8 wall_type="generic"
+SoundZone 704 192 619387 tile_w=9 type="rock" revert_on_exit=0 tile_h=8 wall_type="generic"
+Door 3200 -32 452265 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="HILL_2" next_cam_offset="0,0"
+SoundZone 1568 240 758788 tile_w=56 type="rock" revert_on_exit=0 tile_h=4 wall_type="generic"
+GenericNPC 80 160 112988 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="BLOCKER" children="" id="nature_blocker"
+GenericNPC 128 192 141667 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MAYOR" children="585735" id="s_3b_call_mayor"
+GenericNPC 480 176 701993 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_1_pile"
+GenericNPC 192 160 585735 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=3 debug_name="ENTERAREA" children="" id="s1_s2_area_enter"
+TrainTrigger 0 80 837658 event_id="none" id=11
+TrainTrigger 256 80 104591 event_id="none" id=10
+Door 0 16 957877 index=3 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+SavePoint 992 224 735426
+GenericNPC 912 208 115134 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="g1_1_pile"
+SetPiece 1168 416 152196 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+Wind 2032 112 53385 h=128 req_energy=1 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=1 w=48 speed=70
+Wind 2528 144 724041 h=96 req_energy=1 invis=0 angle=270 global=0 tm_next_particle=0.05 children="70763,163038" speed=70 en_align=1 w=48
+BugSwarm 2048 224 273373 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=1 chase_radius=300 bug_radius=24 vel=12
+BugSwarm 2048 176 129773 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=1 chase_radius=300 bug_radius=24 vel=12
+BugSwarm 1604 160 828406 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=0 chase_radius=300 bug_radius=24 vel=12
+BugSwarm 2048 112 738951 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=1 chase_radius=300 bug_radius=24 vel=12
+GenericNPC 1440 208 672348 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BUGWARN" children="" id="hill_aliph"
+BugSwarm 2544 208 163038 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=1 chase_radius=300 bug_radius=24 vel=12
+BugSwarm 2544 160 70763 accel=55 vistype=0 follows=0 nr_bugs=10 anims="test1,test2" dontpush=1 chase_radius=300 bug_radius=24 vel=12
+Pod 2704 384 357096 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2688 384 175616 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+PushField 1616 80 640785 h=160 hor_push=30 w=10
+Pod 2720 192 995846 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1808 224 897878 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START
+LineCollider 0 272 274573 zip_max_vel=300 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,60,-13,151,-9,203,4,278,-2,320,-10,320,-32,409,-70,447,-78,472,-69,523,-69,523,-27,553,-23,634,-21,704,-32" invis=1
+Pendulum 1408 304 658117 vis-dmg="1,1" anim_name="PAD0" line_rgb="0X646644" no_y_movement=1 line_alpha=0.8 l=112 vine_set="HILL" nr_vine=0 extra_len=1 upside_down=1
+SetPiece 0 288 646700 tile_size="3301,29" fades_when_overlap=0 TYPE="GROUP0" auto_scroll_dir=2 id=1 border_shrink=0 tiling_y_off=12 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=1 auto_scroll_fps=12 blend_1ad2mu3sc=1
+SetPiece 0 289 783892 tile_size="3301,28" fades_when_overlap=0 TYPE="GROUP0" auto_scroll_dir=6 id=1 border_shrink=0 tiling_y_off=12 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=1 auto_scroll_fps=12 blend_1ad2mu3sc=1
+SetPiece 848 192 863190 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1168 224 52310 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1440 208 240171 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1133 364 806385 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1216 336 713861 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1200 368 926489 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1040 400 530370 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1216 384 433948 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 976 384 477993 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1248 400 636925 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2 298 962033 tile_size="3305,270" fades_when_overlap=0 TYPE="GROUP0" auto_scroll_dir=3 id=0 border_shrink=0 tiling_y_off=12 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=1 auto_scroll_fps=12 blend_1ad2mu3sc=1
+SetPiece 1155 378 331239 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1056 416 29340 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1132 389 714310 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1312 352 270923 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1504 384 508412 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1584 400 38427 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1616 416 786669 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1744 384 72562 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1824 368 485988 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1728 400 406545 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1840 384 268303 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1588 427 896357 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1440 384 949015 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2224 368 726122 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2320 352 194661 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2336 368 216185 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2432 352 222492 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2576 368 817911 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2704 368 935163 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2688 384 592766 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2512 384 701628 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2352 384 502998 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2256 384 232200 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2374 394 182061 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2464 368 37586 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2544 400 293544 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2608 384 178127 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2752 384 278074 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2784 400 752901 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2816 352 909838 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1680 384 448130 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1632 208 260421 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1824 224 86108 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1968 208 832776 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2112 224 574223 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2208 208 782491 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2816 224 977626 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2992 192 920364 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1264 176 106025 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 976 208 971419 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+WirePoint 1936 208 288428 pos="0,96,112,96,112,80" vistype=0 forceTargetDir=0 children="55119"
+SapPad 1936 192 792000 max_storage=64 vis=1 dmg_rate=0.1 one_for_all=1 reverse=0 dmg=1 children="288428,53385,273373,129773,738951,168845,55119"
+WirePoint 2640 256 27585 pos="0,48,-96,48,-96,32" vistype=0 forceTargetDir=0 children="716089"
+SapPad 2640 240 19905 max_storage=64 vis=1 dmg_rate=0.1 one_for_all=1 reverse=0 dmg=1 children="27585,716089,724041,163038,70763,965810"
+SetPiece 2544 272 712884 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=10 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2520 240 716089 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=5 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2048 272 649756 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=10 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2025 239 55119 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=5 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2432 224 292571 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2592 208 922995 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 240 752 25339 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="screen_kv"
+TrainTrigger 0 0 698582 event_id="none" id=0
+FG2 START

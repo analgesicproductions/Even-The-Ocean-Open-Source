@@ -1,0 +1,69 @@
+BBG START
+BG1 START
+GenericNPC 1872 1744 938341 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BATSHVA3_AFTER_GOLEM_KILL" children="" id="batsheva"
+GenericNPC 1456 1328 895833 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BATSHVA1_AND_MUSHROOM" children="" id="batsheva"
+BG2 START
+Door 1552 480 268842 index=1 AUTO_INDEX=200 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ROUGE_0" next_cam_offset="0,0"
+Door 1888 1168 626641 index=2 AUTO_INDEX=584 behavior=1 type=1 script="TOOL/DOORS/BLOCK_WF.HX" dest_x=-8 dest_y=8 s_visited=1 custom_size="90,80" dest_map="WF_LO_0" next_cam_offset="0,0"
+GenericNPC 1840 1296 964345 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="WORLDMAP_EVENTS" children="" id="intro_map"
+Door 2096 656 519555 index=1 AUTO_INDEX=4 behavior=6 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="48,40" dest_map="SHORE_1" next_cam_offset="0,0"
+Door 1248 720 623678 index=1 AUTO_INDEX=3 behavior=6 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="32,50" dest_map="HILL_1" next_cam_offset="0,0"
+Door 1424 2080 111954 index=1 AUTO_INDEX=2 behavior=6 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="48,48" dest_map="CANYON_1" next_cam_offset="0,0"
+GenericNPC 1984 1177 376991 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MAP_TUTORIAL" children="" id="map_tutorial"
+TrainTrigger 1840 1344 5029 event_id="none" id=0
+GenericNPC 80 224 978862 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="3,0" debug_name="FLOOD" children="226784,744149,205899,692955" id="ending_flood"
+GenericNPC 1968 1232 38994 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="POST_I2_MAP" children="" id="post_i2_map"
+Door 2048 1664 794612 index=0 AUTO_INDEX=7 behavior=7 type=1 script="TOOL/DOORS/TUNNELBLOCKER.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="64,80" dest_map="TUNNEL_2" next_cam_offset="0,0"
+Door 1120 1888 425248 index=1 AUTO_INDEX=8 behavior=6 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="32,48" dest_map="WOODS_1" next_cam_offset="0,0"
+Door 1712 2512 612209 index=1 AUTO_INDEX=10 behavior=6 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="48,48" dest_map="BASIN_1" next_cam_offset="0,0"
+GenericNPC 2128 1632 153810 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="TUNNEL0PLACER" children="794612" id="tunnel_placer"
+Door 880 1360 87610 index=1 AUTO_INDEX=9 behavior=6 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="60,32" dest_map="RIVER_1" next_cam_offset="0,-48"
+GenericNPC 1312 1808 59174 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MAP1DOORS" children="519555,623678,87610,425248,111954,612209,379561,252747" id="map1_doors"
+WMScaleSprite 1904 1200 64279 oscillate=0 h=20 collidable=1 name_id="APEX" bottom=1
+Door 1120 1568 162901 index=0 AUTO_INDEX=603 behavior=1 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BRIDGE_RIVER" next_cam_offset="0,0"
+Door 1119 1582 670869 index=1 AUTO_INDEX=604 behavior=1 type=1 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BRIDGE_RIVER" next_cam_offset="0,0"
+GenericNPC 1808 1184 127023 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="612759,450802,941179" id="bob"
+GenericNPC 1808 1152 258755 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="895833,977568,938341" id="batsheva"
+GenericNPC 1936 1216 283924 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="yara_worldmap"
+GenericNPC 1744 2304 977568 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BATSHVA_2" children="" id="batsheva"
+GenericNPC 1904 832 612759 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BOB1" children="" id="bob"
+GenericNPC 1920 1936 941179 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BOB3" children="" id="bob"
+GenericNPC 960 1616 450802 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="BOB2" children="" id="bob"
+GenericNPC 758 1529 404365 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="SCARECROW" children="" id="worldmap_dialogue"
+WMScaleSprite 1920 1600 59626 oscillate=0 h=20 collidable=0 name_id="OAK" bottom=1
+WMScaleSprite 1824 2464 362824 oscillate=0 h=20 collidable=1 name_id="CAIRN" bottom=1
+WMScaleSprite 768 1520 479185 oscillate=0 h=20 collidable=1 name_id="SCARECROW" bottom=1
+WMScaleSprite 1536 448 50718 oscillate=0 h=20 collidable=0 name_id="MAP_ROUGE" bottom=1
+WMScaleSprite 2104 624 807136 oscillate=0 h=20 collidable=0 name_id="MAP_SHORE" bottom=1
+WMScaleSprite 1328 2080 796600 oscillate=0 h=20 collidable=0 name_id="MAP_CANYON" bottom=1
+WMScaleSprite 1730 2519 637718 oscillate=0 h=20 collidable=0 name_id="MAP_BASIN" bottom=1
+WMScaleSprite 1136 1936 267580 oscillate=0 h=20 collidable=0 name_id="MAP_WOODS" bottom=1
+WMScaleSprite 848 1360 100963 oscillate=0 h=20 collidable=0 name_id="MAP_RIVER" bottom=1
+WMScaleSprite 1252 676 706497 oscillate=0 h=20 collidable=0 name_id="MAP_HILL" bottom=1
+WMScaleSprite 1792 688 974126 oscillate=0 h=20 collidable=0 name_id="MAP_PARENTS" bottom=1
+WMScaleSprite 884 1344 423400 oscillate=0 h=20 collidable=0 name_id="RIVERTON" bottom=1
+GenericNPC 1108 1812 112751 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=3 debug_name="GHOST" children="" id="worldmap_dialogue"
+GenericNPC 1911 1596 786492 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="GHOST" children="" id="worldmap_dialogue"
+GenericNPC 1806 2453 26561 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=5 debug_name="GHOST" children="" id="worldmap_dialogue"
+GenericNPC 1799 1240 841566 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="GHOST" children="" id="worldmap_dialogue"
+GenericNPC 1722 1390 276983 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=0 debug_name="GHOST" children="" id="worldmap_dialogue"
+Door 1776 688 252747 index=0 AUTO_INDEX=605 behavior=6 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="50,32" dest_map="PARENTS_1" next_cam_offset="0,0"
+Door 1328 1744 379561 index=0 AUTO_INDEX=606 behavior=6 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="50,32" dest_map="LOPEZ_1" next_cam_offset="0,0"
+WMScaleSprite 1760 912 849322 oscillate=0 h=20 collidable=1 name_id="MAP_SIGN" bottom=1
+GenericNPC 1748 907 373343 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="GHOST" children="" id="worldmap_dialogue"
+GenericNPC 1856 1152 5858 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2GEOME" children="" id="i2geome_script"
+GenericNPC 1918 496 636188 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=7 debug_name="NORTH" children="" id="worldmap_dialogue"
+GenericNPC 1712 2736 657527 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=8 debug_name="SOUTH" children="" id="worldmap_dialogue"
+WMScaleSprite 864 1328 827458 oscillate=0 h=20 collidable=1 name_id="EARTH_GEOME" bottom=1
+WMScaleSprite 1776 2528 718802 oscillate=0 h=20 collidable=1 name_id="SEA_GEOME" bottom=1
+WMScaleSprite 992 1883 371145 oscillate=0 h=20 collidable=1 name_id="AIR_GEOME" bottom=1
+SetPiece 32 16 205899 tile_size="471,150" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=1
+SetPiece 48 16 692955 tile_size="474,149" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=30 blend_1ad2mu3sc=0
+SetPiece 32 80 744149 tile_size="476,72" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=6 id=3 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 16 84 226784 tile_size="489,71" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=2 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START
+ToneFader 1456 2096 315561 custom_color="0X00148C" blend=2 inner_r=48 outer_r=150 mul_base_alpha=0.56 id="CANYON"
+ToneFader 1584 512 845789 custom_color="0XA8A200" blend=2 inner_r=64 outer_r=128 mul_base_alpha=0.56 id="ROUGE"
+ToneFader 1120 1936 15938 custom_color="0X6F7133" blend=2 inner_r=80 outer_r=150 mul_base_alpha=0.56 id="WOODS"
+ToneFader 944 1392 106779 custom_color="OXRRGGBB" blend=1 inner_r=64 outer_r=128 mul_base_alpha=0.56 id="RIVER"
+ToneFader 1760 2528 85398 custom_color="OXRRGGBB" blend=1 inner_r=64 outer_r=128 mul_base_alpha=1 id="BASIN"

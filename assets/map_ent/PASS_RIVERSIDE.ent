@@ -1,0 +1,37 @@
+BBG START
+BG1 START
+BG2 START
+RaiseWall 512 160 782744 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=16 permanent_open=1 s_open=0 children=""
+RaiseWall 608 192 855855 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=16 permanent_open=1 s_open=0 children=""
+SapPad 592 416 337740 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="532306,855855,782744"
+WirePoint 592 432 532306 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="339609"
+WirePoint 656 432 339609 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="726448"
+WirePoint 656 288 726448 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="101004,681502"
+WirePoint 512 288 101004 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="378059"
+WirePoint 512 192 378059 pos="0,16" force_dir=0 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="782744"
+WirePoint 608 288 681502 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="736799"
+WirePoint 608 224 736799 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="855855"
+MiniMoveBlock 208 240 934441 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+MiniMoveBlock 272 272 513572 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+MiniMoveBlock 336 304 837732 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+MiniMoveBlock 400 336 439599 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+MiniMoveBlock 464 368 680245 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+Hopper 176 384 777805 wall_jumps=0 accel=350 tm_jump=0.1 jump_vel=-100 vis-dmg="1,1" x_vel=50
+Hopper 310 392 722 wall_jumps=0 accel=350 tm_jump=0.1 jump_vel=-100 vis-dmg="1,1" x_vel=50
+Hopper 408 398 222437 wall_jumps=0 accel=350 tm_jump=0.1 jump_vel=-100 vis-dmg="1,1" x_vel=50
+Hopper 516 395 819032 wall_jumps=0 accel=350 tm_jump=0.1 jump_vel=-100 vis-dmg="1,1" x_vel=50
+Door 112 192 221156 index=2 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="PASS_ARTIST" next_cam_offset="0,0"
+MiniMoveBlock 688 128 796494 is_y=1 max_accel=300 dir=0 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+MiniMoveBlock 691 201 715882 is_y=1 max_accel=300 dir=0 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+MiniMoveBlock 691 276 549149 is_y=1 max_accel=300 dir=0 vis-dmg="0,0" dmg=16 max_vel=250 tm_wait=0
+Spike 816 144 776136 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 752 192 911969 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 784 144 797329 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pod 832 208 733572 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 848 240 576697 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 224 677901 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 256 176 92848
+Door 1408 -128 682920 index=3 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_DOWN" next_cam_offset="0,0"
+SavePoint 1232 96 903103
+SavePoint 656 240 418507
+FG2 START

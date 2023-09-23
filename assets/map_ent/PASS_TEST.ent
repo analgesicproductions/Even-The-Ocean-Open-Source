@@ -1,0 +1,135 @@
+BBG START
+BG1 START
+BG2 START
+WalkBlock 96 112 47176 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=32 dir=0 w,h="2,4" vis-dmg="0,0" starts_moving_left_or_down=0
+Spike 192 320 311730 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 208 320 660969 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 224 320 410898 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 240 320 692064 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 256 320 59217 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 272 320 404627 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+WalkBlock 672 256 713125 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="2,8" vis-dmg="0,0" starts_moving_left_or_down=0
+ExtendStem 640 448 398395 angle=315 accel=70 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=55 deaccel=150
+WalkBlock 976 336 196877 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="3,1" vis-dmg="0,0" starts_moving_left_or_down=0
+BarbedWire 800 672 460924 children="946870" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1008 624 946870 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Spike 80 160 26129 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 96 160 180724 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 112 160 41181 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 128 160 103282 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+FollowLaser 320 112 427849 accel=0 dmgtype=0 axis_tracks_player=0 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=0
+FollowLaser 544 96 555711 accel=0 dmgtype=0 axis_tracks_player=0 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=180
+WalkBlock 352 64 670416 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,4" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 480 64 72126 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,4" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 192 656 43221 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="2,4" vis-dmg="0,0" starts_moving_left_or_down=0
+GenericNPC 16 928 250491 always_scripted=0 debug_name="BASIC_SPIKE_PRESENTED_AS_DANGER_THEN_UTILITY" context_int_csv="0,0" children="" map-scene-pos="p,dj,158" id="sign1" has_dialogue=1
+GenericNPC 100 753 327411 always_scripted=0 debug_name="THIS_COULD_BE_DONE_WITHOUT_THE_WALKBLOCKS_BUT_THEY_ADD_A_SENSE_OF_LIFE_TO_THE_CHALLENGE_OF_THE_SPIKES" context_int_csv="0,0" children="" map-scene-pos="p,dj,159" id="sign1" has_dialogue=1
+GenericNPC 64 320 879750 always_scripted=0 debug_name="FASTEST_WAY_IS_TO_WALL_SLIDE_ON_THE_SPIKE_BUT_U_CAN_DO_OTHER_THINGS_TOO" context_int_csv="0,0" children="" map-scene-pos="p,dj,160" id="sign1" has_dialogue=1
+Pod 128 464 181210 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 208 432 942729 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 208 384 208659 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 48 144 759665 always_scripted=0 debug_name="BASIC_WALKBLOCK" context_int_csv="0,0" children="" map-scene-pos="p,dj,161" id="sign1" has_dialogue=1
+GenericNPC 304 16 613506 always_scripted=0 debug_name="HIGH_DMG_ZONES_CAN_BE_MADE_MORE_DYNAMIC_VIA_LASER_AND_WALKBLOCK_INTERACTION" context_int_csv="0,0" children="" map-scene-pos="p,dj,162" id="sign1" has_dialogue=1
+GenericNPC 400 368 636333 always_scripted=0 debug_name="GOLEMS_ARE_BIG_SO_I_THINK_IT_WILL_BE_NICE_TO_HAVE_SOME_LARGE_OPEN_ROOMS_THAT_ARE_FUN" context_int_csv="0,0" children="" map-scene-pos="p,dj,163" id="sign1" has_dialogue=1
+WalkBlock 1184 64 192301 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1280 64 913382 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1104 80 701506 decel-frames="120,20,30" AUTO_ORIENT=0 f_speed=16 dir=3 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+Pod 1184 80 746627 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1200 144 656106 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1280 192 14174 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1280 176 913142 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1152 304 709930 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 1072 208 219457 always_scripted=0 debug_name="ELEVATOR_ACTION" context_int_csv="0,0" children="" map-scene-pos="p,dj,164" id="sign1" has_dialogue=1
+Pod 1136 256 802768 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1408 160 786239 always_scripted=0 debug_name="PLANNING_AHEAD_WITH_SPIKE_IF_U_GO_TOP_IT_IS_HARDER_BOTTOM_U_CAN_LURE_OUT" context_int_csv="0,0" children="" map-scene-pos="p,dj,165" id="sign1" has_dialogue=1
+WalkBlock 592 880 635850 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,8" vis-dmg="1,1" starts_moving_left_or_down=0
+WalkBlock 832 976 185199 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="6,2" vis-dmg="1,1" starts_moving_left_or_down=0
+GenericNPC 416 816 662522 always_scripted=0 debug_name="OPEN_AREA_ABOUT_STAYING_AWARE_OF_PREVIOUS_SPIKE_POSITIONS" context_int_csv="0,0" children="" map-scene-pos="p,dj,166" id="sign1" has_dialogue=1
+GenericNPC 1088 528 744011 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,167" id="sign1" has_dialogue=1
+GhostLight 1776 352 536557 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 1776 352 25327 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+Button 2176 560 874773 children="275020" t_wait=0 vistype=0 damage=1
+RaiseWall 2096 336 275020 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+GenericNPC 1728 336 927064 always_scripted=0 debug_name="NEAR_END_WE_CAN_ADD_GHOSTS_TO_SPICE_IT_UP" context_int_csv="0,0" children="" map-scene-pos="p,dj,168" id="sign1" has_dialogue=1
+WalkBlock 1136 848 873101 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="5,1" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1136 976 805320 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="8,1" vis-dmg="0,0" starts_moving_left_or_down=0
+WirePoint 1280 752 894952 children="371386" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WalkBlock 1072 1056 620430 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="8,1" vis-dmg="0,0" starts_moving_left_or_down=0
+RaiseWall 1280 768 371386 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=8
+SapPad 1360 1136 402368 children="371386,306088" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SquishyChaser 1248 1168 982402 dmg_amt=32 chasevel=150 vis-dmg="0,0" tm_allow_damage=1.5
+WirePoint 1360 1152 306088 children="55939" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 1408 752 68565 children="894952" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WalkBlock 48 1376 808885 decel-frames="400,25,20" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="8,1" vis-dmg="0,0" starts_moving_left_or_down=1
+WalkBlock 160 1136 16844 decel-frames="400,25,20" AUTO_ORIENT=1 f_speed=12 dir=2 w,h="1,6" vis-dmg="0,0" starts_moving_left_or_down=1
+WalkBlock 224 1312 842363 decel-frames="400,25,20" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="8,2" vis-dmg="0,0" starts_moving_left_or_down=1
+WalkBlock 144 1456 843516 decel-frames="400,25,20" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,5" vis-dmg="0,0" starts_moving_left_or_down=1
+GhostLight 80 1520 876098 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+GhostLight 16 1552 731316 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=125 tm_hurt=0.08
+GenericNPC 64 1536 859677 always_scripted=0 debug_name="KINDA_COOL_TO_SEE_SO_MANY_WALKBLOCKS_MOVING_AND_THEN_ADD_GHOST_FOR_FLAVOR" context_int_csv="0,0" children="" map-scene-pos="p,dj,169" id="sign1" has_dialogue=1
+GenericNPC 1371 643 986940 always_scripted=0 debug_name="ASCENDING_CAERFULLY" context_int_csv="0,0" children="" map-scene-pos="p,dj,170" id="sign1" has_dialogue=1
+WalkBlock 608 1280 734312 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="5,2" vis-dmg="0,0" starts_moving_left_or_down=0
+BarbedWire 480 1296 224769 children="568347" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 816 1296 568347 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+NewWaterShooter 528 1216 836090 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=0
+NewWaterShooter 752 1216 198085 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=0
+GenericNPC 464 1168 386311 always_scripted=0 debug_name="THIS_WOULD_BE_FUN_IN_SHORE_BUT_IS_MAYBE_DEADLY_SO_IT_IS_HERE_NOW" context_int_csv="0,0" children="" map-scene-pos="p,dj,171" id="sign1" has_dialogue=1
+BarbedWire 1632 976 228710 children="579734" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1680 976 579734 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1760 976 446673 children="318906" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1808 976 318906 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+WalkBlock 1584 800 492922 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1712 848 707624 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1840 896 20519 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+Pod 1520 944 133210 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1536 960 395067 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Door 784 144 908953 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_6" index=19 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+SquishyChaser 1520 1248 471776 dmg_amt=32 chasevel=150 vis-dmg="0,0" tm_allow_damage=1.5
+Pod 1568 1360 555463 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1568 1376 758202 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1872 1360 903190 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1872 1376 539315 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+WalkPod 1680 1296 70028 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkPod 1680 1264 530007 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkPod 1680 1232 921202 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkBlock 1856 1264 491427 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="2,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 1680 1264 733543 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="8,2" vis-dmg="0,0" starts_moving_left_or_down=0
+WalkBlock 2016 1440 526889 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="2,6" vis-dmg="1,1" starts_moving_left_or_down=1
+WalkBlock 2064 1152 134203 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="2,5" vis-dmg="1,1" starts_moving_left_or_down=1
+SquishyChaser 2112 1280 472531 dmg_amt=32 chasevel=150 vis-dmg="0,0" tm_allow_damage=1.5
+Pod 2032 1568 262531 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2144 1552 847887 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2032 1344 204218 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2128 1344 287389 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Wind 176 1376 480958 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=80 w=32 speed=70
+Pod 368 1488 559595 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 368 1504 477736 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SpikeExtend 48 288 827918 accel_extend=300 tm_dmg=0.05 dmg=48 dir=1 vel_extend=150 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1648 128 852276 accel_extend=300 tm_dmg=0.1 dmg=48 dir=3 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1184 528 733722 accel_extend=300 tm_dmg=0.1 dmg=48 dir=0 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1792 416 455081 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 64 832 620949 accel_extend=300 tm_dmg=0.1 dmg=48 dir=2 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1216 528 609594 accel_extend=300 tm_dmg=0.1 dmg=48 dir=0 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 224 832 883953 accel_extend=300 tm_dmg=0.1 dmg=48 dir=2 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1632 192 882380 accel_extend=300 tm_dmg=0.1 dmg=48 dir=3 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1952 480 949774 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1424 576 133571 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 256 832 871543 accel_extend=300 tm_dmg=0.1 dmg=48 dir=2 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 432 784 786962 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1632 832 701544 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=100 tm_wait_at_ends=0.7
+SpikeExtend 96 832 73745 accel_extend=300 tm_dmg=0.1 dmg=48 dir=2 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1456 544 849779 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 656 1040 939726 accel_extend=300 tm_dmg=0.1 dmg=48 dir=0 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 160 560 307089 accel_extend=300 tm_dmg=0.1 dmg=48 dir=2 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1632 160 32240 accel_extend=300 tm_dmg=0.1 dmg=48 dir=3 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1584 448 548625 accel_extend=300 tm_dmg=0.1 dmg=48 dir=3 vel_extend=250 vis-dmg="0,0" vel_retract=35 tm_wait_at_ends=0.7
+SpikeExtend 1760 880 452874 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 528 1040 258343 accel_extend=300 tm_dmg=0.1 dmg=48 dir=0 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1872 448 602927 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1552 400 85197 accel_extend=300 tm_dmg=0.1 dmg=48 dir=3 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1520 784 601957 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=100 tm_wait_at_ends=0.7
+SpikeExtend 432 864 709609 accel_extend=300 tm_dmg=0.1 dmg=48 dir=1 vel_extend=250 vis-dmg="0,0" vel_retract=50 tm_wait_at_ends=0.7
+SpikeExtend 1152 528 250782 accel_extend=300 tm_dmg=0.1 dmg=48 dir=0 vel_extend=250 vis-dmg="1,1" vel_retract=50 tm_wait_at_ends=0.7
+FG2 START
+WirePoint 1408 1152 55939 children="68565" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+GenericNPC 1104 768 508469 always_scripted=0 debug_name="WALL_IS_KINDA_CONTRIVED_BUT_I_LIKE_THE_ATMOSPHERE_OF_DESCENDING_INTO_A_BIT_WITH_WALKBLOCKS_AND_CLIMBING_OUT" context_int_csv="0,0" children="" map-scene-pos="p,dj,172" id="sign1" has_dialogue=1

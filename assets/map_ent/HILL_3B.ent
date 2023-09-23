@@ -1,0 +1,32 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 496 973860 AUTO_INDEX=0 behavior=0 dest_x=-1 dest_map="HILL_2" index=2 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Door 1008 304 938138 AUTO_INDEX=1 behavior=0 dest_x=1 dest_map="HILL_4" index=0 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Wind 336 1008 947617 angle=180 global=0 en_align=-1 req_energy=0 h=48 w=64 speed=40
+Pod 464 1024 256830 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 464 1040 608962 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=1 vistype=0 dmgtype=0
+FollowLaser 208 928 732121 accel=0 dmgtype=1 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=0 vistype=1 tracking_vel=0 tracked_axis="x" fixed_angle=90
+Pod 144 912 603425 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 144 928 409753 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 144 944 488145 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Wind 416 880 612589 angle=270 global=0 en_align=-1 req_energy=0 h=48 w=32 speed=60
+Wind 432 736 767460 angle=270 global=0 en_align=-1 req_energy=0 h=80 w=32 speed=65
+Pod 352 1104 925420 children="" AUTO_ORIENT=1 dir=2 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Wind 416 1056 170769 angle=270 global=0 en_align=-1 req_energy=0 h=64 w=32 speed=60
+Pod 384 1136 345540 children="" AUTO_ORIENT=1 dir=2 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 368 1120 404754 children="" AUTO_ORIENT=1 dir=2 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 752 496 696736 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 752 416 326124 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 800 464 830180 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 848 464 745190 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 800 448 870727 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 848 448 298574 children="" AUTO_ORIENT=1 dir=3 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Wind 816 416 570546 angle=270 global=0 en_align=-1 req_energy=0 h=80 w=32 speed=70
+Pod 624 704 844053 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 640 704 809453 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=1 vistype=1 dmgtype=1
+Pod 656 624 360217 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 656 640 334469 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 608 544 783322 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=1 vistype=0 dmgtype=0
+Pod 608 560 629064 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=1 vistype=0 dmgtype=0
+FG2 START

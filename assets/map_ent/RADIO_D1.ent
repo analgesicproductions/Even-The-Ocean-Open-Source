@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 480 720 67468 index=0 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RADIO_DB" next_cam_offset="0,0"
+NewCamTrig 16 0 112601 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=30 tile_h=50
+FG2 START

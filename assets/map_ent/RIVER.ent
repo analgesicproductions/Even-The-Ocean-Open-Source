@@ -1,0 +1,20 @@
+BBG START
+BG1 START
+BG2 START
+Door 1584 176 789965 index=25 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+WaterGlider 896 448 233628 vis=0 vis-dmg="0,0" drag=50 dark_vel="62,56" light_vel="38,70" vel=80 tm_hurt=0.033 dmg=48 tm_move=4
+Door 0 336 888416 index=9 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_R" next_cam_offset="0,0"
+Door 0 -97 62396 index=8 AUTO_INDEX=5 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_R" next_cam_offset="0,0"
+Pod 448 240 112853 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Spike 288 288 6075 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 320 288 356393 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Weed 560 544 617459 vistype=0 dir=0
+Weed 592 544 70474 vistype=1 dir=0
+Weed 704 528 66319 vistype=1 dir=0
+Weed 832 512 277519 vistype=1 dir=0
+WaterGlider 1344 432 142977 vis=0 vis-dmg="0,0" drag=50 dark_vel="62,56" light_vel="38,70" vel=80 tm_hurt=0.033 dmg=48 tm_move=4
+SavePoint 1504 416 692824
+GenericNPC 1296 368 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,57" debug_name="" children="" id="dev_info"
+GenericNPC 1264 32 40583 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,58" debug_name="" children="" id="dev_info"
+GenericNPC 688 384 908405 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,59" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,19 @@
+BBG START
+BG1 START
+Door 0 80 419741 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="PASS_PLATEAU" next_cam_offset="0,0"
+BG2 START
+SavePoint 1504 1520 967661
+Pod 1104 1520 465481 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1168 1520 62012 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 1584 1284 838336 index=23 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+RevolveSpore 848 1504 326337 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 864 1424 849599 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 880 1344 691252 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 848 1088 912095 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 816 1024 305240 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 864 976 404114 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 816 880 523516 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+GenericNPC 1536 80 867051 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,2" debug_name="" children="" id="dev_info"
+GenericNPC 1280 1360 86820 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="orb_gate"
+GenericNPC 1360 1504 625808 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,21" debug_name="" children="" id="dev_info"
+FG2 START

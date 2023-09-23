@@ -1,0 +1,16 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 160 96 457259 always_scripted=1 debug_name="SILO_PLACER" context_int_csv="0,0" children="309069,402307,257013" map-scene-pos="" id="silo_placer" has_dialogue=0
+Door 176 32 402307 AUTO_INDEX=4 custom_size="0,0" behavior=6 dest_x=1 dest_map="SILO_A0" index=0 s_visited=1 next_cam_offset="0,0" type=1 script="" dest_y=8
+Door 58 145 257013 AUTO_INDEX=5 custom_size="0,0" behavior=6 dest_x=1 dest_map="SILO_S0" index=0 s_visited=1 next_cam_offset="0,0" type=1 script="" dest_y=14
+Door 32 48 309069 AUTO_INDEX=3 custom_size="0,0" behavior=6 dest_x=1 dest_map="SILO_E0" index=0 s_visited=1 next_cam_offset="0,0" type=1 script="" dest_y=8
+Door 207 97 608336 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="PASS_1" index=1 s_visited=1 next_cam_offset="0,0" type=1 script="TOOL/DOORS/GOLEMBLOCK.HX" dest_y=8
+Door 272 96 19299 AUTO_INDEX=1 custom_size="0,0" behavior=1 dest_x=1 dest_map="FALLS_1" index=2 s_visited=1 next_cam_offset="0,0" type=1 script="TOOL/DOORS/GOLEMBLOCK.HX" dest_y=8
+Door 240 96 177942 AUTO_INDEX=2 custom_size="0,0" behavior=1 dest_x=-1 dest_map="CLIFF_1" index=1 s_visited=1 next_cam_offset="0,0" type=1 script="TOOL/DOORS/GOLEMBLOCK.HX" dest_y=8
+Door 208 48 470556 AUTO_INDEX=10 custom_size="0,0" behavior=1 dest_x=-1 dest_map="KV_1" index=2 s_visited=1 next_cam_offset="0,0" type=1 script="" dest_y=8
+GenericNPC 224 144 429963 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="outer_wm_thing" has_dialogue=0
+Door 121 183 752820 AUTO_INDEX=11 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_ENTER" index=0 s_visited=1 next_cam_offset="0,0" type=1 script="" dest_y=11
+Door 176 160 278974 AUTO_INDEX=12 custom_size="0,0" behavior=1 dest_x=-1 dest_map="TUNNEL_4" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 272 176 71760 AUTO_INDEX=13 custom_size="0,0" behavior=1 dest_x=1 dest_map="BRIDGE_1" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

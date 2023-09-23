@@ -1,0 +1,21 @@
+BBG START
+BG1 START
+BG2 START
+TileFader 672 672 657578 data="_"
+TileFader 656 736 856684 data="_"
+GenericNPC 656 416 303048 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="starfish_center"
+GenericNPC 128 704 939647 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="starfish_blockage"
+GenericNPC 960 624 823135 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="starfish_blockage"
+GenericNPC 672 816 434512 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="starfish_blockage"
+Door 0 704 365872 index=1 AUTO_INDEX=18 behavior=0 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_ENTER" next_cam_offset="0,0"
+Door 1264 704 303457 index=0 AUTO_INDEX=20 behavior=0 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ISLAND_SEED" next_cam_offset="0,0"
+Door 1264 432 817207 index=2 AUTO_INDEX=22 behavior=0 type=0 script="TOOL/DOORS/CONTEST_BLOCKER.HX" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ISLAND_2" next_cam_offset="0,0"
+Door 1264 544 626107 index=0 AUTO_INDEX=21 behavior=0 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ISLAND_LAZY" next_cam_offset="0,0"
+SquishBounce 800 512 314929 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 768 784 874523 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 528 720 414499 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+GenericNPC 240 448 967566 has_dialogue=1 map-scene-pos="p,dj,262" always_scripted=0 context_int_csv="0,0" debug_name="THE_STARFISH_WAS_AN_OLD_IDEA,_AND_FITS_SORT_OF_FUNNILY_INTO_THE_FINAL_GAME,,,_A_BIT_MORE_FANTASTICAL_THAN_MOST_PARTS" children="" id="joni"
+GenericNPC 336 480 342075 has_dialogue=1 map-scene-pos="p,dj,263" always_scripted=0 context_int_csv="0,0" debug_name="EARLY_ON,_ALIPHS_ADVENTURES_WERE_MEANT_TO_BE_MORE_LIKE_ANODYNE,_AN_ANYTHING_GOES_DREAMWORLD" children="" id="joni"
+GenericNPC 432 480 171836 has_dialogue=1 map-scene-pos="p,dj,264" always_scripted=0 context_int_csv="0,0" debug_name="BUT_I_LIKED_THE_CHARACTER,_ATMOSPHERE,_AND_INTERACITIONS_AROUND_THE_STARFISH,_SO_WE_KEPT_IT" children="" id="joni"
+FG2 START
+Door 0 496 657442 index=11 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_ENTER" next_cam_offset="0,0"

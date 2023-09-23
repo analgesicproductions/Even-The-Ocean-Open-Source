@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 656 203469 index=1 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=2 s_visited=0 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+RaiseWall 448 704 835995 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+SapPad 400 752 462576 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="835995,162502"
+GenericNPC 352 704 162502 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="oceanbucks"
+SavePoint 256 944 921195
+Door 1264 675 470776 index=2 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+GenericNPC 160 928 437214 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,34" debug_name="" children="" id="dev_info"
+FG2 START

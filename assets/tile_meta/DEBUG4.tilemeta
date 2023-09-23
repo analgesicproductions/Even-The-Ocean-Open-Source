@@ -1,0 +1,56 @@
+also fg
+solid_invis_map 20,60 42,82 41,81 43,83 44,84 45,85 46,86 47,87 48,88 40,80 31,71 32,72 21,89 5,6 7,8 23,33 22,61 408,90 409,91 410,92 411,93 2,62 24,63
+flip_map 1,240 49,245 50,246 51,241 52,242 53,243 54,244 9,247 10,248 11,249 12,250 13,251
+START
+solid 5.8 20 21 23 33 60 63 24
+fl45 41 81
+fr45 42 82
+cl45 43 83
+cr45 44 84
+lo22l 45 85
+hi22l 46 86
+hi22r 47 87
+lo22r 48 88
+water_surface 31 71
+water 32 72
+top 40 80
+gasdarklo 25
+gasdark 26
+gasdarkhi 27
+gaslightlo 28
+gaslight 29
+gaslighthi 30
+floor_ice 23 33
+noclimb 22 61
+permeable 21 89 40 80
+sand 73
+mirror 24 63
+diff_easy 3
+diff_normal 4
+diff_cloud 34
+organic 2 62
+cloud_no_drop 408 90
+l_to_r 409 91
+u_to_d 410 92
+r_to_l 411 93
+hard_gasdark 5 6
+hard_gaslight 7 8
+bgall 1 49 50
+bgfl 51 
+bgfr 52 
+bgcl 53 
+bgcr 54
+nat_bgall 9
+nat_bgfl 10
+nat_bgfr 11
+nat_bgcl 12
+nat_bgcr 13
+# To add invis hard: Add the (normal,invis) pair at top. Add both IDs to the correspond tilemeta row. Add the invis ID to invishard. Add a mapping in get_invis_frame . Make sure enough anims in the editor for the tiles. add the tiles to the tileset. also add them to solid if needed
+invishard 60 61 62 63 71 72 80.89 73 6 8 33 90.93
+END
+
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+400 DEBUG4 400,401 10
+402 DEBUG4 400,401,402 20
+END

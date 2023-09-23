@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+Door 48 336 987042 index=0 AUTO_INDEX=8 behavior=0 type=0 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="AIR_8" next_cam_offset="0,0"
+Wind 48 48 375296 h=16 req_energy=0 angle=0 global=1 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=20
+Pod 912 544 201043 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 576 807352 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 800 560 531088 index=3 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="AIR_4" next_cam_offset="0,0"
+SavePoint 864 576 827934
+FG2 START

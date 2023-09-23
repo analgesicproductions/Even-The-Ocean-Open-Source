@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Door 400 768 809254 index=1 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=1 dest_y=2 s_visited=1 custom_size="0,0" dest_map="CANYONIN1" next_cam_offset="0,0"
+SavePoint 128 80 158898
+Door 0 64 328247 index=5 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+BarbedWire 528 752 815829 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="157967" wire_tile_width=7 is_gauntlet=1
+PushField 784 112 63824 h=640 hor_push=-120 w=16
+BarbedWire 784 752 157967 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=7 is_gauntlet=1
+GenericNPC 336 208 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,116" debug_name="" children="" id="dev_info"
+FG2 START

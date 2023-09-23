@@ -1,0 +1,4 @@
+START
+solid 2.4 7 10.12 15 18 19 26 27 32.63
+train ud:32 rl:33 d:34 u:40 l:41 r:42 rd:48 dl:49 urdl:50 ur:56 ul:57
+END

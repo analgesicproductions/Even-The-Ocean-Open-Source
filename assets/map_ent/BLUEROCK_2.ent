@@ -1,0 +1,20 @@
+BBG START
+BG1 START
+BG2 START
+RevolveSpore 512 320 562898 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 576 304 968669 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 640 272 332729 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 720 256 375355 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 784 208 630288 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 848 176 533255 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 880 112 651548 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 832 96 847357 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+SavePoint 800 96 745513
+Pod 592 672 134630 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 656 672 780761 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 688 106287 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 720 80 316453 index=1 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="AIR_2" next_cam_offset="0,0"
+Door 208 256 959564 index=1 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="AIR_8" next_cam_offset="0,0"
+Door 0 1264 823549 index=2 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BLUEROCK_1" next_cam_offset="0,0"
+GenericNPC 416 304 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,99" debug_name="" children="" id="dev_info"
+FG2 START

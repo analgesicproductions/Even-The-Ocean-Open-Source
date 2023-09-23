@@ -1,0 +1,45 @@
+also fg
+solid_invis_map 20,60 24 42,82 41,81 43,83 44,84 45,85 46,86 47,87 48,88 40,80 31,71 32,72 21,89 5,6 7,8 23,33 22,61 408,90 409,91 410,92 411,93 2,62 24,63
+flip_map 1,240 49,245 50,246 51,241 52,242 53,243 54,244 9,247 10,248 11,249 12,250 13,251
+START
+solid 20 60
+fl45 41 81
+fr45 42 82
+cl45 43 83
+cr45 44 84
+lo22l 45 85
+hi22l 46 86
+hi22r 47 87
+lo22r 48 88
+water_surface 31 71 160.179
+water 32 72 180
+top 40 80
+gasdarklo 25
+gasdark 26
+gasdarkhi 27
+gaslightlo 28
+gaslight 29
+gaslighthi 30
+floor_ice 23
+noclimb 22 261
+permeable 21
+sand 73
+cloud_no_drop 408 90
+l_to_r 409 91
+u_to_d 410 92
+r_to_l 411 93
+invishard 60 71 72 73 80.88 408.411 90.93
+diff_easy 9
+diff_normal 10
+END
+
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+160 SHORE 160,162,164,166,168 6
+161 SHORE 161,163,165,167,169 6
+162 SHORE 162,164,166,168,160 6
+163 SHORE 163,165,167,169,161 6
+164 SHORE 164,166,168,160,162 6
+165 SHORE 165,167,169,161,163 6
+170 SHORE 170,171,172,173,174 6
+END

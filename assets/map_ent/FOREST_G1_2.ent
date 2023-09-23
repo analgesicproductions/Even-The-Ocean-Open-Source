@@ -1,0 +1,49 @@
+BBG START
+BG1 START
+BG2 START
+SapPad 768 48 348274 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=1 reverse=1 dmg=1 children="""
+SapPad 912 64 86094 max_storage=64 vis=1 dmg_rate=0.04 "=0 one_for_all=1 reverse=0 dmg=1 children="948725"
+Mole 768 32 233882 init_dir=1 max_energy=128 init_energy=64 vel_bounds="50,100,50,100" turns_right=0
+SapPad 752 128 244153 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="348274"
+RaiseWall 864 176 948725 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=1 init_state=0 needed_en=5 permanent_open=1 s_open=0 children=""
+MoleTile 864 32 827587 behavior=-1 off=0 dir=2
+MoleTile 864 48 244394 behavior=-1 off=0 dir=0
+MoleTile 592 176 462179 behavior=-1 off=0 dir=1
+SapPad 688 192 701404 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=1 reverse=1 dmg=1 children="""
+SapPad 592 320 738383 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=1 reverse=0 dmg=1 children="147502"
+SapPad 704 288 999786 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="701404"
+RaiseWall 576 256 739427 energy=0 is_wide=1 raise_distance=16 vistype=0 raise_dir=63 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+SapPad 640 272 447918 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="739427"
+RaiseWall 784 288 147502 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=24 permanent_open=1 s_open=0 children=""
+Pod 736 176 695194 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 752 176 548005 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 784 176 841021 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 240 528638 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 256 484099 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 1264 80 22384 index=-1 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=16 dest_y=152 s_visited=1 custom_size="0,0" dest_map="FOREST_G1" next_cam_offset="0,0"
+Mole 640 448 711354 init_dir=1 max_energy=128 init_energy=64 vel_bounds="50,100,50,100" turns_right=1
+SapPad 560 416 799356 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="213628"
+SapPad 640 464 213628 max_storage=64 vis=0 dmg_rate=0.04 "=0 one_for_all=1 reverse=1 dmg=1 children="""
+SapPad 848 464 112696 max_storage=64 vis=1 dmg_rate=0.04 "=0 one_for_all=1 reverse=0 dmg=1 children="534906,118313"
+Spike 688 416 795283 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 704 416 95244 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pew 704 336 897921 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 688 336 8567 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Spike 768 416 514674 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+RaiseWall 912 400 534906 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=20 permanent_open=0 s_open=0 children=0
+SapPad 832 336 38206 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="118313"
+SapPad 864 336 311271 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="118313"
+Door 1264 256 618197 index=-1 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=16 dest_y=328 s_visited=1 custom_size="0,0" dest_map="FOREST_G1" next_cam_offset="0,0"
+Door 1264 384 345799 index=-1 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=16 dest_y=456 s_visited=1 custom_size="0,0" dest_map="FOREST_G1" next_cam_offset="0,0"
+Pew 1008 448 422034 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+OrbSlot 1008 352 229360 transmit_en=16 vis=1 angle=0 children="" needed_en=0
+Pod 1072 48 442265 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1088 48 380395 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1104 48 627046 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1120 48 18927 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 832 400 118313 energy=20 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=1 needed_en=20 permanent_open=1 s_open=1 children=""
+EdgeDoor 1088 448 899586 is_wide=1 vistype=0 only_open_dir=-1
+Door 1096 480 272374 index=13 AUTO_INDEX=6 behavior=0 type=0 script="" dest_x=0 dest_y=32 s_visited=1 custom_size="0,0" dest_map="FOREST_G1_4" next_cam_offset="0,0"
+GenericNPC 944 400 535924 has_dialogue=1 map-scene-pos="p,dj,106" always_scripted=0 context_int_csv="0,0" debug_name="EVERY_GOOD_GAME_REQUIRES_A_RACING_MINIGAME_LOL" children="" id="joni"
+FG2 START
+Mole 688 176 957840 init_dir=1 max_energy=128 init_energy=64 vel_bounds="50,100,50,100" turns_right=1

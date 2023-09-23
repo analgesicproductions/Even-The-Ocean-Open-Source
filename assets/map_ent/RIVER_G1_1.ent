@@ -1,0 +1,63 @@
+BBG START
+BG1 START
+BG2 START
+Pew 32 128 381349 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=6 bspd=125 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 240 128 700626 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=2 bspd=125 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 752 64 558215 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 560 64 90848 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+SapPad 112 528 984980 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="143006"
+RaiseWall 176 464 143006 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children="538549"
+RaiseWall 416 384 538549 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+RaiseWall 448 464 805579 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=2 init_state=0 needed_en=40 permanent_open=1 s_open=0 children=""
+Bouncer 432 304 389756 u_or_r=1 is_hor=1
+RaiseWall 304 656 208587 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=3 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 160 528 319572 t_wait=1.5 vistype=1 damage=48 children="123066"
+WaterGlider 192 624 179690 vis=0 vis-dmg="0,0" drag=50 dark_vel="62,56" light_vel="38,70" vel=80 tm_hurt=0.03 dmg=48 tm_move=4
+Fish 176 656 58873 behavior=0 t_behave=1 vel_range="20,60"
+WirePoint 80 656 252253 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="282687"
+WirePoint 80 528 125616 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=1 no_draw_child=0 children="252253"
+WirePoint 160 528 123066 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="125616"
+WirePoint 256 656 282687 nr_sparkles=4 force_dir=-1 forceTargetDir=-1 vistype=2 pos="0,16" vel=150 invert=0 no_draw_child=0 children="208587"
+Bouncer 432 96 903257 u_or_r=0 is_hor=0
+Cauliflower 192 208 521671 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.03 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Weed 400 592 239108 vistype=0 dir=0
+Weed 416 592 957760 vistype=0 dir=0
+Weed 448 592 998229 vistype=0 dir=0
+Weed 464 592 413423 vistype=0 dir=0
+Bouncer 304 752 196360 u_or_r=1 is_hor=1
+FollowLaser 672 160 766768 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=10 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 744 32 187775 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=0
+Cauliflower 736 128 276415 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+RaiseWall 768 128 921099 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Button 736 384 79796 t_wait=1.5 vistype=0 damage=48 children="921099,537228"
+RaiseWall 688 416 537228 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=1 permanent_open=1 s_open=0 children=""
+Bouncer 672 752 837109 u_or_r=1 is_hor=1
+VanishBlock 464 688 448815 perma_open=1 vistype=0 init_state=0 zero_for_vis=0 needed_en=1 s_en=0 s_open=0 single_ticks=0 ignore_init_msg=0
+VanishBlock 480 704 287046 perma_open=1 vistype=0 init_state=0 zero_for_vis=0 needed_en=1 s_en=0 s_open=0 single_ticks=0 ignore_init_msg=0
+Button 640 528 229103 t_wait=1.5 vistype=0 damage=48 children="287046"
+Cauliflower 608 368 493974 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 528 464 297628 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 576 432 737931 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 480 416 184840 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+SapPad 480 496 39730 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="805579"
+Door 432 736 435083 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_2" next_cam_offset="0,0"
+WaterGlider 256 720 186714 vis=0 vis-dmg="0,0" drag=50 dark_vel="62,56" light_vel="38,70" vel=40 tm_hurt=0.05 dmg=48 tm_move=4
+WaterGlider 64 720 951480 vis=1 vis-dmg="0,0" drag=50 dark_vel="62,56" light_vel="38,70" vel=40 tm_hurt=0.05 dmg=48 tm_move=4
+Cauliflower 0 672 550741 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 64 624 415168 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 0 576 865700 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 64 480 666513 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Button 32 480 90343 t_wait=1.5 vistype=0 damage=48 children="448815"
+Pod 640 688 213098 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+HurtOutlet 768 576 681816 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 736 528 155014 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 736 496 372966 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+Pew 528 656 804097 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=3 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 528 560 964106 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=3 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 608 608 827692 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=3 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 592 704 988892 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=3 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Door 416 336 380473 index=3 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_A" next_cam_offset="0,0"
+SavePoint 352 368 782062
+SavePoint 432 592 416116
+GenericNPC 304 352 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,67" debug_name="" children="" id="dev_info"
+FG2 START

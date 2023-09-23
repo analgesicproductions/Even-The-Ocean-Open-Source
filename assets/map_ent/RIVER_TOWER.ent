@@ -1,0 +1,56 @@
+BBG START
+BG1 START
+BG2 START
+Door 704 1520 7727 index=0 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_TUBE" next_cam_offset="0,0"
+RaiseWall 432 1392 720812 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=2 init_state=-1 needed_en=1 permanent_open=1 s_open=0 children=""
+Door 288 256 87555 index=25 AUTO_INDEX=13 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+Cauliflower 256 464 897625 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Pod 320 448 786825 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 448 315490 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 496 146564 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 182 512 512193 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 144 512 6477 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 512 755252 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 224 304 890903 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="vent"
+GenericNPC 272 304 679410 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="vent"
+GenericNPC 384 304 499038 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="vent"
+GenericNPC 448 304 870982 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="vent"
+Cauliflower 432 656 311013 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 192 656 812002 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 272 656 208931 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 352 656 480733 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+PlantBlock 544 1328 980679 behavior=2 float_dis=24 dir=0 vis-dmg="0,0"
+Pew 416 1328 171980 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Cauliflower 336 1168 112724 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 416 1168 843810 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 416 1088 749022 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 336 1088 692838 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+PlantBlockAccepter 304 1264 292791 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="870982"
+PlantBlock 528 848 59649 behavior=2 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlock 544 720 43278 behavior=2 float_dis=24 dir=0 vis-dmg="0,0"
+PlantBlock 544 464 772976 behavior=2 float_dis=36 dir=0 vis-dmg="0,0"
+PlantBlockAccepter 64 464 866434 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="679410"
+PlantBlockAccepter 256 592 829638 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="890903"
+PlantBlockAccepter 64 784 89023 vis-dmg="0,0" behavior=2 init_state=0 s_on=0 children="499038"
+Cauliflower 320 880 496505 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.05 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 416 880 761968 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.05 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 224 864 155057 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0.05 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 64 896 671268 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 128 848 900489 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+HurtOutlet 96 1152 702793 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 96 1200 891882 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 96 1040 12314 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+HurtOutlet 160 1040 460579 init_wait=0 dmgtype=0 tm_off=0.5 tm_on=0.5 dmg=24 vistype=0
+Pod 64 656 450742 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 176 624 886479 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 704 944282 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 736 937932 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 736 148368 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 496 864 280221 fint_TICKS=-1 fint=1.4 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+GenericNPC 432 1536 857832 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g2_1_paxton"
+GenericNPC 464 1488 108906 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g2_1_end"
+Door 208 1392 963293 index=2 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_PATH" next_cam_offset="0,0"
+SavePoint 608 1312 640605
+GenericNPC 608 1504 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,72" debug_name="" children="" id="dev_info"
+AliphItem 544 -48 93664 removes=0 vis_set=0 id=36
+FG2 START

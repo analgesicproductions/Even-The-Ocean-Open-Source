@@ -1,0 +1,38 @@
+BBG START
+BG1 START
+SinkPlatform 64 352 424419 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+SinkPlatform 48 224 917502 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+SavePoint 128 704 543390
+BG2 START
+Spike 528 688 410967 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 528 656 179830 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pod 288 768 341752 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 768 696054 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 768 163690 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 768 613357 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 768 425541 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 768 280870 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SinkPlatform 320 688 985271 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+SinkPlatform 400 624 971151 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+SinkPlatform 272 576 291060 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+SinkPlatform 176 528 512011 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+Dropper 496 560 824959 vistype=0 drop_latency=1 max_drops=3
+Dropper 512 592 691882 vistype=0 drop_latency=1 max_drops=3
+Dropper 640 320 172899 vistype=0 drop_latency=1 max_drops=3
+Dropper 688 160 916632 vistype=0 drop_latency=1 max_drops=3
+Pod 336 528 707334 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Spike 368 432 681495 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 416 432 560721 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Wind 352 416 168737 h=16 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=96 speed=30
+SinkPlatform 389 356 4892 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+Pod 416 544 274314 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 16 336 291970 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 224 361055 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Weed 64 176 165078 vistype=0 dir=0
+Weed 96 176 886412 vistype=0 dir=0
+Spike 432 304 508113 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Door 416 -2 896188 index=1 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=-2 dest_y=-4 s_visited=1 custom_size="0,0" dest_map="WOODS_UP1" next_cam_offset="0,0"
+Door 768 464 630682 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_PATH" next_cam_offset="0,0"
+Door 0 496 243981 index=3 AUTO_INDEX=4 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_START" next_cam_offset="0,0"
+GenericNPC 256 416 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,76" debug_name="" children="" id="dev_info"
+FG2 START

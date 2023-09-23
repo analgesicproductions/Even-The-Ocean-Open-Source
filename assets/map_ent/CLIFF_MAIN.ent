@@ -1,0 +1,12 @@
+BBG START
+BG1 START
+BG2 START
+RaiseWall 256 576 25260 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+SapPad 192 528 91364 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="25260"
+Door 320 624 31191 index=-1 AUTO_INDEX=0 behavior=1 type=3 script="" dest_x=0 dest_y=8 s_visited=0 custom_size="0,0" dest_map="CLIFF_DOWN" next_cam_offset="0,0"
+Door 64 624 209267 index=-1 AUTO_INDEX=0 behavior=0 type=3 script="" dest_x=0 dest_y=8 s_visited=0 custom_size="0,0" dest_map="CLIFF_DOWN" next_cam_offset="0,0"
+RevolveSpore 592 48 209494 hurt_ticks=5 base_vel=420 vis-dmg="1,0"
+RevolveSpore 832 32 63196 hurt_ticks=5 base_vel=420 vis-dmg="1,0"
+Door 1104 192 954633 index=1 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF" next_cam_offset="0,0"
+Door 0 128 890430 index=0 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="CLIFF_CHASM" next_cam_offset="0,0"
+FG2 START

@@ -1,0 +1,12 @@
+BBG START
+BG1 START
+BG2 START
+Door 112 0 315966 index=5 AUTO_INDEX=5 behavior=0 type=4 script="" dest_x=-1 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="AIR_1" next_cam_offset="0,0"
+SavePoint 80 48 537948
+Pod 240 3840 543273 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 3856 649589 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 3840 594503 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 3856 402475 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+AliphItem 352 4000 840026 removes=0 vis_set=0 id=42
+GenericNPC 320 3872 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,111" debug_name="" children="" id="dev_info"
+FG2 START

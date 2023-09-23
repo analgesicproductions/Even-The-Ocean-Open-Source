@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 400 144 618315 index=1 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_DREAM" next_cam_offset="0,0"
+GenericNPC 256 144 864525 has_dialogue=1 map-scene-pos="p,dj,55" always_scripted=0 context_int_csv="0,0" debug_name="LOL_THIS_WAS_GOING_TO_BE_A_SEXY_ORGY_DREAM_ROOM,,,_BEFORE_WE_DECIDED_TO_MAKE_EVEN_THE_OCEAN_AN_ALL_AGES_GAME" children="" id="joni"
+GenericNPC 176 144 784528 has_dialogue=1 map-scene-pos="p,dj,56" always_scripted=0 context_int_csv="0,0" debug_name="WE_LOST_VERY_LITTLE_BY_CUTTING_OUT_A_FEW_SWEARS,_BUT_I_THINKN_GAINED_A_LOT_BY_MAKING_IT_PRETTY_THEMATICALLY_SAFE,,,_ID_REALLY_LIKE_FOR_YOUTH_TO_BE_ABLE_TO_PLAY_EVEN_THE_OCEAN_AND_MAYBE_BE_EXPOSED_TO_SOME_INTERESTING_THEMES_AND_HAVE_THAT_SORT_OF_SPECIAL_ENGAGEMENT_THAT_ONLY_KIDS_CAN_HAVE_WITH_MEDIA" children="" id="joni"
+FG2 START

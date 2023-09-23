@@ -1,0 +1,5 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 160 96 717489 always_scripted=1 debug_name="ROTATE" context_int_csv="0,0" children="" map-scene-pos="" id="falls_rotate" has_dialogue=0
+FG2 START

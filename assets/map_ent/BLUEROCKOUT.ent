@@ -1,0 +1,15 @@
+BBG START
+BG1 START
+BG2 START
+Wind 560 448 536650 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=120
+Door 0 642 699126 index=3 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+Pod 608 864 953696 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 848 983365 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=0 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 528 800 106127
+LightBox 16 848 257365 density=0.28 minmax_vel="20,30" is_gas=0 alpha=0.5 coords="0,0,691,0,691,34,0,34" particle_color="0xff0000" shapetype=0
+LightBox 160 800 655991 density=0.28 minmax_vel="20,30" is_gas=0 alpha=0.8 coords="0,0,71,0,71,33,0,33" particle_color="0xff0000" shapetype=0
+LightBox 352 800 428886 density=0.28 minmax_vel="20,30" is_gas=0 alpha=0.8 coords="0,0,93,0,93,17,0,17" particle_color="0xff0000" shapetype=0
+LightBox 496 768 88033 density=0.28 minmax_vel="20,30" is_gas=0 alpha=0.8 coords="0,0,96,0,96,35,0,35" particle_color="0xff0000" shapetype=0
+Door 784 -96 866145 index=1 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="BLUEROCK_1" next_cam_offset="0,0"
+GenericNPC 288 864 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,97" debug_name="" children="" id="dev_info"
+FG2 START

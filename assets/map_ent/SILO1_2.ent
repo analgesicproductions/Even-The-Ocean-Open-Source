@@ -1,0 +1,42 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 304 391616 index=0 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SILO1_1" next_cam_offset="0,0"
+LaserBlock 160 368 779406 tm_reform=1 vis-dmg="0,0"
+MirrorLaser 48 240 144353 t_shoot=0.8 init_wait=0 pattern=2 vel=130 dir=2 vis-dmg="0,0" dmg=48 t_TICKS=0
+Pod 352 352 13352 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BarbedWire 176 432 561861 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="297572" wire_tile_width=3 is_gauntlet=1
+BarbedWire 368 400 297572 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+LaserBlock 144 112 907352 tm_reform=1 vis-dmg="0,0"
+MirrorLaser 240 16 591136 t_shoot=0.8 init_wait=0 pattern=2 vel=130 dir=3 vis-dmg="1,1" dmg=48 t_TICKS=0
+OrbSlot 96 64 133983 transmit_en=16 vis=0 angle=0 children="158545" needed_en=0
+RaiseWall 160 48 158545 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=1 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+Pod 128 240 786717 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 144 240 659535 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Spike 48 64 4228 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 64 64 174922 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+LaserBlock 160 112 619569 tm_reform=1 vis-dmg="0,0"
+MirrorLaser 720 32 249600 t_shoot=0.8 init_wait=0 pattern=1 vel=120 dir=2 vis-dmg="0,0" dmg=48 t_TICKS=0
+Door 928 304 919311 index=0 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SILO1_3" next_cam_offset="0,0"
+Pod 464 240 267412 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 224 464894 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+OrbSlot 672 256 116489 transmit_en=16 vis=1 angle=0 children="602131" needed_en=0
+RaiseWall 816 304 602131 energy=1 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=1 permanent_open=1 s_open=1 children=""
+Pod 800 256 603383 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 800 240 20397 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 576 368 527384 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 592 368 3269 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 608 368 324008 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 624 368 309968 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+LaserBlock 176 368 594513 tm_reform=1 vis-dmg="0,0"
+LaserBlock 272 368 702239 tm_reform=1 vis-dmg="0,0"
+LaserBlock 288 368 421113 tm_reform=1 vis-dmg="0,0"
+LaserBlock 336 208 37205 tm_reform=1 vis-dmg="0,0"
+LaserBlock 352 208 47208 tm_reform=1 vis-dmg="0,0"
+Pod 352 384 708873 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 352 368 934950 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 80 352 966802
+GenericNPC 432 80 686898 has_dialogue=1 map-scene-pos="p,dj,258" always_scripted=0 context_int_csv="0,0" debug_name="SO_THIS_IDEA_IS_REALLY_COMPLICATED,_BUT_TECHNICALLY_DOABLE" children="" id="joni"
+GenericNPC 480 80 541288 has_dialogue=1 map-scene-pos="p,dj,259" always_scripted=0 context_int_csv="0,0" debug_name="THE_KEY_IS_THE_THREE_BLUE_SQUARES,_BOUNCE_THE_LASER_LEFT_FROM_THE_FIRST_BLUE_SQUARE_WHILE_WALLSLIDING,_THEN_BOUNCE_IT_LEFT_AGAIN_FROM_THE_SECOND_BLUE_SQUARE_WHILE_JUMPING,_THEN_BOUNCE_IT_ONE_LAST_TIME_AT_THE_THIRD_BLUE_SQUARE_WITH_YOUR_SHIELD_POINTING_DOWN_AND_JUMPING" children="" id="joni"
+GenericNPC 528 80 724250 has_dialogue=1 map-scene-pos="p,dj,260" always_scripted=0 context_int_csv="0,0" debug_name="OR_JUST_TURN_OFF_THE_GATES_LOL" children="" id="joni"
+FG2 START

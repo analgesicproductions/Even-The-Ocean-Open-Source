@@ -1,0 +1,16 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 192 800 534203
+Door 0 675 628726 index=6 AUTO_INDEX=6 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+Door 656 816 56587 index=8 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CITY" next_cam_offset="0,0"
+Door 256 624 123228 index=2 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_SHORE" next_cam_offset="0,0"
+Door 368 592 926231 index=0 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CANYON" next_cam_offset="0,0"
+Door 496 624 204893 index=2 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_HILL" next_cam_offset="0,0"
+Door 256 464 563778 index=1 AUTO_INDEX=11 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_RIVER" next_cam_offset="0,0"
+Door 496 464 818150 index=1 AUTO_INDEX=12 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_FOREST" next_cam_offset="0,0"
+Door 256 352 118523 index=2 AUTO_INDEX=13 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_PASS" next_cam_offset="0,0"
+Door 384 320 176912 index=1 AUTO_INDEX=14 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="NPC_CLIFF" next_cam_offset="0,0"
+SavePoint 368 464 781962
+GenericNPC 384 720 860476 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,29" debug_name="" children="" id="dev_info"
+FG2 START

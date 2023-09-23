@@ -1,0 +1,13 @@
+BBG START
+BG1 START
+BG2 START
+Door 784 272 868060 index=9 AUTO_INDEX=12 behavior=0 type=2 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE" next_cam_offset="0,0"
+Door 343 544 859244 index=1 AUTO_INDEX=11 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="STARFISH" next_cam_offset="0,0"
+Door 587 528 974378 index=18 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="STARFISH" next_cam_offset="0,0"
+Door 0 272 722979 index=9 AUTO_INDEX=9 behavior=0 type=2 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 96 512 982083
+GenericNPC 160 176 897512 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="s_3b_call_mayor"
+GenericNPC 176 160 627246 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_1_pile"
+GenericNPC 160 176 247699 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="g1_1_pile"
+GenericNPC 128 160 545494 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="nature_blocker"
+FG2 START

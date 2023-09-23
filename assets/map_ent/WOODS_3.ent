@@ -1,0 +1,22 @@
+BBG START
+GenericNPC 933 192 260853 has_dialogue=1 map-scene-pos="WOODS,LIBBOOK" always_scripted=0 context_int_csv="0,0" debug_name="BOOK1" children="" id="sign1"
+GenericNPC 942 395 413900 has_dialogue=1 map-scene-pos="WOODS,LIBBOOK2" always_scripted=0 context_int_csv="0,0" debug_name="BOOK1" children="" id="sign1"
+BG1 START
+BG2 START
+Door 16 80 383731 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODS_2" next_cam_offset="0,0"
+Door 1888 128 162588 index=1 AUTO_INDEX=1 behavior=0 type=2 script="TOOL/DOORS/SM.HX" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WOODS_G1" next_cam_offset="0,0"
+GenericNPC 1856 256 767463 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="SDFGOIJ" children="" id="gauntletblocker"
+Elevator 736 432 211760 vis-dmg="0,0" has_console=1 is_basin=0 rise_height=13 override_anim_prefix="" door_info="none" rise_vel=120 starts_at_top=0 children=""
+NewCamTrig 560 400 880952 hor_leveler_px_up=64 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=24 tile_h=9
+NewCamTrig 608 176 828279 hor_leveler_px_up=96 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=17 tile_h=7
+NewCamTrig 1472 272 222191 hor_leveler_px_up=64 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=21 tile_h=8
+GenericNPC 592 192 67542 has_dialogue=1 map-scene-pos="WOODS,KAKI,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="kaki"
+GenericNPC 848 400 894938 has_dialogue=1 map-scene-pos="WOODS,WES,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="wes"
+SavePoint 1696 368 195460
+TrainTrigger 635 245 427052 event_id="none" id=1
+FG2 START
+SetPiece 128 224 17414 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1248 256 989745 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1392 240 305882 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 656 64 208037 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+TrainTrigger 512 80 224861 event_id="none" id=0

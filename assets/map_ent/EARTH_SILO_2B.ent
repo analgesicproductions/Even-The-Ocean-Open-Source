@@ -1,0 +1,78 @@
+BBG START
+BG1 START
+BG2 START
+MovePod 352 496 151124 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=2 touch_dmg=24 move_vel=50 min_max="80,64"
+MovePod 345 560 323317 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max="32,32"
+SapPad 224 448 312179 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="710982,569188"
+SapPad 464 448 109478 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="18804,165508"
+RaiseWall 336 384 18804 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=3 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+RaiseWall 336 352 710982 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=1 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+Pod 464 560 199873 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 576 526110 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 848 272 531759 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1," behavior=1 dir=0 touch_dmg=24 move_vel=50 min_max="48,48"
+MovePod 1024 272 543633 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1," behavior=1 dir=0 touch_dmg=24 move_vel=50 min_max="48,48"
+MovePod 1072 288 949105 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max="32,32"
+MovePod 1360 288 894495 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1," behavior=1 dir=0 touch_dmg=24 move_vel=50 min_max="96,0"
+MovePod 1392 192 951380 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1," behavior=1 dir=0 touch_dmg=24 move_vel=50 min_max="0,96"
+MovePod 1328 272 604636 launch_vel=300 tm_reset=0.5 launch_dir=1 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 1248 368 150033 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 1840 640 355005 launch_vel=300 tm_reset=0.5 launch_dir=1 vis-dmg="1,1," behavior=1 dir=0 touch_dmg=24 move_vel=50 min_max="32,32"
+MovePod 1776 704 284268 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+Pod 1872 720 653044 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1872 704 451195 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 1616 784 715505 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=3 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+SapPad 1744 864 296183 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="715505,196376"
+MovePod 2048 592 129750 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2048 576 986214 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2048 512 431817 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2016 608 265171 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2048 496 158921 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2144 608 982870 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2160 608 27264 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2176 704 464609 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2192 704 985366 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2144 800 67271 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 2160 800 691102 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+Pod 1840 848 589498 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1904 848 907858 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1968 848 69867 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 1312 720 940151 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=1 dir=2 touch_dmg=24 move_vel=50 min_max="16,32"
+MovePod 1152 720 402006 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=24 move_vel=50 min_max="16,32"
+MovePod 1232 752 935971 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1," behavior=1 dir=2 touch_dmg=24 move_vel=50 min_max="16,32"
+RaiseWall 1616 880 724848 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+SapPad 1520 912 224049 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="724848,676117"
+Pod 1072 976 729412 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1056 976 595485 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1088 976 624487 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1200 976 843630 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1216 976 106163 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1232 976 554724 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 1152 976 806790 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 1152 912 935391 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 1296 960 747216 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 1312 896 708875 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+Pod 1360 864 776229 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1376 864 238332 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+MovePod 992 848 966110 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 992 752 999764 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 544 272 364131 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 544 240 220971 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 544 208 358226 launch_vel=300 tm_reset=0.5 launch_dir=6 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max=1
+MovePod 544 352 581694 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max="32,32"
+SavePoint 112 592 956304
+MovePod 320 256 845054 launch_vel=300 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=24 move_vel=50 min_max="32,32"
+Pod 352 192 616297 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 192 649885 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 1680 704 906183
+Door 0 352 934287 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="EARTH_SILO_1B" next_cam_offset="0,0"
+GenericNPC 1616 1040 121407 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv="0,0" debug_name="BOMB_EARTH" children="" id="old_bomb_holder"
+NewCamTrig 0 144 932249 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=44 tile_h=33
+NewCamTrig 704 144 107556 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=63 tile_h=21
+NewCamTrig 912 480 628757 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=84 tile_h=41
+WirePoint 1744 880 196376 pos="0,16,-64,16,-64,-96,-96,-96" vistype=0 forceTargetDir=3 children="715505"
+WirePoint 1520 928 676117 pos="0,16,48,16,48,-48,80,-48" vistype=0 forceTargetDir=-1 children="724848"
+EdgeDoor 1584 688 553380 is_wide=0 vistype=0 only_open_dir=3
+SetPiece 64 544 531364 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START
+WirePoint 464 464 165508 pos="0,16,32,16,32,-80,-96,-80" vistype=0 forceTargetDir=3 children="18804"
+WirePoint 224 464 569188 pos="0,16,-32,16,-32,-112,96,-112" vistype=0 forceTargetDir=1 children="710982"

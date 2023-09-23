@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+WallBouncer 0 160 424116 dmg=0 climb_vel=60 extend_vel=200 push_ticks=10 extend_distance=6 retract_vel=5 vis-dmg="0,0" tm_wait=0.5 push_vel=250
+WallBouncer 160 112 264708 dmg=0 climb_vel=60 extend_vel=200 push_ticks=10 extend_distance=6 retract_vel=5 vis-dmg="0,0" tm_wait=0.5 push_vel=250
+Door 224 192 285750 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_3" index=9 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

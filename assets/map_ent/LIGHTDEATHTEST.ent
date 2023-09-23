@@ -1,0 +1,5 @@
+BBG START
+BG1 START
+BG2 START
+NewCamTrig 0 0 975637 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+FG2 START

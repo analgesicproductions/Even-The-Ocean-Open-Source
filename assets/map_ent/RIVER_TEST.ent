@@ -1,0 +1,195 @@
+BBG START
+BG1 START
+BG2 START
+ExtendStem 96 592 610255 angle=338 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 240 448 924350 angle=180 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+Pew 128 368 670149 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1
+Pew 208 368 624145 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1
+Pod 224 336 657311 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 272 320 247248 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+ExtendStem 16 240 804025 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+RaiseWall 288 160 801132 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 96 192 659688 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=1
+Button 224 176 304985 children="801132,659688" t_wait=0 vistype=1 damage=1
+ExtendStem 64 768 364722 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=17 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 384 1072 575536 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 208 1104 459029 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=55 deaccel=150
+HurtOutlet 128 640 605721 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+HurtOutlet 256 640 357485 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+HurtOutlet 192 640 669877 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+ExtendStem 96 1408 411859 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 256 1328 439017 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 384 1360 484898 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 48 1232 771170 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=80 deaccel=150
+Cauliflower 64 1504 250008 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 128 1504 805395 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+Cauliflower 16 1456 704379 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+ExtendStem 560 1248 81742 angle=24 accel=70 return_vel=35 tm_hurt=0.1 tile_width=8 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1088 1376 125699 angle=335 accel=70 return_vel=35 tm_hurt=0.1 tile_width=8 vis-dmg="2,2" vel=55 deaccel=150
+RubberLaser 1936 544 612818 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=1 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 1936 368 136042 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=1 vtype=0 tinact=2 sbouncev=-180
+ExtendStem 512 1152 56038 angle=270 accel=120 return_vel=35 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=70 deaccel=150
+Cauliflower 656 880 378963 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 656 816 2637 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 656 752 918189 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 656 944 865793 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 656 1008 119565 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+RubberLaser 800 976 945260 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=1 vtype=0 tinact=1.5 sbouncev=-180
+Cauliflower 816 944 19806 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+Cauliflower 816 880 34935 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+Cauliflower 816 816 296362 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+Cauliflower 816 752 298647 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+RubberLaser 816 848 208761 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=1 vtype=0 tinact=1.5 sbouncev=-180
+ExtendStem 688 64 409691 angle=135 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 832 96 235062 angle=135 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 976 128 315333 angle=135 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+Pew 640 80 235936 bspd=80 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=5 fint=1
+Pew 1104 112 698661 bspd=80 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=5 fint=1
+ExtendStem 752 464 725674 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=55 deaccel=150
+Pew 800 448 435726 bspd=120 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="0,0,0,0,0,1,1,1" white_no_dmg=0 vistype=1 mb=3 fint=0.25
+Pew 1280 448 841087 bspd=120 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1,1,0,0,0,0,0" white_no_dmg=0 vistype=1 mb=3 fint=0.24
+ExtendStem 1184 752 136353 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+RubberLaser 1040 688 726812 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=0.6 vtype=0 tinact=3.1 sbouncev=-180
+ExtendStem 1056 752 730809 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1296 752 599444 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+RubberLaser 1360 768 508757 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=0.6 vtype=1 tinact=3.1 sbouncev=-180
+ExtendStem 1200 1008 20229 angle=180 accel=70 return_vel=14 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=55 deaccel=50
+Cauliflower 1280 208 966432 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+ExtendStem 1216 240 247646 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=55 deaccel=150
+Cauliflower 1424 208 669771 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 1280 144 868637 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 1376 128 474591 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+Cauliflower 1472 112 143075 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0.06 vistype=1 tm_shoot=10 nr_stalks=3
+ExtendStem 1712 48 236723 angle=90 accel=70 return_vel=35 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=55 deaccel=150
+Spike 1776 96 675550 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 1776 160 549386 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 dmgtype=0
+Spike 1776 240 578681 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Pew 1728 16 497027 bspd=80 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pew 1760 368 182482 bspd=80 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="2,2" white_no_dmg=0 vistype=1 mb=2 fint=0.7
+Pew 1760 16 682793 bspd=80 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="0,0,0,0,1,1,1,1" white_no_dmg=0 vistype=1 mb=2 fint=0.7
+RubberLaser 576 976 263846 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=1 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 576 800 176193 damage=16 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=1 vtype=0 tinact=2 sbouncev=-180
+ExtendStem 1872 304 907405 angle=90 accel=70 return_vel=35 tm_hurt=0.1 tile_width=5 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1680 512 465757 angle=90 accel=70 return_vel=35 tm_hurt=0.1 tile_width=7 vis-dmg="2,2" vel=90 deaccel=150
+LaunchBug 1648 672 259049 bul_dmg=20 is_left=1 bul_nVelFreq="0,100,0.2" ishor=1 is_up=0 tm_hurt=0.02 vistype=1 y_vel=150 x_vel=50 launch_vel=150
+ExtendStem 1824 864 218342 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+Spike 1840 800 267154 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 1856 800 405110 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+ExtendStem 1968 864 236930 angle=225 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+Pod 1696 432 855725 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1744 432 918776 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1664 960 628065 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1728 960 320677 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+ExtendStem 2080 288 645018 angle=315 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2096 160 529462 angle=338 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2208 96 19839 angle=160 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+HurtOutlet 2224 288 2588 dmg=24 init_wait=0 tm_off=0.5 vistype=0 tm_on=0.5 dmgtype=0
+HurtOutlet 2144 304 78690 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+ExtendStem 2320 368 585392 angle=270 accel=55 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=40 deaccel=150
+ExtendStem 2624 576 985587 angle=292 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2752 512 846387 angle=180 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2512 464 84956 angle=315 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+WalkPod 2288 288 126368 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2400 288 709441 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2320 224 836195 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+WalkPod 2368 224 314966 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+WalkPod 2304 144 636604 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2352 144 449139 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2416 144 381899 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2288 96 507491 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2304 96 688725 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 2416 64 478191 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+WalkPod 2432 64 93966 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+ExtendStem 2704 144 711780 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=55 deaccel=100
+ExtendStem 1696 1136 858451 angle=180 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1792 1136 921426 angle=180 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1888 1136 294211 angle=180 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1984 1136 678097 angle=180 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+Pew 1760 1040 983562 bspd=150 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=1 fint=0.7
+Pew 1870 1041 426597 bspd=220 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=1 fint=0.7
+Pew 1968 1040 376154 bspd=200 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=2 fint=0.7
+Pew 1872 1248 566468 bspd=220 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=1 fint=0.7
+RubberLaser 2080 1232 276618 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+Weed 1680 1184 865333 dir=0 vistype=0
+Weed 1696 1184 105977 dir=0 vistype=0
+HurtOutlet 3056 208 422223 dmg=24 init_wait=0 tm_off=1.5 vistype=0 tm_on=0.5 dmgtype=0
+HurtOutlet 3104 160 261532 dmg=24 init_wait=0 tm_off=1.5 vistype=0 tm_on=0.5 dmgtype=0
+PlantBlock 3008 272 323004 behavior=1 dir=0 vis-dmg="1,1" float_dis=24
+ExtendStem 3072 272 516958 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+HurtOutlet 3056 96 894981 dmg=24 init_wait=0 tm_off=1.5 vistype=0 tm_on=0.5 dmgtype=0
+Pod 2960 400 690274 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3040 400 952878 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3040 336 287650 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2960 336 417675 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+PlantBlock 2864 416 396399 behavior=1 dir=0 vis-dmg="1,1" float_dis=24
+ExtendStem 2912 384 162691 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+PlantBlockAccepter 3168 416 295153 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+ExtendStem 2528 768 818045 angle=90 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2576 768 765494 angle=90 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+RaiseWall 2624 688 471690 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 2496 880 757984 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 2608 864 456907 children="471690,757984" t_wait=0.5 vistype=1 damage=1
+Button 2544 864 425467 children="757984,471690" t_wait=0.5 vistype=0 damage=1
+ExtendStem 2784 832 697879 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+RaiseWall 2848 848 379560 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 2736 736 622567 children="379560" t_wait=0.5 vistype=1 damage=1
+Pew 2864 640 504947 bspd=80 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=1 fint=0.7
+OrbSlot 2864 816 967976 children="379560" transmit_en=16 vis=1 needed_en=0
+ExtendStem 2176 960 524141 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=55 deaccel=150
+RaiseWall 2272 912 555773 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 2160 1024 580850 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 2192 1008 664725 children="580850,555773" t_wait=0.5 vistype=0 damage=1
+Button 2241 1007 209385 children="555773,580850" t_wait=0.5 vistype=1 damage=1
+ExtendStem 3040 768 653273 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 3040 704 149153 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 3040 641 159360 angle=330 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+BarbedWire 3024 880 934652 children="286902" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 3120 880 286902 children="759092" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 2960 1024 360984 children="41145" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 3056 1024 41145 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 3120 960 759092 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+ExtendStem 2928 1008 607003 angle=330 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2592 1056 728980 angle=180 accel=50 return_vel=35 tm_hurt=0.1 tile_width=7 vis-dmg="2,2" vel=35 deaccel=150
+RaiseWall 2736 1056 350058 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 2608 1104 349891 children="350058,905759" t_wait=0 vistype=1 damage=1
+LaunchBug 2544 1072 737712 bul_dmg=20 is_left=0 bul_nVelFreq="0,100,0.2" ishor=0 is_up=0 tm_hurt=0.02 vistype=1 y_vel=50 x_vel=150 launch_vel=200
+Pod 2416 1056 68377 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2432 1056 490788 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2720 720 698946 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2720 672 558384 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2992 816 902055 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3024 816 830150 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2496 704 612437 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2512 704 923149 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2704 592 644931 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2736 592 346259 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 3024 224 510299 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2992 224 368993 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2576 64 950122 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2592 64 129937 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 2896 944 483869 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2912 944 668366 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+ExtendStem 2608 1216 643381 angle=315 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2272 1296 916684 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 2384 1296 572816 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+Pod 2272 1152 140425 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2384 1152 630290 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2400 1152 88185 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2288 1152 348015 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2368 1376 44005 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+RaiseWall 2560 1088 905759 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=3 vistype=1 s_open=0 needed_en=1
+ExtendStem 1680 1536 259231 angle=338 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+Pew 2096 1520 841070 bspd=180 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="2,2,0,0,0,0,0,0,0,0" white_no_dmg=0 vistype=1 mb=4 fint=0.2
+Pew 1648 1424 346854 bspd=180 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="1,1,0,0,0,0,0,0,0,0" white_no_dmg=0 vistype=1 mb=4 fint=0.2
+PlantBlock 1648 1584 60872 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 2112 1360 455709 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+ExtendStem 3136 1328 316956 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 3424 1248 572901 angle=315 accel=70 return_vel=35 tm_hurt=0.1 tile_width=2 vis-dmg="2,2" vel=55 deaccel=150
+PlantBlockAccepter 3536 1136 228231 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 2944 1456 857681 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+Pew 3200 1200 586761 bspd=99 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=2 fint=1.2
+Pew 3024 1200 638519 bspd=99 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=2 fint=1.2
+Pew 3344 1072 501629 bspd=99 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=2 fint=1.2
+Pew 3488 1072 196102 bspd=99 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=3 fint=1.2
+Door 576 592 684664 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_6" index=9 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

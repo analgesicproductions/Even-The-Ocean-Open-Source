@@ -1,0 +1,41 @@
+BBG START
+BG1 START
+BG2 START
+NewWaterShooter 224 1216 932312 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+Pod 112 1248 244029 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 1328 196535 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Floater 576 1264 133853 min_launch=-260 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 544 1216 552544 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 576 1136 322746 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Pod 1312 1056 462507 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1360 1056 749120 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Floater 912 1216 21073 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+NewWaterShooter 1072 1216 926036 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+NewWaterShooter 1168 1184 829937 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+Floater 1360 1184 539093 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 1408 1152 62323 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+NewWaterShooter 1392 976 231719 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+Floater 1232 912 665977 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 1168 896 556313 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 1104 864 950639 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+NewWaterShooter 944 896 78280 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+NewWaterShooter 832 800 968181 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+Floater 272 560 221516 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 848 544 846029 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 896 480 392651 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+NewWaterShooter 464 512 796016 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+NewWaterShooter 784 368 775139 tile_height=5 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+SavePoint 128 592 775398 autosaves=0
+GenericNPC 224 576 480486 has_dialogue=1 map-scene-pos="CITY,WF_JS,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_trunks"
+GenericNPC 768 576 758106 has_dialogue=1 map-scene-pos="CITY,WF_JS,3" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_pollen"
+GenericNPC 368 544 90791 has_dialogue=1 map-scene-pos="CITY,WF_JS,1" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_roots"
+GenericNPC 544 576 204964 has_dialogue=1 map-scene-pos="CITY,WF_JS,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_dahlia"
+GenericNPC 960 307 331289 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="junk_animal"
+TrainTrigger 641 192 932105 event_id="none" id=0
+BarbedWire 574 298 558724 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="600976" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1024 208 952436 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+NewCamTrig 0 176 26873 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=69 tile_h=31
+BarbedWire 624 320 600976 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="783548" wire_tile_width=3 is_gauntlet=1
+BarbedWire 674 295 783548 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BarbedWire 976 192 262303 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="952436" wire_tile_width=3 is_gauntlet=1
+FG2 START

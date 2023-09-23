@@ -1,0 +1,38 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 128 704 966447 has_dialogue=1 map-scene-pos="FOREST,ALIPH_LIFT,0" always_scripted=0 context_int_csv="0,0" debug_name="LIFT" children="" id="sign1"
+GenericNPC 192 704 360063 has_dialogue=1 map-scene-pos="FOREST,VALE_2" always_scripted=0 context_int_csv="0,0" debug_name="VALE" children="" id="sign1"
+GenericNPC 512 608 696167 has_dialogue=1 map-scene-pos="FOREST,CONSTANZA,0" always_scripted=0 context_int_csv="0,0" debug_name="CONSTANZA" children="" id="constanza"
+GenericNPC 560 608 313369 has_dialogue=1 map-scene-pos="FOREST,NEIGHBORS,0" always_scripted=0 context_int_csv="0,0" debug_name="NEIGHBORS" children="" id="carl"
+GenericNPC 64 640 440121 has_dialogue=1 map-scene-pos="FOREST,TRACY,0" always_scripted=0 context_int_csv="0,0" debug_name="TRACY" children="" id="sign1"
+GenericNPC 336 656 854845 has_dialogue=1 map-scene-pos="FOREST,DIARY,0" always_scripted=0 context_int_csv="0,0" debug_name="DIARY" children="" id="sign1"
+GenericNPC 544 48 274295 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="DOLLY_LIFT" children="" id="dolly_lift"
+Door 288 704 921447 index=0 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="NPC_FOREST" next_cam_offset="0,0"
+GenericNPC 64 704 55648 has_dialogue=1 map-scene-pos="FOREST,EDITH" always_scripted=0 context_int_csv="0,0" debug_name="EDITH" children="" id="edith"
+GenericNPC 288 512 568189 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENTER_TOWN" children="" id="forest_enter_scene"
+SongTrigger 224 496 413476 name="CANYONIN"
+RaiseWall 320 432 16635 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+VanishBlock 432 448 717876 perma_open=1 vistype=0 init_state=0 zero_for_vis=0 needed_en=1 s_en=0 s_open=0 single_ticks=0 ignore_init_msg=0
+VanishBlock 384 448 133863 perma_open=1 vistype=0 init_state=0 zero_for_vis=0 needed_en=1 s_en=1 s_open=1 single_ticks=0 ignore_init_msg=0
+BubbleSpawner 144 464 460884 vistype=0 bubble_type=0
+BubbleSpawner 224 464 911033 vistype=1 bubble_type=1
+BubbleSwitch 272 464 981843 ghost_maxvel=150 ghost_radius=64 behave_type=2 vistype=2 ghost_pull_strength=60 children="0" ghost_on=0
+SquishyChaser 336 448 551306 bounce_mul=1.4 vis-dmg="1,1" dmg_amt=32 chasevel=150 tm_allow_damage=1.5
+Floater 144 416 728315 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="0,0" rise_vel=20
+Floater 96 384 602500 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Pod 80 352 161824 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 160 352 613137 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 352 569003 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SmashHand 576 272 965740 tm_pause=0.75 accel=300 vis-dmg="1,1" vel_follow=50 tm_wait=0.5 aggro_dims="200,200" dir=1 init_vel=25 dmg=64 tm_follow=1.1 tm_ground_wait=2
+BubbleSpawner 528 368 600609 vistype=0 bubble_type=0
+Door 704 656 593328 index=12 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="OLD_5" next_cam_offset="0,0"
+GenericNPC 528 656 570986 has_dialogue=1 map-scene-pos="FOREST,SARA" always_scripted=0 context_int_csv="0,0" debug_name="SARA" children="" id="sara"
+RaiseWall 528 816 354042 energy=1 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=1 needed_en=1 permanent_open=0 s_open=1 children=""
+Elevator 624 80 938876 vis-dmg="1,1" has_console=1 is_basin=1 rise_height=8 override_anim_prefix="" door_info="none" rise_vel=60 starts_at_top=1 children=""
+BubbleSpawner 688 64 276800 vistype=0 bubble_type=0
+SpikeExtend 352 352 922675 tm_dmg=0.05 vel_extend=250 tm_wait_at_ends=0.7 dir=0 accel_extend=800 vis-dmg="0,0" dmg=48 vel_retract=50
+SpikeExtend 384 192 916615 tm_dmg=0.05 vel_extend=250 tm_wait_at_ends=0.7 dir=3 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=300
+SpikeExtend 352 224 347682 tm_dmg=0.05 vel_extend=250 tm_wait_at_ends=0.7 dir=2 accel_extend=800 vis-dmg="0,0" dmg=48 vel_retract=50
+SpikeExtend 288 192 826026 tm_dmg=0.05 vel_extend=250 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=300
+FG2 START

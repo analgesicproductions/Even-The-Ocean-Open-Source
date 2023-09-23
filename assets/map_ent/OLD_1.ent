@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 448 848 933981
+Door 0 611 729066 index=3 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+Door 288 784 872081 index=9 AUTO_INDEX=4 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="INTRO_DEMO" next_cam_offset="0,0"
+Door 656 800 992110 index=3 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MOTION_DEMO_1" next_cam_offset="0,0"
+Door 336 720 9074 index=10 AUTO_INDEX=6 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="DEMO_1_1" next_cam_offset="0,0"
+GenericNPC 384 832 778378 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,25" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,59 @@
+BBG START
+BG1 START
+WirePoint 1456 80 567601 children="10616" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 1456 448 10616 children="208193" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+BG2 START
+Floater 1040 608 835866 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+FollowLaser 1072 512 478293 accel=0 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=50 tracked_axis="x" fixed_angle=90
+Floater 1088 608 849498 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 1136 608 332702 base_dmg=32 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+Floater 2016 352 468518 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 1968 288 82265 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 2048 272 420639 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 1312 288 354227 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 1360 368 408990 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 1376 288 878997 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 1392 176 353649 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 1232 144 251689 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+Floater 1264 224 12666 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 1324 134 320986 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="0,0" rise_vel=20
+Floater 1296 416 772117 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+RaiseWall 1456 464 208193 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+Button 1296 48 846284 children="208193,501566" t_wait=1.5 vistype=1 damage=1
+Floater 736 480 519863 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 816 480 734426 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 784 432 802578 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=100
+Floater 1536 384 27235 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1584 384 541758 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1632 384 669375 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1680 384 725549 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1568 432 292628 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=100
+Floater 1648 432 348820 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=100
+Floater 1744 384 683497 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 1808 384 537390 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=100
+Floater 464 432 929700 base_dmg=20 min_launch=-150 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Floater 560 432 138438 base_dmg=20 min_launch=-150 launch_mul=1.35 vis-dmg="1,1" rise_vel=15
+Pew 176 416 761898 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="1,2" vistype=1 mb=4 fint=0.7
+Checkpoint 32 544 4159 gauntlet_id=0 vistype=0 leg_id=4
+Door 0 544 444368 AUTO_INDEX=0 behavior=0 dest_x=-1 dest_map="SHORE_G4" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+GenericNPC 2304 368 422491 always_scripted=1 debug_name="LOPEZ" context_int_csv="0,0" children="758268" map-scene-pos="" id="paxlopez_g1" has_dialogue=0
+BarbedWire 2288 320 758268 children="989607" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=1 wire_tile_width=3 vistype=0
+BarbedWire 2288 400 989607 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+Button 2144 384 215856 children="758268,422491" t_wait=0 vistype=1 damage=1
+Door 2176 368 563684 AUTO_INDEX=1 behavior=1 dest_x=1 dest_map="SHORE_B" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+WirePoint 1296 80 501566 children="567601" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+Pod 1296 480 467296 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1360 480 606389 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Floater 2000 224 135001 base_dmg=15 min_launch=-250 launch_mul=1.2 vis-dmg="1,1" rise_vel=20
+WalkPod 240 528 370671 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=0
+WalkPod 288 528 748357 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 496 480 997795 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 512 480 668703 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+WalkPod 528 480 772427 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=0
+Pod 1552 528 722281 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1616 528 424788 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1696 528 367114 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1760 528 284248 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1952 384 424899 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2096 368 29528 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+FG2 START

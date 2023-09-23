@@ -1,0 +1,26 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 480 796588 index=3 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_PATH" next_cam_offset="0,0"
+Door 624 288 165497 index=-1 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=28 dest_y=551 s_visited=1 custom_size="0,0" dest_map="WOODS_COURTYARD" next_cam_offset="0,0"
+Door 215 768 883765 index=3 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="WOODS_G1_1" next_cam_offset="0,0"
+Door 367 2 697618 index=0 AUTO_INDEX=9 behavior=0 type=3 script="" dest_x=0 dest_y=-5 s_visited=1 custom_size="0,0" dest_map="WOODS_TOWER" next_cam_offset="0,0"
+WaterShooter 208 592 19693 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-300
+WaterShooter 313 592 234897 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-360
+Pod 304 400 640535 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 480 395773 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 336 432 293500 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 336 528 717908 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 464 363905 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 448 783290 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 576 560 866726
+Pod 416 736 183130 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 736 345661 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 432 160 714883 index=1 AUTO_INDEX=11 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_CORE" next_cam_offset="0,0"
+EdgeDoor 432 16 718477 is_wide=1 vistype=0 only_open_dir=-1
+EdgeDoor 208 752 231083 is_wide=1 vistype=0 only_open_dir=-1
+EdgeDoor 32 480 785275 is_wide=0 vistype=0 only_open_dir=-1
+EdgeDoor 528 544 63516 is_wide=0 vistype=0 only_open_dir=-1
+Door 624 6 517240 index=-1 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=28 dest_y=551 s_visited=1 custom_size="0,0" dest_map="WOODS_COURTYARD" next_cam_offset="0,0"
+GenericNPC 96 480 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,77" debug_name="" children="" id="dev_info"
+FG2 START

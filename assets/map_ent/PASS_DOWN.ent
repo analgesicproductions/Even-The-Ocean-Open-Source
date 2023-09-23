@@ -1,0 +1,14 @@
+BBG START
+BG1 START
+BG2 START
+Door 2384 2016 551246 index=8 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+SavePoint 2352 2256 533983
+Pod 2304 2224 982533 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2320 2240 731113 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2272 2192 799602 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2288 2208 651018 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RevolveSpore 1040 704 320117 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1136 688 823396 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1168 736 351042 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Door 0 0 762525 index=1 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_RIVERSIDE" next_cam_offset="0,0"
+FG2 START

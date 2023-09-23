@@ -1,0 +1,40 @@
+BBG START
+BG1 START
+BG2 START
+GhostLight 112 272 268275 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 64 272 309618 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+PlantBlockAccepter 288 32 903829 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 16 288 764996 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+PlantBlock 336 272 183800 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 1040 240 990466 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+GhostLight 504 247 580029 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+Spike 96 496 551944 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 112 496 713436 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 160 432 199732 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 176 432 670147 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 240 496 357085 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 256 496 404640 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+SinkPlatform 96 448 929779 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+PlantBlockAccepter 368 400 941129 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 32 576 893311 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+GhostLight 219 1008 65338 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 124 1002 492751 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+PlantBlockAccepter 336 688 1335 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 48 1024 940777 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+PlantBlockAccepter 240 1120 226620 behavior=2 init_state=0 vis-dmg="0,0" s_on=0 children=""
+PlantBlock 48 1520 288097 behavior=2 dir=0 vis-dmg="0,0" float_dis=32
+SinkPlatform 96 1408 951611 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+Pod 80 1392 294177 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1488 294998 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1376 823309 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 176 1296 628106 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 176 1280 621945 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1216 975643 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1200 538548 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1184 118984 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SinkPlatform 96 1280 293716 return_rate=14.5 returns_home=1 yvel=30 xvel=37
+Pod 48 1280 845754 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 80 1216 887970 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 48 1120 430620 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Door 0 256 741564 AUTO_INDEX=0 behavior=1 dest_x=-1 dest_map="OLD_6" index=12 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

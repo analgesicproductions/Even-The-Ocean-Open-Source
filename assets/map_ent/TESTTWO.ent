@@ -1,0 +1,159 @@
+BBG START
+BG1 START
+Pew 379 583 73830 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pew 447 588 842510 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+BG2 START
+Door 432 128 950786 AUTO_INDEX=1 behavior=1 dest_x=0 dest_map="TEST" index=-1 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+FollowLaser 141 194 978828 accel=0 dmgtype=0 axis_tracks_player=1 angvel=200 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+SavePoint 224 272 141811
+EnergyGate 512 160 122991 vistype=2
+GenericNPC 78 285 255781 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="sign1" has_dialogue=1
+Pod 128 16 162923 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pew 368 256 772060 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pod 175 188 330910 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 193 264 335963 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 86 265 340420 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 126 301 409122 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 175 299 763531 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 106 202 25287 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Wind 496 528 668178 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=64 speed=90
+Pod 412 650 82495 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+SavePoint 376 623 568580
+BubbleSwitch 304 80 428458 behave_type=2 vistype=0 children="245553,651897,968306"
+RaiseWall 288 32 245553 children="" energy=0 is_wide=0 init_state=-1 permanent_open=0 raise_distance=16 raise_dir=0 vistype=0 s_open=0 needed_en=64
+BubbleSwitch 352 80 605780 behave_type=2 vistype=1 children="245553,651897,968306"
+RaiseWall 320 112 651897 children="" energy=0 is_wide=0 init_state=-1 permanent_open=0 raise_distance=16 raise_dir=0 vistype=1 s_open=0 needed_en=64
+SavePoint 416 32 750459
+Pew 513 244 17026 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+BubbleSpawner 448 322 983813 bubble_type=0 vistype=0
+SapPad 502 79 264989 children="968306" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 448 80 968306 children="62768" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+Spike 640 128 933088 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.05 dmgtype=0
+Spike 656 128 371440 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.05 dmgtype=0
+Spike 640 64 543601 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.05 dmgtype=0
+Spike 688 96 746713 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.05 dmgtype=0
+SinkPlatform 364 34 177420 return_rate=0.5 returns_home=1 yvel=30 xvel=37
+BubbleSpawner 482 477 922324 bubble_type=0 vistype=0
+Weed 560 464 148241 dir=0 vistype=1
+Weed 592 464 325417 dir=0 vistype=0
+BubbleSpawner 560 384 664713 bubble_type=1 vistype=1
+RaiseWall 400 256 432543 children="" energy=0 is_wide=0 init_state=-1 permanent_open=0 raise_distance=16 raise_dir=0 vistype=0 s_open=0 needed_en=64
+Checkpoint 432 304 501652 gauntlet_id=-1 vistype=0 leg_id=-1
+Checkpoint 416 192 780143 gauntlet_id=-1 vistype=0 leg_id=-1
+Checkpoint 720 320 811853 gauntlet_id=0 vistype=0 leg_id=0
+Checkpoint 672 288 953607 gauntlet_id=0 vistype=0 leg_id=1
+Checkpoint 608 288 953745 gauntlet_id=0 vistype=0 leg_id=2
+Checkpoint 560 288 6414 gauntlet_id=0 vistype=0 leg_id=3
+Pod 400 464 535061 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 448 416 756919 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+SavePoint 736 448 144290
+LaunchBug 416 688 266005 bul_dmg=20 is_left=0 bul_nVelFreq="0,100,0.2" ishor=0 is_up=0 tm_hurt=0.02 vistype=0 y_vel=50 x_vel=50 launch_vel=100
+LaunchBug 816 608 889488 bul_dmg=20 is_left=0 bul_nVelFreq="0,100,0.2" ishor=0 is_up=0 tm_hurt=0.02 vistype=0 y_vel=50 x_vel=50 launch_vel=300
+LaunchBug 800 640 370992 bul_dmg=20 is_left=0 bul_nVelFreq="0,100,0.2" ishor=0 is_up=0 tm_hurt=0.02 vistype=0 y_vel=50 x_vel=200 launch_vel=250
+SapPad 256 656 280383 children="417035,281095" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 224 656 884554 children="417035,281095" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 272 528 417035 children="" energy=64 is_wide=0 init_state=-1 permanent_open=0 raise_distance=16 raise_dir=1 vistype=0 s_open=1 needed_en=64
+Wind 192 656 566756 angle=0 global=0 en_align=-1 invis=0 req_energy=1 h=16 w=16 speed=50
+BubbleSwitch 800 320 405313 "=0 behave_type=2 vistype=2 children="11036,365026,124404""
+BubbleSwitch 928 352 880571 "=0 behave_type=2 vistype=1 children="365026,11036""
+BubbleSwitch 896 352 736639 "=0 behave_type=2 vistype=2 children="11036,365026""
+BubbleSpawner 816 336 822452 bubble_type=1 vistype=1
+BubbleSpawner 800 288 621458 bubble_type=0 vistype=0
+RaiseWall 816 400 11036 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=16 raise_dir=0 vistype=1 s_open=0 needed_en=64
+RaiseWall 928 240 365026 children="541894" energy=0 is_wide=0 init_state=-1 permanent_open=0 raise_distance=16 raise_dir=0 vistype=1 s_open=0 needed_en=64
+RaiseWall 656 240 921760 children="" energy=64 is_wide=0 init_state=1 permanent_open=1 raise_distance=16 raise_dir=0 vistype=0 s_open=1 needed_en=64
+Spike 528 96 490497 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 528 112 481120 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 528 80 995180 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 592 80 844227 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 592 96 967767 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 592 112 194314 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+BarbedWire 704 912 516522 children="431395" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=16
+Door 1088 624 258654 AUTO_INDEX=3 behavior=1 dest_x=685 dest_map="TEST" index=-1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=200
+RubberLaser 848 176 428351 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=10 vtype=0 tinact=0.1 sbouncev=-180
+Wind 960 226 541894 angle=270 global=0 en_align=-1 invis=0 req_energy=1 h=32 w=32 speed=50
+RaiseWall 224 544 281095 children="" energy=0 is_wide=0 init_state=-1 permanent_open=0 raise_distance=48 raise_dir=1 vistype=1 s_open=0 needed_en=64
+VanishBlock 688 240 124404 init_state=0 ignore_init_msg=0 s_en=0 perma_open=1 single_ticks=0 zero_for_vis=0 vistype=0 s_open=0 needed_en=32
+BubbleSpawner 864 528 17681 bubble_type=1 vistype=1
+Wind 592 240 849280 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=80 w=32 speed=100
+EdgeDoor 880 304 281813 is_wide=0 vistype=0 only_open_dir=-1
+EdgeDoor 848 288 320564 is_wide=1 vistype=0 only_open_dir=-1
+Checkpoint 970 605 851536 gauntlet_id="TZ"" vistype=0 leg_id=0
+Checkpoint 1035 607 437815 gauntlet_id="TZ"" vistype=0 leg_id=1
+Checkpoint 1057 590 478136 gauntlet_id="TZ"" vistype=0 leg_id=2
+Wind 1056 416 630979 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=16 speed=80
+GenericNPC 928 448 472901 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="deer" has_dialogue=0
+GenericNPC 880 448 173990 always_scripted=1 debug_name="" context_int_csv="50,50" children="" map-scene-pos="" id="fox" has_dialogue=0
+GenericNPC 960 336 63560 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="sloth" has_dialogue=0
+GenericNPC 912 416 337836 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="opossum" has_dialogue=0
+Cauliflower 896 64 985426 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 944 32 321692 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=0 tm_shoot=10 nr_stalks=3
+RaiseWall 944 768 617402 children="820800" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=2 vistype=0 s_open=1 needed_en=64
+Mole 1008 752 436868 init_dir=1 init_energy=64 turns_right=1 vel_bounds="25,75,25,75" max_energy=128
+Mole 1008 816 765683 init_dir=1 init_energy=64 turns_right=1 vel_bounds="25,75,25,75" max_energy=128
+SapPad 976 832 400724 "=0 dmg=1 children="617402" one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 1008 768 761523 "=0 dmg=1 children=""" one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+SapPad 880 736 878594 children="761523,496521" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 1008 896 298644 children="761523,496521" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 1008 832 496521 "=0 dmg=1 children=""" one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+RaiseWall 1056 736 741201 children="" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=2 vistype=0 s_open=0 needed_en=64
+RaiseWall 1089 775 447778 children="" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=2 vistype=0 s_open=0 needed_en=64
+RaiseWall 1040 784 718313 children="" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=2 vistype=0 s_open=0 needed_en=64
+RaiseWall 1072 816 102060 children="" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=2 vistype=0 s_open=0 needed_en=64
+Mole 1059 786 570648 init_dir=1 init_energy=64 turns_right=1 vel_bounds="25,75,25,75" max_energy=128
+BarbedWire 640 848 431395 children="254914,863995" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+BarbedWire 709 746 254914 children=0 dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+BarbedWire 592 768 863995 children="254914" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+SapPad 688 816 398102 children="516522" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 720 832 180747 children="516522" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+GenericNPC 848 848 152017 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="gardener" has_dialogue=0
+Door 928 864 915978 AUTO_INDEX=5 behavior=1 dest_x=972 dest_map="TESTTWO" index=-1 s_visited=1 next_cam_offset="-10,40" type=0 script="" dest_y=867
+Door 960 864 229824 AUTO_INDEX=7 behavior=1 dest_x=930 dest_map="TESTTWO" index=-1 s_visited=1 next_cam_offset="-10,-40" type=0 script="" dest_y=865
+MoleTile 816 864 688254 behavior=1 off=0 dir=0
+MoleTile 816 832 737343 behavior=0 off=0 dir=1
+MoleTile 880 832 820800 behavior=-1 off=0 dir=2
+MoleTile 880 864 167695 behavior=-1 off=0 dir=3
+SapPad 896 832 51890 "=0 dmg=1 children="617402" one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+BarbedWire 992 544 36597 children="273262,882967" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1056 528 273262 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 974 505 882967 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=1 start_state=1 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+SapPad 1008 656 238998 children="36597" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 1040 656 145021 children="36597,848253" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+BarbedWire 880 656 848253 children="218875" dmgtype=0 is_ring=0 is_gauntlet=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 907 638 218875 children=0 dmgtype=0 is_ring=0 is_gauntlet=0 s_save=2 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Door 144 0 154203 AUTO_INDEX=8 behavior=1 dest_x=-1 dest_map="TESTTWO" index=9 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 208 0 276967 AUTO_INDEX=9 behavior=1 dest_x=0 dest_map="TEST" index=-1 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+BubbleSpawner 192 32 774056 bubble_type=0 vistype=0
+SapPad 944 768 283792 "=0 dmg=1 children="617402" one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+Pew 256 928 561359 bspd=80 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pew 165 1004 358569 bspd=40 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Door 432 1024 97745 AUTO_INDEX=10 behavior=1 dest_x=0 dest_map="OLD_4" index=15 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+RevolveSpore 368 976 679539 base_vel=400 vis-dmg="0,0" hurt_ticks=5
+RaiseWall 288 832 64572 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+GenericNPC 336 864 585267 always_scripted=1 debug_name="" context_int_csv="0,0" children="64572" map-scene-pos="" id="vent" has_dialogue=0
+OrbSlot 384 864 259894 children="585267" transmit_en=16 vis=1 needed_en=0
+Pew 384 784 156735 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+ShoreSpore 416 832 973492 children="499686" vistype=0 energy=64
+RaiseWall 368 816 499686 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=3 vistype=0 s_open=0 needed_en=1
+LaunchBug 832 704 533525 bul_dmg=200 is_left=0 bul_nVelFreq="0,100,0.2" ishor=0 is_up=0 tm_hurt=0.02 vistype=0 y_vel=50 x_vel=200 launch_vel=250
+Broadcaster 544 720 997220 children="579547" vel=100 vis-dmg="0,0" timer=1
+Broadcaster 736 720 579547 children="" vel=100 vis-dmg="0,0" timer=-1
+Broadcaster 736 640 870286 children="579547" vel=100 vis-dmg="0,0" timer=-1
+Broadcaster 656 672 621146 children="997220" vel=100 vis-dmg="1,0" timer=-1
+Broadcaster 544 560 422239 children="" vel=100 vis-dmg="1,0" timer=-1
+Broadcaster 736 560 299520 children="870286" vel=100 vis-dmg="1,0" timer=-1
+TriggeredLaser 336 624 960727 dmg=64 angle=0 vis-dmg="0,0" shoot_vel=300
+Button 336 688 21720 children="960727" t_wait=1.5 vistype=0 damage=48
+ClimbSpore 512 960 170121 is_left=1 tm_shoot=2 vis-dmg="0,0" vel=70 tm_move=2.3
+ClimbSpore 560 960 735170 is_left=0 tm_shoot=2 vis-dmg="0,0" vel=70 tm_move=2.3
+ClimbSpore 592 992 541393 is_left=1 tm_shoot=2 vis-dmg="0,0" vel=70 tm_move=2.3
+ClimbSpore 656 992 114299 is_left=0 tm_shoot=2 vis-dmg="0,0" vel=70 tm_move=2.3
+SapPad 464 48 62768 children="" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+Floater 352 224 448490 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="0,0" rise_vel=20
+AliphItem 656 432 908497 id=4 vis_set=0 removes=0
+AliphItem 128 736 401823 id=1 vis_set=0 removes=0
+AliphItem 160 736 15612 id=2 vis_set=0 removes=0
+SavePoint 400 1024 139721
+FG2 START
+TileFader 64 592 721186 data="0,0,1,1,2,2,3,3"""
+StickySlime 720 208 943778 vistype=0 init_wall_dir=0

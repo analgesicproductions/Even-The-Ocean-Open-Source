@@ -1,0 +1,66 @@
+BBG START
+WirePoint 1088 304 732031 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="699125"
+WirePoint 1328 160 404766 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=1 no_draw_child=0 children="334312"
+BG1 START
+Pod 1584 192 131067 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1680 128 800309 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1600 240 386369 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 1104 272 392067 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=16 permanent_open=1 s_open=0 children=""
+BG2 START
+SavePoint 144 288 816112
+Pod 1264 272 41334 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 336 148269 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1520 368 376570 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1584 368 496130 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RaiseWall 1264 592 411003 energy=64 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=-1 needed_en=64 permanent_open=1 s_open=1 children=""
+OrbSlot 1376 448 751894 transmit_en=16 vis=1 angle=0 children="411003"" needed_en=0
+OrbSlot 1664 256 402321 transmit_en=16 vis=0 angle=0 children="584747,224177" needed_en=0
+RaiseWall 1808 384 783973 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=16 permanent_open=0 s_open=0 children=""
+OrbSlot 1888 544 721735 transmit_en=16 vis=1 angle=0 children="783973"" needed_en=0
+Door 0 18 881349 index=12 AUTO_INDEX=9 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_ENTER" next_cam_offset="0,0"
+FollowLaser 1664 48 641681 dmgtype=0 accel=0 fixed_angle=90 tracking_axis="x" vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=120 is_dream=0 tracked_axis="x" is_fixed=1
+RaiseWall 1360 16 703326 energy=57 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=-1 needed_en=64 permanent_open=0 s_open=0 children=""
+SapPad 1328 160 535624 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="703326,404766"
+RaiseWall 1280 400 69291 energy=6 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=-1 needed_en=64 permanent_open=0 s_open=0 children=""
+SapPad 1088 544 867943 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="69291"
+Pew 1408 608 359778 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 1568 608 738192 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=0 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Weed 1520 160 665989 vistype=1 dir=0
+Weed 1440 208 490406 vistype=1 dir=0
+Weed 1536 176 692552 vistype=1 dir=0
+Weed 1552 176 109451 vistype=1 dir=0
+Door 1872 32 632268 index=-1 AUTO_INDEX=0 behavior=1 type=0 script="TOOL/DOORS/CONTEST_BLOCKER.HX" dest_x=31 dest_y=55 s_visited=1 custom_size="0,0" dest_map="SHOREPLACEA" next_cam_offset="0,0"
+Weed 1072 144 588960 vistype=0 dir=0
+Weed 1136 112 466656 vistype=0 dir=0
+Weed 1168 112 163939 vistype=0 dir=0
+Wind 752 576 61401 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=20
+FollowLaser 1168 400 405274 dmgtype=1 accel=0 fixed_angle=90 vistype=1 axis_tracks_player=1 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 1824 432 310859 dmgtype=1 accel=0 fixed_angle=90 vistype=1 axis_tracks_player=1 angvel=0 tracking_vel=50 is_dream=0 tracked_axis="x" is_fixed=1
+SapPad 1088 304 71358 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="392067,732031"
+SapPad 1136 304 148012 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="392067"
+GenericNPC 480 352 951519 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="mussel"
+GenericNPC 720 336 310552 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="mussel"
+Door 1264 592 322596 index=13 AUTO_INDEX=12 behavior=1 type=0 script="TOOL/DOORS/CONTEST_BLOCKER.HX" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_END" next_cam_offset="0,0"
+VanishBlock 1680 32 224177 perma_open=1 vistype=1 init_state=-1 zero_for_vis=0 needed_en=32 s_en=0 s_open=0 single_ticks=0 ignore_init_msg=0
+VanishBlock 1680 48 584747 perma_open=1 vistype=1 init_state=-1 zero_for_vis=0 needed_en=32 s_en=0 s_open=0 single_ticks=0 ignore_init_msg=0
+WirePoint 1088 320 699125 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=0 no_draw_child=0 children="126218"
+WirePoint 1104 320 126218 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=0 no_draw_child=0 children="772318"
+WirePoint 1104 304 772318 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=0 no_draw_child=0 children=""
+WirePoint 1344 160 334312 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=1 no_draw_child=0 children="551711"
+WirePoint 1344 128 551711 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=1 no_draw_child=0 children="478526"
+WirePoint 1360 128 478526 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=1 no_draw_child=0 children="960300"
+WirePoint 1360 48 960300 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=1 no_draw_child=0 children=""
+Door 1904 352 660197 index=9 AUTO_INDEX=13 behavior=0 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SHOREPLACEA" next_cam_offset="0,0"
+SavePoint 1728 368 936791
+Pod 1664 240 525439 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=1 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 1424 352 940305 has_dialogue=1 map-scene-pos="p,dj,233" always_scripted=0 context_int_csv="0,0" debug_name="THIS_PUZZLE_WAS_UNNECESSARILY_ELABORATE_AND_GOT_BROKEN_AT_SOME_POINT,_SO_JUST_KEEP_HEADING_RIGHT_TO_ENTER_THE_SHOREPLACE_POWERPLANT,_YAY" children="" id="joni"
+GenericNPC 208 320 357004 has_dialogue=1 map-scene-pos="p,dj,234" always_scripted=0 context_int_csv="0,0" debug_name="AS_YOU_CAN_SEE,_RESTVIEW_BEACH_WAS_ONE_OF_THE_MOST_VISUALLY_COMPLETE_AREAS_IN_THE_OLD_PIXEL_ART_STYLE,,,_WHILE_IT_LOOKS_OK,_THERE_WERE_A_FEW_THINGS_THAT_MADE_ME_NOT_WANT_TO_PROGRESS_IN_THIS_WAY" children="" id="joni"
+GenericNPC 352 288 908287 has_dialogue=1 map-scene-pos="p,dj,235" always_scripted=0 context_int_csv="0,0" debug_name="THE_MAIN_PROBLEM_WAS_THAT,_IN_THE_NATURE_AREAS,_I_WAS_CONSTANTLY_FIGHTING_THE_SMALLNESS_AND_REGULARITY_OF_THE_GRID" children="" id="joni"
+GenericNPC 528 304 32657 has_dialogue=1 map-scene-pos="p,dj,236" always_scripted=0 context_int_csv="0,0" debug_name="THE_GEOMETRY_OF_THE_NATURE_AREAS_WAS_NOT_MEANT_TO_BE_PARSED_INTO_A_GRID_BY_THE_PLAYERS_MIND,_I_WANTED_THEM_TO_BE_ABLE_TO_FEEL_A_WIDER_VARIETY_OF_SIZE_AND_SHAPE_IN_THE_ROCKS,_TREES,_ETC" children="" id="joni"
+GenericNPC 640 288 566385 has_dialogue=1 map-scene-pos="p,dj,237" always_scripted=0 context_int_csv="0,0" debug_name="SO_IT_WAS_MUCH_EASIER_TO_ACHIEVE_THOSE_FEELINGS_BY_JUST_DRAWING_THE_AREAS_AS_BIG_IMAGES" children="" id="joni"
+GenericNPC 992 272 392938 has_dialogue=1 map-scene-pos="p,dj,238" always_scripted=0 context_int_csv="0,0" debug_name="ON_THE_OTHER_HAND,_FOR_THE_POWER_PLANTS,__THE_DESIGN_BEING_PARSED_AS_A_GRID_WAS_A_POSITIVE_THING,,,_IT_CLARIFIED_THE_IDEAS_AND_HELPED_THE_PLAYER_PLAN_THEIR_MOTION" children="" id="joni"
+GenericNPC 1040 272 22542 has_dialogue=1 map-scene-pos="p,dj,239" always_scripted=0 context_int_csv="0,0" debug_name="THE_POWER_PLANTS_WERE_ALSO_MUCH_LONGER_AND_MORE_INTRICATELY_SHAPED,_SO_IT_WAS_IDEAL_TO_USE_PIXEL_ART_TILES_FOR_THOSE" children="" id="joni"
+GenericNPC 1200 288 552910 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,39" debug_name="" children="" id="dev_info"
+GenericNPC 1296 544 28469 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,41" debug_name="" children="" id="dev_info"
+GenericNPC 80 560 367225 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,49" debug_name="" children="" id="dev_info"
+FG2 START

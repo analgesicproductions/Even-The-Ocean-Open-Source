@@ -1,0 +1,74 @@
+BBG START
+BG1 START
+BG2 START
+Door 2384 384 878721 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="FALLS_2" next_cam_offset="0,0"
+FloatWall 496 960 277013 use_defaults=1 w,h="1,2" dir=0 vis-dmg="1,1"
+SquishBounce 816 672 377725 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="1,1" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 896 608 367655 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="1,1" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 848 544 520053 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="1,1" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+Pod 928 560 149790 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 928 576 895789 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1024 704 546533 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1024 496 26494 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1008 496 23318 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FloatWall 1232 480 805804 use_defaults=1 w,h="1,2" dir=0 vis-dmg="0,0"
+FloatWall 1888 640 686206 use_defaults=1 w,h="1,2" dir=0 vis-dmg="0,0"
+Door 0 867 247408 index=10 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=3 dest_y=3 s_visited=1 custom_size="0,0" dest_map="MAP3" next_cam_offset="0,0"
+GenericNPC 1072 800 1968 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=10 debug_name="LIGHT1" children="" id="falls_npc"
+GenericNPC 1167 626 761552 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=11 debug_name="LIGHT2" children="" id="falls_npc"
+GenericNPC 1584 449 238151 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=12 debug_name="LIGHT3" children="" id="falls_npc"
+AmbiencePlayer 2112 480 398248 distance=-1 script1="RAIN_AMB" script2="" follow_player=0 max_scale=0.3
+GenericNPC 160 1040 713150 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER_BLOCKER" children="" id="s2_nature_blocker"
+GenericNPC 2126 479 795252 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=13 debug_name="LIGHT4" children="" id="falls_npc"
+GenericNPC 704 832 884022 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="SHARONINIT" children="" id="falls_sharon"
+GenericNPC 368 944 205431 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=9 debug_name="ENTER" children="" id="s1_s2_area_enter"
+TrainTrigger 495 832 70686 event_id="none" id=10
+TrainTrigger 145 832 749122 event_id="none" id=11
+Pod 1040 704 23 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 784 704 895267 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 800 704 983425 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FloatWall 768 528 959506 use_defaults=1 w,h="1,2" dir=0 vis-dmg="0,0"
+Pod 1312 576 185082 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 560 196714 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1312 592 714015 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1264 400 613442 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1280 400 3875 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1840 384 407200 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1824 384 657859 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1920 400 178584 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1936 400 700805 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SquishBounce 1424 544 899547 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SetPiece 240 912 704898 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 272 960 146554 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 208 944 205276 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 312 922 911639 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 224 880 217496 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 64 1008 550142 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 0 912 854632 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece -16 1008 135337 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 832 848 633406 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 784 784 899504 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 777 843 755373 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1488 624 476939 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1648 608 501816 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1776 576 280006 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1760 512 994280 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1952 560 10962 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2016 576 605320 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2176 544 431477 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2224 512 923716 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SavePoint 528 912 683047
+SavePoint 1456 640 608556
+SquishBounce 1536 704 5287 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1600 592 605629 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1664 544 585932 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1712 624 790592 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1648 672 65060 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1952 544 263100 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SetPiece 960 800 208543 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FloatWall 976 768 399013 use_defaults=1 w,h="1,2" dir=0 vis-dmg="1,1"
+FG2 START
+LineCollider 592 1088 323353 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,32,-64" invis=1
+LineCollider 0 1120 747842 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,96,0,222,-23,329,-25,464,0,544,0" invis=1
+LineCollider 608 912 98366 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,128,-16" invis=1
+LineCollider 1376 464 251007 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,32,192" invis=1

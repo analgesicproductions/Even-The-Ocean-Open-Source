@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 160 304 17791 index=8 AUTO_INDEX=9 behavior=0 type=4 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="TEST_SMALL" next_cam_offset="0,0"
+Door 0 -16 395263 index=13 AUTO_INDEX=12 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TEST_SMALL" next_cam_offset="0,0"
+Door 304 -32 445121 index=12 AUTO_INDEX=13 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="TEST_SMALL" next_cam_offset="0,0"
+Door 256 208 215256 index=12 AUTO_INDEX=14 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="OLD_4" next_cam_offset="0,0"
+FG2 START
+Door 112 0 821032 index=9 AUTO_INDEX=8 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=0 custom_size="0,0" dest_map="TEST_SMALL" next_cam_offset="0,0"

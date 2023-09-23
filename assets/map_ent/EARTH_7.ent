@@ -1,0 +1,79 @@
+BBG START
+BG1 START
+BG2 START
+EdgeDoor 880 528 813729 is_wide=0 vistype=0 only_open_dir=1
+Door 912 528 338824 index=5 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_5" next_cam_offset="0,0"
+SinkPlatform 800 544 587201 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+Wind 176 544 219283 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=320 speed=150
+Hopper 304 608 776492 wall_jumps=1 accel=350 tm_jump=0.5 jump_vel=-300 vis-dmg="1,1" x_vel=0
+Hopper 368 608 402166 wall_jumps=1 accel=350 tm_jump=0.5 jump_vel=-300 vis-dmg="1,1" x_vel=0
+Spike 176 608 114020 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 240 608 37865 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 480 608 891153 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 416 608 408785 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Hopper 208 608 40484 wall_jumps=1 accel=350 tm_jump=0.5 jump_vel=-300 vis-dmg="1,1" x_vel=0
+MiniMoveBlock 96 560 703280 is_y=1 max_accel=300 dir=2 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 112 608 145709 is_y=1 max_accel=300 dir=2 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 96 432 119335 is_y=1 max_accel=300 dir=2 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 112 496 871470 is_y=1 max_accel=300 dir=2 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+Weed 272 480 751164 vistype=0 dir=0
+Weed 304 480 300563 vistype=1 dir=0
+Weed 320 480 950544 vistype=1 dir=0
+Weed 288 480 942554 vistype=0 dir=0
+Pod 336 384 434928 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 384 961577 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 352 901761 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BarbedWire 608 688 316176 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="857931" wire_tile_width=3 is_gauntlet=1
+BarbedWire 816 688 857931 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Spike 448 512 878362 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 400 512 875539 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+SinkPlatform 640 608 629352 yvel=30 return_rate=5 xvel=30 returns_home=1
+SinkPlatform 704 544 353045 yvel=30 return_rate=5 xvel=30 returns_home=1
+MiniMoveBlock 672 592 637286 is_y=0 max_accel=300 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+SinkPlatform 672 848 424299 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 832 896 241143 yvel=30 return_rate=0.5 xvel=60 returns_home=0
+SinkPlatform 768 752 249032 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 720 816 162383 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 480 720 856646 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 480 752 529234 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+Hopper 320 576 918059 wall_jumps=1 accel=350 tm_jump=0.5 jump_vel=-300 vis-dmg="1,1" x_vel=0
+Hopper 352 576 916327 wall_jumps=1 accel=350 tm_jump=0.5 jump_vel=-300 vis-dmg="1,1" x_vel=0
+MiniMoveBlock 80 544 356997 is_y=1 max_accel=300 dir=2 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 64 544 392408 is_y=1 max_accel=300 dir=2 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+Pod 80 496 972268 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 64 496 952567 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 112 496 609708 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 448 226391 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 128 432 833774 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 400 161033 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Spike 160 384 72304 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pod 160 480 770027 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 176 464 154150 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 192 480 872245 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 464 957476 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 480 56645 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Spike 208 368 713689 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+MiniMoveBlock 240 400 297295 is_y=0 max_accel=500 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 224 384 238439 is_y=0 max_accel=500 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+MiniMoveBlock 256 416 276876 is_y=0 max_accel=500 dir=1 vis-dmg="0,0" dmg=24 max_vel=200 tm_wait=0.2
+BarbedWire 160 0 869251 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="905617" wire_tile_width=3 is_gauntlet=1
+BarbedWire 16 112 905617 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children=0 wire_tile_width=3 is_gauntlet=1
+BarbedWire 1008 160 897383 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="404479" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1024 0 404479 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children=0 wire_tile_width=3 is_gauntlet=1
+Spike 864 912 17134 dmgtype=1 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+Spike 864 896 405200 dmgtype=1 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+EdgeDoor 16 784 947343 is_wide=0 vistype=0 only_open_dir=-1
+Door 0 784 874156 index=0 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_BOSS" next_cam_offset="0,0"
+SinkPlatform 368 896 41200 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 368 848 491672 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 368 800 416569 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 368 704 654972 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+Wind 16 944 317970 h=16 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=208 speed=200
+SinkPlatform 192 768 286839 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SinkPlatform 368 752 752577 yvel=30 return_rate=0.5 xvel=30 returns_home=0
+SavePoint 848 544 692190
+SavePoint 144 608 834574
+SavePoint 352 480 659439
+SavePoint 992 656 278177
+GenericNPC 464 224 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,91" debug_name="" children="" id="dev_info"
+FG2 START

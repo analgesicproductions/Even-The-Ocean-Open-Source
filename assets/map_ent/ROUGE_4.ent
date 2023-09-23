@@ -1,0 +1,29 @@
+BBG START
+BG1 START
+BG2 START
+Door 208 32 314597 index=1 AUTO_INDEX=0 behavior=1 type=3 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="ROUGE_4" next_cam_offset="0,0"
+Door 464 32 275290 index=2 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=1 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="ROUGE_2" next_cam_offset="0,0"
+GenericNPC 272 400 503565 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="244561,495933" id="intro_cass_dead"
+GenericNPC 976 416 795541 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children="" id="intro_tutorial"
+Pod 1184 480 696338 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1056 432 195575 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1296 448 651091 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1424 416 73495 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1552 416 850760 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1536 416 155965 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1728 352 191125 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1808 400 729607 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1888 432 213402 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1904 432 454152 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1968 368 342017 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2224 368 428689 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2224 432 788104 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 2368 192 368952 index=0 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ROUGE_5" next_cam_offset="0,0"
+TrainTrigger 656 320 114784 event_id="none" id=0
+SavePoint 528 448 222084 autosaves=1
+TrainTrigger 304 320 64263 event_id="none" id=1
+Pod 1712 352 158559 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START
+Pew 896 496 267689 fint_TICKS=-1 fint=0.6 fpattern=0 vistype=1 bullet_vis=1 dir=3 mb=8 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern=111111
+HelpTip 272 400 244561 on_bottom=0 id=0
+HelpTip 96 352 495933 on_bottom=1 id=0

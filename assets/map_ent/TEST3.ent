@@ -1,0 +1,65 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 128 224 399992 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="starfish_center" has_dialogue=0
+GenericNPC 16 96 897807 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="starfish_blockage" has_dialogue=0
+GenericNPC 32 32 145667 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="fisher" has_dialogue=1
+BugSwarm 336 208 318901 accel=55 chase_radius=300 bug_radius=18 anims="test1,test2" nr_bugs=6 vistype=0 vel=12 follows=0
+SquishBounce 176 224 766670 GNPC_ID="TEST_TREE" hitbox_w=32 f_speed=0 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+TileFader 176 128 703900 data="_"
+Door 160 160 486187 AUTO_INDEX=0 behavior=1 dest_x=0 dest_map="TEST3" index=1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+RevolveSpore 368 336 313239 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+PlantBlock 288 112 368071 behavior=2 dir=0 vis-dmg="0,0" float_dis=24
+PlantBlockAccepter 272 80 646918 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children="906344"
+RaiseWall 256 16 906344 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=4
+BallDropper 720 48 347860 damage=16 disappear=50 dampen=0.9 tm_shoot=1 vis-dmg="0,0" y_accel=520 x_vel=115 nr_balls=3
+Wind 288 16 105150 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=16 speed=50
+BubbleSpawner 208 64 780890 bubble_type=1 vistype=1
+GenericNPC 256 224 419751 always_scripted=1 debug_name="" context_int_csv="0,0" children="651517" map-scene-pos="" id="dreamsmoker" has_dialogue=1
+SapPad 256 176 651517 children="" dmg=1 one_for_all=0 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+SapPad 256 256 816047 children="419751" dmg=1 one_for_all=0 max_storage=64 vis=0 reverse=1 dmg_rate=0.04
+SapPad 304 256 903649 children="816047" dmg=1 one_for_all=0 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+FollowLaser 368 128 663246 accel=0 dmgtype=1 axis_tracks_player=1 angvel=30 is_dream=0 is_fixed=0 vistype=1 tracking_vel=30 tracked_axis="x" fixed_angle=180
+BubbleSpawner 128 80 163888 bubble_type=0 vistype=0
+BubbleSwitch 16 16 253030 "=0 behave_type=2 vistype=2 children="""
+BubbleSwitch 48 0 24568 "=0 behave_type=2 vistype=1 children="""
+BubbleSwitch 80 16 799161 "=0 behave_type=2 vistype=0 children="""
+MoveBlock 688 304 686438 accel=350 init_dir=1 clockwise=1 t_wait=1 vis-dmg="0,0" max_vel=100
+MoveBlock 703 257 955384 accel=350 init_dir=1 clockwise=1 t_wait=1 vis-dmg="1,1" max_vel=100
+FlameBlower 16 368 742004 dir=1 blow_vel=120 nr_flames=4 tm_hurt=0.033 flame_distance=60 tm_off=-1 tm_on_off=0.5 vis-dmg="0,0" tm_on=-1 tm_new_flame=0.05
+BarbedWire 144 16 867739 children="492638" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+FlameBlower 16 320 359499 dir=1 blow_vel=120 nr_flames=4 tm_hurt=0.033 flame_distance=60 tm_off=-1 tm_on_off=0.5 vis-dmg="0,0" tm_on=-1 tm_new_flame=0.05
+BarbedWire 80 32 313256 children="867739" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+SapPad 32 144 546953 children="313256,731141,255683" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 48 160 426923 children="313256,731141,255683" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+Door 96 160 480884 AUTO_INDEX=1 behavior=1 dest_x=0 dest_map="TEST3" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=-1
+Spike 384 16 847607 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 400 16 784054 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Pod 352 48 907141 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+GenericNPC 64 160 707001 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="PASS,ARTIST_FIRST" id="sign1" has_dialogue=1
+PlantBlock 330 107 654592 behavior=1 dir=0 vis-dmg="0,0" float_dis=24
+PlantBlock 560 80 41673 behavior=3 dir=0 vis-dmg="0,0" float_dis=24
+PlantBlockAccepter 313 69 680308 behavior=2 init_state=0 vis-dmg="0,0" s_on=0 children="906344"
+PlantBlockAccepter 335 44 632632 behavior=1 init_state=0 vis-dmg="0,0" s_on=0 children="906344"
+BarbedWire 192 16 492638 children="4848" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 224 32 4848 children="706003" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+VanishBlock 48 112 731141 init_state=-1 ignore_init_msg=0 s_en=6 perma_open=1 single_ticks=0 zero_for_vis=0 vistype=0 s_open=0 needed_en=10
+VanishBlock 96 144 255683 init_state=-1 ignore_init_msg=0 s_en=4 perma_open=1 single_ticks=0 zero_for_vis=0 vistype=1 s_open=0 needed_en=10
+BarbedWire 240 0 706003 children="" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+BubbleSpawner 208 352 372913 bubble_type=1 vistype=1
+Pod 160 368 835000 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 48 64 445396 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+EdgeDoor 96 144 272683 is_wide=1 vistype=0 only_open_dir=-1
+RaiseWall 368 160 567989 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=64
+VanishBlock 416 160 968412 init_state=-1 ignore_init_msg=0 s_en=0 perma_open=1 single_ticks=0 zero_for_vis=0 vistype=0 s_open=0 needed_en=32
+VanishBlock 426 127 356606 init_state=-1 ignore_init_msg=0 s_en=32 perma_open=1 single_ticks=0 zero_for_vis=0 vistype=0 s_open=1 needed_en=32
+RubberLaser 624 16 503126 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+MirrorLaser 304 336 684776 dir=0 nr=3 init_wait=0 dmg=48 t_TICKS=0 t_shoot=0.5 vis-dmg="0,0" vel=50 pattern="1,0,1,1"
+GhostLight 352 528 974039 is_ghost=1 light_radius=32 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=40 tm_hurt=0.1
+GhostLight 480 533 769769 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=60 tm_hurt=0.1
+FloatWall 272 608 10931 dir=0 w,h="1,2" vis-dmg="0,0" use_defaults=1
+FloatWall 160 592 456936 dir=1 w,h="2,1" vis-dmg="0,0" use_defaults=1
+Door 400 48 793900 AUTO_INDEX=2 behavior=1 dest_x=1 dest_map="OLD_4" index=16 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START
+TileFader 464 112 990286
+Neutralizer 112 112 635913

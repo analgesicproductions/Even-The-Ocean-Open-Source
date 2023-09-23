@@ -1,0 +1,18 @@
+BBG START
+BG1 START
+BG2 START
+Wind 1648 448 583416 h=160 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=80 speed=50
+Door 624 16 157681 index=1 AUTO_INDEX=0 behavior=0 type=3 script="" dest_x=1 dest_y=-5 s_visited=1 custom_size="0,0" dest_map="FOREST1" next_cam_offset="0,0"
+Door 96 0 805296 index=2 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=-5 s_visited=1 custom_size="0,0" dest_map="FOREST1" next_cam_offset="0,0"
+RevolveSpore 1648 1504 219798 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1760 1456 904863 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1856 1424 280017 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1936 1424 662016 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 2080 1456 261261 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 2144 1520 779444 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+SavePoint 1520 1552 188147
+Door 1008 1552 451461 index=0 AUTO_INDEX=2 behavior=1 type=5 script="" dest_x=1 dest_y=3 s_visited=1 custom_size="0,0" dest_map="FOREST3" next_cam_offset="0,0"
+GenericNPC 2224 1504 156885 has_dialogue=1 map-scene-pos="p,dj,99" always_scripted=0 context_int_csv="0,0" debug_name="I_THINK_THIS_AREA_WAS_GOING_TO_BE_SORTA_SECRET_AND_LEAD_TO_DOLORES_HIDEOUT" children="" id="joni"
+GenericNPC 2288 1504 475964 has_dialogue=1 map-scene-pos="p,dj,100" always_scripted=0 context_int_csv="0,0" debug_name="OSCAR_BASIN_USED_TO_HAVE_A_FLAG,_PORTRAYING_TWO_HANDS_HOLDING_A_HEART_ALOFT" children="" id="joni"
+GenericNPC 2352 1504 763558 has_dialogue=1 map-scene-pos="p,dj,101" always_scripted=0 context_int_csv="0,0" debug_name="AND_DOLORES_WAS_GOING_TO_BE_DISPLAYING_THE_FLAG_UPSIDE_DOWN_SO_THAT_IT__LOOKED_LIKE_A_TERRIFIED_OR_SAD_FACE,,,_I_SKETCHED_THIS_OUT_IN_TILES_ABOVE" children="" id="joni"
+FG2 START

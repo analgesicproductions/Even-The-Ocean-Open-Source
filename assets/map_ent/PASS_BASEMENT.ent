@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 112 256 775735 AUTO_INDEX=0 behavior=1 dest_x=0 dest_map="PASS_TOWER_2" index=3 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+GenericNPC 224 256 661000 always_scripted=0 context_int_csv="0,0" children="" map-scene-pos="" id="sign1" has_dialogue=1
+GenericNPC 256 256 642714 always_scripted=0 context_int_csv="0,0" children="" map-scene-pos="" id="sign1" has_dialogue=1
+GenericNPC 288 256 590557 always_scripted=0 context_int_csv="0,0" children="" map-scene-pos="" id="sign1" has_dialogue=1
+FG2 START

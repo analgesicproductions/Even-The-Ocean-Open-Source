@@ -1,0 +1,72 @@
+BBG START
+BG1 START
+BG2 START
+Door 664 1248 782953 index=-1 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=656 dest_y=32 s_visited=1 custom_size="0,0" dest_map="CANYON_G1" next_cam_offset="0,0"
+RubberLaser 752 1088 301479 vtype=0 tinact=1 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=8
+RubberLaser 528 1008 363842 vtype=0 tinact=1 sbouncev=-180 nosbouncev=-120 init_wait=1 face_l_no_dmg=0 dir=2 tact=2 damage=8
+RubberLaser 752 1152 368209 vtype=0 tinact=1 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=8
+BubbleSwitch 192 1184 370625 ghost_maxvel=150 "=0 ghost_radius=64 behave_type=2 vistype=2 ghost_pull_strength=60 children="529000,844710" ghost_on=0
+BubbleSwitch 192 1104 716882 ghost_maxvel=150 "=0 ghost_radius=64 behave_type=2 vistype=2 ghost_pull_strength=60 children="792572,538896" ghost_on=0
+BubbleSpawner 384 992 357305 vistype=1 bubble_type=1
+RaiseWall 144 1008 253423 energy=0 is_wide=1 raise_distance=16 vistype=1 raise_dir=3 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+Spike 32 944 445762 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 48 944 674752 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 64 1072 500913 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 80 1072 633888 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 80 1104 5009 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 32 976 713283 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 64 848 584001 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Wind 64 864 758548 h=160 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=65
+Wind 32 992 741511 h=160 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=65
+Wind 64 1120 953241 h=96 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=65
+Door 0 1184 725417 index=8 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_G1_2" next_cam_offset="0,0"
+Door 0 784 22856 index=7 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_G1_2" next_cam_offset="0,0"
+BubbleSpawner 448 1056 269164 vistype=0 bubble_type=0
+HurtOutlet 272 1040 576001 init_wait=0 dmgtype=1 tm_off=1.2 tm_on=0.5 dmg=24 vistype=1
+HurtOutlet 320 1136 952365 init_wait=0 dmgtype=0 tm_off=1.2 tm_on=0.5 dmg=24 vistype=0
+WirePoint 176 1184 529000 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="398726"
+WirePoint 192 1088 792572 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="990856"
+WirePoint 192 1168 844710 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="117579"
+WirePoint 160 1136 306373 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="716756"
+WirePoint 192 1120 538896 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="755842"
+WirePoint 160 1136 388854 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="716756"
+HurtOutlet 336 960 501182 init_wait=0 dmgtype=0 tm_off=1.2 tm_on=0.5 dmg=24 vistype=0
+RaiseWall 128 1136 716756 energy=1 is_wide=1 raise_distance=16 vistype=1 raise_dir=1 init_state=1 needed_en=1 permanent_open=1 s_open=1 children=""
+SapPad 208 816 70443 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="39060"
+RaiseWall 368 784 39060 energy=32 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=1 children=""
+Pod 80 768 133490 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 96 768 725939 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 768 933936 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+BubbleSpawner 736 784 793096 vistype=1 bubble_type=1
+Pew 400 640 952106 fint_TICKS=-1 fint=0.9 fpattern=2 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern=12
+Pew 48 528 325038 fint_TICKS=-1 fint=0.15 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=6 bspd=160 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 112 720 718704 fint_TICKS=-1 fint=0.15 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=10 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 320 352 823036 fint_TICKS=-1 fint=0.15 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=6 bspd=160 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+RubberLaser 736 368 21112 vtype=1 tinact=2.5 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=8
+RubberLaser 752 416 306154 vtype=1 tinact=2.5 sbouncev=-180 nosbouncev=-120 init_wait=2.5 face_l_no_dmg=0 dir=0 tact=2 damage=8
+Door 784 544 883872 index=5 AUTO_INDEX=4 behavior=0 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_G1_BOSS" next_cam_offset="0,0"
+EdgeDoor 752 544 741050 is_wide=0 vistype=0 only_open_dir=-1
+Pew 208 352 49868 fint_TICKS=-1 fint=0.15 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=3 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 48 464 969085 fint_TICKS=-1 fint=0.15 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=1 mb=3 bspd=160 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+RubberLaser 752 912 373175 vtype=0 tinact=1 sbouncev=-180 nosbouncev=-120 init_wait=0 face_l_no_dmg=0 dir=0 tact=2 damage=8
+WirePoint 160 1088 990856 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="574768"
+WirePoint 192 1136 755842 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="388854"
+RaiseWall 128 1088 574768 energy=1 is_wide=1 raise_distance=16 vistype=0 raise_dir=1 init_state=1 needed_en=1 permanent_open=1 s_open=1 children=""
+WirePoint 192 1136 117579 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="306373"
+WirePoint 160 1184 398726 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="64996,64996"
+RaiseWall 128 1184 64996 energy=1 is_wide=1 raise_distance=16 vistype=1 raise_dir=1 init_state=1 needed_en=1 permanent_open=1 s_open=1 children=""
+WirePoint 160 976 974520 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=31 no_draw_child=1 children="143197"
+WirePoint 224 1008 249660 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="534080"
+RaiseWall 128 977 143197 energy=1 is_wide=1 raise_distance=16 vistype=0 raise_dir=1 init_state=1 needed_en=1 permanent_open=1 s_open=1 children=""
+WirePoint 224 976 349268 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="974520"
+WirePoint 224 944 462501 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="349268,848711"
+WirePoint 224 976 848711 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=0 children="249660"
+SavePoint 592 1216 792943
+GenericNPC 448 928 521058 has_dialogue=1 map-scene-pos="p,dj,43" always_scripted=0 context_int_csv="0,0" debug_name="THIS_WAS_LIKE_AN_ACTUAL_PUZZLE_WHERE_YOU_HAD_TO_USE_THE_RIGHT_COMBINATION_OF_BUBBLES_AND_SWITCHES_TO_GET_ALL_THE_GATES_OPEN_AT_ONCE,,,_BUT_ITS_BROKEN_NOW_HEH_SO_JUST_CONTINUE" children="" id="joni"
+SavePoint 432 816 251439
+GenericNPC 240 656 704997 has_dialogue=1 map-scene-pos="p,dj,44" always_scripted=0 context_int_csv="0,0" debug_name="UHHH_I_DUNNO_WHY_I_MADE_IT_SEEM_LIKE_YOU_NEEDED_TO_BRING_A_BUBBLE_OVER_HERE,,,_I_GUESS_IT_WAS_JUST_TO_REDUCE_GAS_DAMAGE_ALONG_THE_WAY,,,_THERES_NO_BUBBLE_SWITCH" children="" id="joni"
+SavePoint 624 560 388771
+FG2 START
+BubbleSwitch 224 928 6088 ghost_maxvel=150 ghost_radius=64 behave_type=2 vistype=20 ghost_pull_strength=60 children="462501" ghost_on=0
+WirePoint 176 1008 534080 pos="0,16" force_dir=-1 forceTargetDir=-1 invert=0 vistype=2 no_draw_child=1 children="253423"
+SavePoint 160 880 381879

@@ -1,0 +1,41 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 544 331155 AUTO_INDEX=0 behavior=0 dest_x=-1 dest_map="HILL_3" index=1 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Door 2288 384 698963 AUTO_INDEX=1 behavior=0 dest_x=1 dest_map="HILL_5" index=0 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Pew 320 464 259531 bspd=140 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1,1,1,0,0" vistype=1 mb=12 fint=0.2
+Pod 288 512 412427 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 288 528 285903 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 208 704 361810 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 208 720 448620 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Wind 1184 624 286435 angle=270 global=0 en_align=-1 req_energy=0 h=96 w=16 speed=70
+BarbedWire 1040 624 146763 children="127556" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+BarbedWire 1040 720 127556 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+Wind 1328 656 549152 angle=270 global=0 en_align=-1 req_energy=0 h=80 w=16 speed=70
+Wind 1216 672 475230 angle=270 global=0 en_align=-1 req_energy=0 h=80 w=16 speed=70
+Pod 1200 656 560938 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1056 752 776709 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1056 768 588961 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1056 784 549505 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+BarbedWire 1168 768 773100 children="202518" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+BarbedWire 1280 752 202518 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+Wind 1280 768 709948 angle=0 global=0 en_align=-1 req_energy=0 h=32 w=80 speed=70
+Spike 1120 560 300652 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1136 560 650639 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 1136 512 938806 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 1152 512 947060 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Pod 1072 544 454645 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1072 528 39468 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Door 2288 0 867649 AUTO_INDEX=2 behavior=0 dest_x=1 dest_map="HILL_5" index=3 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=4
+GenericNPC 1760 480 721509 always_scripted=1 debug_name="ROOM_BAY" context_int_csv="0,0" children="" map-scene-pos="" id="room_bay" has_dialogue=0
+GenericNPC 1168 240 652187 always_scripted=1 debug_name="ROOM_TRENT" context_int_csv="0,0" children="" map-scene-pos="" id="room_trent" has_dialogue=0
+GenericNPC 1888 480 887673 always_scripted=0 debug_name="PANTRY" context_int_csv="0,0" children="" map-scene-pos="HILL,PANTRY,0" id="hillpantry" has_dialogue=1
+GenericNPC 1840 480 201393 always_scripted=1 debug_name="SOUP_B1" context_int_csv="0,0" children="" map-scene-pos="" id="memory_soup_trigger" has_dialogue=0
+GenericNPC 2032 112 261565 always_scripted=1 debug_name="SOUP_B2" context_int_csv="1,0" children="" map-scene-pos="" id="memory_soup_trigger" has_dialogue=0
+GenericNPC 1792 480 514583 always_scripted=1 debug_name="BAY_B1" context_int_csv="0,0" children="" map-scene-pos="" id="bay_outside" has_dialogue=0
+GenericNPC 2080 112 263218 always_scripted=1 debug_name="BAY_B2" context_int_csv="1,0" children="" map-scene-pos="" id="bay_outside" has_dialogue=0
+GenericNPC 1072 240 898244 always_scripted=1 debug_name="TRENT_T1" context_int_csv="0,0" children="" map-scene-pos="" id="trent_outside" has_dialogue=0
+GenericNPC 624 560 594516 always_scripted=1 debug_name="TRENT_T2" context_int_csv="1,0" children="" map-scene-pos="" id="trent_outside" has_dialogue=0
+GenericNPC 1088 240 332935 always_scripted=1 debug_name="PAINT_T1" context_int_csv="0,0" children="" map-scene-pos="" id="memory_paint_trigger" has_dialogue=0
+GenericNPC 608 560 36409 always_scripted=1 debug_name="PAINT_T2" context_int_csv="1,0" children="" map-scene-pos="MEMORY_PAINT_TRIGGER" id="memory_paint_trigger" has_dialogue=0
+FG2 START

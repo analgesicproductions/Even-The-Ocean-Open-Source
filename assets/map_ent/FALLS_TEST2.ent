@@ -1,0 +1,163 @@
+BBG START
+BG1 START
+BG2 START
+WallBouncer 96 176 617408 dmg=0 climb_vel=60 extend_vel=200 push_ticks=10 extend_distance=6 retract_vel=5 vis-dmg="1,1" tm_wait=0.5 push_vel=250
+WallBouncer 176 336 182903 dmg=0 climb_vel=60 extend_vel=200 push_ticks=10 extend_distance=6 retract_vel=5 vis-dmg="1,1" tm_wait=0.5 push_vel=250
+Pod 160 208 798389 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 160 240 205971 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 112 448 205960 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 112 416 810174 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 256 813994 children="" AUTO_ORIENT=0 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 384 403646 children="" AUTO_ORIENT=0 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 464 664419 children="" AUTO_ORIENT=0 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+WallBouncer 96 624 874394 dmg=0 climb_vel=60 extend_vel=200 push_ticks=10 extend_distance=6 retract_vel=5 vis-dmg="1,1" tm_wait=0.5 push_vel=250
+Pod 96 656 180929 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 96 672 964563 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 96 688 577099 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 160 624 894410 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 160 592 665792 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 64 112 739063 always_scripted=0 debug_name="EHH_DONT_REALLY_LIKE_HOW_THIS_WORKS_OUT" context_int_csv="0,0" children="" map-scene-pos="p,dj,90" id="sign1" has_dialogue=1
+SmashHand 384 80 745696 accel=1000 aggro_dims="243,305" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+Wind 576 192 930401 angle=90 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=32 speed=50
+Pod 448 320 372547 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 464 320 151718 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 464 96 940432 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 480 96 890404 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 288 304 864875 always_scripted=0 debug_name="SIMPLE_SMASHHAND_WITH_SOME_FLEXIBILITY_IN_PATH" context_int_csv="0,0" children="" map-scene-pos="p,dj,91" id="sign1" has_dialogue=1
+SmashHand 288 448 740742 accel=1000 aggro_dims="501,288" init_vel=150 dmg=64 dir=3 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+BarbedWire 464 656 938035 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 464 560 952296 children="938035" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 656 688 485989 children="835452" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 656 592 835452 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+FlameBlower 608 688 519487 dir=0 blow_vel=100 nr_flames=8 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="1,1" tm_on=-1 tm_new_flame=0.12
+Pod 752 480 428296 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 752 496 238596 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 752 464 507208 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 384 464 517616 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 368 464 255145 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SmashHand 864 96 962263 accel=1000 aggro_dims="288,288" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+BarbedWire 1120 432 320598 children="282552" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1120 128 239539 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1120 256 282552 children="239539" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+FlameBlower 1040 432 820369 dir=0 blow_vel=100 nr_flames=8 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="1,1" tm_on=-1 tm_new_flame=0.12
+Pod 880 192 770825 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 880 208 946401 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 896 256 918129 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 912 256 845750 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 304 672 297086 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,92" id="sign1" has_dialogue=1
+GenericNPC 880 400 535646 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,93" id="sign1" has_dialogue=1
+SmashHand 368 784 37790 accel=1000 aggro_dims="284,250" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="1,1," tm_wait=0 tm_follow=1.5
+BubbleSwitch 64 832 86472 behave_type=2 vistype=2 children="129813"
+RaiseWall 80 800 129813 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=0 s_open=0 needed_en=64
+BubbleSpawner 624 896 734978 bubble_type=0 vistype=0
+BarbedWire 400 944 523738 children="7661" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+BarbedWire 592 944 7661 children="" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+Pod 128 1008 314644 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 144 1008 864383 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 160 1008 770363 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+FlameBlower 369 929 435725 dir=3 blow_vel=100 nr_flames=15 tm_hurt=0.033 flame_distance=80 tm_off=-1 vis-dmg="1,1" tm_on=-1 tm_new_flame=0.12
+Pod 448 800 797542 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=61 vistype=1 tm_dead=1 dmgtype=1
+Pod 480 816 780683 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 496 816 58524 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 464 800 102110 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=61 vistype=1 tm_dead=1 dmgtype=1
+Pod 240 800 47217 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 240 816 322200 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 240 832 676378 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 272 1008 99408 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 288 1008 461821 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 304 1008 425004 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+SmashHand 71 866 708561 accel=1000 aggro_dims="155,174" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="1,1," tm_wait=0 tm_follow=1.5
+GenericNPC 48 944 40163 always_scripted=0 debug_name="COMBINING_SOME_ENTITIES" context_int_csv="0,0" children="" map-scene-pos="p,dj,94" id="sign1" has_dialogue=1
+SmashHand 1216 48 422155 accel=1000 aggro_dims="704,259" init_vel=150 dmg=64 dir=3 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+Pod 1536 272 730834 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1520 272 715038 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1664 64 133406 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1680 64 468644 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1696 272 544721 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1712 272 50010 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1776 272 745093 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1792 272 504822 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+BarbedWire 1888 144 118861 children="987909" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1888 288 987909 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+GenericNPC 1248 320 358455 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,95" id="sign1" has_dialogue=1
+SmashHand 864 512 674612 accel=1000 aggro_dims="400,480" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="1,1" tm_wait=0 tm_follow=1.5
+FlameBlower 1072 976 495669 dir=0 blow_vel=100 nr_flames=8 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="0,0" tm_on=-1 tm_new_flame=0.12
+BarbedWire 1232 976 717681 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1232 640 613417 children="717681" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 1152 944 593538 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+Pod 928 864 559626 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 896 864 743954 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 912 864 798418 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1168 720 86945 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1152 720 719381 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+BarbedWire 880 768 885290 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 880 912 239433 children="885290" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 928 672 74591 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 944 672 238204 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 960 672 46952 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 928 944 354830 always_scripted=0 debug_name="START" context_int_csv="0,0" children="" map-scene-pos="p,dj,96" id="sign1" has_dialogue=1
+Pod 1184 608 790187 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1200 608 173547 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1168 608 35571 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+FlameBlower 160 1440 679135 dir=0 blow_vel=100 nr_flames=12 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="0,0" tm_on=-1 tm_new_flame=0.12
+PlantBlock 48 1440 574215 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 96 1120 904118 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+FlameBlower 320 1440 800303 dir=0 blow_vel=100 nr_flames=12 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="0,0" tm_on=-1 tm_new_flame=0.12
+FlameBlower 432 1440 847393 dir=0 blow_vel=100 nr_flames=12 tm_hurt=0.033 flame_distance=80 tm_off=-1 vis-dmg="0,0" tm_on=-1 tm_new_flame=0.12
+Pod 304 1280 167431 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 320 1280 862166 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 336 1280 937575 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SmashHand 144 1120 477307 accel=1000 aggro_dims="369,161" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="1,1" tm_wait=0 tm_follow=1.5
+Pod 144 1248 226249 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 160 1248 440091 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 176 1248 182599 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 80 1408 590096 always_scripted=0 debug_name="LEGO1_H" context_int_csv="0,0" children="" map-scene-pos="p,dj,97" id="sign1" has_dialogue=1
+PlantBlock 1504 1200 373965 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+PlantBlockAccepter 1280 1328 791032 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+FlameBlower 1456 1328 31736 dir=0 blow_vel=100 nr_flames=8 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="1,1" tm_on=-1 tm_new_flame=0.12
+FlameBlower 1072 1408 246415 dir=0 blow_vel=100 nr_flames=8 tm_hurt=0.033 flame_distance=50 tm_off=-1 vis-dmg="1,1" tm_on=-1 tm_new_flame=0.12
+Pod 1088 1232 774004 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1072 1232 844698 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1056 1232 625597 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1040 1232 473246 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1104 1184 461372 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+BarbedWire 592 1120 908906 children="49492" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 592 1376 49492 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 1120 1184 612312 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 688 1232 61531 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 704 1232 925440 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 864 1328 120552 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 896 1328 386023 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 880 1328 391148 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 864 1184 545233 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 880 1184 612745 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 896 1184 370692 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1550 1166 616776 always_scripted=0 debug_name="LEGO2_H" context_int_csv="0,0" children="" map-scene-pos="p,dj,98" id="sign1" has_dialogue=1
+PlantBlock 1904 1520 254807 behavior=0 dir=0 vis-dmg="1,1" float_dis=32
+PlantBlock 1408 1200 848689 behavior=1 dir=0 vis-dmg="0,0" float_dis=32
+SmashHand 1616 1040 96287 accel=1000 aggro_dims="404,455" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="1,1" tm_wait=0 tm_follow=1.5
+Pod 1824 1424 659265 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1808 1424 28520 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1728 1360 653961 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1744 1360 238603 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1904 1200 147261 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1904 1216 642315 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1840 1136 601986 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1856 1136 160423 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1696 1040 627775 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1712 1040 354099 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+PlantBlockAccepter 1360 1376 782579 behavior=1 init_state=0 vis-dmg="0,0" s_on=0 children=""
+Pod 1264 1136 662977 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1280 1136 75425 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 976 1280 907303 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 992 1280 666770 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1008 1280 826186 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+SquishyChaser 2352 1440 876413 dmg_amt=32 chasevel=150 vis-dmg="1,1" tm_allow_damage=1.5
+PlantBlock 2160 1504 823042 behavior=0 dir=0 vis-dmg="1,1" float_dis=32
+SquishyChaser 2112 1344 68861 dmg_amt=32 chasevel=100 vis-dmg="0,0" tm_allow_damage=1.5
+FlameBlower 2128 1360 34685 dir=0 blow_vel=100 nr_flames=8 tm_hurt=0.033 flame_distance=60 tm_off=-1 vis-dmg="1,1" tm_on=-1 tm_new_flame=0.12
+PlantBlockAccepter 2384 1232 738970 behavior=0 init_state=0 vis-dmg="0,0" s_on=1 children=""
+SmashHand 2096 1104 497427 accel=1000 aggro_dims="258,144" init_vel=150 dmg=64 dir=2 tm_pause=0.5 tm_ground_wait=1.5 vel_follow=150 vis-dmg="0,0" tm_wait=0 tm_follow=1.5
+Door 448 0 614098 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_6" index=16 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+PlantBlockAccepter 1888 1088 609530 behavior=0 init_state=0 vis-dmg="0,0" s_on=1 children=""
+FG2 START

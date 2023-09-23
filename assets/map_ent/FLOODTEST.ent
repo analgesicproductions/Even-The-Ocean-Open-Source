@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+SetPiece 16 16 205899 tile_size="471,150" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=1
+SetPiece 32 16 692955 tile_size="474,149" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=30 blend_1ad2mu3sc=0
+SetPiece 16 80 744149 tile_size="476,72" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=6 id=3 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 0 84 226784 tile_size="489,71" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=2 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START

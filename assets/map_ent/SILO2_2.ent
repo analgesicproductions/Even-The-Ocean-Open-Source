@@ -1,0 +1,52 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 80 278557 index=1 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=-2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SILO2_3" next_cam_offset="0,0"
+RevolveSpore 256 128 335381 hurt_ticks=5 base_vel=500 vis-dmg="0,0"
+ArmLocker 304 16 285159 hor_passage=1 dir=2 is_exit=0 vis-dmg="0,0"
+ArmLocker 304 80 244240 hor_passage=1 dir=1 is_exit=0 vis-dmg="0,0"
+ArmLocker 464 80 852510 hor_passage=1 dir=3 is_exit=0 vis-dmg="0,0"
+Pew 528 112 409770 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=10 bspd=200 white_no_dmg=0 is_dream=0 rhythm_pattern=1
+Pew 384 352 660354 fint_TICKS=-1 fint=0.4 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=0 mb=10 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern=1
+ArmLocker 128 144 411142 hor_passage=1 dir=3 is_exit=0 vis-dmg="0,0"
+SquishBounce 256 208 886123 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+Pew 368 352 324313 fint_TICKS=-1 fint=0.4 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=0 mb=10 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern=1
+Pod 224 192 857440 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 208 520210 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+ArmLocker 160 400 884273 hor_passage=1 dir=3 is_exit=0 vis-dmg="0,0"
+ArmLocker 320 400 183060 hor_passage=1 dir=0 is_exit=0 vis-dmg="0,0"
+FlameBlower 72 816 872240 blow_vel=80 tm_off=-1 flame_distance=64 vis-dmg="1,1" nr_flames=8 dir=2 tm_hurt=0.033 tm_on=-1 tm_new_flame=0.2
+SapPad 112 880 801114 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="110810"
+SapPad 368 864 7265 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="183350"
+FlameBlower 400 752 235415 blow_vel=100 tm_off=-1 flame_distance=60 vis-dmg="0,0" nr_flames=8 dir=3 tm_hurt=0.033 tm_on=-1 tm_new_flame=0.12
+EdgeDoor 336 752 331676 is_wide=0 vistype=0 only_open_dir=1
+EdgeDoor 64 432 739924 is_wide=1 vistype=0 only_open_dir=2
+ArmLocker 240 1008 506661 hor_passage=1 dir=3 is_exit=1 vis-dmg="0,0"
+SquishBounce 64 960 605088 hitbox_w=32 GNPC_ID="" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+FlameBlower 208 464 763240 blow_vel=135 tm_off=-1 flame_distance=40 vis-dmg="0,0" nr_flames=4 dir=1 tm_hurt=0.033 tm_on=-1 tm_new_flame=0.12
+Spike 288 496 591021 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 288 480 98221 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 288 464 270160 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pew 48 512 582616 fint_TICKS=-1 fint=0.15 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=15 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern=111000
+FollowLaser 48 576 213729 dmgtype=0 accel=0 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=60 is_dream=0 tracked_axis="x" is_fixed=1
+BarbedWire 96 736 162757 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="885375" wire_tile_width=3 is_gauntlet=1
+BarbedWire 240 752 885375 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+RaiseWall 240 976 183350 energy=9 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=9 permanent_open=1 s_open=1 children=""
+RaiseWall 240 944 110810 energy=9 is_wide=1 raise_distance=32 vistype=1 raise_dir=1 init_state=0 needed_en=9 permanent_open=1 s_open=1 children=""
+Pew 32 664 894321 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=15 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern=11100000
+Wind 48 608 316136 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=192 speed=40
+Pod 128 768 940772 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 144 768 899187 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 208 768 204846 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 768 480945 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 32 776 716320 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=15 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern=11100000
+OuchOutlet 272 864 825565 vel_lr=250 tm_dmg_reset=0.5 tm_slow_player=0.5 tm_off=1 vis-dmg="1,1" vel_down=250 len=1 vel_up=355 tm_on=1 dmg=48 vel_lr_ticks=13
+OuchOutlet 288 880 822698 vel_lr=250 tm_dmg_reset=0.5 tm_slow_player=0.5 tm_off=1 vis-dmg="0,0" vel_down=250 len=1 vel_up=355 tm_on=1 dmg=48 vel_lr_ticks=13
+GenericNPC 352 1168 424508 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv=1 debug_name="BOMB_AIR" children="" id="old_bomb_holder"
+SavePoint 80 96 896322
+SavePoint 112 416 665750
+Door 256 1184 750538 index=10 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+RaiseWall 400 176 276117 energy=0 is_wide=0 raise_distance=64 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+SapPad 496 144 572979 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="276117"
+EdgeDoor 144 880 567717 is_wide=1 vistype=0 only_open_dir=0
+FG2 START

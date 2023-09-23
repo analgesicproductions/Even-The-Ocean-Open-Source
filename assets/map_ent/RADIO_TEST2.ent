@@ -1,0 +1,99 @@
+BBG START
+BG1 START
+BG2 START
+BarbedWire 704 256 876700 children="635639" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+BarbedWire 736 160 635639 children="215938" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+BarbedWire 896 192 215938 children="" dmgtype=1 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=1 max_energy=32
+Pod 752 96 380080 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 816 96 932852 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 832 96 944577 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+NewWaterShooter 608 176 61513 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=5 fall_dampen=0
+Pod 496 128 608472 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 512 128 664495 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 480 128 905712 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pew 80 688 881755 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1,1,1,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+Pew 96 688 234803 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1,1,1,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+GenericNPC 912 400 112660 always_scripted=0 debug_name="ZIPLINE_SHIELD_CAUSES_PROBLEMS_FOR_PLAYER" context_int_csv="0,0" children="" map-scene-pos="p,dj,200" id="sign1" has_dialogue=1
+Pew 656 544 964438 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="0,1,1,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+Pew 720 544 521494 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1,0,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+Pew 592 544 462656 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="0,0,1,1,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+NewCamTrig 0 320 77052 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=27 is_hor_leveler=0 transition_v=390 tile_w=60
+RubberLaser 64 1104 810090 damage=8 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+NewWaterShooter 128 1136 288057 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=6 fall_dampen=0
+RubberLaser 192 976 436842 damage=8 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 192 944 742864 damage=8 face_l_no_dmg=0 nosbouncev=-120 init_wait=1 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 192 912 910781 damage=8 face_l_no_dmg=0 nosbouncev=-120 init_wait=2 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+NewWaterShooter 352 912 942358 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=10 fall_dampen=0
+Pod 112 1040 828625 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 128 1040 458557 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 96 1040 144884 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 208 1200 262604 always_scripted=0 debug_name="COME_FROM_EITHER_DIRECTION_AND_GO_UP" context_int_csv="0,0" children="" map-scene-pos="p,dj,201" id="sign1" has_dialogue=1
+Pew 592 784 387415 bspd=100 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+Pew 608 1184 897305 bspd=100 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+GenericNPC 560 1408 182178 always_scripted=0 debug_name="COME_FROM_EITHER_DIRECTION_AND_GO_UP" context_int_csv="0,0" children="" map-scene-pos="p,dj,202" id="sign1" has_dialogue=1
+Floater 1280 217 700435 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+RevolveSpore 1280 368 168678 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Button 1168 224 297636 children="380614" t_wait=0 vistype=0 damage=24
+Button 1392 224 36690 children="751431" t_wait=0 vistype=1 damage=24
+RaiseWall 1456 208 751431 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=1
+RaiseWall 1424 208 380614 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+Floater 1280 128 898474 base_dmg=15 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Pod 1360 64 171899 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1376 64 754743 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1392 64 799469 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1136 96 630265 always_scripted=0 debug_name="PUZZLY_IDEA_HAVE_TO_GET_BOTTOM_FLOATER_LOW_ENOUGH" context_int_csv="0,0" children="" map-scene-pos="p,dj,203" id="sign1" has_dialogue=1
+NewWaterShooter 1792 320 765457 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=9 fall_dampen=0
+NewWaterShooter 2016 256 914553 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=9 fall_dampen=0
+NewWaterShooter 2240 176 927357 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=8 fall_dampen=0
+BarbedWire 1744 448 180253 children="40039" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1920 432 40039 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1920 384 61069 children="900925" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 2112 336 900925 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+GenericNPC 1568 336 819275 always_scripted=0 debug_name="SIMPLE_ZIP_AND_GEYSER" context_int_csv="0,0" children="" map-scene-pos="p,dj,204" id="sign1" has_dialogue=1
+ExtendStem 1072 624 944003 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1376 672 77160 angle=225 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+OrbSlot 1248 576 681152 children="368389" transmit_en=16 vis=2 needed_en=0
+RaiseWall 1280 528 368389 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=64
+Pew 1376 576 797154 bspd=100 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,0,0,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+Pew 1248 704 949733 bspd=100 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="0,0,1,0" white_no_dmg=0 vistype=1 mb=15 fint=0.3
+NewWaterShooter 1024 1072 119247 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=7 fall_dampen=0
+RaiseWall 928 960 106699 children=4 energy=1 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=3 vistype=1 s_open=0 needed_en=2
+RaiseWall 960 960 685511 children="" energy=1 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=2
+Button 816 1024 634516 children="106699,685511" t_wait=0 vistype=1 damage=24
+Button 1232 1024 30328 children="106699,685511" t_wait=0 vistype=1 damage=24
+Pod 1104 1104 235532 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1088 1104 304120 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 976 1104 824291 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 960 1104 334225 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1168 1024 757570 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1184 1024 970666 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+GenericNPC 944 1152 705261 always_scripted=0 debug_name="GET_ON_TOP_OF_SPIKERS_WITH_GEYSER" context_int_csv="0,0" children="" map-scene-pos="p,dj,205" id="sign1" has_dialogue=1
+ExtendStem 1648 704 635575 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=6 vis-dmg="2,2" vel=55 deaccel=150
+FollowLaser 1680 768 342854 accel=50 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=270
+RaiseWall 1648 544 286080 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=1 s_open=0 needed_en=64
+BubbleSwitch 1600 608 892186 behave_type=2 ghost_maxvel=150 ghost_pull_strength=60 vistype=2 ghost_radius=64 ghost_on=0 children="0"
+BubbleSpawner 2016 656 912057 bubble_type=0 vistype=0
+NewWaterShooter 1440 1200 39169 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="1,1" tile_height=7 fall_dampen=0
+BubbleSwitch 1824 1056 660755 behave_type=2 ghost_maxvel=150 ghost_pull_strength=60 vistype=2 ghost_radius=64 ghost_on=0 children="0"
+BubbleSpawner 1504 1312 436272 bubble_type=1 vistype=1
+Pod 1472 992 938630 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1488 992 715299 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1504 992 663154 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SpikeExtend 864 1040 38886 accel_extend=1000 dmg=48 dir=1 vel_extend=300 vis-dmg="0,0" vel_retract=120 tm_wait_at_ends=0.7
+SpikeExtend 1168 1040 511099 accel_extend=1000 dmg=48 dir=3 vel_extend=300 vis-dmg="0,0" vel_retract=120 tm_wait_at_ends=0.7
+FG2 START
+LineCollider 160 96 484540 base_accel=145 coords="0,0,144,48" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 384 176 190631 base_accel=145 coords="0,0,160,-32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 608 96 784502 base_accel=145 coords="0,0,256,48" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+GenericNPC 80 112 922376 always_scripted=0 debug_name="KINETIC_ZIPLINE_STUFF" context_int_csv="0,0" children="" map-scene-pos="p,dj,206" id="sign1" has_dialogue=1
+LineCollider 96 448 541554 base_accel=145 coords="0,0,336,-64" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 512 432 373772 base_accel=145 coords="0,0,336,-64" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1856 256 826351 base_accel=145 coords="0,0,128,32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1632 320 555311 base_accel=145 coords="0,0,128,32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 2080 192 90496 base_accel=145 coords="0,0,128,32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1696 656 679043 base_accel=145 coords="0,0,272,-32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1392 1120 389219 base_accel=145 coords="0,0,112,0" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1392 1008 682611 base_accel=145 coords="0,0,272,16" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1568 1072 18596 base_accel=145 coords="0,0,176,96" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1392 1104 521604 base_accel=145 coords="0,0,112,-32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0
+LineCollider 1392 1024 53661 base_accel=145 coords="0,0,112,32" is_ceiling=0 zip_max_vel=330 is_zipline=1 invis=0

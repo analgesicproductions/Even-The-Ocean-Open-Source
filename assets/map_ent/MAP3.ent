@@ -1,0 +1,28 @@
+BBG START
+BG1 START
+BG2 START
+Door 864 1200 299493 index=0 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="48,48" dest_map="TUNNEL_5" next_cam_offset="0,0"
+Door 1149 832 309507 index=0 AUTO_INDEX=1 behavior=6 type=0 script="TOOL/DOORS/POSTGAME.HX" dest_x=3 dest_y=14 s_visited=1 custom_size="32,32" dest_map="OLD_ENTER" next_cam_offset="0,0"
+GenericNPC 640 752 429963 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="MAPTHING" children="" id="outer_wm_thing"
+Door 800 224 574421 index=2 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="100,60" dest_map="FALLS_1" next_cam_offset="0,0"
+GenericNPC 606 734 457259 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="SILO_PLACER" children="257013,317692" id="silo_placer"
+Door 90 257 257013 index=0 AUTO_INDEX=5 behavior=6 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="80,80" dest_map="SEA_SILO_0" next_cam_offset="0,0"
+GenericNPC 1136 752 249933 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="POSTGAMEOPENER" children="309507" id="postgame_door"
+Door 144 207 317692 index=0 AUTO_INDEX=5 behavior=6 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="80,80" dest_map="AIR_SILO_0" next_cam_offset="0,0"
+WMScaleSprite 870 1216 590778 oscillate=0 h=20 collidable=1 name_id="OUTER_TRAIN" bottom=1
+WMScaleSprite 239 175 387838 oscillate=0 h=20 collidable=0 name_id="WATERFALL" bottom=1
+WMScaleSprite 816 160 10856 oscillate=5 h=20 collidable=1 name_id="SEA_GEOME" bottom=1
+GenericNPC 80 224 978862 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,0" debug_name="FLOOD" children="744149,226784,692955,205899,387838,590778" id="ending_flood"
+WMScaleSprite 1152 816 186754 oscillate=0 h=20 collidable=0 name_id="MAP_STATUE" bottom=1
+GenericNPC 1136 814 636906 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=9 debug_name="" children="" id="worldmap_dialogue"
+WMScaleSprite 800 192 958003 oscillate=0 h=20 collidable=1 name_id="FALLSROCKS" bottom=1
+WMScaleSprite 896 192 778669 oscillate=0 h=20 collidable=1 name_id="FALLSROCKS" bottom=1
+WMScaleSprite 1024 192 435480 oscillate=0 h=20 collidable=1 name_id="FALLSROCKS" bottom=1
+WMScaleSprite 752 192 72673 oscillate=0 h=20 collidable=1 name_id="FALLSROCKS2" bottom=1
+WMScaleSprite 976 192 471818 oscillate=0 h=20 collidable=1 name_id="FALLSROCKS2" bottom=1
+FG2 START
+SetPiece 32 16 205899 tile_size="471,150" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=1
+SetPiece 48 16 692955 tile_size="474,149" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=30 blend_1ad2mu3sc=0
+SetPiece 32 80 744149 tile_size="476,72" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=6 id=3 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 16 84 226784 tile_size="489,71" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=2 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+ToneFader 848 240 136572 custom_color="OXRRGGBB" blend=1 inner_r=64 outer_r=128 mul_base_alpha=0.56 id="BASIN"

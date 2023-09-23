@@ -1,0 +1,66 @@
+BBG START
+BG1 START
+SetPiece 1072 16 189592 tile_size="185,1245" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1136 0 615459 tile_size="185,1245" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1200 0 1793 tile_size="185,1245" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+PushField 1136 384 442440 h=160 hor_push=-20 w=32
+PushField 1136 544 448408 h=160 hor_push=-20 w=32
+PushField 1136 736 400899 h=160 hor_push=-20 w=32
+BG2 START
+Door 208 16 133130 index=0 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=-8 s_visited=1 custom_size="0,0" dest_map="BASIN_1" next_cam_offset="0,0"
+GenericNPC 1072 864 854845 has_dialogue=1 map-scene-pos="FOREST,DIARY,0" always_scripted=0 context_int_csv="0,0" debug_name="DIARY" children=0 id="basindiary"
+GenericNPC 832 896 274295 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="DOLLY_LIFT" children="802076" id="dolly_lift"
+SavePoint 720 752 528645
+GenericNPC 624 464 55648 has_dialogue=1 map-scene-pos="FOREST,EDITH,0" always_scripted=0 context_int_csv="0,0" debug_name="EDITH" children="" id="edith"
+GenericNPC 432 208 568189 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENTER_TOWN" children="" id="forest_enter_scene"
+GenericNPC 896 288 749605 has_dialogue=1 map-scene-pos="FOREST,TRACY,0" always_scripted=0 context_int_csv="0,0" debug_name="TRACY" children="" id="tracy"
+BubbleSpawner 944 672 862248 vistype=0 bubble_type=0
+GenericNPC 720 880 838539 has_dialogue=1 map-scene-pos="FOREST,ALIPH_LIFT,3" always_scripted=0 context_int_csv="0,0" debug_name=12321 children="" id="signshore"
+Pod 592 560 582517 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 608 560 984212 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 256 192 166368 hor_leveler_px_up=96 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=21 tile_h=5
+SoundZone 256 224 603794 tile_w=7 type="snow" revert_on_exit=0 tile_h=4 wall_type="rock"
+SoundZone 368 224 957152 tile_w=17 type="tile" revert_on_exit=0 tile_h=5 wall_type="rock"
+SoundZone 656 270 567819 tile_w=23 type="snow" revert_on_exit=0 tile_h=4.125 wall_type="rock"
+SoundZone 720 352 809597 tile_w=8 type="wood" revert_on_exit=0 tile_h=7 wall_type="rock"
+SoundZone 640 432 149789 tile_w=5 type="snow" revert_on_exit=0 tile_h=4 wall_type="rock"
+Pod 768 304 895446 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 784 304 76522 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SoundZone 1024 288 22902 tile_w=8 type="carpet" revert_on_exit=0 tile_h=6 wall_type="rock"
+SoundZone 544 464 320702 tile_w=6 type="wood" revert_on_exit=0 tile_h=4 wall_type="rock"
+SoundZone 208 464 49856 tile_w=21 type="snow" revert_on_exit=0 tile_h=4 wall_type="rock"
+SoundZone 416 528 541436 tile_w=8 type="wood" revert_on_exit=0 tile_h=7 wall_type="rock"
+Elevator 224 240 37729 vis-dmg="0,0" has_console=1 is_basin=0 rise_height=12 override_anim_prefix="" door_info="BASIN_1,197,30" rise_vel=60 starts_at_top=0 children=""
+Elevator 784 912 336367 vis-dmg="1,1" has_console=0 is_basin=1 rise_height=8 override_anim_prefix="" door_info="none" rise_vel=60 starts_at_top=1 children=""
+GenericNPC 32 688 138584 has_dialogue=1 map-scene-pos="FOREST,CONSTANZA,0" always_scripted=0 context_int_csv="0,0" debug_name="CONSTANZA" children="" id="constanza"
+GenericNPC 80 688 612630 has_dialogue=1 map-scene-pos="FOREST,NEIGHBORS,0" always_scripted=0 context_int_csv="0,0" debug_name="NEIGHBORS" children="" id="carl"
+GenericNPC 48 736 570986 has_dialogue=1 map-scene-pos="FOREST,SARA" always_scripted=0 context_int_csv="0,0" debug_name="SARA" children="" id="sara"
+GenericNPC 96 736 575829 has_dialogue=1 map-scene-pos="FOREST,EDITH" always_scripted=1 context_int_csv="0,0" debug_name="BILLY" children="" id="billy"
+GenericNPC 64 656 158059 has_dialogue=1 map-scene-pos="FOREST,CONSTANZA,0" always_scripted=0 context_int_csv="0,0" debug_name="CONSTANZA" children="" id="constanza"
+GenericNPC 112 656 998651 has_dialogue=1 map-scene-pos="FOREST,NEIGHBORS,0" always_scripted=0 context_int_csv="0,0" debug_name="NEIGHBORS" children="" id="carl"
+GenericNPC 80 704 395925 has_dialogue=1 map-scene-pos="FOREST,SARA" always_scripted=0 context_int_csv="0,0" debug_name="SARA" children="" id="sara"
+GenericNPC 128 704 71200 has_dialogue=1 map-scene-pos="FOREST,EDITH" always_scripted=1 context_int_csv="0,0" debug_name="BILLY" children="" id="billy"
+GenericNPC 640 256 261263 has_dialogue=1 map-scene-pos="FOREST,CONSTANZA,0" always_scripted=0 context_int_csv="0,0" debug_name="CONSTANZA" children="" id="constanza"
+GenericNPC 320 464 731908 has_dialogue=1 map-scene-pos="FOREST,NEIGHBORS,0" always_scripted=0 context_int_csv="0,0" debug_name="NEIGHBORS" children="" id="carl"
+GenericNPC 928 576 642286 has_dialogue=1 map-scene-pos="FOREST,SARA" always_scripted=0 context_int_csv="0,0" debug_name="SARA" children="" id="sara"
+GenericNPC 1616 688 747328 has_dialogue=1 map-scene-pos="FOREST,EDITH" always_scripted=1 context_int_csv="0,0" debug_name="BILLY" children="" id="billy"
+GenericNPC 816 880 802076 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="basin_lift"
+GenericNPC 1136 0 545537 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GASPUSHER" children="" id="gaspusher"
+SavePoint 288 240 546763
+GenericNPC 784 816 784342 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="VALELIFT" children="" id="vale_lift"
+PushField 1136 160 424570 h=160 hor_push=-20 w=32
+SetPiece 1152 32 969878 tile_size="193,1271" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SoundZone 656 592 832230 tile_w=6 type="wood" revert_on_exit=0 tile_h=4 wall_type="rock"
+SoundZone 544 608 974604 tile_w=7 type="snow" revert_on_exit=0 tile_h=3 wall_type="rock"
+SoundZone 751 591 47015 tile_w=10 type="snow" revert_on_exit=0 tile_h=4 wall_type="rock"
+SoundZone 912 592 428664 tile_w=14 type="wood" revert_on_exit=0 tile_h=6 wall_type="rock"
+SoundZone 736 672 620549 tile_w=8 type="wood" revert_on_exit=0 tile_h=7 wall_type="rock"
+SoundZone 576 784 813422 tile_w=9 type="wood" revert_on_exit=0 tile_h=9 wall_type="rock"
+SoundZone 576 736 403990 tile_w=10 type="snow" revert_on_exit=0 tile_h=3 wall_type="rock"
+SoundZone 912 880 394940 tile_w=8 type="snow" revert_on_exit=0 tile_h=3 wall_type="rock"
+SoundZone 1040 880 477767 tile_w=7 type="dirt" revert_on_exit=0 tile_h=3 wall_type="rock"
+SoundZone 720 880 717293 tile_w=6 type="dirt" revert_on_exit=0 tile_h=3 wall_type="rock"
+SoundZone 816 848 195739 tile_w=6 type="tile" revert_on_exit=0 tile_h=5 wall_type="rock"
+FG2 START
+SetPiece 1088 16 847695 tile_size="193,1271" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1168 0 693892 tile_size="117,1286" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

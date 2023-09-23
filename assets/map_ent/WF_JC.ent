@@ -1,0 +1,35 @@
+BBG START
+BG1 START
+BG2 START
+BubbleSpawner 272 384 282138 vistype=0 bubble_type=0
+BubbleSwitch 400 384 757905 ghost_maxvel=150 ghost_radius=64 behave_type=0 vistype=0 ghost_pull_strength=60 children="874204,831964" ghost_on=0
+BubbleSwitch 848 384 665382 ghost_maxvel=150 ghost_radius=64 behave_type=1 vistype=1 ghost_pull_strength=60 children="490326,728406" ghost_on=0
+BubbleSpawner 1488 288 865687 vistype=1 bubble_type=1
+BubbleSpawner 992 384 368403 vistype=0 bubble_type=0
+BubbleSpawner 592 384 391920 vistype=1 bubble_type=1
+RaiseWall 464 352 874204 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=9 permanent_open=1 s_open=0 children=""
+RaiseWall 896 352 490326 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=9 permanent_open=1 s_open=0 children=""
+Pod 1120 400 549439 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 1200 336 814918 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=70 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0"
+BubbleSwitch 1904 288 377850 ghost_maxvel=150 ghost_radius=64 behave_type=1 vistype=1 ghost_pull_strength=60 children="32324,800123" ghost_on=0
+Pew 672 288 9899 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 752 288 725155 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+BubbleSwitch 1328 288 813868 ghost_maxvel=150 ghost_radius=64 behave_type=0 vistype=0 ghost_pull_strength=60 children="348732,112345" ghost_on=0
+RaiseWall 1376 256 348732 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=9 permanent_open=1 s_open=0 children=""
+GenericNPC 192 352 480486 has_dialogue=1 map-scene-pos="CITY,WF_JC,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_trunks"
+GenericNPC 1440 256 758106 has_dialogue=1 map-scene-pos="CITY,WF_JC,3" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_pollen"
+GenericNPC 528 352 90791 has_dialogue=1 map-scene-pos="CITY,WF_JC,1" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_roots"
+GenericNPC 944 352 204964 has_dialogue=1 map-scene-pos="CITY,WF_JC,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="city_dahlia"
+TrainTrigger 1760 112 216819 event_id="none" id=0
+GenericNPC 2016 258 338194 has_dialogue=0 map-scene-pos=0 always_scripted=1 context_int_csv=1 debug_name="" children="" id="junk_animal"
+WirePoint 1328 304 112345 pos="0,16,48,16,48,-16" vistype=0 forceTargetDir=-1 children="348732"
+WirePoint 848 400 728406 pos="0,16,48,16,48,-16" vistype=0 forceTargetDir=-1 children="490326"
+WirePoint 400 400 831964 pos="0,32,64,32,64,-16" vistype=0 forceTargetDir=-1 children="874204"
+WirePoint 1904 304 800123 pos="0,16,48,16,48,-16" vistype=0 forceTargetDir=-1 children="32324"
+RaiseWall 1952 256 32324 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=9 permanent_open=1 s_open=0 children=""
+SavePoint 96 368 278191
+Pod 1184 272 307858 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1200 272 653894 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 1552 192 287542 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=70 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0"
+Pew 1648 192 238486 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=70 white_no_dmg=0 is_dream=0 rhythm_pattern="2,2,0,0,0,0"
+FG2 START

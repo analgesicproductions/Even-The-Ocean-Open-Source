@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+Door 784 480 221705 AUTO_INDEX=3 behavior=0 dest_x=1 dest_map="PASS_ARTIST" index=1 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=14
+BG2 START
+Door 455 704 984638 AUTO_INDEX=0 behavior=1 dest_x=0 dest_map="PASS_TOWER_2" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 408 592 578739 AUTO_INDEX=1 behavior=1 dest_x=0 dest_map="PASS_TOWER_2" index=2 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 0 480 690033 AUTO_INDEX=2 behavior=0 dest_x=0 dest_map="EARTH_1" index=0 s_visited=0 next_cam_offset="0,0" type=2 script="" dest_y=0
+FG2 START

@@ -1,0 +1,5 @@
+BBG START
+BG1 START
+BG2 START
+Door 64 160 586270 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_4" index=10 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

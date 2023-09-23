@@ -1,0 +1,40 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 496 656 937764 always_scripted=1 debug_name="" context_int_csv="0,0" children="" id="starfish_blockage" map-scene-pos="" map-scene="" has_dialogue=0
+GenericNPC 0 656 374433 always_scripted=0 debug_name="" context_int_csv="0,0" children="" id="_" map-scene-pos="SHORE,SIGN,0" map-scene="SHORE,SIGN" has_dialogue=1
+GenericNPC 16 656 549082 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,SIGN,1" id="sign1" has_dialogue=1
+GenericNPC 32 656 742059 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,SIGN,2" id="sign1" has_dialogue=1
+GenericNPC 160 656 885263 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,FISHER_1" id="sign1" has_dialogue=1
+GenericNPC 224 656 398960 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,LOUNGER_1" id="sign1" has_dialogue=1
+GenericNPC 256 656 729561 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,LOUNGER_2" id="sign1" has_dialogue=1
+GenericNPC 288 656 177984 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,LOUNGER_3" id="sign1" has_dialogue=1
+GenericNPC 320 656 456140 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,LOUNGER_4" id="sign1" has_dialogue=1
+SavePoint 352 640 13109
+GenericNPC 551 653 82333 always_scripted=1 debug_name="" context_int_csv="1,0" children="" id="starfish_blockage" map-scene-pos="" map-scene="" has_dialogue=0
+GenericNPC 598 658 860710 always_scripted=1 debug_name="" context_int_csv="2,0" children="" id="starfish_blockage" map-scene-pos="" map-scene="" has_dialogue=0
+RubberLaser 128 544 806755 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=0 tinact=2 sbouncev=-180
+RubberLaser 128 512 863228 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=2 tact=2 vtype=1 tinact=2 sbouncev=-180
+RubberLaser 96 512 983809 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=1 tinact=2 sbouncev=-180
+RubberLaser 96 544 315598 damage=36 face_l_no_dmg=0 nosbouncev=-120 init_wait=0 dir=0 tact=2 vtype=0 tinact=2 sbouncev=-180
+WirePoint 96 704 770740 children="178102" invert=0 vistype=1 no_draw_child=0 force_dir=-1
+WirePoint 144 704 178102 children="279511" invert=1 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 144 656 279511 children="602885" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+GenericNPC 673 660 759946 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos=0 id="angry_lounger" has_dialogue=0
+GenericNPC 416 560 353713 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="clariseed_observer" has_dialogue=0
+GenericNPC 496 560 839607 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="clariseed_plant" has_dialogue=0
+SapPad 80 688 107979 children="770740,746535" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 96 672 692913 children="770740,746535" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+WirePoint 64 656 602885 children="397353" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 64 720 397353 children="486114" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+GenericNPC 418 659 364383 always_scripted=1 debug_name="" context_int_csv="0,0" children="" id="starfish_center" map-scene-pos="" map-scene="" has_dialogue=0
+WirePoint 96 720 486114 children="" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 240 736 746535 children="776572" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 176 736 776572 children="73206" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 176 688 73206 children="502918" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 256 688 502918 children="354977" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 256 720 354977 children="758344" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 224 720 758344 children=0 invert=0 vistype=2 no_draw_child=0 force_dir=-1
+Door 160 48 150744 AUTO_INDEX=1 behavior=0 dest_x=0 dest_map="NPC_HILL" index=7 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 720 656 811081 AUTO_INDEX=2 behavior=1 dest_x=1 dest_map="OLD_5" index=8 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

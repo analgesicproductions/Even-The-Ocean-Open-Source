@@ -1,0 +1,54 @@
+BBG START
+BG1 START
+BG2 START
+WaterShooter 672 1024 812778 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-300
+Weed 608 848 52056 vistype=0 dir=0
+Weed 624 848 755226 vistype=0 dir=0
+Weed 608 768 1873 vistype=1 dir=0
+Weed 624 768 548717 vistype=1 dir=0
+Weed 752 928 565602 vistype=1 dir=0
+Weed 768 928 152418 vistype=1 dir=0
+WaterShooter 736 688 835665 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-300
+Pod 416 480 450680 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 576 960296 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 464 404118 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 640 110853 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 672 910805 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 688 255145 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 432 498235 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 656 253263 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 768 775043 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 816 899049 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 816 782695 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 832 873070 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 528 662740 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 544 651469 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WaterShooter 304 944 372396 num_bullets=5 script_path="trap/WaterShooter_hs.hx" tm_idle=0 vistype=0 bul_vel_scale=1 tm_init=0 tm_charge=0 max_bullet_vel=-450
+Wind 560 16 637086 h=32 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=50
+Wind 656 16 205003 h=32 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=50
+Weed 512 48 548029 vistype=1 dir=0
+Weed 608 48 998285 vistype=1 dir=0
+Weed 720 48 950982 vistype=1 dir=0
+Wind 0 320 432496 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=80 speed=50
+Wind 96 160 860128 h=160 req_energy=0 angle=90 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=50
+Dropper 176 80 504690 vistype=0 drop_latency=1 max_drops=3
+Dropper 240 48 524141 vistype=0 drop_latency=1 max_drops=3
+Dropper 208 64 373695 vistype=0 drop_latency=1 max_drops=3
+Weed 208 304 319990 vistype=1 dir=0
+Weed 272 304 529795 vistype=1 dir=0
+Weed 336 304 130066 vistype=1 dir=0
+Door 0 320 239464 index=-1 AUTO_INDEX=7 behavior=0 type=0 script="" dest_x=760 dest_y=600 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE" next_cam_offset="0,0"
+Door 784 1008 217624 index=-1 AUTO_INDEX=9 behavior=0 type=0 script="" dest_x=32 dest_y=1384 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_DOWN" next_cam_offset="0,0"
+Wind 416 1088 327015 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=100
+Door 117 992 853590 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_CORE" next_cam_offset="0,0"
+SavePoint 240 432 913533
+Door 119 416 107157 index=0 AUTO_INDEX=11 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_CORE" next_cam_offset="0,0"
+RaiseWall 176 416 259499 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=1 permanent_open=0 s_open=0 children=""
+SapPad 144 448 78678 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=0 reverse=0 dmg=1 children="259499"
+Door 352 64 750054 index=12 AUTO_INDEX=13 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE" next_cam_offset="0,0"
+Door 736 96 512305 index=16 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREPLACEA" next_cam_offset="0,0"
+SavePoint 736 1024 93724
+SavePoint 48 1008 490814
+GenericNPC 384 64 552910 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,42" debug_name="" children="" id="dev_info"
+GenericNPC 304 288 758246 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,48" debug_name="" children="" id="dev_info"
+FG2 START

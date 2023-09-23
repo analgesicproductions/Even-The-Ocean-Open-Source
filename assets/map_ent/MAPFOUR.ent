@@ -1,0 +1,13 @@
+BBG START
+BG1 START
+BG2 START
+Door 208 128 879766 index=1 AUTO_INDEX=0 behavior=1 type=4 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="D_TOWER" next_cam_offset="0,0"
+Door 336 368 877726 index=1 AUTO_INDEX=1 behavior=1 type=4 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="JAIL" next_cam_offset="0,0"
+Door 560 240 331616 index=2 AUTO_INDEX=2 behavior=1 type=4 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="JAIL" next_cam_offset="0,0"
+Door 736 384 460887 index=3 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="32,32" dest_map="OLD_1" next_cam_offset="0,0"
+Door 688 672 79939 index=4 AUTO_INDEX=4 behavior=1 type=4 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="OLD_3" next_cam_offset="0,0"
+Door 384 672 791258 index=5 AUTO_INDEX=5 behavior=1 type=4 script="" dest_x=1 dest_y=14 s_visited=0 custom_size="0,0" dest_map="OLD_4" next_cam_offset="0,0"
+Door 80 560 538682 index=6 AUTO_INDEX=6 behavior=1 type=4 script="" dest_x=1 dest_y=14 s_visited=0 custom_size="0,0" dest_map="OLD_5" next_cam_offset="0,0"
+Door 80 704 704120 index=0 AUTO_INDEX=7 behavior=1 type=4 script="" dest_x=1 dest_y=14 s_visited=0 custom_size="0,0" dest_map="OLD_6" next_cam_offset="0,0"
+Door 448 480 823734 index=0 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="32,32" dest_map="OLD_2" next_cam_offset="0,0"
+FG2 START

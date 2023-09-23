@@ -1,0 +1,28 @@
+BBG START
+BG1 START
+BG2 START
+Door 3472 320 608271 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_2" next_cam_offset="0,-32"
+NewWaterShooter 784 352 912298 tile_height=5 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=320
+GenericNPC 64 16 777624 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="FLOOD" children="" id="ending_flood"
+TrainTrigger 144 48 616086 event_id="none" id=0
+Door 0 -96 856365 index=4 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=3 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+GenericNPC 192 64 897512 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="CALL_MAYOR" children="585735" id="s_3b_call_mayor"
+GenericNPC 1163 592 627246 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="g1_1_pile"
+GenericNPC 1376 549 247699 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="g1_1_pile"
+GenericNPC 64 32 545494 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="BLOCKER" children="" id="nature_blocker"
+TrainTrigger 96 32 82435 event_id="none" id=11
+TrainTrigger 432 64 498040 event_id="none" id=10
+GenericNPC 272 32 585735 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="ENTERAREA" children="" id="s1_s2_area_enter"
+SoundZone 16 80 277847 tile_w=5 type="rock" revert_on_exit=0 tile_h=8 wall_type="rock"
+NewCamTrig 3136 464 304790 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=22 tile_h=9
+GenericNPC 592 224 603149 has_dialogue=1 map-scene-pos="SHORE,FISHER_1" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="fisher"
+SoundZone 3040 480 529868 tile_w=28 type="tile" revert_on_exit=0 tile_h=9 wall_type="generic"
+SoundZone 928 448 872784 tile_w=5 type="rock" revert_on_exit=0 tile_h=8 wall_type="rock"
+GenericNPC 3280 544 225982 has_dialogue=1 map-scene-pos="SHORE,SIGN,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="signshore"
+SavePoint 960 512 762462
+NewCamTrig 240 96 424703 hor_leveler_px_up=64 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=8 tile_h=7
+SoundZone 992 576 202230 tile_w=8 type="sand" revert_on_exit=0 tile_h=8 wall_type="rock"
+FG2 START
+LineCollider 1008 640 284544 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,66,9,143,-1,217,-29,300,-55,389,-57,473,-47,618,8,768,48,832,48" invis=1
+LineCollider 2864 656 491776 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,45,-20,108,-39,160,-48" invis=1
+LineCollider 2064 656 989023 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,64,0,144,-16,207,-45,288,-64,368,-64,446,-44,512,-16,576,0" invis=1

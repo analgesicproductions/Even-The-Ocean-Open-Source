@@ -1,0 +1,12 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 -80 531036 index=4 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPTWO" next_cam_offset="0,0"
+Door 1584 -80 701565 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHALLOW_1" next_cam_offset="0,0"
+SavePoint 144 112 11251
+NewWaterShooter 352 160 134220 tile_height=2 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="1,1" is_vert=1 max_vel=280
+NewWaterShooter 480 176 830990 tile_height=2 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="1,1" is_vert=1 max_vel=280
+Pod 272 144 20058 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 256 160 121689 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 176 96 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,93" debug_name="" children="" id="dev_info"
+FG2 START

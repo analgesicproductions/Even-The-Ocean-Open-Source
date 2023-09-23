@@ -1,0 +1,23 @@
+BBG START
+BG1 START
+BarbedWire 1296 528 662747 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="864254" wire_tile_width=3 is_gauntlet=1
+BarbedWire 1376 512 864254 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+BG2 START
+SavePoint 320 288 409090
+Door 1456 880 598559 index=0 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=178 dest_y=212 s_visited=1 custom_size="0,0" dest_map="INTROCAVE" next_cam_offset="0,0"
+Door 0 144 897679 index=3 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=-1 dest_y=1 s_visited=1 custom_size="0,0" dest_map="INTRO_ASCENT" next_cam_offset="0,0"
+Pew 672 528 544031 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 688 720 677021 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 720 736 478457 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+TrainTrigger 208 0 961468 event_id="none" id=0
+SapPad 928 496 512553 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="798012"
+SapPad 1008 496 828333 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="424668"
+RaiseWall 1024 464 424668 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+RaiseWall 944 464 798012 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children=""
+GenericNPC 1456 128 962005 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="cass_bridge"
+TrainTrigger 1120 320 517779 event_id="none" id=1
+Door 1264 864 862095 index=2 AUTO_INDEX=6 behavior=0 type=4 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="INTROCAVE" next_cam_offset="0,0"
+FG2 START
+Pew 1424 736 801794 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 1424 672 748388 fint_TICKS=-1 fint=0.7 fpattern=2 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=45 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 1424 800 525832 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=1 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"

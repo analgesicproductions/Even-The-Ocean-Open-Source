@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 176 464 563484 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="screen_museum" has_dialogue=0
+TrainTrigger 0 0 397006 id=0 event_id="none"
+FG2 START

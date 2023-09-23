@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 208 -48 554748 AUTO_INDEX=0 custom_size="0,0" behavior=0 dest_x=-1 dest_map="BRIDGE_BASIN" index=1 s_visited=0 next_cam_offset="0,0" type=2 script="" dest_y=8
+Door 736 -48 549109 AUTO_INDEX=1 custom_size="0,0" behavior=0 dest_x=1 dest_map="BRIDGE_BASIN" index=0 s_visited=0 next_cam_offset="0,0" type=2 script="" dest_y=8
+FG2 START

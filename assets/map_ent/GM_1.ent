@@ -1,0 +1,45 @@
+BBG START
+GenericNPC 304 64 672635 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="GMBG" children="" id="gm_bg"
+BG1 START
+BG2 START
+NewCamTrig 0 0 613150 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+NewCamTrig 416 0 159355 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+NewCamTrig 832 0 96260 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+NewCamTrig 1248 0 4011 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+NewCamTrig 1664 0 950463 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+NewCamTrig 2080 0 258868 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+RaiseWall 400 176 797858 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+GenericNPC 184 160 499201 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ROUGE" children="" id="gm_door"
+GenericNPC 480 160 919488 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="SHORE" children="" id="gm_door"
+GenericNPC 560 160 3504 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children="" id="gm_door"
+GenericNPC 640 160 837780 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=3 debug_name="HILL" children="" id="gm_door"
+RaiseWall 816 176 766318 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+GenericNPC 896 160 105660 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER" children="" id="gm_door"
+GenericNPC 976 160 972109 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=5 debug_name="WOODS" children="" id="gm_door"
+GenericNPC 1056 160 738345 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=6 debug_name="BASIN" children="" id="gm_door"
+RaiseWall 1232 176 528401 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+GenericNPC 1408 416 85684 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=10 debug_name="DEPTH" children="" id="gm_door"
+GenericNPC 1312 160 468431 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=11 debug_name="EBO" children="" id="gm_door"
+GenericNPC 1392 160 347832 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=12 debug_name="ABO" children="" id="gm_door"
+GenericNPC 1472 160 80541 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=13 debug_name="SBO" children="" id="gm_door"
+RaiseWall 1648 176 659114 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+GenericNPC 1728 160 745338 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=7 debug_name="G1" children="" id="gm_door"
+GenericNPC 1808 160 241199 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=8 debug_name="G2" children="" id="gm_door"
+GenericNPC 1888 160 522335 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=9 debug_name="GE" children="" id="gm_door"
+RaiseWall 2064 176 786218 energy=0 is_wide=0 raise_distance=32 vistype=1 raise_dir=0 init_state=0 needed_en=64 permanent_open=1 s_open=0 children=""
+GenericNPC 2256 160 249836 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=14 debug_name="" children="" id="gm_door"
+SavePoint 304 192 45268
+SavePoint 736 192 158872
+SavePoint 1152 192 876018
+SavePoint 1568 192 522103
+SavePoint 1984 192 650386
+SavePoint 2384 192 841717
+GenericNPC 270 158 782851 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="797858" id="gm_opener"
+GenericNPC 684 137 982860 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="766318" id="gm_opener"
+GenericNPC 1067 114 272873 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="" children="528401" id="gm_opener"
+GenericNPC 1540 120 345007 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=11 debug_name="" children="659114" id="gm_opener"
+GenericNPC 1975 120 276809 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=7 debug_name="" children="786218" id="gm_opener"
+GenericNPC 96 176 71571 has_dialogue=1 map-scene-pos="UI,GAUNTLET_MODE_INFO,1" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 178 79 710495 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=100 debug_name="EVENT_SETTER" children=0 id="gm_opener"
+GenericNPC 2246 100 371043 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=14 debug_name="" children=0 id="gm_opener"
+FG2 START

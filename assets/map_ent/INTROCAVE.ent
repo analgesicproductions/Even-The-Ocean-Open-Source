@@ -1,0 +1,32 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 160 1008 693751
+Door 608 192 127114 index=0 AUTO_INDEX=1 behavior=0 type=0 script="TOOL/DOORS/INTROCAVE_END.hx" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="INTRO_G1_1" next_cam_offset="0,0"
+SavePoint 400 224 609471
+Pew 192 496 146691 fint_TICKS=-1 fint=0.25 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=5 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 336 576 165390 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=2 bullet_vis="-1,-1" dir=3 mb=4 bspd=80 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 275 264 671386 fint_TICKS=-1 fint=0.2 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=6 bspd=150 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 313 432 298540 fint_TICKS=-1 fint=0.7 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=4 bspd=60 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pew 352 144 307353 fint_TICKS=-1 fint=0.7 fpattern=1 vistype=2 bullet_vis="-1,-1" dir=2 mb=4 bspd=40 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+Pod 384 848 804709 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 848 375093 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 416 848 879951 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 352 848 670070 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 512 688 67999 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 688 254685 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 688 910350 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 704 329902 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 384 704 255322 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 272 720 202941 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 720 926837 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 720 416584 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 384 487012 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 400 631029 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 400 400 372082 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 368 371903 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 432 1072 795541 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children="" id="intro_tutorial"
+GenericNPC 608 1056 829018 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=3 debug_name="" children="" id="intro_tutorial"
+GenericNPC 432 480 556921 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="" children="" id="intro_tutorial"
+Door 80 0 89783 index=6 AUTO_INDEX=2 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="INTRO" next_cam_offset="0,0"
+FG2 START

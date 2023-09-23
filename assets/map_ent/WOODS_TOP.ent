@@ -1,0 +1,45 @@
+BBG START
+BG1 START
+BG2 START
+Wind 352 624 60437 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=120
+Wind 368 528 455552 h=32 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=120
+Spike 384 512 790375 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 400 528 553103 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 384 544 514478 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pod 288 720 500469 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 720 251255 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Wind 128 448 306449 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=192 speed=120
+Wind 176 336 205092 h=32 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=160 speed=120
+Spike 432 384 970289 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 448 384 898658 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 480 384 592217 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 464 384 808300 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 496 368 170827 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 512 368 393899 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 528 368 824424 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 432 304 575418 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 448 304 165050 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 464 304 904509 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 480 304 658853 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 544 368 221644 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 352 610657 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 320 442628 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 304 626866 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 272 296952 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 496 288 819504 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 496 256 167355 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 240 229152 dmgtype=0 dir=3 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+SinkPlatform 352 176 176524 yvel=30 return_rate=0.1 xvel=37 returns_home=1
+Wind 128 256 937905 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=120
+Wind 160 144 129293 h=16 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=192 speed=120
+SinkPlatform 160 16 705317 yvel=30 return_rate=0.1 xvel=37 returns_home=1
+Door 784 464 651821 index=5 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_UP2" next_cam_offset="0,0"
+Wind 784 48 583097 h=400 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=100
+Door 352 784 134594 index=9 AUTO_INDEX=3 behavior=0 type=3 script="" dest_x=1 dest_y=2 s_visited=1 custom_size="0,0" dest_map="WOODS_UP1" next_cam_offset="0,0"
+Door 128 790 94436 index=0 AUTO_INDEX=5 behavior=0 type=3 script="" dest_x=525 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_UP1" next_cam_offset="0,0"
+Door 0 784 867724 index=0 AUTO_INDEX=7 behavior=0 type=3 script="" dest_x=525 dest_y=0 s_visited=0 custom_size="0,0" dest_map="WOODS_UP1" next_cam_offset="0,0"
+Door -16 528 2126 index=0 AUTO_INDEX=9 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_START" next_cam_offset="0,0"
+Door -32 272 591593 index=0 AUTO_INDEX=11 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_START" next_cam_offset="0,0"
+Door -32 0 216081 index=0 AUTO_INDEX=13 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_START" next_cam_offset="0,0"
+GenericNPC 448 704 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,82" debug_name="" children="" id="dev_info"
+FG2 START

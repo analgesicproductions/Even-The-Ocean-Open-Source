@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 208 224 303255 AUTO_INDEX=1 behavior=1 dest_x=0 dest_map="OLD_3" index=6 s_visited=0 next_cam_offset="0,0" type=1 script="" dest_y=0
+Door 144 192 534582 AUTO_INDEX=3 behavior=4 dest_x=24 dest_map="E_PARK" index=0 s_visited=0 next_cam_offset="0,0" type=1 script="" dest_y=0
+PathUnlocker 400 32 347519 latency=0.2 layer=1 s_unlocked=1 sig_number=1 values="48,33,33,41" type="TEST" script="evenpath_script.hx" nodes="0,0,1,0,2,0,3,0"
+FG2 START

@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 128 308045 AUTO_INDEX=0 custom_size="0,0" behavior=0 dest_x=-1 dest_map="INTROCAVE" index=1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+Door 224 128 735967 AUTO_INDEX=1 custom_size="0,0" behavior=0 dest_x=1 dest_map="INTRO_B" index=1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+AliphItem 672 80 821144 id=31 vis_set=0 removes=0
+FG2 START

@@ -1,0 +1,30 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 528 288 204486 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="sign1" has_dialogue=1
+Door 112 224 643360 AUTO_INDEX=8 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 192 672 9984 AUTO_INDEX=9 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 192 672 947238 AUTO_INDEX=10 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 160 128 546952 AUTO_INDEX=11 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+BarbedWire 16 416 382482 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 36 483 887337 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 29 526 885307 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 19 596 552015 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 24 653 197540 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Spike 48 176 191838 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 48 224 52278 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 48 256 430478 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 64 288 335712 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 64 288 328995 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 64 320 673338 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 64 336 742608 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 80 352 854501 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+BarbedWire 55 738 381762 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 90 738 576417 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 112 738 492882 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 28 730 129858 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Door 512 752 678076 AUTO_INDEX=10 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 453 557 640739 AUTO_INDEX=10 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 734 491 124042 AUTO_INDEX=10 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+Door 624 16 958256 AUTO_INDEX=10 behavior=0 dest_x=0 dest_map="TEST" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=0
+FG2 START

@@ -1,0 +1,19 @@
+BBG START
+BG1 START
+BG2 START
+Spike 368 496 514779 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 384 496 71978 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 400 496 133819 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+Spike 416 496 234129 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=1 bounce_vel_max=250 bounce_vel_mid=210
+Weed 688 496 20392 vistype=1 dir=0
+Weed 704 496 514674 vistype=1 dir=0
+Weed 720 496 746622 vistype=1 dir=0
+Door 16 480 426530 index=3 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_ENTER" next_cam_offset="0,0"
+Door 928 480 375504 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_IN1" next_cam_offset="0,0"
+Wind 304 640 501477 h=32 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=320 speed=170
+SinkPlatform 560 96 65940 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+Wind 400 16 44842 h=80 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=50
+Door 688 0 584331 index=3 AUTO_INDEX=5 behavior=0 type=3 script="" dest_x=-1 dest_y=-7 s_visited=1 custom_size="0,0" dest_map="WOODS_UP2" next_cam_offset="0,0"
+SinkPlatform 256 96 274596 yvel=30 return_rate=0.5 xvel=37 returns_home=1
+EdgeDoor 912 480 623040 is_wide=0 vistype=0 only_open_dir=-1
+FG2 START

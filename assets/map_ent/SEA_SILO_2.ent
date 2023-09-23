@@ -1,0 +1,34 @@
+BBG START
+BG1 START
+SetPiece 208 128 251099 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+BG2 START
+NewCamTrig 0 0 300540 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=81 tile_h=16
+MirrorLaser 576 96 132793 t_shoot=0.1 init_wait=0 pattern="2,2,2,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="1,1" dmg=24 t_TICKS=0
+MirrorLaser 480 96 794061 t_shoot=0.1 init_wait=0 pattern="2,2,2,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="1,1" dmg=24 t_TICKS=0
+MirrorLaser 384 96 674026 t_shoot=0.1 init_wait=0 pattern="2,2,2,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="1,1" dmg=24 t_TICKS=0
+MirrorLaser 288 96 575708 t_shoot=0.1 init_wait=0 pattern="2,2,2,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="1,1" dmg=24 t_TICKS=0
+MirrorLaser 768 96 797632 t_shoot=0.1 init_wait=0 pattern="1,1,1,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="0,0" dmg=24 t_TICKS=0
+MirrorLaser 864 96 766191 t_shoot=0.1 init_wait=0 pattern="1,1,1,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="0,0" dmg=24 t_TICKS=0
+MirrorLaser 960 96 389194 t_shoot=0.1 init_wait=0 pattern="1,1,1,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="0,0" dmg=24 t_TICKS=0
+MirrorLaser 1056 96 378661 t_shoot=0.1 init_wait=0 pattern="1,1,1,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="0,0" dmg=24 t_TICKS=0
+NewCamTrig 1024 256 934285 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=36 tile_h=23
+RaiseWall 1280 544 320057 energy=0 is_wide=1 raise_distance=32 vistype=1 raise_dir=3 init_state=0 needed_en=48 permanent_open=1 s_open=0 children=""
+MirrorLaser 1168 400 846350 t_shoot=0.1 init_wait=0 pattern="1,1,1,0,0,0,0,0,0,0,0" vel=200 dir=2 vis-dmg="0,0" dmg=24 t_TICKS=0
+OrbSlot 1392 416 332242 transmit_en=16 vis=2 angle=270 children="578733,452471" needed_en=0
+RaiseWall 1184 576 102536 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=48 permanent_open=1 s_open=0 children=""
+MirrorLaser 1312 400 234273 t_shoot=0.1 init_wait=0 pattern="1,1,1,0,0,0,0,0,0,0,0" vel=200 dir=3 vis-dmg="0,0" dmg=24 t_TICKS=0
+OrbSlot 1344 560 414255 transmit_en=16 vis=2 angle=180 children="320057,970101" needed_en=0
+MirrorLaser 1216 352 2909 t_shoot=0.1 init_wait=0 pattern="2,2,2,0,0,0,0,0,0,0,0" vel=200 dir=2 vis-dmg="1,1" dmg=24 t_TICKS=0
+OrbSlot 1088 528 187235 transmit_en=16 vis=2 angle=180 children="102536,675785" needed_en=0
+NewCamTrig 992 624 74717 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=24
+Door 112 0 345872 index=0 AUTO_INDEX=0 behavior=0 type=4 script="" dest_x=0 dest_y=-3 s_visited=1 custom_size="0,0" dest_map="SEA_SILO_1" next_cam_offset="0,0"
+SavePoint 96 176 338594
+Pod 48 144 907408 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 48 128 247140 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 48 112 58621 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 1184 896 266257 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv=2 debug_name="BOMB_SEA" children="" id="old_bomb_holder"
+RaiseWall 1264 448 578733 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=48 permanent_open=1 s_open=0 children=""
+WirePoint 1344 576 970101 pos="0,16,-32,16,-32,-32" vistype=0 forceTargetDir=0 children="320057"
+WirePoint 1376 416 452471 pos="-128,0,-128,32" vistype=0 forceTargetDir=2 children="578733"
+WirePoint 1088 544 675785 pos="0,32,80,32" vistype=0 forceTargetDir=1 children="102536"
+FG2 START

@@ -1,0 +1,20 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 576 192 376289 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_ENTER_CITY" children="212019" id="i2_enter_city"
+TrainTrigger 192 48 868170 event_id="none" id=0
+GenericNPC 608 188 212019 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="RIAZ" children="" id="riaz"
+GenericNPC 672 192 671460 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I1_GATE" children="212019" id="i1_gate"
+Door 1040 -32 589208 index=584 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=2 dest_y=5 s_visited=1 custom_size="0,0" dest_map="MAP1" next_cam_offset="0,0"
+TrainTrigger 96 0 686978 event_id="none" id=1
+GenericNPC 848 192 155597 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="INTRO_YARA" children="" id="city_s_intro_yara"
+GenericNPC 880 144 91736 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="CITY_EXIT_BLOCKER" children="" id="city_exit_blocker"
+Door 128 320 890133 index=0 AUTO_INDEX=3 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_TRAIN_LO" next_cam_offset="0,0"
+Door 464 192 438234 index=0 AUTO_INDEX=4 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_TRAIN_HI" next_cam_offset="0,0"
+GenericNPC 432 192 947996 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_ENTER_CITY" children="" id="ending_city_enter"
+SavePoint 208 336 145198
+NewCamTrig 384 160 698318 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=41 tile_h=6
+TrainTrigger 448 48 503655 event_id="none" id=2
+GenericNPC 272 128 911310 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDBLOCKER" children="" id="end_blocker"
+GenericNPC 272 272 127070 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,0" debug_name="" children="" id="dev_info"
+FG2 START

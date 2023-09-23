@@ -1,0 +1,31 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 352 430560 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_2" next_cam_offset="0,0"
+Door 3072 384 326735 index=2 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=3 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAP2" next_cam_offset="0,0"
+GenericNPC 2976 544 713150 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="CLIFFBLCKER" children="" id="s2_nature_blocker"
+GenericNPC 2736 64 205431 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=8 debug_name="ENTER" children="" id="s1_s2_area_enter"
+TrainTrigger 2336 416 70686 event_id="none" id=10
+TrainTrigger 2541 416 749122 event_id="none" id=11
+RevolveSpore 2352 576 941324 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+SavePoint 2960 624 818947
+RevolveSpore 2128 560 656696 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Pod 2224 599 449112 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2260 599 164798 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2183 598 565583 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RevolveSpore 224 560 79235 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 464 480 492199 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 672 560 274475 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1664 554 583001 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Pod 1904 592 201592 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1936 592 841343 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 272 592 292774 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 592 392381 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 528 584 587097 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 560 584 49226 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1184 592 10502 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1216 592 17667 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1664 608 997932 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1696 608 324041 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START
+LineCollider 144 608 783409 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,111,5,264,5,418,-4,676,-4,826,4,1128,4,1367,14,1606,14,1829,4,2062,4,2295,15,2564,15,2768,32" invis=1

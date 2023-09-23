@@ -1,0 +1,49 @@
+BBG START
+BG1 START
+BG2 START
+ExtendStem 816 640 575536 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=3 return_vel=35 angle=270 deaccel=150
+ExtendStem 896 592 459029 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=5 return_vel=35 angle=270 deaccel=150
+ExtendStem 192 1040 81742 accel=70 tm_hurt=0.1 vel=100 vis-dmg="2,2" tile_width=8 return_vel=35 angle=24 deaccel=150
+ExtendStem 656 1168 125699 accel=75 tm_hurt=0.1 vel=100 vis-dmg="2,2" tile_width=8 return_vel=35 angle=335 deaccel=150
+ExtendStem 2208 832 409691 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=4 return_vel=35 angle=135 deaccel=150
+ExtendStem 2320 864 235062 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=4 return_vel=35 angle=135 deaccel=150
+ExtendStem 2432 896 315333 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=4 return_vel=35 angle=135 deaccel=150
+Pew 2160 848 235936 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0"
+ExtendStem 1712 560 725674 accel=70 tm_hurt=0.1 vel=100 vis-dmg="2,2" tile_width=5 return_vel=35 angle=0 deaccel=150
+Pew 1632 544 435726 fint_TICKS=-1 fint=0.25 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=1 mb=15 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0"
+Pew 2032 528 841087 fint_TICKS=-1 fint=0.24 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=15 bspd=120 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0"
+ExtendStem 1248 592 711780 accel=70 tm_hurt=0.1 vel=55 vis-dmg="2,2" tile_width=6 return_vel=35 angle=0 deaccel=100
+NewCamTrig 0 80 549521 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=55
+NewCamTrig 32 960 619767 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=63 tile_h=25
+NewCamTrig 704 704 601398 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=16
+NewCamTrig 288 112 481321 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=53
+NewCamTrig 704 112 772217 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=38
+Elevator 224 256 950811 vis-dmg="0,0" has_console=1 is_basin=0 rise_height=40 override_anim_prefix="" door_info="none" rise_vel=100 starts_at_top=1 children=""
+NewCamTrig 1120 400 951928 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=28 tile_h=23
+NewCamTrig 1568 432 802184 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=37 tile_h=18
+NewCamTrig 2160 400 224835 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=19
+NewCamTrig 2080 704 923353 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=41 tile_h=21
+Elevator 544 896 9754 vis-dmg="1,1" has_console=1 is_basin=0 rise_height=40 override_anim_prefix="" door_info="none" rise_vel=100 starts_at_top=0 children=""
+Door -1 0 808162 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_2" next_cam_offset="0,0"
+Door 2720 592 818909 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G2" next_cam_offset="0,0"
+SavePoint 160 240 941812
+Pod 272 1120 588717 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 1120 656038 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 352 1168 395190 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 1168 244954 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 928 1040 109953 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 944 1040 540387 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 640 240 491357
+Pod 944 432 814480 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 960 432 171828 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 928 640 841231 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 912 640 229196 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1808 640 574766 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1840 640 850873 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pew 2608 880 938440 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=1 bullet_vis="-1,-1" dir=3 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0"
+Pod 2544 976 880453 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2560 976 410189 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2576 976 73002 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 944 640 852546 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SetPiece 32 160 968434 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START

@@ -1,0 +1,39 @@
+BBG START
+BG1 START
+BG2 START
+Door 480 1504 153869 index=1 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_4" next_cam_offset="0,0"
+LaunchBug 368 1408 732906 bul_dmg=14 is_up=0 launch_vel=0 ishor=1 vistype=0 is_left=0 tm_hurt=0.04 bul_nVelFreq="2,100,0.2" x_vel=50 y_vel=100
+Weed 448 1520 925343 vistype=0 dir=0
+Weed 352 1520 104600 vistype=1 dir=0
+Weed 432 1520 54476 vistype=0 dir=0
+Weed 368 1520 274455 vistype=1 dir=0
+Dasher 624 1072 762073 dmgtype=0 is_32=0 always_bounce=1 dash_vel=120 vis-dmg="0,0" y_dash_vel=0 is_vert=1 is_hor=1
+Dasher 672 1024 725071 dmgtype=0 is_32=0 always_bounce=1 dash_vel=120 vis-dmg="0,0" y_dash_vel=0 is_vert=0 is_hor=1
+RaiseWall 400 1248 499034 energy=0 is_wide=1 raise_distance=32 vistype=0 raise_dir=1 init_state=0 needed_en=2 permanent_open=1 s_open=0 children=""
+Button 336 1216 488291 t_wait=0 vistype=0 damage=48 children="499034"
+Button 800 1184 346623 t_wait=0 vistype=0 damage=48 children="499034"
+LaunchBug 448 1360 650452 bul_dmg=14 is_up=0 launch_vel=0 ishor=1 vistype=0 is_left=1 tm_hurt=0.04 bul_nVelFreq="2,100,0.2" x_vel=50 y_vel=40
+Cauliflower 800 1296 148584 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 672 1232 505636 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0.2 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+Dasher 576 976 673184 dmgtype=0 is_32=0 always_bounce=1 dash_vel=120 vis-dmg="0,0" y_dash_vel=0 is_vert=0 is_hor=1
+Dasher 592 896 164675 dmgtype=0 is_32=0 always_bounce=1 dash_vel=60 vis-dmg="0,0" y_dash_vel=0 is_vert=0 is_hor=1
+LaunchBug 640 1216 403023 bul_dmg=14 is_up=1 launch_vel=0 ishor=0 vistype=0 is_left=0 tm_hurt=0.04 bul_nVelFreq="2,100,0.2" x_vel=90 y_vel=40
+LaunchBug 688 1328 392920 bul_dmg=14 is_up=0 launch_vel=0 ishor=0 vistype=0 is_left=0 tm_hurt=0.04 bul_nVelFreq="2,100,0.2" x_vel=50 y_vel=40
+Wind 528 512 323610 h=320 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=100
+Wind 688 512 896688 h=320 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=16 speed=100
+Cauliflower 608 720 181547 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 576 608 98019 is_self_aware=0 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=1 move_vel=40 max_babies=5 nr_stalks=3
+EdgeDoor 32 48 875159 is_wide=0 vistype=0 only_open_dir=-1
+Door 0 48 450391 index=5 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_2" next_cam_offset="0,0"
+LaunchBug 464 368 936062 bul_dmg=8 is_up=0 launch_vel=0 ishor=1 vistype=0 is_left=1 tm_hurt=0.02 bul_nVelFreq="3,100,0.2" x_vel=50 y_vel=90
+Cauliflower 647 336 571087 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Cauliflower 560 224 862807 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+LaunchBug 752 256 328032 bul_dmg=8 is_up=0 launch_vel=0 ishor=1 vistype=0 is_left=0 tm_hurt=0.02 bul_nVelFreq="3,100,0.2" x_vel=50 y_vel=90
+Cauliflower 672 96 851790 is_self_aware=1 sink_vel=25 tm_shoot=10 tm_damage=0 vistype=0 move_vel=40 max_babies=5 nr_stalks=3
+Button 752 64 840447 t_wait=1.5 vistype=0 damage=1 children="21845"
+Button 480 112 401990 t_wait=1.5 vistype=0 damage=1 children="21845"
+RaiseWall 496 48 21845 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=2 permanent_open=1 s_open=0 children=""
+SavePoint 400 1520 655597
+SavePoint 640 1104 923054
+GenericNPC 544 1088 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,71" debug_name="" children="" id="dev_info"
+FG2 START

@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 544 535019 index=3 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_2" next_cam_offset="0,0"
+FG2 START
+LineCollider 2768 672 214313 zip_max_vel=330 is_zipline=1 is_ceiling=0 base_accel=145 coords="0,0,736,-496" invis=0

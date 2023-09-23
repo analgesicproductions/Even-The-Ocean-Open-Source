@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 256 432 196431 index=0 AUTO_INDEX=1 behavior=1 type=0 script="TOOL/DOORS/ENTER_HIRES.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_ALIPH2" next_cam_offset="0,0"
+Door 1488 320 336444 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="WF_TRAIN_HI" next_cam_offset="0,0"
+GenericNPC 96 368 857555 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children="" id="screen_train_lo"
+FG2 START
+LineCollider 368 384 744041 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,64,-16,96,-48,272,-48,320,-36,382,-36,528,-80,656,-80,784,-48,832,-16,944,-16,1040,-32,1152,-32,1264,-80,1312,-128,1632,-128,1680,-160" invis=1

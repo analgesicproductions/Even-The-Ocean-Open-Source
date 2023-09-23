@@ -1,0 +1,102 @@
+BBG START
+BG1 START
+BG2 START
+NewCamTrig 32 16 569132 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=16 is_hor_leveler=0 transition_v=390 tile_w=120
+MovePod 224 176 920013 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 288 144 35067 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 160 176 833376 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 224 480 4994 behavior=0 launch_dir=6 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 400 400 700518 behavior=0 launch_dir=6 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 320 464 413321 behavior=0 launch_dir=6 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1" touch_dmg=24 move_vel=50 dir=0
+NewCamTrig 32 656 585962 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=35 is_hor_leveler=0 transition_v=390 tile_w=26
+MovePod 160 800 862164 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 288 800 816940 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 192 800 363379 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 256 800 461754 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+NewCamTrig 160 864 254495 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=2 is_hor_leveler=0 transition_v=390 tile_w=9
+NewCamTrig 160 752 401697 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=2 is_hor_leveler=0 transition_v=390 tile_w=9
+MovePod 192 912 46784 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 256 912 225958 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+NewCamTrig 160 976 486784 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=2 is_hor_leveler=0 transition_v=390 tile_w=9
+MovePod 160 912 240970 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 224 912 794762 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 176 1024 69082 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 208 1024 395972 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 240 1024 479626 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 288 1024 431784 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 192 1024 940263 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 256 1024 34863 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 624 1008 149241 behavior=0 launch_dir=1 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 656 976 230180 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 656 928 397526 behavior=0 launch_dir=1 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 688 896 756241 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 688 848 486303 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 688 800 921315 behavior=0 launch_dir=1 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 720 784 607199 behavior=0 launch_dir=2 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+BarbedWire 624 1072 339144 children="232677" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 704 1008 232677 children="419898" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 752 880 419898 children="807729" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 800 832 807729 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+MovePod 112 112 899242 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1120 928 151124 behavior=1 launch_dir=0 min_max="80,64" launch_vel=300 tm_reset=0.5 vis-dmg="1,1" touch_dmg=24 move_vel=50 dir=2
+MovePod 1113 992 323317 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+SapPad 992 880 312179 children="710982" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+SapPad 1232 880 109478 children="18804" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 1104 816 18804 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=1 vistype=1 s_open=0 needed_en=32
+RaiseWall 1104 784 710982 children="" energy=0 is_wide=1 init_state=0 permanent_open=1 raise_distance=32 raise_dir=3 vistype=1 s_open=0 needed_en=32
+Pod 1232 992 199873 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1232 1008 526110 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+MovePod 768 496 297734 behavior=1 launch_dir=6 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=2
+MovePod 992 400 179124 behavior=1 launch_dir=6 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 880 480 230661 behavior=1 launch_dir=6 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1" touch_dmg=24 move_vel=50 dir=2
+MovePod 1312 480 203526 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+NewCamTrig 1184 336 570123 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=18 is_hor_leveler=0 transition_v=390 tile_w=71
+MovePod 1424 480 637760 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1520 480 181384 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1472 528 221972 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1760 480 724450 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1856 528 817061 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1952 480 238690 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 2048 528 206387 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 2144 480 829257 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+NewCamTrig 1328 656 721215 is_VERT=0 hor_leveler_px_up=0 is_look_downer=0 tile_h=37 is_hor_leveler=0 transition_v=390 tile_w=26
+NewCamTrig 1456 880 791352 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=2 is_hor_leveler=0 transition_v=390 tile_w=9
+NewCamTrig 1456 752 836086 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=2 is_hor_leveler=0 transition_v=390 tile_w=9
+MovePod 1472 928 601655 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1584 928 298193 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+NewCamTrig 1456 1008 777266 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=2 is_hor_leveler=0 transition_v=390 tile_w=9
+MovePod 1456 928 70336 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1568 928 558351 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1504 1056 556305 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1536 1056 719046 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1584 1056 327482 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1488 1056 126165 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 1552 1056 441586 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1504 816 617420 behavior=1 launch_dir=0 min_max="16,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=2
+MovePod 1568 704 142061 behavior=0 launch_dir=5 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 1520 928 92584 behavior=1 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=2
+MovePod 1488 960 241522 behavior=1 launch_dir=0 min_max="0,64" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=2
+MovePod 1472 1088 686810 behavior=1 launch_dir=0 min_max="16,16" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=2
+MovePod 1520 1104 297900 behavior=1 launch_dir=0 min_max="0,64" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=2
+MovePod 1472 1056 452682 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 2000 800 642122 behavior=1 launch_dir=0 min_max="48,48" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=2
+MovePod 2000 720 242425 behavior=1 launch_dir=4 min_max="48,48" launch_vel=300 tm_reset=0.5 vis-dmg="1,1" touch_dmg=24 move_vel=50 dir=2
+MovePod 656 160 488104 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 848 160 640273 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+Pod 688 192 44083 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 704 192 704154 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 720 192 852098 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 736 192 289620 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 768 192 917464 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 784 192 601987 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 800 192 268177 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 816 192 611134 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+MovePod 752 160 216272 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 160 1376 531759 behavior=1 launch_dir=6 min_max="48,48" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 336 1376 543633 behavior=1 launch_dir=6 min_max="48,48" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 384 1392 949105 behavior=0 launch_dir=0 min_max="32,32" launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 672 1392 894495 behavior=1 launch_dir=6 min_max="96,0" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 704 1296 951380 behavior=1 launch_dir=6 min_max="0,96" launch_vel=300 tm_reset=0.5 vis-dmg="1,1," touch_dmg=24 move_vel=50 dir=0
+MovePod 640 1376 604636 behavior=0 launch_dir=1 min_max=1 launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+MovePod 560 1472 150033 behavior=0 launch_dir=0 min_max=1 launch_vel=300 tm_reset=0.5 vis-dmg="0,0" touch_dmg=24 move_vel=50 dir=0
+FG2 START

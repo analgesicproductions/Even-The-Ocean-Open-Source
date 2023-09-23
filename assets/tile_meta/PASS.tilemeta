@@ -1,0 +1,121 @@
+also fg
+solid_invis_map 20,60 24 42,82 41,81 43,83 44,84 45,85 46,86 47,87 48,88 40,80 31,71 32,72 21,89 5,6 7,8 23,33 22,61 408,90 409,91 410,92 411,93 2,62 24,63
+flip_map 1,240 49,245 50,246 51,241 52,242 53,243 54,244 9,247 10,248 11,249 12,250 13,251
+START
+solid 5.8 20 21 23 33 60 63 24
+fl45 41 81
+fr45 42 82
+cl45 43 83
+cr45 44 84
+lo22l 45 85
+hi22l 46 86
+hi22r 47 87
+lo22r 48 88
+water_surface 31 71
+water 32 72
+top 40 80
+gasdarklo 25 2000.2159 1980.1983
+gasdark 26 1500.1659 1480.1483
+gasdarkhi 27
+gaslightlo 28 1000.1159 980.983
+gaslight 29 500.659 480.483
+gaslighthi 30
+floor_ice 23 33
+noclimb 22 61
+permeable 21 89 40 80
+sand 73
+mirror 24 63
+diff_easy 3
+diff_normal 4
+diff_cloud 34
+organic 2 62
+cloud_no_drop 408 90
+l_to_r 409 91
+u_to_d 410 92
+r_to_l 411 93
+hard_gasdark 5 6
+hard_gaslight 7 8
+bgall 1 49 50
+bgfl 51 
+bgfr 52 
+bgcl 53 
+bgcr 54
+nat_bgall 9
+nat_bgfl 10
+nat_bgfr 11
+nat_bgcl 12
+nat_bgcr 13
+#
+# gasedge will be re-made by autotiler, assigned to the right intensity/alignment.
+gasedge 484.492 660.979 984.991 1160.1479 1484.1491 1660.1979 1984.1991 2160.2479
+#
+# To add invis hard: Add the (normal,invis) pair at top. Add both IDs to the correspond tilemeta row. Add the invis ID to invishard. Add a mapping in get_invis_frame . Make sure enough anims in the editor for the tiles. add the tiles to the tileset. also add them to solid if needed
+invishard 60 61 62 63 71 72 80.89 73 6 8 33 90.93
+END
+
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+400 DEBUG4 400,401 10
+402 DEBUG4 400,401,402 20
+
+#GAS LIGHT MED
+480 PASS 500,gas 12
+481 PASS 540,gas 12
+482 PASS 580,gas 12
+483 PASS 620,gas 12
+
+484 PASS 660,gas 12
+485 PASS 700,gas 12
+486 PASS 740,gas 12
+487 PASS 780,gas 12
+488 PASS 820,gas 12
+489 PASS 860,gas 12
+490 PASS 900,gas 12
+491 PASS 940,gas 12
+
+#GAS LIGHT LO
+980 PASS 1000,gas 12
+981 PASS 1040,gas 12
+982 PASS 1080,gas 12
+983 PASS 1120,gas 12
+
+984 PASS 1160,gas 12
+985 PASS 1200,gas 12
+986 PASS 1240,gas 12
+987 PASS 1280,gas 12
+988 PASS 1320,gas 12
+989 PASS 1360,gas 12
+990 PASS 1400,gas 12
+991 PASS 1440,gas 12
+
+#GAS DARK MED
+1480 PASS 1500,gas 12
+1481 PASS 1540,gas 12
+1482 PASS 1580,gas 12
+1483 PASS 1620,gas 12
+
+1484 PASS 1660,gas 12
+1485 PASS 1700,gas 12
+1486 PASS 1740,gas 12
+1487 PASS 1780,gas 12
+1488 PASS 1820,gas 12
+1489 PASS 1860,gas 12
+1490 PASS 1900,gas 12
+1491 PASS 1940,gas 12
+
+#GAS DARK LO
+1980 PASS 2000,gas 12
+1981 PASS 2040,gas 12
+1982 PASS 2080,gas 12
+1983 PASS 2120,gas 12
+
+1984 PASS 2160,gas 12
+1985 PASS 2200,gas 12
+1986 PASS 2240,gas 12
+1987 PASS 2280,gas 12
+1988 PASS 2320,gas 12
+1989 PASS 2360,gas 12
+1990 PASS 2400,gas 12
+1991 PASS 2440,gas 12
+
+END

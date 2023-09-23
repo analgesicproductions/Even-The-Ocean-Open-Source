@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 448 304 80583 index=2 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="SEA_BOSS" next_cam_offset="0,0"
+Door 16 208 335774 index=2 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=-2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SEA_5" next_cam_offset="0,0"
+FG2 START

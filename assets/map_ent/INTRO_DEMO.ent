@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 560 176 52315
+Door 16 -159 116710 index=1 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="JONLET" next_cam_offset="0,0"
+Door 16 336 739595 index=1 AUTO_INDEX=5 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SEANLET" next_cam_offset="0,0"
+Door 480 288 495056 index=4 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="OLD_1" next_cam_offset="0,0"
+FG2 START

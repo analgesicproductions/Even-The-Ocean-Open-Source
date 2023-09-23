@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Door 272 48 542093 index=2 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TOWN_THING" next_cam_offset="0,0"
+SavePoint 192 160 475970
+Door 96 2304 142672 index=0 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+SavePoint 224 2336 571465
+Pod 160 2288 812138 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 176 2272 206691 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 224 144 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,126" debug_name="" children="" id="dev_info"
+FG2 START

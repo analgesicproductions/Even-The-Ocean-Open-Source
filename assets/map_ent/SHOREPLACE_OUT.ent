@@ -1,0 +1,38 @@
+BBG START
+BG1 START
+BG2 START
+WaterShooter 528 560 988707 bul_vel_scale=1 max_bullet_vel=-300 script_path="trap/WaterShooter_hs.hx" tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=5
+Pod 192 480 243101 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 128 480 760286 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 80 480 539761 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+WaterShooter 688 496 177405 bul_vel_scale=1 max_bullet_vel=-400 script_path="trap/WaterShooter_hs.hx" tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=5
+Weed 560 288 961587 dir=0 vistype=1
+Weed 576 288 219055 dir=0 vistype=1
+Wind 832 64 118203 angle=220 global=0 en_align=-1 req_energy=0 h=48 w=32 speed=220
+Pod 480 304 885435 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 432 304 614640 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Door 0 128 515755 AUTO_INDEX=3 behavior=0 dest_x=668 dest_map="SHOREPLACE_SECRET" index=-1 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=359
+Pew 848 320 299013 bspd=40 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=4 fint=0.7
+Pew 928 256 5171 bspd=40 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=4 fint=0.7
+Pod 768 192 381343 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 816 240 349846 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 768 288 975325 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+WaterShooter 1056 496 384265 bul_vel_scale=1 max_bullet_vel=-380 script_path="trap/WaterShooter_hs.hx" tm_charge=0 tm_init=0 vistype=0 tm_idle=0 num_bullets=5
+Door 0 48 895083 AUTO_INDEX=5 behavior=0 dest_x=680 dest_map="SHOREPLACE_SECRET" index=-1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=184
+Pod 1152 608 225364 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 1120 608 861067 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 976 608 84111 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Weed 1168 480 634826 dir=0 vistype=0
+Weed 1152 352 944585 dir=0 vistype=0
+RaiseWall 816 560 262320 children="" energy=0 is_wide=0 init_state=-1 permanent_open=0 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=64
+SapPad 1040 608 492073 children="262320" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+Pew 720 528 465826 bspd=69 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=4 fint=0.7
+Pew 784 512 989520 bspd=69 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=4 fint=0.7
+Pew 752 592 698237 bspd=69 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=4 fint=0.7
+Weed 880 576 368808 dir=0 vistype=1
+Weed 928 576 531614 dir=0 vistype=1
+Weed 896 576 259163 dir=0 vistype=1
+Pod 944 96 305192 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 976 48 593474 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+AliphItem 624 544 442087 id=-1 vis_set=0 removes=0
+FG2 START

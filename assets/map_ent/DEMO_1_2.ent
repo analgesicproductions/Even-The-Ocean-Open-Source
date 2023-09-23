@@ -1,0 +1,88 @@
+BBG START
+WirePoint 544 512 443916 children="" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+BG1 START
+Pew 512 832 263683 bspd=40 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1.2
+WirePoint 464 736 836155 children="304401" invert=0 vistype=1 no_draw_child=0 force_dir=-1
+WirePoint 432 704 275976 children="" invert=0 vistype=2 no_draw_child=0 force_dir=-1
+WirePoint 592 736 999684 children="708056" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 592 704 708056 children="703400" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 608 704 703400 children="" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+BG2 START
+Door 512 704 13009 AUTO_INDEX=0 behavior=1 dest_x=0 dest_map="MOTION_DEMO_1" index=2 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+SapPad 592 736 16428 children="393334,999684" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+Cauliflower 832 848 76659 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=0 tm_shoot=10 nr_stalks=3
+Cauliflower 720 848 949699 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=0 tm_shoot=10 nr_stalks=3
+RaiseWall 608 704 393334 children="" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=4
+SapPad 464 736 969838 children="550596,836155" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+RaiseWall 432 704 550596 children="" energy=4 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=2 vistype=1 s_open=1 needed_en=4
+Cauliflower 864 704 267686 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=0 tm_shoot=10 nr_stalks=3
+Pew 656 800 827107 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1.2
+Pew 672 800 294976 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1.2
+Cauliflower 806 655 532804 is_self_aware=1 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=1 tm_shoot=10 nr_stalks=3
+SinkPlatform 672 480 905081 return_rate=0.5 returns_home=1 yvel=30 xvel=37
+SinkPlatform 896 368 490915 return_rate=0.5 returns_home=1 yvel=30 xvel=37
+Spike 768 256 558207 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 816 256 45520 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 848 256 723196 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 800 256 592244 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 832 256 924470 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 784 256 613977 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Pod 144 800 889692 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 160 800 801101 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 144 736 562719 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 160 720 969133 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 128 752 208161 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 176 704 413436 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+HurtOutlet 288 736 990584 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 224 704 193759 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+RaiseWall 384 624 471947 children="" energy=1 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=1 needed_en=1
+FollowLaser 208 144 13171 accel=0 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=59 tracked_axis="x" fixed_angle=90
+Wind 96 48 616769 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=64 speed=50
+Pod 320 208 623960 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 400 208 687402 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Pod 368 208 126579 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=3 dmgtype=1
+Cauliflower 912 880 451465 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=1 tm_shoot=10 nr_stalks=3
+RevolveSpore 656 208 513713 base_vel=420 vis-dmg="0,0" hurt_ticks=5
+RevolveSpore 864 128 182442 base_vel=420 vis-dmg="0,0" hurt_ticks=5
+RevolveSpore 736 80 420049 base_vel=420 vis-dmg="0,0" hurt_ticks=5
+Cauliflower 705 656 928655 is_self_aware=0 move_vel=40 max_babies=5 sink_vel=25 tm_damage=0 vistype=0 tm_shoot=10 nr_stalks=3
+RaiseWall 528 512 665401 children="" energy=0 is_wide=1 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=3 vistype=0 s_open=0 needed_en=1
+RaiseWall 528 544 870989 children="" energy=0 is_wide=1 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=3 vistype=0 s_open=0 needed_en=1
+RaiseWall 528 576 432460 children="" energy=1 is_wide=1 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=3 vistype=0 s_open=1 needed_en=1
+RaiseWall 528 608 268125 children="" energy=0 is_wide=1 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=3 vistype=0 s_open=0 needed_en=1
+Button 592 48 688588 children="282696,665401" t_wait=1.5 vistype=0 damage=48
+WirePoint 464 752 304401 children="782127" invert=0 vistype=1 no_draw_child=0 force_dir=-1
+WirePoint 448 704 385575 children="275976" invert=0 vistype=1 no_draw_child=0 force_dir=-1
+WirePoint 448 752 782127 children="385575" invert=0 vistype=1 no_draw_child=0 force_dir=-1
+GenericNPC 528 624 515667 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="DEMO,SIGN,18" id="sign1" has_dialogue=1
+SinkPlatform 688 384 111731 return_rate=0.5 returns_home=1 yvel=30 xvel=37
+WirePoint 496 96 320171 children="209219" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 528 96 209219 children="834952" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 528 64 834952 children="636039" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 560 64 636039 children=0 invert=0 vistype=2 no_draw_child=0 force_dir=-1
+Wind 160 320 245301 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=48 speed=50
+Wind 336 288 792345 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=48 speed=50
+Pew 32 448 404420 bspd=80 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+Pew 32 416 715795 bspd=80 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=2 mb=4 fint=0.7
+EdgeDoor 448 592 214567 is_wide=1 vistype=0 only_open_dir=-1
+EdgeDoor 608 560 567559 is_wide=0 vistype=0 only_open_dir=-1
+EdgeDoor 416 704 347566 is_wide=0 vistype=0 only_open_dir=-1
+EdgeDoor 624 704 482677 is_wide=0 vistype=0 only_open_dir=-1
+Pod 272 352 321827 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 176 384 69855 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+HurtOutlet 208 880 523336 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+HurtOutlet 272 816 958015 dmg=24 init_wait=0 tm_off=0.5 vistype=1 tm_on=0.5 dmgtype=1
+Pew 416 912 188569 bspd=40 dir=0 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=1
+FG2 START
+Pod 240 800 457888 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+WirePoint 592 64 282696 children="261354" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 560 64 261354 children="605468" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+WirePoint 560 512 605468 children="443916" invert=0 vistype=0 no_draw_child=0 force_dir=-1
+Button 496 80 482254 children="870989,261354,320171" t_wait=1.5 vistype=0 damage=48
+Button 637 639 664041 children="268125" t_wait=1.5 vistype=0 damage=48
+Button 368 560 140280 children="432460,471947" t_wait=1.5 vistype=0 damage=1
+Button 896 48 802412 children="556966" t_wait=1.5 vistype=0 damage=48
+RaiseWall 688 32 556966 children="" energy=0 is_wide=0 init_state=-1 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+Spike 928 224 574686 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 928 176 505439 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0
+Spike 928 128 737079 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 timmer=0.25 dmgtype=0

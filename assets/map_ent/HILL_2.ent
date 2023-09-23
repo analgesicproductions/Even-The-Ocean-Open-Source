@@ -1,0 +1,37 @@
+BBG START
+BG1 START
+SetPiece 2096 64 473618 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2091 80 581225 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2128 96 127232 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2124 105 221679 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2096 112 441833 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2048 96 616829 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2016 96 747429 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2008 52 575253 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2140 135 977301 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+BG2 START
+Wind 1280 688 128161 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=70
+Wind 1184 464 274363 h=32 req_energy=0 angle=0 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=96 speed=50
+Wind 1456 368 899381 h=64 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=48 speed=70
+Door 2208 -64 58000 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="HILL_4" next_cam_offset="0,0"
+Door 16 896 548396 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="HILL_1" next_cam_offset="0,0"
+BugSwarm 768 928 524863 accel=400 vistype=0 follows=0 nr_bugs=20 anims="test1,test2" dontpush=0 chase_radius=300 bug_radius=36 vel=60
+Wind 736 848 400822 h=160 req_energy=1 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=1 w=48 speed=70
+GenericNPC 880 784 315376 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="SHANTEL" children="" id="shantel"
+Wind 1808 176 409329 h=48 req_energy=0 angle=180 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=112 speed=50
+SquishBounce 1664 272 344006 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1536 368 144683 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 800 768 307380 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+GenericNPC 890 976 555417 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="546954,400822,524863,155849" id="wilbert"
+WirePoint 816 1024 155849 pos="0,64,-64,64,-64,16" vistype=0 forceTargetDir=-1 children=""
+GenericNPC 728 1008 253864 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="524863,400822" id="hillfan"
+SapPad 817 1012 546954 max_storage=64 vis=1 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="400822,524863,155849"
+FG2 START
+SquishBounce 176 1072 44206 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 544 1056 732408 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 944 768 275315 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+LineCollider 48 1152 926443 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,105,32,158,31,208,16,256,16" invis=1
+SquishBounce 224 1120 70482 hitbox_w=32 GNPC_ID="DANDELION" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SetPiece 2176 160 921735 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2192 160 626473 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2128 160 862880 tile_size="0,0" fades_when_overlap=0 TYPE="group2" auto_scroll_dir=0 id=4 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

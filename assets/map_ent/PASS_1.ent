@@ -1,0 +1,43 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 576 320623 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=3 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAP2" next_cam_offset="0,0"
+Door 3088 432 842995 index=0 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_2" next_cam_offset="0,0"
+SavePoint 224 816 693712 autosaves=0
+GenericNPC 160 704 713150 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=4 debug_name="RIVER_BLOCKER" children="" id="s2_nature_blocker"
+GenericNPC 656 480 205431 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=7 debug_name="ENTER" children="" id="s1_s2_area_enter"
+TrainTrigger 736 448 70686 event_id="none" id=10
+TrainTrigger 448 448 749122 event_id="none" id=11
+Wind 1232 768 815392 h=128 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Wind 896 720 832583 h=96 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Wind 1536 704 303713 h=176 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Wind 1760 688 1807 h=176 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=80 speed=50
+Wind 2816 608 44371 h=112 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=50
+Pod 1440 864 374178 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1456 864 863628 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1424 864 226746 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1488 864 290874 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1664 880 492015 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1680 880 244487 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1712 880 779643 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1728 880 699390 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2032 864 356226 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2048 864 78269 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 32 768 429776 hor_leveler_px_up=70 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=6 tile_h=6
+SquishBounce 1408 752 291379 hitbox_w=32 GNPC_ID="PASS_OXBODY" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1328 736 72257 hitbox_w=32 GNPC_ID="PASS_OXSHOULDERS" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1312 768 485018 hitbox_w=32 GNPC_ID="PASS_OXHEAD" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1680 768 907234 hitbox_w=32 GNPC_ID="PASS_OXBODY" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1600 752 683379 hitbox_w=32 GNPC_ID="PASS_OXSHOULDERS" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1584 800 113892 hitbox_w=32 GNPC_ID="PASS_OXHEAD" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1984 752 278410 hitbox_w=32 GNPC_ID="PASS_OXBODY" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1904 736 803172 hitbox_w=32 GNPC_ID="PASS_OXSHOULDERS" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 1872 752 576422 hitbox_w=32 GNPC_ID="PASS_OXHEAD" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=1 f_speed=0 children="" max_jump_multiplier=1.4
+FG2 START
+LineCollider 400 784 716599 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,16,-112,64,-128" invis=1
+LineCollider 816 688 343022 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,32,16,48,112,80,144" invis=1
+LineCollider 2176 784 66111 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,32,-144,80,-160" invis=1
+LineCollider 2336 624 174665 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,144,-16,208,-32" invis=1
+LineCollider 2752 624 276279 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,32,16,48,96" invis=1
+LineCollider 2896 720 167124 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,160,-32" invis=1
+SetPiece 2784 656 887309 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1

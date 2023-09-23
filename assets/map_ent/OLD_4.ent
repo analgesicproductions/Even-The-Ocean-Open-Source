@@ -1,0 +1,20 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 464 384 584699
+Door 0 -61 498561 index=5 AUTO_INDEX=5 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+Door 832 368 568690 index=0 AUTO_INDEX=6 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="LOOKTEST" next_cam_offset="0,0"
+Door 832 320 337027 index=0 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="JUMPTEST" next_cam_offset="0,0"
+Door 832 272 679937 index=0 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BOSSTEST" next_cam_offset="0,0"
+Door 832 224 102375 index=0 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="JONTEST02" next_cam_offset="0,0"
+Door 832 176 214184 index=0 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="JONTEST03" next_cam_offset="0,0"
+Door 720 176 84666 index=0 AUTO_INDEX=11 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TEST_CAM" next_cam_offset="0,0"
+Door 720 224 378065 index=14 AUTO_INDEX=12 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TEST_SMALL" next_cam_offset="0,0"
+Door 720 272 842061 index=0 AUTO_INDEX=13 behavior=1 type=0 script="" dest_x=1 dest_y=-20 s_visited=1 custom_size="0,0" dest_map="TEST5" next_cam_offset="0,0"
+Door 608 256 816019 index=5 AUTO_INDEX=14 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TEST" next_cam_offset="0,0"
+Door 608 512 804339 index=10 AUTO_INDEX=15 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TESTTWO" next_cam_offset="0,0"
+Door 800 592 718954 index=0 AUTO_INDEX=17 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CAMTEST" next_cam_offset="0,0"
+GenericNPC 736 368 304382 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,32" debug_name="" children="" id="dev_info"
+GenericNPC 528 368 250915 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,33" debug_name="" children="" id="dev_info"
+Door 720 128 753744 index=0 AUTO_INDEX=19 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPTEST" next_cam_offset="0,0"
+FG2 START

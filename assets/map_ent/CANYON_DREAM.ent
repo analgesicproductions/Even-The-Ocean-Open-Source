@@ -1,0 +1,22 @@
+BBG START
+BG1 START
+BG2 START
+Door 784 192 946989 index=1 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_LEFT" next_cam_offset="0,0"
+Door 0 256 852093 index=2 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_SEX" next_cam_offset="0,0"
+GenericNPC 304 48 704087 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="dream_war"
+GenericNPC 160 80 833139 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="dream_rem"
+GenericNPC 416 272 790401 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="dream_rock"
+GenericNPC 512 64 937314 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="dream_bread"
+GenericNPC 442 192 691247 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed"
+GenericNPC 540 192 600783 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 352 192 392568 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 152 192 438790 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 464 384 715289 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 234 384 511317 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed_dreamer1"
+GenericNPC 251 192 434585 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed"
+GenericNPC 346 384 606977 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="bed"
+GenericNPC 112 144 818619 has_dialogue=1 map-scene-pos="p,dj,34" always_scripted=0 context_int_csv="0,0" debug_name="THIS_DREAMER_WAS_ORIGINALLY_GOING_TO_GIVE_YOU_THE_HINT_TO_FIND_THE_RED_EMERALD_MARBLE,_BEFORE_THE_CHARACTER_DIDNEY_WAS_CREATED" children="" id="joni"
+GenericNPC 448 144 767256 has_dialogue=1 map-scene-pos="p,dj,35" always_scripted=0 context_int_csv="0,0" debug_name="MY_PARTNER_THROUGHOUT_EVEN_THE_OCEAN_DEVELOPMNET,_MO,_REALLLLLLY_LOVED_THE_CROISSANT_KINGS_ANIMATION_HEH" children="" id="joni"
+GenericNPC 448 192 349580 has_dialogue=1 map-scene-pos="p,dj,36" always_scripted=0 context_int_csv="0,0" debug_name="MO_JUST_MOVED_OUT_AND_I_MISS_THEM_A_LOT_RIGHT_NOW" children="" id="joni"
+GenericNPC 160 336 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,123" debug_name="" children="" id="dev_info"
+FG2 START

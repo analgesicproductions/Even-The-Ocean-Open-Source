@@ -1,0 +1,22 @@
+BBG START
+GenericNPC 544 496 828099 has_dialogue=1 map-scene-pos="SHORE,STARFISH_GORGON,2" always_scripted=0 context_int_csv="0,0" debug_name="STOMACH" children="" id="sign1"
+GenericNPC 624 496 259108 has_dialogue=1 map-scene-pos="SHORE,STARFISH_GORGON,0" always_scripted=0 context_int_csv="0,0" debug_name="HEART" children="" id="sign1"
+BG1 START
+BG2 START
+Door 16 304 914614 index=1 AUTO_INDEX=0 behavior=0 type=0 script="" dest_x=0 dest_y=-0.5 s_visited=1 custom_size="0,0" dest_map="SHORE_2" next_cam_offset="0,0"
+Door 16 512 676030 index=2 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_2" next_cam_offset="0,0"
+Door 1151 307 147352 index=0 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=0 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="SHORE_4" next_cam_offset="0,0"
+Door 1152 512 648907 index=0 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=1 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="SHORE_5" next_cam_offset="0,0"
+SavePoint 640 400 38912
+GenericNPC 576 384 303048 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="starfish_center"
+GenericNPC 144 496 939647 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children="" id="starfish_blockage"
+GenericNPC 1004 499 434512 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="starfish_blockage"
+SoundZone 464 352 896618 tile_w=14 type="golem" revert_on_exit=0 tile_h=7 wall_type="golem"
+SoundZone 0 176 552712 tile_w=8 type="golem" revert_on_exit=0 tile_h=30 wall_type="golem"
+SoundZone 1040 192 689502 tile_w=9 type="golem" revert_on_exit=0 tile_h=24 wall_type="golem"
+GenericNPC 160 496 771451 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="starfish_blockage"
+SquishBounce 432 512 966142 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SquishBounce 720 512 456171 hitbox_w=32 GNPC_ID="FALLS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+SetPiece 1152 16 200831 tile_size="251,792" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=1 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START
+SetPiece 0 16 96055 tile_size="1168,788" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=1 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Wind 176 240 679258 h=240 req_energy=0 angle=315 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=208 speed=50
+Door 16 448 421023 index=7 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL" next_cam_offset="0,0"
+Door 1568 464 34150 index=1 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WINDHILLG1" next_cam_offset="0,0"
+Wind 432 208 335039 h=240 req_energy=0 angle=315 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=480 speed=50
+GenericNPC 400 256 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,55" debug_name="" children="" id="dev_info"
+FG2 START

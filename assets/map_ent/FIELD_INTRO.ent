@@ -1,0 +1,10 @@
+BBG START
+BG1 START
+BG2 START
+Wind 224 128 484981 h=64 req_energy=0 angle=300 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=600
+Wind 1264 176 349745 h=64 req_energy=0 angle=245 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=750
+Wind 112 112 179357 h=64 req_energy=0 angle=300 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=64 speed=30
+Door 1584 320 251697 index=21 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+Door 0 304 592368 index=22 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=-1 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 80 560 857430
+FG2 START

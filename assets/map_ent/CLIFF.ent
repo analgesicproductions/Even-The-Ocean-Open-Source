@@ -1,0 +1,22 @@
+BBG START
+BG1 START
+BG2 START
+RevolveSpore 528 288 952015 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+BarbedWire -32 1264 90263 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="203123" wire_tile_width=3 is_gauntlet=1
+BarbedWire 416 1232 203123 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="552199" wire_tile_width=3 is_gauntlet=1
+BarbedWire 528 1216 552199 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+RevolveSpore 400 384 354279 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 343 738 633582 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Pod 544 496 354209 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 592 301308 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RevolveSpore 400 976 122595 hurt_ticks=5 base_vel=420 vis-dmg="1,1"
+Spike 288 1072 267786 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pod 288 928 302257 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RevolveSpore 352 1104 361121 hurt_ticks=5 base_vel=420 vis-dmg="1,1"
+RevolveSpore 336 1184 458279 hurt_ticks=5 base_vel=420 vis-dmg="1,1"
+Door 784 -80 117864 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="MAPTHREE" next_cam_offset="0,0"
+Door 0 144 285767 index=2 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="CLIFF_MAIN" next_cam_offset="0,0"
+SavePoint 592 368 58915
+GenericNPC 496 400 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,105" debug_name="" children="" id="dev_info"
+GenericNPC 48 976 39298 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,106" debug_name="" children="" id="dev_info"
+FG2 START

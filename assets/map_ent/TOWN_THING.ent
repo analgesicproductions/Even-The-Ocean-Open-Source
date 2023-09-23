@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 32 290108 AUTO_INDEX=1 custom_size="0,0" behavior=0 dest_x=-1 dest_map="TOWN_ENTER" index=5 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+GenericNPC 304 304 817796 always_scripted=1 debug_name="" context_int_csv="2,4" children="" map-scene-pos="" id="dev_info" has_dialogue=0
+GenericNPC 416 544 517083 always_scripted=1 debug_name="" context_int_csv=2 children="" map-scene-pos="" id="orb_gate" has_dialogue=0
+Door 192 544 317489 AUTO_INDEX=2 custom_size="0,0" behavior=1 dest_x=1 dest_map="D_TOWER" index=0 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+AliphItem 0 768 58328 id=32 vis_set=0 removes=0
+FG2 START

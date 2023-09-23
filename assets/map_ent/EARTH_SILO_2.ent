@@ -1,0 +1,37 @@
+BBG START
+BG1 START
+BG2 START
+MovePod 128 112 970509 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 128 160 166657 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 304 160 776104 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 304 112 828366 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 527 398 252667 launch_vel=250 tm_reset=0.5 launch_dir=2 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 688 400 375314 launch_vel=250 tm_reset=0.5 launch_dir=6 vis-dmg="0,0" behavior=0 dir=6 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 608 416 928107 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 608 336 615333 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 928 320 613829 launch_vel=250 tm_reset=0.2 launch_dir=0 vis-dmg="1,1" behavior=1 dir=2 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 912 256 405019 launch_vel=100 tm_reset=0.2 launch_dir=4 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 1136 320 153146 launch_vel=300 tm_reset=0.2 launch_dir=0 vis-dmg="1,1" behavior=0 dir=2 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 1136 448 532120 launch_vel=250 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+Door 16 32 493081 index=4 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_SILO_1" next_cam_offset="0,0"
+MovePod 1430 496 575992 launch_vel=220 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=0 dir=0 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 1526 528 498187 launch_vel=220 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=0 touch_dmg=32 move_vel=50 min_max="16,16"
+MovePod 1521 456 273903 launch_vel=220 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=2 touch_dmg=32 move_vel=50 min_max="32,32"
+MovePod 1616 912 214569 launch_vel=300 tm_reset=0.5 launch_dir=1 vis-dmg="1,1" behavior=1 dir=0 touch_dmg=32 move_vel=100 min_max="64,64"
+MovePod 1504 896 608024 launch_vel=300 tm_reset=0.5 launch_dir=2 vis-dmg="1,1" behavior=1 dir=0 touch_dmg=32 move_vel=100 min_max="64,64"
+MovePod 1440 848 546965 launch_vel=300 tm_reset=0.5 launch_dir=1 vis-dmg="1,1" behavior=1 dir=0 touch_dmg=32 move_vel=100 min_max="64,96"
+MovePod 1568 912 535488 launch_vel=320 tm_reset=0.5 launch_dir=7 vis-dmg="0,0" behavior=1 dir=0 touch_dmg=32 move_vel=100 min_max="96,96"
+MovePod 1168 992 67622 launch_vel=400 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=32 move_vel=110 min_max="128,224"
+MovePod 1168 928 503372 launch_vel=400 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=2 touch_dmg=32 move_vel=110 min_max="128,224"
+MovePod 1168 848 873472 launch_vel=400 tm_reset=0.5 launch_dir=0 vis-dmg="0,0" behavior=1 dir=2 touch_dmg=32 move_vel=100 min_max="128,224"
+MovePod 1264 848 784637 launch_vel=400 tm_reset=0.5 launch_dir=0 vis-dmg="1,1" behavior=1 dir=2 touch_dmg=32 move_vel=100 min_max="224,128"
+Door 1008 800 676350 index=0 AUTO_INDEX=1 behavior=1 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="EARTH_SILO_3" next_cam_offset="0,0"
+NewCamTrig 0 0 745890 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=20
+NewCamTrig 416 0 203045 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=34
+NewCamTrig 832 0 352546 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=33 tile_h=43
+NewCamTrig 1360 176 709516 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=36
+NewCamTrig 1776 352 866739 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=47
+NewCamTrig 912 688 916235 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=54 tile_h=26
+SavePoint 64 192 603795
+SavePoint 1328 432 602256
+FG2 START

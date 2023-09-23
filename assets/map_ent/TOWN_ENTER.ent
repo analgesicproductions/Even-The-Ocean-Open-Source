@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 160 517587 index=13 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+Door 336 480 235272 index=3 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TOWN_IN" next_cam_offset="0,0"
+Door 768 128 744997 index=1 AUTO_INDEX=5 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="TOWN_THING" next_cam_offset="0,0"
+SavePoint 416 432 74347
+FG2 START

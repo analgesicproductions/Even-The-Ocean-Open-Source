@@ -1,0 +1,23 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 416 618513 index=2 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_1" next_cam_offset="0,0"
+Door 4000 576 953861 index=0 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_3" next_cam_offset="0,0"
+NewWaterShooter 2112 720 166953 tile_height=4 accel=13 extra_shield_push=9 fall_dampen=3.2 vis-dmg="1,1" is_vert=1 max_vel=310
+NewWaterShooter 1760 704 830905 tile_height=4 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=350
+GenericNPC 1696 576 84368 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="830905" id="pass_geyser_turnoff"
+GenericNPC 839 825 513084 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="201495" id="pass_boulder"
+NewWaterShooter 896 768 201495 tile_height=6 accel=13 extra_shield_push=9 fall_dampen=3.2 vis-dmg="1,1" is_vert=1 max_vel=310
+GenericNPC 443 793 485106 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="1,0" debug_name="" children="659232" id="pass_boulder"
+NewWaterShooter 494 744 659232 tile_height=6 accel=13 extra_shield_push=9 fall_dampen=3.2 vis-dmg="1,1" is_vert=1 max_vel=310
+SavePoint 304 800 475417
+GenericNPC 1184 816 317965 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="pass_jane"
+GenericNPC 1472 672 668844 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="pass_picnic"
+Pod 592 800 135065 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 608 800 900221 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 704 800 251891 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 720 800 971038 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 2056 745 364309 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,0" debug_name="" children="166953" id="pass_boulder"
+FG2 START
+LineCollider 112 672 807821 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,96,32,128,128,160,144" invis=1
+LineCollider 1296 848 8087 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,16,-64,48,-64,64,-144" invis=1

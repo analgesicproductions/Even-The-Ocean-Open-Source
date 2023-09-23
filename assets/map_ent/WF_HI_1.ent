@@ -1,0 +1,26 @@
+BBG START
+BG1 START
+SetPiece 640 223 602351 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=4 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=0 blend_1ad2mu3sc=-1
+SetPiece 640 222 573837 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=4 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=0 blend_1ad2mu3sc=-1
+BG2 START
+GenericNPC 592 304 332801 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_ALIPH_OUT" children="" id="i2_aliph_out"
+TrainTrigger 464 192 691476 event_id="none" id=0
+GenericNPC 688 320 944319 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I1_MEET_HUMUS" children="" id="i1_humus"
+Door 880 288 440051 index=0 AUTO_INDEX=0 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WF_GOV_LOBBY" next_cam_offset="0,0"
+Door 432 288 337221 index=0 AUTO_INDEX=2 behavior=1 type=5 script="TOOL/DOORS/ENTER_RADIO.HX" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RADIO_LOBBY" next_cam_offset="0,0"
+TrainTrigger 192 208 728259 event_id="none" id=3
+TrainTrigger 784 176 34526 event_id="none" id=1
+TrainTrigger 224 0 426104 event_id="none" id=2
+TrainTrigger 528 128 572268 event_id="none" id=4
+GenericNPC 640 240 939215 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I0_ALIPH" children="" id="city_s_aliph_out_after_intro"
+Door 768 320 649339 index=0 AUTO_INDEX=4 behavior=1 type=5 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="WF_TRAIN_HI" next_cam_offset="0,0"
+NewCamTrig 560 336 314526 hor_leveler_px_up=80 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=14 tile_h=4
+GenericNPC 656 320 761 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="I2_MAYOR_INIT" children="" id="i2_mayor_init"
+GenericNPC 576 320 228423 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDING_MAYOR" children="" id="ending_mayor"
+TrainTrigger 480 160 388234 event_id="none" id=10
+GenericNPC 752 224 640921 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="ENDBLOCKER" children="" id="end_blocker"
+FG2 START
+SetPiece 1184 320 931438 tile_size="0,0" fades_when_overlap=0 TYPE="object" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=0
+LineCollider 432 320 465962 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,112,32" invis=1
+LineCollider 800 352 597401 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,112,-32" invis=1
+GenericNPC 736 320 303865 has_dialogue=0 map-scene-pos=0 always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="trainsprite"

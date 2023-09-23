@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 400 624 308759 AUTO_INDEX=0 behavior=0 dest_x=0 dest_map="OLD_4" index=13 s_visited=1 next_cam_offset="0,0" type=3 script="" dest_y=0
+Door 291 607 280865 AUTO_INDEX=0 behavior=0 dest_x=0 dest_map="OLD_4" index=13 s_visited=1 next_cam_offset="0,0" type=3 script="" dest_y=0
+Door 537 618 618743 AUTO_INDEX=0 behavior=0 dest_x=0 dest_map="OLD_4" index=13 s_visited=1 next_cam_offset="0,0" type=3 script="" dest_y=0
+Door 228 600 562784 AUTO_INDEX=0 behavior=0 dest_x=0 dest_map="OLD_4" index=13 s_visited=1 next_cam_offset="0,0" type=3 script="" dest_y=0
+FG2 START

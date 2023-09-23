@@ -1,0 +1,48 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 400 349443 AUTO_INDEX=0 behavior=0 dest_x=-1 dest_map="HILL_4" index=1 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Door 2256 304 341253 AUTO_INDEX=1 behavior=0 dest_x=1 dest_map="HILL_G1_1" index=3 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+BarbedWire 464 144 597193 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+BarbedWire 352 16 882245 children="597193" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+Door 16 0 413557 AUTO_INDEX=3 behavior=0 dest_x=-1 dest_map="HILL_4" index=2 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=4
+Pod 1040 464 484423 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1040 480 362507 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1104 400 650335 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1104 384 418638 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1104 368 180383 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 960 496 597992 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 992 496 326090 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 976 496 641970 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+BarbedWire 256 480 316805 children="980591" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+BarbedWire 528 464 980591 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+Wind 288 384 39260 angle=270 global=0 en_align=-1 req_energy=0 h=64 w=16 speed=70
+Wind 416 224 111949 angle=270 global=0 en_align=-1 req_energy=0 h=64 w=16 speed=70
+Pew 416 336 766524 bspd=140 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=10 fint=0.4
+Pew 240 176 325777 bspd=140 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" vistype=1 mb=10 fint=0.4
+Pod 336 192 216391 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 336 208 174630 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 368 288 795102 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 368 304 812881 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 288 224 728861 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 288 240 691977 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Wind 672 544 871283 angle=0 global=0 en_align=-1 req_energy=0 h=32 w=160 speed=70
+Pod 640 464 951816 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 640 480 51025 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pew 640 448 548660 bspd=160 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern=1111000 vistype=1 mb=10 fint=0.15
+Pod 736 432 337770 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 784 368 541856 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 784 384 327285 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Door 1840 304 308288 AUTO_INDEX=4 behavior=0 dest_x=1 dest_map="HILL_G1" index=3 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Pod 656 368 524230 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 640 368 711261 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 512 416 977373 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 528 416 40370 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+BarbedWire 1504 656 694380 children="628511" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+BarbedWire 1712 464 628511 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 max_energy=32 wire_tile_width=3 vistype=0
+GenericNPC 736 672 640239 always_scripted=1 debug_name="ROOM_VERA" context_int_csv="0,0" children="" map-scene-pos="" id="room_vera" has_dialogue=0
+GenericNPC 656 672 217959 always_scripted=1 debug_name="BAYVERA" context_int_csv="0,0" children="" map-scene-pos="" id="bay_in_vera_room" has_dialogue=0
+GenericNPC 912 992 449714 always_scripted=1 debug_name="VERA_NEAR_STOREROOM" context_int_csv="0,0" children="" map-scene-pos="" id="storeroom_trigger" has_dialogue=0
+GenericNPC 1152 992 454711 always_scripted=1 debug_name="STOEROOMIN" context_int_csv="0,0" children="" map-scene-pos="" id="storeroom_in" has_dialogue=0
+GenericNPC 1008 992 767780 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="hill_lock" has_dialogue=0
+FG2 START

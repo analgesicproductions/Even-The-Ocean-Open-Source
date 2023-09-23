@@ -1,0 +1,26 @@
+BBG START
+BG1 START
+BG2 START
+BarbedWire 48 464 251814 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 64 656 802452 children="251814" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 224 784 954633 children="802452" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1328 784 59126 children="933802" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1424 560 933802 children="984021" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1392 416 984021 children="" is_gauntlet=1 dmgtype=0 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+AimSpore 656 608 133843 bul_vel=360 fixed_angle=-1 nr_bounces=0 hold_ticks=10 damage=64 vis-dmg="0,0" t_wait=2
+ClimbSpore 768 384 335568 is_left=0 tm_shoot=1.5 vis-dmg="0,0" vel=70 tm_move=2.3
+GenericNPC 496 416 607269 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="clariseed_observer" has_dialogue=0
+GenericNPC 704 288 906917 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="clariseed_plant" has_dialogue=0
+Door 503 608 800777 AUTO_INDEX=0 behavior=1 dest_x=-1 dest_map="STARFISH" index=20 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+GenericNPC 688 160 225982 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="SHORE,SIGN,1" id="sign1" has_dialogue=1
+AimSpore 912 640 78108 bul_vel=360 fixed_angle=-1 nr_bounces=0 hold_ticks=10 damage=64 vis-dmg="0,0" t_wait=2
+Pod 752 736 441498 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=3 vistype=0 dmgtype=0
+Pod 768 736 835236 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=3 vistype=0 dmgtype=0
+Pod 752 576 571570 children="" AUTO_ORIENT=1 dir=2 damage=24 tm_dead=3 vistype=0 dmgtype=0
+Pod 736 576 866527 children="" AUTO_ORIENT=1 dir=2 damage=24 tm_dead=3 vistype=0 dmgtype=0
+ClimbSpore 768 480 323473 is_left=1 tm_shoot=1.5 vis-dmg="0,0" vel=70 tm_move=2.3
+Pod 784 448 994099 children="" AUTO_ORIENT=1 dir=1 damage=24 tm_dead=3 vistype=1 dmgtype=1
+EdgeDoor 736 224 389214 is_wide=1 vistype=0 only_open_dir=2
+Pod 704 448 501931 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=3 vistype=0 dmgtype=0
+Pod 688 448 541247 children="" AUTO_ORIENT=1 dir=0 damage=24 tm_dead=3 vistype=0 dmgtype=0
+FG2 START

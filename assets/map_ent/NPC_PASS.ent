@@ -1,0 +1,46 @@
+BBG START
+BG1 START
+WalkBlock 96 304 774303 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=0 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=0
+BG2 START
+GenericNPC 128 704 559417 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="sign1" has_dialogue=1
+GenericNPC 631 428 532784 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="TEST,BOX,0" id="sign1" has_dialogue=1
+RaiseWall 144 496 343457 children="464534" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=5
+RaiseWall 176 464 464534 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=64
+SapPad 128 560 853950 children="343457" dmg=1 one_for_all=1 max_storage=64 vis=0 reverse=0 dmg_rate=0.04
+SapPad 160 560 27396 children="343457" dmg=1 one_for_all=1 max_storage=64 vis=1 reverse=0 dmg_rate=0.04
+Wind 192 496 308446 angle=0 global=0 en_align=-1 invis=0 req_energy=2 h=16 w=16 speed=50
+RevolveSpore 416 464 976534 base_vel=420 vis-dmg="0,0" hurt_ticks=10
+GenericNPC 80 464 893188 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="PASS,ARTIST_FIRST,0" id="sign1" has_dialogue=1
+Pendulum 272 384 498297 extra_len=1 anim_name="TEST_MOON" line_alpha=0.8 l=112 no_y_movement=0 upside_down=0 nr_vine=5 vis-dmg="0,0" vine_set="0" line_rgb="0xffffff"
+Pendulum 283 367 237463 extra_len=1 anim_name="test_star" line_alpha=0.8 l=112 no_y_movement=0 upside_down=0 nr_vine=5 vis-dmg="0,0" vine_set="0" line_rgb="0XFF00FF"
+Pendulum 293 379 433833 extra_len=5 anim_name="TEST_FLASH" line_alpha=0.8 l=112 no_y_movement=0 upside_down=0 nr_vine=5 vis-dmg="0,0" vine_set="0" line_rgb="0xffffff"
+Door 48 192 777236 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=0 dest_map="NPC_PASS" index=0 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+GenericNPC 112 160 364309 always_scripted=1 debug_name="" context_int_csv="2,0" children="166953" map-scene-pos="" id="pass_boulder" has_dialogue=0
+NewWaterShooter 176 112 166953 extra_shield_push=9 accel=13 is_vert=1 max_vel=310 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+NewWaterShooter 512 256 830905 extra_shield_push=13 accel=13 is_vert=1 max_vel=500 vis-dmg="0,0" tile_height=4 fall_dampen=3.2
+GenericNPC 464 32 84368 always_scripted=1 debug_name="" context_int_csv="0,0" children="830905" map-scene-pos="" id="pass_geyser_turnoff" has_dialogue=0
+TrainTrigger 416 144 794303 id=0 event_id="none"
+GenericNPC 208 144 513084 always_scripted=1 debug_name="" context_int_csv="0,0" children="201495" map-scene-pos="" id="pass_boulder" has_dialogue=0
+NewWaterShooter 256 96 201495 extra_shield_push=9 accel=13 is_vert=1 max_vel=310 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+GenericNPC 297 147 485106 always_scripted=1 debug_name="" context_int_csv="1,0" children="659232" map-scene-pos="" id="pass_boulder" has_dialogue=0
+NewWaterShooter 352 96 659232 extra_shield_push=9 accel=13 is_vert=1 max_vel=310 vis-dmg="1,1" tile_height=6 fall_dampen=3.2
+SquishBounce 160 384 348001 GNPC_ID="" hitbox_w=32 f_speed=16 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+GenericNPC 384 160 317965 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="pass_jane" has_dialogue=0
+WalkPod 336 400 274659 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=3
+WalkPod 368 400 671858 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkPod 384 400 513172 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=3
+WalkPod 416 400 847020 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+SquishBounce 128 416 489649 GNPC_ID="" hitbox_w=32 f_speed=0 decel-frames="120,20,30" is_cloud=1 no_bounce=0 outaccel=-280 x_slow=-1 vis-dmg="0,0" max_jump_multiplier=1.4 initintovel=53
+WalkBlock 32 272 927757 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=1 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=0
+WalkBlock 128 240 554356 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=2 w,h="2,2" vis-dmg="1,1" starts_moving_left_or_down=0
+WalkBlock 208 272 995524 decel-frames="120,20,30" AUTO_ORIENT=1 f_speed=16 dir=3 w,h="3,3" vis-dmg="1,1" starts_moving_left_or_down=0
+Elevator 64 32 44669 children="334938" override_anim_prefix="" has_console=0 rise_vel=80 rise_height=8 vis-dmg="0,0" starts_at_top=1
+Elevator 16 32 334938 children="44669" override_anim_prefix="" has_console=1 rise_vel=80 rise_height=8 vis-dmg="0,0" starts_at_top=1
+GenericNPC 640 176 668844 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="pass_picnic" has_dialogue=0
+Door 512 0 180766 AUTO_INDEX=1 custom_size="0,0" behavior=0 dest_x=0 dest_map="EARTH_1" index=0 s_visited=0 next_cam_offset="0,0" type=4 script="" dest_y=-3
+GenericNPC 192 48 447645 always_scripted=1 debug_name="" context_int_csv="0,0" children="" map-scene-pos="" id="clam_entrance" has_dialogue=0
+FollowLaser 141 290 441417 accel=0 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+FlameOn 464 288 327690 dmg=36 vel=100 vis-dmg="1,1" tm_dmg=0.018
+FlameOn 544 240 425431 dmg=36 vel=100 vis-dmg="0,0" tm_dmg=0.018
+Door 720 176 433025 AUTO_INDEX=2 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_5" index=13 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

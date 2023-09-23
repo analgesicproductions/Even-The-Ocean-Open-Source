@@ -1,0 +1,12 @@
+BBG START
+Door 0 1152 120051 index=-1 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONIN2" next_cam_offset="0,0"
+BG1 START
+BG2 START
+Door 0 304 599333 index=3 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONIN1" next_cam_offset="0,0"
+SavePoint 352 784 34743
+Door 32 1152 108836 index=1 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONIN2" next_cam_offset="0,0"
+Door 768 560 909259 index=1 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONOUT2" next_cam_offset="0,0"
+Pod 208 1104 686919 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 224 1120 222681 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 416 768 884785 has_dialogue=1 map-scene-pos="p,dj,33" always_scripted=0 context_int_csv="0,0" debug_name="DOWN_LEADS_TO_AN_OLD,_BROKEN_DEAD_END,,,_RIGHT_CONTINUES_TO_THE_GAUNTLET" children="" id="joni"
+FG2 START

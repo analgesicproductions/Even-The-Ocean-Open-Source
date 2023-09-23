@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 176 650662 index=2 AUTO_INDEX=1 behavior=0 type=0 script="" dest_x=-2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SEA_6" next_cam_offset="0,0"
+Door 608 0 710312 index=1 AUTO_INDEX=2 behavior=0 type=4 script="" dest_x=0 dest_y=-5 s_visited=1 custom_size="0,0" dest_map="SEA_7" next_cam_offset="0,0"
+GenericNPC 80 176 601555 has_dialogue=1 map-scene-pos="p,dj,232" always_scripted=0 context_int_csv="0,0" debug_name="YOU_MADE_IT_TO_THE_HEAD_OF_THE_SEA_GEOME,,,_JUST_AN_EMPTY_ROOM_CURRENTLY,_FOLLOW_THE_PATH_TO_CONTINUE_ON" children="" id="joni"
+GenericNPC 1200 432 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,96" debug_name="" children="" id="dev_info"
+FG2 START

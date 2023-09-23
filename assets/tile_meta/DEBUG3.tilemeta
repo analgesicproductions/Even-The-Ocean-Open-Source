@@ -1,0 +1,39 @@
+also fg
+solid_invis_map 11,37 17,46 12,45 2,49 7,65 13,47 14,66 16,48 15,67 8,55
+START
+solid 4 11 21 35 56 120.123
+fr45 17 46 127
+fl45 12 45 126
+cl45 2 49 124
+cr45 7 65 125
+permeable 4 21
+lo22l 13 47
+hi22l 14 66
+lo22r 16 48
+hi22r 15 67
+gasdark 33
+gaslight 34	
+gasdarklo 23
+gaslightlo 24
+gasdarkhi 43
+gaslighthi 44
+floor_ice 35
+top 8 55
+noclimb 25 56
+organic 36
+# water_surface and water have to come after invishard
+invishard 32 37 45.49 65.68 55.58 39
+water_surface 30 57
+water 40 58
+mirror 31 2 7 12 17 124 125 126 127
+train u:120 r:121 d:122 l:123
+cloud_no_drop 128
+allow_stairs 68
+sticky 32
+END
+
+
+# Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+ANIMS 
+
+END

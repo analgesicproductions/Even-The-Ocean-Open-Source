@@ -1,0 +1,52 @@
+BBG START
+BG1 START
+BG2 START
+Door 912 784 638758 index=1 AUTO_INDEX=1 behavior=3 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="INTRO_ASCENT" next_cam_offset="0,0"
+Door 672 576 603383 index=3 AUTO_INDEX=5 behavior=3 type=5 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYONPLACE" next_cam_offset="0,0"
+Door 864 144 420024 index=1 AUTO_INDEX=7 behavior=3 type=5 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="WINDHILL" next_cam_offset="0,0"
+Door 424 1296 30838 index=9 AUTO_INDEX=9 behavior=3 type=5 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="SHOREPLACE_ENTER" next_cam_offset="0,0"
+Door 288 1312 397336 index=3 AUTO_INDEX=11 behavior=3 type=1 script="" dest_x=2 dest_y=14 s_visited=1 custom_size="0,0" dest_map="NORTHISLAND_1" next_cam_offset="0,0"
+Door 2048 1456 131504 index=1 AUTO_INDEX=13 behavior=3 type=1 script="" dest_x=1 dest_y=1 s_visited=1 custom_size="0,0" dest_map="TOWN_ENTER" next_cam_offset="0,0"
+Door 224 1200 631731 index=-1 AUTO_INDEX=15 behavior=3 type=1 script="" dest_x=50 dest_y=0 s_visited=1 custom_size="0,0" dest_map="ISLAND_2" next_cam_offset="0,0"
+Door 224 1200 458176 index=0 AUTO_INDEX=17 behavior=3 type=1 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ISLAND_2" next_cam_offset="0,0"
+Door 1408 1232 120383 index=1 AUTO_INDEX=18 behavior=1 type=5 script="" dest_x=2 dest_y=11 s_visited=1 custom_size="0,0" dest_map="GLADE1" next_cam_offset="0,0"
+Door 1344 1168 708130 index=0 AUTO_INDEX=19 behavior=1 type=0 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BIGLAKE" next_cam_offset="0,0"
+Door 1136 1152 135654 index=1 AUTO_INDEX=20 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="BIGLAKE" next_cam_offset="0,0"
+Door 1136 1104 454819 index=0 AUTO_INDEX=21 behavior=1 type=1 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="FIELD_INTRO" next_cam_offset="0,0"
+Door 992 1008 413784 index=1 AUTO_INDEX=22 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="FIELD_INTRO" next_cam_offset="0,0"
+Door 352 2768 304281 index=1 AUTO_INDEX=23 behavior=1 type=5 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="PASS_ENTER" next_cam_offset="0,0"
+Door 1904 2528 365769 index=0 AUTO_INDEX=24 behavior=1 type=5 script="" dest_x=1 dest_y=12 s_visited=1 custom_size="0,0" dest_map="FOREST1" next_cam_offset="0,0"
+Door 800 2272 895185 index=1 AUTO_INDEX=25 behavior=1 type=1 script="" dest_x=-1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="RIVER" next_cam_offset="0,0"
+Door 400 2080 294942 index=1 AUTO_INDEX=26 behavior=1 type=5 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="WOODS_START" next_cam_offset="0,0"
+Door 784 2320 296190 index=1 AUTO_INDEX=27 behavior=1 type=1 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="RIVER_L" next_cam_offset="0,0"
+Door 416 176 962456 index=3 AUTO_INDEX=28 behavior=1 type=5 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHOREROUTER" next_cam_offset="0,0"
+GenericNPC 1568 1728 233566 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,16" debug_name="" children="" id="dev_info"
+GenericNPC 1568 1872 725417 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,15" debug_name="" children="" id="dev_info"
+GenericNPC 1776 1680 732902 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,17" debug_name="" children="" id="dev_info"
+GenericNPC 880 832 94484 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,13" debug_name="" children="" id="dev_info"
+GenericNPC 832 1056 156194 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,16" debug_name="" children="" id="dev_info"
+GenericNPC 736 848 552910 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,14" debug_name="" children="" id="dev_info"
+GenericNPC 405 2692 259133 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,19" debug_name="" children="" id="dev_info"
+GenericNPC 864 912 143918 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,35" debug_name="" children="" id="dev_info"
+GenericNPC 1055 905 303437 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,36" debug_name="" children="" id="dev_info"
+GenericNPC 1590 1112 308920 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,37" debug_name="" children="" id="dev_info"
+GenericNPC 944 960 349143 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 592 640 74908 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 384 1248 668668 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 896 224 892683 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 1856 1664 325624 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 544 2080 435115 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 864 2224 290664 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 1872 2592 985491 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+GenericNPC 352 2672 625459 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+SetPiece 912 752 726859 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 672 544 441961 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 864 96 388208 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 2048 1424 24534 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=6 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1904 2496 588042 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 784 2240 983412 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 400 2048 464120 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+GenericNPC 1456 1248 218837 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="infokiosk"
+FG2 START
+SetPiece 1408 1200 990555 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 424 1264 718580 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=2 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

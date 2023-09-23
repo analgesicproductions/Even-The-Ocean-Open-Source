@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 16 760358 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="OLD_ENTER" next_cam_offset="0,0"
+Door 2384 16 604914 index=2 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="___1" next_cam_offset="0,0"
+GenericNPC 368 192 372184 has_dialogue=1 map-scene-pos="P,DS,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="olive"
+FG2 START

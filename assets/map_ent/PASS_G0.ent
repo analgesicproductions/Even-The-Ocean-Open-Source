@@ -1,0 +1,38 @@
+BBG START
+BG1 START
+BG2 START
+WalkBlock 432 640 47176 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,2"
+Pod 352 656 847002 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 368 656 639983 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 656 544387 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SquishBounce 304 688 938697 hitbox_w=32 GNPC_ID="PASS_BOUNCE" x_slow=-1 is_cloud=1 vis-dmg="0,0" decel-frames="120,20,30" outaccel=-280 initintovel=53 no_bounce=0 f_speed=0 children="" max_jump_multiplier=1.4
+Pod 512 656 466790 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkPod 560 656 39709 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="0,0" decel-frames="120,20,30" tm_dead=1 dir=3 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+WalkPod 560 640 759259 FISH_RADIUS=0 starts_moving_left_or_down=0 vis-dmg="0,0" decel-frames="120,20,30" tm_dead=1 dir=3 climbs_corners=0 AUTO_ORIENT=1 dmg=24 f_speed=16
+Pod 416 656 804596 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 432 656 423058 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 656 595254 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+WalkBlock 1184 368 194237 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,8"
+Pod 1200 480 858587 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1216 480 685243 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1232 480 136765 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1248 480 197847 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1296 464 272332 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=0 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1328 464 384512 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FollowLaser 1856 432 427849 dmgtype=0 accel=0 fixed_angle=0 vistype=0 axis_tracks_player=0 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+FollowLaser 2224 448 555711 dmgtype=0 accel=0 fixed_angle=180 vistype=0 axis_tracks_player=0 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+WalkBlock 1936 400 670416 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,4"
+WalkBlock 2064 400 72126 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="2,4"
+SavePoint 192 688 958442
+SavePoint 1520 512 888598
+Door 2544 256 414720 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="PASS_G1" next_cam_offset="0,0"
+Pod 1136 512 180519 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1152 512 34683 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SpikeExtend 960 560 175813 vel_extend=300 tm_wait_at_ends=0.7 dir=3 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 1664 368 518616 vel_extend=300 tm_wait_at_ends=0.7 dir=2 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SetPiece 368 688 842206 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 864 656 116663 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1520 528 29359 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1456 576 215447 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1696 480 805366 tile_size="0,0" fades_when_overlap=0 TYPE="group3" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START

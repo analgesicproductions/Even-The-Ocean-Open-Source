@@ -1,0 +1,148 @@
+# s = single, g = group, rg = random group. unlses specified
+# otherwise, it uses the same item name as the name
+pop.ogg g 2
+player_jump_down.wav g 2
+lock_shield.wav s
+dialogue_blip_normal.wav g 6
+menu_move.wav g 4
+menu_confirm.wav g 2
+menu_cancel.wav g 2
+menu_open.wav s
+menu_close.wav s
+touch_weed.wav s
+pew_hit.wav g 2
+pod_hit.wav g 2
+pew_hit_shield.wav g 2
+splash.wav g 2
+splashfx.wav s
+pew_wall.wav g 5
+particle_hit.wav g 3
+squishbounce.wav g 3
+followLaserNear.wav g 5
+followLaserHit.wav g 5
+fire.wav g 2
+raisewall.wav s
+depths_alarm.wav g 3
+extendstem_grow.wav s
+extendstem_retract.wav s
+wind_with.wav g 4
+se_extend.wav g 3
+mole.wav s
+molewalk.wav s
+se_retract.wav g 3
+se_hit.wav s
+lens_get.wav s
+lens_attach.wav s
+raisewall_fall.wav s
+gas.wav s
+edgedoor_open.wav s
+edgedoor_close.wav s
+edgedoor_locked.wav s
+stream_ambience_1.ogg s
+stream_ambience_2.ogg s
+checkpoint.wav s
+air_cry_filter.ogg s
+forest_whistle.wav s
+OuchOutlet_Shock.wav s
+OuchOutlet_Shock_Hit.wav g 2
+SapPad.wav s
+powerplant_multiple_click.ogg s
+powerplant_frequency_whir.ogg s
+powerplant_frequency_roar.ogg s
+pp_freq_roar_loop.ogg g 3
+voice/aliph_mid_1.wav g 3
+voice/aliph_mid_2.wav g 3
+voice/humus_1.wav g 3
+voice/humus_2.wav g 3
+voice/chumus1.wav g 3
+voice/chumus2.wav g 3
+voice/cass_1.wav g 3
+voice/cass_2.wav g 3
+voice/mayor_1n.wav g 4
+voice/mayor_2n.wav g 4
+voice/yara_a.wav g 3
+voice/yara_b.wav g 3
+voice/hastings_a.wav g 3
+voice/hastings_b.wav g 3
+voice/wodsnick_a.wav g 3
+voice/wodsnick_b.wav g 3
+voice_chumus rg voice/chumus1.wav 2 voice/chumus2.wav 1
+voice_humus rg voice/humus_1.wav 2 voice/humus_2.wav 1
+voice_cass rg voice/cass_1.wav 2 voice/cass_2.wav 1
+voice_mayor rg voice/mayor_1n.wav 2 voice/mayor_2n.wav 1
+voice_aliph_mid rg voice/aliph_mid_1.wav 1 voice/aliph_mid_2.wav 4
+voice_wodsnick rg voice/wodsnick_a.wav 2 voice/wodsnick_b.wav 1
+voice_yara rg voice/yara_a.wav 2 voice/yara_b.wav 1
+voice_hastings rg voice/hastings_a.wav 2 voice/hastings_b.wav 1
+walkblock_1.wav g 3
+walkblock_2.wav g 3
+walkblock rg walkblock_1.wav 3 walkblock_2.wav 2
+SFX_slimewall.wav s
+enter_door.wav s
+clam_1.wav s
+clam_2.wav s
+clam_3.wav s
+geyser.wav g 4
+bridgefall.wav s
+Elevator.wav s
+lightning_low.wav s
+lightning_mid.wav s
+lightning_hi.wav s
+shield_mu.wav g 2
+shield_mr.wav g 2
+shield_md.wav g 2
+shield_ml.wav g 2
+eb/e_d7.wav s
+eb/e_d6.wav s
+eb/e_d5.wav s
+eb/e_d4.wav s
+eb/e_d3.wav s
+eb/e_d2.wav s
+eb/e_d1.wav s
+eb/e_n.wav s
+eb/e_l7.wav s
+eb/e_l6.wav s
+eb/e_l5.wav s
+eb/e_l4.wav s
+eb/e_l3.wav s
+eb/e_l2.wav s
+eb/e_l1.wav s
+step_grass.wav s
+step_grass2.wav s
+step_grassg rg step_grass.wav 1 step_grass2.wav 1
+step_rock.wav g 2
+step_dirtg rg step_dirt1.wav 1 step_dirt2.wav 1
+step_dirt1.wav s
+step_dirt2.wav s
+step_sand.wav g 2
+wall_rock.wav g 2
+step_metal.wav g 2
+step_snow.wav g 2
+step_wood.wav g 2
+step_tile.wav g 2
+step_carpet.wav g 2
+step_golem.wav g 2
+rainsfx.ogg g 2
+savesound.wav g 3
+savesound2.wav s
+die_big.wav s
+step_intro1.wav s
+step_intro2.wav s
+intro_door.wav s
+radio_crr.wav s
+radio_bzt.wav s
+hangup.wav s
+floater.wav g 2
+rlaser_shield.wav s
+rlaser_hit.wav s
+trainhishort.wav s
+train_lo_short.wav s
+train_kv_long.wav s
+smashwarn1.wav s
+smashwarn2.wav g 2
+wf_rise.ogg s
+wf_fall.ogg s
+wf_fall_hit.ogg s
+earth_cry.ogg s
+air_cry.ogg s
+sea_cry.ogg s

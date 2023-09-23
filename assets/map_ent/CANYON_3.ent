@@ -1,0 +1,25 @@
+BBG START
+BG1 START
+BG2 START
+Door 1824 32 578136 index=1 AUTO_INDEX=1 behavior=0 type=2 script="TOOL/DOORS/SM.HX" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CANYON_G1" next_cam_offset="0,0"
+Door 0 80 494886 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="CANYON_2" next_cam_offset="0,0"
+GenericNPC 1808 160 140031 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="DIFJ" children="" id="gauntletblocker"
+Pod 800 544 877474 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 816 544 121394 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 624 324285 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 656 624 600069 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 976 624 627879 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 992 624 189425 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 1600 224 144437 hor_leveler_px_up=96 is_hor_leveler=1 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=15 tile_h=6
+SavePoint 96 320 676411
+SavePoint 1616 272 692240
+FG2 START
+SetPiece 480 556 419011 tile_size="759,145" fades_when_overlap=0 TYPE="GROUP1" auto_scroll_dir=5 id=1 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 480 544 596720 tile_size="826,30" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=2 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 480 546 712084 tile_size="826,28" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=6 id=2 border_shrink=0 tiling_y_off=0 is_tileable=1 fade_with_entire_sprite=0 auto_scrolls=1 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1664 160 582369 tile_size="0,0" fades_when_overlap=0 TYPE="group1" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 144 224 945217 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 144 224 82122 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1184 336 167412 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=3 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=1 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 1184 336 29940 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+SetPiece 144 224 157002 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1

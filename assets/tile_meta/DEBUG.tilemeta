@@ -1,0 +1,16 @@
+START
+solid 11 8.10	
+cl45 2
+cr45 7
+fl45 12
+fr45 17
+lo22l 13
+hi22l 14
+lo22r 16
+hi22r 15
+top 18
+END
+
+ANIMS # Index in tileset, name of anim-tile-spritesheet, frames in anim, frame rates
+10 DEBUG 0,1 15
+END

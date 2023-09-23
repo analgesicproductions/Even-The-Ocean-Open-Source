@@ -1,0 +1,14 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 307 895180 index=4 AUTO_INDEX=4 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPFOUR" next_cam_offset="0,0"
+SavePoint 576 656 917345
+Door 384 544 665079 index=0 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ED_TEST" next_cam_offset="0,0"
+Door 352 352 616288 index=1 AUTO_INDEX=6 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="EM_TEST" next_cam_offset="0,0"
+Door 640 432 252081 index=1 AUTO_INDEX=7 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="E_PARK" next_cam_offset="0,0"
+Door 624 640 250408 index=3 AUTO_INDEX=8 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="REALHOME" next_cam_offset="0,0"
+GenericNPC 400 352 948516 has_dialogue=1 map-scene-pos="p,dj,156" always_scripted=0 context_int_csv="0,0" debug_name="WARNING_YOU_WILL_HAVE_TO_RETURN_TO_THE_TITLE_SCREEN_TO_LEAVE_THE_NEXT_MAP" children="" id="sign1"
+Door 528 800 548222 index=0 AUTO_INDEX=9 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="TWITCH" next_cam_offset="0,0"
+Door 656 784 795490 index=0 AUTO_INDEX=10 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SEAN1" next_cam_offset="0,0"
+GenericNPC 448 624 862968 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,31" debug_name="" children="" id="dev_info"
+FG2 START

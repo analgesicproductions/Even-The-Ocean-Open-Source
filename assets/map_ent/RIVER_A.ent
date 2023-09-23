@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Door 400 256 861816 index=5 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_G1_1" next_cam_offset="0,0"
+Door 784 -32 90998 index=5 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_R" next_cam_offset="0,0"
+SavePoint 432 160 259525
+Door 0 128 203691 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="RIVER_L" next_cam_offset="0,0"
+Door 640 656 962655 index=1 AUTO_INDEX=4 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+Door 432 384 812573 index=0 AUTO_INDEX=5 behavior=1 type=0 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="FUNGUS" next_cam_offset="0,0"
+GenericNPC 560 352 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,64" debug_name="" children="" id="dev_info"
+FG2 START

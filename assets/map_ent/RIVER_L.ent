@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 -65 622927 index=27 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+Door 1584 64 340874 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_A" next_cam_offset="0,0"
+Door 880 272 474037 index=5 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=14 s_visited=1 custom_size="0,0" dest_map="RIVER_PATH" next_cam_offset="0,0"
+GenericNPC 144 208 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,62" debug_name="" children="" id="dev_info"
+GenericNPC 832 16 409240 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,63" debug_name="" children="" id="dev_info"
+FG2 START

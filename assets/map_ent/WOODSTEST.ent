@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+SinkPlatform 240 64 732241 return_rate=0.5 returns_home=1 yvel=30 xvel=37
+Door 144 272 852051 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_6" index=10 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

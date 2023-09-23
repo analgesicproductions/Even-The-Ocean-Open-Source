@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+SetPiece 0 0 714169 TYPE="TEST" auto_scroll_fps=15 auto_scrolls=0 auto_scroll_dir=0 border_shrink=0 fades_when_overlap=0 fade_with_entire_sprite=0 blend_1ad2mu3sc=0 is_tileable=0 tiling_y_off=0 tile_size="0,0" mirrored=0 id=0
+Pod 240 112 336502 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Pod 256 112 854698 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=3 dmgtype=0
+Door 64 160 749638 AUTO_INDEX=0 behavior=0 dest_x=1 dest_map="OLD_4" index=6 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

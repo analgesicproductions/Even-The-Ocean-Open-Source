@@ -1,0 +1,6 @@
+BBG START
+BG1 START
+BG2 START
+Door 880 848 902539 index=28 AUTO_INDEX=3 behavior=0 type=0 script="" dest_x=0 dest_y=0 s_visited=0 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+SavePoint 768 864 271976
+FG2 START

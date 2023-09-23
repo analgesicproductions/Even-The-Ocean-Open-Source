@@ -1,0 +1,11 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 -45 181652 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="MAP3" next_cam_offset="0,0"
+Door 560 -47 437644 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=0 custom_size="0,0" dest_map="___0" next_cam_offset="0,0"
+GenericNPC 368 176 464487 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,1" debug_name="" children="" id="dev_info"
+SavePoint 240 192 641772
+GenericNPC 288 176 865042 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,5" debug_name="" children="" id="dev_info"
+GenericNPC 112 176 744630 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,56" debug_name="" children="" id="dev_info"
+GenericNPC 160 176 577694 has_dialogue=1 map-scene-pos="p,dj,157" always_scripted=0 context_int_csv="0,0" debug_name="THIS_IS_AN_EXAMPLE_JONI_MESSAGE" children="" id="joni"
+FG2 START

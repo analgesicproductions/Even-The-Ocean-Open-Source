@@ -1,0 +1,7 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 114 948043 index=26 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=0 dest_y=0 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+Door 400 64 423919 index=4 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="WOODS_ENTER" next_cam_offset="0,0"
+GenericNPC 320 288 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,75" debug_name="" children="" id="dev_info"
+FG2 START

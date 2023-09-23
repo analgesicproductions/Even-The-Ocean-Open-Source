@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+Door 0 160 861021 index=24 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="MAPONE" next_cam_offset="0,0"
+Door 2128 1264 120559 index=0 AUTO_INDEX=1 behavior=0 type=3 script="" dest_x=0 dest_y=1 s_visited=1 custom_size="0,0" dest_map="FOREST2" next_cam_offset="0,0"
+Door 1056 1264 43732 index=1 AUTO_INDEX=2 behavior=0 type=4 script="" dest_x=0 dest_y=1 s_visited=0 custom_size="0,0" dest_map="FOREST2" next_cam_offset="0,0"
+GenericNPC 144 384 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,113" debug_name="" children="" id="dev_info"
+FG2 START

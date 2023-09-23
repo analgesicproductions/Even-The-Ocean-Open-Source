@@ -1,0 +1,30 @@
+BBG START
+BG1 START
+BG2 START
+Door 16 1360 475342 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ROUGE_0" next_cam_offset="0,0"
+Door 1728 784 215980 index=0 AUTO_INDEX=1 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="ROUGE_2" next_cam_offset="0,0"
+Door 1376 0 350509 index=0 AUTO_INDEX=2 behavior=0 type=4 script="" dest_x=0 dest_y=-8 s_visited=1 custom_size="0,0" dest_map="ROUGE_3" next_cam_offset="0,0"
+GenericNPC 96 1680 42222 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="intro_basic_tut"
+SapPad 752 1152 512553 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="798012,528553"
+RaiseWall 944 1120 424668 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children="488693"
+RaiseWall 800 1120 798012 energy=0 is_wide=0 raise_distance=32 vistype=0 raise_dir=0 init_state=0 needed_en=32 permanent_open=1 s_open=0 children="488693"
+GenericNPC 668 1104 488693 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="589267,798012,424668" id="intro_sappad"
+SapPad 912 1152 436538 max_storage=64 vis=0 dmg_rate=0.04 one_for_all=1 reverse=0 dmg=1 children="424668,798012,964953"
+GenericNPC 976 1536 451652 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=10 debug_name="" children="" id="intro_tutorial"
+SavePoint 560 1344 342825 autosaves=0
+GenericNPC 592 1312 658433 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=11 debug_name="" children="" id="intro_tutorial"
+SoundZone 0 1552 692328 tile_w=16 type="grass" revert_on_exit=0 tile_h=5 wall_type="grass"
+SoundZone 256 1536 281117 tile_w=22 type="rock" revert_on_exit=0 tile_h=4 wall_type="rock"
+HelpTip 288 1568 700201 on_bottom=1 id=1
+WirePoint 752 1168 528553 pos="0,16,48,16,48,-16" vistype=0 forceTargetDir=-1 children="798012"
+WirePoint 912 1168 964953 pos="0,16,32,16,32,-16" vistype=0 forceTargetDir=-1 children="424668"
+Pod 1248 1088 976665 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1264 1088 935139 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1280 1088 300013 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1408 1056 746649 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1424 1056 899204 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1440 1056 435090 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1488 1056 781685 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FG2 START
+HelpTip 800 1312 406094 on_bottom=0 id=2
+HelpTip 960 1552 589267 on_bottom=1 id=0

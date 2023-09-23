@@ -1,0 +1,47 @@
+BBG START
+BG1 START
+BG2 START
+Wind 352 368 924544 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=112 speed=50
+Wind 384 512 524226 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=48 speed=70
+Wind 352 192 153231 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=48 speed=50
+Wind 656 304 246894 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=96 speed=50
+Wind 576 256 275053 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=48 speed=70
+Wind 688 464 283700 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=64 speed=50
+Wind 880 384 684969 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=32 speed=70
+Pod 720 576 569620 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 736 544 896649 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 720 560 270599 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 736 560 8518 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Wind 1296 736 381751 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=70
+Pod 976 720 10991 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=1 vistype=0 tm_dead=1 dmgtype=0
+Wind 896 672 329185 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=70
+Wind 1040 688 321644 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=70
+Pod 1152 800 134099 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1168 800 50033 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1184 800 644494 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Wind 1872 624 646367 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=64 w=48 speed=70
+Wind 1616 528 442692 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=70
+Wind 1536 432 655538 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=70
+Door 16 -64 138434 AUTO_INDEX=0 custom_size="0,0" behavior=0 dest_x=-1 dest_map="HILL_2" index=0 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+Door 2112 528 419607 AUTO_INDEX=1 custom_size="0,0" behavior=0 dest_x=1 dest_map="HILL_4" index=0 s_visited=1 next_cam_offset="0,0" type=2 script="" dest_y=8
+BarbedWire 304 112 223732 children="" dmgtype=0 is_ring=1 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 816 704 747111 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 836 717 440873 children="" AUTO_ORIENT=1 dir=4 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 848 720 210996 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+SoundZone 144 112 789079 tile_h=17 wall_type="generic" type="metal" tile_w=11
+SoundZone 176 384 227134 tile_h=7 wall_type="generic" type="metal" tile_w=9
+SoundZone 80 384 478407 tile_h=3 wall_type="generic" type="grass" tile_w=6
+SoundZone 0 160 74143 tile_h=5 wall_type="generic" type="rock" tile_w=9
+SoundZone 208 496 127593 tile_h=3 wall_type="generic" type="grass" tile_w=9
+NewCamTrig 784 448 245653 is_VERT=0 hor_leveler_px_up=0 is_look_downer=1 tile_h=4 is_hor_leveler=0 transition_v=390 tile_w=11
+FG2 START
+LineCollider 465 544 875785 base_accel=145 coords="0,0,31,-64" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 416 317 444485 base_accel=145 coords="0,0,0,-48,64,-48,126,-29,186,7,262,23,334,47,400,48,432,64,432,96" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 800 512 99070 base_accel=145 coords="0,0,65,-14,96,-30,144,-48" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 576 496 624736 base_accel=145 coords="0,0,64,32,64,113,133,131,176,154,239,164,239,229,297,240,357,245,400,260,484,256,528,256,528,288,585,314,656,324,711,322,746,308,790,306,832,288" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 176 496 360440 base_accel=145 coords="0,0,63,9,89,26,128,32" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 1456 688 878471 base_accel=145 coords="0,0,37,-7,124,-10,176,-16" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 1648 432 398484 base_accel=145 coords="0,0,47,-23,105,-37,154,-31,203,-33,233,-39,262,-38,272,-32" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 512 480 873229 base_accel=145 coords="0,0,64,16" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+LineCollider 1648 608 687389 base_accel=145 coords="0,0,112,-16" is_ceiling=0 zip_max_vel=330 is_zipline=0 invis=1
+SavePoint 224 256 526571

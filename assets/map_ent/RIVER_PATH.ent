@@ -1,0 +1,9 @@
+BBG START
+BG1 START
+BG2 START
+Door 848 448 431350 index=1 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_TOWER" next_cam_offset="0,0"
+Door 864 448 835185 index=1 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_TOWER" next_cam_offset="0,0"
+Door 1584 208 951859 index=1 AUTO_INDEX=4 behavior=0 type=2 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_R" next_cam_offset="0,0"
+Door 0 208 939043 index=3 AUTO_INDEX=5 behavior=0 type=2 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="RIVER_L" next_cam_offset="0,0"
+GenericNPC 1008 448 771546 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="2,61" debug_name="" children="" id="dev_info"
+FG2 START

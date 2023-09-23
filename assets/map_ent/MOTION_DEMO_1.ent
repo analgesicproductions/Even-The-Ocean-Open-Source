@@ -1,0 +1,63 @@
+BBG START
+BG1 START
+BG2 START
+HelpTip 688 608 775339 on_bottom=1 id=0
+GenericNPC 752 608 996316 has_dialogue=1 map-scene-pos="DEMO,SIGN,0" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+SavePoint 1104 640 183643
+Weed 1040 560 897246 vistype=1 dir=0
+Weed 1040 544 665741 vistype=1 dir=2
+Weed 1024 544 625059 vistype=1 dir=2
+Weed 1024 560 854277 vistype=1 dir=0
+Weed 1184 480 950809 vistype=0 dir=0
+Weed 1200 480 751655 vistype=0 dir=0
+Weed 1184 464 381046 vistype=0 dir=2
+Weed 1200 464 317658 vistype=0 dir=2
+GenericNPC 992 528 892862 has_dialogue=1 map-scene-pos="DEMO,SIGN,1" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+SavePoint 608 336 817577
+Spike 560 192 93746 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 560 112 205916 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 624 64 177 dmgtype=0 dir=2 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Spike 624 160 740409 dmgtype=0 dir=0 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+RevolveSpore 128 160 572713 hurt_ticks=5 base_vel=420 vis-dmg="2,0"
+EdgeDoor 80 256 685636 is_wide=0 vistype=0 only_open_dir=-1
+EdgeDoor 32 80 704512 is_wide=1 vistype=0 only_open_dir=-1
+HelpTip 816 608 871483 on_bottom=1 id=2
+GenericNPC 1232 464 277114 has_dialogue=1 map-scene-pos="DEMO,SIGN,2" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 1056 464 428396 has_dialogue=1 map-scene-pos="DEMO,SIGN,3" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 704 432 561136 has_dialogue=1 map-scene-pos="DEMO,SIGN,4" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+Pod 976 448 360044 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 992 448 889151 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1040 560 785220 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1168 480 882623 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+GenericNPC 944 560 688164 has_dialogue=1 map-scene-pos="DEMO,SIGN,7" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+Pod 1200 480 487112 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1056 560 640431 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 960 448 489036 dmgtype=1 tm_dead=3 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 832 784 426336 index=0 AUTO_INDEX=0 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="DEMO_G" next_cam_offset="0,0"
+Wind 592 480 673371 h=288 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=220
+Door 352 928 62855 index=0 AUTO_INDEX=2 behavior=1 type=0 script="" dest_x=0 dest_y=8 s_visited=1 custom_size="0,0" dest_map="DEMO_1_2" next_cam_offset="0,0"
+CameraTrigger 368 960 433471 nrenter=1 enter="560,992" nrexit=1 vistype=2 width=416 exit="560,944" height=256
+CameraTrigger 0 784 33262 nrenter=1 enter="339,876" nrexit=1 vistype=2 width=416 exit="346,816" height=256
+GenericNPC 544 1040 86879 has_dialogue=1 map-scene-pos="DEMO,SIGN,11" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 384 928 641096 has_dialogue=1 map-scene-pos="DEMO,SIGN,10" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 784 784 51477 has_dialogue=1 map-scene-pos="DEMO,SIGN,12" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 528 784 284569 has_dialogue=1 map-scene-pos="DEMO,SIGN,9" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+CameraTrigger 720 656 440756 nrenter=1 enter="752,784" nrexit=1 vistype=2 width=416 exit="704,784" height=256
+GenericNPC 872 608 266559 has_dialogue=1 map-scene-pos="DEMO,SIGN,14" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 864 432 956176 has_dialogue=1 map-scene-pos="DEMO,SIGN,13" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 912 896 467504 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="clariseed_observer"
+Spike 16 480 788827 dmgtype=0 dir=1 bounce_vel_min=125 timmer=0.25 hor_bounce_vel=166 vistype=0 bounce_vel_max=250 bounce_vel_mid=210
+Pod 992 176 767659 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1168 128 780579 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1232 80 614033 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Weed 1008 176 447077 vistype=0 dir=0
+Weed 1040 176 585134 vistype=0 dir=0
+GenericNPC 1104 1024 597914 has_dialogue=0 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="boxart"
+SongTrigger 1104 1024 254930 name="STARFISH"
+Pod 1184 464 533953 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 656 608 382804 index=5 AUTO_INDEX=3 behavior=1 type=0 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="OLD_1" next_cam_offset="0,0"
+FG2 START
+GenericNPC 752 1024 286091 has_dialogue=1 map-scene-pos="" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="lounger_chairs"
+GenericNPC 256 1056 605373 has_dialogue=1 map-scene-pos="DEMO,SIGN,21" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+GenericNPC 112 0 85214 has_dialogue=1 map-scene-pos="DEMO,SIGN,20" always_scripted=0 context_int_csv="0,0" debug_name="" children="" id="sign1"
+BubbleSpawner 48 0 292908 vistype=0 bubble_type=0

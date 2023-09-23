@@ -1,0 +1,42 @@
+BBG START
+BG1 START
+BG2 START
+Door 384 768 835551 index=6 AUTO_INDEX=0 behavior=0 type=4 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="SEA_4" next_cam_offset="0,0"
+Door 144 768 357494 index=5 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=2 s_visited=1 custom_size="0,0" dest_map="SEA_4" next_cam_offset="0,0"
+Door 1088 688 302340 index=2 AUTO_INDEX=2 behavior=0 type=0 script="" dest_x=2 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SEA_7" next_cam_offset="0,0"
+Pod 32 720 390548 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 48 720 677 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 240 560 741184 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 256 560 737402 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 32 544 222900 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 32 528 459631 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=1 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 32 512 114198 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 160 560 746368 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 176 560 540621 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SmashHand 80 496 150501 tm_pause=0.65 accel=1000 vis-dmg="0,0" aggro_pos="0,-16" vel_follow=150 tm_wait=0 aggro_dims="320,100" dir=2 init_vel=100 dmg=64 tm_follow=1.5 tm_ground_wait=1.5
+Pod 64 720 485426 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+FlameBlower 416 560 870027 blow_vel=90 tm_off=-1 flame_distance=90 vis-dmg="0,0" nr_flames=8 dir=3 tm_hurt=0.033 tm_on=-1 tm_new_flame=0.2
+BarbedWire 256 608 148571 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="373623" wire_tile_width=3 is_gauntlet=1
+BarbedWire 368 656 373623 saves_state=0 dmgtype=0 s_save=0 vistype=0 max_energy=32 start_state=0 is_ring=0 is_dream=0 children="" wire_tile_width=3 is_gauntlet=1
+Pod 288 720 150702 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 288 720 697889 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 304 720 375457 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 576 753619 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 576 488163 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 480 576 879597 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 496 576 681797 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=2 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 464 720 674696 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 448 720 274083 dmgtype=0 tm_dead=3 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 896 720 919510 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 832 720 302417 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=1 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Door 0 208 946881 index=2 AUTO_INDEX=3 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SEA_1" next_cam_offset="0,0"
+SavePoint 176 720 373964
+SavePoint 1024 720 606687
+SpikeExtend 16 672 417591 tm_dmg=0.05 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+AliphItem -32 512 201746 removes=0 vis_set=0 id=41
+SpikeExtend 16 608 187225 tm_dmg=0.05 vel_extend=300 tm_wait_at_ends=0.7 dir=1 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 240 672 218246 tm_dmg=0.05 vel_extend=300 tm_wait_at_ends=0.7 dir=3 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+SpikeExtend 512 688 494428 tm_dmg=0.05 vel_extend=300 tm_wait_at_ends=0.7 dir=3 accel_extend=1000 vis-dmg="0,0" dmg=48 vel_retract=120
+GenericNPC 880 432 700625 has_dialogue=1 map-scene-pos="p,dj,230" always_scripted=0 context_int_csv="0,0" debug_name="NOW_YOURE_OUTSIDE_ON_THE_BACK_OF_THE_GEOME,,,_WE_IMAGINED_THIS_AS_A_SORT_OF_ESCAPE_SEQUENCE,_WHERE_YOU_PLANT_THE_BOMBS_AND_THEN_HAVE_TO_RUN_ALONG_THE_OUTSIDE_OF_THE_GEOME" children="" id="joni"
+GenericNPC 816 432 465372 has_dialogue=1 map-scene-pos="p,dj,231" always_scripted=0 context_int_csv="0,0" debug_name="TO_THE_LEFT_ARE_THE_BIG_SPINES_ON_THE_BACK_OF_THE_GEOME" children="" id="joni"
+FG2 START

@@ -1,0 +1,19 @@
+BBG START
+BG1 START
+BG2 START
+Door 432 0 247490 index=2 AUTO_INDEX=0 behavior=0 type=4 script="" dest_x=-1 dest_y=-5 s_visited=1 custom_size="0,0" dest_map="FOREST2" next_cam_offset="0,0"
+Pod 752 256 967075 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 768 256 500349 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 784 256 729756 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+RevolveSpore 976 560 960426 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1040 528 756543 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 992 464 491546 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1104 448 923104 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+RevolveSpore 1136 512 694559 hurt_ticks=5 base_vel=420 vis-dmg="2,2"
+Pod 1120 560 367487 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1184 560 445401 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1216 560 116563 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1072 864 119242 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+SavePoint 928 880 838945
+Door 960 944 836682 index=11 AUTO_INDEX=1 behavior=0 type=4 script="" dest_x=0 dest_y=3 s_visited=1 custom_size="0,0" dest_map="FOREST_G1" next_cam_offset="0,0"
+FG2 START

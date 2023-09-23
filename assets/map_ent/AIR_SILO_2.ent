@@ -1,0 +1,52 @@
+BBG START
+BG1 START
+BG2 START
+NewCamTrig 0 0 69679 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=73 tile_h=16
+WalkBlock 320 64 470629 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,1"
+FollowLaser 416 32 217981 dmgtype=1 accel=50 fixed_angle=90 vistype=1 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+WalkBlock 624 64 20711 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,1"
+WalkBlock 720 64 82766 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,1"
+Pod 656 176 909975 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 672 176 716044 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 912 256 843264 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=35
+FollowLaser 1248 400 327613 dmgtype=0 accel=50 fixed_angle=180 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="Y" is_fixed=1
+WalkBlock 1200 432 738822 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=3 vis-dmg="1,1" decel-frames="120,20,30" f_speed=16 w,h="2,4"
+WalkBlock 1200 640 406045 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=3 vis-dmg="1,1" decel-frames="120,20,30" f_speed=16 w,h="2,5"
+FollowLaser 1248 608 826859 dmgtype=0 accel=50 fixed_angle=180 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="Y" is_fixed=1
+FollowLaser 1920 176 445846 dmgtype=0 accel=50 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+NewWaterShooter 1824 272 833813 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="0,0" is_vert=1 max_vel=280
+WalkBlock 2016 272 408443 AUTO_ORIENT=1 starts_moving_left_or_down=1 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,1"
+FollowLaser 2080 128 119443 dmgtype=0 accel=50 fixed_angle=90 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="x" is_fixed=1
+WalkBlock 2096 208 464814 AUTO_ORIENT=1 starts_moving_left_or_down=0 dir=0 vis-dmg="0,0" decel-frames="120,20,30" f_speed=16 w,h="4,2"
+Pew 2224 368 147341 fint_TICKS=-1 fint=0.3 fpattern=1 vistype=0 bullet_vis="-1,-1" dir=3 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0"
+Pod 2240 224 339648 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2224 224 180488 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2208 224 419361 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=0 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewCamTrig 1328 96 676339 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=81 tile_h=21
+Pew 2368 336 894057 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0,0"
+Pew 2544 336 413170 fint_TICKS=-1 fint=0.3 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=0 mb=10 bspd=100 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1,0,0,0,0,0,0"
+NewCamTrig 2384 208 171791 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=1 tile_w=10 tile_h=6
+NewCamTrig 2256 432 871997 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=51
+Wind 2448 512 499819 h=480 req_energy=0 angle=270 global=0 invis=0 tm_next_particle=0.05 en_align=-1 w=32 speed=100
+FollowLaser 2368 768 342671 dmgtype=0 accel=0 fixed_angle=0 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="Y" is_fixed=1
+FollowLaser 2544 608 326004 dmgtype=0 accel=0 fixed_angle=180 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="Y" is_fixed=1
+FollowLaser 2544 928 202096 dmgtype=0 accel=0 fixed_angle=180 vistype=0 axis_tracks_player=1 angvel=0 tracking_vel=0 is_dream=0 tracked_axis="Y" is_fixed=1
+SavePoint 144 160 11778
+SavePoint 1488 352 612899
+Door 0 -80 700455 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="AIR_SILO_1" next_cam_offset="0,0"
+GenericNPC 2448 1104 424508 has_dialogue=1 map-scene-pos=0 always_scripted=1 context_int_csv=1 debug_name="BOMB_AIR" children="" id="old_bomb_holder"
+NewCamTrig 1024 368 543131 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=1 tile_w=5 tile_h=2
+NewCamTrig 1024 576 951048 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=1 tile_w=5 tile_h=2
+NewCamTrig 1024 304 396641 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=1 tile_w=5 tile_h=2
+NewCamTrig 1024 480 734150 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=1 tile_w=5 tile_h=2
+SetPiece 80 112 951669 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=1 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START
+ArmLocker 226 144 11851 hor_passage=1 dir=1 is_exit=0 vis-dmg="0,0"
+ArmLocker 979 144 107908 hor_passage=1 dir=0 is_exit=0 vis-dmg="1,1"
+ArmLocker 1600 320 698651 hor_passage=1 dir=1 is_exit=0 vis-dmg="0,0"
+ArmLocker 1760 176 191169 hor_passage=1 dir=0 is_exit=0 vis-dmg="0,0"
+ArmLocker 2225 322 630585 hor_passage=1 dir=2 is_exit=0 vis-dmg="0,0"
+ArmLocker 2448 544 894191 hor_passage=0 dir=1 is_exit=0 vis-dmg="0,0"
+ArmLocker 2448 705 602780 hor_passage=0 dir=3 is_exit=0 vis-dmg="0,0"
+ArmLocker 2448 865 814885 hor_passage=0 dir=1 is_exit=0 vis-dmg="0,0"
+ArmLocker 2448 1024 478837 hor_passage=0 dir=1 is_exit=1 vis-dmg="0,0"

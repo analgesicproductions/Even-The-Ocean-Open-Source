@@ -1,0 +1,19 @@
+BBG START
+BG1 START
+BG2 START
+Door 3488 352 852641 index=0 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_1" next_cam_offset="0,0"
+GenericNPC 1104 320 106542 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="CHASE" children="" id="cliff_chase"
+GenericNPC 3088 480 383749 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name=23 children="" id="cliff_cactus_npc"
+Door 880 448 178511 index=-1 AUTO_INDEX=2 behavior=0 type=3 script="" dest_x=240 dest_y=8 s_visited=1 custom_size="200,16" dest_map="CLIFF_3" next_cam_offset="0,0"
+Door 752 448 494134 index=-1 AUTO_INDEX=2 behavior=0 type=3 script="" dest_x=240 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_3" next_cam_offset="0,0"
+Door 624 448 692349 index=-1 AUTO_INDEX=2 behavior=0 type=3 script="" dest_x=240 dest_y=8 s_visited=1 custom_size="0,0" dest_map="CLIFF_3" next_cam_offset="0,0"
+Door 528 336 436277 index=-1 AUTO_INDEX=2 behavior=0 type=3 script="" dest_x=240 dest_y=8 s_visited=1 custom_size="100,300" dest_map="CLIFF_3" next_cam_offset="0,0"
+GenericNPC 3200 528 475162 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=2 debug_name="" children="" id="cliff_aliph"
+GenericNPC 2352 368 574463 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=3 debug_name="" children="" id="cliff_aliph"
+SavePoint 3376 592 955222
+Door 2384 544 148263 index=1 AUTO_INDEX=6 behavior=0 type=3 script="" dest_x=1 dest_y=8 s_visited=1 custom_size="32,16" dest_map="CLIFF_4" next_cam_offset="0,0"
+GenericNPC 2944 432 870826 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="bg_cactus"
+GenericNPC 3200 416 83935 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv=1 debug_name="" children="" id="bg_cactus"
+FG2 START
+LineCollider 2752 560 169024 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,224,16" invis=1
+LineCollider 1936 432 282770 zip_max_vel=330 is_zipline=0 is_ceiling=0 base_accel=145 coords="0,0,208,32" invis=1

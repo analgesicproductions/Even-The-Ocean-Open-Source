@@ -1,0 +1,65 @@
+BBG START
+BG1 START
+BG2 START
+GenericNPC 48 160 652285 always_scripted=1 debug_name="WILBERT" context_int_csv="0,0" children="" map-scene-pos="HILL,WILBERT_INIT,0" id="wilbert" has_dialogue=1
+GenericNPC 96 160 315376 always_scripted=1 debug_name="SHANTEL" context_int_csv="0,0" children="" map-scene-pos="" id="shantel" has_dialogue=0
+Door 16 160 932315 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="NPC_HILL" index=5 s_visited=1 next_cam_offset="0,0" type=0 script=69 dest_y=0
+GenericNPC 288 32 721509 always_scripted=1 debug_name="ROOM_BAY" context_int_csv="0,0" children="" map-scene-pos="" id="room_bay" has_dialogue=0
+GenericNPC 224 128 652187 always_scripted=1 debug_name="ROOM_TRENT" context_int_csv="0,0" children="" map-scene-pos="" id="room_trent" has_dialogue=0
+GenericNPC 128 96 759194 always_scripted=0 debug_name="DEAD_TREES" context_int_csv="0,0" children="" map-scene-pos="HILL,DEADTREE,0" id="deadtrees" has_dialogue=1
+GenericNPC 32 96 887673 always_scripted=0 debug_name="PANTRY" context_int_csv="0,0" children="" map-scene-pos="HILL,PANTRY,0" id="hillpantry" has_dialogue=1
+GenericNPC 80 96 565922 always_scripted=1 debug_name="FAN" context_int_csv="0,0" children="" map-scene-pos="HILL,FAN,0" id="hillfan" has_dialogue=1
+GenericNPC 384 128 640239 always_scripted=1 debug_name="ROOM_VERA" context_int_csv="0,0" children="" map-scene-pos="" id="room_vera" has_dialogue=0
+GenericNPC 320 128 217959 always_scripted=1 debug_name="BAYVERA" context_int_csv="0,0" children="" map-scene-pos="" id="bay_in_vera_room" has_dialogue=0
+SavePoint 160 144 862622
+GenericNPC 256 304 696845 always_scripted=0 debug_name="IMAGETEST" context_int_csv="0,0" children="" map-scene-pos="HILL,IMAGETEST,0" id="deadtrees" has_dialogue=1
+GenericNPC 160 48 352790 always_scripted=0 debug_name="DEBUG" context_int_csv="0,0" children="" map-scene-pos="HILL,DEBUG,0" id="sign1" has_dialogue=1
+GenericNPC 464 32 201393 always_scripted=1 debug_name="SOUP_B1" context_int_csv="0,0" children="" map-scene-pos="" id="memory_soup_trigger" has_dialogue=0
+GenericNPC 528 32 261565 always_scripted=1 debug_name="SOUP_B2" context_int_csv="1,0" children="" map-scene-pos="" id="memory_soup_trigger" has_dialogue=0
+GenericNPC 400 32 613613 always_scripted=0 debug_name="DEBUG" context_int_csv="0,0" children="" map-scene-pos="HILL,DEBUG,0" id="sign1" has_dialogue=1
+Door 432 32 961086 AUTO_INDEX=1 behavior=1 dest_x=1 dest_map="NPC_HILL" index=1 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=0
+GenericNPC 464 80 514583 always_scripted=1 debug_name="BAY_B1" context_int_csv="0,0" children="" map-scene-pos="" id="bay_outside" has_dialogue=0
+GenericNPC 525 80 263218 always_scripted=1 debug_name="BAY_B2" context_int_csv="1,0" children="" map-scene-pos="" id="bay_outside" has_dialogue=0
+GenericNPC 608 80 898244 always_scripted=1 debug_name="TRENT_T1" context_int_csv="0,0" children="" map-scene-pos="" id="trent_outside" has_dialogue=0
+GenericNPC 672 80 594516 always_scripted=1 debug_name="TRENT_T2" context_int_csv="1,0" children="" map-scene-pos="" id="trent_outside" has_dialogue=0
+GenericNPC 608 32 332935 always_scripted=1 debug_name="PAINT_T1" context_int_csv="0,0" children="" map-scene-pos="" id="memory_paint_trigger" has_dialogue=0
+GenericNPC 688 32 36409 always_scripted=1 debug_name="PAINT_T2" context_int_csv="1,0" children="" map-scene-pos="MEMORY_PAINT_TRIGGER" id="memory_paint_trigger" has_dialogue=0
+GenericNPC 448 176 449714 always_scripted=1 debug_name="VERA_NEAR_STOREROOM" context_int_csv="0,0" children="" map-scene-pos="" id="storeroom_trigger" has_dialogue=0
+GenericNPC 576 208 454711 always_scripted=1 debug_name="STOEROOMIN" context_int_csv="0,0" children="" map-scene-pos="" id="storeroom_in" has_dialogue=0
+Hopper 384 368 733402 accel=350 tm_jump=0.5 jump_vel=-300 wall_jumps=0 x_vel=50 vis-dmg="0,0"
+MiniMoveBlock 288 256 514325 dir=1 max_accel=300 is_y=0 dmg=24 tm_wait=0.2 vis-dmg="0,0" max_vel=200
+SavePoint 7248 -5536 504866
+SavePoint 720 -688 851113
+GenericNPC 496 336 628097 always_scripted=0 debug_name="DEAD_TREES" context_int_csv="0,0" children="" map-scene-pos="HILL,DEADTREE,0" id="deadtrees" has_dialogue=1
+GenericNPC 448 336 841964 always_scripted=1 debug_name="FAN" context_int_csv="0,0" children="" map-scene-pos="HILL,FAN,0" id="hillfan" has_dialogue=1
+MirrorLaser 274 501 447647 dir=0 nr=3 init_wait=0 dmg=48 t_TICKS=0 t_shoot=0.5 vis-dmg="0,0" vel=50 pattern=1
+OrbSlot 128 240 532174 children="791094" transmit_en=16 vis=1 needed_en=0
+RaiseWall 160 368 791094 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=64
+LaserBlock 128 288 356588 tm_reform=0.4 vis-dmg="0,0"
+LaserBlock 96 384 624931 tm_reform=1 vis-dmg="1,1"
+Pew 128 320 684332 bspd=40 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.7
+LaserBlock 80 384 22751 tm_reform=1 vis-dmg="1,1"
+MirrorLaser 82 302 746814 dir=3 nr=3 init_wait=0 dmg=48 t_TICKS=0 t_shoot=0.5 vis-dmg="1,1" vel=50 pattern=2
+MovePod 64 608 847167 behavior=0 launch_dir=0 min_max="32,32" launch_vel=250 tm_reset=0.5 vis-dmg="1,1" touch_dmg=32 move_vel=50 dir=0
+MovePod 304 608 230768 behavior=0 launch_dir=3 min_max="32,32" launch_vel=250 tm_reset=0.5 vis-dmg="1,1" touch_dmg=32 move_vel=50 dir=0
+MovePod 144 704 5419 behavior=0 launch_dir=5 min_max="32,32" launch_vel=250 tm_reset=0.5 vis-dmg="0,0" touch_dmg=32 move_vel=50 dir=0
+MovePod 224 704 982611 behavior=0 launch_dir=6 min_max="32,32" launch_vel=250 tm_reset=0.5 vis-dmg="0,0" touch_dmg=32 move_vel=50 dir=0
+MovePod 64 704 237385 behavior=0 launch_dir=4 min_max="32,32" launch_vel=250 tm_reset=0.5 vis-dmg="0,0" touch_dmg=32 move_vel=50 dir=0
+MovePod 304 704 274652 behavior=0 launch_dir=7 min_max="32,32" launch_vel=250 tm_reset=0.5 vis-dmg="0,0" touch_dmg=32 move_vel=50 dir=0
+RaiseWall 48 64 364839 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=64
+VanishBlock 96 64 794184 init_state=0 ignore_init_msg=0 s_en=0 perma_open=1 single_ticks=0 zero_for_vis=0 vistype=0 s_open=0 needed_en=1
+CameraTrigger 496 528 877937 enter="576,720" exit="720,720" nrenter=1 nrexit=1 width=416 vistype=2 height=256
+CameraTrigger 64 528 735096 enter="496,720" exit="368,704" nrenter=1 nrexit=1 width=500 vistype=2 height=256
+Spike 464 192 206818 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 592 128 880617 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 576 128 122633 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+Spike 624 128 753488 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 timmer=0.25 dmgtype=0
+GenericNPC 208 32 16020 always_scripted=0 debug_name="" context_int_csv="0,0" children="" map-scene-pos="HILL,FAN,0" id="a" has_dialogue=1
+GenericNPC 688 352 357839 always_scripted=1 debug_name="JO" context_int_csv="0,0" children="" map-scene-pos="" id="gauntletblocker" has_dialogue=0
+GenericNPC 576 352 59734 always_scripted=1 debug_name="JO" context_int_csv="1,0" children="" map-scene-pos="" id="gauntletblocker" has_dialogue=0
+Floater 384 400 228575 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 416 400 86152 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+Floater 448 400 254596 base_dmg=20 min_launch=-250 launch_mul=1.35 vis-dmg="1,1" rise_vel=20
+WaterGlider 176 576 449770 dmg=48 dark_vel="65,47" light_vel="35,70" drag=50 tm_move=4 vel_rise=30 vis-dmg="0,0" vel=40 tm_hurt=0.033
+Door 272 208 294882 AUTO_INDEX=2 behavior=1 dest_x=1 dest_map="OLD_5" index=10 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+FG2 START

@@ -1,0 +1,8 @@
+BBG START
+BG1 START
+BG2 START
+SavePoint 64 320 318040
+Door 144 272 540323 AUTO_INDEX=0 behavior=1 dest_x=1 dest_map="OLD_3" index=5 s_visited=1 next_cam_offset="0,0" type=0 script="" dest_y=8
+FollowLaser 160 320 96999 accel=50 dmgtype=0 axis_tracks_player=1 angvel=0 is_dream=0 is_fixed=1 vistype=0 tracking_vel=0 tracked_axis="x" fixed_angle=90
+PlantBlock 176 304 491277 behavior=0 dir=0 vis-dmg="0,0" float_dis=32
+FG2 START

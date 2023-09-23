@@ -1,0 +1,163 @@
+BBG START
+BG1 START
+BG2 START
+RevolveSpore 96 160 323960 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 576 752 444951 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 752 800 473783 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1136 448 652001 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1216 368 307952 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+GhostLight 848 512 504695 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 848 512 967250 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+SavePoint 1456 64 330112 autosaves=0
+RevolveSpore 1568 144 232184 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1696 208 813187 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1856 192 317347 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1984 128 276498 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+ExtendStem 2352 64 338477 angle=0 accel=70 return_vel=35 tm_hurt=0.1 tile_width=4 vis-dmg="2,2" vel=55 deaccel=150
+RevolveSpore 2448 160 540058 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2448 240 52406 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Pew 2320 160 803593 bspd=100 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1,1,1,0,0,0,0,0,0" white_no_dmg=0 vistype=1 mb=4 fint=0.4
+Pew 2320 240 550361 bspd=100 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="0,0,0,0,0,0,1,1,1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.4
+RevolveSpore 2560 240 290113 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2560 160 290046 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2672 160 704328 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2672 240 360161 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2784 160 34650 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2784 240 274174 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 3008 304 98182 base_vel=450 vis-dmg="2,2" hurt_ticks=5
+WalkPod 3152 48 686584 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=3
+Wind 192 992 463804 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=50
+Wind 336 992 390020 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=32 speed=50
+RaiseWall 496 1168 138730 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+Button 272 1072 160320 children="138730" t_wait=0 vistype=0 damage=1
+GhostLight 272 1184 293670 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 102 1178 101346 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+RevolveSpore 192 1360 304853 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 352 1392 463874 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+WalkPod 256 1344 669671 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=3
+WalkPod 304 1344 984553 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="0,0" starts_moving_left_or_down=0 dir=1
+WalkPod 432 1360 258686 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=3
+WalkPod 480 1360 909390 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=1 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=1
+RevolveSpore 688 1056 697967 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 788 1494 147556 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 736 1376 138652 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 848 1376 151490 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 800 1296 54531 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 784 1200 150074 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1216 1104 520831 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1200 832 692381 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+GhostLight 1152 1072 455914 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+GhostLight 1152 1072 300000 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+Button 1664 352 648930 children="65462" t_wait=0 vistype=0 damage=1
+Button 1616 288 232032 children="65462" t_wait=0 vistype=0 damage=1
+Button 1424 288 403172 children="65462" t_wait=0 vistype=0 damage=1
+Button 1376 352 891883 children="65462" t_wait=0 vistype=0 damage=1
+RaiseWall 1680 480 65462 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=4
+RevolveSpore 1536 464 792507 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1536 368 89747 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+GhostLight 1424 480 449326 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 1456 464 171640 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+Pod 1600 496 168121 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 1616 496 648684 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+RevolveSpore 1984 336 55430 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2048 432 881963 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2048 544 166505 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1904 544 620802 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Wind 2112 528 678564 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=96 w=16 speed=70
+WalkPod 1904 432 166425 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=1
+WalkPod 1904 400 436591 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=1
+WalkPod 1904 368 908697 FISH_RADIUS=0 AUTO_ORIENT=1 decel-frames="120,20,30" climbs_corners=0 f_speed=16 dmg=24 tm_dead=1 vis-dmg="1,1" starts_moving_left_or_down=0 dir=1
+RevolveSpore 2607 690 651913 base_vel=450 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2797 692 236619 base_vel=450 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2608 512 134742 base_vel=450 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2720 448 229396 base_vel=450 vis-dmg="2,2" hurt_ticks=5
+Wind 2608 720 652995 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=16 w=240 speed=50
+GhostLight 2512 720 581309 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+GhostLight 2544 720 566754 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="1,1" vel_chase=150 tm_hurt=0.08
+Pod 2560 608 136653 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=1 vistype=1 tm_dead=1 dmgtype=1
+Wind 2560 560 746869 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=16 w=160 speed=50
+Button 1472 736 32112 children="537984" t_wait=0 vistype=0 damage=1
+RaiseWall 1808 704 537984 children="" energy=0 is_wide=0 init_state=0 permanent_open=1 raise_distance=32 raise_dir=0 vistype=0 s_open=0 needed_en=1
+GhostLight 1504 912 982765 is_ghost=0 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+GhostLight 1456 912 763199 is_ghost=1 light_radius=48 light_is_on=1 tm_immune=1 vis-dmg="0,0" vel_chase=150 tm_hurt=0.08
+RevolveSpore 1552 720 348271 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1648 768 540418 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1760 720 355068 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1536 848 466235 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1760 848 454894 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1648 896 245797 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1088 1536 926113 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1024 1424 135024 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1120 1376 415080 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+PlantBlock 2960 736 475116 behavior=0 dir=0 vis-dmg="1,1" float_dis=32
+Pod 3008 640 894089 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3072 640 856926 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+RevolveSpore 3040 688 6672 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 3040 512 878590 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Pod 3024 480 989572 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3056 480 400214 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+PlantBlockAccepter 3120 464 610097 behavior=0 init_state=0 vis-dmg="0,0" s_on=0 children=""
+PlantBlockAccepter 3136 896 930009 behavior=1 init_state=0 vis-dmg="0,0" s_on=0 children=""
+PlantBlock 2800 912 56401 behavior=1 dir=0 vis-dmg="0,0" float_dis=32
+RevolveSpore 2880 864 753390 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 3024 864 346514 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Pod 3024 832 830126 children="" AUTO_ORIENT=1 dir=2 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2880 896 730585 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+RevolveSpore 2992 1520 549743 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2992 1296 582399 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Pod 2928 1312 110943 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 2928 1344 344288 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 3088 1472 77245 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3088 1424 861801 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 3088 1440 556036 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+PlantBlockAccepter 3024 1184 887207 behavior=1 init_state=0 vis-dmg="0,0" s_on=1 children=""
+PlantBlock 2896 1552 712464 behavior=1 dir=0 vis-dmg="0,0" float_dis=32
+Pod 2976 1232 561849 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pew 2592 1200 268242 bspd=220 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=1 fint=0.1
+Pew 2464 1200 87487 bspd=220 dir=2 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=2 rhythm_pattern="1,1,1" white_no_dmg=0 vistype=1 mb=1 fint=0.1
+Spike 2496 1296 671960 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 2624 1264 471131 bounce_vel_max=250 bounce_vel_min=125 dir=0 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 2496 1408 447036 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=1 dmgtype=1
+Spike 2608 1408 451764 bounce_vel_max=250 bounce_vel_min=125 dir=2 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 2512 1392 110305 bounce_vel_max=250 bounce_vel_min=125 dir=1 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+Spike 2592 1392 369522 bounce_vel_max=250 bounce_vel_min=125 dir=3 bounce_vel_mid=210 hor_bounce_vel=166 vistype=0 dmgtype=0
+RevolveSpore 2368 1456 835483 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2416 1344 112690 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2544 1328 159704 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2656 1360 228620 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+PlantBlockAccepter 2864 1216 520383 behavior=1 init_state=0 vis-dmg="1,1" s_on=0 children=""
+PlantBlock 2320 1504 730273 behavior=1 dir=0 vis-dmg="1,1" float_dis=32
+Pew 1856 992 81827 bspd=120 dir=1 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=0 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.8
+RevolveSpore 1936 992 989285 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2064 992 102805 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2224 992 590550 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 2352 992 790847 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+Pew 2480 992 572653 bspd=120 dir=3 bullet_vis="-1,-1" fint_TICKS=-1 is_dream=0 fpattern=1 rhythm_pattern="1,1" white_no_dmg=0 vistype=1 mb=4 fint=0.8
+GenericNPC 1840 1040 640052 always_scripted=0 debug_name="TIMING_INTO_THE_REVOLVESPORES" context_int_csv="0,0" children="" map-scene-pos="p,dj,72" id="sign1" has_dialogue=1
+RevolveSpore 1575 1344 492274 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+RevolveSpore 1718 1408 844770 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+BarbedWire 1488 1424 922460 children="94742" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+BarbedWire 1792 1472 94742 children="" dmgtype=0 is_ring=0 is_gauntlet=1 s_save=0 start_state=0 saves_state=0 wire_tile_width=3 vistype=0 max_energy=32
+Pod 1600 1184 148990 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 1696 1152 182751 children="" AUTO_ORIENT=1 dir=3 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+GenericNPC 1472 1040 526730 always_scripted=0 debug_name="TRYING_TO_REWARD_CAREFUL_DOWNWARDS_MOTION" context_int_csv="0,0" children="" map-scene-pos="p,dj,73" id="sign1" has_dialogue=1
+Door 272 880 982781 AUTO_INDEX=0 custom_size="0,0" behavior=1 dest_x=1 dest_map="OLD_6" index=15 s_visited=0 next_cam_offset="0,0" type=0 script="" dest_y=8
+Wind 128 368 999908 angle=270 global=0 en_align=-1 invis=0 req_energy=0 h=80 w=32 speed=70
+RevolveSpore 208 352 829637 base_vel=420 vis-dmg="2,2" hurt_ticks=5
+SavePoint 688 832 158344 autosaves=0
+Pod 448 240 103883 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+Pod 448 224 940300 children="" AUTO_ORIENT=1 dir=1 damage=24 is_vanish_switch=0 is_big=0 vistype=0 tm_dead=1 dmgtype=0
+NewWaterShooter 128 1104 648155 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="0,0" tile_height=6 fall_dampen=0
+NewWaterShooter 416 1104 336944 extra_shield_push=3 accel=10 is_vert=1 max_vel=280 vis-dmg="0,0" tile_height=6 fall_dampen=0
+Wind 464 1520 295121 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=80 speed=50
+Wind 224 1520 674686 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=80 speed=50
+Wind 2592 320 529224 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=192 speed=80
+Wind 2992 48 842254 angle=0 global=0 en_align=-1 invis=0 req_energy=0 h=48 w=64 speed=50
+Pod 3104 240 80324 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+Pod 3120 240 791274 children="" AUTO_ORIENT=1 dir=0 damage=24 is_vanish_switch=0 is_big=0 vistype=1 tm_dead=1 dmgtype=1
+ExtendStem 1104 976 731822 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+ExtendStem 1264 976 363084 angle=270 accel=70 return_vel=35 tm_hurt=0.1 tile_width=3 vis-dmg="2,2" vel=55 deaccel=150
+Wind 2272 1104 556879 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=96 speed=80
+Wind 2048 1104 424932 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=96 speed=80
+Wind 2960 1040 398162 angle=180 global=0 en_align=-1 invis=0 req_energy=0 h=32 w=80 speed=50
+FG2 START

@@ -1,0 +1,52 @@
+BBG START
+BG1 START
+BG2 START
+Floater 2352 1232 201406 min_launch=-250 launch_mul=1.35 base_dmg=20 vis-dmg="1,1" rise_vel=20
+Floater 2272 1264 684183 min_launch=-250 launch_mul=1.35 base_dmg=20 vis-dmg="0,0" rise_vel=20
+Floater 1328 848 555670 min_launch=-250 launch_mul=1.35 base_dmg=20 vis-dmg="0,0" rise_vel=20
+Floater 1424 816 249683 min_launch=-250 launch_mul=1.35 base_dmg=20 vis-dmg="1,1" rise_vel=20
+Door 0 720 837269 index=1 AUTO_INDEX=0 behavior=0 type=2 script="" dest_x=-1 dest_y=0 s_visited=1 custom_size="0,0" dest_map="SHORE_6" next_cam_offset="0,0"
+Pew 800 16 595931 fint_TICKS=-1 fint=0.5 fpattern=0 vistype=1 bullet_vis="-1,-1" dir=3 mb=8 bspd=80 white_no_dmg=0 is_dream=0 rhythm_pattern="1,1"
+GenericNPC 64 144 236450 has_dialogue=0 map-scene-pos="" always_scripted=1 context_int_csv="0,0" debug_name="" children="" id="record_tester"
+NewWaterShooter 944 816 691343 tile_height=6 accel=10 extra_shield_push=3 fall_dampen=0 vis-dmg="1,1" is_vert=1 max_vel=320
+Pod 1776 880 498301 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewWaterShooter 1680 848 374196 tile_height=6 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=320
+NewWaterShooter 1888 848 585917 tile_height=6 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=320
+NewWaterShooter 2544 1232 247752 tile_height=6 accel=20 extra_shield_push=9 fall_dampen=5 vis-dmg="1,1" is_vert=1 max_vel=330.5
+NewWaterShooter 2656 1232 816029 tile_height=6 accel=20 extra_shield_push=9 fall_dampen=5 vis-dmg="1,1" is_vert=1 max_vel=330.5
+Floater 2912 1072 273648 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2912 992 839565 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2912 912 365392 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2912 832 634474 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2912 752 369230 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2912 672 913448 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2912 1152 856630 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+NewCamTrig 0 720 609196 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=47 tile_h=34
+NewCamTrig 752 544 580131 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=26
+NewCamTrig 1168 672 261758 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=19
+NewCamTrig 1584 352 205693 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=76 tile_h=70
+NewCamTrig 2800 512 942699 hor_leveler_px_up=0 is_hor_leveler=0 transition_v=390 is_VERT=0 is_look_downer=0 tile_w=26 tile_h=61
+Door 3184 400 46722 index=2 AUTO_INDEX=2 behavior=0 type=2 script="" dest_x=2 dest_y=8 s_visited=1 custom_size="0,0" dest_map="SHORE_G2" next_cam_offset="0,0"
+SoundZone 320 800 770893 tile_w=26 type="rock" revert_on_exit=0 tile_h=16 wall_type="generic"
+Floater 2032 528 97951 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2064 640 288955 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2032 752 671171 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2016 976 921991 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2064 976 346069 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+Floater 2048 1120 834702 min_launch=-250 launch_mul=1.35 base_dmg=15 vis-dmg="1,1" rise_vel=20
+SavePoint 2128 1344 747457 autosaves=0
+SavePoint 816 896 735900 autosaves=0
+Pod 2400 1264 208889 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2400 1248 380632 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2336 1328 135630 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2336 1344 820492 dmgtype=1 tm_dead=1 vistype=1 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=3 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2592 1280 398071 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2608 1280 51517 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 2624 1280 394314 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1376 880 939817 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+Pod 1392 880 584117 dmgtype=0 tm_dead=1 vistype=0 is_vanish_switch=0 is_big=0 onOff_off_time=1 AUTO_ORIENT=1 dir=4 onOff_on_time=-1 onOff_start_offset=0 damage=24 children=""
+NewWaterShooter 1744 528 823254 tile_height=6 accel=13 extra_shield_push=13 fall_dampen=3.2 vis-dmg="0,0" is_vert=1 max_vel=320
+SetPiece 80 896 543988 tile_size="0,0" fades_when_overlap=0 TYPE="group0" auto_scroll_dir=0 id=0 border_shrink=0 tiling_y_off=0 is_tileable=0 fade_with_entire_sprite=0 auto_scrolls=0 mirrored=0 auto_scroll_fps=15 blend_1ad2mu3sc=-1
+FG2 START
+Pendulum 399 880 894278 vis-dmg="1,1" anim_name="BOTTOM_A" line_rgb="0xffffff" no_y_movement=0 line_alpha=0 l=64 vine_set="SHORE" nr_vine=7 extra_len=1 upside_down=0
+Pendulum 336 880 771239 vis-dmg="1,1" anim_name="BOTTOM_A" line_rgb="0xffffff" no_y_movement=0 line_alpha=0 l=64 vine_set="SHORE" nr_vine=7 extra_len=1 upside_down=0

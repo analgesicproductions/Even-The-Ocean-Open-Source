@@ -15,8 +15,11 @@ Trailer for Even the Ocean: https://www.youtube.com/watch?v=luzhLHNVpzQ
 Note that while anyone is free to browse the game assets and codebase, only paid owners of Even the Ocean may download and use the game assets (see below for detail.) Anyone can use the source code, though!
 
 Purchase the game here: https://store.steampowered.com/app/265470/Even_the_Ocean/ . It's also on consoles and other stores.
-https://han-tani.itch.io/even-the-ocean
-https://www.nintendo.com/store/products/even-the-ocean-switch/
-https://www.xbox.com/en-US/games/store/even-the-ocean/9n4hs99p4gv0
-https://store.playstation.com/en-us/product/UP0891-CUSA19416_00-RATAEVENTHEOCEAN
 
+Itch.io https://han-tani.itch.io/even-the-ocean
+
+Switch https://www.nintendo.com/store/products/even-the-ocean-switch/
+
+Xbox https://www.xbox.com/en-US/games/store/even-the-ocean/9n4hs99p4gv0
+
+Playstation https://store.playstation.com/en-us/product/UP0891-CUSA19416_00-RATAEVENTHEOCEAN

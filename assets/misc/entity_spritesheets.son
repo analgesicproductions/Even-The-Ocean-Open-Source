@@ -1,0 +1,1619 @@
+// This is similar to generic_npc.son , but is defined for the entities in the game in order to allow 
+// custom spritesheets for mods and also allow for hot-loading of a new spritesheet
+// 
+// Table of Contents
+// Elevator, Pew, PewBullet, WaterShooter, WaterShooterBullet, NearCannon, NearCannonBomb, NearCannonExplosion, NearCannonShrapnel
+// ShoreBot, Weed, Pod, Dropper, HurtEffectGroup, MenuSelector, Wind, Spike
+// LavaPillar, BubbleSpawner, Bubble, BubbleSwitch, DaisyCluster, BarbedWirePole, BarbedWire, EdgeDoor
+// StickySlime, Button, MoleTile, Dasher, RevolveSpore, RaiseWall
+// WallBouncer, SquishyChaser, AimSpore, npcbubble, SquishBounce, SinkPlatform, Cauliflower, HurtOutlet, WirePoint
+// PlantBlock, PlantBlockAccepter, VAnishBlock
+
+
+{ WMScaleSprite
+
+{ test
+w i 48
+h i 96
+path s "sprites/npc/map/scale_test.png"
+anim_set s "test"
+}
+{ apex
+w i 48
+h i 96
+path s "sprites/npc/map/apex.png"
+anim_set s "apex"
+}
+{ karavold
+w i 48
+h i 96
+path s "sprites/npc/map/karavold.png"
+anim_set s "karavold"
+}
+{ scarecrow
+w i 16
+h i 32
+path s "sprites/npc/map/scarecrow.png"
+anim_set s "scarecrow"
+}
+{ cairn
+w i 16
+h i 32
+path s "sprites/npc/map/cairn.png"
+anim_set s "cairn"
+}
+{ oak
+w i 48
+h i 32
+path s "sprites/npc/map/oak.png"
+anim_set s "oak"
+}
+{ entrance
+w i 32
+h i 32
+path s "sprites/npc/map/entrance.png"
+anim_set s "entrance"
+}
+{ map_rouge
+w i 32
+h i 32
+path s "sprites/npc/map/map_rouge.png"
+anim_set s "map_rouge"
+}
+{ map_shore
+w i 32
+h i 32
+path s "sprites/npc/map/map_shore.png"
+anim_set s "map_shore"
+}
+{ map_hill
+w i 32
+h i 32
+path s "sprites/npc/map/map_hill.png"
+anim_set s "map_hill"
+}
+{ map_canyon
+w i 32
+h i 32
+path s "sprites/npc/map/map_canyon.png"
+anim_set s "map_canyon"
+}
+{ map_river
+w i 32
+h i 32
+path s "sprites/npc/map/map_river.png"
+anim_set s "map_river"
+}
+{ map_basin
+w i 32
+h i 32
+path s "sprites/npc/map/map_basin.png"
+anim_set s "map_basin"
+}
+{ map_woods
+w i 32
+h i 32
+path s "sprites/npc/map/map_woods.png"
+anim_set s "map_woods"
+}
+{ map_parents
+w i 16
+h i 16
+path s "sprites/npc/map/map_parents.png"
+anim_set s "map_parents"
+}
+{ map_sign
+w i 16
+h i 16
+path s "sprites/npc/map/sign.png"
+anim_set s "map_sign"
+}
+{ riverton
+w i 64
+h i 32
+path s "sprites/npc/map/riverton.png"
+anim_set s "riverton"
+}
+{ waterfall
+w i 1440
+h i 96
+path s "sprites/npc/map/waterfall.png"
+anim_set s "waterfall"
+}
+{ cliff
+w i 1440
+h i 96
+path s "sprites/npc/map/cliff.png"
+anim_set s "cliff"
+}
+{ cliff_l
+w i 288
+h i 96
+path s "sprites/npc/map/cliff_l.png"
+anim_set s "cliff_l"
+}
+{ cliff_r
+w i 288
+h i 96
+path s "sprites/npc/map/cliff_r.png"
+anim_set s "cliff_r"
+}
+{ outer_train
+w i 32
+h i 32
+path s "sprites/npc/map/outer_train.png"
+anim_set s "outer_train"
+}
+{ sea_geome
+w i 80
+h i 64
+path s "sprites/npc/map/geome.png"
+anim_set s "sea_geome"
+}
+{ earth_geome
+w i 80
+h i 64
+path s "sprites/npc/map/geome.png"
+anim_set s "earth_geome"
+}
+{ air_geome
+w i 80
+h i 64
+path s "sprites/npc/map/geome.png"
+anim_set s "air_geome"
+}
+{ map_statue
+w i 32
+h i 32
+path s "sprites/npc/map/statue.png"
+anim_set s "map_statue"
+}
+{ fallsrocks
+w i 48
+h i 64
+path s "sprites/npc/map/fallsrocks.png"
+anim_set s "fallsrocks"
+}
+{ fallsrocks2
+w i 48
+h i 64
+path s "sprites/npc/map/fallsrocks2.png"
+anim_set s "fallsrocks2"
+}
+}
+
+{ Journal
+{ title_bg
+path s "sprites/ui/journal_title_bgs.png"
+w i 176
+h i 31
+anim_set s "title_bg"
+}
+
+{ event_screenshot
+path s "sprites/ui/events_screenshots.png"
+anim_set s "screenshot"
+w i 64
+h i 64
+}
+{ fieldguide_screenshot
+path s "sprites/ui/fieldguide_screenshots.png"
+anim_set s "screenshot"
+w i 64
+h i 64
+}
+
+}
+
+{ Elevator
+{ default
+path s "sprites/util/Elevator.png"
+anim_set s "normal"
+}
+}
+{ ElevatorConsole
+{ default
+path s "sprites/util/Elevator_console.png"
+anim_set s "0"
+}
+}
+
+{ LaserBoard
+{ icons
+path s "sprites/ui/lasergame_icons.png"
+anim_set s "icons"
+w i 16
+h i 16
+}
+{ board
+path s "sprites/ui/lasergame_board.png"
+anim_set s "board"
+w i 224
+h i 224
+}
+
+}
+{ Pew 
+{ 1 
+path s "sprites/trap/pew_shooter.png" 
+anim_set s "1"
+}
+{ 2
+path s "sprites/trap/pew_shooter.png" 
+anim_set s "2"
+}
+}
+
+{ PewBullet 
+{ 1
+path s "sprites/trap/Pew.png" 
+anim_set s "1"
+}
+{ 2
+path s "sprites/trap/Pew.png" 
+anim_set s "2"
+}
+}
+
+
+{ WaterShooter
+{ default 
+path s "sprites/trap/WaterShooter.png"
+anim_set s "default"
+}
+
+{ 1
+path s "sprites/trap/RubberLaser.png"
+anim_set s "default"
+}
+
+}
+{ Floater
+{ default
+path s "sprites/trap/Floater.png"
+anim_set s "default"
+}
+}
+{ NewWaterShooter
+{ default
+path s "sprites/trap/NewWaterShooter.png"
+anim_set s "default"
+}
+}
+{ NewWaterShooterBase
+{ default
+path s "sprites/trap/NewWaterShooterBase.png"
+anim_set s "default"
+}
+}
+
+{ NewWaterShooterShield
+{ default
+path s "sprites/trap/geyser_shieldspray.png"
+anim_set s "default"
+}
+}
+{ NewWaterShooterFoot
+{ default
+path s "sprites/trap/geyser_spray.png"
+anim_set s "default"
+}
+}
+
+{ WaterShooterBullet 
+{ default
+path s "sprites/trap/WaterShooterBullet.png"
+anim_set s "default"
+w i 48
+h i 32
+}
+{ particle
+path s "sprites/trap/WaterShooterParticle.png"
+anim_set s "particle"
+w i 8
+h i 8
+}
+}
+
+{ NearCannon 
+}
+
+{ NearCannonBomb 
+}
+
+{ NearCannonExplosion 
+}
+
+{ NearCannonShrapnel 
+}
+
+{ ShoreBot 
+}
+
+{ Weed
+{ default
+path s "sprites/trap/Weed.png"
+anim_set s "default"
+}
+{ 1
+path s "sprites/trap/Weed.png"
+anim_set s "1"
+}
+}
+
+{ WalkBlock
+{ default
+path s "sprites/enemy/WalkBlock.png"
+anim_set s "default"
+}
+{ feet_walkblock
+path s "sprites/trap/WalkPod.png"
+anim_set s "feet_walkblock"
+}
+
+}
+
+{ WalkPod
+{ feet_l
+path s "sprites/trap/WalkPod.png"
+anim_set s "feet_l"
+}
+{ feet_d
+path s "sprites/trap/WalkPod.png"
+anim_set s "feet_d"
+}
+}
+
+{ Pod
+{ default
+path s "sprites/trap/Pod.png"
+anim_set s "default_l"
+}
+{ 1
+path s "sprites/trap/Pod.png"
+anim_set s "default_d"
+}
+{ 2
+path s "sprites/trap/Pod.png"
+anim_set s "switch_d"
+}
+{ 3
+path s "sprites/trap/Pod.png"
+anim_set s "switch_l"
+}
+
+}
+{ BigPod
+{ default
+path s "sprites/trap/BigPod.png"
+anim_set s "default_l"
+}
+{ 1
+path s "sprites/trap/BigPod.png"
+anim_set s "default_d"
+}
+}
+
+{ Dropper
+{ default
+path s "sprites/trap/Dropper.png"
+anim_set s "default_d"
+}
+{ 1
+path s "sprites/trap/Dropper.png"
+anim_set s "default_l"
+}
+}
+{ SmashHand
+{ default
+path s "sprites/enemy/SmashHand.png"
+anim_set s "d"
+}
+{ 1
+path s "sprites/enemy/SmashHand.png"
+anim_set s "l"
+}
+}
+{ ExtendStem
+{ default
+path s "sprites/enemy/ExtendStem.png"
+anim_set s "default"
+}
+}
+
+{ HurtEffectGroup
+{ default
+path s "sprites/player/gas_effect.png"
+anim_set s "default"
+}
+{ boom
+path s "sprites/trap/boom.png"
+anim_set s "boom"
+}
+{ pod_poof
+path s "sprites/trap/boom.png"
+anim_set s "pod_poof"
+}
+}
+
+{ MenuSelector
+{ default
+path s "sprites/ui/selector.png"
+anim_set s "default"
+w i 16
+h i 16
+}
+
+{ arrow
+path s "sprites/ui/menu_arrows.png"
+anim_set s "arrow"
+w i 7
+h i 7
+}
+}
+
+{ Wind
+{ default
+path s "sprites/trap/wind_particle.png"
+anim_set s "default"
+w i 16
+h i 16
+}
+}
+{ WindBlock
+{ default
+path s "sprites/player/wind_block.png"
+anim_set s "default"
+w i 32
+h i 32
+}
+}
+
+{ Spike
+
+{ default
+path s "sprites/trap/spike_real.png"
+anim_set s "dark"
+w i 16
+h i 16
+}
+{ 1
+path s "sprites/trap/spike_real.png"
+anim_set s "light"
+w i 16
+h i 16
+}
+
+{ d_default
+path s "sprites/trap/Spike.png"
+anim_set s "default_d"
+w i 16
+h i 16
+}
+{ d_1
+path s "sprites/trap/Spike.png"
+anim_set s "default_l"
+w i 16
+h i 16
+}
+}
+
+{ LavaPillar
+{ dark
+path s "sprites/trap/LavaPillar.png"
+anim_set s "default_d"
+w i 32
+h i 96
+}
+{ light
+path s "sprites/trap/LavaPillar.png"
+anim_set s "default_l"
+w i 32
+h i 96
+}
+}
+
+{ BubbleSpawner
+{ light
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "l"
+w i 16
+h i 32
+}
+{ dark
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "d"
+w i 16
+h i 32
+}
+{ light_antennae
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "l_antennae"
+w i 16
+h i 16
+}
+{ dark_antennae
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "d_antennae"
+w i 16
+h i 16
+}
+}
+
+{ Bubble
+{ light
+path s "sprites/player/Bubble.png"
+anim_set s "l"
+w i 48
+h i 48
+}
+{ dark
+path s "sprites/player/Bubble.png"
+anim_set s "d"
+w i 48
+h i 48
+}
+}
+
+{ BubblePop
+{ l
+path s "sprites/player/bubblepop.png"
+anim_set s "l"
+w i 4
+h i 4
+}
+{ d
+path s "sprites/player/bubblepop.png"
+anim_set s "d"
+w i 4
+h i 4
+}
+}
+
+{ BubbleSwitch
+
+{ ghost
+path s "sprites/util/GhostSwitch.png"
+anim_set s "ghost"
+w i 32
+h i 32
+}
+{ light
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "l"
+w i 16
+h i 32
+}
+{ dark
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "d"
+w i 16
+h i 32
+}
+{ neutral
+path s "sprites/util/BubbleSwitch.png"
+anim_set s "n"
+w i 16
+h i 32
+}
+}
+
+{ DaisyCluster
+{ normal
+path s "sprites/npc/ent/DaisyCluster.png"
+anim_set s "normal"
+w i 16
+h i 16
+}
+}
+
+{ ItemSeeds
+{ default
+path s "sprites/npc/junk/ItemSeeds.png"
+anim_set s "default"
+w i 16
+h i 16
+}
+}
+
+{ BarbedWirePole
+{ light
+path s "sprites/trap/BarbedWire.png"
+anim_set s "light"
+w i 16
+h i 16
+}
+{ dark
+path s "sprites/trap/BarbedWire.png"
+anim_set s "dark"
+w i 16
+h i 16
+}
+}
+
+{ DangerScreen
+{ default
+path s "sprites/ui/danger_screen.png"
+anim_set s "default"
+w i 544
+h i 384
+}
+}
+
+{ BarbedWire
+
+{ light
+path s "sprites/trap/BarbedWire.png"
+anim_set s "light"
+w i 16
+h i 16
+}
+{ dark
+path s "sprites/trap/BarbedWire.png"
+anim_set s "dark"
+w i 16
+h i 16
+}
+{ lightspark
+path s "sprites/trap/BarbedWire_old.png"
+anim_set s "light"
+w i 16
+h i 16
+}
+{ darkspark
+path s "sprites/trap/BarbedWire_old.png"
+anim_set s "dark"
+w i 16
+h i 16
+}
+{ lightb
+path s "sprites/trap/BarbedWireBig.png"
+anim_set s "lightb"
+w i 48
+h i 48
+}
+{ darkb
+path s "sprites/trap/BarbedWireBig.png"
+anim_set s "darkb"
+w i 48
+h i 48
+}
+
+
+{ lightdream
+path s "sprites/trap/BarbedWire.png"
+anim_set s "lightdream"
+w i 16
+h i 16
+}
+{ darkdream
+path s "sprites/trap/BarbedWire.png"
+anim_set s "darkdream"
+w i 16
+h i 16
+}
+
+
+}
+
+
+
+{ EdgeDoor
+{ wide
+path s "sprites/util/EdgeDoor.png"
+anim_set s "wide"
+w i 32
+h i 16
+}
+{ tall
+path s "sprites/util/EdgeDoor.png"
+anim_set s "tall"
+w i 16
+h i 32
+}
+}
+
+{ StickySlime
+{ light
+path s "sprites/enemy/StickySlime.png"
+anim_set s "light"
+w i 5
+h i 5
+}
+{ dark
+path s "sprites/enemy/StickySlime.png"
+anim_set s "dark"
+w i 5
+h i 5
+}
+}
+
+{ Button
+{ light
+path s "sprites/util/Button.png"
+anim_set s "light"
+w i 48
+h i 32
+}
+{ dark
+path s "sprites/util/Button.png"
+anim_set s "dark"
+w i 48
+h i 32
+}
+}
+
+{ Mole
+{ default
+path s "sprites/enemy/mole.png"
+w i 16
+h i 16
+anim_set s "default"
+}
+{ color
+path s "sprites/enemy/mole.png"
+w i 16
+h i 16
+anim_set s "color"
+}
+}
+
+{ MoleTile
+{ default
+path s "sprites/npc/ent/MoleTile.png"
+w i 16
+h i 16
+anim_set s "default"
+}
+}
+{ Dasher
+{ light
+path s "sprites/enemy/Dasher.png"
+w i 16
+h i 16
+anim_set s "light"
+}
+{ dark
+path s "sprites/enemy/Dasher.png"
+w i 16
+h i 16
+anim_set s "dark"
+}
+{ light_32
+path s "sprites/enemy/Dasher.png"
+w i 32
+h i 32
+anim_set s "light32"
+}
+{ dark_32
+path s "sprites/enemy/Dasher.png"
+w i 32
+h i 32
+anim_set s "dark32"
+}
+}
+
+
+{ RevolveSpore
+{ default
+path s "sprites/enemy/RevolveSpore.png"
+w i 32
+h i 32
+anim_set s "0"
+}
+{ 1
+path s "sprites/enemy/RevolveSpore.png"
+w i 32
+h i 32
+anim_set s "1"
+}
+{ 2
+path s "sprites/enemy/RevolveSpore.png"
+w i 32
+h i 32
+anim_set s "2"
+}
+}
+
+{ RaiseWall
+{ default
+path s "sprites/util/RaiseWall.png"
+w i 16
+h i 32
+anim_set s "0"
+}
+{ 1
+path s "sprites/util/RaiseWall.png"
+w i 16
+h i 32
+anim_set s "1"
+}
+{ default_w
+path s "sprites/util/RaiseWall.png"
+w i 32
+h i 16
+anim_set s "2"
+}
+{ 1_w
+path s "sprites/util/RaiseWall.png"
+w i 32
+h i 16
+anim_set s "3"
+}
+{ light_bar_w
+path s "sprites/util/RaiseWall.png"
+w i 32
+h i 16
+anim_set s "light_bar_w"
+}
+{ dark_bar_w
+path s "sprites/util/RaiseWall.png"
+w i 32
+h i 16
+anim_set s "dark_bar_w"
+}
+{ light_bar
+path s "sprites/util/RaiseWall.png"
+w i 16
+h i 32
+anim_set s "light_bar"
+}
+{ dark_bar
+path s "sprites/util/RaiseWall.png"
+w i 16
+h i 32
+anim_set s "dark_bar"
+}
+}
+
+{ FloatWall
+{ hor
+path s "sprites/util/FloatWall_hor.png"
+w i 32
+h i 32
+anim_set s "hor"
+}
+{ vert
+path s "sprites/util/FloatWall_vert.png"
+w i 32
+h i 32
+anim_set s "vert"
+}
+}
+
+{ WallBouncer
+{ light
+path s "sprites/enemy/WallBouncer.png"
+w i 32
+h i 32
+anim_set s "light"
+}
+{ dark
+path s "sprites/enemy/WallBouncer.png"
+w i 32
+h i 32
+anim_set s "dark"
+}
+
+{ bouncer
+path s "sprites/enemy/Bouncer.png"
+w i 32
+h i 32
+anim_set s "bouncer"
+}
+
+}
+
+{ SquishyChaser
+{ light
+path s "sprites/enemy/SquishyChaser.png"
+w i 48
+h i 48
+anim_set s "light"
+}
+{ dark
+path s "sprites/enemy/SquishyChaser.png"
+w i 48
+h i 48
+anim_set s "dark"
+}
+
+{ light_pass
+path s "sprites/enemy/SquishyChaser_pass.png"
+w i 48
+h i 48
+anim_set s "light"
+}
+{ dark_pass
+path s "sprites/enemy/SquishyChaser_pass.png"
+w i 48
+h i 48
+anim_set s "dark"
+}
+{ light_cliff
+path s "sprites/enemy/SquishyChaser_cliff.png"
+w i 48
+h i 48
+anim_set s "light"
+}
+{ dark_cliff
+path s "sprites/enemy/SquishyChaser_cliff.png"
+w i 48
+h i 48
+anim_set s "dark"
+}
+{ light_falls
+path s "sprites/enemy/SquishyChaser_falls.png"
+w i 48
+h i 48
+anim_set s "light"
+}
+{ dark_falls
+path s "sprites/enemy/SquishyChaser_falls.png"
+w i 48
+h i 48
+anim_set s "dark"
+}
+
+}
+
+{ SapPad
+
+{ reverse
+path s "sprites/trap/sappad_new.png"
+w i 48
+h i 32
+anim_set s "reverse"
+}
+{ light_up
+path s "sprites/trap/sappad_new.png"
+w i 48
+h i 32
+anim_set s "light_up"
+}
+{ dark_up
+path s "sprites/trap/sappad_new.png"
+w i 48
+h i 32
+anim_set s "dark_up"
+}
+}
+
+{ OrbSlot
+{ default
+path s "sprites/util/OrbSlot.png"
+w i 16
+h i 16
+anim_set s "default"
+}
+}
+
+{ AimSpore
+{ light
+path s "sprites/enemy/AimSpore.png"
+w i 16
+h i 16
+anim_set s "light"
+}
+{ dark
+path s "sprites/enemy/AimSpore.png"
+w i 16
+h i 16
+anim_set s "dark"
+}
+}
+
+{ npcbubble
+{ default
+path s "sprites/npc/etc/NPC_icons.png"
+w i 16
+h i 16
+anim_set s "default"
+}
+}
+
+{ SquishBounce 
+{ default 
+path s "sprites/enemy/SquishBounce.png"
+w i 32
+h i 16
+anim_set s "default"
+}
+}
+{ SquishBounceMover
+{ default 
+path s "sprites/enemy/SquishBounce.png"
+w i 32
+h i 16
+anim_set s "default"
+}
+}
+
+{ SinkPlatform
+{ default
+path s "sprites/util/SinkPlatform.png"
+w i 32
+h i 48
+anim_set s "default"
+}
+}
+
+{ Cauliflower
+{ dark
+path s "sprites/npc/ent/Cauliflower.png"
+w i 32
+h i 32
+anim_set s "dark"
+} 
+{ light
+path s "sprites/npc/ent/Cauliflower.png"
+w i 32
+h i 32
+anim_set s "light"
+}
+{ stalk
+path s "sprites/npc/ent/Cauliflower.png"
+w i 16
+h i 16
+anim_set s "stalk"
+}
+}
+
+{ HurtOutlet
+{ dark
+path s "sprites/trap/HurtOutlet.png"
+w i 26
+h i 26
+anim_set s "dark"
+}
+{ light
+path s "sprites/trap/HurtOutlet.png"
+w i 26
+h i 26
+anim_set s "light"
+}
+}
+
+
+
+
+{ RubberLaser
+{ dark_base
+path s "sprites/trap/RubberLaser.png"
+w i 16
+h i 32
+anim_set s "dark_base"
+}
+{ light_base
+path s "sprites/trap/RubberLaser.png"
+w i 16
+h i 32
+anim_set s "light_base"
+}
+{ dark_laser
+path s "sprites/trap/RubberLaser.png"
+w i 16
+h i 32
+anim_set s "dark_laser"
+}
+{ light_laser
+path s "sprites/trap/RubberLaser.png"
+w i 16
+h i 32
+anim_set s "light_laser"
+}
+{ dark_shooter
+path s "sprites/trap/RubberLaser.png"
+w i 32
+h i 32
+anim_set s "dark_shooter"
+}
+{ light_shooter
+path s "sprites/trap/RubberLaser.png"
+w i 32
+h i 32
+anim_set s "light_shooter"
+}
+{ light_bump
+path s "sprites/trap/RubberLaser_bump.png"
+w i 48
+h i 16
+anim_set s "light_bump"
+}
+{ dark_bump
+path s "sprites/trap/RubberLaser_bump.png"
+w i 48
+h i 16
+anim_set s "dark_bump"
+}
+}
+
+{ WirePoint
+{ default
+path s "sprites/npc/ent/WirePoint.png"
+w i 16
+h i 16
+anim_set s "default"
+}
+{ glow0
+path s "sprites/npc/ent/WirePoint.png"
+w i 16
+h i 16
+anim_set s "glow0"
+}
+}
+
+{ SplashEffect
+{ default
+path s "sprites/player/splash.png"
+w i 16
+h i 16
+anim_set s "default"
+}
+}
+
+{ PlantBlock
+{ default
+path s "sprites/util/pb_dispenser.png"
+w i 48
+h i 48
+anim_set s "default"
+}
+{ default_pass
+path s "sprites/util/pb_dispenser.png"
+w i 48
+h i 48
+anim_set s "default_pass"
+}
+{ hor
+path s "sprites/util/plantblock_hor.png"
+anim_set s "hor"
+w i 80
+h i 32
+}
+{ hor_pass
+path s "sprites/util/plantblock_hor.png"
+anim_set s "hor_pass"
+w i 80
+h i 32
+}
+{ vert
+path s "sprites/util/plantblock_vert.png"
+anim_set s "vert"
+w i 32
+h i 80
+}
+{ vert_pass
+path s "sprites/util/plantblock_vert.png"
+anim_set s "vert_pass"
+w i 32
+h i 80
+}
+{ circle
+path s "sprites/util/plantblock_circle.png"
+w i 80
+h i 80
+anim_set s "circle"
+}
+{ block
+path s "sprites/util/plantblock_dot.png"
+w i 16
+h i 16
+anim_set s "block"
+}
+}
+
+{ PlantBlockAccepter
+{ default
+path s "sprites/util/pb_receptor.png"
+w i 112
+h i 112
+anim_set s "default"
+}
+{ cover
+path s "sprites/util/pb_receptor_cover.png"
+w i 112
+h i 112
+anim_set s "default"
+}
+{ default_pass
+path s "sprites/util/pb_receptor.png"
+w i 112
+h i 112
+anim_set s "pass"
+}
+{ cover_pass
+path s "sprites/util/pb_receptor_cover.png"
+w i 112
+h i 112
+anim_set s "pass"
+}
+{ default_cliff
+path s "sprites/util/pb_receptor.png"
+w i 112
+h i 112
+anim_set s "cliff"
+}
+{ cover_cliff
+path s "sprites/util/pb_receptor_cover.png"
+w i 112
+h i 112
+anim_set s "cliff"
+}
+{ default_falls
+path s "sprites/util/pb_receptor.png"
+w i 112
+h i 112
+anim_set s "falls"
+}
+{ cover_falls
+path s "sprites/util/pb_receptor_cover.png"
+w i 112
+h i 112
+anim_set s "falls"
+}
+{ laser
+path s "sprites/util/pb_laser_hor.png"
+w i 160
+h i 16
+anim_set s "default"
+}
+}
+
+{ Checkpoint
+{ default
+path s "sprites/util/Checkpoint.png"
+w i 16
+h i 32
+anim_set s "default"
+}
+}
+
+{ FollowLaser
+
+	{ dark
+		path s "sprites/trap/FollowLaser.png"
+		w i 16
+		h i 16
+		anim_set s "dark"
+	}
+	
+	{ dark_bullet
+		path s "sprites/trap/FollowLaser.png"
+		w i 16
+		h i 16
+		anim_set s "dark"
+	}
+	
+	{ light
+		path s "sprites/trap/FollowLaser.png"
+		w i 16
+		h i 16
+		anim_set s "light"
+	}
+	
+	{ light_bullet
+		path s "sprites/trap/FollowLaser.png"
+		w i 16
+		h i 16
+		anim_set s "light"
+	}
+	
+	{ d_parts
+		path s "sprites/trap/FollowLaser.png"
+		w i 16
+		h i 16
+		anim_set s "d_parts"
+	}
+	
+	{ l_parts
+		path s "sprites/trap/FollowLaser.png"
+		w i 16
+		h i 16
+		anim_set s "l_parts"
+	}
+}
+
+
+{ MoveBlock
+	{ dark
+		path s "sprites/trap/MoveBlock.png"
+		w i 32
+		h i 32
+		anim_set s "dark"
+	}
+	
+	{ light
+		path s "sprites/trap/MoveBlock.png"
+		w i 32
+		h i 32
+		anim_set s "light"
+	}
+}
+
+{ VanishBlock
+	{ dark
+		path s "sprites/util/vanishblock.png"
+		w i 16
+		h i 16
+		anim_set s "dark"
+	}
+	{ light
+		path s "sprites/util/vanishblock.png"
+		w i 16
+		h i 16
+		anim_set s "light"
+	} 
+}
+{ Neutralizer
+	{ default
+		path s "sprites/util/Neutralizer.png"
+		w i 32
+		h i 32
+		anim_set s "default"
+	}
+}
+
+{ BallDropper
+	{ dark
+		path s "sprites/enemy/BallDropper.png"
+		w i 16
+		h i 16
+		anim_set s "dark"
+	}
+	{ light
+		path s "sprites/enemy/BallDropper.png"
+		w i 16
+		h i 16
+		anim_set s "light"
+	}
+}
+
+
+{ DialogueBox
+	{ highlight
+		path s "sprites/ui/textbox_highlights_height_11.png"
+		w i 186
+		h i 11
+		anim_set s "highlight"
+	}
+	
+	{ portrait
+		path s "sprites/ui/textbox_portraits.png"
+		w i 48
+		h i 64
+		anim_set s "portrait"
+	}
+	
+	{ arrow
+		path s "sprites/ui/textbox_arrows.png"
+		w i 12
+		h i 12
+		anim_set s "arrow"
+	}
+	{ blinker
+		path s "sprites/ui/textbox_arrows.png"
+		w i 8
+		h i 8
+		anim_set s "blinker"
+	}
+	
+}
+
+
+{ Pendulum
+	{ default
+		path s "sprites/npc/ent/Pendulum.png"
+		w i 32
+		h i 32
+		anim_set s "default"
+	}
+
+	{ vine_TEST
+		path s "sprites/npc/ent/Pendulum.png"
+		w i 32
+		h i 32
+		anim_set s "vine_TEST"
+	}
+	
+	{ vine_HILL 
+		path s "sprites/npc/hill/vine.png"
+		w i 32
+		h i 32
+		anim_set s "vine_HILL"
+	}
+	
+	{ vine_SHORE
+		path s "sprites/npc/shore/chain.png"
+		w i 32
+		h i 32
+		anim_set s "vine_SHORE"
+	}
+	
+	{ vine_STONEFOREST
+		path s "sprites/npc/ent/Pendulum.png"
+		w i 32
+		h i 32
+		anim_set s "vine_STONEFOREST"
+	}
+	
+	{ vine_PASS
+		path s "sprites/npc/pass/chain.png"
+		w i 32
+		h i 32
+		anim_set s "vine_PASS"
+	}
+}
+
+{ SpikeExtend
+	{ dark
+		path s "sprites/enemy/SpikeExtend.png"
+		w i 64
+		h i 64
+		anim_set s "dark"
+	}
+	{ light
+		path s "sprites/enemy/SpikeExtend.png"
+		w i 64
+		h i 64
+		anim_set s "light"
+	}
+}
+
+{ WaterChargerSpark
+	{ dark
+		path s "sprites/trap/WaterChargerSpark.png"
+		w i 16
+		h i 16
+		anim_set s "dark"
+	}
+	{ light
+		path s "sprites/trap/WaterChargerSpark.png"
+		w i 16
+		h i 16
+		anim_set s "light"
+	}
+	{ dark_big
+		path s "sprites/trap/WaterChargerSpark.png"
+		w i 32
+		h i 32
+		anim_set s "dark"
+	}
+	{ light_big
+		path s "sprites/trap/WaterChargerSpark.png"
+		w i 32
+		h i 32
+		anim_set s "light"
+	}
+}
+
+{ MirrorLaser
+{ shooter
+path s "sprites/trap/MirrorLaser.png"
+w i 32
+h i 32
+anim_set s "shooter"
+}
+{ beam_l
+path s "sprites/trap/MirrorLaser_shot.png"
+w i 16
+h i 16
+anim_set s "beam_l"
+}
+{ beam_d
+path s "sprites/trap/MirrorLaser_shot.png"
+w i 16
+h i 16
+anim_set s "beam_d"
+}
+}
+
+{ Inventory
+# Determines which of these is used in-game
+	{ names
+		item_slot s "item_slot"
+		item s "item"
+	}	
+	{ item_slot
+		path s "sprites/ui/inventory_item_slots.png"
+		w i 32
+		h i 32
+		anim_set s "item_slot"
+	}
+	{ item
+		path s "sprites/ui/inventory_items.png"
+		w i 32
+		h i 32
+		anim_set s "item"
+	}
+}
+
+{ MovePod
+	{ default
+		path s "sprites/enemy/MovePod.png"
+		w i 16
+		h i 16
+		anim_set s "movepod_dark"
+	}
+	{ 1
+		path s "sprites/enemy/MovePod.png"
+		w i 16
+		h i 16
+		anim_set s "movepod_light"
+	}
+	{ 0marker
+		path s "sprites/enemy/MovePod.png"
+		w i 16
+		h i 16
+		anim_set s "movepod_dark_marker"
+	}
+	{ 1marker
+		path s "sprites/enemy/MovePod.png"
+		w i 16
+		h i 16
+		anim_set s "movepod_light_marker"
+	}
+}
+
+{ SavePoint
+	{ default
+		path s "sprites/tools/save_point.png"
+		w i 64
+		h i 64
+		anim_set s "savepoint"
+	}
+}
+{ ArmLocker
+	{ horPassage
+		path s "sprites/util/ArmLocker.png"
+		w i 64
+		h i 64
+		anim_set s "horPassage"
+	}
+	{ vertPassage
+		path s "sprites/util/ArmLocker.png"
+		anim_set s "vertPassage"
+		w i 64
+		h i 64
+	}
+}
+
+{ BugSwarm
+	{ default
+		path s "sprites/npc/ent/BugSwarm.png"
+		w i 8
+		h i 8
+		anim_set s "bugswarm"
+	}
+}
+
+{ GhostLight_Ghost
+	{ default
+		path s "sprites/enemy/GhostLight.png"
+		w i 32
+		h i 32
+		anim_set s "ghost_dark"
+	}
+	{ 1
+		path s "sprites/enemy/GhostLight.png"
+		w i 32
+		h i 32
+		anim_set s "ghost_light"
+	}
+}
+{ GhostLight_Light
+	{ default
+		path s "sprites/enemy/GhostLight.png"
+		w i 16
+		h i 16
+		anim_set s "light"
+	}
+}
+{ GhostLight_Sigil
+	{ default
+		path s "sprites/enemy/sigil.png"
+		w i 96
+		h i 96
+		anim_set s "ghost_sigil"
+	}
+}

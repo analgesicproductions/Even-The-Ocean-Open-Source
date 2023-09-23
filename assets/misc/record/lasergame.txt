@@ -1,0 +1,12 @@
+ROUGE_B l,2 d,6 L,4,0 D,6,8 ne,4,2 ne,6,6
+SHORE_B l,2 d,6 L,4,0 D,4,8 ne,2,2 se,2,4 ne,4,4 se,4,6
+HILL_B l,2 d,6 L,4,0 D,4,8 ne,2,4 ne,2,6 ne,4,2 se,4,4
+CANYON_B l,2 d,6 L,4,0 D,4,8 se,2,2 ne,2,4 se,4,4 se,2,6 se,2,8 ne,4,8
+RIVER_B l,4 d,2 L,4,0 D,4,8 se,0,2 ne,0,0 se,2,0 se,2,7 se,4,7 se,4,4 se,4,6 se,8,6 se,8,4 se,6,4 se,6,0 se,4,0
+WOODS_B l,6 d,4 L,4,0 D,4,8 ne,2,4 ne,2,2 ne,6,2 ne,6,6 se,4,6 se,4,4 ne,8,4 ne,8,0 se,4,0
+BASIN_B l,2 d,6 L,4,0 D,4,8 se,2,1 ne,2,6 se,6,1 se,6,6 ne,4,6 se,1,2 se,1,4 se,8,4 se,8,2 se,4,2
+RADIO_B2 l,6 d,2 L,4,0 D,4,8 se,3,2 se,3,6 ne,5,6 ne,5,4 ne,4,6 se,3,4 ne,4,3 ne,3,3
+TEST l,6 d,2 L,4,8 D,4,0 se,4,2 se,4,6 se,6,6 ne,6,4 se,5,6 se,4,4 se,5,3
+RADIO_DB_1 l,4 d,2 L,10,4 D,9,0 se,4,4 se,4,2 se,6,2 ne,6,4
+RADIO_DB_2 l,4 d,2 L,10,4 D,9,0 se,2,4 se,2,2 se,6,1 ne,7,4 se,7,2
+RADIO_DB_3 l,4 d,2 L,10,4 D,9,0 se,2,2 ne,2,4 se,4,4 se,2,8 ne,4,8

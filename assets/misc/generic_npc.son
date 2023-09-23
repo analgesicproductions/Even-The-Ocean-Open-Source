@@ -1,0 +1,4116 @@
+# the key ("bigfuckingstag") is the "id" property of a GenericNPC object.
+# Explanation of subproperties:
+# map/scene - The map/scene that the NPC will talk from if there is no provided script.
+# script - The script file for this NPC, located in misc/npc_scripts . 
+# anim_set - The set of animations the NPC should load, located in misc/animations.txt
+# start_anim - What animation this NPC should play by default.
+# path - the location of the spritesheet within the assets folder
+# w/h - frame width/height
+# expand - expands hitbox in all dirs by this many pixels, for interaction checks
+#
+# *********NOTE**********
+# If you don't want it to have dialogue (like, if you're placing sprited trees), then
+# simply don't include the script, map and scene properties.
+# You can even skip the "anim_set" and "start_anim" properties if you just want to load
+# a specific frame of a sprite - follow "test_tree" for eamples
+
+{ gm_bg
+script s "person/zz_misc/gm_bg.hx"
+}
+{ gm_rouge
+path s "bg/gauntlet_mode/rouge.png"
+w i 416
+h i 256
+}
+{ gm_set1
+path s "bg/gauntlet_mode/set1.png"
+w i 416
+h i 256
+}
+{ gm_set2
+path s "bg/gauntlet_mode/set2.png"
+w i 416
+h i 256
+}
+{ gm_set3
+path s "bg/gauntlet_mode/set3.png"
+w i 416
+h i 256
+}
+{ gm_silos
+path s "bg/gauntlet_mode/silos.png"
+w i 416
+h i 256
+}
+{ gm_sunray
+path s "bg/gauntlet_mode/sunray.png"
+w i 416
+h i 256
+}
+
+{ olive
+path s "npc/etc/forest_npcs.png"
+anim_set s "olive"
+start_anim s "spin"
+w i 16
+h i 16
+}
+
+{ scripttester
+script s "cutscene/easy/J_CUTSCENE.hx"
+}
+
+{ lopez_alone
+script s "person/city/lopez.hx"
+path s "npc/NPC_32.png"
+anim_set s "lopez"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+
+{ postgame_door
+script s "cutscene/9/postgame_door.hx"
+}
+
+{ gm_door
+script s "person/zz_misc/gm.hx"
+path s "util/nexusdoor.png"
+anim_set s "gm_door"
+w i 48
+h i 48
+}
+
+{ gmDoorSprite
+path s "util/nexusdoor.png"
+anim_set s "gm_door"
+w i 48
+h i 48
+}
+
+{ gm_opener
+script s "person/zz_misc/gm_opener.hx"
+path s "npc/junk/test_tree_32x32.png"
+anim_set s "gm_door"
+w i 32
+h i 32
+}
+
+{ record_tester
+script s "person/zz_misc/record_tester.hx"
+}
+{ boxart
+w i 160
+h i 228
+path s "npc/junk/boxart.png"
+start_frame i 0
+}
+{ test_tree
+w i 32
+h i 32
+path s "npc/junk/test_tree_32x32.png"
+start_frame i 1
+}
+
+{ test_tree2
+w i 32
+h i 32
+anim_set s "test_tree2"
+start_anim s "dance"
+path s "npc/junk/test_tree_32x32.png"
+}
+
+{ bigfuckingstag
+map s "test"
+script s "stagscript.hx"
+scene s "bigfuckingstag"
+anim_set s "bigfuckingstag"
+start_anim s "headbang"
+path s "npc/junk/anodyne_stag_64x80.png"
+w i 64
+h i 80
+}
+
+{ shorefilm
+script s "person/shore/tonetest.hx"
+}
+#START INTRO
+
+{ console
+path s "npc/intro/console.png"
+anim_set s "intro_console"
+start_anim s "idle"
+w i 32
+h i 48
+script s "cutscene/1/1g_intro_plant_console.hx"
+}
+//
+{ intro_cass
+path s "npc/intro/cassidy.png"
+anim_set s "intro_cass"
+start_anim s "idle"
+w i 48
+h i 48
+script s "cutscene/1/1_fayrouge_wakeup.hx"
+}
+
+
+{ intro_basic_tut
+script s "cutscene/1/1a_help.hx"
+}
+
+
+{ intro_sappad
+path s "npc/intro/cassidy.png"
+anim_set s "intro_cass"
+start_anim s "idle"
+w i 48
+h i 48
+script s "cutscene/1/1b_sappad.hx"
+}
+
+{ cass_bridge
+path s "npc/intro/cassidy.png"
+anim_set s "intro_cass"
+start_anim s "idle"
+w i 48
+h i 48
+script s "cutscene/1/1c_earthquake.hx"
+}
+{ intro_bridge
+path s "npc/intro/bridge.png"
+anim_set s "intro_bridge"
+start_anim s "idle"
+w i 176
+h i 144
+}
+{ intro_lightning
+path s "npc/intro/lightning.png"
+w i 96
+h i 176
+}
+{ intro_cass_dead
+path s "npc/intro/cassidy.png"
+anim_set s "intro_cass"
+start_anim s "dead"
+w i 48
+h i 48
+script s "cutscene/1/1d_enter_cave.hx"
+}
+
+
+{ aliphshield
+path s "bg/rouge/aliphshield.png"
+w i 416
+h i 256
+}
+
+{ intro_armor_pile
+path s "npc/intro/armor_pile.png"
+anim_set s "intro_armor_pile"
+start_anim s "no_shield"
+w i 32
+h i 32
+}
+
+{ intro_tutorial
+path s "npc/intro/hintsheet.png"
+anim_set s "tut_mark"
+start_anim s "idle"
+w i 32
+h i 48
+script s "cutscene/1/1e_tutorials.hx"
+}
+{ intro_control_enter
+path s "npc/intro/cassidy.png"
+anim_set s "intro_cass"
+start_anim s "shock"
+w i 32
+h i 32
+script s "cutscene/1/1f_control_room_enter.hx"
+}
+{ intro_map
+script s "cutscene/1/1h_world_map.hx"
+}
+
+# START CITY
+# MAP CITY
+
+{ city_roots
+path s "npc/NPC_32.png"
+anim_set s "yuca"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ city_dahlia
+path s "npc/NPC_32.png"
+anim_set s "junkyard_npcs"
+start_anim s "dahlia_idle_l"
+w i 32
+h i 32
+}
+{ city_pollen
+path s "npc/NPC_32.png"
+anim_set s "junkyard_npcs"
+start_anim s "pollen_idle_l"
+w i 32
+h i 32
+}
+{ city_trunks
+path s "npc/NPC_32.png"
+anim_set s "junkyard_npcs"
+start_anim s "trunks_idle_l"
+w i 32
+h i 32
+}
+{ junk_animal
+script s "person/city/junk_end.hx"
+path s "npc/NPC_32.png"
+anim_set s "junkyard_npcs"
+//start_anim s "animal_1"
+w i 32
+h i 32
+}
+
+{ riaz
+script s "person/city/riaz.hx"
+w i 32
+h i 32
+path s "npc/NPC_32.png"
+anim_set s "riaz"
+start_anim s "idle_r"
+}
+
+{ ronald
+script s "person/city/ronald.hx"
+}
+
+{ ronaldSprite
+w i 32
+h i 32
+path s "npc/NPC_32.png"
+anim_set s "ronald"
+start_anim s "idle_l"
+}
+
+{ maude
+w i 32
+h i 32
+path s "npc/NPC_32.png"
+anim_set s "maude"
+start_anim s "idle_l"
+}
+
+{ aloe
+script s "person/city/aloe.hx"
+w i 32
+h i 32	
+path s "npc/NPC_32.png"
+anim_set s "aloe"
+start_anim s "idle_r"
+}
+{ mom
+script s "person/city/mom.hx"
+w i 32
+h i 32	
+path s "npc/NPC_32.png"
+anim_set s "mom"
+start_anim s "idle_l"
+}
+{ worldmap_dialogue
+script s "person/city/worldmap_dialogue.hx"
+}
+
+{ infokiosk
+script s "cutscene/9/infokiosk.hx"
+}
+
+{ oldocean_map
+path s "ui/map/oldocean.png"
+w i 416
+h i 256
+}
+
+{ oldocean_map_zh_Hans
+path s "ui/map/oldoceanzhs.png"
+w i 416
+h i 256
+}
+
+{ oldocean_map_es
+path s "ui/map/oldoceanes.png"
+w i 416
+h i 256
+}
+{ oldocean_map_ru
+path s "ui/map/oldoceanru.png"
+w i 416
+h i 256
+}
+
+{ oldocean_map_de
+path s "ui/map/oldoceande.png"
+w i 416
+h i 256
+}
+
+{ bob
+script s "person/city/bob.hx"
+w i 16
+h i 16	
+path s "npc/NPC_16.png"
+anim_set s "bob"
+start_anim s "idle_l"
+}
+{ batsheva
+script s "person/city/batsheva.hx"
+w i 16
+h i 16
+path s "npc/NPC_16.png"
+anim_set s "batsheva"
+start_anim s "idle_l"
+}
+
+{ mapSmallPics
+w i 128
+h i 96
+path s "ui/smallpics.png"
+anim_set s "mapSmallPics"
+}
+
+{ i2geome_script
+script s "person/city/i2geome.hx"
+}
+{ i2geome
+w i 80
+h i 64
+path s "npc/map/geome.png"
+anim_set s "i2geome"
+}
+
+{ yara_worldmap
+script s "cutscene/8/yara_worldmap.hx"
+w i 16
+h i 16
+path s "npc/NPC_16.png"
+anim_set s "batsheva"
+start_anim s "yara"
+}
+
+
+{ dave
+script s "person/city/dave.hx"
+w i 32
+h i 32
+path s "npc/NPC_32.png"
+anim_set s "dave"
+start_anim s "idle_l"
+}
+
+{ intro_roots
+path s "npc/NPC_32.png"
+script s "person/city/intro_roots.hx"
+anim_set s "yuca"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ junk_enter
+path s "npc/NPC_32.png"
+script s "person/city/junk_enter.hx"
+anim_set s "yuca"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+
+{ screen_skel
+script s "person/city/screen_skel.hx"
+}
+{ screen_kv
+script s "person/city/screen_kv.hx"
+}
+{ screen_history
+script s "person/city/screen_history.hx"
+}
+{ screen_library
+script s "person/city/screen_library.hx"
+}
+{ screen_aliph
+script s "person/city/screen_aliph.hx"
+}
+{ screen_lobby
+script s "person/city/screen_lobby.hx"
+}
+{ screen_museum
+script s "person/city/screen_museum.hx"
+}
+{ screen_train_lo
+script s "person/city/screen_train_lo.hx"
+}
+{ screen_train_hi
+script s "person/city/screen_train_hi.hx"
+}
+
+{ city_train
+path s "npc/city/train.png"
+anim_set s "city_train"
+start_anim s "move"
+w i 199
+h i 69
+}
+{ city_pic
+path s "npc/city/city_pic.png"
+w i 216
+h i 128
+}
+{ tiny_train
+path s "npc/city/tiny_train.png"
+w i 20
+h i 11
+}
+
+{ trainsprite
+script s "person/city/trainsprite.hx"
+path s "bg/whiteforge/hi/WF_HI_1_train.png"
+w i 176
+h i 112
+anim_set s "trainsprite"
+}
+
+{ city_s_aliph_fade_1
+script s "cutscene/2_town_intro/2b_aliph_fades.hx"
+}
+
+{ city_s_aliph_fade_2
+script s "cutscene/2_town_intro/2b_aliph_fades.hx"	
+}
+
+{ city_s_funeral
+script s "cutscene/2_town_intro/2c_funeral.hx"	
+}
+{ yara
+path s "npc/NPC_32.png"
+anim_set s "yara"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ humus
+path s "npc/NPC_32.png"
+anim_set s "humus"
+start_anim s "idle_l"
+w i 32
+h i 32	
+}
+{ hastings
+path s "npc/NPC_32.png"
+anim_set s "hastings"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ paxton_armor
+path s "npc/city/paxton.png"
+anim_set s "paxton_armor"
+start_anim s "idle_l"
+w i 48
+h i 48
+}
+{ lopez_armor
+path s "npc/city/lopez.png"
+anim_set s "lopez_armor"
+start_anim s "idle_l"
+w i 48
+h i 48
+}
+{ lopez
+path s "npc/NPC_32.png"
+anim_set s "lopez"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ paxton
+path s "npc/NPC_32.png"
+anim_set s "paxton"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ biggs
+path s "npc/NPC_32.png"
+anim_set s "mayor"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+
+{ mayor_bullet
+path s "npc/city/mayor_bullet.png"
+anim_set s "mayor_bullet"
+start_anim s "charge"
+w i 16
+h i 16
+}
+
+{ chamberton
+}
+{ mayor_map
+}
+{ mayor_map_dot
+}
+{ funeral_casket
+path s "npc/NPC_48.png"
+anim_set s "casket"
+start_anim s "idle_l"
+w i 48
+h i 48
+}
+{ snickwad
+}
+{ armor
+}
+
+{ yara_in_garden
+script s "person/city/yara_in_garden.hx"
+path s "npc/NPC_32.png"
+anim_set s "yara"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ aliph_new_apt_bed
+script s "person/city/aliph_new_apt_bed.hx"
+}
+{ aliph_new_apt_bed_sprite
+}
+
+
+{ aliph_bed
+pw_dis i 8
+}
+
+{ city_s_mayor_intro
+script s "cutscene/2_town_intro/2d_mayor_intro.hx"
+}
+{ city_s_aliph_out_after_intro
+script s "cutscene/2_town_intro/2e_aliph_out.hx"
+}
+
+{ gov_lobby_person
+script s "person/city/gov_lobby_person.hx"
+path s "npc/city/npcs.png"
+anim_set s "city_npcs"
+start_anim s "secretary_idle"
+w i 32
+h i 32
+}
+
+{ city_s_aliph_home_intro
+script s "cutscene/2_town_intro/2f_aliph_home_intro.hx"
+}
+{ city_s_armor_intro
+script s "cutscene/2_town_intro/2g_intro_armor.hx"
+}
+{ city_s_intro_yara
+script s "cutscene/2_town_intro/2h_yara_exit.hx"
+}
+
+# START G1
+
+{ s1_s2_area_enter
+script s "cutscene/3_g1/s1_s2_area_enter.hx"
+}
+
+{ map_tutorial
+script s "cutscene/3_g1/3a_map_tutorial.hx"
+}
+
+{ s_3b_call_mayor
+script s "cutscene/3_g1/3b_call_mayor.hx"
+}
+
+{ g1_1_pile
+script s "cutscene/3_g1/3c_pile.hx"
+path s "npc/etc/nature_stuff.png"
+anim_set s "g1_1_pile"
+start_anim s "shore"
+w i 32
+h i 32
+}
+
+{ g1_end
+script s "cutscene/3_g1/3d_g1_end.hx"
+path s "npc/etc/nature_stuff.png"
+anim_set s "g1_1_pile"
+start_anim s "shore"
+w i 32
+h i 32
+}
+
+{ g1_1_debrief
+script s "cutscene/3_g1/3e_debrief.hx"
+}
+
+{ city_exit_blocker
+script s "cutscene/3_g1/3g_city_exit_blocker.hx"
+}
+{ g1_1_yara
+script s "cutscene/3_g1/3f_yara.hx"
+}
+{ nature_blocker
+script s "cutscene/3_g1/3h_nature_blocker.hx"
+}
+
+{ paxlopez_g1
+script s "cutscene/3_g1/3i_paxton_lopez.hx"
+}
+
+{ g1_2_debrief
+script s "cutscene/3_g1/3j_g1_2_debrief.hx"
+}
+
+{ g1_2_yara
+script s "cutscene/3_g1/3k_yara_g1_2.hx"
+}
+
+{ i1_debrief
+script s "cutscene/4/4a_i1_debrief.hx"
+}
+{ i1_humus
+script s "cutscene/4/4b_humus.hx"
+}
+{ i1_yara
+script s "cutscene/4/4c_i1_yara.hx"
+}
+{ i1_gate
+script s "cutscene/4/4d_gate.hx"
+}
+
+// g2_1 (s2)
+
+{ s2_nature_blocker
+script s "cutscene/4/4_nature_blocker.hx"
+}
+{ g2_1_checkin
+script s "cutscene/4/4e_checkin.hx"
+}
+{ g2_1_paxton
+script s "cutscene/4/4f_paxton.hx"
+}
+
+
+{ g2_1_end
+path s "npc/intro/console.png"
+anim_set s "intro_console"
+start_anim s "idle"
+w i 32
+h i 48
+script s "cutscene/4/4g_end.hx"
+}
+
+{ g2_1_debrief
+script s "cutscene/4/4h_debrief.hx"
+}
+
+{ g2_1_apt
+script s "cutscene/4/4i_apt.hx"
+}
+
+{ g2_1_yara
+script s "cutscene/4/4j_yara.hx"
+}
+
+{ g2_1_aliph_sleep
+script s "cutscene/4/4k_aliph_sleep.hx"
+}
+
+// G2_2
+
+{ g2_2_debrief
+script s "cutscene/4/4l_debrief.hx"
+}
+
+// I2
+
+{ i2_enter_city
+script s "cutscene/5/5a_enter_city.hx"
+}
+{ i2_mayor_init
+script s "cutscene/5/5b_mayor.hx"
+}
+
+// controller
+{ radio_depth_core
+script s "cutscene/5/5c_core_main.hx"
+}
+// monitor controller
+{ radio_depth_sub
+script s "cutscene/5/5c_core_sub.hx"
+}
+
+// sprites
+{ radio_depth_cpu
+path s "set/radio/chargedisplay.png"
+w i 112
+h i 80
+}
+{ radio_depth_cpu_bar
+path s "set/radio/chargebars.png"
+w i 64
+h i 48
+anim_set s "depth_bar"
+}
+{ radio_depth_monitor
+path s "set/radio/console_heat.png"
+w i 48
+h i 48
+anim_set s "depth_bar"
+}
+{ radio_depth_monitor_bar
+path s "set/radio/chargebars.png"
+w i 64
+h i 48
+anim_set s "depth_bar"
+}
+{ radio_depth_light
+path s "npc/city/core_light.png"
+w i 16
+h i 16
+anim_set s "radio_depth_light"
+}
+
+{ i2_crowd_hastings
+script s "cutscene/5/5e_crowd.hx"
+}
+
+{ i2_mayor_sad
+script s "cutscene/5/5f_mayor_sad.hx"
+}
+
+{ i2_aliph_out
+script s "cutscene/5/5g_aliph_out.hx"
+}
+
+{ i2_crowd_angry
+script s "cutscene/5/5h_crowd_angry.hx"
+}
+{ i2_humus
+script s "cutscene/5/5i_humus.hx"
+}
+
+{ i2_yara
+script s "cutscene/5/5j_yara.hx"
+}
+
+// between I2 and old city
+
+
+{ post_i2_map
+script s "cutscene/5/5k_map.hx"
+}
+
+// START OLD CITY SCENES
+
+{ tunnel_train
+script s "cutscene/7/7_tunnel_train.hx"
+}
+{ old_city_blocker
+script s "cutscene/7/7_oldcity_blocker.hx"
+}
+
+{ old_bomb_holder
+script s "cutscene/7/7_bomb_bags.hx"
+anim_set s "bombbags"
+path s "npc/bombcases.png"
+w i 32
+h i 32
+}
+
+{ silo_placer
+script s "cutscene/7/7_silo_placer.hx"
+}
+
+{ map1_doors
+script s "cutscene/1/map1_doors.hx"
+}
+
+{ tunnel_placer
+script s "cutscene/7/7_tunnel_placer.hx"
+}
+
+{ golem_end
+script s "cutscene/7/7c_end.hx"
+}
+
+{ silos
+path s "npc/map/map_silo.png"
+anim_set s "silo_map"
+w i 16
+h i 16
+}
+{ worldmap_tunnel
+path s "npc/map/outer_train.png"
+w i 32
+h i 32
+}
+
+{ old_city_yara
+script s "cutscene/7/7b_yara.hx"
+path s "npc/intro/console.png"
+anim_set s "intro_console"
+start_anim s "idle"
+w i 32
+h i 48
+}
+
+{ outer_wm_thing
+script s "cutscene/7/7h_world_map.hx"
+}
+
+{ old_final_debrief
+path s "npc/karavold/console.png"
+anim_set s "karavold_console"
+start_anim s "off"
+w i 64
+h i 48
+script s "cutscene/7/7e_final_debrief.hx"
+}
+
+// START ENDING 
+
+{ end_blocker
+script s "cutscene/8/postradiodoorblocker.hx"
+}
+
+{ ending_city_enter
+script s "cutscene/8/8a_city_enter.hx"
+}
+
+{ ending_mayor
+script s "cutscene/8/8b_mayor.hx"
+}
+
+{ ending_tower_end
+script s "cutscene/8/8d_tower_end.hx"
+}
+
+{ ending_init_yara
+script s "cutscene/8/8e_yara.hx"
+}
+
+
+{ ending_flood
+script s "cutscene/8/8f_flood.hx"
+}
+
+{ ending_final
+script s "cutscene/8/8g_final.hx"
+}
+
+# START SHORE
+
+
+
+{ shore_aliph
+script s "person/shore/aliph.hx"
+}
+
+{ clam_entrance
+path s "npc/shore/clam_entrance.png"
+anim_set s "clam_entrance"
+start_anim s "idle"
+w i 88
+h i 48
+o s "80,20,4,16"
+script s "person/shore/clam_entrance.hx"
+}
+{ fisher
+path s "npc/NPC_32.png"
+anim_set s "fisher"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/shore/setsuko.hx"
+}
+
+{ lounger_still
+path s "npc/NPC_32.png"
+anim_set s "lounger_still"
+start_anim s "idle_l"
+w i 32
+h i 32
+map s "shore"
+scene s "lounger_1"
+}
+{ lounger_chairs
+path s "npc/NPC_32.png"
+anim_set s "lounger_chairs"
+start_anim s "idle_l"
+w i 32
+h i 32
+map s "shore"
+scene s "lounger_3"
+}
+{ lounger_sunlight
+path s "npc/NPC_32.png"
+anim_set s "lounger_sunlight"
+start_anim s "idle"
+w i 32
+h i 32
+map s "shore"
+scene s "lounger_2"
+}
+{ lounger_meeting
+path s "npc/junk/Signpost.png"
+anim_set s "sign"
+start_anim s "be_a_sign"
+w i 16
+h i 32
+map s "shore"
+scene s "lounger_4"
+}
+{ angry_lounger
+path s "npc/NPC_32.png"
+anim_set s "lounger_mad"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/shore/angry_lounger.hx"
+}
+{ lounger_sandy
+path s "npc/NPC_32.png"
+anim_set s "lounger_sandy"
+start_anim s "idle_l"
+map s "shore"
+scene s "lounger_4"
+w i 32
+h i 32
+}
+{ clariseed_plant
+path s "npc/shore/claralilly.png"
+anim_set s "claralilly"
+start_anim s "idle"
+w i 48
+h i 48
+script s "person/shore/clariseed_plant.hx"
+}
+{ clariseed_observer
+path s "npc/NPC_32.png"
+anim_set s "clariseed_observer"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+
+
+{ sign1
+map s "shoreplace"
+scene s  "sign1"
+anim_set s "sign"
+start_anim s "be_a_sign"
+path s "npc/junk/Signpost.png"
+w i 16
+h i 32
+}
+
+{ signshore
+map s "shoreplace"
+scene s  "sign1"
+anim_set s "sign"
+start_anim s "be_a_sign"
+path s "npc/shore/Signpost.png"
+w i 32
+h i 32
+}
+
+{ sign2
+map s "shoreplace"
+scene s "sign2"
+anim_set s "sign"
+start_anim s "be_a_slow_sign"
+path s "npc/junk/sign_16x32.png"
+w i 16
+h i 32
+}
+{ introsign
+map s "intro"
+scene s "message"
+path s "npc/junk/sign_16x32.png"
+start_frame i 0
+w i 16
+h i 32
+}
+{ canyonout2sign
+map s "canyonout2"
+scene s "message"
+path s "npc/junk/sign_16x32.png"
+start_frame i 0
+w i 16
+h i 32
+}
+
+{ mussel
+path s "npc/shore/Mussel.png"
+start_frame i 0
+w i 16
+h i 16
+anim_set s "mussel"
+start_anim s "opened"
+script s "nature/mussel.hx"
+}
+
+{ ronald_bird
+path s "npc/birds.png"
+w i 32
+h i 32
+o s "16,16,8,16"
+anim_set s "ronald_bird"
+}
+
+{ starfish_center
+path s "npc/NPC_32.png"
+start_frame i 0
+w i 32
+h i 32
+anim_set s "starfish_center"
+start_anim s "idle_l"
+script s "person/shore/starfish_center.hx"
+}
+
+{ starfish_blockage
+path s "npc/shore/Starfish_Center.png"
+start_frame i 8
+w i 16
+h i 48
+anim_set s "starfish_center"
+start_anim s "blockage"
+script s "person/shore/starfish_blockage.hx"
+}
+
+# START CANYON
+
+
+{ canyon_sign
+//path s "npc/NPC_32.png"
+//start_frame i 0
+//w i 32
+//h i 32
+}
+{ canyon_poem
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+}
+
+{ canyon_aliph
+script s "person/canyon/aliph.hx"
+}
+{ tempsign
+script s "person/canyon/tempsign.hx"
+}
+{ dreamsmoker
+path s "npc/junk/james_the_2nd.png"
+w i 16
+h i 32
+map s "canyon"
+scene s "test"
+script s "person/canyon/dreamsmoker.hx"
+}
+
+{ lit_canyon1
+path s "npc/light/lit_canyon1.png"
+w i 48
+h i 48
+anim_set s "lit_canyon1"
+start_anim s "idle"
+}
+
+{ lit_canyon2
+path s "npc/light/lit_canyon2.png"
+w i 48
+h i 48
+anim_set s "lit_canyon2"
+start_anim s "idle"
+}
+
+{ lit_canyon3
+path s "npc/light/lit_canyon3.png"
+w i 80
+h i 80
+anim_set s "lit_canyon3"
+start_anim s "idle"
+}
+
+{ dreamblock
+path s "npc/canyon/dreamblock.png"
+w i 128
+h i 80
+script s "person/canyon/dreamblock.hx"
+anim_set s "dreamblock"
+start_anim s "idle"
+}
+{ didney
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+o s "32,64,-8,0"
+anim_set s "didney"
+start_anim s "idle_l"
+}
+
+{ dream_war
+path s "npc/canyon/dream_war.png"
+w i 192
+h i 160
+script s "person/canyon/war_dreamer.hx"
+anim_set s "dream_war"
+start_anim s "idle"
+pw_facedir s "l"
+}
+
+{ dream_rem
+path s "npc/canyon/dream_rem.png"
+w i 80
+h i 80
+script s "person/canyon/marbledream.hx"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ bed
+path s "npc/canyon/beds.png"
+w i 48
+h i 32
+anim_set s "bed"
+start_anim s "idle"
+}
+
+{ bed_dreamer1
+path s "npc/canyon/beds.png"
+w i 48
+h i 48
+anim_set s "bed_dreamer1"
+start_anim s "idle1"
+}
+{ bed_dreamer2
+path s "npc/canyon/beds.png"
+w i 48
+h i 48
+anim_set s "bed_dreamer1"
+start_anim s "idle2"
+}
+{ bed_dreamer3
+path s "npc/canyon/beds.png"
+w i 48
+h i 48
+anim_set s "bed_dreamer1"
+start_anim s "idle3"
+}
+{ bed_dreamer4
+path s "npc/canyon/beds.png"
+w i 48
+h i 48
+anim_set s "bed_dreamer1"
+start_anim s "idle4"
+}
+
+{ acttester
+script s "person/zz_misc/act_tester.hx"
+}
+
+{ dream_bread
+path s "npc/canyon/dream_bread.png"
+w i 128
+h i 144
+script s "person/canyon/food.hx"
+anim_set s "dream_bread"
+start_anim s "idle"
+}
+
+{ dream_rock
+path s "npc/canyon/dream_rock.png"
+w i 144
+h i 144
+script s "person/canyon/rockdream.hx"
+anim_set s "dream_rock"
+start_anim s "idle"
+pw_facedir s "l"
+}
+
+{ moonderful
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+map s "canyon"
+scene s "moonderful_first"
+anim_set s "moonderful"
+start_anim s "idle_l"
+script s "person/canyon/moonderful.hx"
+}
+{ moon_mural
+path s "npc/canyon/canyon_mural.png"
+w i 256
+h i 96
+map s "canyon"
+}
+
+{ moon_table
+path s "npc/canyon/canyon_table.png"
+w i 144
+h i 64
+map s "canyon"
+}
+
+{ moon_stew
+path s "npc/canyon/canyon_stew.png"
+w i 32
+h i 32
+anim_set s "dreamstew"
+start_anim s "cauldron"
+script s "person/canyon/dreamstew.hx"
+}
+
+{ war_dream
+path s "npc/canyon/dream_war.png"
+w i 192
+h i 160
+anim_set s "dream_war"
+start_anim s "idle"
+script s "person/canyon/war_dreamer.hx"
+}
+
+{ war_explosion
+path s "npc/canyon/canyon_stuff.png"
+w i 16
+h i 16
+anim_set s "war_explosion"
+}
+{ canyon_air_spore
+path s "npc/canyon/canyon_stuff.png"
+w i 16
+h i 16
+anim_set s "canyon_air_spore"
+}
+{ croissant
+path s "npc/canyon/croissant.png"
+o s "16,16,16,16"
+}
+
+
+{ gunPoof
+path s "trap/boom.png"
+w i 64
+h i 64
+anim_set s "pod_poof"
+}
+
+{ golem_dream
+path s "npc/canyon/dreamblock.png"
+w i 16
+h i 32
+script s "person/canyon/golem_dreamer.hx"
+}
+
+{ marble_sleeper
+path s "npc/canyon/beds.png"
+w i 48
+h i 32
+anim_set s "bed_dreamer1"
+start_anim s "idle"
+map s "canyon"
+scene s "marble"
+}
+
+{ marble_dream
+path s "npc/canyon/dream_rem.png"
+w i 80
+h i 80
+script s "person/canyon/marbledream.hx"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ awake_sleeper
+path s "npc/canyon/dreamblock.png"
+w i 32
+h i 16
+map s "canyon"
+scene s "awake"
+}
+
+{ rem_protector
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "jae"
+start_anim s "idle_l"
+script s "person/canyon/marbledream.hx"
+}
+
+{ canyon_bounce
+path s "set/canyon/canyon_bounce.png"
+w i 32
+h i 32
+anim_set s "canyon_bounce"
+o s "32,16,0,4"
+}
+
+# START HILL
+# MAP HILL
+
+
+{ hill_aliph
+script s "person/hill/aliph.hx"
+}
+
+# dandelion
+{ dandelion
+path s "set/hill/flower.png"
+w i 48
+h i 32
+anim_set s "dandelion"
+o s "32,16,8,16"
+}
+
+# This sprite is vera
+{ storeroom_in
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "vera"
+start_anim s "idle_l"
+script s "person/hill/cut_response.hx"
+}
+{ storeroom_trigger
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "vera"
+start_anim s "idle_l"
+script s "person/hill/storeroom_trigger.hx"
+}
+{ wilbert
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "wilbert"
+start_anim s "idle_l"
+script s "person/hill/wilbert.hx"
+}
+{ shantel
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+start_anim s "idle_l"
+anim_set s "shantel"
+script s "person/hill/shantel.hx"
+}
+{ bay_outside
+path s "npc/NPC_32.png"
+anim_set s "bay"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/hill/bay_outside.hx"
+}
+{ trent_outside
+path s "npc/NPC_32.png"
+anim_set s "trent"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/hill/trent_outside.hx"
+}
+{ memory_soup_trigger
+path s "npc/NPC_32.png"
+anim_set s "bay"
+start_anim s "mem"
+w i 32
+h i 32
+script s "person/hill/memory_soup.hx"
+}
+{ memory_paint_trigger
+path s "npc/NPC_32.png"
+anim_set s "trent"
+start_anim s "mem"
+w i 32
+h i 32
+script s "person/hill/memory_paint.hx"
+}
+
+{ memory_bay
+path s "npc/NPC_32.png"
+anim_set s "bay"
+start_anim s "mem"
+w i 32
+h i 32
+}
+{ memory_trent
+path s "npc/NPC_32.png"
+anim_set s "trent"
+start_anim s "mem"
+w i 32
+h i 32
+}
+
+{ room_trent
+path s "npc/NPC_32.png"
+anim_set s "trent"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/hill/room_trent.hx"
+}
+{ room_bay
+path s "npc/NPC_32.png"
+anim_set s "bay"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/hill/room_bay.hx"
+}
+{ room_vera
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "vera"
+start_anim s "idle_l"
+script s "person/hill/room_vera.hx"
+}
+{ bay_in_vera_room
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "bay"
+start_anim s "idle_r"
+script s "person/hill/bay_in_vera_room.hx"
+}
+{ deadtrees
+path s "npc/canyon/dreamblock.png"
+w i 64
+h i 64
+o s "64,64,0,-64"
+//anim_set s "testanim"
+//start_anim s "idle_r"
+//pw_dis i 16
+//pw_facedir s "r"
+}
+{ hillpantry
+path s "npc/canyon/dreamblock.png"
+w i 16
+h i 32
+anim_set s "testanim"
+start_anim s "idle_r"
+}
+{ hillfan
+path s "set/hill/bugfan.png"
+w i 64
+h i 64
+script s "person/hill/fan.hx"
+}
+{ hill_lock
+path s "set/hill/biggate.png"
+w i 64
+h i 112
+anim_set s "hilllock"
+script s "person/hill/storeroom_lock.hx"
+}
+{ hill_gate
+path s "set/hill/smallgate.png"
+w i 16
+h i 32
+script s "person/hill/backyard_gate.hx"
+}
+
+# START RIVER
+# MAP RIVER
+
+{ riverbird
+script s "person/river/bird.hx"
+}
+
+{ riversound
+script s "person/river/riversound.hx"
+}
+
+{ river_locked_gate
+script s "person/river/locked_gate.hx"
+path s "set/river/gate.png"
+w i 48
+h i 80
+}
+
+{ river_message_board
+script s "person/river/message_board.hx"
+path s "npc/river/message_board.png"
+anim_set s "message_board"
+start_anim s "idle"
+w i 32
+h i 32
+}
+
+{ river_jr_gatekeeper
+script s "person/river/gatekeeper.hx"
+}
+
+{ river_jr_sprite
+path s "npc/NPC_32.png"
+anim_set s "jr_gatekeeper"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ river_gatekeeper_sprite
+path s "npc/NPC_32.png"
+anim_set s "gatekeeper"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+
+{ river_post_office
+script s "person/river/post_office.hx"
+path s "npc/NPC_32.png"
+anim_set s "stamp"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+
+
+
+{ river_guard
+script s "person/river/guard.hx"
+path s "npc/NPC_32.png"
+anim_set s "garrett"
+w i 32
+h i 32
+start_anim s "idle_l"
+}
+
+{ trophy_old
+path s "npc/NPC_32.png"
+anim_set s "mezura"
+start_anim s "idle_l"	
+w i 32
+h i 32
+}
+{ trophy_young
+path s "npc/NPC_32.png"
+anim_set s "chisa"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ river_welcome_sign
+map s "river"
+scene s "sign"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_park_sign
+map s "river"
+scene s "sign_2"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ river_storage_sign
+map s "river"
+scene s "medicine_sign"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ river_old_man
+pw_facedir s "l"
+path s "npc/NPC_32.png"
+anim_set s "damien"
+start_anim s "idle_r"
+w i 32
+h i 32
+}
+{ takumi
+path s "npc/NPC_32.png"
+anim_set s "takumi"
+start_anim s "idle_r"
+w i 32
+h i 32
+}
+{ ayano
+path s "npc/NPC_32.png"
+anim_set s "ayano"
+start_anim s "idle_r"
+w i 32
+h i 32
+}
+
+{ high_guy
+map s "river"
+scene s "high_guy"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ low_guy
+map s "river"
+scene s "low_guy"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ fungus
+map s "river"
+scene s "fungus_1"
+pos i 0
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ river_cafe_owner
+path s "npc/NPC_32.png"
+anim_set s "tanya"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/river/cafe.hx"
+}
+{ river_cafe_1
+map s "river"
+scene s "cafe_1"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_cafe_2
+map s "river"
+scene s "cafe_2"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ table_dude
+map s "river"
+scene s "table_dude"
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ river_foodlocker
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_meds
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_clariseed
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_matches
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_shears
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+{ river_xxx
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+}
+
+{ fungus_blocker
+path s "npc/canyon/dreamblock.png"
+anim_set s "dream_rem"
+start_anim s "idle"
+script s "person/river/fungusblocker.hx"
+}
+
+# START BASIN
+# MAP BASIN
+
+{ vale_lift
+script s "person/forest/vale_lift.hx"
+}
+
+{ basindiary
+path s "npc/NPC_32.png"
+anim_set s "dolly"
+start_anim s "book"
+w i 32
+h i 32
+}
+
+{ gaspusher
+script s "person/forest/gaspusher.hx"
+}
+{ basin_fountain
+path s "npc/forest/fountain.png"
+w i 64
+h i 64
+anim_set s "basin_fountain"
+start_anim s "frozen"
+}
+
+# tree nub
+{ tree_nub
+path s "set/basin/nub.png"
+w i 24
+h i 24
+anim_set s "tree_nub"
+o s "16,16,4,4"
+}
+
+# START WOODS
+#MAP WOODS
+
+{ woods_book
+script s "person/woods/book.hx"
+path s "npc/woods/book.png"
+w i 48
+h i 48
+o s "16,32,16,16"
+anim_set s "woods_book"
+} 
+
+{ wes
+path s "npc/NPC_32.png"
+anim_set s "wes"
+start_anim s "idle_l"
+w i 32
+h i 32
+pw_dis i 8
+pw_facedir s "r"
+}
+
+{ kaki
+path s "npc/NPC_32.png"
+anim_set s "kaki"
+start_anim s "idle_l"
+w i 32
+h i 32
+pw_dis i 8
+pw_facedir s "l"
+}
+
+
+#END WOODS
+
+# START FOREST
+# MAP FOREST
+
+{ sara
+path s "npc/NPC_32.png"
+anim_set s "sara"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ hank
+path s "npc/NPC_48.png"
+anim_set s "carl"
+start_anim s "idle_l"
+w i 48
+h i 48
+}
+{ carl
+path s "npc/NPC_48.png"
+anim_set s "carl"
+start_anim s "idle_l"
+w i 48
+h i 48
+}
+{ constanza
+path s "npc/NPC_32.png"
+anim_set s "constanza"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ edith
+path s "npc/NPC_32.png"
+anim_set s "edith"
+start_anim s "idle_l"
+w i 32
+h i 32
+}
+{ billy
+path s "npc/NPC_32.png"
+anim_set s "billy"
+start_anim s "idle_l"
+w i 32
+h i 32	
+}
+
+{ forest_musicians
+path s "npc/NPC_32.png"
+anim_set s "forest_musicians"
+w i 32
+h i 32
+}
+
+{ vale
+path s "npc/NPC_32.png"
+anim_set s "vale"
+h i 32
+w i 32
+}
+{ tracy
+path s "npc/NPC_32.png"
+anim_set s "tracy"
+start_anim s "idle_l"
+h i 32
+w i 32
+}
+{ basin_lift
+path s "set/basin/elevatorglass.png"
+h i 32
+w i 96
+anim_set s "basin_lift"
+}
+
+// smoke bomb sprite that dolly throws in enter_town scene
+{ dolly_smoke
+path s "npc/forest/npcs.png"
+anim_set s "dolly_smoke"
+w i 32
+h i 32
+}
+
+// dolly at town_enter scene
+{ dolly_noscript
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+start_anim s "idle_l"
+anim_set s "dolly"
+}
+
+// Dolly at the lift, near basin.
+{ dolly_lift
+path s "npc/NPC_48.png"
+w i 48
+h i 48
+script s "person/forest/dolly_lift.hx"
+start_anim s "idle_l"
+anim_set s "dolly48"
+}
+
+{ forest_enter_scene
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "dolly"
+start_anim s "idle_l"
+script s "person/forest/enter_town.hx"
+}
+
+// Used to load the memory sprites of vale/tracy/dolly/young_dolly
+{ forest_memory_npc
+path s "npc/NPC_32.png"
+anim_set s "forest_memory_npc"
+w i 32
+h i 32
+}
+
+// The coin Dolly throws
+{ forest_memory_coin
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "forest_memory_coin"
+o s "8,8,12,12"
+start_anim s "idle"
+}
+
+// Memory where dolly+vale talk, then flashforward
+{ forest_young_memory
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "forest_memory_npc"
+script s "person/forest/young_memory.hx"
+start_anim s "dolly"
+}
+
+// memory with only tracy+dolly
+{ forest_after_memory
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+anim_set s "memory"
+script s "person/forest/after_memory.hx"
+start_anim s "idle"
+}
+
+#END FOREST
+
+#MAP PASS
+{ pass_boulder
+path s "npc/pass/pass_boulder.png"
+w i 48
+h i 48
+script s "person/pass/boulder.hx"
+}
+{ pass_geyser_turnoff
+path s "npc/pass/pass_boulder.png"
+w i 16
+h i 16
+script s "person/pass/big_geyser.hx"
+}
+{ pass_jane
+path s "npc/NPC_32.png"
+w i 32
+h i 32
+script s "person/pass/jane.hx"
+anim_set s "jane"
+start_anim s "idle_l"
+}
+
+{ pass_picnic
+path s "npc/NPC_32.png"
+anim_set s "jane"
+start_anim s "idle_l"
+w i 32
+h i 32
+script s "person/pass/picnic.hx"
+}
+
+#ox head
+{ pass_oxhead
+path s "set/pass/head.png"
+w i 96
+h i 96
+anim_set s "oxhead"
+o s "64,16,16,16"
+}
+#ox shoulder
+{ pass_oxshoulders
+path s "set/pass/shoulders.png"
+w i 112
+h i 128
+anim_set s "oxshoulders"
+o s "80,16,16,16"
+}
+#ox body
+{ pass_oxbody
+path s "set/pass/body.png"
+w i 192
+h i 128
+anim_set s "oxbody"
+o s "80,16,80,16"
+}
+
+{ pass_bounce
+path s "set/pass/pass_bounce.png"
+w i 32
+h i 32
+anim_set s "pass_bounce"
+o s "32,16,0,4"
+}
+
+#END PASS
+
+
+#MAP CLIFF
+
+
+{ cliff_aliph
+script s "person/cliff/aliph.hx"
+}
+
+{ cliff_chase
+script s "person/cliff/chase_control.hx"
+}
+
+{ cliff_golem_scene
+path s "npc/cliff/golem_scene.png"
+start_frame i 0
+w i 64
+h i 64
+anim_set s "cliff_golem_scene"
+start_anim s "idle"
+}
+
+{ cliff_spore
+path s "npc/cliff/spore.png"
+start_frame i 0
+w i 32
+h i 32
+anim_set s "cliff_spore"
+start_anim s "idle"
+}
+{ cliff_signwall
+path s "npc/cliff/beam.png"
+start_frame i 0
+w i 16
+h i 256
+anim_set s "cliffwall"
+start_anim s "idle"
+}
+{ cliff_cactus
+path s "npc/cliff/cactus_pod.png"
+start_frame i 0
+w i 64
+h i 64
+o s "32,32,16,16"
+anim_set s "cactus_pod"
+start_anim s "idle"
+}
+{ cliff_cactus_npc
+script s "person/cliff/cactus.hx"
+}
+{ bg_cactus
+script s "person/cliff/bg_cactus.hx"
+}
+
+{ cliff_sign_1
+path s "npc/cliff/spore.png"
+start_frame i 0
+w i 16
+h i 32
+}
+{ csign
+path s "npc/NPC_32.png"
+script s "person/cliff/signwall.hx"
+start_frame i 191
+w i 32
+h i 32
+}
+{ carving_tools
+path s "npc/cliff/carving_tools.png"
+start_frame i 0
+w i 32
+h i 32
+}
+
+{ cliff_last_sign
+path s "npc/cliff/sign.png"
+start_frame i 1
+w i 16
+h i 32
+script s "person/cliff/last_sign.hx"
+}
+
+
+{ dying_person_init
+script s "person/cliff/dying_person_init.hx"
+}
+
+{ incense
+script s "person/cliff/incense.hx"
+}
+
+{ incense_npc
+path s "set/cliff/candle.png"
+w i 32
+h i 32
+}
+
+{ incense_glow
+path s "set/cliff/candleglow.png"
+w i 128
+h i 128
+}
+
+
+{ cliff_guy
+path s "npc/NPC_48.png"
+anim_set s "enoch"
+start_anim s "sleep"
+w i 48
+h i 48
+}
+
+
+
+
+#END CLIFF
+
+#MAP FALLS
+
+{ falls_sharon
+script s "person/falls/sharon.hx"
+path s "npc/NPC_64.png"
+w i 64
+h i 64
+anim_set s "sharon"
+}
+
+{ falls_rotate
+script s "person/falls/rotate.hx"
+}
+
+{ falls_rotate_bg
+path s "npc/falls/rotate_bg.png"
+start_frame i 0
+w i 544
+h i 544
+anim_set s "falls_rotate_bg"
+}
+
+{ falls_rotate_boat
+path s "npc/falls/rotate_boat.png"
+start_frame i 0
+w i 80
+h i 64
+anim_set s "falls_rotate_boat"
+}
+
+{ falls_npc
+script s "person/falls/person.hx"
+path s "npc/falls/emotions.png"
+start_frame i 0
+w i 32
+h i 64
+anim_set s "falls_npc"
+}
+
+{ falls_bounce
+path s "set/falls/SquishBounce.png"
+w i 32
+h i 32
+anim_set s "falls_bounce"
+o s "32,16,0,4"
+}
+
+{ falls_float
+path s "set/falls/falls_float.png"
+w i 32
+h i 32
+anim_set s "falls_float"
+o s "32,16,0,10"
+}
+
+#END FALLS
+# MAP misc
+{ james2
+path s "npc/junk/james_the_2nd.png"
+start_frame i 0
+w i 16
+h i 32
+anim_set s "james2"
+start_anim s "idle"
+map s "riverpass"
+scene s "bear"
+}
+
+# MAP radio
+
+{ radio_elevator
+script s "cutscene/8/radio_elevator.hx"
+anim_set s "radio_elevator"
+w i 128
+h i 80
+o s "128,48,0,32"
+path s "npc/city/radioelevator.png"
+}
+
+# MAP misc
+{ woods_core_light
+path s "npc/junk/woods_core_light.png"
+start_frame i 0
+w i 16
+h i 16
+anim_set s "woods_core_light"
+start_anim s "off"
+script s "tool/woods_core.hx"
+}
+
+{ console_light
+path s "util/console_light.png"
+start_frame i 1
+w i 16
+h i 16
+script s "tool/console_light.hx"
+anim_set s "console_light"
+start_anim s "off"
+}
+{ console_light_geome
+path s "util/console_light.png"
+start_frame i 3
+w i 16
+h i 16
+script s "tool/console_light.hx"
+anim_set s "console_light_geome"
+start_anim s "off"
+}
+
+{ shore_core
+path s "npc/junk/woods_core_light.png"
+start_frame i 0
+w i 16
+h i 16
+anim_set s "woods_core_light"
+start_anim s "off"
+script s "tool/shore_core.hx"
+}
+
+
+{ deer
+path s "npc/junk/deer.png"
+start_frame i 0
+w i 32
+h i 32
+anim_set s "deer"
+start_anim s "idle"
+script s "nature/deer.hx"
+}
+
+
+{ fox
+path s "npc/junk/fox.png"
+start_frame i 0
+w i 64
+h i 16
+anim_set s "fox"
+start_anim s "idle"
+script s "nature/fox.hx"
+}
+
+
+{ sloth
+path s "npc/junk/sloth.png"
+start_frame i 0
+w i 16
+h i 16
+anim_set s "sloth"
+start_anim s "idle"
+script s "nature/sloth.hx"
+}
+
+{ opossum
+path s "npc/junk/opossum.png"
+start_frame i 0
+w i 16
+h i 16
+anim_set s "opossum"
+start_anim s "idle"
+script s "nature/opossum.hx"
+}
+
+{ gardener
+script s "person/gardener.hx"
+path s "npc/junk/opossum.png"
+start_frame i 0
+w i 16
+h i 16
+anim_set s "opossum"
+start_anim s "idle"
+}
+
+
+{ vent
+script s "tool/vent.hx"
+path s "npc/junk/vent.png"
+start_frame i 0
+w i 16
+h i 32
+anim_set s "vent"
+start_anim s "off"
+}
+{ disappearblock
+script s "tool/disappearblock.hx"
+path s "npc/junk/vent.png"
+start_frame i 0
+w i 16
+h i 32
+}
+
+{ sunfish
+path s "npc/junk/Sunfish.png"
+start_frame i 0
+w i 32
+h i 32
+anim_set s "sunfish"
+start_anim s "idle"
+script s "nature/sunfish.hx"
+}
+
+{ hippo
+path s "npc/junk/Hippo.png"
+start_frame i 0
+w i 96
+h i 48
+anim_set s "hippo"
+start_anim s "idle_r"
+script s "nature/hippo.hx"
+}
+
+{ gauntletblocker
+path s "npc/test/gauntletblocker.png"
+w i 16
+h i 128
+script s "tool/gauntletblocker.hx"
+}
+{ uom
+path s "npc/junk/uncomfortable_old_man.png"
+w i 102
+h i 230
+script s "person/zz_misc/uom.hx"
+}
+
+// POSTGAME
+
+{ oceanbucks
+path s "npc/test/gauntletblocker.png"
+w i 16
+h i 64
+script s "person/city/oceanbucks.hx"
+}
+
+{ joni
+path s "npc/etc/dev_commentary.png"
+w i 32
+h i 32
+anim_set s "dev_info"
+start_anim s "joni"
+map s "ui"
+scene s "journal_headers"
+}
+
+{ dev_info
+path s "npc/etc/dev_commentary.png"
+w i 32
+h i 32
+script s "cutscene/9/dev_info.hx"
+anim_set s "dev_info"
+start_anim s "sean"
+}
+
+
+{ orb_gate
+path s "npc/etc/orbgate.png"
+w i 64
+h i 128
+script s "cutscene/9/orb_gate.hx"
+anim_set s "orb_gate"
+start_anim s "0"
+}
+
+
+// generic = sound when not overlapping soundzone
+// if overlapping SoundZone, its 'type' string will be played on the corespodning event
+{ soundzone
+// Note: generic is referenced hardcoded in soundzone code so be careful ok
+types s "generic,rock,grass,sand,metal,snow,wood,tile,dirt,carpet,golem"
+rock_floor s "step_rock.wav"
+rock_wall s "step_rock.wav"
+generic_floor s "player_jump_down.wav"
+generic_wall s "step_rock.wav"
+grass_floor s "step_grassg"
+grass_wall s "step_grassg"
+sand_floor s "step_sand.wav"
+sand_wall s "step_sand.wav"
+metal_floor s "step_metal.wav"
+metal_wall s "step_metal.wav"
+wood_floor s "step_wood.wav"
+wood_wall s "step_wood.wav"
+snow_floor s "step_snow.wav"
+snow_wall s "step_snow.wav"
+tile_floor s "step_tile.wav"
+tile_wall s "step_tile.wav"
+carpet_floor s "step_carpet.wav"
+carpet_wall s "step_carpet.wav"
+dirt_floor s "step_dirtg"
+dirt_wall s "step_dirtg"
+golem_floor s "step_golem.wav"
+golem_wall s "step_golem.wav"
+}
+
+{ enterarea_desc
+INTRO_BIG i 0
+INTRO_SMALL i 1
+CITY_BIG i 2
+CITY_SMALL i 3
+SHORE_BIG i 4
+SHORE_SMALL i 5
+CANYON_BIG i 6
+CANYON_SMALL i 7
+HILL_BIG i 8
+HILL_SMALL i 9
+RIVER_BIG i 10
+RIVER_SMALL i 11
+WOODS_BIG i 12
+WOODS_SMALL i 13
+BASIN_BIG i 14
+BASIN_SMALL i 15
+PASS_BIG i 16
+PASS_SMALL i 17
+FALLS_BIG i 18
+FALLS_SMALL i 19
+CLIFF_BIG i 20
+CLIFF_SMALL i 21
+KV_BIG i 22
+KV_SMALL i 23
+}
+
+{ important_maps
+//train_to_apex should be whatever map triggers to the train to apex cutscnee
+train_to_apex s "WF_LO_0"
+lighthouse_lobby s "WF_GOV_LOBBY"
+history_wing s "WF_GOV_HIST"
+aliph_new_apt s "WF_ALIPH2"
+river_g_entrance s "RIVER_2"
+woods_g_entrance s "WOODS_3"
+basin_g_entrance s "BASIN_2"
+yara_old_1 s "WF_GOV_JAIL"
+yara_old_2 s "WF_GOV_JAIL"
+old_sleep s "KV_RADIO"
+jail s "WF_GOV_JAIL"
+yara_house s "WF_LO_1"
+yara_house_indoors s "WF_YARA"
+// used in i_1 yara_in_garden to play next scenes auto, might change
+wf_yara s "WF_YARA"
+lo_res_night_normal s "WF_LO_1"
+mayor_office s "WF_GOV_MAYOR"
+radio_depths_start s "RADIO_LOBBY"
+passboulder s "NPC_PASS"
+flood_1 s "SHORE_1"
+flood_2 s "CANYON_1"
+flood_3 s "MAP1"
+}
+
+# animations.txt -> { portrait
+# The [KEYS] here  come from %%pic%[KEY]%%.  e.g. if [KEY] = Cloaked_Humus, we get value 16, which is used in EN.txt to get the name "Storyteller"
+# They are also used with animations.txt ' 'portrait' entry to find the right portrait.
+#
+# The [VALUES] here are used to find the correct display name from EN.txt's portrait_names.names
+{ portrait_table
+??? i 0
+Aliph i 1
+Vale i 2
+Young_Vale i 2
+Edith i 3
+Constanza i 4
+Carl i 5
+Hank i 6
+Dolly i 7
+Mem_Dolly i 7
+Tracy i 8
+Mem_Tracy i 8
+Young_Dolly i 9
+Damien i 10
+Fungus i 11
+Wilbert i 12
+Shantel i 13
+Bay i 14
+Mem_Bay i 14
+Bay_Smirk i 14
+Vera i 15
+Cloaked_Humus i 16
+jp_test i 17
+Trent i 18
+Mem_Trent i 18
+Cassidy i 19
+Yara i 20
+Biggs i 21
+Biggs_Radio i 21
+Biggs_End i 21
+Snickwad i 22
+Snickwad_Radio i 22
+Hastings i 23
+Lopez i 24 
+Paxton i 25
+Jane i 26
+Humus i 27
+HumusEnd i 27
+Dave i 28
+Ronald i 29
+Maude i 30
+ArmorAliph i 1
+Chamberton i 31
+Sharon i 32
+Whiteforge i 33
+Roots i 34
+Trunks i 35
+Dahlia i 36
+Pollen i 37
+Nate i 38
+Riaz i 39
+Violet i 42
+Fisherwoman i 43
+Athiya i 44
+Jorani i 45
+Duane i 46
+Gavin i 47
+Barton i 48
+Anise i 49
+Moonderful i 50
+King_Croissant i 51
+Rocco i 52
+Lt_Locke i 53
+?_Creature i 54
+Jae i 55
+Didney i 56
+Starfish i 57
+Tanya i 58
+Ayano i 59
+Takumi i 60
+Chisa i 61
+Mezura i 62
+Stamp i 63
+Garrett i 64
+Kaki i 65
+Wes i 66
+Sara i 67
+Aloe i 68
+Mom i 69
+Batsheva i 70
+Bob i 71
+Jr_Gate i 72
+Gate i 73
+Paul i 74
+Belinda i 75
+Rico i 76
+Enoch i 77
+Cliff_Sign i 78
+Falls_0 i 79
+Falls_1 i 79
+Falls_2 i 79
+Falls_3 i 79
+Falls_4 i 79
+Falls_5 i 79
+Falls_6 i 79
+Falls_7 i 79
+}
+
+// used with %%pic%NAME%%, returns a key for sound.meta
+{ voice_table
+Aliph s "voice_aliph_mid"
+null s "dialogue_blip_normal.wav"
+Cloaked_Humus s "voice_chumus"
+Humus s "voice_humus"
+Cassidy s "voice_cass"
+Biggs s "voice_mayor"
+Biggs_Radio s "voice_mayor"
+ArmorAliph s "voice_aliph_mid"
+Snickwad s "voice_wodsnick"
+Yara s "voice_yara"
+Hastings s "voice_hastings"
+}
+
+
+# START SETPIECE
+# Hint: search "SETPIECE [TILESETNAME]" to jump to that set of Setpieces.
+
+# How to use:
+# See SHOREPLACE example below. SHOREPLACE means that these are the setpieces
+# that will appear when the map you are in uses the SHOREPLACE tileset.
+#
+# The next level ("hill", "slope") are the types of set pieces you can have. Possible types are shown in the"types" section below
+#
+# Then you add setpiece entries. Here's an exmaple
+#
+#	{ SHOREPLACE
+#		{ ornament
+#			{ 2+fount.png+3,3,0,1,1,1,1
+#				fr i 8
+#				anim s "0,1,2"
+#				angular_v i 500
+#			}
+#        }
+#    }
+# Meaning that this will be setpiece #2 under the ornament set, the graphics come from shoreplace/fount.png . The frzme size is 3*16 by 3*16, and the first frame's offset into the sprite sheet is frame number 0. The drag-box is offset at 1*16 by 1*16 from the top left of the frame, and the size of the drag box is 1*16 by 1*16. You don't need to set the last two numbers (the size of the drag box.
+# you can also set a frame rate and animation to loop.
+# also you can set ANGULAR VELOCITY 
+#
+# props in game - by default the setpiece , if it's a fading setpiece - fades if you overlap the editor drag box. if you set a propery to 1, then it will fade if ou touch the entire sprite at all
+
+{ _SetPiece
+
+	{ types
+		types s "group0,group1,group2,group3,group4,group5,landscape_anim"
+# types s "hill,slope,flat,rock,bg_rock,small_plant,large_plant,ornament"
+	}
+# SETPIECE SHOREPLACE
+	{ SHOREPLACE
+		{ hill
+			{ 0+ground_10_11.png+10,3,1,3,1,2,1
+			}
+			{ 1+ground_6.png+6,3,1,2,1
+			}
+			{ 2+ground_6.png+6,3,2,4,2
+			}
+		}
+		{ slope
+			{ 0+ground_10_11.png+10,6,0,5,3,2,2
+			}
+			{ 1+ground_10_11.png+11,6,2,3,4,2,2
+			}
+			{ 2+ground_8.png+8,8,0,1,2
+			}
+			{ 3+ground_8.png+8,6,2,1,2
+			}
+			{ 4+ground_6.png+6,5,0,1,2
+			}
+		}
+		{ flat
+			{ 0+ground_8.png+8,2,1,0,1
+			}
+		}
+		{ small_plant
+			{ 0+small_plant_3.png+3,2,0,1,1
+			}
+			{ 1+small_plant_3.png+3,2,1,1,1
+			}
+			{ 2+small_plant_3.png+3,2,2,1,1
+			}
+			{ 3+small_plant_3.png+3,2,3,1,1
+			}
+			{ 4+small_plant_1_2+1,1,0,0,0
+			}
+			{ 5+small_plant_1_2+1,1,1,0,0
+			} 
+			{ 6+small_plant_1_2+2,2,1,1,1
+			}
+		}
+		{ rock
+			{ 0+rock_5.png+5,5,0,1,1
+			}
+			{ 1+rock_5.png+5,5,1,1,1
+			}
+			{ 2+rock_5.png+5,5,2,1,1
+			}
+		}
+		{ bg_rock
+			{ 0+rock_5.png+5,5,3,1,1
+			}
+			{ 1+rock_5.png+5,5,4,1,1
+			}
+			{ 2+rock_5.png+5,5,5,1,1
+			}
+			{ 3+rock_5.png+5,5,6,1,1
+			}
+			{ 4+rock_5.png+5,5,7,1,1
+			}
+			{ 5+rock_5.png+5,5,8,1,1
+			}
+			{ 6+rock_5.png+5,5,9,1,1
+			}
+			{ 7+rock_5.png+5,5,10,1,1
+			}
+			{ 8+rock_5.png+5,5,11,1,1
+			}
+			{ 9+rock_5.png+5,5,12,1,1
+			}
+			{ 10+rock_5.png+5,5,13,1,1
+			}
+			{ 11+rock_5.png+5,5,14,1,1
+			}
+		}
+		{ ornament
+			{ 0+ornament_2+2,2,0,1,1
+			}
+			{ 1+ornament_2+2,2,1,1,1
+			}
+			{ 2+fount.png+2,4,0,1,1
+				fr i 8
+				anim s "0,1,2"
+			}
+			{ 3+ornament_2+2,2,2,1,1
+			}
+			{ 4+ornament_2+2,2,3,1,1
+			}
+			{ 5+ornament_2+2,2,4,1,1
+			}
+		}
+		{ large_plant
+			{ 0+large_plant_5.png+5,9,0,1,1
+			}
+			{ 1+large_plant_6_2.png+6,8,0,1,1
+			}
+			{ 2+large_plant_6_2.png+2,6,3,0,4
+			}
+		}
+	}
+# SETPIECE STONEFOREST
+	{ STONEFOREST
+	}
+	
+# SETPIECE WHITEFORGE
+	{ WHITEFORGE
+		{ group0
+			{ 0+water.png+4,5,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 20
+			}
+			{ 1+water.png+4,5,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 40
+			}
+		}
+		{ group1
+			{ 0+feeder.png+1,4,0,0,0,1,1
+				fr i 12
+				anim s "0"
+			}
+		}
+		{ group2
+			{ 0+fount.png+4,10,0,0,0,1,1
+				fr i 20
+				anim s "0,1,2,3,4,5,6,7"
+			}
+			{ 1+train_hi.png+12,6,0,0,0,1,1
+			}
+			{ 2+flame.png+4,4,0,0,0,1,1
+				fr i 20
+				anim s "0,1,2,3,4,5,6,7"
+			}
+		}
+	}
+	
+# SETPIECE ROUGE
+	{ ROUGE
+		{ group0
+			{ 0+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+console.png+6,5,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+		{ group1
+			{ 0+lamp.png+7,11,0,0,0,1,1 
+				fr i 8 
+				anim s "1" 
+				r_anim i 1
+				under_anim s "0"
+				alpha_start f 0.8
+				alpha_amp f 0.2
+                alpha_period f 4
+			}
+		}
+		{ group2
+			{ 0+flag.png+3,5,0,0,0,1,1
+				fr i 6
+				anim s "0,1,2,3,4,5,6,7"
+			}
+		}
+	}
+	
+# SETPIECE SHORE
+	{ SHORE
+		{ group0
+			{ 0+waterglow.png+4,4,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 1+watertop.png+4,1,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 2+waterglow3.png+12,12,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+		}
+		{ group1
+			{ 0+hidesand.png+13,13,0,z2,0,22,15
+					fr i 12
+					anim s "0"
+			}
+		}
+		{ group2
+			{ 0+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+		}
+	}
+	
+	# SETPIECE SHORE GAUNTLET
+	{ SHOREPLACEA
+		{ group0
+			{ 0+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+5,1,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+8,7,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+		{ group1
+		}
+		{ group2
+		}
+	}
+
+	
+# SETPIECE CANYON
+	{ CANYON
+		{ group0
+			{ 0+bush.png+3,3,0,0,0,1,1
+				fr i 12
+				r_frame s "0,1,2"
+				angle_start f 0.9
+				angle_amp f 3
+                angle_period f 1
+				r_period_start i 1
+			}
+			{ 1+outlamp.png+7,10,0,0,0,1,1
+				fr i 12
+				blend i 3
+				r_frame s "0"
+				scale_start f 1
+				scale_amp f 0.1
+                scale_period f 2
+				r_period_start i 2
+			}
+			{ 2+outlamp.png+7,10,0,0,0,1,1
+				fr i 12
+				blend i 3
+				r_frame s "0"
+				scale_start f 1
+				scale_amp f 0.1
+                scale_period f 2
+				r_period_start i 2
+			}
+			{ 3+outlamp.png+7,10,0,0,0,1,1
+				fr i 12
+				anim s "1" 
+			}
+			{ 4+outlamp.png+7,10,0,0,0,1,1
+				fr i 12
+				anim s "2" 
+			}
+		}
+		{ group1
+			{ 0+house.png+18,14,0,3,0,12,14
+					fr i 12
+					anim s "0"
+			}
+			{ 1+waterglow.png+4,4,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 2+watertop.png+4,1,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 3+seal_glow.png+11,11,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 4+calluna_glow.png+10,10,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+		}
+		{ group2
+			{ 0+lamp.png+5,5,0,0,0,1,1
+				fr i 8
+				anim s "2" 
+				r_anim i 1
+				under_anim s "0"
+				scale_amp f 0.1
+                scale_period f 3
+                scale_start f 1
+				r_period_start i 1	
+				blend i 1
+			}
+		}
+		{ group3
+			{ 0+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+		}
+		{ group4
+			{ 0+bossmap.png+8,7,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+	}
+
+	
+# SETPIECE HILL
+	{ HILL
+		{ group0
+			{ 0+waterglow.png+4,4,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 1+watertop.png+4,1,0,0,0
+					fr i 12
+					anim s "0"
+					blend i 1
+			}
+			{ 2+fog.png+14,12,0,0,0,1,1	
+				fr i 8
+				blend i 1
+				anim s "0"
+				angular_v i 0
+				alpha_start f 0.8
+				alpha_amp f 0.1
+                alpha_period f 5
+				scale_amp f 0.1
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 3+weed.png+4,6,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				angular_v i 0
+				angle_start f 10
+				angle_amp f 5
+                angle_period f 5
+				r_period_start i 1
+#				x_amp f 2
+#				x_period f 1
+#				x_start f 0
+#				y_amp f 2
+#				y_period f 0.5
+#				y_start f 5
+			}
+			{ 4+weed.png+4,6,0,0,0,1,1	
+				fr i 8
+				anim s "1"
+				angular_v i 0
+				angle_start f 0
+				angle_amp f 3
+                angle_period f 4
+				r_period_start i 1
+			}
+			{ 5+bugfan.png+4,4,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				angular_v i 120
+				scale_y s "0.5"
+				scale_first i 0
+				av_start_zero i 1
+			}
+		}
+		{ group1
+			{ 0+house1.png+35,16,0,0,0,1,1
+				fr i 8
+				anim s "0"
+			}
+			{ 1+house2.png+18,11,0,0,0,1,1
+				fr i 8
+				anim s "0"
+			}
+		}
+		{ group2
+			{ 0+bough.png+3,3,0,0,0,1,1	
+				fr i 8
+				anim s "1"
+				angular_v i 0
+				angle_start f -10
+				angle_amp f 4
+                angle_period f 1
+				r_period_start i 1
+			}
+			{ 1+bough.png+3,3,0,0,0,1,1	
+				fr i 8
+				anim s "2"
+				angular_v i 0
+				angle_start f -10
+				angle_amp f 4
+                angle_period f 1
+				r_period_start i 1
+				scale_amp f 0.05
+                scale_period f 2
+                scale_start f 1
+			}
+			{ 2+bough.png+3,3,0,0,0,1,1	
+				fr i 8
+				anim s "3"
+				angular_v i 0
+				angle_start f -10
+				angle_amp f 4
+                angle_period f 1
+				r_period_start i 1
+				scale_amp f 0.05
+                scale_period f 2
+                scale_start f 1
+			}
+			{ 3+bough.png+3,3,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				angular_v i 0
+				angle_start f -10
+				angle_amp f 4
+                angle_period f 1
+				r_period_start i 1
+				scale_amp f 0.05
+                scale_period f 2
+                scale_start f 1
+			}
+			{ 4+grass.png+3,10,0,0,0,1,1	
+				fr i 0
+				anim s "0,1,2" 
+				r_anim i "1"
+				angular_v i 0
+				angle_start f 0
+				angle_amp f 2
+                angle_period f 0.7
+				r_period_start i 1
+			}
+			{ 5+grass.png+3,10,0,0,0,1,1	
+				fr i 0
+				anim s "0,1,2" 
+				r_anim i "1"
+				angular_v i 0
+				angle_start f 0
+				angle_amp f 3
+                angle_period f 1
+				r_period_start i 1
+			}
+		}
+		{ group3
+			{ 0+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "0"
+			}
+			{ 1+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "1"
+			}
+			{ 2+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "2"
+			}
+			{ 3+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "3"
+			}
+			{ 4+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "4"
+			}
+			{ 5+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "5"
+			}
+			{ 6+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "6"
+			}
+			{ 7+flowerstem.png+4,4,0,0,0,1,1
+				fr i 8
+				anim s "7"
+			}
+			{ 8+fan.png+6,6,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				angular_v i 80
+			}
+			{ 9+panel.png+2,2,0,0,0,1,1
+				fr i 8
+				anim s "0"
+			}
+			{ 10+panel2.png+1,1,0,0,0,1,1
+				fr i 8
+				anim s "0"
+			}
+			{ 11+panel.png+2,2,0,0,0,1,1
+				fr i 8
+				anim s "1"
+			}
+			{ 12+panel.png+2,2,0,0,0,1,1
+				fr i 6
+				anim s "2,3,4,3"
+			}
+			
+		}
+		{ group4
+			{ 0+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+12,7,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+		
+	}
+
+# SETPIECE FOREST
+	{ FOREST
+	}
+
+# SETPIECE WOODS
+	{ WOODS
+		{ group0
+			{ 0+lampglow.png+12,12,0,0,0,1,1
+				fr i 8
+				blend i 1
+				anim s "0"
+				angular_v i 0
+				alpha_start f 0.9
+				alpha_amp f 0.1
+                alpha_period f 5
+				scale_amp f 0.2
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 1+candleglow.png+12,12,0,0,0,1,1	
+				fr i 8
+				blend i 1
+				anim s "0"
+				angular_v i 0
+				alpha_start f 0.5
+				alpha_amp f 0.05
+                alpha_period f 5
+				scale_amp f 0.2
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 2+ghostglow.png+7,7,0,0,0,1,1	
+				fr i 8
+				blend i 1
+				anim s "0"
+				alpha_start f 0.9
+				alpha_amp f 0.1
+                alpha_period f 3
+				r_period_start i 1
+			}
+		}
+		{ group1
+			{ 1+library.png+46,34,0,0,0,1,1
+					fr i 12
+					anim s "0"
+				}
+		}
+		{ group2
+			{ 0+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+8,9,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+		{ group3
+			{ 0+gauntlet_candleglow.png+7,7,0,0,0,1,1
+				fr i 8
+				anim s "0" 
+				scale_amp f 0.1
+                scale_period f 3
+                scale_start f 1
+				r_period_start i 1	
+				blend i 1
+			}
+			{ 1+gauntlet_candle.png+3,3,0,0,0,1,1
+				fr i 8
+				anim s "0"
+			}
+		}
+	}
+	
+# SETPIECE BASIN
+	{ BASIN
+		{ group0
+			{ 0+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+4,3,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+8,8,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+		{ group1
+			{ 0+fountwater.png+1,1,0,0,0,1,1
+				fr i 0
+				anim s "0"
+			}
+			{ 1+fountwater2.png+1,1,0,0,0,1,1
+				fr i 0
+				anim s "0"
+			}
+			{ 2+icecrack.png+3,3,0,0,0,1,1
+				fr i 0
+				anim s "0"
+			}
+			{ 3+elevatorglass.png+6,2,0,0,0,1,1
+				fr i 0
+				anim s "0"
+			}
+		}
+		{ group2
+			{ 0+geode.png+4,4,0,0,0,1,1
+				fr i 12
+				anim s "0"
+			}
+			{ 1+column1.png+6,6,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 24
+			}
+			{ 2+column2.png+11,12,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				auto_scroll_fps i 16
+			}
+			{ 3+column3.png+11,12,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				auto_scroll_fps i 8
+			}
+		}
+	}
+
+# SETPIECE RIVER
+	{ RIVER
+		{ group0
+			{ 0+river1.png+6,6,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+			}
+			{ 1+river2.png+6,6,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+			}
+		}
+		{ group1
+			{ 0+shed.png+23,11,0,0,0,1,1
+				fr i 12
+				anim s "0"
+			}
+			{ 1+boats.png+8,3,0,0,0,1,1
+				fr i 8
+				anim s "0"
+				r_period_start i 1
+				angle_start f 0
+				angle_amp f 1
+                angle_period f 3
+				over_anim s "2"
+			}
+			{ 2+boats.png+8,3,0,0,0,1,1
+				fr i 8
+				anim s "1"
+				r_period_start i 1
+				angle_start f 0
+				angle_amp f 1
+                angle_period f 3
+				over_anim s "2"
+			}
+		}
+		{ group2
+			{ 0+weed.png+3,3,0,0,0,1,1
+					fr i 6
+					anim s "0"
+					r_anim i 1 
+					scale_amp f 0.1
+                    scale_period f 3.5
+                    scale_start f 1
+                    alpha_amp f 0.1
+                    alpha_period f 1.5
+                    alpha_start f 0.9
+                    r_period_start i 1
+			}
+			{ 1+weed.png+3,3,0,0,0,1,1
+					fr i 6
+					anim s "1"
+					r_anim i 1 
+					scale_x s "1,0.98,0.95,0.9,0.8,0.75,0.72,0.75,0.8,0.9,0.95,0.98"
+					scale_y s "1,0.98,0.95,0.9,0.8,0.75,0.72,0.75,0.8,0.9,0.95,0.98"
+			}
+			{ 2+weed.png+3,3,0,0,0,1,1
+					fr i 6
+					anim s "2"
+					r_anim i 1 
+					scale_x s "1,0.98,0.95,0.9,0.8,0.75,0.72,0.75,0.8,0.9,0.95,0.98"
+					scale_y s "1,0.98,0.95,0.9,0.8,0.75,0.72,0.75,0.8,0.9,0.95,0.98"
+			}
+		}
+		{ group3
+			{ 0+map.png+5,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+5,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+5,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+5,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+5,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+8,8,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+	}
+	
+# SETPIECE FALLS
+	{ FALLS
+		{ landscape_anim
+			{ 0+water0.png+4,4,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 40
+			}
+			{ 1+water1.png+4,4,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 40
+			}
+			{ 2+water2.png+4,4,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+			}
+			{ 3+water3.png+6,6,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 100
+			}
+			{ 4+water4.png+6,6,0,0,0,1,1
+				fr i 12
+				anim s "0"
+				blend i 1
+				auto_scroll_fps i 50
+			}
+		}
+		{ group0
+			{ 0+leaves_bm2.png+5,5,0,0,0,1,1
+				fr i 0
+#				y_amp f 2
+#				y_period f 2
+#				y_start f 0
+				r_period_start i 1
+				blend i 2
+				angle_start f 0
+				angle_amp f 1
+                angle_period f 1 
+			}
+			{ 1+leaves_bm1.png+5,5,1,0,0,1,1
+				fr i 0
+#				y_amp f 2
+#				y_period f 2
+#				y_start f 0
+				r_period_start i 1
+				blend i 1
+				angle_start f 0
+				angle_amp f 1
+                angle_period f 1
+			}
+			{ 2+leaves_bm2.png+5,5,1,0,0,1,1
+				fr i 0
+				r_period_start i 1
+				blend i 2
+				angle_start f 0
+				angle_amp f 1
+                angle_period f 1
+			}
+			{ 3+leaves_bm1.png+5,5,0,0,0,1,1
+				fr i 0
+				r_period_start i 1
+				blend i 1
+				angle_start f 0
+				angle_amp f 1
+                angle_period f 1
+			}
+		}
+		{ group1
+			{ 0+spray.png+5,5,0,0,0,1,1
+				fr i 0
+				r_period_start i 1
+				blend i 1
+				angular_v i -50
+				scale_start f .9
+				scale_amp f .1
+                scale_period f 2
+				alpha_start f .7
+				alpha_amp f .1
+				alpha_period f 2
+			}
+		}
+		{ group2
+			{ 0+glow.png+9,9,0,0,0,1,1
+				fr i 12
+				blend i 1
+				angular_v i 5
+				anim s "0"
+				alpha_start f 0.8
+				alpha_amp f 0
+                alpha_period f 5
+				scale_amp f 0.1
+                scale_period f 5
+                scale_start f 1.5
+				r_period_start i 1
+			}
+			{ 1+glow.png+9,9,0,0,0,1,1
+				fr i 12
+				blend i 1
+				anim s "0"
+				alpha_start f 0.9
+				alpha_amp f 0.1
+                alpha_period f 5
+				scale_amp f 1
+                scale_period f 5
+                scale_start f 1.5
+				r_period_start i 1
+			}
+			{ 2+coral.png+5,5,0,0,0,1,1
+				fr i 12
+				r_frame s "0,1"
+				angle_start f 0.9
+				angle_amp f 5
+                angle_period f 5
+				scale_amp f .05
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 3+coral2.png+6,6,0,0,0,1,1
+				fr i 12
+				r_frame s "0"
+				scale_amp f .05
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 4+coral2.png+6,6,0,0,0,1,1
+				fr i 12
+				r_frame s "1"
+				scale_amp f .05
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 5+coral2.png+6,6,0,0,0,1,1
+				fr i 12
+				r_frame s "2"
+				scale_amp f .05
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 6+glow2.png+9,9,0,0,0,1,1
+				fr i 12
+				blend i 1
+				anim s "0"
+				alpha_start f 0.9
+				alpha_amp f 0.1
+                alpha_period f 5
+				scale_amp f 0.1
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+		}
+		{ group3
+			{ 0+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+16,16,0,0,0,1,1
+				fr i 0
+				scale_amp f 0.2
+                scale_period f 4
+                scale_start f 0.9
+				r_period_start i 1
+				anim s "1"
+				under_anim s "0"
+			}	
+		}
+		{ group4
+		}
+	}
+# SETPIECE CLIFF
+	{ CLIFF
+		{ group0
+			{ 0+glow.png+12,10,0,0,0,1,1	
+				fr i 8
+				blend i 1
+				anim s "0"
+				angular_v i 0
+				alpha_start f 0.5
+				alpha_amp f 0.1
+                alpha_period f 5
+				scale_amp f 0.2
+                scale_period f 5
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 1+glow2.png+12,10,0,0,0,1,1	
+				fr i 8
+				blend i 3
+				anim s "0"
+				angular_v i 0
+				alpha_start f 0.5
+				alpha_amp f 0.2
+                alpha_period f 1
+				scale_amp f 1
+                scale_period f 5
+                scale_start f 1
+			}
+			{ 2+glow3.png+12,10,0,0,0,1,1	
+				blend i 2
+				fr i 8
+				anim s "0"
+				scale_amp f 1
+                scale_period f 5
+                scale_start f 1
+			}
+		}
+		{ group1
+			{ 0+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+16,16,0,0,0,1,1
+				fr i 0
+				scale_amp f 0.1
+                scale_period f 4
+                scale_start f 1
+				r_period_start i 1
+				anim s "1"
+				under_anim s "0"
+			}
+		}
+		{ group2
+			{ 0+fan.png+5,5,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				angular_v i 10
+				scale_amp f 0.05
+                scale_period f 3.5
+                scale_start f 0.95
+				over_anim s "2"
+				r_period_start i 1
+			}
+			{ 1+fan.png+5,5,0,1,0,1,1	
+				fr i 8
+				anim s "0"
+				angular_v i -20
+				scale_amp f 0.05
+                scale_period f 3.5
+                scale_start f 0.95
+				over_anim s "2"
+				r_period_start i 1
+			}
+			{ 2+fan.png+5,5,0,1,0,1,1	
+				fr i 8
+				anim s "1"
+				angular_v i 30
+				scale_amp f 0.05
+                scale_period f 3.5
+                scale_start f 0.95
+				over_anim s "3"
+				r_period_start i 1
+			}
+			{ 3+fan.png+5,5,0,1,0,1,1	
+				fr i 8
+				anim s "1"
+				angular_v i -30
+				scale_amp f 0.05
+                scale_period f 3.5
+                scale_start f 0.95
+				over_anim s "3"
+				r_period_start i 1
+			}
+		}
+		{ group3
+			{ 0+candle.png+2,2,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+			}
+			{ 1+candleglow.png+8,8,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				blend i 1
+				scale_amp f 0.05
+                scale_period f 3.5
+                scale_start f 1
+			}	
+		}
+	}
+# SETPIECE PASS
+	{ PASS
+		{ group0
+			{ 0+glow.png+10,9,0,0,0,1,1	
+				fr i 8
+				blend i 1
+				anim s "0"
+				angular_v i 0
+				alpha_start f 0.6
+				alpha_amp f 0.1
+                alpha_period f 4
+				scale_amp f 0.3
+                scale_period f 4
+                scale_start f 1
+				r_period_start i 1
+			}
+		}
+		{ group1
+			{ 0+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+7,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+console.png+16,16,0,0,0,1,1
+				fr i 0
+				scale_amp f 0.2
+                scale_period f 4
+                scale_start f 0.9
+				r_period_start i 1
+				anim s "1"
+				under_anim s "0"
+			}
+		}
+		{ group2
+			{ 0+bush.png+5,5,0,0,0,1,1	
+				fr i 8
+				anim s "0"
+				over_anim s "4"
+				angle_start f 0
+				angle_amp f 5
+                angle_period f 4
+				scale_amp f 0.05
+                scale_period f 8
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 1+bush.png+5,5,0,0,0,1,1	
+				fr i 8
+				anim s "1"
+				over_anim s "5"
+				angle_start f 0
+				angle_amp f 5
+                angle_period f 4
+				scale_amp f 0.05
+                scale_period f 8
+                scale_start f 1
+				r_period_start i 1
+			}
+			{ 2+bush.png+5,5,0,0,0,1,1	
+				fr i 8
+				anim s "2"
+				over_anim s "5"
+				angle_start f 0
+				angle_amp f 5
+                angle_period f 4
+				scale_amp f 0.05
+                scale_period f 8
+                scale_start f 1
+				r_period_start i 1
+			}
+		}
+		{ group3
+			{ 0+lamp.png+5,5,0,0,0,1,1 
+				fr i 8 
+				anim s "2" 
+				blend i 1
+				under_anim s "0"
+				scale_amp f 0.1
+                scale_period f 4
+                scale_start f 1
+				r_period_start i 1
+			}
+		}
+	}
+	# SETPIECE RADIO
+	{ RADIO
+		{ group0
+			{ 0+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+		}
+	}
+	# SETPIECE RADIO2
+	{ RADIO2
+		{ group0
+			{ 0+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 1+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 2+map.png+1,5,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+		}
+		{ group1
+			{ 0+light.png+7,6,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+				under_anim s "0"
+				scale_amp f 0.1
+                scale_period f 4
+                scale_start f 1
+				r_period_start i 1
+				blend i 1
+			}
+			{ 1+light.png+7,6,0,0,0,1,1
+				fr i 0
+				anim s "2"
+				blend i 1
+			}
+		}
+	}
+	# SETPIECE SILOAIR
+	{ SILOAIR
+		{ group0
+			{ 0+map.png+2,1,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+2,1,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+		}
+	}
+	# SETPIECE SILOSEA
+	{ SILOSEA
+		{ group0
+			{ 0+map.png+1,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+1,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+		}
+	}
+	# SETPIECE SILOEARTH
+	{ SILOEARTH
+		{ group0
+			{ 0+map.png+2,1,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+map.png+2,1,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+		}
+	}
+	
+	# SETPIECE MAPS
+	{ DEBUG5
+		{ group0
+			{ 0+water.png+4,6,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+				blend i 1
+			}
+			{ 1+water2.png+4,6,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 2+waterbase.png+4,4,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 3+waterbase2.png+4,4,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+		}
+	}
+	# SETPIECE POSTGAME
+	{ SEANMAPSKETCH
+		{ group0
+			{ 0+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "0" 
+			}
+			{ 1+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "1" 
+			}
+			{ 2+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "2" 
+			}
+			{ 3+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "3" 
+			}
+			{ 4+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "4" 
+			}
+			{ 5+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "5" 
+			}
+			{ 6+pointers.png+2,2,0,0,0,1,1
+				fr i 0
+				anim s "6" 
+			}
+		}
+	}
+	
+# ... etc
+}
+
+
+# HELPER
+{ editor_fast
+
+# Define a "set" - e.g. - "NPC", or "SEA"
+# add entries mapping the keypress (1,2,3,etc) to the map string name ("NPC_RIVER" , etc)
+
+{ NPC
+1 s "NPC_SHORE"
+2 s "NPC_CANYON"
+3 s "NPC_HILL"
+4 s "NPC_RIVER"
+# 5 s "NPC_WOODS"
+6 s "NPC_FOREST"
+7 s "NPC_PASS"
+# 8 s "NPC_CLIFF"
+# 9 s "NPC_FALLS"
+}
+
+{ SEA
+# Etc
+1 s "SEA_1"
+2 s "SEA_2"
+3 s "SEA_3"
+4 s "SEA_4"
+5 s "SEA_5"
+6 s "SEA_6"
+7 s "SEA_7"
+8 s "SEA_BOSS"
+}
+
+{ EARTH_SILO
+1 s "EARTH_SILO_1"
+2 s "EARTH_SILO_2"
+}
+{ SHORE
+1 s "SHORE_1"
+2 s "SHORE_2"
+3 s "SHORE_3"
+4 s "SHORE_4"
+5 s "SHORE_5"
+6 s "SHORE_B"
+}
+{ RIVER
+1 s "RIVER_1"
+9 s "RIVERTEST"
+}
+}

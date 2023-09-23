@@ -1,0 +1,52 @@
+# Test gauntlet
+
+# Gauntlet ID
+{ 0
+# Items for # of points scored
+items ia 7,5,6
+name s "Test Gauntlet"
+maps s "TEST,TESTTWO"
+# number of legs
+length i 3
+# quicksave load routine in TitleState - restore state
+}
+
+{ TZ
+items ia 1,1
+name s "Cool Gauntlet Named Test"
+maps s "TEST"
+}
+
+{ tp
+items ia 1,1
+name s "Spicy Gauntlet Named Test"
+}
+
+{ zp
+items ia 1,1
+}
+
+{ 1
+name s "Shore Power Plant"
+maps s "SHORE_G1,SHORE_G2,SHORE_G3,SHORE_G4,SHORE_B"
+length i 6
+}
+
+{ 2
+name s "Canyon Power Plant"
+maps s "CANYON_G1,CANYON_G1_2,CANYON_G1_3,CANYON_G1_BOSS"
+length i 9
+}
+
+{ 9
+name s "blh"
+maps s "AIR_4,AIR_3"
+items ia 7,5
+}
+
+
+{ 100
+name s "Demo Gauntlet"
+maps s "DEMO_G"
+length i 4
+}

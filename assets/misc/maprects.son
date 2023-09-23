@@ -1,0 +1,20 @@
+# rects
+# List of maps that ar eincluded in this minimap
+# Define int arrays of the maps' rectangular dimensions, offset relative to bounding box of map object
+# pan cursor around map - icon for player, visited door connections show when highlighting a map
+# rect states: Visible (mouse over), dimmed (mouse out, but visited), invidible (not visited)
+{ CANYON
+maps s "canyonin1,canyonout1,canyonplace,canyonin2"
+canyonin1 ia 5,60,50,100
+canyonout1 ia 60,50,70,100
+canyonplace ia 5,5,50,50
+canyonin2 ia 135,70,50,80
+}
+
+{ INTROAREAS
+maps s "intro,introcave,intro_ascent,intro_item"
+intro ia 60,0,110,60
+introcave ia 130,65,40,60
+intro_ascent ia -5,0,60,100
+intro_item ia 60,70,65,25
+}

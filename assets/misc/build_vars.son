@@ -1,0 +1,32 @@
+{ state
+# 0 = dev, 1 = release. turns off aliph armored flag, creates hard-save entity-hash from build data
+RELEASE_MODE i 1
+# 1 = true, adds some QA shortcuts (energy, debug thingies etc)
+QA_TOOLS i 0
+# 1 = true , causes debug toggles to be visible, update build log, ASSUMES THERE IS AN EXISTING ../../../../assets FOLDER!!! . adds some dev shortcuts
+DEV_MODE_ON i 0
+# 0 = title, 1 = test
+START_STATE i 0
+EDITOR_IS_TOGGLEABLE i 0
+# Turn this off for release. If =1, will stop the reloading of the last hard save entity (normally used for death)
+noSaveLoadOnDeath i 0
+#
+# For previewers - stops after first level
+#
+PREVIEW_BUILD_ON i 0
+#
+#
+# Probably don't need to touch these
+USE_COMPILED_COORDS i 1
+NEW_GAME_COORDS s "ROUGE_0,340,300"
+#
+#
+#
+#
+# Most of the below are outdated
+BUBBLE_DEBUG i 0
+TGS2015 i 0
+NO_EXIT_TO_TITLE i 0
+# If USE_COMPILED_COORDS = 0 then if START_STATE=1 you will start here
+FORCE_COORDS s "MOTION_DEMO_1,100,100"
+}

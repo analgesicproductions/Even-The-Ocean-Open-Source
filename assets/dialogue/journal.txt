@@ -1,0 +1,1386 @@
+START,EN
+
+// in journal.hx just specify "intro,1". That gives the title of Tension, with color 0/1/2/3 (grey/red(pass shore river)/green(woods cliff canyons)/blue(falls hill basin-forest). no color defaults to 0.
+// 1,0,0 = 1 is id from journal.hx, 0 is color (0-3), 0 is frame in picture sheet
+e intro,1,0,0,Tension
+Morning. It's my first day in the field, and I'm nervous. They paired me with Cassidy Warren, a Senior Engineer who used to design the Power Plants! Cassidy's all business, but she doesn't seem unkind. Hoping today goes smoothly, it's just gonna be a routine repair.
+
+e intro,2,0,1,Disaster
+Cassidy is dead. Everything was going fine until that freakish lightning storm took out our armor suits and knocked us off the bridge. I guess the best thing I can do is finish the repairs on the Power Plant and call Whiteforge for help. It'll be tough without my suit, but I managed to piece together a makeshift shield from the wreckage.
+
+e intro,3,0,1,Repair
+Somehow, without armor, I made my way through the Fay Rouge Power Plant and got the systems back online. The city said they'd send someone to get Cassidy and that I should meet back in Whiteforge for debriefing.
+
+e i0,1,0,0,After Fay Rouge (1)
+The rest of the day was a blur. I was debriefed in the capitol building, the site of a bunch of government and administrative offices. Most people call it "The Lighthouse". It's technically my work headquarters, though my job is mainly out in the field.
+
+e i0,2,0,0,After Fay Rouge (2)
+They offered to throw out the shield for me, but for some reason I wanted to take it home with me. I guess it feels like an old friend now.
+
+e i0,3,0,0,After Fay Rouge (3)
+I went home, ate some noodles. I'm tired but not sleepy. I heard there was a funeral for Cassidy scheduled for this weekend. I didn't really know her, and today was the first time we had worked together. But I want to go. Anyway, goodnight, Journal.
+
+e i0,4,0,2,Funeral
+At Cassidy's funeral, Yara spoke about how Cassidy would live on in all of us. It was comforting, though I couldn't help but feel like Yara was upset with me. She's going through a lot right now...
+
+e i0,5,0,1,Mayor Biggs (1)
+Today I met Mayor Biggs, the leader of Whiteforge City. Cassidy's death didn't seem to be weighing on him too heavily, but I suppose he's juggling a lot of issues at any given time. The most surprising part of the meeting was how friendly he was to me--he asked me to call him Richard!
+
+e i0,6,0,1,Mayor Biggs (2)
+Mayor Biggs wanted to notify me about three other malfunctioning Power Plants! It's an unusual situation, and he wants me to investigate. I've been assigned alongside Paxton and Lopez, two other technicians. Tomorrow, I have another meeting in the Lighthouse to get a new suit of armor, but for now I should get some rest.
+
+e i0,7,0,1,Day in the City (1)
+Hi Journal. What a bizarre day. When you move to a new city and start a new life, you expect it to shake things up. But this - there's a lot more happening than I expected! Is it awful that Cassidy's death has kind of been pushed to the back of my mind?
+
+e i0,8,0,1,Day in the City (2)
+I mean... the funeral was just today, but I don't really know what to feel about it. I hardly knew Cassidy. It's almost like the most I can feel is guilty. Guilty that I - some totally random stranger - was the last person Cassidy got to be with.
+
+e i0,9,0,1,Day in the City (3)
+Anyway my guilt doesn't really matter. In fact, I don't matter in this situation at all! Which, strangely enough, seems to be the exact opposite of what the Mayor's thinking. Somehow he's got it in his head that I'm a hero for all this.
+
+e i0,10,0,1,Day in the City (4)
+Apparently he's pinned all these hopes and dreams on me, even though I've just started. I don't know, this is all just a lot to think about. Better get some sleep. Tomorrow, I need to meet the Mayor at The Lighthouse, for a new suit of armor.
+
+e i0,11,0,1,Armor Suit
+I went to get a new suit of armor, but as soon as I put it on, I panicked and passed out. Dr. Wodsnick called me irrational for deciding not to use it, but I really do think it's the right choice. Anyway, it's time to go to the first Power Plant. I can go to any of the three on the map the Mayor gave me.
+
+e i0,12,0,1,Goodbye from Yara
+Before I left the City, Yara came by to say goodbye. She wanted to be friends, which, given the circumstances, really meant a lot to me. I really hope that works out. Anyway, onwards to the first Power Plant.
+
+// shore
+
+e shore,1,0,0,After Restview (1)
+Thankfully, the Power Plant wasn't in too bad of shape, so I managed to patch things up without much trouble. I thought it might be strange to be working at a resort getaway, but it seemed like most of the people I met were preoccupied with thoughts about work anyway...
+
+e shore,2,0,0,After Restview (2)
+Hmm... and most of the vacationers didn't seem to mind the disturbances. Is this something normal that happens at Restview? Anyways, I should get back to Whiteforge.
+
+e shore,3,0,0,Restview Beach
+I'd heard stories, but nothing quite compares to seeing the giant Starfish of Restview and hearing(?) it talk in your head! I think going through it is the only way to reach the Power Plant, but to clear up the blockages in its arm passages, I'll have to find a "Clariseed". It should grow on an island connected to the beach by the Starfish..
+
+//post_g1_1
+
+e g1_1,1,0,0,Needing a Sample (1)
+Mayor Biggs seemed pleased about my job at the Power Plant. What a relief! I'm supposed to bring back a sample of any of those mysterious clumps, if I see them again.
+
+e g1_1,2,0,0,Needing a Sample (2)
+Also, it sounds like Paxton and Lopez are having trouble fixing their Power Plants. Hopefully they're okay, but the Mayor wants me to go and help them out. For now, I should get some rest.
+
+e g1_1,3,0,0,Eating with Yara (1)
+I spent the evening with Yara, and it was the least alone I had felt in a long time. We didn't talk a lot. Things are still kind of weird between us. Cassidy must be on her mind a lot.
+
+e g1_1,4,0,0,Eating with Yara (2)
+But I can tell she doesn't blame me for what happened, and the fact that we can sit together and just keep each other company... it feels really special. Anyways, tomorrow I make my way to the second Power Plant. I can use my map to navigate there.
+
+//canyon
+
+e canyon,1,0,0,After Dreamdram
+I managed to fix the Power Plant at Dreamdram Canyon. What a curious sort of place. A lot of people just go there to dream, I guess? The proprietor, Calluna, was quite a character. At first, I thought she was trying to be uncooperative, but maybe she just sees some things differently… For now, I should return to Whiteforge City.
+
+e canyon,2,0,0,Dreamdram Canyon
+I'm at Dreamdram Canyon. Turns out there was a 'disturbance' here, by some creature, and now the way to the Power Plant is blocked. I'll need to find a way past those dangerous wires.
+
+e canyon,3,0,0,Didney
+A strange kid(?) named Didney told me about something called the Red Emerald Marble, which would let me interact with dreams. If I had that, I think I could ride past the obstacles on one of the dreams!! Didney gave me some weird instructions... I think it was to bounce on the mushroom five times and then hit the pod?
+
+
+//post g1_2
+
+
+e g1_2,1,0,0,Helping Lopez
+Also, I found Lopez stuck near the core of the Power Plant--thankfully, she was unharmed. Lopez feels like something is really wrong with Mother Nature. Maybe she's right, but I'm still crossing my fingers that everything will go back to normal soon! Now it's time to head back to Whiteforge.
+
+e g1_2,2,0,0,Helping Paxton
+Also, I found Paxton near the Power Plant core. He said he didn't need help, but he looked stuck! I guess I understand why he'd be resentful about Mayor Biggs seeming to favor me, he's been around for longer. But it's not like I asked for the attention! And for now, we have to cooperate to deal with these Power Plants! Oh well, back to Whiteforge for now.
+
+e g1_2,3,0,0,Secrecy? (1)
+I brought back a tissue sample from one of those strange clumps. Dr. Wodsnick snatched it away from me and basically ordered me not to talk about it. He's apparently afraid I'm going to start some sort of panic in the streets.
+
+e g1_2,4,0,0,Secrecy? (2)
+... but really I just want to know what I'm dealing with, since I'm the one out in the field! Oh well, I should go home and get some rest before I set out tomorrow.
+
+
+e g1_2,5,0,0,The State of the World (1)
+I hope things work out for Yara with the garden, and with everything else. Hmm, well, spending time with Yara drove the day's revelations out of my mind for a while.
+
+e g1_2,6,0,0,The State of the World (2)
+But wow, what is going on with the world? What are these creatures, and why are they attacking? It hardly seems possible... I almost don't even want to find out, but somehow I've been thrust into the middle of all this. Anyways, the last Power Plant still isn't fixed. I can use my map to help me get there.
+
+//hill
+
+e hill,1,0,0,After Boreas
+I made my way through the swamplands and up to windy Boreas Heights, and managed to fix the Power Plant there. Seems like a pretty unpleasant place to live, to be honest. But I met some nice people along the way. Anyway, time to return to Whiteforge.
+
+e hill,2,0,0,Boreas Heights (1)
+The lowlands surrounding Boreas Heights are swampy and filled with clouds of irritating bugs! I need to continue on to the Power Plant, which is located up in the rocky hills.
+
+e hill,3,0,0,Boreas Heights (2)
+I'm trying to get to the Power Plant, but it looks like the way is blocked. I met a woman, Vera, who said that if I could help find her partners, Bay and Trent, she'd help me get to the Power Plant. They should be nearby in this area.
+
+// i1
+
+e i1,1,0,0,Geomes (1)
+So, Dr. Wodsnick is calling the huge creatures 'Geomes'. And apparently, the Geomes are headed toward three other Power Plants! Lopez, Paxton, and I have been assigned to go fend them off. Despite Paxton's objections, we're planning to all go together tomorrow morning.
+
+e i1,3,0,0,Humus
+There was a commotion in Apex Plaza concerning a mysterious newcomer named Humus. The Apex folk were really riled up, convinced that Humus was a vagabond who wanted money. Humus is a bit strange, definitely not from Whiteforge, but they seem like a friendly and decent person. Anyway, time for some sleep.
+
+e i1,4,0,0,What a day... (1)
+Yara mentioned how it's nice to be able to be cute - vulnerable - with someone you trust. It's hard to imagine Cassidy being that way, but I'm glad that she had that with Yara.
+
+e i1,5,0,0,What a day... (2)
+What a whirlwind of events. It's not that I thought the early "creature" sightings were lies, necessarily... but getting confirmation on the existence of the Geomes does make it seem REAL in a new way.
+
+e i1,6,0,0,What a day... (3)
+Still can't quite believe that we, a few little technicians are supposed to go head-to-head with these things. But, I guess nothing about this job has gone exactly as I was expecting. At least we all agreed to go together this time. Tomorrow, off to the next Power Plant.
+
+e i1,7,0,0,Paxton!
+Apparently, Paxton went ahead to the Power Plant by himself! What... what is he thinking? I just hope he's alright. We agreed to go to Riverton, so he should be there. I can use my new map to navigate there.
+
+e i1,8,0,0,Paxton!
+Apparently, Paxton went ahead to the Power Plant by himself! What... what is he thinking? I just hope he's alright. We agreed to go to Magdal Woods, so he should be there. I can use my new map to navigate there.
+
+e i1,9,0,0,Paxton!
+Apparently, Paxton went ahead to the Power Plant by himself! What... what is he thinking? I just hope he's alright. We agreed to go to Oscar Basin, so he should be there. I can use my new map to navigate there.
+
+// river
+
+e river,1,0,0,After Riverton
+I fixed the Riverton Power Plant and drove off the Geome. Along the way I visited the town of Riverton. What a quaint little place. It felt much less busy than the city. It might be nice to live there, one day. Back to Whiteforge, for now.
+
+e river,2,0,0,Riverton (1)
+The gate to the Power Plant in Riverton is closed! Apparently the Gatekeeper is gone. I wonder if there's a way to contact him?
+
+// g2_1
+e g2_1,1,0,0,Paxton's Death
+Paxton... I found him dead, near the control room of the Power Plant. I never got along well with Paxton, but... he really didn't deserve *this*. I just wish he hadn't been so brash. I told Mayor Biggs. Time to go back to Whiteforge...
+
+e g2_1,2,0,0,History (1)
+Dr. Wodsnick took me to The Lighthouse's history wing. I found out that in the outer continents, there used to be a thriving civilization surrounding an ancient city - Karavold! Long before the era of Whiteforge, the entire Karavoldish civilization was wiped out by a worldwide drought.
+
+e g2_1,3,0,0,History (2)
+Apparently our world is at the whim of a cycle - drought, flood, drought, flood, and so on, seemingly occurring whenever a civilization reaches a high enough level of technological advancement.
+
+e g2_1,4,0,0,History (3)
+Research from Karavold shows that shortly before these catastrophes strike, three Geomes appear like harbingers of the coming disaster. Dr. Wodsnick says that the catastrophe can only be stopped by destroying all three Geomes - as Karavold tried and failed to do.
+
+e g2_1,5,0,0,History (4)
+Our plan is to drive the Geomes away from the remaining Plants. Eventually they will converge on Whiteforge, where we can destroy them with specialized Uriel IV energy cannons. Oh yeah, Mayor Biggs had something he wanted to show me at Windsweep Towers in the Apex District. I can take the Apex Line there.
+
+e g2_1,6,0,0,Windsweep Towers
+Mayor Biggs gave me a swanky new apartment in Windsweep Towers! Everything from my old Murex Park apartment had been moved. I feel sort of out of place, but... after everything I've been going through, it is sort of nice to be treated to something nice! Anyway, I wonder what Yara is up to tonight.
+
+e g2_1,7,0,0,Fight with Yara (1)
+I considered not telling Yara about how the Geomes are here to destroy the world as we know it. But, I kind of knew that Yara wouldn't freak out. So I told her everything. She seemed to take it okay at first, but then things took a turn for the worse.
+
+e g2_1,8,0,0,Fight with Yara (2)
+What was going on with Yara last night? I mean, maybe I shouldn't have brought up Cassidy, but she must see the importance of what I'm doing. I just wanted to feel like she had my back, but apparently that's too much to ask. Oh well. Tomorrow, I set off to the next Power Plant.
+
+
+//woods
+e woods,1,0,0,After L'engle Woods
+I went through the mysterious Magdal Woods, and came across a beautiful old library. How romantic! I didn't have any time to read, what with fixing the Power Plant and driving off the Geome, but maybe I'll come back some day... I should head back to Whiteforge now.
+
+//post g2_2
+e g2_2,1,0,0,Just One More
+Well, Whiteforge's progress on the weapons seems steady. Only one more Geome to drive off. Shouldn't be any hiccups. Before I set out tomorrow, I'd better get some sleep in my new apartment. I'm still getting used to living in the fancy Apex district now!
+
+//basin
+e basin,1,0,0,After Oscar Basin
+I went far south to snowy Oscar Basin today. The town is built into giant trees that grow sideways from the basin to a huge column of nourishing gas! The town seemed so cheery, but I could tell something wasn't right. I think they might be losing a lot of money. Anyway, the Power Plant there should be safe and working now. Back to Whiteforge, then.
+
+e basin,2,0,0,Oscar Basin (1)
+I arrived at Oscar Basin and was greeted by some musicians and Charman Darnell Vale! Tried to get to the Power Plant, but it turns out the Lift to the Power Plant is missing its key! I should see if anyone around Oscar Basin can help me track it down.
+
+
+// i2
+e i2,1,0,0,City Under Attack (1)
+What a rough day. When I got back to the city, the Geomes had already converged on Whiteforge and were launching an assault of spores. There were some blockages in the cannon charging system, but I managed to fix them. Unfortunately, the cannons only temporarily repelled the Geomes.
+
+e i2,2,0,0,City Under Attack (2)
+Mayor Biggs was pretty upset, and even Dr. Wodsnick seemed scared. It turns out Karavold might hold some information on destroying the Geomes, so I've been assigned to go there. But before that, I wonder, is Yara okay?
+
+e i2,3,0,0,Humus and Yara (1)
+Some Apex folk had gathered outside Yara's house and were blaming Humus for the Geomes' attack... What could Humus have to do with any of this? Yara defended Humus, but Humus agreed to go to a Lighthouse containment cell while we sorted out the situation.
+
+e i2,4,0,0,Humus and Yara (2)
+Apparently Humus knows about the Geomes. They said the Geomes don't 'know' what Whiteforge is, but all of Humus's other answers were so confusing! I saw Yara again, and we sort of made up. I'm glad, because now... it's time for my longest journey yet.
+
+// kv
+e kv,1,0,0,To Karavold
+The train station to Karavold is southeast of Whiteforge, beyond some woods, near a mountain. I can use the map Mayor Biggs gave me to find my way there. Once I'm at the new continent, it's straight east to Karavold, where I should find a radio to check in with Whiteforge City.
+
+e kv,2,0,0,At Karavold
+It's haunting to walk through the silent streets of Karavold. To see the huge, alien structures which must have once pulsed with life. It's so foreign, and yet... so much like Whiteforge. I found Karavold's radio tower and called Whiteforge. They told me to look around Karavold for something to fight off the Geomes. I'll call back if I find anything.
+
+e kv,3,0,0,The Search for Bombs (1)
+In Karavold, I found maps to the weapons - bombs - that were implanted within the Geomes! I guess I have to go inside of them? This all seems so crazy. But I've got to find the bombs, first. These maps should lead to silos containing weapons used by to kill the Geomes.
+
+e kv,4,0,0,The Search for Bombs (2)
+Hmm... there are three silos, and I can track them down in any order. Some of the silos might be on the Northern Outer Continent, which I can reach via the train tunnel west of Karavold.
+
+// pass
+e pass,1,0,0,Jane's History
+The trees, rocks, and creatures in Karst Pass were all so huge... I almost felt like I had shrunk. I was surprised to find another human out here, a woman named Jane! Jane had come to Karavold on the first expedition from Whiteforge with Dr. Wodsnick, but she stayed behind to continue her research.
+
+e pass,3,0,0,The Woman in the Pass
+Jane said I might be able to reach the Earth Geome by using a geyser. If I can block up enough geysers with stones, that should increase the water pressure in the remaining geyser and launch me up further. I should let her know when I'm done.
+
+e pass,2,0,0,Earth Geome
+The Earth Geome, a four-legged beast-like creature, is now dead. I launched onto it from the geyser fields, and somehow managed to take it down. Phew.
+
+//post g3_1
+e g3_1,1,0,0,The First
+Anyways, that means I've killed one of the Geomes. Maybe I can do this after all!  Back to Karavold to let Whiteforge know. After that, I should get some sleep, then head out again.
+
+//cliff
+e cliff,1,0,0,Old Man
+I was thrown off the edge of the Great Cliff, but partway down, a strange crystal slowed my descent and caught me. There was an elaborate series of caves, painstakingly carved into the cliffside, and I met the last carver... I think I'm supposed to continue the work, but I can't! I need to find a way to the Air Geome.
+
+e cliff,3,0,0,A Desert?
+Being the furthest from the Great Falls, it's extremely dry in the desert surrounding the Great Cliffs. With nothing to climb and the Air Geome flying high above... it'll be tricky to find a way up...
+
+e cliff,2,0,0,Air Geome
+The Air Geome's spores were collecting cactus pods and bringing them to the Geome. I was able to hitch a ride after Enoch's cactus candles disguised my scent. Then I made my way to the head of the Geome and took it down.
+
+//post g3_2
+e g3_2,1,0,0,The Second
+That's two Geomes dead. Just one more to go. Better go back to Karavold to tell Whiteforge.
+
+
+//falls
+e falls,1,0,0,Sharon
+At the Great Falls, I met a strange sort of person named Sharon. She said she could ferry me up to the Sea Geome if I bring her four emotions and talk to her up at the base of the Great Falls.
+
+e falls,2,0,0,Sea Geome
+I made my way to the Sea Geome's head and set the bombs. The geome fell to the bottom of the waterfall, defeated.
+
+//ending
+
+e g3_3,1,0,0,The Last
+That's the final Geome, dead! Time to go back to Karavold and let Whiteforge know the good news.
+
+e ending,1,0,0,No Signal
+When trying to call Whiteforge, the communications stopped working... not sure why. I hope everything's okay on their end. I can take the train from the tunnel west of Karavold.
+
+e ending,2,0,0,The Real Problem (1)
+It's us! It's Whiteforge that's causing the problem. We talked to Humus and figured out that Whiteforge's power plants created a worldwide energy disparity that disrupted the earth's functions and caused the geomes to appear..
+
+e ending,3,0,0,The Real Problem (2)
+We realized our last chance might be reversing the flow of energy by going to the Sunray Spire. On the way there, Mayor Biggs tried to stop me; he wanted to use all possible light energy to raise Whiteforge above the floodwaters. I tried to convince him of our plan but had to knock him out and run past. I've got to reverse the flow, quick.
+
+e ending,4,0,0,Now what?
+I reversed the flow, and now... we just have to wait.
+
+e ending,5,0,0,Post-ending
+This is the post-ending! This journal entry is not canon. For a cool secret... visit the statue in the Northern Outer Continent! Yours, Melos (one of the developers.)
+
+END
+
+START,ZH_SIMP
+// DON'T MODIFY COLUMN A
+// TRANSLATE TEXT IN COLUMN B
+// TRANSLATIONS GO IN COLUMN C
+// Lots of this text overlaps with text in the other spreadsheet, so you may be able to copy paste or just modify previous translations slightly
+e intro,1,0,0,紧张
+早上好。这是我出任务的第一天，我觉得相当紧张。因为他们把我和卡西迪·沃伦，这位曾经参与能量站设计的资深工程师分配在了一起！卡西迪虽然业务繁忙，但是看起来还算友善。希望今天能安稳地度过吧，毕竟只是个小小的例行检查而已。
+
+e intro,2,0,1,灾难降临
+卡西迪死了。这奇怪的闪电风暴把一切都破坏了，它破坏了我们的防护服，还让我们从桥上掉了下来。我想我现在最好赶快把能量站修理好，然后向白炼城请求救援。没有了防护服后，这将会是一次艰难的旅程，但是我可以处理一下防护服的残骸，制造出一块临时的防护盾牌。
+
+e intro,3,0,1,修复之行
+虽然没有了保护，我总算到达仙女红能量站，并把这儿的系统重新连网了。白炼城说他们会派人回收卡西迪的遗体，我也应该回去做汇报了。
+
+e i0,1,0,0,仙女红之后（1）
+这一天，剩下的时间过得简直模模糊糊。我在国会大厦将事情的来龙去脉讲述了一遍。这里有许多政府和行政办公室。很多人将这里称作“灯塔”。这里严格地说来，算是我的工作指挥中心，我的任务主要都是从这里发出的。
+
+e i0,2,0,0,仙女红之后（2）
+他们提出帮我把盾牌给扔掉，但是出于某些原因，我想把它带回家里。我觉得它现在对我而言就如同一位老朋友的存在吧。
+
+e i0,3,0,0,仙女红之后（3）
+我回到家，吃了一点面条……很累却又不想睡。听说这个周末大家会为卡西迪举办葬礼。其实我并不是很了解她……今天我是第一次和她一起工作。可是我还是想去参加她的葬礼。就写到这里吧……晚安了，我的日记。
+
+e i0,4,0,2,葬礼上
+在卡西迪的葬礼上， 亚拉告诉我们卡西迪会继续活在我们的心里。这让人感到安慰，我总感觉亚拉在生我的气，她现在心里肯定很多事……
+
+e i0,5,0,1,比格斯市长（1）
+今天我与市长比格斯会面了，他是白炼城的领导者。卡西迪的死在他看来好像并不是太重要，但我想他也是因为公务缠身吧。会议中最让人惊奇的地方是他对我非常友好——他居然让我叫他理查德!
+
+e i0,6,0,1,比格斯市长（2）
+比格斯市长想让我了解其它三个已故障的能量站的事情！这个情况不寻常，所以他想让我去调查一下。我被分配到跟帕克斯顿和洛佩斯一起行动，他们和我一样是技工。明天在灯塔还有一个会议，他们让我去拿新的防护服，不过现在我应该去休息了。
+
+e i0,7,0,1,在城市里的一天（1）
+嗨，日记。多么奇怪的一天。当你搬到一个新的城市开始一段新的生活，你会期待生活会有所改变。但是这—好像比我想象中的改变多得多！卡西迪的死让我莫名回想起很多从前的事，这样是不是太糟糕了？
+
+e i0,8,0,1,在城市里的一天（2）
+我的意思是……虽然今天我才参加了葬礼，但是我也不知道我是一种什么样的感觉。我几乎不了解卡西迪。所以我内心里最大的感觉其实只是内疚罢了。我内疚自己——是卡西迪临终前……见过的最后一个人……
+
+e i0,9,0,1,在城市里的一天（3）
+可是我的内疚一点也不重要，甚至连我自己在这种情况下都一点也不重要！还有一件特别奇怪的事情，市长先生有着和别人完全不同的看法。他觉得我在这件事上是一位英雄。
+
+e i0,10,0,1,在城市里的一天（4）
+而且很明显他在我身上寄予了很高的期望，尽管我还只是个初出茅庐的新人。我不太清楚，还有很多事情需要考虑。我最好去睡了。明天我要跟市长会晤，试试新的防护服。
+
+e i0,11,0,1,防护服
+我去试了一下新的防护服，不过很快我就把它脱下来了，我感到害怕甚至晕了过去。沃德斯尼克博士因为我决定不穿上防护服而认为我是个呆子，但我认为这是最好的选择。不管怎么说，是时候去第一个能量站了。我可以选择前往市长给我的地图上所标记的三个能量站的其中一个。
+
+e i0,12,0,1,来自亚拉的道别
+在我离开城市之前，亚拉来和我道别了。她想跟我成为朋友，在这种情况下，这对我来说拥有重大的意义。我真的希望事情会有好转。不管怎么说，是时候前往第一个能量站了。
+
+// shore
+
+e shore,1,0,0,望景之后（1）
+谢天谢地，能量站的情况并不是太糟糕，所以我处理起来并没有遇到多少麻烦。我想，在度假胜地里工作有点奇怪，但更奇怪的是，我认识的人都对他们的工作非常上心。
+
+e shore,2,0,0,望景之后 (2)
+唔……看起来大部分的观光客都不太在意这小小的骚动。这在望景沙滩上难道是很平常的事情吗？不管怎么样，我是时候回去白炼城了。
+
+e shore,3,0,0,望景沙滩
+我曾经听过很多故事，但是没有一样东西可以跟望景沙滩上那和你心灵对话（？）的巨大海星相提并论！我想，穿过它的身体是到达能量站唯一的方法，但是我必须帮它清理掉通道里的障碍物。我得找到一粒“净化种子”。它应该生长在由海星所连接的沙滩小岛上……
+
+//post_g1_1
+
+e g1_1,1,0,0,寻找样本（1）
+比格斯市长看起来对我在能量站的工作感到非常满意。这多让人欣慰啊！我很想带一些神秘的团状物回去，前提是如果我能再见到它们。
+
+e g1_1,2,0,0,寻找样本（2）
+帕克斯顿和洛佩斯好像在能量站里遇上了什么麻烦。希望他们平安无事吧，但是市长希望我去帮助他们一下。不过现在，我应该先去休息了。
+
+e g1_1,3,0,0,与亚拉的晚饭时间（1）
+我一整晚都陪在亚拉的身旁，我很久没有这样不寂寞的时候了。我们并没有说很多话。我们之间依旧有某些奇怪的气氛。卡西迪肯定还占据着她心里很多的位置。
+
+e g1_1,4,0,0,与亚拉的晚饭时间（2）
+但是我能确定的是，她并没有因为发生的一切而责怪我，而且我们可以坐在一起各做各的事情哪怕只是互相陪伴……这种感觉真的很特别。好了，明天我会前往第二个能量站。我可以参照我的地图前往那里。
+
+//canyon
+
+e canyon,1,0,0,微梦之后
+我打算修复微梦峡谷的能量站。这真是个让人好奇的地方。我猜有很多的人专门跑那里去做梦？那里的管理者卡鲁拉是个性格独特的人。一开始我以为她不会和我合作，但是也许只是因为她看待问题有着不同的角度罢了。现在我得回白炼城了。
+
+e canyon,2,0,0,微梦峡谷
+我到达微梦峡谷了。这里因为某些生物而发生过一些“小骚动”，为了避开那些危险的电线，我需要找到另外一条路。
+
+e canyon,3,0,0,迪迪尼
+一个叫迪迪尼的奇怪孩子（？）告诉了我有个东西叫红翡翠大理石，它可以让我与别人的梦境互动。如果有了它，我想我就可以进入某个人的梦境穿越障碍了！！迪迪尼给了我几个奇怪的提示……我想是在蘑菇上跳五次然后再碰撞那个荚果？
+
+
+//post g1_2
+
+
+e g1_2,1,0,0,帮助洛佩斯
+我找到洛佩斯了，她被卡在了能量站的核心附近——幸运的是，她并没有受伤。洛佩斯感到大自然有些不寻常。她可能是对的，但我还是祈祷所有的事情会很快回归平常！现在是时候回去白炼城了。
+
+e g1_2,2,0,0,帮助帕克斯顿
+我在能量站核心附近找到了帕克斯顿。他说他并不需要帮忙，不过他看起来好像被卡住了！我想他应该是因为我被比格斯市长器重而感到不满吧，毕竟他在市长身边的时间比我长多了。但是获得市长的青睐并不是我的本愿！而且现在，我们必须合作去解决能量站的这些问题！好吧，现在回去白炼城吧。
+
+e g1_2,3,0,0,保密协定？（1）
+我带回了一些团状物的组织样本。沃德斯尼克博士从我这儿直接拿走了样本却没给我任何解释，甚至还命令我不要谈起它。他明显害怕我会引起恐慌。
+
+e g1_2,4,0,0,保密协定？（2）
+……但是我真的只是想知道我现在处理的是什么样的事情，因为我才是出任务的那个人。在明天出发之前我应该先去休息一下了。
+
+
+e g1_2,5,0,0,世界的状况（1）
+我希望亚拉花园的事情能一切顺利，其他的事情也是一样。唔，好吧，和亚拉相处的这段时间，能让我暂时把工作的事情抛诸脑后。
+
+e g1_2,6,0,0,世界的状况（2）
+哇喔，这个世界有什么事情要发生了吗？那些生物到底是什么，而且它们又是为了什么而攻击的呢？这几乎不太可能……我甚至都不太想了解它们，但是我要进入它们的体内。不管怎么说，还有一个能量站没有修复好。我可以按照地图去到那儿。
+
+//hill
+
+e hill,1,0,0,北风之后
+我穿过沼泽地到达了起风的北风高地，并且设法修复好了在那的能量站。说实话，这是一个住起来让人很不愉快的地方。不过我一路上还是遇到了不少好人。不管怎样，是时候回白炼城了。
+
+e hill,2,0,0,北风高地（1）
+在北风高地附近的低洼地像沼泽一般充满了虫子！我需要继续前往位于岩石丘上的能量站。
+
+e hill,3,0,0,北风高地 (2)
+我打算前往能量站，但是看来通往能量站的通道被挡住了。我遇到了一位名叫维拉的女性，她说如果我能帮助她找到她的朋友贝和特伦特的话，她就会帮助我前往能量站。他们应该就在这片区域附近。
+
+// i1
+
+e i1,1,0,0,圣灵（1）
+沃德斯尼克博士把那些巨大生物称为“圣灵”。而且很显然地，这些圣灵正在前往其它三个能量站！洛佩斯、帕克斯顿和我分别行动准备去击退它们。尽管帕克斯顿心中颇有不满，但我们还是决定明天早上一起出发。
+
+e i1,3,0,0,海默斯
+在顶层广场上有一位名叫海默斯的神秘新访客引起了骚动。顶层的人们真的非常愤怒，认为海默斯是一个讨钱的流浪者。海默斯有点奇怪，肯定不是来自白炼城的，不过她看起来是个友好而且体面的人。不管怎么说，是时候睡一下了。
+
+e i1,4,0,0,如此的一天……（1）
+亚拉说，当你跟信任的人在一起的时候会变得可爱，惹人怜惜，这是一件多么美好的事情。很难让人想象卡西迪是这样的人，不过我很高兴她跟亚拉在一起的时候会是这样子。
+
+e i1,5,0,0,如此的一天……（2）
+真是峰回路转啊。我当然不是说我以为之前有人说看到那个“生物”的说法是骗人的……但是确认了圣灵的存在真的让我对这件事情的真实性有了更深的理解。
+
+e i1,6,0,0,如此的一天……（3）
+我还是很难相信我们这几个小小的技师得和这些家伙正面对抗。但是……我想这份工作要做的事情本来就不能预料的吧。不过至少这次我们打算一同前往对抗……明天我们将前往下一个能量站。
+
+e i1,7,0,0,帕克斯顿！
+很显然，帕克斯顿独自一人前往了能量站！他到底……在想些什么呢？我只希望他能平安无事。我们决定前往里弗顿，他应该在那儿吧。我可以按照我的新地图前往那儿。
+
+e i1,8,0,0,帕克斯顿！
+很显然，帕克斯顿独自一人前往了能量站！他到底……在想些什么呢？我只希望他能平安无事。我们决定前往玛格达森林，他应该在那儿吧。我可以按照我的新地图前往那儿。
+
+e i1,9,0,0,帕克斯顿！
+很显然，帕克斯顿独自一人前往了能量站！他到底……在想些什么呢？我只希望他能平安无事。我们决定前往奥斯卡盆地，他应该在那儿吧。我可以按照我的新地图前往那儿。
+
+// river
+
+e river,1,0,0,里弗顿之后
+我修复好了里弗顿的能量站并且击退了圣灵。一路上我参观了里弗顿的城镇。这是一个多么精致而小巧的地方啊。这里感觉比城市要悠闲得多。有一天能住在这里应该很不错吧。现在该回白炼城去了。
+
+e river,2,0,0,里弗顿 (1)
+前往里弗顿里能量站的门关闭了！很显然，守门人已经离开了。我想我可以找个办法联络上他？
+
+// g2_1
+e g2_1,1,0,0,帕克斯顿之死
+帕克斯顿……我在能量站的控制室附近找到他的时候他已经死了。我跟帕克斯顿的关系并不是很好，但是……他不该遭遇*这种*事情啊。我真希望他没有像这样鲁莽。我把这事告诉了比格斯市长。是时候回去白炼城了……
+
+e g2_1,2,0,0,历史（1）
+沃德斯尼克博士把我带去了灯塔的历史之翼。我发现了原来在白炼城之外还有一个曾经充满了繁荣文明的古代城市——卡拉沃德！但是早在白炼城之前，整个卡拉沃德文明就因为世界范围性的干旱所毁灭了。
+
+e g2_1,3,0,0,历史（2）
+显然，我们的世界正处于一个奇怪的循环——旱灾、水灾、旱灾、水灾不停循环，似乎每次当一个文明达到足够高度的技术水平以后就会发生灾难。
+
+e g2_1,4,0,0,历史（3）
+对卡拉沃德的研究表明，在这些灾难发生之前不久，三只圣灵的出现似乎就是这场灾难的预兆。沃德斯尼克博士说灾难只能通过破坏全部三只圣灵来停止——就像卡拉沃德想做却失败了的那样。
+
+e g2_1,5,0,0,历史（4）
+我们的计划是把圣灵们从剩下的能量站引开。最终它们会在白炼城集合，在那里我们可以通过尤利尔IV号激光炮来破坏它们。哦，对了，比格斯市长在顶层区的拂风塔，他想给我看一些东西。我可以搭乘顶层线到达那里。
+
+e g2_1,6,0,0,拂风塔
+比格斯市长在拂风塔给了我一幢优雅的新公寓！我在骨螺公园的旧公寓里的所有东西都被搬到这边了。我感觉有点不太合适，不过……在我经历了这么多的事情的时候，有人对我这么好真是一件让人心情愉悦的事情！不管怎样，我有点想知道亚拉今晚有没有空。
+
+e g2_1,7,0,0,跟亚拉争吵（1）
+我原本不想跟亚拉提起圣灵们是怎么破坏这个世界的。但是我知道亚拉是不会这么容易就被吓倒的。所以我告诉了她所有的一切。起初她看起来还可以接受事实，但是事情一会儿就变得糟糕起来。
+
+e g2_1,8,0,0,跟亚拉争吵（2）
+亚拉昨晚到底是怎么了？我的意思是，或许我不应该提起卡西迪，但是她必须了解我所做的事情的重要性。我只是想她可以支持我，但是这显然有太多要问了。算了，明天，我要前往下一个能量站了。
+
+
+//woods
+e woods,1,0,0,森林之后
+我经过了神秘的玛格达森林，见到了一个美丽的古老图书馆。这是多么的浪漫啊！但是为了修复能量站和打倒圣灵，我没有时间去读书，不过或许我以后会回来的……我现在该回白炼城了。
+
+//post g2_2
+e g2_2,1,0,0,还剩一只了
+好了，白炼城在武器准备方面进展得很顺利。只剩下一只圣灵需要打倒了，不能有任何的闪失。在我明天出发以前，我最好在我的新公寓睡一觉。我现在还在慢慢习惯住在迷人的顶层区！
+
+//basin
+e basin,1,0,0,奥斯卡盆地之后
+我今天去了在遥远南方的、大雪纷飞的奥斯卡盆地。这个小镇是建造在巨型树木之中的。这些树木生长在盆地两侧，受到了充分的营养滋润。城镇看起来一片繁华，但是我总觉得这里有些不对劲。我想他们应该一直处于财政亏损状态吧。不管怎样，这里的能量站应该安全，并且开始正常运作了。那么，现在就回白炼城去吧。_x000D_
+
+e basin,2,0,0,奥斯卡盆地 (1)
+我到达了奥斯卡盆地并受到几位音乐家和主席达内尔·韦尔的热情迎接！我打算去能量站，但是能到达能量站的电梯的钥匙却不见了！我得看看奥斯卡盆地附近有没有人能帮助我找到它。
+
+
+// i2
+e i2,1,0,0,遭到袭击的城市（1）
+多么让人疲倦的一天啊。当我回到城市后，圣灵们已经在白炼城集合了，并且正在用孢子进行攻击。激光炮的充能系统出了点问题，但是我设法解决了这些问题。不幸的是，激光炮只是把圣灵们暂时击退了而已。
+
+e i2,2,0,0,遭到袭击的城市（2）
+比格斯市长非常不高兴，以致沃德斯尼克博士看起来也有点害怕。事实证明，卡拉沃德那里可能有某些关于如何毁灭圣灵的信息，所以他们派我去那里调查。但是在那之前，我想知道，亚拉过得还好吗？
+
+e i2,3,0,0,海默斯与亚拉 (1)
+一些顶层区的人民聚集在亚拉的房子外面并且因为圣灵发动的袭击而指责海默斯……海默斯和这些又有什么关系呢？亚拉维护着海默斯，但是海默斯同意在我们一切安排妥当之前待在灯塔的牢房里。
+
+e i2,4,0,0,海默斯与亚拉 (2)
+显然海默斯知道有关圣灵的事情。她说圣灵“不知道”白炼城是什么，但是海默斯的其它答案都让人非常迷惑！我又见到了亚拉，我们聚在一起十分高兴，因为现在……是时候开始我最漫长的旅途了。
+
+// kv
+e kv,1,0,0,前往卡拉沃德
+前往卡拉沃德的火车站在白炼城的东南方，一片树林的前方，一座山附近。我可以利用比格斯市长给我的地图去到那儿。我一到达那儿，就可以在卡拉沃德的正东方找到无线电装置与白炼城取得联络。
+
+e kv,2,0,0,到达卡拉沃德
+走在卡拉沃德宁静的街道上，我的感觉十分强烈。看到那巨大的、陌生建筑，以前曾经有很多人居住在这里吧。这儿对我来说是个完全陌生的国度，可是……给我的感觉又和白炼城是那样的相似。我找到了在卡拉沃德的无线电塔然后呼叫了白炼城。他们告诉我去看一下卡拉沃德附近有没有什么东西可以用来对付圣灵。如果我找到了什么我会向他们汇报的。
+
+e kv,3,0,0,寻找炸弹（1）
+在卡拉沃德，我找到了可以放入圣灵身体内的武器——炸弹——的地图！我想我也许必须进入它们的体内？这一切实在是太疯狂了。但是我必须先找到炸弹。这些地图应该可以带我找到这些用于打败圣灵们的武器筒仓。
+
+e kv,4,0,0,寻找炸弹（2）
+唔……有三个筒仓，我可以按照任意顺序找到它们。有的筒仓可能在外部大陆以北，我可以通过卡拉沃德西边的火车隧道到达那里。
+
+// pass
+e pass,1,0,0,简的过去
+岩溶道里的树木、岩石和生物都十分巨大……我都快要感觉自己变小了。我惊讶地发现这里居然还有一位名叫简的女人！她跟着沃德斯尼克博士的初次考察从白炼城来到卡拉沃德，但是她留在这里继续着她的研究。
+
+e pass,3,0,0,在通道的女人
+简说我可以通过喷泉到达大地圣灵那里。只要我能用石头挡住足够的间隙泉眼，就可以增大剩余间隙泉的水压并且把我推得更远。当我准备好的时候就可以告诉她了。
+
+e pass,2,0,0,大地圣灵
+大地圣灵是一只四足野兽般的生物，现在被我打倒了。我利用间歇泉进入了它的体内并把它打倒了，呼。
+
+//post g3_1
+e g3_1,1,0,0,第一只
+不管怎么说，这意味着我打倒了一只圣灵。我也许可以把所有的圣灵都打倒！我得回卡拉沃德让白炼城知道这个消息。结束以后，我应该去休息一下，然后再次出发。
+
+//cliff
+e cliff,1,0,0,年迈的男人
+我被扔到了大悬崖的边缘，不过掉下来的途中，一个奇怪的水晶减低了我的速度并且接住了我。这里的悬崖边上有一个精心雕刻过的洞穴，我在那里遇到了最后一名雕刻家……我想我应该继续工作，但是我不能！我需要找到方法前往天空圣灵那儿。
+
+e cliff,3,0,0,沙漠？
+作为距离大瀑布最远的地方，大悬崖周围的沙漠十分的干燥。附近没有可攀爬的地方，而且天空圣灵又飞得那么高……想要找到一条路上去好像非常棘手啊……
+
+e cliff,2,0,0,天空圣灵
+天空圣灵的孢子正在为它收集仙人掌荚果。我坐在荚果上，然后使用伊诺克仙人掌蜡烛的香味来隐藏我的味道。最后我到达天空圣灵那儿并且把它打倒了。
+
+//post g3_2
+e g3_2,1,0,0,第二只
+已经打倒了两只圣灵，还剩下最后一只了。最好回卡拉沃德告诉白炼城这个消息。
+
+
+//falls
+e falls,1,0,0,莎伦
+我在大瀑布那儿遇到了一个名叫莎伦的怪人。她说她可以把我带过去海洋圣灵那边，只要我可以给她带去四种情感然后在大瀑布的底下告诉她。
+
+e falls,2,0,0,海洋圣灵
+我找到方法到达海洋圣灵的头部并设置好了炸弹。海洋圣灵掉到了瀑布底下，被我打败了。
+
+//ending
+
+e g3_3,1,0,0,最后一只
+终于把第三只圣灵打倒了！是时候回卡拉沃德让白炼城知道这个好消息了。
+
+e ending,1,0,0,失去信号
+当我尝试着呼叫白炼城的时候，通讯设备停止工作了……不知道怎么回事呢。我希望终端一切安好吧。我可以搭乘在卡拉沃德西边隧道的火车回去。
+
+e ending,2,0,0,真正的问题（1）
+是我们！是白炼城造成了这一切！我们跟海默斯谈过，我们认为是白炼城的能量站导致了世界范围性的能量差异，破坏了地球的功能并且导致圣灵们的出现……
+
+e ending,3,0,0,真正的问题（2）
+我们意识到我们最后的机会可能是前往太阳塔来逆转能量流。在途中，比格斯市长试图阻止我，他想利用所有可以使用的光明能量来升起白炼城，以至于城市不会被洪水淹没。为了我们的计划，我试图说服他，但是最终还是不得不把他打倒并跑走。我必须尽快把能量流逆转。
+
+e ending,4,0,0,现在怎么办？
+我把能量流逆转了，现在……我们能做的就只有等待了。
+
+e ending,5,0,0,番外
+这就是番外了！这篇日记记录并不是很规范。告诉你一个很酷的秘密……请亲自前往外部大陆以北调查吧！来自Melos（其中一位开发者）
+
+END
+
+START,DE
+e intro,1,0,0,Anspannung
+Morgen. Es ist mein erster Tag im Außendienst und ich bin nervös. Sie haben mich Cassidy Warren zugeteilt, einer der leitenden Ingenieure, die die Kraftwerke entworfen hat! Cassidy ist eine reine Business-Frau, aber sie wirkt nicht unfreundlich. Ich hoffe, der heutige Tag verläuft reibungslos, es wird nur eine Routinereparatur.
+
+e intro,2,0,1,Desaster
+Cassidy ist tot. Alles lief gut, bis dieser wahnsinnige Gewittersturm unsere Anzüge zerlegt und uns von der Brücke geworfen hat. Ich schätze das Beste, was ich tun kann, ist die Reparaturen am Kraftwerk zu beenden und Whiteforge um Hilfe zu bitten. Ohne meinen Anzug wird es schwierig, aber ich habe es geschafft, mir einen provisorischen Schutzschild aus dem Wrack zusammenzubauen.
+
+e intro,3,0,1,Reparatur
+Irgendwie habe ich es ohne Rüstung zum Fay Rouge Kraftwerk geschafft und die Systeme wieder in Betrieb genommen. Die Stadt hat mir gesagt, dass sie jemanden schicken würden, um Cassidy zu holen, und dass ich mich in Whiteforge zur Nachbesprechung melden sollte.
+
+e i0,1,0,0,Nach Fay Rouge (1)
+Der Rest des Tages war wie verschwommen. Ich wurde im Regierungsgebäude der Hauptstadt befragt, wo sich eine Reihe von Regierungs- und Verwaltungsbüros befinden. Die meisten Leute nennen es "Leuchtturm". Technisch gesehen ist es mein Arbeitszentrale, obwohl mein Job hauptsächlich im Außendienst ist.
+
+e i0,2,0,0,Nach Fay Rouge (2)
+Sie boten mir an, den Schild wegzuwerfen, aber aus irgendeinem Grund wollte ich ihn mit nach Hause nehmen. Jetzt fühlt es sich an wie ein alter Freund.
+
+e i0,3,0,0,Nach Fay Rouge (3)
+Ich bin nach Hause gegangen, habe Nudeln gegessen. Ich bin müde, aber nicht schläfrig. Ich hörte, es gibt eine Beerdigung für Cassidy, die für dieses Wochenende geplant ist. Ich kannte sie nicht wirklich und heute haben wir zum ersten Mal zusammen gearbeitet. Aber ich will hingehen. Wie auch immer, gute Nacht, Tagebuch.
+
+e i0,4,0,2,Beerdigung
+Auf Cassidys Beerdigung sprach Yara darüber, wie Cassidy in uns allen weiterleben würde. Es war tröstlich, auch wenn ich das Gefühl hatte, dass Yara sauer auf mich ist. Sie macht gerade eine Menge durch ...
+
+e i0,5,0,1,Bürgermeister Biggs (1)
+Heute habe ich Bürgermeister Biggs, den Anführer von Whiteforge City, getroffen. Cassidys Tod schien ihn nicht allzu schwer zu belasten, aber ich nehme an, er hat es mit vielen Problemen gleichzeitig zu tun. Der überraschendste Teil des Treffens war, wie freundlich er zu mir war. Er bat mich, ihn Richard zu nennen!
+
+e i0,6,0,1,Bürgermeister Biggs (2)
+Bürgermeister Biggs wollte mich über drei weitere Kraftwerke informieren! Es ist eine ungewöhnliche Situation und er will, dass ich nachforsche. Ich wurde neben Paxton und Lopez eingesetzt, zwei weitere Techniker. Morgen habe ich ein weiteres Treffen im Leuchtturm, um einen neuen Anzug zu bekommen, aber jetzt sollte ich mich erst mal ausruhen.
+
+e i0,7,0,1,Tag in der Stadt (1)
+Hi Tagebuch. Was für ein bizarrer Tag. Wenn man in eine neue Stadt zieht und ein neues Leben beginnt, erwartet man, dass das die Dinge durcheinander bringt. Aber das - es passiert noch viel mehr, als ich erwartet habe! Ist es schrecklich, dass Cassidys Tod irgendwie in den Hintergrund gedrängt wurde?
+
+e i0,8,0,1,Tag in der Stadt (2)
+Ich meine ... die Beerdigung war erst heute, aber ich weiß nicht, was ich davon halten soll. Ich kannte Cassidy kaum. Es ist fast so, als wäre das meiste, was ich fühlen kann, Schuld. Schuld, dass ich - irgendeine total Fremde - die letzte Person war, mit der Cassidy zusammen sein musste.
+
+e i0,9,0,1,Tag in der Stadt (3)
+Meine Schuldgefühle sind sowieso egal. In dieser Situation ist es egal! Was seltsamerweise genau das Gegenteil von dem zu sein scheint, was der Bürgermeister denkt. Irgendwie hat er es sich in den Kopf gesetzt, dass ich ein Held für all das hier bin.
+
+e i0,10,0,1,Tag in der Stadt (4)
+Anscheinend hat er all diese Hoffnungen und Träume auf mich gesetzt, obwohl ich gerade erst angefangen habe. Ich weiß nicht, das ist alles nur eine Menge zum Nachdenken. Ich gehe besser schlafen. Morgen muss ich mich mit dem Bürgermeister im Leuchtturm treffen, wegen des neuen Anzuges.
+
+e i0,11,0,1,Anzug
+Ich habe mir den neuen Anzug abgeholt, aber sobald ich ihn angezogen hatte, geriet ich in Panik und wurde ohnmächtig. Dr. Wodsnick nannte mich irrational, weil ich mich entschieden habe, ihn nicht zu tragen, aber ich denke wirklich, dass es die richtige Entscheidung ist. Wie auch immer, es ist Zeit, zum ersten Kraftwerk zu gehen. Ich kann zu jedem der drei auf der Karte gehen, die mir der Bürgermeister gegeben hat.
+
+e i0,12,0,1,Abschied von Yara
+Bevor ich die Stadt verlassen habe, kam Yara vorbei, um sich zu verabschieden. Sie wollte mit mir befreundet sein, was mir angesichts der Umstände sehr viel bedeutete. Ich hoffe wirklich, dass das funktioniert. Aber jetzt weiter zum ersten Kraftwerk.
+
+// shore
+
+e shore,1,0,0,Nach Restview (1)
+Glücklicherweise war das Kraftwerk nicht in allzu schlechter Verfassung, sodass ich es ohne viel Mühe schaffte, die Dinge wieder in Ordnung zu bringen. Ich dachte, es wäre vielleicht seltsam, in einem Ferienort zu arbeiten, aber es schien, als wären die meisten Leute, denen ich begegnet bin, sowieso mit Gedanken über die Arbeit beschäftigt ...
+
+e shore,2,0,0,Nach Restview (2)
+Hmm ... und die meisten Urlauber schienen die Unruhen nicht zu stören. Ist das normal, was bei Restview passiert? Wie auch immer, ich sollte zurück nach Whiteforge.
+
+e shore,3,0,0,Restview Beach
+Ich habe Geschichten gehört, aber nichts ist vergleichbar mit dem riesigen Seestern von Restview und ihn in seinem Kopf zu hören(?)! Ich denke, es ist der einzige Weg, das Kraftwerk zu erreichen, aber um die Blockaden bei den Armpassage zu beseitigen, muss ich "Klarsamen" finden. Sie sollten auf einer Insel wachsen, die durch den Seestern mit dem Strand verbunden ist.
+
+//post_g1_1
+
+e g1_1,1,0,0,Probe gebraucht (1)
+Bürgermeister Biggs freute sich über meine Arbeit im Kraftwerk. Was für eine Erleichterung! Ich soll eine Probe dieser mysteriösen Klumpen zurückbringen, wenn ich sie wiedersehe.
+
+e g1_1,2,0,0,Probe gebraucht (2)
+Außerdem haben Paxton und Lopez Probleme, ihre Kraftwerke zu reparieren. Ich hoffe, es geht ihnen gut, aber der Bürgermeister will, dass ich ihnen helfe. Ich sollte mich erst mal ausruhen.
+
+e g1_1,3,0,0,Essen mit Yara (1)
+Ich habe den Abend mit Yara verbracht und ich habe mich seit Langem nicht mehr so wenig einsam gefühlt. Wir haben nicht viel geredet. Die Dinge sind immer noch irgendwie komisch zwischen uns. Cassidy muss ihr wohl oft durch den Kopf gehen.
+
+e g1_1,4,0,0,Essen mit Yara (2)
+Aber ich weiß, dass sie mir nicht vorwirft, was passiert ist, und die Tatsache, dass wir zusammensitzen und uns gegenseitig Gesellschaft leisten können ... es fühlt sich wirklich besonders an. Wie auch immer, morgen gehe ich zum zweiten Kraftwerk. Ich kann meine Karte benutzen, um dorthin zu gelangen.
+
+//canyon
+
+e canyon,1,0,0,Nach Dreamdram
+Ich habe es geschafft, das Kraftwerk am Dreamdram Canyon zu reparieren. Was für ein seltsamer Ort. Viele Leute gehen einfach dorthin, um zu träumen, schätze ich? Die Besitzerin, Calluna, war eine recht eigenwillige Person. Zuerst dachte ich, sie versucht, unkooperativ zu sein, aber vielleicht sieht sie einige Dinge einfach anders ... Fürs Erste sollte ich nach Whiteforge City zurückkehren.
+
+e canyon,2,0,0,Dreamdram Canyon
+Ich bin am Dreamdram Canyon. Es stellte sich heraus, dass es hier eine 'Störung' durch irgendeine Kreatur gab, und nun ist der Weg zum Kraftwerk blockiert. Ich muss einen Weg finden, an diesen gefährlichen Drähten vorbeizukommen.
+
+e canyon,3,0,0,Didney
+Ein seltsames Kind(?) namens Didney erzählte mir von etwas namens roter Smaragdmarmor, der einen mit Träumen interagieren lässt. Wenn ich den hätte, könnte ich mit einem der Träume an den Hindernissen vorbei! Didney hat mir ein paar merkwürdige Anweisungen gegeben ... Ich glaube, es war: fünfmal auf den Pilz hüpfen und dann die Kapsel schlagen?
+
+
+//post g1_2
+
+
+e g1_2,1,0,0,Lopez helfen
+Außerdem fand ich Lopez in der Nähe des Kerns des Kraftwerks eingesperrt ... Gott sei Dank war sie unverletzt. Lopez hat das Gefühl, dass etwas mit Mutter Natur nicht stimmt. Vielleicht hat sie recht, aber ich drücke immer noch die Daumen, dass alles bald wieder normal wird! Jetzt ist es Zeit, zurück nach Whiteforge zu gehen.
+
+e g1_2,2,0,0,Paxton helfen
+Außerdem fand ich Paxton in der Nähe des Kraftwerkskerns. Er sagte, er bräuchte keine Hilfe, aber er sah aus, als säße er fest! Ich schätze, ich verstehe, warum er nachtragend ist, dass Bürgermeister Biggs mich zu bevorzugen scheint; er ist schon länger hier. Aber es ist nicht so, als hätte ich Aufmerksamkeit gewollt! Wir müssen zusammenarbeiten, um uns um diese Kraftwerke zu kümmern! Oh, na ja, erst mal zurück nach Whiteforge.
+
+e g1_2,3,0,0,Geheimhaltung? (1)
+Ich habe eine Gewebeprobe von einem dieser seltsamen Klumpen mitgebracht. Dr. Wodsnick hat sie mir abgenommen und mir befohlen, nicht darüber zu reden. Er fürchtet, dass ich auf der Straße Panik auslösen könnte.
+
+e g1_2,4,0,0,Geheimhaltung? (2)
+... Aber eigentlich will ich nur wissen, womit ich es zu tun habe, denn ich bin ja diejenige im Außendienst! Ich sollte nach Hause gehen und mich ausruhen, bevor ich morgen aufbreche.
+
+
+e g1_2,5,0,0,Der Zustand der Welt (1)
+Ich hoffe, dass es für Yara mit dem Garten und allem anderen klappt. Hmm, na ja, Zeit mit Yara zu verbringen, hat mir für eine Weile die heutigen Offenbarungen aus dem Kopf getrieben.
+
+e g1_2,6,0,0,Der Zustand der Welt (2)
+Aber wow, was ist los mit der Welt? Was sind das für Kreaturen und warum greifen sie an? Es scheint kaum möglich ... Ich will es fast gar nicht wissen, aber irgendwie bin ich mitten reingeraten. Das letzte Kraftwerk ist immer noch nicht repariert. Ich kann meine Karte benutzen, um mir zu helfen, dorthin zu kommen.
+
+//hill
+
+e hill,1,0,0,Nach Boreas
+Ich habe mich auf den Weg durch die Sumpfgebiete und bis zu den windigen Boreas Heights gemacht und es geschafft, das Kraftwerk dort zu reparieren. Scheint ein ziemlich unangenehmer Ort zu sein, ehrlich gesagt. Aber ich habe unterwegs nette Leute kennengelernt. Wie auch immer. Zeit, nach Whiteforge zurückzukehren.
+
+e hill,2,0,0,Boreas Heights (1)
+Die Tieflandgebiete um Boreas Heights herum sind sumpfig und voller lästiger Käferwolken! Ich muss weiter zum Kraftwerk, das oben in den felsigen Hügeln liegt.
+
+e hill,3,0,0,Boreas Heights (2)
+Ich versuche, zum Kraftwerk zu kommen, aber es sieht aus, als wäre der Weg versperrt. Ich habe eine Frau getroffen, Vera, die mir gesagt hat, wenn ich ihre Partner Bay und Trent finden könnte, würde sie mir helfen, zum Kraftwerk zu kommen. Sie sollten in der Nähe sein.
+
+// i1
+
+e i1,1,0,0,Geomes (1)
+Also nennt Dr. Wodsnick die riesigen Kreaturen "Geomes". Und anscheinend sind die Geomes auf dem Weg zu drei weiteren Kraftwerken! Lopez, Paxton und ich sollen sie abwehren. Trotz Paxtons Einwänden planen wir, dass wir morgen früh alle zusammen gehen.
+
+e i1,3,0,0,Humus
+Am Apex Plaza gab es einen Aufruhr um einen mysteriösen Neuankömmling namens Humus. Die Apex-Leute waren sehr aufgeregt und davon überzeugt, dass Humus ein Landstreicher ist, der Geld will. Humus ist ein wenig merkwürdig, definitiv nicht aus Whiteforge, aber er scheint freundlich und anständig zu sein. Wie auch immer, Zeit für etwas Schlaf.
+
+e i1,4,0,0,Was für ein Tag ... (1)
+Yara erwähnte, wie schön es ist, mit jemandem, dem man vertraut, süß und verletzlich sein zu können. Es ist schwer vorstellbar, dass Cassidy so war, aber ich bin froh, dass sie das mit Yara hatte.
+
+e i1,5,0,0,Was für ein Tag ... (2)
+Was für ein Wirbelsturm der Ereignisse. Es ist nicht so, als hätte ich die ersten Sichtungen dieser "Kreaturen" als Lügen empfunden ... aber die Bestätigung über die Existenz der Geomes zu bekommen, lässt es auf eine neue Weise REAL erscheinen.
+
+e i1,6,0,0,Was für ein Tag ... (3)
+Ich kann immer noch nicht ganz glauben, dass wir, ein paar kleine Techniker, gegen diese Dinger antreten sollen. Aber ich schätze, nichts an diesem Job ist genau so verlaufen, wie ich erwartet hatte. Wenigstens sind wir uns einig, dass wir diesmal zusammen gehen. Morgen geht's zum nächsten Kraftwerk.
+
+e i1,7,0,0,Paxton!
+Offenbar ist Paxton allein zum Kraftwerk gegangen! Was ... was denkt er sich? Ich hoffe nur, dass es ihm gut geht. Wir wollten nach Riverton, also sollte er dort sein. Ich kann meine neue Karte benutzen, um dorthin zu gelangen.
+
+e i1,8,0,0,Paxton!
+Offenbar ist Paxton allein zum Kraftwerk gegangen! Was ... was denkt er sich? Ich hoffe nur, dass es ihm gut geht. Wir wollten nach Magdal Woods, also sollte er dort sein. Ich kann meine neue Karte benutzen, um dorthin zu gelangen.
+
+e i1,9,0,0,Paxton!
+Offenbar ist Paxton allein zum Kraftwerk gegangen! Was ... was denkt er sich? Ich hoffe nur, dass es ihm gut geht. Wir wollten nach Oscar Basin, also sollte er dort sein. Ich kann meine neue Karte benutzen, um dorthin zu gelangen.
+
+// river
+
+e river,1,0,0,Nach Riverton
+Ich habe das Riverton-Kraftwerk repariert und das Geome vertrieben. Nebenbei habe ich die Stadt Riverton besucht. Was für ein malerischer Ort. Es fühlte sich viel weniger geschäftig als die Stadt an. Es wäre schön, eines Tages dort zu wohnen. Jetzt aber erst mal zurück nach Whiteforge.
+
+e river,2,0,0,Riverton (1)
+Das Tor zum Kraftwerk in Riverton ist geschlossen! Anscheinend ist der Torwächter weg. Ich frage mich, ob es einen Weg gibt, ihn zu kontaktieren?
+
+// g2_1
+e g2_1,1,0,0,Paxtons Tod
+Paxton ... Ich fand ihn tot in der Nähe des Kontrollraums des Kraftwerks. Ich kam mit Paxton nie gut zurecht, aber ... *das* hat er wirklich nicht verdient. Ich wünschte nur, er wäre nicht so frech gewesen. Ich habe es Bürgermeister Biggs gesagt. Zeit, zurück nach Whiteforge zu gehen ...
+
+e g2_1,2,0,0,Geschichte (1)
+Dr. Wodsnick hat mich zum Geschichtsflügel des Leuchtturms gebracht. Ich habe herausgefunden, dass es einst auf den äußeren Kontinenten eine blühende Zivilisation in einer antiken Stadt gab - Karavold! Lange vor der Ära von Whiteforge wurde die gesamte karavoldische Zivilisation durch eine weltweite Dürre ausgelöscht.
+
+e g2_1,3,0,0,Geschichte (2)
+Anscheinend steckt unsere Welt in einer Art Kreislauf - Dürre, Überschwemmung, Dürre, Überschwemmung und so weiter. Das scheint immer vorzukommen, wenn eine Zivilisation ein ausreichend hohes Level technologischen Fortschritts erreicht.
+
+e g2_1,4,0,0,Geschichte (3)
+Forschungen über Karavold zeigen, dass kurz vor den Katastrophen drei Geomes als Vorboten des kommenden Desasters erscheinen. Dr. Wodsnick sagt, dass die Katastrophe nur durch die Zerstörung aller drei Geomes gestoppt werden kann - so wie es auch Karavold versuchte und scheiterte.
+
+e g2_1,5,0,0,Geschichte (4)
+Unser Plan ist es, die Geomes von den verbliebenen Kraftwerken zu vertreiben. Letztendlich werden sie sich bei Whiteforge treffen, wo wir sie mit speziellen Uriel IV Energiekanonen vernichten können. Ach ja, Bürgermeister Biggs wollte mir etwas bei den Windsweep Towers im Apex District zeigen. Ich kann die Apex Line dorthin nehmen.
+
+e g2_1,6,0,0,Windsweep Towers
+Bürgermeister Biggs hat mir eine schicke neue Wohnung in Windsweep Towers geschenkt! Alles aus meiner alten Murex Park Wohnung wurde dorthingebracht. Ich fühle mich irgendwie fehl am Platz, aber ... nach allem, was ich durchgemacht habe, ist es irgendwie schön, mit etwas Nettem verwöhnt zu werden! Wie auch immer, ich frage mich, was Yara heute Abend vorhat.
+
+e g2_1,7,0,0,Streit mit Yara (1)
+Ich habe überlegt, Yara nicht davon zu erzählen, dass die Geomes hier sind, um die Welt, wie wir sie kennen, zu zerstören. Aber ich wusste irgendwie, dass Yara nicht ausflippen würde. Also habe ich ihr alles erzählt. Zuerst schien es ihr ganz gut zu gehen, aber dann wurde es schlimmer.
+
+e g2_1,8,0,0,Streit mit Yara (2)
+Was war gestern Abend mit Yara los? Ich meine, vielleicht hätte ich Cassidy nicht erwähnen sollen, aber sie muss die Wichtigkeit dessen erkennen, was ich tue. Ich wollte einfach nur das Gefühl haben, dass sie mir den Rücken stärkt, aber anscheinend ist das zu viel verlangt. Na ja. Morgen breche ich zum nächsten Kraftwerk auf.
+
+
+//woods
+e woods,1,0,0,Nach L'engle Woods
+Ich bin durch das geheimnisvolle Magdal Woods gegangen und bin auf eine schöne alte Bibliothek gestoßen. Wie romantisch! Ich hatte keine Zeit zu lesen, da ich das Kraftwerk reparieren und das Geome vertreiben musste, aber vielleicht komme ich ja eines Tages zurück ... Ich sollte jetzt zurück nach Whiteforge gehen.
+
+//post g2_2
+e g2_2,1,0,0,Nur noch eins
+Nun, Whiteforges Fortschritte bei den Waffen scheinen stabil zu sein. Nur noch ein Geome zum Verjagen. Sollte kein Problem sein. Bevor ich morgen aufbreche, sollte ich in meiner neuen Wohnung schlafen. Ich muss mich noch daran gewöhnen, im schicken Apex-Viertel zu leben!
+
+//basin
+e basin,1,0,0,Nach Oscar Basin
+Ich bin heute weit nach Süden zum verschneiten Oscar Basin gereist. Die Stadt ist in riesige Bäume gebaut, die seitlich vom Becken zu einer riesigen Säulen aus Nährgas wachsen! Die Stadt wirkte so fröhlich, aber ich wusste, etwas stimmte nicht. Ich denke, sie könnten eine Menge Geld verlieren. Wie auch immer, das Kraftwerk dort sollte jetzt sicher und funktionstüchtig sein. Dann zurück nach Whiteforge.
+
+e basin,2,0,0,Oscar Basin (1)
+Ich kam im Oscar Basin an und wurde von einigen Musikern und dem Vorsitzenden Darnell Vale begrüßt! Habe versucht, zum Kraftwerk zu gelangen, aber es stellt sich heraus, dass der Aufzugsschlüssel zum Kraftwerk fehlt! Ich sollte sehen, ob mir jemand um Oscar Basin helfen kann, ihn aufzuspüren.
+
+
+// i2
+e i2,1,0,0,Stadt unter Angriff (1)
+Was für ein harter Tag. Als ich in die Stadt zurückgekommen bin, hatten sich die Geomes bereits in Whiteforge versammelt und haben einen Sporenangriff gestartet. Es gab einige Verstopfungen im Kanonenladungssystem, aber ich habe es geschafft, sie zu beheben. Leider haben die Kanonen die Geomes nur vorübergehend abgewehrt.
+
+e i2,2,0,0,Stadt unter Angriff (2)
+Bürgermeister Biggs war ziemlich aufgebracht, und selbst Dr. Wodsnick schien verängstigt. Es stellte sich heraus, dass Karavold Informationen über die Zerstörung der Geomes hat, also wurde ich beauftragt, dorthin zu gehen. Aber vorher, frage ich mich, ist Yara okay?
+
+e i2,3,0,0,Humus und Yara (1)
+Einige Apex-Leute hatten sich vor Yaras Haus versammelt und gaben Humus die Schuld für den Angriff der Geomes ... Was könnte Humus damit zu tun haben? Yara verteidigte Humus, aber Humus stimmte zu, in eine Leuchtturm-Zelle zu gehen, während wir die Situation klären.
+
+e i2,4,0,0,Humus und Yara (2)
+Humus weiß anscheinend von den Geomes. Er meinte, die Geomes 'wüssten' nicht, was Whiteforge ist, aber alle anderen Antworten von Humus waren so verwirrend! Ich habe Yara wiedergesehen und wir haben uns irgendwie wieder vertragen. Ich bin froh, denn jetzt ... ist es Zeit für meine längste Reise.
+
+// kv
+e kv,1,0,0,Nach Karavold
+Der Bahnhof nach Karavold liegt südöstlich von Whiteforge, hinter einigen Wäldern, in der Nähe eines Berges. Ich kann die Karte benutzen, die mir Bürgermeister Biggs gegeben hat. Wenn ich auf dem neuen Kontinent angekommen bin, geht es direkt nach Osten nach Karavold, wo ich ein Funkgerät finden sollte, um mich bei Whiteforge City zu melden.
+
+e kv,2,0,0,In Karavold
+Es ist gespenstisch, durch die stillen Straßen von Karavold zu laufen. Die riesigen, fremden Strukturen zu sehen, die einst nur so vor Leben gesprudelt haben. Es ist so fremdartig, und doch ... so sehr wie Whiteforge. Ich habe Karavolds Funkturm gefunden und Whiteforge angerufen. Sie sagten mir, ich solle mich in Karavold nach etwas umsehen, um die Geomes abzuwehren. Ich rufe zurück, wenn ich etwas finde.
+
+e kv,3,0,0,Die Suche nach Bomben (1)
+In Karavold habe ich Landkarten zu den Waffen - Bomben - gefunden, die in den Geomes implantiert wurden! Ich schätze, ich muss in sie hinein? Das kommt mir alles so verrückt vor. Aber ich muss zuerst die Bomben finden. Diese Karten sollten zu Silos führen, die Waffen enthalten, die zur Tötung der Geomes verwendet werden.
+
+e kv,4,0,0,Die Suche nach Bomben (2)
+Hmm ... es gibt drei Silos und ich kann sie in beliebiger Reihenfolge aufspüren. Einige der Silos befinden sich vielleicht auf dem nördlichen äußeren Kontinent, den ich über den Eisenbahntunnel westlich von Karavold erreichen kann.
+
+// pass
+e pass,1,0,0,Janes Geschichte
+Die Bäume, Felsen und Kreaturen im Karst Pass waren alle so riesig ... Ich fühlte mich fast, als wäre ich geschrumpft. Ich war überrascht, hier draußen einen anderen Menschen zu finden, eine Frau namens Jane! Jane war mit Dr. Wodsnick auf der ersten Expedition von Whiteforge nach Karavold gekommen, aber sie blieb zurück, um ihre Forschungen fortzusetzen.
+
+e pass,3,0,0,Die Frau im Pass
+Jane sagte, ich könnte das Geome der Erde mit einem Geysir erreichen. Wenn ich genügend Geysire mit Steinen verstopfen kann, sollte das den Wasserdruck im verbliebenen Geysir erhöhen und mich weiter nach oben bringen. Ich sollte sie wissen lassen, wenn ich fertig bin.
+
+e pass,2,0,0,Erde-Geome
+Das Erde-Geome, eine vierbeinige, tierähnliche Kreatur, ist nun tot. Ich bin von den Geysirfeldern auf ihn losgegangen und habe es irgendwie geschafft, ihn niederzureißen. Puh.
+
+//post g3_1
+e g3_1,1,0,0,Das Erste
+Wie auch immer, das bedeutet, dass ich eins der Geomes getötet habe. Vielleicht schaffe ich das ja doch! Zurück nach Karavold, um es Whiteforge zu sagen. Danach sollte ich schlafen und dann wieder rausgehen.
+
+//cliff
+e cliff,1,0,0,Alter Mann
+Ich wurde vom Rand der Great Cliff geworfen, aber ein seltsamer Kristall bremste meinen Fall. Da war eine Reihe von Höhlen, mühsam in die Klippen gehauen, und ich traf den letzten Steinhauer ... Ich denke, ich sollte die Arbeit fortsetzen, aber ich kann nicht! Ich muss einen Weg zum Luft-Geome finden.
+
+e cliff,3,0,0,Eine Wüste?
+Die Great Cliffs sind am weitesten von den Great Falls entfernt und extrem trocken. Mit nichts zu klettern und dem Luft-Geome so hoch oben ... wird es schwierig sein, einen Weg nach oben zu finden ...
+
+e cliff,2,0,0,Luft-Geome
+Die Sporen des Luft-Geomes haben Kaktushülsen gesammelt und sie zum Geome gebracht. Ich konnte eine Mitfahrgelegenheit ergattern, nachdem Enochs Kaktuskerzen meinen Geruch verschleiert hatten. Dann ging ich zum Kopf des Geomes und habe es fertig gemacht.
+
+//post g3_2
+e g3_2,1,0,0,Das Zweite
+Zwei Geomes sind tot. Nur noch eins. Besser zurück nach Karavold, um es Whiteforge zu sagen.
+
+
+//falls
+e falls,1,0,0,Sharon
+An den Great Falls traf ich einen seltsamen Menschen namens Sharon. Sie sagte, sie könnte mich zum Meer-Geome befördern, wenn ich ihre vier Emotionen bringe und am Fuße der Great Falls mit ihr rede.
+
+e falls,2,0,0,Meer-Geome
+Ich bin zum Kopf des Meer-Geomes gegangen und habe die Bomben gelegt. Das Geome fiel auf den Grund des Wasserfalls, besiegt.
+
+//ending
+
+e g3_3,1,0,0,Das Letzte
+Das letzte Geome ist tot! Zeit, zurück nach Karavold zu gehen und Whiteforge die gute Nachricht zu überbringen.
+
+e ending,1,0,0,Kein Signal
+Beim Versuch Whiteforge anzurufen, hörte die Kommunikation auf zu funktionieren ... nicht sicher warum. Ich hoffe, auf ihrer Seite ist alles in Ordnung. Ich kann den Zug vom Tunnel westlich von Karavold nehmen.
+
+e ending,2,0,0,Das echte Problem (1)
+Wir sind es! Whiteforge ist es, das das Problem verursacht. Wir haben mit Humus gesprochen und herausgefunden, dass die Kraftwerke von Whiteforge ein weltweites Energiegefälle geschaffen haben, das die Erdfunktionen gestört hat und die Geome erscheinen ließ ...
+
+e ending,3,0,0,Das echte Problem (2)
+Wir haben erkannt, dass unsere letzte Chance darin bestehen könnte, den Energiefluss umzukehren, indem wir zur Sunray Spire gehen. Auf dem Weg dorthin versuchte Bürgermeister Biggs, mich zu stoppen; er wollte mit aller ihm zur Verfügung stehenden hellen Energie Whiteforge über die Fluten erheben. Ich versuchte, ihn von unserem Plan zu überzeugen, musste ihn aber niederschlagen und davonlaufen. Ich muss den Fluss umkehren, schnell.
+
+e ending,4,0,0,Und jetzt?
+Ich habe den Fluss umgekehrt und jetzt ... müssen wir einfach warten.
+
+e ending,5,0,0,Ende
+Das ist das Ende! Dieser Tagebucheintrag gehört nicht zum Kanon. Für ein cooles Geheimnis .. besuche die Statue auf dem nördlichen äußeren Kontinent! Euer Melos (einer der Entwickler.)
+
+END
+
+START,RU
+e intro,1,0,0,Волнение
+Доброе утро. Сегодня мой первый рабочий день, и я волнуюсь. Меня поставили в пару с Кэссиди Уоррен, старшим инженером, которая сооружала электростанции! Она сосредоточена на работе, но недружелюбной не кажется. Надеюсь, все пройдет гладко, ведь это всего лишь рутинный ремонт.
+
+e intro,2,0,1,Катастрофа
+Кэссиди погибла. Все было нормально, пока наши защитные костюмы не притянули эту чертову молнию, уничтожившую мост. Наверное, лучшее, что я могу сделать, это починить электростанцию и запросить помощь у Среброграда. Без костюма будет нелегко, но я собрала щит из его частей.
+
+e intro,3,0,1,Ремонт
+Каким-то образом мне удалось пробраться на электростанцию Фэй-Руж и восстановить работу системы. Руководство города сказало, что отправит людей, чтобы забрать Кэссиди, а меня ждет дебрифинг в Среброграде.
+
+e i0,1,0,0,После Фэй-Руж (1)
+Остаток дня прошел словно в тумане. Я отчиталась в здании капитолия, месте сосредоточения всех государственных и административных учреждений. Большинство называет его "Маяком". А технически это мой рабочий штаб, хоть я и должна проводить большую часть времени вне его стен.
+
+e i0,2,0,0,После Фэй-Руж (2)
+Мне предложили избавиться от щита, но я почему-то решила оставить его себе. Ощущение, будто мы с ним давние приятели.
+
+e i0,3,0,0,После Фэй-Руж (3)
+Я вернулась домой, поела лапши... хоть и устала, но мне не спится. Узнала, что похороны Кэссиди пройдут в эти выходные. Мы не были особо знакомы... и сегодня - первый раз, когда мы работали вместе, но я все равно хочу сходить. Доброй ночи, журнал.
+
+e i0,4,0,2,Похороны
+На похоронах Яра сказала, что Кэссиди продолжит жить в наших делах. Это меня успокоило, хотя я не могла не ощущать, что Яра на меня зла. Ей сейчас нелегко...
+
+e i0,5,0,1,Мэр Биггс (1)
+Сегодня я встретилась с мэром Биггсом, главой Среброграда. Кажется, он не слишком обеспокоен смертью Кэссиди, но, вероятно, это связано с тем, что у него слишком много работы. Сильнее всего я была удивлена его дружелюбием... он даже попросил называть его Ричардом!
+
+e i0,6,0,1,Мэр Биггс (2)
+Мэр Биггс осведомил меня о трех других неисправных электростанциях! Ситуация не совсем обычная, и он хочет, чтобы я ее расследовала. Меня назначили на это дело вместе с Пакстоном и Лопес, двумя другими техниками. Завтра у меня будет еще одна встреча на Маяке, где я получу новый защитный костюм, а сейчас мне нужно отдохнуть.
+
+e i0,7,0,1,День в городе (1)
+Здравствуй, дневник. Сумасшедший выдался денек. Когда переезжаешь в другой город и начинаешь новую жизнь, то, безусловно, ожидаешь потрясений. Но чтоб таких... подобного я точного не ожидала! Разве не ужасно, что из-за этого факт смерти Кэссиди отошел на второй план?
+
+e i0,8,0,1,День в городе (2)
+Ведь... похороны состоялись только сегодня, а я попросту не могу разобраться в своих чувствах. Мы с Кэссиди практически не были знакомы, а меня терзает чувство вины. Вины за то, что я, будучи для нее совершенно чужим человеком, была последней, кого она видела.
+
+e i0,9,0,1,День в городе (3)
+Хотя в случившемся нет моей вины. Я ничего не могла поделать в сложившейся ситуации! Между тем, мэр совершенно иного мнения. Он почему-то решил, что для всех я героиня.
+
+e i0,10,0,1,День в городе (4)
+Видимо, он возлагает на меня большие надежды, даже несмотря на то, что я только начала работать. Даже не знаю, все так... слишком много всего навалилось. Лучше немного поспать. Завтра мне предстоит встреча с мэром на Маяке, где я получу новый защитный костюм.
+
+e i0,11,0,1,Защитный костюм
+Я пошла за новым костюмом, но как только его надела, у меня началась паника, и я потеряла сознание. Доктор Уодсник назвал меня неблагоразумной из-за того, что я решила им не пользоваться, но я считаю, что сделала правильный выбор. Мне пора отправляться на первую электростанцию. Я могу пойти к любой из трех отмеченных на карте, которую дал мне мэр.
+
+e i0,12,0,1,Прощание с Ярой
+Прежде, чем я успела покинуть город, ко мне пришла Яра, чтобы попрощаться. Она хочет быть моим другом, что, учитывая обстоятельства, действительно многое значит. Я очень надеюсь, что из этого что-нибудь выйдет. В любом случае - вперед, к первой электростанции.
+
+// shore
+
+e shore,1,0,0,После Пляжа Упоения (1)
+К счастью, электростанция была не в таком уж плохом состоянии, и мне удалось все подлатать без особых проблем. Я думала, что это очень странно - работать на курорте, но все, кого я здесь встречала, были озабочены мыслями о работе.
+
+e shore,2,0,0,После Пляжа Упоения (2)
+Хм-м... и большинство даже не обращает внимания на неудобства. Это все в порядке вещей? В любом случае мне пора в Среброград.
+
+e shore,3,0,0,Пляж Упоения
+Я слышала разные истории, но ничто не идет в сравнение с тем, чтобы своими глазами увидеть гигантскую морскую звезду и слышать(?) ее в своей голове! Только так я смогу добраться до электростанции, но чтобы расчистить путь, мне надо найти "чистозерно". Оно должно расти на острове, соединенном с пляжем этой звездой.
+
+//post_g1_1
+
+e g1_1,1,0,0,В поисках образца (1)
+Мэр Биггс, похоже, доволен моей работой на электростанции. Какое облегчение! Я должна принести образцы этих загадочных сгустков, если снова их увижу.
+
+e g1_1,2,0,0,В поисках образца (2)
+Похоже, у Пакстона и Лопес проблемы с починкой их электростанций. Надеюсь, у них все в порядке, однако мэр хочет, чтобы я им помогла. А пока мне надо отдохнуть.
+
+e g1_1,3,0,0,Ужин с Ярой (1)
+Вечер я провела с Ярой и впервые за долгое время не чувствовала себя одинокой. Говорили мы мало... у нас все еще странные отношения. Наверняка она много думала о Кэссиди.
+
+e g1_1,4,0,0,Ужин с Ярой (2)
+Но я вижу, что она не винит меня в случившемся, и тот факт, что мы можем сидеть за одним столом и проводить время вместе... очень важен для меня. Ну да ладно, завтра я отправляюсь на вторую электростанцию. Карта поможет ее отыскать.
+
+//canyon
+
+e canyon,1,0,0,После Дремучего ущелья
+Мне удалось починить электростанцию в Дремучем ущелье. Какое интересное место. Люди приходят просто помечтать. Так мне показалось. Местный глава, Каллуна, сперва, как мне показалось, совершенно не хотел помогать, но, возможно, он просто видит все по-своему... А мне пора возвращаться в Среброград.
+
+e canyon,2,0,0,Дремучее ущелье
+Я в Дремучем ущелье. Оказалось, что здесь были беспорядки, устроенные неким существом, и теперь путь к электростанции заблокирован. Мне нужно найти способ обойти эти опасные провода.
+
+e canyon,3,0,0,Дидни
+Странный парнишка(?) по имени Дидни рассказал мне о рубиновом жемчуге, который позволит взаимодействовать со снами. Если у меня такой будет, думаю, я смогу пролететь через препятствия на одном из снов!! Дидни дал мне очень странные инструкции... вроде как надо 5 раз подскочить на грибе и задеть растение?
+
+
+//post g1_2
+
+
+e g1_2,1,0,0,Помогая Лопес
+Еще я нашла Лопес, застрявшую у ядра станции, к счастью, она была невредима. Лопес кажется, что что-то не так с самой матерью Природой. Возможно, она права, но я все еще надеюсь и верю, что все может вернуться в норму! Теперь пора возвращаться в Среброград.
+
+e g1_2,2,0,0,Помогая Пакстону
+Еще я нашла Пакстона у ядра станции. Он сказал, ему не нужна была помощь, но выглядело все иначе! Похоже, я понимаю, почему он обижается из-за того, что мэр будто бы ценит меня чуть больше, он ведь работает дольше меня. Но я не просила о таком внимании к себе! Сейчас нам надо работать сообща, чтобы разобраться с электростанциями! Ох, мне пора в Среброград.
+
+e g1_2,3,0,0,Секретность? (1)
+Я принесла с собой образец ткани тех странных сгустков. Доктор Уодсник чуть ли не с руками вырвал его у меня и настрого запретил об этом говорить. Похоже, он боится, что я устрою панику в городе.
+
+e g1_2,4,0,0,Секретность? (2)
+... но я всего лишь хочу знать, с чем имею дело, раз уж мне приходится разбираться с этим! Ох, мне пора домой, чтобы отдохнуть и набраться сил перед завтрашним днем.
+
+
+e g1_2,5,0,0,Положение дел (1)
+Надеюсь, у Яры все получится с ее садом и со всем остальным... Хм-м, что ж, время с Ярой позволило мне ненадолго отвлечься от мыслей о сегодняшних открытиях.
+
+e g1_2,6,0,0,Положение дел (2)
+Но, эй, что же все-таки происходит с этим миром? Что это за существа и почему они нападают? Это едва ли кажется возможным... мне даже почти не хочется узнавать ответы на эти вопросы, но каким-то образом я оказалась в самом центре всего этого. Как бы там ни было, осталась еще одна электростанция. Карта поможет туда добраться.
+
+//hill
+
+e hill,1,0,0,После Борейского нагорья
+Я пробралась через болота до Борейского Нагорья и смогла починить местную электростанцию. Довольно неприятное место для жизни, если честно. Но я встретила по пути несколько хороших людей.
+
+e hill,2,0,0,Борейское нагорье (1)
+Низменности вокруг Борейского Нагорья болотисты и заполонены тучами раздражающих мошек! Мне надо идти дальше к электростанции на тех скалистых холмах.
+
+e hill,3,0,0,Борейское нагорье (2)
+Я пытаюсь попасть на электростанцию, но путь прегражден. Я встретила женщину по имени Вера. Она сказала, что если я помогу ей найти ее партнеров, Бэя и Трент, то она поможет мне попасть на станцию. Они должны быть где-то поблизости.
+
+// i1
+
+e i1,1,0,0,Геомы (1)
+Итак, "Геомы" - так Доктор Уодсник называет эти огромные существа. И, оказывается, эти Геомы направляются к трем другим электростанциям! Лопес, Пакстон и я были назначены, чтобы их отогнать. Несмотря на возражения Пакстона, мы собираемся отправиться все вместе завтра утром.
+
+e i1,3,0,0,Гумус
+В высшем районе сегодня были волнения из-за появления странного незнакомца по имени Гумус. Народ был крайне возмущен, все думали, что он просто попрошайка. Гумус немного странный, однозначно не из Среброграда, но они показались довольно дружелюбной и приятной личностью. В любом случае мне пора спать.
+
+e i1,4,0,0,Ну и денек... (1)
+Яра упомянула, как хорошо быть милой и уязвимой с теми, кому ты доверяешь. Странно представлять себе Кэссиди такой, но я рада, что она могла быть такой при Яре.
+
+e i1,5,0,0,Ну и денек... (2)
+Как все закрутилось в последнее время. Не то чтобы я не верила во все эти слухи о "созданиях"... но подтверждение существования Геомов сделало все таким РЕАЛЬНЫМ.
+
+e i1,6,0,0,Ну и денек... (3)
+До сих пор не верится, что мы, простые техники, должны лицом к лицу сталкиваться с ними. Но... похоже, ничто в моей работе не оказалось таким, как я того ожидала. В этот раз мы хотя бы собираемся пойти вместе. Завтра нас ждет следующая электростанция.
+
+e i1,7,0,0,Пакстон!
+Похоже, Пакстон отправился на электростанцию в одиночестве. Но... что у него на уме? Я просто надеюсь, что с ним все в порядке. Мы собирались пойти в Ривертон, так что он должен быть там. Нужно взглянуть на карту.
+
+e i1,8,0,0,Пакстон!
+Похоже, Пакстон отправился на электростанцию в одиночестве. Но... что у него на уме? Я просто надеюсь, что с ним все в порядке. Мы собирались пойти в Магдальский лес, так что он должен быть там. Нужно взглянуть на карту.
+
+e i1,9,0,0,Пакстон!
+Похоже, Пакстон отправился на электростанцию в одиночестве. Но... что у него на уме? Я просто надеюсь, что с ним все в порядке. Мы собирались пойти в Котловину Оскара, так что он должен быть там. Нужно взглянуть на карту.
+
+// river
+
+e river,1,0,0,После Ривертона
+Я починила Ривертонскую электростанцию и прогнала Геом. По пути я посетила сам Ривертон. Какое причудливое местечко. Жизнь в нем гораздо более спокойная и размеренная, чем в городе. Хорошо бы здесь было жить. А пока пора обратно в Среброград.
+
+e river,2,0,0,Ривертон (1)
+Ворота, ведущие к Ривертонской электростанции, закрыты! Похоже, привратник куда-то ушел. Интересно, есть ли способ с ним связаться?
+
+// g2_1
+e g2_1,1,0,0,Смерть Пакстона
+Пакстон... Я обнаружила его мертвым рядом с диспетчерской электростанции. Я с ним не слишком-то ладила, но... но он не заслужил этого. Хотела бы я только, чтобы он не был таким дерзким. Я сообщила обо всем мэру Биггсу. Пора отправляться в Среброград...
+
+e g2_1,2,0,0,История (1)
+Доктор Уодсник сводил меня в историческое крыло маяка. Там я узнала, что на внешних континентах раньше существовала процветавшая цивилизация, образованная вокруг древнего города - Караволда! Задолго до эры Среброграда целая Караволдская цивилизация была уничтожена всемирной засухой.
+
+e g2_1,3,0,0,История (2)
+Похоже, наш мир подвержен циклу: засуха, наводнение, засуха и так далее. По всей видимости, это происходит когда цивилизация достигает определенного уровня технологического развития.
+
+e g2_1,4,0,0,История (3)
+Исследования цивилизации Караволд показали, что незадолго до этих событий появляются три Геома, словно предвестники конца света. Доктор Уодсник считает, что катастрофу можно предотвратить только уничтожив всех трех Геомов - так хотели поступить жители Караволда, но не смогли.
+
+e g2_1,5,0,0,История (4)
+Наш план состоит в том, чтобы увести Геомов подальше от электростанций. Затем они должны будут направиться на Среброград, где мы и уничтожим их с помощью специальных энергетических пушек Уриэль IV. Ах, да, мэр Биггс хотел мне что-то показать у ветряных мельниц в высшем районе. Я могу добраться туда поездом.
+
+e g2_1,6,0,0,Ветряные башни
+Мэр Биггс выделил мне шикарные новые апартаменты в ветряных мельницах! Все мои вещи уже перенесли сюда. Мне пока неуютно здесь, но... после всего, что я пережила, приятно, что мою работу так высоко ценят! В любом случае мне сейчас хотелось бы разузнать, как там Яра.
+
+e g2_1,7,0,0,Ссора с Ярой (1)
+Я думала не рассказывать Яре про то, что Геомы собираются уничтожить мир. Но... решила, что Яра не начнет сходить с ума. Так что я все ей рассказала. И сначала она восприняла все нормально, но затем вдруг все пошло наперекосяк.
+
+e g2_1,8,0,0,Ссора с Ярой (2)
+Что стряслось с Ярой? То есть... может, мне не стоило упоминать Кэссиди, но она же должна понимать, насколько важно то, что я делаю. Мне всего лишь хотелось почувствовать ее поддержку, но оказалось, что я слишком многого прошу. Ладно. Завтра снова на электростанцию.
+
+
+//woods
+e woods,1,0,0,После Магдальского леса
+Я прошла через загадочный Магдальский лес и наткнулась на прекрасную старую библиотеку. Как романтично! Из-за проблемы со станцией и Геомом у меня не было времени остаться там и почитать, но, возможно, однажды я вернусь... Мне пора возвращаться в Среброград.
+
+//post g2_2
+e g2_2,1,0,0,Еще всего один раз
+Работа по вооружению Среброграда идет полным ходом. Осталось прогнать всего одного Геома. Проблем возникнуть не должно. До завтрашнего отправления мне стоит выспаться в своих новых апартаментах. Все еще не могу привыкнуть, что живу в модном высшем районе!
+
+//basin
+e basin,1,0,0,После Котловины Оскара
+Сегодня я отправилась на юг, к заснеженной Котловине Оскара. Поселение здесь заложено прямо на гигантских деревьях, растущих вбок из котловины в огромных столбах питательного газа. Городок показался приветливым, но меня не покидало ощущение, что что-то не так. Наверное, у них сейчас большие убытки. Электростанция теперь работает. Пора в Среброград.
+
+e basin,2,0,0,Котловина Оскара (1)
+Я прибыла в Котловину Оскара, и меня здесь встретили музыканты с председателем Дарнелом Вейлом! Я пыталась попасть на станцию, но ключ от лифта к ней куда-то пропал. Попробую узнать у местных, куда он мог деться.
+
+
+// i2
+e i2,1,0,0,Город в осаде (1)
+Какой тяжелый день. Когда я вернулась в город, Геомы уже напали на Среброград и вовсю бомбардировали его спорами. В оружейной системе были небольшие неполадки, но я с ними разобралась. К сожалению, пушки лишь ненадолго отогнали Геомов.
+
+e i2,2,0,0,Город в осаде (2)
+Мэр Биггс был расстроен, и даже доктор Уодсник казался напуганным. Похоже, в Караволде может содержаться информация о том, как можно уничтожить Геомов, так что меня направили туда. Но сперва хотелось бы узнать, все ли хорошо у Яры.
+
+e i2,3,0,0,Гумус и Яра (1)
+Часть жителей Высшего народа собралась снаружи дома Яры и обвиняла Гумуса в атаке Геомов... Как Гумус вообще может быть причастен к этому? Яра защищала Гумуса, но Гумус согласился отправиться под замок, пока мы разбираемся со всей ситуацией.
+
+e i2,4,0,0,Гумус и Яра (2)
+Оказывается, Гумус знает о Геомах. Они сказали, что Геомы не "знают", что такое Среброград, но остальные ответы Гумуса были слишком странными! Я снова увиделась с Ярой, мы вроде как помирились. Я рада этому, ведь теперь... пришло время моего самого долгого путешествия.
+
+// kv
+e kv,1,0,0,В Караволд
+Станция, с которой я могу отправиться в Караволд, на северо-востоке от Среброграда, рядом со скалой. Я могу воспользоваться картой, которую мне дал мэр Биггс, чтобы найти путь туда. Как только я прибуду на континент, мне нужно идти строго на восток к Караволду, где я должна буду найти радио для связи со Среброградом.
+
+e kv,2,0,0,В Караволде
+Странно ходить по тихим улицам Караволда. Видеть эти огромные чужеродные постройки, которые, наверное, раньше были полны жизни. Все такое не родное... но так напоминает Среброград. Я нашла Караволдскую радиовышку и связалась с городом. Мне было приказано найти что-нибудь для борьбы с Геомами. Я должна сообщить, если преуспею.
+
+e kv,3,0,0,В поисках бомб (1)
+В Караволде я нашла карты, ведущие к оружию - бомбам, которые должны быть помещены внутри Геомов! Наверное, мне придется проникнуть к ним внутрь? Полное сумасшествие. Но сперва нужно найти эти бомбы. Карты должны привести меня к хранилищам этих орудий, которые использовали для уничтожения Геомов.
+
+e kv,4,0,0,В поисках бомб (2)
+Хм-м... есть три бомбохранилища, и я могу исследовать их в любой последовательности. Некоторые хранилища могут быть на северном внешнем континенте, на который я могу попасть с помощью поезда через туннель на западе от Караволда.
+
+// pass
+e pass,1,0,0,История Джейн
+Деревья, скалы, существа в Карстовом проходе были такими огромными... Мне даже показалось, что это я уменьшилась. Было удивительно встретить здесь другого человека, женщину по имени Джейн! Она прибыла в Караволд в первую экспедицию доктора Уодсника, но осталась, чтобы продолжить исследования.
+
+e pass,3,0,0,Прокладывая дорогу
+Джейн сказала, что я смогу добраться до Земляного Геома с помощью гейзеров. Если я закрою камнями достаточное количество гейзеров, должно увеличиться давление в остальных, и они смогут запустить меня выше. Надо сообщить ей, когда я закончу.
+
+e pass,2,0,0,Земляной Геом
+Земляной Геом, четвероногое звероподобное создание, теперь мертв. Я подлетела к нему с гейзерного поля и каким-то чудом смогла его победить. Фух.
+
+//post g3_1
+e g3_1,1,0,0,Первый
+В любом случае это значит, что я смогла убить Геом. Возможно, я смогу это сделать! Пора в Караволд, сообщить все Среброграду. Надо поспать. И снова за дело.
+
+//cliff
+e cliff,1,0,0,Старик
+Я летела вниз с края Великого Утеса, когда странный кристалл замедлил мое падение и поймал меня. Я оказалась в замысловатой пещере, тщательно вырезанной в утесе и встретила последнего резчика... Похоже, теперь я должна продолжать, но я не могу! Мне нужно найти способ добраться до Воздушного Геома.
+
+e cliff,3,0,0,Пустыня?
+Находясь максимально далеко от Великого Водопада, пустыня, окружающая Великий Утес, полностью обезвожена. Здесь нет чего-нибудь, по чему можно взобраться наверх, а Воздушный Геом летает высоко в небе... непросто будет туда добраться...
+
+e cliff,2,0,0,Воздушный Геом
+Споры Воздушного Геома собирали плоды кактуса и доставляли их к Геому. Мне удалось полететь таким образом после того, как кактусовая свеча замаскировала мой запах. Затем я добралась до головы Воздушного Геома и расправилась с ним.
+
+//post g3_2
+e g3_2,1,0,0,Второй
+Два Геома повержены. Остался всего один. Пора вернуться в Караволд и связаться со Среброградом.
+
+
+//falls
+e falls,1,0,0,Шэрон
+У Великого Водопада я встретилась со странной личностью по имени Шерон. Она сказала, что может доставить меня к Морскому Геому, если я принесу ей четыре эмоции и поговорю с ней у подножия Великого Водопада.
+
+e falls,2,0,0,Морской Геом
+Я добралась до головы Морского Геома и установила бомбы. Побежденный Геом упал на дно водопада.
+
+//ending
+
+e g3_3,1,0,0,Последний
+Это был последний Геом! Он повержен! Пора возвращаться в Караволд и сообщить Среброграду хорошие новости.
+
+e ending,1,0,0,Нет сигнала
+Я пыталась связаться со Среброградом, но связь перестала работать... не понимаю, почему. Надеюсь, у них все хорошо. Мне стоит воспользоваться поездом на западе от Караволда.
+
+e ending,2,0,0,Корень бед (1)
+Это все мы! Во всем виноват Среброград. Мы поговорили с Гумусом и выяснили, что электростанции Среброграда создали всемирный энергетический дисбаланс, нарушивший функции земли и вызвавший появление Геомов.
+
+e ending,3,0,0,Корень бед (2)
+Мы поняли, что наш единственный шанс - направить поток энергии в обратную сторону в Солнечном Шпиле. Мэр Биггс пытался остановить меня: он хотел направить энергию на поднятие Среброграда в воздух над водой. Я пыталась убедить его в верности нашего плана, но в итоге пришлось его вырубить. Мне нужно развернуть поток!
+
+e ending,4,0,0,Что теперь?
+Я направила поток в обратную сторону... остается только ждать.
+
+e ending,5,0,0,Пост-концовка
+Это особая запись после титров! Запись не канонична. Есть один крутой секрет... Для него посетите статую на северном внешнем континенте! Ваш Шон (один из разработчиков).
+END
+
+
+START,ES
+e intro,1,0,0,Tension
+Mañana. Es mi primer día en el campo, y estoy nervioso. ¡Me emparejaron con Cassidy Warren, un ingeniero superior que solía diseñar plantas de energía! Cassidy es muy profesional, pero no parece desagradable. Esperando que todo salga bien, será una reparación de rutina.
+
+e intro,2,0,1,Desastre
+Cassidy está muerta. Todo iba bien hasta que esa extraña tormenta eléctrica destruyó nuestros trajes de protección y nos tiró del puente. Supongo que lo mejor que puedo hacer es terminar las reparaciones en la planta de energía y llamar a Whiteforge para obtener ayuda. Va a ser difícil sin mi traje, pero lograré reconstruir un escudo improvisado de los restos.
+
+e intro,3,0,1,Reparar
+De alguna manera, sin protección, me abrí paso a través de la Planta de Energía de Fay Rouge y volví a poner los sistemas en línea. La ciudad dijo que enviarían a alguien para recuperar a Cassidy y que debería volver a Whiteforge para interrogarme.
+
+e i0,1,0,0,Despues de Fay Rouge (1)
+El resto del día fue borroso. Me interrogaron en el edificio del capitolio, el lugar de un grupo de oficinas gubernamentales y administrativas. La mayoría de la gente lo llama "The Lighthouse". Técnicamente es la sede de mi trabajo, aunque mi trabajo se desarrolla principalmente en el campo.
+
+e i0,2,0,0,Despues de Fay Rouge (2)
+Se ofrecieron para ayudarme a tirar el escudo, pero por alguna razón quería llevarlo a casa. Creo que ahora es como un viejo amigo para mí.
+
+e i0,3,0,0,Despues de Fay Rouge (3)
+Fui a casa, comí unos fideos. Estoy cansado pero no tengo sueño. Escuché que había un funeral para Cassidy programado para este fin de semana. Realmente no la conocía, y hoy fue la primera vez que trabajamos juntos. Pero quiero ir. De todos modos, buenas noches, Diario.
+
+e i0,4,0,2,Funeral
+En el funeral de Cassidy, Yara habló sobre cómo Cassidy viviría en todos nosotros. Fue reconfortante, aunque no pude evitar sentir que Yara estaba molesta conmigo. Ella está pasando por mucho en este momento ...
+
+e i0,5,0,1,Alcalde Biggs (1)
+Hoy conocí al alcalde Biggs, el líder de la ciudad de Whiteforge. La muerte de Cassidy no parecía pesar demasiado sobre él, pero supongo que está lidiando con muchos problemas en este momento. La parte más sorprendente de la reunión fue lo amable que fue conmigo, ¡me pidió que lo llamara Richard!
+
+e i0,6,0,1,Alcalde Biggs (2)
+¡El Alcalde Biggs quería avisarme acerca de otras tres plantas de energía defectuosas! Es una situación inusual, y él quiere que investigue. Me asignaron junto a Paxton y López, otros dos técnicos. Mañana, tengo otra reunión en el Faro para obtener una nueva ropa de protección pero por ahora debería descansar un poco.
+
+e i0,7,0,1,Día en la ciudad (1)
+Hola Diario. Qué día tan extraño. Cuando te mudas a una nueva ciudad y comienzas una nueva vida, esperas que cambien las cosas. Pero esto - ¡están pasando muchas más cosas de lo que esperaba! ¿Es horrible que la muerte de Cassidy haya sido llevada al fondo de mi mente?
+
+e i0,8,0,1,Día en la ciudad (2)
+Quiero decir ... el funeral ha sido hoy, pero realmente no sé qué sentir al respecto. Apenas conocía a Cassidy. Es casi como que lo máximo que puedo sentir es culpabilidad. Culpable de que yo, un extraño totalmente al azar, fuera la última persona con la que Cassidy estuvo.
+
+e i0,9,0,1,Día en la ciudad (3)
+De todos modos, mi culpabilidad no importa. De hecho, ¡no me importa en absoluto esta situación! Lo cual, por extraño que parezca, parece ser exactamente lo contrario de lo que pensaba el alcalde. De alguna manera, él tiene en mente que soy un héroeen todo esto.
+
+e i0,10,0,1,Día en la ciudad (4)
+Aparentemente, él ha puesto todas las esperanzas y sueños en mí, a pesar de que acabo de comenzar. No lo sé, esto es mucho en lo que pensar. Mejor duermiré un poco. Mañana, necesito reunirme con el Alcalde en el faro, para una nueva ropa de protección.
+
+e i0,11,0,1,Traje de protección
+Fui a buscar un nuevo traje de protección, pero tan pronto como me la puse, entré en pánico y me desmayé. El Dr. Wodsnick me llamó irracional por no querer usarlo, pero realmente creo que es la elección correcta. De todos modos, es hora de ir a la primera planta de energía. Puedo ir a cualquiera de los tres del mapa que el Alcalde me dio.
+
+e i0,12,0,1, Adiós de Yara
+Antes de irme de la ciudad, Yara vino a despedirse. Ella quería que fuesemos amigos, lo cual, dadas las circunstancias, realmente significaba mucho para mí. Realmente espero que funcione. De todos modos, adelante a la primera planta de energía.
+
+// shore
+
+e shore, 1,0,0, Después de Restview (1)
+Afortunadamente, la planta de energía no estaba en muy mal estado, así que pude arreglar las cosas sin muchos problemas. Pensé que podría ser extraño estar trabajando en un complejo, pero parecía que la mayoría de las personas que conocí estaban preocupadas con pensamientos sobre el trabajo ...
+
+e shore,2,0,0, Después de Restview (2)
+Hmm ... y a la mayoría de los turistas no pareció importarles las perturbaciones. ¿Es algo normal que sucede en Restview? De todos modos, debería volver a Whiteforge.
+
+e shore,3,0,0,Playa Restview
+Había escuchado historias, pero nada se comparable a ver la estrella de mar gigante de Restview y oirla (?) ¡Hablar en tu cabeza! Creo que cruzar sobre ella es la única forma de llegar a la Central Eléctrica, pero para ello debo despejar los pasos de sus brazos, tendré que encontrar un "Clariseed". Debería crecer en una isla conectada a la playa por la estrella de mar ..
+
+//post_g1_1
+
+e g1_1,1,0,0,Necesitando una muestra (1)
+El Alcalde Biggs parecía contento con mi trabajo en la Central Eléctrica. ¡Qué alivio! Se supone que debo traer una muestra de esos misteriosos grupos, si los vuelvo a ver.
+
+e g1_1,2,0,0,Necesitando una muestra (2)
+Además, parece que Paxton y López tienen problemas para arreglar sus plantas de energía. Espero que estén bien, pero el Alcalde quiere que vaya y los ayude. Por ahora, debería descansar un poco.
+
+e g1_1,3,0,0, Comiendo con Yara (1)
+Pasé la tarde con Yar y, por primera vez en mucho tiempo, no me sentí solo. Hablamos un poco ... todavía tenemos una relación extraña. Ella debe haber pensado mucho sobre Cassidy.
+
+e g1_1,4,0,0, Comiendo con Yara (2)
+Pero de lo que estoy seguro es de que no me culpa por todo lo que pasó, y podemos sentarnos juntos y hacernos incluso solo acompañía ... Este sentimiento es realmente especial. OK, mañana iré a la segunda estación de energía. Puedo ir allí usando mi mapa.
+
+//canyon
+
+e canyon,1,0,0,Después de Dreamdram
+Logré arreglar la planta de energía en Dreamdram Canyon. Qué lugar mas curioso. Mucha gente va allí a soñar, supongo. El propietario, Calluna, era todo un personaje. Al principio, pensé que ella intentaba no cooperar, pero tal vez solo ve algunas cosas de manera diferente ... Por ahora, debería volver a Whiteforge.
+
+e canyon,2,0,0,Dreamdram Canyon
+Estoy en Dreamdram Canyon. Resulta que hubo una 'perturbación' aquí, por parte de alguna criatura, y ahora el camino a la Planta de Energía está bloqueado. Tendré que encontrar un camino más allá de esos peligrosos cables.
+
+e canyon,3,0,0,Didney
+Un chico extraño (?) llamado Didney me contó que algo llamado Mármol Rojo Esmeralda, me permitiría interactuar con los sueños. ¡Si tuviera eso, creo que podría superar los obstáculos en uno de los sueños! Didney me dio algunas instrucciones raras ... Creo que fue rebotar en el hongo cinco veces y luego golpear la vaina?
+
+
+//post g1_2
+
+
+e g1_2,1,0,0,Ayudando a Lopez
+Además, encontré a López atrapada cerca del núcleo de la planta de energía; afortunadamente, ella salió ilesa. López cree que algo está realmente mal con la Madre Naturaleza. Tal vez ella tenga razón, pero todavía estoy cruzando los dedos para que pronto todo vuelva a la normalidad. Ahora es el momento de regresar a Whiteforge.
+
+e g1_2,2,0,0,Ayudando a Paxton
+Además, encontré Paxton cerca del núcleo de Power Plant. Dijo que no necesitaba ayuda, ¡pero parecía atascado! Supongo y entiendo qué está resentido por el hecho de que el alcalde Biggs parece favorecerme, ha estado allí por un tiempo. ¡Pero no es como si hubiera pedido la atención! ¡Y por ahora, tenemos que cooperar para tratar con estas plantas de energía! Bueno, de regreso a Whiteforge por ahora.
+
+e g1_2,3,0,0, ¿Secreto? (1)
+Traje una muestra de tejido de uno de esos grupos extraños. El Dr. Wodsnick me lo arrebató y básicamente me ordenó que no hablara de ello. Aparentemente tiene miedo de que empiece el pánico en las calles.
+
+e g1_2,4,0,0,¿Secreto? (2)
+... pero realmente solo quiero saber con qué tipo de cosas estoy tratando ahora, porque soy yo el que hace la tarea. Debería descansar antes de irme mañana.
+
+
+e g1_2,5,0,0, El estado del mundo (1)
+Espero que las cosas funcionen para Yara con el jardín y con todo lo demás. Hmm, bueno, pasar tiempo con Yara hizo que las revelaciones del día salieran de mi mente por un tiempo.
+
+e g1_2,6,0,0,El estado del mundo (2)
+Pero wow, ¿qué está pasando con el mundo? ¿Qué son estas criaturas y por qué están atacando? Parece imposible ... Ni siquiera quiero averiguarlo, pero de alguna manera me han metido en medio de todo esto. De todos modos, la última central eléctrica aún no está reparada. Puedo usar mi mapa para ayudarme a llegar allí.
+
+//hill
+
+e hill,1,0,0,Despues de Boreas
+Me abrí camino a través de las tierras pantanosas y hasta la ventosa Boreas Heights, y logré arreglar la Planta de Energía. Parece ser un lugar bastante desagradable para vivir, para ser honesto. Pero conocí a algunas personas agradables en el camino. De todos modos, es hora de regresar a Whiteforge.
+
+e hill,2,0,0,Boreas Heights (1)
+¡Las tierras bajas que rodean Boreas Heights son pantanosas y están llenas de nubes de insectos irritantes! Necesito continuar hasta la planta de energía, que se encuentra en las colinas rocosas.
+
+e hill,3,0,0,Boreas Heights (2)
+Estoy tratando de ir a la estación de energía, pero parece que el acceso a la estación de energía está bloqueado. Conocí a una mujer llamada Vera y me dijo que si podía ayudarla a encontrar a sus amigas Bay y Trent, ella me ayudaría a llegar a la estación de energía. Deberían estar cerca de esta área.
+
+// i1
+
+e i1,1,0,0,Geomes (1)
+Entonces, el Dr. Wodsnick llama a las enormes criaturas 'Geomes'. ¡Y aparentemente, los Geomes se dirigen hacia otras tres plantas de energía! López, Paxton y yo fuimos asignados para defenderlas. A pesar de las objeciones de Paxton, planeamos ir todos juntos mañana por la mañana.
+
+e i1,3,0,0,Humus
+Hubo una conmoción en Apex Plaza con respecto a un misterioso recién llegado llamado Humus. La gente de Apex estaba realmente irritada, convencida de que Humus era un vagabundo que quería dinero. Humus es un poco extraño, definitivamente no es de Whiteforge, pero parece una persona amigable y decente. De todos modos, es hora de dormir un poco.
+
+e i1,4,0,0,Que día... (1)
+Jara mencionó lo agradable que es ser dulce y vulnerable con aquellos en quienes confías. Es extraño imaginarse a Cassidy como tal, pero me alegro de que ella haya sido así en Yara.
+
+e i1,5,0,0,Que día... (2)
+Qué tromba de eventos. No es que pensara que los primeros avistamientos de "criaturas" fueran mentiras, necesariamente ... pero obtener la confirmación de la existencia del Geomes hace que parezca REAL de una nueva manera.
+
+e i1,6,0,0,Que día... (3)
+Todavía me cuesta creer que nuestros pequeños técnicos tengan que hacer frente a estas cosas. Pero ... creo que el trabajo no ha ido como se esperaba. Pero al menos esta vez planeamos luchar juntos ... mañana nos dirigiremos a la próxima planta de energía.
+
+e i1,7,0,0,Paxton!
+¡Aparentemente, Paxton se adelantó a la Central Eléctrica solo! ¿Qué ... qué está pensando? Solo espero que esté bien. Acordamos ir a Riverton, por lo que debería estar allí. Puedo usar mi nuevo mapa para llegar allí.
+
+e i1,8,0,0,Paxton!
+¡Aparentemente, Paxton se adelantó a la Central Eléctrica solo! ¿Qué ... qué está pensando? Solo espero que esté bien. Acordamos ir a Magdal Woods, por lo que debería estar allí. Puedo usar mi nuevo mapa para llegar allí.
+
+e i1,9,0,0,Paxton!
+¡Aparentemente, Paxton se adelantó a la Central Eléctrica solo! ¿Qué ... qué está pensando? Solo espero que esté bien. Acordamos ir a Oscar Basin, por lo que debería estar allí. Puedo usar mi nuevo mapa para llegar allí.
+
+// river
+
+e river,1,0,0,Despues de Riverton
+Repare la estación de energía de Riverton y repelí al Geome. En el camino visité la ciudad de Riverton. Qué lugar tan pequeño y pintoresco. Se siente mucho más pausado que la ciudad. Sería bueno vivir aquí algún día. Ahora es el momento de volver a Whiteforge.
+
+e river,2,0,0,Riverton (1)
+¡La puerta de la planta de energía en Riverton está cerrada! Aparentemente el Guardián se fue. Me pregunto si hay alguna forma de contactar con él.
+
+// g2_1
+e g2_1,1,0,0,La muerte de Paxton
+Paxton ... Lo encontré muerto, cerca de la sala de control de la planta de energía. Nunca me llevé bien con Paxton, pero ... realmente no se merecía * esto *. Solo desearía que no hubiera sido tan temerario. Le dije al alcalde Biggs. Es hora de volver a Whiteforge ...
+
+e g2_1,2,0,0,Historía (1)
+El Dr. Wodsnick me llevó al ala de historia de The Lighthouse. Descubrí que en los continentes externos solía haber una civilización próspera que rodeaba una ciudad antigua: ¡Karavold! Mucho antes de la era de Whiteforge, toda la civilización karavoldiana fue aniquilada por una sequía mundial.
+
+e g2_1,3,0,0,Historia (2)
+Aparentemente, nuestro mundo está al capricho de un ciclo: sequía, inundación, sequía, inundación, etc., que aparentemente ocurre cada vez que una civilización alcanza un nivel suficientemente alto de avance tecnológico.
+
+e g2_1,4,0,0,Historia (3)
+La investigación de Karavold muestra que poco antes de que ocurran estas catástrofes, tres Geomes aparecen como precursores del desastre venidero. El Dr. Wodsnick dice que la catástrofe solo puede detenerse destruyendo los tres Geomes, como Karavold ya lo intentó y falló.
+
+e g2_1,5,0,0,Historia (4)
+Nuestro plan es alejar a los Geomes de las Plantas restantes. Eventualmente convergerán en Whiteforge, donde podemos destruirlos con cañones de energía especializados Uriel IV. Oh sí, el Alcalde Biggs tenía algo que quería mostrarme en Windsweep Towers en Apex District. Puedo tomar la línea hacia Apex.
+
+e g2_1,6,0,0,Windsweep Towers
+¡El Alcalde Biggs me dio un nuevo y elegante apartamento en Windsweep Towers! Todo lo que había en mi antiguo apartamento de Murex Park había sido trasladado. Me siento un poco fuera de lugar, pero ... después de todo lo que he estado pasando, es agradable que me traten bien. De todos modos, me pregunto si Yara está libre esta noche.
+
+e g2_1,7,0,0,Pelea con Yara (1)
+No quería hablar con Yara sobre cómo los Geomes destruirian el mundo. Pero sé que Yara no se intimidaría. Entonces le dije todo. Al principio, ella pareció aceptar los hechos, pero las cosas empeoraron en un momento.
+
+e g2_1,8,0,0,Pelea con Yara (2)
+¿Qué le pasó a Yara anoche? Quiero decir, tal vez no debería mencionar a Cassidy, pero ella debe entender la importancia de lo que hago. Solo pensé que podría apoyarme, pero obviamente es demasiado pedir. Bueno, mañana, voy a la próxima estación de energía.
+
+
+//woods
+e woods,1,0,0,Después de L'engle Woods
+Pasé por el misterioso Magdal Woods y encontré una hermosa biblioteca antigua. ¡Qué romántico! No tuve tiempo de leer, con la reparación de la central eléctrica y el Geome, pero tal vez regrese algún día ... Debería regresar a Whiteforge ahora.
+
+//post g2_2
+e g2_2,1,0,0,Solo uno mas
+Bueno, el progreso de Whiteforge en las armas parece constante. Solo un Geome más para ahuyentar. No debería haber ningún contratiempo. Antes de partir mañana, será mejor que duerma un poco en mi nuevo apartamento. ¡Todavía me estoy acostumbrando a vivir en el lujoso distrito de Apex ahora!
+
+//basin
+e basin,1,0,0,Después de Oscar Basin
+Hoy fui muy al sur a un Oscar Basin nevado. ¡La ciudad está construida dentro de árboles gigantes que crecen hacia los lados desde la cuenca hacia una enorme columna de gas nutritivo! La ciudad parecía muy alegre, pero podía decir que algo no estaba bien. Creo que podrían estar perdiendo mucho dinero. De todos modos, la planta de energía debería estar segura y funcionando ahora. De vuelta a Whiteforge, entonces.
+
+e basin,2,0,0,Oscar Basin (1)
+Llegué a Oscar Basin y fui recibido por algunos músicos y Charman Darnell Vale. Traté de llegar a la planta de energía, pero resulta que el ascensor de la planta de energía ¡no tiene su llave! Debería ver si alguien alrededor de Oscar Basin puede ayudarme a encontrarla.
+
+
+// i2
+e i2,1,0,0,Ciudad bajo ataque (1)
+Qué día tan difícil. Cuando volví a la ciudad, los Geomes ya habían convergido en Whiteforge y estaban lanzando un asalto de esporas. Hubo algunos bloqueos en el sistema de carga de cañones, pero logré solucionarlos. Desafortunadamente, los cañones solo repelieron temporalmente a los Geomes.
+
+e i2,2,0,0,Ciudad bajo ataque (2)
+El alcalde Biggs estaba bastante molesto, e incluso el Dr. Wodsnick parecía asustado. Resulta que Karavold podría tener alguna información sobre la destrucción de los Geomes, así que me asignaron ir allí. Pero antes de eso, me pregunto, ¿está bien Yara?
+
+e i2,3,0,0,Humus y Yara (1)
+Algunas personas de Apex se habían reunido fuera de la casa de Yara y culpaban a Humus por el ataque de los Geomes ... ¿Qué podría tener que ver Humus con todo esto? Yara defendió a Humus, pero Humus aceptó ir a una celda de contención de Lighthouse mientras resolvíamos la situación.
+
+e i2,4,0,0,Humus y Yara (2)
+Aparentemente Humus sabe sobre los Geomes. Dijo que los Geomes no 'saben' qué es Whiteforge, ¡pero todas las otras respuestas de Humus fueron tan confusas! Volví a ver a Yara, y nos arreglamos. Me alegro, porque ahora ... es el momento de mi viaje más largo.
+
+// kv
+e kv,1,0,0,A Karavold
+La estación de tren a Karavold está al sureste de Whiteforge, más allá de algunos bosques, cerca de una montaña. Puedo usar el mapa que el alcalde Biggs me dio para encontrar mi camino hasta allí. Una vez que este en el nuevo continente, dirección este a Karavold, donde debería encontrar una radio para comunicarme con Whiteforge City.
+
+e kv,2,0,0,En Karavold
+Es inquietante caminar por las silenciosas calles de Karavold. Para ver las enormes estructuras extrañas que una vez tuvieron vida. Es tan extraño, y sin embargo ... tan parecido a Whiteforge. Encontré la torre de radio de Karavold y llamé a Whiteforge. Me dijeron que buscara algo en Karavold para luchar contra los Geomes. Llamaré si encuentro algo.
+
+e kv,3,0,0,La busqueda de bombas (1)
+¡En Karavold, encontré mapas de las armas, bombas, que fueron implantadas dentro de los Geomes! ¿Supongo que tengo que ir dentro de ellos? Todo esto parece tan loco. Pero primero tengo que encontrar las bombas. Estos mapas deberían llevar a silos que contengan armas utilizadas para matar a los Geomes.
+
+e kv,4,0,0,La busqueda de bombas (2)
+Hmm ... hay tres silos, y puedo buscarlos en cualquier orden. Algunos de los silos podrían estar en el Continente Exterior del Norte, al que puedo llegar por el túnel del tren al oeste de Karavold.
+
+// pass
+e pass,1,0,0,La historia de Jane
+Los árboles, rocas y criaturas en Karst Pass eran tan enormes ... Casi me sentí como si me hubiera encogido. Me sorprendió encontrar a otro humano aquí, ¡una mujer llamada Jane! Jane había venido a Karavold en la primera expedición de Whiteforge con el Dr. Wodsnick, pero se quedó para continuar su investigación.
+
+e pass,3,0,0,La mujer en el Pass
+Jane dijo que podría alcanzar el Geome terrestre usando un géiser. Si puedo bloquear suficientes géiseres con piedras, eso debería aumentar la presión del agua en el géiser restante y lanzarme más alto. Debería avisarle cuando termine.
+
+e pass,2,0,0,Geome terrestre
+El Geome terrestre, una criatura parecida a una bestia de cuatro patas, ahora está muerta. Me lancé desde los campos de géiseres, y de alguna manera logré derribarlo. Uf.
+
+//post g3_1
+e g3_1,1,0,0,El primero
+De todos modos, eso significa que he matado a uno de los Geomes. ¡Quizás pueda hacer esto después de todo! Regresare a Karavold para informar a Whiteforge. Después de esto, debería dormir un poco, luego salir de nuevo.
+
+//cliff
+e cliff,1,0,0,Anciano
+Me lanzaron desde el borde del Gran Acantilado, pero a mitad de camino, un cristal extraño aminoró mi descenso y me atrapó. Había una elaborada serie de cuevas, minuciosamente talladas en el acantilado, y conocí al último escultor ... Creo que se supone que debo continuar el trabajo, ¡pero no puedo! Necesito encontrar un camino al Geome aéreo.
+
+e cliff,3,0,0,¿Un desierto?
+Al ser el más alejado de las Great Falls, es extremadamente seco el desierto que rodea los grandes acantilados. Sin nada que escalar y el Geome aéreo volando por encima ... será difícil encontrar una manera de subir ...
+
+e cliff,2,0,0,Geome aéreo
+Las esporas del Geome aéreo están recolectando frutos de cactus para el Geome. Me senté en un fruto y luego usé el aroma de una vela de cactus Enoch para ocultar mi olor. Finalmente llegué al Geome aéreo y lo derribé.
+
+//post g3_2
+e g3_2,1,0,0,El segundo
+Son dos Geomes muertos. Solo uno más. Mejor regreso a Karavold para llamar a Whiteforge.
+
+
+//falls
+e falls,1,0,0,Sharon
+En Great Falls, conocí a una persona extraña llamada Sharon. Dijo que podría llevarme al Geome marino si le traía cuatro emociones y hablaba con ella en la base de las Great Falls.
+
+e falls,2,0,0,Geome marino
+Me dirigí a la cabeza del Geome marino y coloqué las bombas. El Geome cayó al fondo de la cascada, derrotado.
+
+//ending
+
+e g3_3,1,0,0,El último
+Ese es el Geome final, ¡muerto! Es hora de volver a Karavold y dejar que Whiteforge conozca las buenas noticias.
+
+e ending,1,0,0,No señal
+Al intentar llamar a Whiteforge, las comunicaciones dejaron de funcionar ... no estoy seguro de por qué. Espero que todo esté bien al fin. Puedo tomar el tren desde el túnel al oeste de Karavold.
+
+e ending,2,0,0,El problema real (1)
+¡Somos nosotros! Es Whiteforge el causante del problema. Hablamos con Humus y descubrimos que las plantas de energía de Whiteforge creaban una disparidad energética mundial que alteraba las funciones de la Tierra y hacía que los Geomes aparecieran.
+
+e ending,3,0,0,El problema real (2)
+Nos dimos cuenta de que nuestra última oportunidad podría ser revertir el flujo de energía yendo a Sunray Spire. En el camino, el alcalde Biggs intentó detenerme; quería usar toda la energía posible para elevar Whiteforge por encima de las aguas de la inundación. Traté de convencerlo de nuestro plan, pero tuve que noquearlo y salir corriendo. Tengo que revertir el flujo, rápido.
+
+e ending,4,0,0,¿Ahora qué?
+Invertí el flujo, y ahora ... solo tenemos que esperar.
+
+e ending,5,0,0,Post-final
+Este es el post-final! Esta entrada del diario no tiene criterio. Para un secreto genial ... ¡visite la estatua en el Continente Exterior del Norte! Atentamente, Melos (uno de los desarrolladores)
+
+END

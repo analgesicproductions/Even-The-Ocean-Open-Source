@@ -1,0 +1,1124 @@
+# an ID, the png prefix, then - width, height, scroll x, scroll y,, initx, inity, velx, vely, alpha, blend
+# after that, you can add animation data - fps frame_0,frame_1,... e.g. , 8, 0,1
+# Multiple IDs can map to one .png. z
+# if you add a nonzero parallax value to a scroll direction things will look funny (i.e par-x of 0.5 when velx is 50
+BG_LIST
+#								(Width/height		Scroll x/y		Initial x/y		Velocity x/y	Alpha	Blend)	(Animation)
+test BGTEST 					(480,360,			0,0,			0,0)
+test_anim BGTEST 				(480,360,			0,0,			0,0,			40,40,			0.7) 	(8, 0,1,2,3,4,5,6,7,8,9)
+test2 BGTEST2 					(480,360,			0,0,			0,0)
+testmid BGTEST_MID 				(720,360,			0.5,0,			0,0)
+testnear BGTEST_NEAR 			(960,360,			1.0,0,			0,0,			0,0,			0.5)
+testscroll BGTESTSCROLL 		(960,720,			0,0,			0,0,			0,-200)
+testwm sean/testmap				(1350,900,			1,1,			0,0,)
+testwm2 sean/testmap2			(2880,3200,			1,1,			0,0,)
+jontest BGJONT 					(480,360,			0,0,			0,-80)
+jontestmid BGJONT_MID 			(416,360,			0.1,0,			0,-100)
+testmist map/mist 				(416,256,			0,0,			0,-50,			0,0,			1,			1)
+mapborder map/border 			(416,256,			0,0,			0,0,			0,0)
+mapborderwide map/border_wide	(416,256,			0,0,			0,0,			0,0)
+rouge0 rouge/BG_0 				(912,368,			1,1,			0,0,			0,0)
+rougefg0 rouge/FG_0				(912,368,			1,1,			0,0,			0,0)
+rouge1 rouge/BG_1 				(1744,1712,			1,1,			0,0,			0,0)
+rougefg1 rouge/FG_1 			(1744,1712,			1,1,			0,0,			0,0)
+rouge2 rouge/BG_2 				(2656,752,			1,1,			0,0,			0,0)
+rougefg2 rouge/FG_2				(2656,752,			1,1,			0,0,			0,0)
+rouge3 rouge/BG_3 				(992,624,			1,1,			0,0,			0,0)
+rouge4 rouge/BG_4 				(2400,800,			1,1,			0,0,			0,0)
+rougefg4 rouge/FG_4				(2400,800,			1,1,			0,0,			0,0)
+rouge5 rouge/BG_5 				(1920,800,			1,1,			0,0,			0,0)
+rougeg1 rouge/BG_G1				(2512,1040,			1,1,			0,0,			0,0)
+rougefg_g1 rouge/FG_G1			(2512,1040,			1,1,			0,0,			0,0)
+rougeg2 rouge/BG_G2				(2400,656,			1,1,			0,0,			0,0)
+rougeg3 rouge/BG_G3				(2640,592,			1,1,			0,0,			0,0)
+rougeb rouge/BG_B				(1280,800,			1,1,			0,0,			0,0)
+rougemtn0 rouge/MTN 			(832,360,			.7,.7,			0,-20,			0,0)
+rougemtnB0 rouge/MTN2 			(1100,512,			.5,.5,			0,50,			0,0)
+rougemtn rouge/MTN 				(832,360,			.7,.6,			0,750,			0,0)
+rougemtnB rouge/MTN2 			(1100,512,			.5,.5,			0,600,			0,0)
+rougemtnB2 rouge/MTN2 			(1100,512,			.5,.5,			0,320,			0,0)
+rougemtnC2 rouge/MTN3			(836,200,			0.2,0.1,		0,220)
+rougesky0 rouge/SKY				(900,400,			0.2,0.2,		-50,-200)
+rougesky rouge/SKY				(900,400,			0.2,0.2,		0,-8)
+rougeglow rouge/glow			(416,256,			0,0,			0,0,			0,0,			1,			2)
+rougesky2 rouge/SKY				(900,400,			0.2,0.1,		-50,-100)
+rougecave rouge/cave			(416,256,			0,0,			0,0)
+rougecave2 rouge/cave2			(2400,300,			0.5,0.2,		0,100)
+rougecavelight rouge/cavelight	(800,300,			0.2,0.1,		0,0)
+rougecaveold rouge/cave_old		(1000,500,			0,0,			0,-100)
+wfhi_sky whiteforge/hi/sky		(416,256,			0,0,			0,0,			0,0)
+wfhi_skyb whiteforge/hi/skyb	(416,256,			0,0,			0,0,			0,0)
+wfhi_skyc whiteforge/hi/skyc	(416,256,			0,0,			0,0,			0,0)
+wfhi_sky_big whiteforge/hi/skybig		(832,256,			.2,0,			0,0,			0,0)
+wfhi_glow whiteforge/hi/glow		(416,256,			0,0,			0,0,			0,0,			1,			1)
+wfhi_glowb whiteforge/hi/glowb		(416,256,			0,0,			0,0,			0,0,			1,			1)
+wfhi_glowc whiteforge/hi/glowc		(416,256,			0,0,			0,0,			0,0,			1,			1)
+wfhi_glow2 whiteforge/hi/glow2		(416,256,			0,0,			0,0,			0,0,			1,			1)
+wfhi_clouds whiteforge/hi/clouds	(1600,256,		.6,.6,			0,200,			0,0)
+wfhi_skyline whiteforge/hi/skyline (1600,550,		.5,.5,			100,70,			0,0)
+wfhi_skylineb whiteforge/hi/skylineb (1600,550,		.5,.5,			100,70,			0,0)
+wfhi_skylinec whiteforge/hi/skylinec (1600,550,		.5,.5,			100,70,			0,0)
+wfhi_skyline3 whiteforge/hi/skyline (1600,550,		0,0,			-150,50,			0,0)
+wfhi_skyline3b whiteforge/hi/skylineb (1600,550,		0,0,			-150,50,			0,0)
+wfhi_skylineclose whiteforge/hi/skylineclose (765,352,		.7,.7,			150,60,			0,0)
+wfhi_skylinecloseb whiteforge/hi/skylinecloseb (765,352,		.7,.7,			150,60,			0,0)
+wfhi_skylineclosec whiteforge/hi/skylineclosec (765,352,		.7,.7,			150,60,			0,0)
+wfhi_skylineclose2 whiteforge/hi/skylineclose2 (765,352,		.8,.8,			200,80,			0,0)
+wfhi_1 whiteforge/hi/BG_1		(2560,992,			1,1,			0,0,			0,0)
+wfhi_1b whiteforge/hi/BG_1b		(2560,992,			1,1,			0,0,			0,0)
+wfhi_1c whiteforge/hi/BG_1c		(2560,992,			1,1,			0,0,			0,0)
+wfhi_fg1 whiteforge/hi/FG_1		(2560,992,			1,1,			0,0,			0,0)
+wfhi_fg1b whiteforge/hi/FG_1b		(2560,992,			1,1,			0,0,			0,0)
+wfhi_fg1c whiteforge/hi/FG_1c		(2560,992,			1,1,			0,0,			0,0)
+wfhi_2 whiteforge/hi/BG_2		(2560,640,			1,1,			0,0,			0,0)
+wfhi_3 whiteforge/hi/BG_3		(416,256,			1,1,			0,0,			0,0)
+wfhi_fg2 whiteforge/hi/FG_2		(2560,640,			1,1,			0,0,			0,0)
+wfhi_train whiteforge/hi/train	(416,256,			1,1,			0,0,			0,0)
+wfhi_mayor whiteforge/hi/mayor	(416,256,			1,1,			0,0,			0,0)
+wfhi_lobby whiteforge/hi/lobby	(416,256,			1,1,			0,0,			0,0)
+wfhi_hist whiteforge/hi/hist	(416,256,			1,1,			0,0,			0,0)
+wfhi_aliph whiteforge/hi/aliph	(416,256,			1,1,			0,0,			0,0)
+wflo_train whiteforge/lo/train	(416,256,			1,1,			0,0,			0,0)
+wfhi_museum whiteforge/hi/museum (416,256,			1,1,			0,0,			0,0)
+wflo_library whiteforge/lo/library (416,256,			1,1,			0,0,			0,0)
+wflo_yara whiteforge/lo/yara	(416,256,			1,1,			0,0,			0,0)
+wflo_aliph whiteforge/lo/aliph	(416,256,			1,1,			0,0,			0,0)
+wflo_1 whiteforge/lo/BG_1		(1408,352,			1,1,			0,0,			0,0)
+wflo_1b whiteforge/lo/BG_1b		(1408,352,			1,1,			0,0,			0,0)
+wflo_1c whiteforge/lo/BG_1c		(1408,352,			1,1,			0,0,			0,0)
+wflo_buildings whiteforge/lo/bgbuilding1		(1408,352,			0.7,0.7,			0,20,			0,0)
+wflo_buildingsb whiteforge/lo/bgbuilding1b		(1408,352,			0.7,0.7,			0,20,			0,0)
+wflo_buildingsc whiteforge/lo/bgbuildingc		(1408,352,			0.7,0.7,			0,20,			0,0)
+wflo_graveyard whiteforge/lo/BG_GRAVEYARD	(640,256,	1,1,		0,0,			0,0)
+fg_graveyard whiteforge/lo/FG_GRAVEYARD	(640,256,	1,1,		0,0,			0,0)
+wflo_junk whiteforge/lo/BG_JUNK	(768,256,			1,1,			0,0,			0,0)
+wflo_fgbuilding1 whiteforge/lo/fgbuilding1	(3456,352,			1.3,1,			0,0,			0,0)
+wflo_glow whiteforge/lo/glow		(416,256,			0,0,			0,0,			0,0,			1,			2)
+wflo_glowc whiteforge/lo/glowc		(416,256,			0,0,			0,0,			0,0,			1,			2)
+wfrain1 whiteforge/hi/rain				(800,1060,			0.2,0,			0,0,			0,400,			.8,			1)
+wfrain1b whiteforge/hi/rain				(800,1060,			0.0,0,			0,0,			0,200,			.6,			1)
+wflo_0 whiteforge/lo/BG_0		(1056,480,			1,1,			0,0,			0,0)
+wflo_0b whiteforge/lo/BG_0b		(1056,480,			1,1,			0,0,			0,0)
+wflo_0c whiteforge/lo/BG_0c		(1056,480,			1,1,			0,0,			0,0)
+wflo_fg0 whiteforge/lo/FG_0		(1056,480,			1,1,			0,0,			0,0)
+wflo_fg0b whiteforge/lo/FG_0b	(1056,480,			1,1,			0,0,			0,0)
+wflo_fg0c whiteforge/lo/FG_0c	(1056,480,			1,1,			0,0,			0,0)
+wflo_sky whiteforge/lo/sky		(416,256,			0,0,			0,0,			0,0)
+wflo_skyb whiteforge/lo/skyb	(416,256,			0,0,			0,0,			0,0)
+wflo_skyc whiteforge/lo/skyc	(416,256,			0,0,			0,0,			0,0)
+wflo_pillar whiteforge/lo/pillar	(416,256,		.2,0,			120,0,			0,0)
+wflo_pillarb whiteforge/lo/pillarb	(416,256,		.2,0,			120,0,			0,0)
+wflo_pillarc whiteforge/lo/pillarc	(416,256,		.2,0,			120,0,			0,0)
+wflo_sky0 whiteforge/lo/sky0	(416,256,			0,0,			0,0,			0,0)
+wflo_sky0b whiteforge/lo/sky0b	(416,256,			0,0,			0,0,			0,0)
+wflo_sky0c whiteforge/lo/sky0c	(416,256,			0,0,			0,0,			0,0)
+wflo_skyJ whiteforge/lo/skyJ	(832,256,			0,0,			-150,-40,			0,0)
+wflo_hillsJ whiteforge/lo/hills	(832,256,			.2,.1,			0,-40,			0,0)
+wflo_hillsJ2 whiteforge/lo/hills	(832,256,		.5,0,			0,20,			0,0)
+wf_junk whiteforge/junk/junk	(1200,256,			.5,.3,			0,90,			0,0)
+wf_junkb whiteforge/junk/junk	(1200,256,			.5,.3,			0,130,			0,0)
+wf_junkc whiteforge/junk/junk	(1200,256,			.5,.3,			0,20,			0,0)
+wflo_hills whiteforge/lo/hills	(832,256,			.5,0,			0,-40,			0,0)
+wflo_hillsb whiteforge/lo/hillsb	(832,256,			.5,0,			0,-40,			0,0)
+wflo_hillsc whiteforge/lo/hillsc	(832,256,			.5,0,			0,-40,			0,0)
+hill1b hill/BG_1B 				(2080,608,			1,1,			0,0,			0,0)
+hillfg1b hill/FG_1B				(2080,608,			1,1,			0,0,			0,0)
+hill2b hill/BG_2B 				(1248,864,			1,1,			0,0,			0,0)
+hill3b hill/BG_3B 				(1040,1232,			1,1,			0,0,			0,0)
+hill4b hill/BG_4B 				(2320,944,			1,1,			0,0,			0,0)
+hill5b hill/BG_5B 				(1872,1120,			1,1,			0,0,			0,0)
+stoneforestsky rouge/SKY		(836,400,			0.2,0.2,		0,-8)
+stoneforestmount BGSTONEFOREST_MOUNT (837,200,		0.05,0.1,		0.1,198)
+shore1 shore/BG_1				(3488,896,			1,1,			0,0,			0,0)
+shorefg1 shore/FG_1				(3488,896,			1,1,			0,0,			0,0)
+shore2 shore/BG_2				(2400,768,			1,1,			0,0,			0,0)
+shorefg2 shore/FG_2				(2400,768,			1,1,			0,0,			0,0)
+shore3 shore/BG_3				(1184,768,			1,1,			0,0,			0,0)
+shorefg3 shore/FG_3				(1184,768,			1,1,			0,0,			0,0)
+shore4 shore/BG_4				(2608,1088,			1,1,			0,0,			0,0)
+shorefg4 shore/FG_4				(2608,1088,			1,1,			0,0,			0,0)
+shore5 shore/BG_5				(2608,1088,			1,1,			0,0,			0,0)
+shorefg5 shore/FG_5				(2608,1088,			1,1,			0,0,			0,0)
+shore6 shore/BG_6				(2144,1216,			1,1,			0,0,			0,0)
+shoreglow shore/glow			(416,256,			0,0,			0,0,			0,0,			1,			1)
+shoreglow2 shore/glow2			(416,256,			0,0,			0,0,			0,0,			1,			2)
+shoredune shore/dune			(1672,349,			.5,.2,			0,100,			0,0)
+shoredune2 shore/dune			(1672,349,			.6,.2,			0,60,			0,0)
+shorewatermid shore/water_mid	(832,256,			.2,.7,			0,500,			0,0)
+shorewaterback shore/water_back	(832,512,			.2,.2,			0,0,			0,0)
+shoresky shore/sky 				(416,256,			0,0,			0,0,			0,0)
+shoresky2 shore/sky2 			(416,768,			0,.5,			0, 0,			0,0)
+shorereef shore/reef			(2608,1088,			.5,.8,			0,0,			0,0)
+shoreplacesky BGSHOREPLACE_SKY  (416,256,			0,0,			0,0,			0,0)
+shoreplacemtn BGSHOREPLACE_MTN  (416,200,			0,0,			0,112,			0,0)
+shoreplaceisle BGSHOREPLACE_ISLE (416,79,			.05,0,			0,100,			0,0)
+shoreplacesun BGSHOREPLACE_SUN  (94,151,			0,0,			212,38,			0,0)
+shoreplacecave BGSHOREPLACE_CAVE (832,256,			.2,0,			0,0,			0,0)
+shoreplacefalls BGSHOREPLACE_FALLS (720,448,		.1,.1,			0,-80,			0,0) 					(8, 0,1,2,3)
+shoreplacecavern BGSHOREPLACE_CAVERN (1212,768,		.3,.3,			0,-140,			0,0)
+shoreplacegodray BGSHOREPLACE_GODRAY  (416,256,		.2,0,			0,0,			0,0)
+canyon1 canyon/BG_1 			(3184,640,			1,1,			0,0,			0,0)
+canyonfg1 canyon/FG_1 			(3184,640,			1,1,			0,0,			0,0)
+canyontop canyon/canyon_1		(1728,226,			0.6,0.4,		0,130,			0,0)
+lopeztop canyon/canyon_1		(1728,226,			0.6,0.4,		0,90,			0,0)
+canyon2 canyon/BG_2 			(1600,1552,			1,1,			0,0,			0,0)
+canyonfg2 canyon/FG_2 			(1600,1552,			1,1,			0,0,			0,0)
+canyon3 canyon/BG_3				(1840,720,			1,1,			0,0,			0,0)
+canyonfg3 canyon/FG_3 			(1840,720,			1,1,			0,0,			0,0)
+canyong3 canyon/BG_G3			(1280,3040,			1,1,			0,0,			0,0)
+canyonglow canyon/glow			(416,256,			0,0,			0,0,			0,0,			1,			2)
+canyonsky canyon/sky2 			(416,416,			0,.08,			0,0,			0,0)
+canyonsky2 canyon/sky2 			(416,416,			0,.15,			0,0,			0,0)
+canyonsky3 canyon/sky2 			(416,416,			0,.08,			0,-120,			0,0)
+canyonwater BGCANYON_WATER 		(416,240,			0,.12,			0,220,			0,0)
+canyoncliff canyon/cliff		(960,480,			0.16,0.2,		0,80,			0,0)
+canyoncliff2 canyon/cliff 		(960,480,			0.4,0.4,		0,80,			0,0)
+canyoncliff3 canyon/cliff		(960,480,			0.2,0.4,		-130,-60,			0,0)
+canyoncliffg3 canyon/cliff		(960,480,			0.16,0.1,		-300,50,			0,0)
+canyoncave canyon/cave			(416,256,			0,0,			0,0)
+canyoncave1 canyon/cave1		(416,256,			0,0,			0,0)
+canyoncave2 canyon/cave2		(832,512,			.2,.2,			0,-50)
+canyoncave3 canyon/cave2		(832,592,			.2,.2,			0,0)
+canyoncaveB canyon/cave2		(832,512,			.2,.2,			0,-100)
+canyoncavemist canyon/cavemist	(832,256,			0,0,			0,0,			10,0)
+sean_BGTEST sean/BGTEST			(960,1800,			1,1,			0,0,			0,0)
+basin1 basin/BG_1				(3680,640,			1,1,			0,0,			0,0)
+basinfg1 basin/FG_1				(3680,640,			1,1,			0,0,			0,0)
+basin3 basin/BG_3				(1760,1200,			1,1,			0,0,			0,0)
+basinfg3 basin/FG_3				(1760,1200,			1,1,			0,0,			0,0)
+basinglow basin/glow			(416,256,			0,0,			0,0,			0,0,			1,			1)
+basinglow2 basin/glow2			(1760,1200,			1,1,			0,0,			0,0,			1,			1)
+basincaveglow basin/caveglow	(416,256,			0,0,			0,0,			0,0,			1,			2)
+shorefg3 shore/FG_3				(2608,1088,			1,1,			0,0,			0,0)
+shorewater shore/water			(416,256,			0,0,			0,0,			0,0)
+basin2 basin/BG_2				(2496,1168,			1,1,			0,0,			0,0)
+basinsky basin/sky				(416,256,			0,0,			0,0,			0,0)
+basinfog basin/fog				(832,256,			.2,.2,			0,0,			0,0)
+basinhills basin/hills			(2100,240,			.5,.5,			0,140,			0,0)
+basinpit basin/pit				(704,816,			.3,.3,			0,200,			0,0)
+basinfg1 basin/FG_1				(3840,640,			1,1,			0,0,			0,0)
+basinpit3 basin/pit3			(1008,954,			.3,.3,			0,0,			0,0)
+basinpittrees basin/pittrees	(700,900,			.5,.5,			50,0,			0,0)
+basincave basin/cave			(416,256,			0,0,			0,0,			0,0)
+woods1 woods/BG_1				(2224,640,			1,1,			0,0,			0,0)
+woods2 woods/BG_2				(3200,640,			1,1,			0,0,			0,0)
+woods3 woods/BG_3				(1920,640,			1,1,			0,0,			0,0)
+woodslibrary woods/library		(400,400,			.8,.8,			445,50,			0,0)
+woodsmist woods/mist			(416,256,			0,0,			0,0,			0,0)
+woodsglow woods/glow 			(416,256,			0,0,			0,0,			0,0,			1,			2)
+woodsglow3 woods/glow3 			(1920,640,			1,1,			0,0,			0,0,			1,			2)
+woodstrees woods/trees			(2000,512,			.6,.3,			0,-100,			0,0)
+woodstrees2 woods/trees2		(1600,512,			.3,0,			0,-100,			0,0)
+woodstreesfg woods/treesfg		(3000,788,			1.5,1.3,		0,50,			0,0)
+woodsbrushfg woods/brushfg		(3000,411,			1.2,1.2,		0,300,			0,0)
+woodsfg1 woods/FG_1				(2224,640,			1,1,			0,0,			0,0)
+woodsfg2 woods/FG_2				(3200,640,			1,1,			0,0,			0,0)
+woodsfg3 woods/FG_3				(1920,640,			1,1,			0,0,			0,0)
+cliff1 cliff/BG_1				(3104,688,			1,1,			0,0,			0,0)
+clifffg1 cliff/FG_1				(3104,688,			1,1,			0,0,			0,0)
+cliff2 cliff/BG_2				(3520,688,			1,1,			0,0,			0,0)
+clifffg2 cliff/FG_2				(3520,688,			1,1,			0,0,			0,0)
+cliff3 cliff/BG_3				(3840,736,			1,1,			0,0,			0,0)
+clifffg3 cliff/FG_3				(3840,736,			1,1,			0,0,			0,0)
+cliff4 cliff/BG_4				(1648,1600,			1,1,			0,0,			0,0)
+clifffg4 cliff/FG_4				(1648,1600,			1,1,			0,0,			0,0)
+cliffsky cliff/sky				(416,256,			0,0,			0,0,			0,0)
+cliffglow cliff/glow			(416,256,			0,0,			0,0,			0,0,			1,			2)
+cliffskybig cliff/skybig		(1248,256,			.2,0,			0,0,			0,0)
+cliffskyscroll cliff/skyscroll	(1248,256,			0,0,			0,0,			-20,0, 			1, 0)
+cliffcave cliff/cave			(1248,256,			.5,0,			650,0,			0,0)
+cliffroomcaves cliff/roomcaves	(2000,400,			.5,.5,			424,-50,		0,0)
+cliffroomcaves2 cliff/roomcaves2	(2880,1200,			1.5,1.5,	856,-110,		0,0)
+cliffglow3 cliff/glow3			(1648,1760,			1,1,			0,0,			0,0,			1,			2)
+cliffglow4 cliff/glow4			(1648,1760,			1,1,			0,0,			0,0,			1,			2)
+cliffdune cliff/dune			(1672,349,			.2,.2,			-200,190,			0,0)
+cliffdune2 cliff/dune2			(1672,349,			.2,.2,			400,190,			0,0)
+cliffdunefg cliff/dunefg		(4200,480,			1.4,1.4,		0,700,			0,0)
+cliff_BG_G2 cliff/BG_G2				(3520,1120,			1,1,			0,0,			0,0)
+cliffskyb cliff/skyb				(416,256,			0,0,			0,0,			0,0)
+cliffskyc cliff/skyc				(416,256,			0,0,			0,0,			0,0)
+cliffsky2 cliff/sky2				(416,256,			0,0,			0,0,			0,0)
+falls1 falls/BG_1				(2400,1200,			1,1,			0,0,			0,0)
+fallsfg1 falls/FG_1				(2400,1200,			1,1,			0,0,			0,0)
+falls2 falls/BG_2				(2384,2608,			1,1,			0,0,			0,0)
+fallsfg2 falls/FG_2				(2384,2608,			1,1,			0,0,			0,0)
+fallsglint falls/glint			(2384,2608,			1,1,			0,0,			0,0,			1,			1)
+fallssky falls/sky				(7,512,			0.2,0,			-0,0,			0,0)
+fallsglow falls/glow			(416,256,			0,0,			0,0,			0,0,			1,			1)
+fallsglow2 falls/glow2			(416,256,			0,0,			0,0,			0,0,			1,			2)
+fallslensglow falls/lensglow	(1248,512,			0.3,0.3,		0,-30,			0,0,			1,			1)
+fallsdarksky falls/darksky		(832,512,			0.2,0.1,		0,-50,			0,0)
+fallsrain1 falls/rain			(800,1060,			0.2,0,			0,0,			0,400,			.8)
+fallsrain1b falls/rain			(800,1060,			0.0,0,			0,0,			0,200,			.6)
+fallsrain2 falls/rain2			(800,1060,			0.2,0,			0,0,			0,300,			.8)
+fallsrain2b falls/rain2			(800,1060,			0.0,0,			0,0,			0,200,			.4)
+fallshills falls/hills			(1672,400,			.5,.5,			0,300,			0,0)
+fallshills2 falls/hills2		(214,512,			.5,.5,			1130,100,			0,0)
+fallscave falls/cave			(416,256,			0,0,			0,0,			0,0)
+fallscave2 falls/cave2			(1664,1024,			.2,.2,			0,0,			0,0)
+falls_BG_G1 falls/BG_G1			(4160,1120,			1,1,			0,0,			0,0)
+pass1 pass/BG_1					(3520,1008,			1,1,			0,0,			0,0)
+passfg1 pass/FG_1					(3520,1008,			1,1,			0,0,			0,0)
+pass2 pass/BG_2					(2608,1008,			1,1,			0,0,			0,0)
+passgeomeleg pass/geomeleg		(368,832,			1,1,			1664,80,			0,0)
+passfg2 pass/FG_2					(2608,1008,			1,1,			0,0,			0,0)
+pass3 pass/BG_3					(3872,1008,			1,1,			0,0,			0,0)
+passhills pass/hills			(2224,464,			.3,.2,			0,0,			0,0)
+passtrees pass/trees			(3520,512,			.7,.7,			0,300,			0,0)
+passtrees2 pass/trees2			(3520,512,			.7,.7,			0,300,			0,0)
+passsky pass/sky				(416,256,			0,0,			0,0,			0,0)
+passglow pass/glow				(416,256,			0,0,			0,0,			0,0,			1,			1)
+passcaveglow pass/caveglow			(416,256,			0,0,			0,0,			0,0,			1,			2)
+river1 river/BG_1				(3328,496,			1,1,			0,0,			0,0)
+riverfg1 river/FG_1				(3328,496,			1,1,			0,0,			0,0)
+river2 river/BG_2				(3408,1040,			1,1,			0,0,			0,0)
+river3 river/BG_3				(2544,800,			1,1,			0,0,			0,0)
+river4 river/BG_4				(2352,576,			1,1,			0,0,			0,0)
+riversky river/sky				(416,256,			0,0,			0,0,			0,0)
+riversky2 river/sky2			(416,256,			0,0,			0,0,			0,0)
+riverwater river/water			(416,256,			0,0,			0,0,			0,0)
+riverwaterglow river/waterglow	(832,256,			0,0,			0,0,			16,0,			1,		1)
+rivercorn1 river/corn1			(2496,256,			1,1,			0,170,			0,0)
+rivercorn2 river/corn2			(2496,256,			0.833,.9,		-3,130,			0,0)
+rivercorn3 river/corn3			(2496,256,			0.666,.8,		0,95,			0,0)
+rivercorn4 river/corn4			(433,256,			0.2,1,			118,190,			0,0)
+riverhills river/hills			(1280,300,			.5,.5,			183,340,			0,0)
+riverhills3 river/hills			(1280,300,			.5,.5,			0,102,			0,0)
+riverglow river/glow			(416,256,			0,0,			0,0,			0,0,			1,			1)
+rivergauntletglow river/gauntletglow	(416,256,			0,0,			0,0,			0,0,			1,			2)
+riverfg2 river/FG_2				(3408,1040,			1,1,			0,0,			0,0)
+map_BG_2 map/BG_2				(900,900,			1,1,			0,0,			0,0)
+shoreinside1 shore/inside1		(1200,480,			.2,0,			0,-140,			0,0)
+shoretest shore/test			(3200,1600,			1,1,			0,0,			0,0)
+hillsky hill/sky				(832,256,			0,0,			0,0,			0,0)
+hillskyb hill/sky_b				(832,256,			0,0,			0,0,			-8,0)
+hillsky2 hill/sky2				(832,256,			0,.1,			0,-80,			-16,0)
+hillsky3 hill/sky3				(832,256,			0,.12,			0,-130,			-24,0)
+hillglow hill/glow				(416,256,			0,0,			0,0,			0,0,			1,			2)
+hill1 hill/BG_1					(3232,544,			1,1,			0,0,			0,0)
+hillfg1 hill/FG_1				(3232,544,			1,1,			0,0,			0,0)
+hillhills hill/hills			(1400,500,			.4,.8,			0,100,			0,0)
+hillhills2 hill/hills			(1400,500,			.4,.2,			100,20,			0,0)
+hill2 hill/BG_2					(2240,1472,			1,1,			0,0,			0,0)
+hillfg2 hill/FG_2				(2240,1472,			1,1,			0,0,			0,0)
+hill3 hill/BG_3					(2240,1472,			1,1,			0,0,			0,0)
+hillfg3 hill/FG_3				(2144,1184,			1,1,			0,0,			0,0)
+hill4 hill/BG_4					(3440,928,			1,1,			0,0,			0,0)
+hilllowhills hill/lowhills		(1880,240,			.4,.6,			0,50,			0,0)
+hilllowwater hill/lowwater		(1880,240,			.6,.8,			400,182,			0,0)
+hilllowhills2 hill/lowhills		(1880,240,			.7,.6,			0,620,			0,0)
+hillfg4 hill/FG_4				(3584,918,			1,1,			0,0,			0,0)
+tunnel_wf karavold/train		(416,256,			1,1,			0,0,			0,0)
+tunnel_kv karavold/train		(416,256,			1,1,			0,0,			0,0)
+office_kv karavold/office		(416,256,			1,1,			0,0,			0,0)
+hillg1 hill/BG_G1				(3520,1680,			1,1,			0,0,			0,0)
+hillg2 hill/BG_G2				(2400,1600,			1,1,			0,0,			0,0)
+hillg3 hill/BG_G3				(2240,2240,			1,1,			0,0,			0,0)
+hillg4 hill/BG_G4				(3680,1200,			1,1,			0,0,			0,0)
+hillb hill/BG_B				(2720,1120,			1,1,			0,0,			0,0)
+shore_BG_G1 shore/BG_G1				(3280,1600,			1,1,			0,0,			0,0)
+shore_BG_G2 shore/BG_G2				(3520,1408,			1,1,			0,0,			0,0)
+shore_BG_G3 shore/BG_G3				(3360,1408,			1,1,			0,0,			0,0)
+shore_BG_G4 shore/BG_G4				(3280,1456,			1,1,			0,0,			0,0)
+shore_BG_B shore/BG_B				(1664,1120,			1,1,			0,0,			0,0)
+canyon_BG_G1 canyon/BG_G1			(2400,1280,			1,1,			0,0,			0,0)
+canyon_BG_G2 canyon/BG_G2			(2560,1840,			1,1,			0,0,			0,0)
+canyon_BG_G3 canyon/BG_G3			(1280,3040,			1,1,			0,0,			0,0)
+canyon_BG_G4 canyon/BG_G4			(1840,2240,			1,1,			0,0,			0,0)
+canyon_BG_B canyon/BG_B				(1760,960,			1,1,			0,0,			0,0)
+river_BG_G1 river/BG_G1				(2736,1360,			1,1,			0,0,			0,0)
+river_BG_G2 river/BG_G2				(2640,1120,			1,1,			0,0,			0,0)
+river_BG_G3 river/BG_G3				(2000,1600,			1,1,			0,0,			0,0)
+river_BG_G4 river/BG_G4				(1840,1600,			1,1,			0,0,			0,0)
+river_BG_B river/BG_B				(1600,1600,			1,1,			0,0,			0,0)
+woods_BG_G1 woods/BG_G1				(2160,1040,			1,1,			0,0,			0,0)
+woods_BG_G2 woods/BG_G2				(1168,2304,			1,1,			0,0,			0,0)
+woods_BG_G3 woods/BG_G3				(3440,560,			1,1,			0,0,			0,0)
+woods_BG_G4 woods/BG_G4				(2240,1680,			1,1,			0,0,			0,0)
+woods_BG_B woods/BG_B				(1920,1920,			1,1,			0,0,			0,0)
+woodscave woods/cave 				(416,256,			0,0,			0,0,			0,0)
+basin_BG_G1 basin/BG_G1				(1392,2640,			1,1,			0,0,			0,0)
+basin_BG_G2 basin/BG_G2				(2080,2080,			1,1,			0,0,			0,0)
+basin_BG_G3 basin/BG_G3				(1600,2560,			1,1,			0,0,			0,0)
+basin_BG_G4 basin/BG_G4				(1760,2000,			1,1,			0,0,			0,0)
+basin_BG_B basin/BG_B				(1840,1600,			1,1,			0,0,			0,0)
+pass_BG_G0 pass/BG_G0				(2560,800,			1,1,			0,0,			0,0)
+pass_BG_G1 pass/BG_G1				(3200,960,			1,1,			0,0,			0,0)
+pass_BG_G2 pass/BG_G2				(3840,800,			1,1,			0,0,			0,0)
+pass_BG_G3 pass/BG_G3				(3040,1120,			1,1,			0,0,			0,0)
+pass_BG_G4 pass/BG_G4				(2320,1600,			1,1,			0,0,			0,0)
+pass_BG_B pass/BG_B					(2096,1296,			1,1,			0,0,			0,0)
+passcave pass/cave					(416,256,			0,0,			0,0,			0,0)
+earthsilo0 silo_earth/BG_0			(960,256,			1,1,			0,0,			0,0)
+seasilo0 silo_sea/BG_0				(960,256,			1,1,			0,0,			0,0)
+seasiloglow silo_sea/glow			(416,256,			0,0,			0,0,			0,0,			1,			1)
+airsilo0 silo_air/BG_0				(960,256,			1,1,			0,0,			0,0)
+airsilofg0 silo_air/FG_0			(960,256,			1.5,1,			0,0,			0,0)
+airsiloglow silo_air/glow			(416,256,			0,0,			0,0,			0,0,			1,			1)
+earthsilosky silo_earth/sky			(416,256,			0,0,			0,0,			0,0)
+earthsiloglow silo_earth/glow		(416,256,			0,0,			0,0,			0,0,			1,			1)
+seasilosky silo_sea/sky				(416,256,			0,0,			0,0,			0,0)
+airsilosky silo_air/sky				(416,256,			0,0,			0,0,			0,0)
+earthsilohills silo_earth/hills		(832,256,			.5,0,			0,0,			0,0)
+airsilohills silo_air/hills			(832,256,			.5,0,			0,0,			0,0)
+seasilohills silo_sea/hills			(832,256,			.5,0,			0,10,			0,0)
+tunnel1 tunnel/BG_1					(960,256,			1,1,			0,0,			0,0)
+tunnel4 tunnel/BG_4					(960,256,			1,1,			0,0,			0,0)
+tunnel6 tunnel/BG_6					(960,256,			1,1,			0,0,			0,0)
+tunnelhills tunnel/hills			(832,256,			.5,0,			0,0,			0,0)
+tunnelhills4 tunnel/hills4			(832,256,			.5,0,			0,0,			0,0)
+tunnelhills6 tunnel/hills6			(832,256,			.5,0,			0,0,			0,0)
+tunnelsky tunnel/sky				(416,256,			0,0,			0,0,			0,0)
+tunnelsky4 tunnel/sky4				(416,256,			0,0,			0,0,			0,0)
+tunnelsky6 tunnel/sky6				(416,256,			0,0,			0,0,			0,0)
+map_southmap map/southmap			(1792,2560,			1,1,			0,0,			0,0)
+map_northmap map/northmap			(1792,1536,			1,1,			0,0,			0,0)
+bridge1 bridge/BG_1					(1600,256,			1,1,			0,0,			0,0)
+bridgesky bridge/sky				(416,256,			0,0,			0,0,			0,0)
+bridgehills bridge/hills			(832,256,			.5,0,			0,0,			0,0)
+bridge2 bridge/BG_2					(960,256,			1,1,			0,0,			0,0)
+bridge_basin bridge/BG_BASIN		(960,256,			1,1,			0,0,			0,0)
+bridge_hill bridge/BG_HILL			(1600,512,			1,1,			0,0,			0,0)
+bridge_river bridge/BG_RIVER		(960,256,			1,1,			0,0,			0,0)
+lopez1 lopez/BG_1					(960,256,			1,1,			0,0,			0,0)
+lopezsky lopez/sky					(416,256,			0,0,			0,0,			0,0)
+lopezhills lopez/hills				(832,256,			.5,0,			0,0,			0,0)
+parents1 parents/BG_1				(960,256,			1,1,			0,0,			0,0)
+parentsfg1 parents/FG_1				(960,256,			1,1,			0,0,			0,0)
+parentssky parents/sky				(416,256,			0,0,			0,0,			0,0)
+parentshills parents/hills			(832,256,			.5,0,			0,0,			0,0)
+radio_BG_G1 radio/BG_G1				(1920,1920,			1,1,			0,0,			0,0)
+radiocave radio/cave				(416,256,			0,0,			0,0,			0,0)
+radiosky radio/sky					(416,256,			0,0,			0,0,			0,0)
+radioskyb2 radio/skyb2				(416,256,			0,0,			0,0,			0,0)
+radio_BG_B2 radio/BG_B2				(416,512,			1,1,			0,0,			0,0)
+radio_FG_B2 radio/FG_B2				(416,512,			1,1,			0,0,			0,0)
+radiovignette radio/vignette		(416,256,			0,0,			0,0,			0,0,			1, 		2)
+radioglow radio/glow				(416,256,			0,0,			0,0,			0,0,			1, 		3)
+radioheatglow radio/heatglow		(416,256,			0,0,			0,0,			0,0,			1, 		1)
+radiohivignette radio/vignette3		(416,256,			0,0,			0,0,			0,0,			1, 		2)
+radiohiglow radio/glow3				(416,256,			0,0,			0,0,			0,0,			1, 		1)
+radio_BG_G3 radio/BG_G3				(1440,2880,			1,1,			0,0,			0,0)
+kv1 karavold/BG_1					(1152,352,			1,1,			0,0,			0,0)
+kvradio karavold/BG_radio			(832,1120,			1,1,			0,0,			0,0)
+kvhills karavold/hills				(832,256,			.2,0,			-140,-60,			0,0)
+kvsky karavold/sky					(416,256,			0,0,			0,-10,			0,0)
+kvglow karavold/glow				(416,256,			0,0,			0,0,			0,0,			1,			1)
+kvglow2 karavold/glow2				(832,1120,			1,1,			0,0,			0,0,			1,			2)
+cliff_BG_G1 cliff/BG_G1				(3440,1600,			1,1,			0,0,			0,0)
+cliff_BG_G3 cliff/BG_G3				(3200,1600,			1,1,			0,0,			0,0)
+cliff_BG_G4 cliff/BG_G4				(4000,960,			1,1,			0,0,			0,0)
+cliff_BG_B cliff/BG_B				(1120,2000,			1,1,			0,0,			0,0)
+falls_BG_G2 falls/BG_G2				(2272,2144,			1,1,			0,0,			0,0)
+falls_BG_G3 falls/BG_G3				(3280,1040,			1,1,			0,0,			0,0)
+falls_BG_G4 falls/BG_G4				(2800,1280,			1,1,			0,0,			0,0)
+falls_BG_B falls/BG_B				(2080,1200,			1,1,			0,0,			0,0)
+radio_BG_G2 radio/BG_G2				(1760,1792,			1,1,			0,0,			0,0)
+radio_BG_G4 radio/BG_G4				(1440,2480,			1,1,			0,0,			0,0)
+radio_BG_B radio/BG_B				(2400,2560,			1,1,			0,0,			0,0)
+silo_sea_BG_1 silo_sea/BG_1			(1600,2400,			1,1,			0,0,			0,0)
+silo_sea_BG_2 silo_sea/BG_2			(1600,1120,			1,1,			0,0,			0,0)
+silo_sea_cave silo_sea/cave		(416,256,			0,0,			0,0,			0,0)
+silo_air_BG_1 silo_air/BG_1			(2400,1600,			1,1,			0,0,			0,0)
+silo_air_BG_2 silo_air/BG_2			(2720,1280,			1,1,			0,0,			0,0)
+silo_air_cave silo_air/cave		(416,256,			0,0,			0,0,			0,0)
+silo_earth_BG_1 silo_earth/BG_1		(2880,1120,			1,1,			0,0,			0,0)
+silo_earth_cave silo_earth/cave		(416,256,			0,0,			0,0,			0,0)
+silo_earth_BG_2 silo_earth/BG_2		(2400,1200,			1,1,			0,0,			0,0)
+radio_BG_LOBBY radio/BG_LOBBY		(800,800,			1,1,			0,0,			0,0)
+radio_BG_D1 radio/BG_D1				(800,800,			1,1,			0,0,			0,0)
+radio_BG_DB radio/BG_DB				(1248,800,			1,1,			0,0,			0,0)
+whiteforge_junk_WF_J whiteforge/junk/WF_J				(768,256,			1,1,			0,0,			0,0)
+whiteforge_junk_WF_JC whiteforge/junk/WF_JC				(2240,480,			1,1,			0,0,			0,0)
+whiteforge_junk_WF_JH whiteforge/junk/WF_JH				(1600,512,			1,1,			0,0,			0,0)
+whiteforge_junk_WF_JS whiteforge/junk/WF_JS				(1600,672,			1,1,			0,0,			0,0)
+floodtest map/floodtest				(416,256,			0,0,			0,0,			0,0)
+sunsetglow map/fade/sunset			(832,1120,			0,0,			0,0,			0,0,			1,			2)
+sunsetglow2 map/mist				(832,1120,			1,1,			0,0,			0,0,			1,			1)
+maprain1 whiteforge/hi/rain				(800,1060,			0.0,0,			0,0,			0,200,			.6,			1)
+gauntlet_mode_BG_1 gauntlet_mode/BG_1				(3200,800,			1,1,			0,0,			0,0)
+darkdeath darkdeath					(416,256,			0,0,			0,0,			0,0)
+darkdeathaliph darkdeathaliph		(416,256,			0,0,			0,0,			0,0)
+darkdeathvignette darkdeathvignette		(416,256,			0,0,			0,0,			0,0)
+darkdeathtube darkdeathtube			(416,256,			0,0,			0,0,			0,0,			1,			1)
+darkdeathtexture darkdeathtexture	(416,256,			0,0,			0,0,			50,0,			1,			1)
+darkdeathtexture2 darkdeathtexture2	(416,256,			0,0,			0,0,			-50,0,			1,			1)
+lightdeath lightdeath				(416,256,			0,0,			0,0,			0,0)
+lightdeathvignette lightdeathvignette		(416,256,			0,0,			0,0,			0,0)
+lightdeathaliph lightdeathaliph		(416,256,			0,0,			0,0,			0,0)
+lightdeathtube lightdeathtube		(416,256,			0,0,			0,0,			0,0,			1,			1)
+lightdeathtexture lightdeathtexture	(416,256,			0,0,			0,0,			0,50,			1,			1)
+lightdeathtexture2 lightdeathtexture2	(416,256,		0,0,			0,0,			0,-50,			1,			1)
+googledoc postgame/googledoc		(426,352,			.5,.5,			0,0,			0,0)
+email postgame/email				(515,320,			.7,.7,			200,0,			0,0)
+googledoc2 postgame/googledoc2		(613,624,			1,1,			160,0,			0,0)
+photoshop postgame/photoshop		(1112,387,			1,1,			600,0,			0,0)
+postgamesky postgame/sky			(416,256,			0,0,			0,0,			0,0)
+
+
+# Map name, Map's BG image, Map's tileset's .png prefix
+# NOTE: If I Add another quoted argument to these lines then the code
+# won't work as it only extracts the first quoted argument
+# if "script" is the bg image argument, we'll look for a script instead
+BG_HASH
+# Debug/demo maps
+JONLET SET_STONEFOREST STONEFOREST
+SEANLET SET_STONEFOREST STONEFOREST
+DEMO_G NONE DEBUG3
+DEMO_1_1 NONE DEBUG3
+DEMO_1_2 NONE DEBUG3
+JONTEST02 SET_JON STONEFOREST
+JONTEST03 NONE STONEFOREST
+NPC_SHORE NONE DEBUG3
+NPC_CANYON NONE DEBUG3
+NPC_RIVER NONE DEBUG3
+NPC_FOREST NONE DEBUG3
+NPC_PASS NONE DEBUG3 10,10
+NPC_HILL NONE DEBUG3
+NPC_CLIFF NONE CLIFF
+NPC_CITY NONE DEBUG3
+BOSSTEST BGTEST2 DEBUG2
+MOTION_DEMO_1 SET_CANYON CANYON_old
+TEST NONE DEBUG
+JUMPTEST NONE DEBUG3
+TWITCH NONE DEBUG3
+TEST_SMALL NONE DEBUG3
+TESTTWO SET_SHOREPLACEIN DEBUG2 
+TEST3 SET_SHOREPLACEIN DEBUG2 
+TEST_CAM NONE DEBUG3
+SHORETEST NONE SHOREPLACEA
+SHOREPLACE_BOSS NONE SHOREPLACEA
+RIVERTEST NONE DEBUG3
+WOODSTEST NONE DEBUG3
+# Even maps
+REALHOME BGTEST DEBUG 
+# The ocean maps
+INTRO SET_STONEFOREST STONEFOREST
+INTROCAVE SET_STONEFOREST STONEFOREST 
+INTRO_ASCENT SET_STONEFOREST DEBUG2
+INTRO_ITEM SET_STONEFOREST STONEFOREST
+INTRO_DEMO SET_STONEFOREST STONEFOREST
+INTRO_G1_1 NONE DEBUG3
+ROUGE_B SET_ROUGE_B ROUGE
+ROUGE_0 SET_ROUGE_0 DEBUG3
+ROUGE_1 SET_ROUGE_1 DEBUG3
+ROUGE_2 SET_ROUGE_2 ROUGE
+ROUGE_3 SET_ROUGE_3 DEBUG3
+ROUGE_4 SET_ROUGE_4 DEBUG4
+ROUGE_5 SET_ROUGE_5 DEBUG4
+ROUGE_G1 SET_ROUGE_G1 ROUGE 332222
+ROUGE_G2 SET_ROUGE_G2 ROUGE
+ROUGE_G3 SET_ROUGE_G3 ROUGE
+ROUGE_TEST NONE DEBUG4
+ROUGE_TEST2 NONE DEBUG4
+MAPONE NONE SEANMAPSKETCH
+MAPTWO NONE SEANMAPSKETCH
+MAPTHREE NONE SEANMAPSKETCH
+MAPFOUR NONE SEANMAPSKETCH
+MAP1 SET_CAMTEST DEBUG5
+MAP2 SET_MAP_SOUTHMAP DEBUG5
+MAP2OLD SET_MAP2OLD SEANMAPSKETCH
+MAP3 SET_MAP_NORTHMAP DEBUG5
+SHOREPLACE_ENTER SET_SHOREPLACE SHOREPLACE
+STARFISH SET_SHOREPLACE SHOREPLACE
+SHOREPLACE SET_SHOREPLACE SHOREPLACE
+SHOREPLACEA SET_SHOREPLACEIN SHOREPLACE
+SHOREPLACEB SET_SHOREPLACE SHOREPLACE
+SHOREPLACEC SET_SHOREPLACEIN SHOREPLACE
+SHOREPLACE_OUT SET_SHOREPLACE SHOREPLACE
+SHOREPLACE_TUNNEL SET_SHOREPLACEIN SHOREPLACE
+SHOREPLACE_SECRET SET_SHOREPLACE SHOREPLACE
+SHOREPLACE_DOWN SET_SHOREPLACEIN SHOREPLACE
+SHOREPLACE_END SET_SHOREPLACEIN SHOREPLACE
+SHOREPLACE_CORE SET_SHOREPLACEIN SHOREPLACE
+SHORE_1 SET_SHORE_1 SHORE
+SHORE_2 SET_SHORE_2 SHORE
+SHORE_3 SET_SHORE_3 SHORE
+SHORE_4 SET_SHORE_4 SHORE
+SHORE_5 SET_SHORE_5 SHORE
+SHORE_6 SET_SHORE_6 SHORE
+SHORE_G1 SET_SHORE_BG_G1 SHOREPLACEA
+SHORE_G2 SET_SHORE_BG_G2 SHOREPLACEA
+SHORE_G3 SET_SHORE_BG_G3 SHOREPLACEA
+SHORE_G4 SET_SHORE_BG_G4 SHOREPLACEA
+SHORE_G5 NONE SHOREPLACEA
+SHORE_B SET_SHORE_BG_B SHOREPLACEA
+SHORE_TEST SET_SHORE_TEST SHORE
+ISLAND_SEED SET_SHOREPLACE SHOREPLACE
+ISLAND_LAZY SET_SHOREPLACE SHOREPLACE
+NORTHISLAND_1 SET_SHOREPLACE SHOREPLACE
+ISLAND_2 SET_SHOREPLACE SHOREPLACE
+CANYON_1 SET_CANYON_1 CANYON
+CANYON_2 SET_CANYON_2 CANYON
+CANYON_3 SET_CANYON_3 CANYON
+CANYON_4 SET_CANYON CANYON_old
+CANYON_5 NONE CANYON
+CANYON_6 NONE CANYON
+CANYON_G1 SET_CANYON_BG_G1 CANYON
+CANYON_G2 SET_CANYON_BG_G2 CANYON
+CANYON_G3 SET_CANYON_G3 CANYON
+CANYON_G4 SET_CANYON_BG_G4 CANYON
+CANYON_B SET_CANYON_BG_B CANYON
+CANYON_TOP SET_CANYON CANYON_old -100,100
+CANYON_LEFT SET_CANYON CANYON_old
+CANYON_ITEM SET_CANYON CANYON_old
+CANYON_RIVER SET_CANYON CANYON_old
+CANYON_DREAM SET_CANYON CANYON_old
+CANYON_SEX SET_CANYON CANYON_old
+CANYONPLACE NONE DEBUG2
+CANYONIN1 NONE DEBUG2
+CANYONOUT1 NONE DEBUG2
+CANYONOUT2 NONE DEBUG2
+CANYONIN2 NONE DEBUG2
+CANYON_TEST SET_CANYON CANYON
+CANYON_TEST2 SET_CANYON CANYON
+CANYON_G1_1 SET_CANYON CANYON_old
+CANYON_G1_2 SET_CANYON CANYON_old
+CANYON_G1_3 SET_CANYON CANYON_old
+CANYON_G1_BOSS SET_CANYON CANYON_old
+WINDHILL NONE DEBUG2
+WINDHILL2 NONE DEBUG2
+WINDHILL3 NONE DEBUG2
+WINDHILLBOSS NONE DEBUG2
+WINDHILLG1 NONE DEBUG2
+HILL_1B SET_HILL_1B HILL
+HILL_2B SET_HILL_2B HILL
+HILL_3B SET_HILL_3B DEBUG3
+HILL_4B SET_HILL_4B DEBUG3
+HILL_5B SET_HILL_5B DEBUG3
+HILL_TEST SET_HILL HILL
+HILL_TEST2 SET_HILL HILL
+HILL_G1_OLD SET_HILL HILL_old
+HILL_G1_1 SET_HILL HILL_old
+HILL_B SET_HILL_B HILL
+HILL_G1 SET_HILL_G1 HILL
+HILL_G2 SET_HILL_G2 HILL
+HILL_G3 SET_HILL_G3 HILL
+HILL_G4 SET_HILL_G4 HILL
+HILL_G1_2 SET_HILL DEBUG3
+HILL_G1_3 SET_HILL DEBUG3
+HILL_G1_BOSS SET_HILL DEBUG3
+TOWN_ENTER NONE DEBUG2
+TOWN_THING NONE DEBUG2
+TOWN_IN NONE DEBUG2
+WF_HI_1 SET_WFHI_1 WHITEFORGE
+WF_HI_2 SET_WFHI_2 DEBUG4
+WF_HI_3 SET_WFHI_3 WHITEFORGE
+WF_LO_1 SET_WFLO_1 DEBUG4
+WF_LO_GRAVEYARD SET_WFLO_GRAVEYARD DEBUG4
+WF_LO_0 SET_WFLO_0 DEBUG4
+WF_TRAIN NONE DEBUG4
+WF_TRAIN_L NONE DEBUG4
+WF_SQUARE NONE DEBUG3
+WF_ALIPH NONE DEBUG4
+WF_ALIPH2 NONE DEBUG4
+WF_YARA NONE DEBUG4
+WF_LORES NONE DEBUG3
+WF_GOV_MAYOR SET_WFHI_MAYOR DEBUG4
+WF_GOV_LOBBY SET_WFHI_LOBBY DEBUG4
+WF_GOV_HIST NONE DEBUG4
+WF_GOV_JAIL NONE DEBUG4
+WF_ENTRY NONE DEBUG3
+WF_JS SET_WHITEFORGE_JUNK_WF_JS JUNK
+WF_JC SET_WHITEFORGE_JUNK_WF_JC JUNK
+WF_JH SET_WHITEFORGE_JUNK_WF_JH JUNK
+WF_GOV_MAYOR SET_WFHI_MAYOR DEBUG4
+WF_GOV_HIST SET_WFHI_HIST DEBUG4
+WF_ALIPH2 SET_WFHI_ALIPH DEBUG4
+WF_MUSEUM SET_WFHI_MUSEUM DEBUG4
+WF_LIBRARY SET_WFLO_LIBRARY DEBUG4
+WF_TRAIN_HI SET_WFHI_TRAIN DEBUG4
+WF_TRAIN_LO SET_WFLO_TRAIN DEBUG4
+WF_YARA SET_WFLO_YARA DEBUG4
+WF_ALIPH SET_WFLO_ALIPH DEBUG4
+WF_GRAVEYARD SET_WFLO_GRAVEYARD DEBUG4
+WF_J SET_WFLO_JUNK DEBUG4
+RADIO_TEST NONE DEBUG4
+RADIO_TEST2 NONE DEBUG4
+RADIO_TEST3 NONE DEBUG4
+RADIO_LOBBY SET_RADIO_BG_LOBBY RADIO
+RADIO_G1 SET_RADIO_BG_G1 RADIO
+RADIO_G2 SET_RADIO_BG_G2 RADIO
+RADIO_G3 SET_RADIO_BG_G3 RADIO2
+RADIO_G4 SET_RADIO_BG_G4 RADIO2
+RADIO_B SET_RADIO_BG_B RADIO2
+RADIO_B2 SET_RADIO_BG_B2 RADIO2
+RADIO_D1 SET_RADIO_BG_D1 RADIO
+RADIO_DB SET_RADIO_BG_DB RADIO
+BIGLAKE BGTEST2 DEBUG2
+WOODS_START NONE DEBUG3
+WOODS_ENTER NONE DEBUG3
+WOODS_UP1 NONE DEBUG3
+WOODS_UP2 NONE DEBUG3
+WOODS_TOP NONE DEBUG3
+WOODS_PATH NONE DEBUG3
+WOODS_IN1 NONE DEBUG3
+WOODS_G1_1 NONE DEBUG3
+WOODS_G1_2 NONE DEBUG3
+WOODS_G2_2 NONE DEBUG3
+WOODS_G2_1 NONE DEBUG3
+WOODS_CORE NONE DEBUG3
+WOODS_COURTYARD NONE DEBUG3
+WOODS_TOWER NONE DEBUG3
+FOREST1 NONE DEBUG2
+FOREST2 NONE DEBUG2
+FOREST3 NONE DEBUG2
+FOREST_G1 NONE DEBUG2
+FOREST_G1_2 NONE DEBUG2
+FOREST_G1_3 NONE DEBUG2
+FOREST_G1_4 NONE DEBUG2
+FOREST_G1_BOSS NONE DEBUG3
+RIVER NONE DEBUG3
+RIVER_R NONE DEBUG3
+RIVER_A NONE DEBUG3
+RIVER_PATH NONE DEBUG3
+RIVER_L NONE DEBUG3
+RIVER_TOP NONE DEBUG3
+FUNGUS NONE DEBUG3
+RIVER_TEST NONE DEBUG3
+RIVER_G1_1 NONE DEBUG3
+RIVER_G1_2 NONE DEBUG3
+RIVER_G1_3 NONE DEBUG3
+RIVER_G1_4 NONE DEBUG3
+RIVER_G1_5 NONE DEBUG3
+RIVER_TUBE NONE DEBUG3
+RIVER_TOWER NONE DEBUG3
+WHITE_TUNNEL NONE DEBUG2
+EARTH_SILO_OUT NONE DEBUG3
+SILO_E0 NONE DEBUG4
+EARTH_SILO_TEST NONE DEBUG4
+EARTH_SILO_0 SET_EARTHSILO_0 DEBUG4
+EARTH_SILO_1 NONE DEBUG3
+EARTH_SILO_2 NONE DEBUG3
+EARTH_SILO_3 NONE DEBUG3
+EARTH_SILO_1B SET_SILO_EARTH_BG_1 SILOEARTH
+EARTH_SILO_2B SET_SILO_EARTH_BG_2 SILOEARTH
+SEA_SILO_0 SET_SEASILO_0 DEBUG4
+SEA_SILO_1 SET_SILO_SEA_BG_1 SILOSEA
+SEA_SILO_2 SET_SILO_SEA_BG_2 SILOSEA
+AIR_SILO_0 SET_AIRSILO_0 DEBUG4
+AIR_SILO_1 SET_SILO_AIR_BG_1 SILOAIR
+AIR_SILO_2 SET_SILO_AIR_BG_2 SILOAIR
+FALLS_ENTER NONE DEBUG3
+PASS_ENTER NONE DEBUG3
+PASS_RIVERSIDE NONE DEBUG3
+PASS_ARTIST NONE DEBUG3
+PASS_BUILDING_1 NONE DEBUG3
+PASS_TOWER_2 NONE DEBUG3
+PASS_BASEMENT NONE DEBUG3
+PASS_PLATEAU NONE DEBUG3
+PASS_DOWN NONE DEBUG2
+DESERT_1 NONE SEAN
+EARTH_1 NONE DEBUG3
+EARTH_2 NONE DEBUG3
+EARTH_3 NONE DEBUG3
+EARTH_4 NONE DEBUG3
+EARTH_5 NONE DEBUG3
+EARTH_6 NONE DEBUG3
+EARTH_7 NONE DEBUG3
+EARTH_BOSS NONE DEBUG3
+CLIFF NONE DEBUG3
+CLIFF_DOWN NONE DEBUG3
+CLIFF_EDGE NONE DEBUG3
+CLIFF_CHASM NONE DEBUG3
+CLIFF_TOWN NONE DEBUG3
+CLIFF_MAIN NONE DEBUG3
+CLIFF_MAIN_UP NONE DEBUG3
+TESTCLIFF NONE DEBUG3
+AIR_1 NONE DEBUG3
+AIR_2 NONE DEBUG3
+AIR_3 NONE DEBUG3
+AIR_4 NONE DEBUG3
+AIR_5 NONE DEBUG3
+AIR_6 NONE DEBUG3
+AIR_7 NONE DEBUG3
+AIR_OUT NONE DEBUG3
+AIR_8 NONE DEBUG3
+SEA_1 NONE DEBUG3
+SEA_2 NONE DEBUG3
+SEA_3 NONE DEBUG3
+SEA_4 NONE DEBUG3
+SEA_5 NONE DEBUG3
+SEA_6 NONE DEBUG3
+SEA_BOSS NONE DEBUG3
+SEA_7 NONE DEBUG3
+SILO_S0 NONE DEBUG4
+SILO1_1 NONE DEBUG3
+SILO1_2 NONE DEBUG3
+SILO1_3 NONE DEBUG3
+SILO_A0 NONE DEBUG4
+SILO2_1 NONE DEBUG3
+SILO2_2 NONE DEBUG3
+SILO2_3 NONE DEBUG3
+___0 NONE DEBUG2
+___1 NONE DEBUG2
+___2 NONE DEBUG2
+LOOKTEST NONE DEBUG3
+# Deprecated The Ocean maps
+BIGCLIFF_SHORE NONE DEBUG2
+GREENHOUSE1 NONE DEBUG2
+SEAN1 NONE SEAN
+SHOREROUTER BGTEST2 DEBUG2
+BLUEROCKOUT SET_POSTGAME SEAN
+BLUEROCK_1 SET_POSTGAME SEAN
+BLUEROCK_2 SET_POSTGAME SEAN
+FIELD_INTRO BGTEST2 DEBUG2 
+GLADE1 BGTEST2 DEBUG2 
+O_TOWER1 NONE DEBUG2
+# Deprecated / test Even maps
+EM_TEST BGTEST2 MAPDEBUG
+E_PARK BGTEST2 DEBUG2
+ED_TEST BGTEST2 DEBUG2
+TEST5 SET_SEAN_BGTEST DEBUG3
+BASIN_1 SET_BASIN_1 BASIN
+BASIN_3 SET_BASIN_3 BASIN
+BASIN_2 SET_BASIN_2 BASIN
+BASIN_G1 SET_BASIN_BG_G1 BASIN
+BASIN_G2 SET_BASIN_BG_G2 BASIN
+BASIN_G3 SET_BASIN_BG_G3 BASIN
+BASIN_G4 SET_BASIN_BG_G4 BASIN
+BASIN_B SET_BASIN_BG_B BASIN
+BASIN_TEST NONE BASIN
+BASIN_TEST2 NONE BASIN
+WOODS_1 SET_WOODS_1 WOODS
+WOODS_2 SET_WOODS_2 WOODS
+WOODS_3 SET_WOODS_3 WOODS
+WOODS_G1 SET_WOODS_BG_G1 WOODS
+WOODS_G2 SET_WOODS_BG_G2 WOODS
+WOODS_G3 SET_WOODS_BG_G3 WOODS
+WOODS_G4 SET_WOODS_BG_G4 WOODS
+WOODS_B SET_WOODS_BG_B WOODS
+WOODS_TEST NONE WOODS
+WOODS_TEST2 NONE WOODS
+CLIFF_1 SET_CLIFF_1 CLIFF
+CLIFF_2 SET_CLIFF_2 CLIFF
+CLIFF_3 SET_CLIFF_3 CLIFF
+CLIFF_4 SET_CLIFF_4 CLIFF
+CLIFF_G1 SET_CLIFF_BG_G1 CLIFF
+CLIFF_G2 SET_CLIFF_BG_G2 CLIFF
+CLIFF_G3 SET_CLIFF_BG_G3 CLIFF
+CLIFF_G4 SET_CLIFF_BG_G4 CLIFF
+CLIFF_B SET_CLIFF_BG_B CLIFF
+CLIFF_TEST NONE CLIFF
+CLIFF_TEST2 NONE CLIFF
+CLIFF_TEST3 NONE CLIFF
+FALLS_1 SET_FALLS_1 FALLS
+FALLS_2 SET_FALLS_2 FALLS
+FALLS_SET SET_FALLS_SET FALLS
+FALLS_G1 SET_FALLS_BG_G1 FALLS
+FALLS_G2 SET_FALLS_BG_G2 FALLS
+FALLS_G3 SET_FALLS_BG_G3 FALLS
+FALLS_G4 SET_FALLS_BG_G4 FALLS
+FALLS_B SET_FALLS_BG_B FALLS
+FALLS_TEST NONE FALLS
+FALLS_TEST2 NONE FALLS
+PASS_1 SET_PASS_1 PASS
+PASS_2 SET_PASS_2 PASS
+PASS_3 SET_PASS_3 PASS
+PASS_G1 SET_PASS_G1 PASS
+PASS_G0 SET_PASS_G0 PASS
+PASS_G2 SET_PASS_G2 PASS
+PASS_G3 SET_PASS_G3 PASS
+PASS_G4 SET_PASS_G4 PASS
+PASS_B SET_PASS_B PASS
+PASS_TEST NONE PASS
+PASS_TEST2 NONE PASS
+PASS_TEST3 NONE PASS
+PASS_TEST4 NONE PASS
+RIVER_1 SET_RIVER_1 RIVER
+RIVER_2 SET_RIVER_2 RIVER
+RIVER_3 SET_RIVER_3 RIVER
+RIVER_4 SET_RIVER_4 RIVER
+RIVER_B SET_RIVER_BG_B RIVER
+RIVER_G1 SET_RIVER_BG_G1 RIVER
+RIVER_G2 SET_RIVER_BG_G2 RIVER
+RIVER_G3 SET_RIVER_BG_G3 RIVER
+RIVER_G4 SET_RIVER_BG_G4 RIVER
+TUNNEL_1 SET_TUNNEL_1 DEBUG4
+TUNNEL_2 SET_TUNNEL_2 DEBUG4
+TUNNEL_3 SET_TUNNEL_3 DEBUG4
+TUNNEL_4 SET_TUNNEL_4 DEBUG4
+TUNNEL_5 SET_TUNNEL_5 DEBUG4
+TUNNEL_6 SET_TUNNEL_6 DEBUG4
+KV_RADIO SET_KV_RADIO DEBUG4
+KV_1 SET_KV_1 DEBUG4
+KV_GOV SET_KV_GOV DEBUG4
+KV_BED NONE DEBUG4
+CAMTEST NONE DEBUG4
+MAPTEST NONE SEANMAPSKETCH
+HILL_1 SET_HILL_1 HILL
+HILL_2 SET_HILL_2 HILL
+HILL_3 SET_HILL_3 HILL
+HILL_4 SET_HILL_4 HILL
+HILL_5 SET_HILL_1 HILL
+OLD_ENTER NONE DEBUG4
+SHALLOW_1 NONE SEAN
+SHALLOW_2 NONE SEAN
+SHALLOW_0 NONE SEAN
+DESCENT NONE SEAN
+ASCENT NONE SEAN
+D_TOWER NONE SEAN
+JAIL NONE SEANMAPSKETCH
+OLD_1 NONE SEANMAPSKETCH
+OLD_2 NONE DEBUG4
+OLD_3 NONE SEAN
+OLD_4 NONE DEBUG2
+OLD_5 NONE DEBUG
+OLD_6 NONE DEBUG4
+BRIDGE_1 SET_BRIDGE_1 DEBUG4
+BRIDGE_2 SET_BRIDGE_2 DEBUG4
+BRIDGE_BASIN SET_BRIDGE_BASIN DEBUG4
+BRIDGE_RIVER SET_BRIDGE_RIVER DEBUG4
+BRIDGE_HILL SET_BRIDGE_HILL DEBUG4
+PARENTS_1 SET_PARENTS_1 DEBUG4
+LOPEZ_1 SET_LOPEZ_1 DEBUG4
+GM_1 SET_GM_1 DEBUG4
+FLOODTEST SET_FLOODTEST DEBUG5
+DARKDEATHTEST SET_DARKDEATHTEST DEBUG4
+LIGHTDEATHTEST SET_LIGHTDEATHTEST DEBUG4
+PROCESS SET_PROCESS DEBUG4
+
+# List of tileset pngs
+TILESET_LIST
+DEBUG
+DEBUG2
+ROUGE
+WHITEFORGE
+JUNK
+MAPDEBUG
+STONEFOREST
+CANYON
+CANYON_old
+BASIN
+HILL
+HILL_old
+SHOREPLACE
+SHOREPLACEA
+SEANMAPSKETCH
+SEAN
+DEBUG3
+SHOREPLACEA
+SHORE
+WOODS
+CLIFF
+FALLS
+PASS
+RIVER
+SILOSEA
+SILOEARTH
+SILOAIR
+RADIO
+RADIO2
+DEBUG4
+DEBUG5
+
+# map -> animtiles
+ANIMTILES_LIST
+DEBUG
+
+# Array of string names, 	BG, BG1, B_BG, FG. The draw order is B_BG, BG, BG1, FG
+# PARTICLE SYSTEM NOTE: The BG particles will be between the BEHIND BG and the BG1 layers.
+#
+# Which set a map loads depends on either the specified argument under BG_HASH,
+# or whatever the result from the script file is
+PARALLAX_SETS
+TEST_1 none testnear none test2
+TEST_2 test2,testnear,testmid none
+BGTEST2 jontest,jontestmid none
+BGTEST test,testmid,testnear none
+SET_GAUNTLET_MODE_BG_1 gauntlet_mode_BG_1 none
+#
+#
+SET_CAMTEST testwm2 none testwm2 testmist,mapborder
+SET_ALT_CAMTEST testwm2 none testwm2 maprain1,testmist,sunsetglow,mapborder
+SET_ALT_CAMTEST_FLOOD testwm2 none testwm2 sunsetglow,mapborderwide
+#
+SET_MAP_NORTHMAP map_northmap none none testmist,mapborder
+SET_MAP_NORTHMAP_FLOOD map_northmap none none sunsetglow,mapborderwide
+#
+NONE none none
+SET_BRIDGE_1 bridgesky,bridgehills,bridge1 none
+SET_BRIDGE_2 bridgesky,bridgehills,bridge2 none
+SET_BRIDGE_BASIN basinsky,bridge_basin none
+SET_BRIDGE_RIVER riversky,bridge_river none
+SET_BRIDGE_HILL hillsky,bridge_hill none
+SET_JON jontest,jontestmid none
+SET_STONEFOREST stoneforestsky,stoneforestmount none
+SET_ROUGE_0 rougesky0,rougemtnB0,rougemtn0,rouge0 rougefg0 none rougeglow
+SET_ROUGE_1 rougemtnB,rougemtn,rouge1 rougefg1 rougesky rougeglow
+SET_ROUGE_2 rougemtnC2,rougemtnB2,rouge2 rougefg2 rougesky2 rougeglow
+SET_ROUGE_3 stoneforestsky,rougemtnB,rougemtn,rouge3 none
+SET_ROUGE_4 rougecavelight,rougecave2,rouge4 rougefg4 rougecave rougeglow
+SET_ROUGE_5 rougecave,rougecavelight,rougecave2,rouge5 none none rougeglow
+SET_ROUGE_G1 rougecave,rougecavelight,rougecave2,rougeg1 none none rougeglow
+SET_ROUGE_G2 rougecave,rougecavelight,rougecave2,rougeg2 none none rougeglow
+SET_ROUGE_G3 rougecave,rougecavelight,rougecave2 none none rougeglow
+SET_ROUGE_B rougecave,rougecavelight,rougecave2,rougeb none none rougeglow
+SET_WFHI_2 wfhi_sky,wfhi_skyline,wfhi_2 wfhi_fg2
+SET_WHITEFORGE_JUNK_WF_JC wflo_skyJ,wflo_hillsJ,wf_junk,whiteforge_junk_WF_JC none
+SET_WHITEFORGE_JUNK_WF_JH wflo_skyJ,wflo_hillsJ,wf_junk,whiteforge_junk_WF_JH none
+SET_WHITEFORGE_JUNK_WF_JS wflo_skyJ,wflo_hillsJ,wf_junkb,whiteforge_junk_WF_JS none
+#
+#
+#
+#
+#
+# RAIN = ending rainy, SUNSET = ending not raining, DAMAGED = damaged, no dark bg (during I2 only)
+#
+SET_WFHI_1 wfhi_skylineclose,wfhi_1 wfhi_fg1 wfhi_sky,wfhi_skyline wfhi_glow
+SET_DAMAGED_WFHI_1 wfhi_skylinecloseb,wfhi_1b wfhi_fg1b wfhi_skyb,wfhi_skylineb wfhi_glowb
+SET_RAIN_WFHI_1 wfhi_skylineclosec,wfrain1b,wfhi_1c,wfrain1 wfhi_fg1c wfhi_skyc,wfhi_skylinec wfhi_glowc
+SET_SUNSET_WFHI_1 wfhi_skylineclosec,wfhi_1c wfhi_fg1c wfhi_skyc,wfhi_skylinec wfhi_glowc
+#
+SET_WFLO_0 wflo_sky0,wflo_0 wflo_fg0
+SET_DAMAGED_WFLO_0 wflo_sky0b,wflo_0b wflo_fg0b none wfhi_glow
+SET_RAIN_WFLO_0 wflo_sky0c,wflo_0c,fallsrain2b,fallsrain2 wflo_fg0c none wfhi_glowc
+#
+SET_WFLO_1 wflo_sky,wflo_pillar,wflo_buildings,wflo_1 none none wflo_glow
+SET_DAMAGED_WFLO_1 wflo_skyb,wflo_pillarb,wflo_buildingsb,wflo_1b none none wflo_glow
+SET_SUNSET_WFLO_1 wflo_skyc,wflo_pillarc,wflo_buildingsc,wflo_1c none none wfhi_glowc
+#
+SET_WFHI_3 wfhi_skyline3,wfhi_3 none wfhi_sky wfhi_glow
+SET_DAMAGED_WFHI_3 wfhi_skyline3,wfhi_3b none wfhi_sky wfhi_glow2
+SET_WFHI_TRAIN wfhi_train none
+SET_WFHI_MAYOR wfhi_mayor none
+SET_WFHI_LOBBY wfhi_lobby none
+SET_WFHI_HIST wfhi_hist none
+SET_WFHI_ALIPH wfhi_aliph none
+SET_WFHI_MUSEUM wfhi_museum none
+SET_WFLO_LIBRARY wflo_library none
+SET_WFLO_YARA wflo_yara none
+SET_WFLO_ALIPH wflo_aliph none
+SET_WFLO_TRAIN wflo_train none
+SET_WFLO_GRAVEYARD wflo_skyJ,wflo_hills,wflo_graveyard fg_graveyard
+SET_WFLO_JUNK wflo_skyJ,wflo_hillsJ,wf_junkc,whiteforge_junk_WF_J none
+SET_SHOREPLACE shoreplacesky,shoreplacemtn,shoreplaceisle,shoreplacesun none
+SET_SHOREPLACEIN shoreplacefalls,shoreplacegodray,shoreplacecavern none
+SET_CANYON canyonsky,canyonwater,canyoncliff2 none
+SET_CANYON_1 canyon1 canyonfg1 canyonsky,canyontop canyonglow
+SET_CANYON_2 canyon2 canyonfg2 canyonsky2,canyoncliff canyonglow
+SET_CANYON_3 canyon3 none canyonsky3,canyoncliff3 canyonfg3,canyonglow
+SET_CANYON_BG_G1 canyoncave,canyoncavemist,canyoncave2,canyon_BG_G1 none none canyonglow
+SET_CANYON_BG_G2 canyoncave,canyoncavemist,canyoncave3,canyon_BG_G2 none none canyonglow
+SET_CANYON_G3 canyonsky,canyoncliffg3,canyon_BG_G3 none none canyonglow
+SET_CANYON_BG_G4 canyoncave1,canyoncavemist,canyon_BG_G4 none none canyonglow
+SET_CANYON_BG_B canyoncave1,canyoncavemist,canyoncaveB,canyon_BG_B none none canyonglow
+SET_HILL hillsky none
+SET_HILL_1B hillsky,hill1b hillfg1b
+SET_HILL_2B hillsky,hill2b none
+SET_HILL_3B hill3b none
+SET_HILL_4B hill4b none
+SET_HILL_5B hill5b none
+SET_SEAN_BGTEST sean_BGTEST none
+SET_SHORE_1 shoredune,shore1 shorefg1 shoresky shoreglow
+SET_SHORE_2 shoredune2,shore2 shorefg2 shoresky shoreglow
+SET_SHORE_3 shore3 shorefg3 shorewaterback shoreglow2
+SET_SHORE_4 shorewatermid,shore4 shorefg4 shoresky2 shoreglow
+SET_SHORE_5 shorewatermid,shore5 shorefg5 shoresky2 shoreglow
+SET_SHORE_6 shoresky,shoredune,shore6 none
+SET_SHORE_BG_G1 shoreinside1,shore_BG_G1 none none shoreglow
+SET_SHORE_BG_G2 shoreinside1,shore_BG_G2 none none shoreglow
+SET_SHORE_BG_G3 shoreinside1,shore_BG_G3 none none shoreglow
+SET_SHORE_BG_G4 shoreinside1,shore_BG_G4 none none shoreglow
+SET_SHORE_BG_B shoreinside1,shore_BG_B none none shoreglow
+SET_SHORE_TEST shoreinside1,shoretest none
+SET_BASIN_1 basinfog,basinhills,basin1 basinfg1 basinsky basinglow
+SET_BASIN_3 basinpittrees,basin3 basinfg3 basinpit3 basinglow2
+SET_BASIN_2 basinsky,basinpit,basin2 none
+SET_WOODS_1 woodstrees2,woodstrees,woods1 woodsfg1 woodsmist woodstreesfg,woodsglow
+SET_WOODS_2 woodstrees2,woodstrees,woods2 woodsfg2 woodsmist woodsglow
+SET_WOODS_3 woodstrees2,woodstrees,woodslibrary,woods3 woodsfg3 woodsmist woodsglow3
+SET_CLIFF_1 cliffsky,cliffdune,cliff1 cliffdunefg none cliffglow
+SET_CLIFF_2 cliffskyb,cliffdune2,cliff2 clifffg2 none cliffglow
+SET_CLIFF_3 cliffroomcaves,cliff3 clifffg3 cliffskyc none
+SET_CLIFF_4 cliff4 clifffg4 none cliffglow4
+SET_CLIFF_BG_G1 cliffskyc,cliffskyscroll,cliff_BG_G1 none
+SET_CLIFF_BG_G2 cliffsky2,cliff_BG_G2 none
+SET_CLIFF_BG_G3 cliffsky2,cliff_BG_G3 none
+SET_CLIFF_BG_G4 cliffsky2,cliff_BG_G4 none
+SET_CLIFF_BG_B cliffsky2,cliff_BG_B none
+SET_FALLS_1 fallsrain1b,fallsrain1,falls1 fallsfg1 fallssky,fallshills fallsglow,fallslensglow
+SET_FALLS_2 fallsrain2b,fallsrain2,falls2 none fallsdarksky,fallshills2 fallsfg2,fallsglow2
+SET_FALLS_SET none none none riverwaterglow
+SET_FALLS_BG_G1 fallscave,fallscave2,falls_BG_G1 none
+SET_FALLS_BG_G2 fallscave,fallscave2,falls_BG_G2 none
+SET_FALLS_BG_G3 fallscave,fallscave2,falls_BG_G3 none
+SET_FALLS_BG_G4 fallscave,fallscave2,falls_BG_G4 none
+SET_FALLS_BG_B fallscave,fallscave2,falls_BG_B none
+SET_PASS_1 passhills,passtrees,pass1 passfg1 passsky passglow none
+# SET_PASS_2 passhills,passtrees2,pass2 passfg2 passsky passglow none
+SET_PASS_2 passhills,passtrees2,passgeomeleg,pass2 passfg2 passsky passglow none
+SET_PASS_3 passsky,pass3 none
+SET_PASS_G0 passsky,pass_BG_G0 none none passglow
+SET_PASS_G1 passcave,pass_BG_G1 none none passcaveglow
+SET_PASS_G2 passcave,pass_BG_G2 none none passcaveglow
+SET_PASS_G3 passcave,pass_BG_G3 none none passcaveglow
+SET_PASS_G4 passcave,pass_BG_G4 none none passcaveglow
+SET_PASS_B passcave,pass_BG_B none none passcaveglow
+SET_RIVER_1 rivercorn3,rivercorn2,rivercorn1,river1 riverfg1 riversky riverglow
+SET_RIVER_2 riverhills,river2 riverfg2 riversky riverglow
+SET_RIVER_3 riversky2,riverhills3,river3 none
+SET_RIVER_4 riversky2 ,river4 none
+SET_MAP2OLD map_BG_2 none
+SET_HILL_1 hilllowhills,hilllowwater,hill1 hillfg1 hillsky hillglow
+SET_HILL_2 hillhills2,hilllowhills2,hill2 hillfg2 hillsky,hillsky2,hillsky3 hillglow
+SET_HILL_3 hillsky,hillsky2,hillsky3,hillhills2,hill3 hillfg3,hillglow
+SET_HILL_4 hillhills2,hilllowhills2,hill4 hillfg4 hillsky,hillsky2,hillsky3 hillglow
+SET_HILL_G1 hillsky,hillsky2,hillsky3,hillg1 none none hillglow
+SET_HILL_G2 hillsky,hillsky2,hillsky3,hillg2 none none hillglow
+SET_HILL_G3 hillsky,hillsky2,hillsky3,hillg3 none none hillglow
+SET_HILL_G4 hillsky,hillsky2,hillsky3,hillg4 none none hillglow
+SET_HILL_B hillsky,hillsky2,hillsky3,hillb none none hillglow
+SET_HILL_B hillsky,hillsky2,hillsky3,hillb none none hillglow
+SET_TUNNEL_1 tunnelsky,tunnelhills,tunnel1 none
+SET_TUNNEL_2 tunnel_wf none
+SET_TUNNEL_3 tunnel_kv none
+SET_TUNNEL_4 tunnelsky4,tunnelhills4,tunnel4 none
+SET_TUNNEL_5 tunnel_kv none
+SET_TUNNEL_6 tunnelsky6,tunnelhills6,tunnel6 none
+SET_RIVER_BG_G1 riverwater,riverwaterglow,river_BG_G1 none none rivergauntletglow
+SET_RIVER_BG_G2 riverwater,riverwaterglow,water,river_BG_G2 none none rivergauntletglow
+SET_RIVER_BG_G3 riverwater,riverwaterglow,river_BG_G3 none none rivergauntletglow
+SET_RIVER_BG_G4 riverwater,riverwaterglow,river_BG_G4 none none rivergauntletglow
+SET_RIVER_BG_B riverwater,riverwaterglow,river_BG_B none none rivergauntletglow
+SET_WOODS_BG_G1 woodscave,woods_BG_G1 none none woodsglow
+SET_WOODS_BG_G2 woodscave,woods_BG_G2 none none woodsglow
+SET_WOODS_BG_G3 woodscave,woods_BG_G3 none none woodsglow
+SET_WOODS_BG_G4 woodscave,woods_BG_G4 none none woodsglow
+SET_WOODS_BG_B woodscave,woods_BG_B none none woodsglow
+SET_BASIN_BG_G1 basincave,basin_BG_G1 none none basincaveglow
+SET_BASIN_BG_G2 basincave,basin_BG_G2 none none basincaveglow
+SET_BASIN_BG_G3 basincave,basin_BG_G3 none none basincaveglow
+SET_BASIN_BG_G4 basincave,basin_BG_G4 none none basincaveglow
+SET_BASIN_BG_B basincave,basin_BG_B none none basincaveglow
+SET_AIRSILO_0 airsilosky,airsilohills,airsilo0 airsilofg0 none airsiloglow
+SET_EARTHSILO_0 earthsilosky,earthsilohills,earthsilo0 none none earthsiloglow
+SET_SEASILO_0 seasilosky,seasilohills,seasilo0 none none seasiloglow
+SET_MAP_SOUTHMAP map_southmap none none testmist,mapborder
+SET_PARENTS_1 rougesky0,rougemtnB0,rougemtn0,parents1 parentsfg1 none rougeglow
+SET_LOPEZ_1 lopez1 none lopezsky,lopeztop canyonglow
+SET_RADIO_BG_G1 radiocave,radio_BG_G1 radiovignette
+SET_RADIO_BG_D1 radiocave,radio_BG_D1 radiovignette
+SET_RADIO_BG_DB radiocave,radio_BG_DB radiovignette,radioheatglow
+SET_RADIO_BG_LOBBY radiocave,radio_BG_LOBBY radiovignette
+SET_RADIO_BG_G2 radiocave,radio_BG_G2 radiovignette
+SET_RADIO_BG_G3 radiosky,radio_BG_G3 none none radiohiglow,radiohivignette
+SET_RADIO_BG_G4 radiosky,radio_BG_G4 none none radiohiglow,radiohivignette
+SET_RADIO_BG_B radiosky,radio_BG_B none none radiohiglow,radiohivignette
+SET_RADIO_BG_B2 wfrain1b,radio_BG_B2 radio_FG_B2 radiosky wfhi_glowc
+SET_KV_1 kvsky,kvhills,kv1 none none kvglow
+SET_KV_RADIO kvradio none none kvglow2
+SET_KV_GOV office_kv
+SET_SILO_SEA_BG_1 silo_sea_cave,silo_sea_BG_1 none
+SET_SILO_SEA_BG_2 silo_sea_cave,silo_sea_BG_2 none
+SET_SILO_AIR_BG_1 silo_air_cave,silo_air_BG_1 none
+SET_SILO_AIR_BG_2 silo_air_cave,silo_air_BG_2 none
+SET_SILO_EARTH_BG_1 silo_earth_cave,silo_earth_BG_1 none
+SET_SILO_EARTH_BG_2 silo_earth_cave,silo_earth_BG_2 none
+SET_FLOODTEST floodtest sunsetglow,mapborderwide
+SET_DARKDEATHTEST darkdeath,darkdeathtexture,darkdeathtexture2,darkdeathtube,darkdeathaliph,darkdeathvignette
+SET_LIGHTDEATHTEST lightdeath,lightdeathtexture,lightdeathtexture2,lightdeathtube,lightdeathaliph,lightdeathvignette
+SET_GM_1 gauntlet_mode_BG_1 none
+SET_PROCESS googledoc,email,photoshop,googledoc2 none
+SET_POSTGAME none none
+# Leave this above blank spot

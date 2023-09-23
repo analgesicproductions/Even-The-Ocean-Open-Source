@@ -1,0 +1,5 @@
+// Inputs: Registry reference
+if (R.scratch_state[0]) {
+	return "TEST_1";
+}
+return "TEST_2";

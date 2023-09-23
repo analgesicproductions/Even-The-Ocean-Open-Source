@@ -1,0 +1,89 @@
+{ Pew 
+{ 2 
+_name s "Normal-Down-Dark"
+mb i 4
+bspd i 40
+fint f 0.7
+dir i 2
+fpattern i 1
+vistype i 2
+}
+{ 1
+_name s "Normal-Down-Light"
+mb i 4
+bspd i 40
+fint f 0.7
+dir i 2
+fpattern i 0
+vistype i 1
+}
+}
+
+# A square door that requires pressing action to open
+{ Door
+{ 1
+_name s "World map square door"
+dest_x i 0
+dest_y i 0
+dest_map s "TEST"
+behavior i 3
+type i 1
+}
+
+{ 2
+_name s "sidescroll auto"
+dest_x i 0
+dest_y i 0
+dest_map s "TEST"
+behavior i 0
+type i 0
+}
+
+{ 3
+_name s "even worldmap"
+dest_x i 0
+dest_y i 0
+dest_map s "E_PARK"
+
+behavior i 4
+type i 1
+}
+
+{ 4
+_name s "Sidescroll Tall Auto"
+dest_x i 0
+dest_y i 0
+dest_map s "TEST"
+behavior i 0
+type i 2
+}
+
+}
+
+
+{ FollowLaser
+{ 1
+_name s "Hor_Down_Light"
+accel i 0
+axis_tracks_player i 1
+angvel i 0
+is_fixed i 1
+vistype i 0
+tracking_vel i 50
+tracking_axis s "x"
+fixed_angle i 90
+}
+}
+
+{ CameraTrigger 
+{ 1
+_name s "All-Lock-Double-Entrance"
+enter s ""
+exit s ""
+nrenter i 2
+nrexit i 2
+width i 416 
+height i 256
+vistype i 2
+}
+}

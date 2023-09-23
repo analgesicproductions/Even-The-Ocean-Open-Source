@@ -1,0 +1,111 @@
+
+!PARTICLE_ANIMS
+#Note: filename is relative to assets/sprites/bg/p/
+# ID			filename								w 	h		frames		frame_rate	blend(0,1,2,3/NAMS)
+test_1			test_2x2.png							16 	16		0,1			3
+test_2			test_2x2.png							16 	16		4			1
+test_3			test_2x2.png							16 	16		2,3			16
+canyon_1		canyon.png								16	16		0			6		
+canyon_1b		canyon.png								16	16		1			6
+basin_1			basin.png								16	16		0			6	1		
+basin_1b		basin.png								16	16		1			6	1
+basin_2			basin.png								16	16		2			6	1
+hill_1			hill.png								32 	32		0			6	0
+hill_2			hill.png								32 	32		1			6	0
+hill_3			hill.png								32 	32		2			6	0
+hill64_1		hill64.png								64 	64		0			6	0
+hill64_2		hill64.png								64 	64		1			6	0
+hillwind		hill128.png								128 16		0			6	1
+hillwind2		hill128.png								128 16		1			6	1
+falls_1			falls.png								16 	80		0			12
+falls_1b		falls.png								16 	80		1			12
+falls_2			falls.png								16 	80		2			12
+falls_2b		falls.png								16 	80		3			12
+wflo_0			wf.png									16 	80		0			12  1
+wfhi_1			wf.png									16 	80		0			12  1
+END_PARTICLE_ANIMS
+
+#########################################
+# PARTICLE_LAYERS Instructions
+#########################################
+# 'movetype' types:
+#	0 = Drifts downwards constant velocity. Will oscillate left to right at with a max x velocity in the range defined in 'xv', will fall at a fixed rate picked from the range defined in 'yv'. Acceleartion is 22 px/s^2. 
+#	1 = Drifts downwards constant velocity, but also moves at constant velocity in the x-direction. 
+		NOTE - in 0 and 1, absolute value of the x velocity always falls into the range defined in xv. So you can get negative and positive values if xv = 9,14, etc
+# 	2 = Same as 1, but doesn't randomly flip the sign of the x-velocity
+# 'light': If 'light' = 1, then when this particle overlaps a LightBox entity, it will fade to the max alpha value as defined in the range in 'a'. Likewise if 'light' = 0, when not touching a LightBox, the particle will fade to the min alpha value given in 'a'.
+# 'p' : A list of integers that add to 100. This is the probability that a newly spawned particle will have a certain animation, e.g. if anims=1,2 and p=25,75, animation 1 plays 25% of the time and anim 2 plays 75% of the time. If not specified, each has equal chance
+# 'a' : the range of alpha for this particle. If 'light' = 0, this should be 1 number.
+#
+# 'color' rgb color of the particle, if a 1x1 particle generaedin game
+# 'anims' - list of anims (above) this particle uses. 
+#########################################
+
+!PARTICLE_LAYERS
+rouge_1		light=1  	color=0xdbbb77  nr=100  movetype=0  xv=9,14		yv=12,20	a=0.25,0.87
+basin_1		light=1  	anims=basin_1,basin_1b  nr=20  movetype=0  xv=9,14		yv=50,80		a=0.2
+basin_2		light=1  	anims=basin_2  nr=35  movetype=0  xv=5,10		yv=20,50		a=0.1
+falls_1		light=0  	anims=falls_1  nr=50  movetype=2  xv=0,0		yv=500,600	a=0.4
+falls_1b	light=0  	anims=falls_1b  nr=50  movetype=2  xv=0,0		yv=200,300		a=0.2
+falls_2		light=0  	anims=falls_2  nr=50  movetype=2  xv=0,0		yv=500,600	a=0.4
+wflo_0		light=0  	anims=wflo_0  nr=50  movetype=2  xv=0,0		yv=500,600	a=0.4
+wfhi_1		light=0  	anims=wfhi_1  nr=50  movetype=2  xv=0,0		yv=500,600	a=0.4
+falls_2old	light=0  	anims=falls_2  nr=35  movetype=2  xv=-50,-50		yv=300,460		a=0.3
+falls_2b	light=0  	anims=falls_2b  nr=50  movetype=2  xv=0,0		yv=100,200		a=0.2
+canyon_sp1	light=1  	anims=canyon_1,canyon_1b nr=50  movetype=0  xv=-9,-14	yv=-12,-20	a=0.25,1
+canyon_sm	light=0  	color=0xfdddb4  nr=100  movetype=0  xv=-4,-6	yv=-4,-6	a=.1
+canyon_1	light=1  	color=0xebfdca  nr=50  movetype=0  xv=-9,-14	yv=-12,-20	a=0.2,0.87
+hill_1		light=0  	anims=hill_1,hill_2  	nr=10  movetype=2  xv=-100,-140	yv=-10,10	a=0.2
+hill_2		light=0  	color=0xebfdca 	nr=30  movetype=2  xv=-60,-100	yv=-12,-20	a=0.3
+hill_3		light=0  	anims=hill_2,hill_3  	nr=20  movetype=2  xv=-40,-80	yv=-10,10	a=0.1
+hill_wind	light=0  	anims=hillwind,hillwind2  	nr=20  movetype=2  xv=-200,-280	yv=0,0	a=0.3
+test_1		light=0		anims=test_1,test_2	nr=30	p=25,75	movetype=0	xv=5,15	yv=12,20	a=0.6
+test_2		light=1		anims=test_3 nr=15	movetype=0	xv=50,75	yv=50,70	a=0.2,0.9
+test_3		light=0		color=0xdbbb7	nr=15	movetype=0	xv=50,75	yv=50,70	a=1
+desert_1	light=0		color=0xff7777 nr=150 movetype=2 xv=-50,-150 yv=40,20 a=1
+desert_2	light=0		color=0xeeddbb nr=150 movetype=2 xv=-10,-20 yv=5,10 a=1
+shallow_bg	light=0		color=0x0033e6 nr=100 movetype=0 xv=10,5 yv=20,40 a=0.5
+shallow_1	light=0		color=0x0077ee nr=100 movetype=2 xv=40,75 yv=30,50 a=1
+oo_1		light=0		color=0x11eedd nr=100 movetype=0 xv=20,70 yv=10,20 a=1
+bluerock_1 light=1		color=0xdddddd nr=200 movetype=0 xv=10,5 yv=-20,-25 a=0.15,0.9
+bluerock_2 light=0		color=0x282828 nr=50 movetype=0 xv=10,5 yv=-5,-10 a=0.8	
+otower		light=0		color=0xeedd23 nr=50 movetype=2 xv=-100,-70 yv=-150,-100 a=0.8	
+otower2		light=0		color=0xee23dd nr=50 movetype=2 xv=-100,-70 yv=-150,-100 a=0.8	
+otower_slo	light=0		color=0xeedd23 nr=50 movetype=1 xv=-10,-7 yv=-15,-10 a=0.7
+otower2_slo	light=0		color=0xee23dd nr=50 movetype=1 xv=-10,-7 yv=-15,-10 a=0.7	
+END_PARTICLE_LAYERS
+
+# It's okay to leave the map names in lowercase. The game will draw the particle types as defined above, with the left-most particle type being on the bottom. So in the example, the rouge_1-type particles will be below the hill_1-type particles.
+
+!MAP_LIST
+#Map name	bg			fg							bfg
+CANYON_1	canyon_sm	canyon_sp1
+CANYON_2	canyon_sm	canyon_sp1
+CANYON_3	canyon_sm	canyon_sp1
+LOPEZ_1		canyon_sm	canyon_sp1
+BASIN_1		basin_2		basin_1
+BASIN_3		basin_2		basin_1
+HILL_3		hill_3		hill_1,hill_2
+HILL_4		hill_2		hill_1,hill_3,hill_wind
+ROUGE_0		none		rouge_1
+ROUGE_1		none		rouge_1
+ROUGE_2		none		rouge_1
+PARENTS_1	none		rouge_1
+MAP1		none		none						falls_1b
+WF_LO_0		none		wflo_0
+WF_HI_1		none		wfhi_1
+RADIO_B2		none		wfhi_1
+FALLS_1		none		falls_1
+FALLS_2		none		falls_2
+empty_test	none		none
+DESERT_1	none		desert_1
+EARTH_1		none		desert_2
+MAPTWO		none		oo_1
+SHALLOW_1	shallow_bg 	shallow_1
+SHALLOW_0	shallow_bg 	shallow_1
+BLUEROCKOUT bluerock_2	bluerock_1
+O_TOWER1	none		otower,otower2
+___0		none		otower_slo,otower2_slo
+___1		none		otower_slo,otower2_slo
+___2		none		otower_slo,otower2_slo
+END_MAP_LIST

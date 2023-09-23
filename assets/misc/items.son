@@ -1,0 +1,363 @@
+# even the ocean item manifest
+# (don't mess with this!)
+# Example
+#{ 1 // Numerical item identifier, used for indexing into the item pickup state / trivia obtained / greenhouse planted state arrays / as well as dialogue
+#	type s "trivia" // valid types: trivia, plant, secret, even, story 
+#	area s "SHOREPLACE" // This will determine wher ein the inventroy this item shows up
+#	item_path s "path/to/sprite.png" // Path to spritesheet for how item appears when floating, if relevant. If not specified, defaults to default spritesheet
+#	item_anim ia 1,2,3 // Animation for the item in an area
+#	item_w i 6 // frame width of item 
+#	item_h i 6 // frame height of item
+#	item_fr i 4 // frame rate
+#	floats i 0 // whether it floats up and down
+#
+#	path s "path/to/sprite.png" // If this is a plant type item, this is the spritesheet where the plant in the greenhouse will pull its frames from, if it's trivia, this is where the trivia picture will be from
+#	fr i 4 // frame rate	
+#	anim ia 1,2,3 // specify animation frames (loops)
+#	w i 16 // width/height of trivia picture/plant
+#	h i 16 
+#}
+#
+# Animated test plant 1
+{ 0
+type s "plant"
+path s "sprites/npc/test_greenhouse_plants.png"
+fr i 4
+anim ia 0,1
+w i 16
+h i 32
+area s "debug"
+}
+
+# Test trivia object 1
+{ 1
+type s "trivia"
+path s "sprites/npc/test_greenhouse_plants.png"
+anim ia 2
+fr i 4
+w i 16
+h i 16
+area s "debug"
+}
+
+# Static test plant 1 16x32
+{ 2
+type s "plant"
+path s "sprites/npc/test_greenhouse_plants.png"
+anim ia 2
+fr i 4
+w i 16
+h i 32
+area s "debug"
+}
+
+# Static test plant 2 16x16
+{ 3
+type s "plant"
+path s "sprites/npc/test_greenhouse_plants.png"
+anim ia 3
+fr i 4
+w i 16
+h i 16
+area s "debug"
+}
+
+# Test Gauntlet prizes
+{ 4
+type s "trivia"
+item_path s "sprites/test/float_items.png"
+item_anim ia 0,1
+item_w i 16
+item_h i 16
+item_fr i 10
+floats i 0
+area s "debug"
+}
+{ 5
+type s "trivia"
+item_path s "sprites/test/float_items.png"
+item_anim ia 10,11
+item_w i 16
+item_h i 16
+item_fr i 6
+area s "Stone Forest"
+}
+{ 6
+type s "even"
+area s "Shore"
+}
+{ 7
+type s "secret"
+area s "Forest"
+}
+// pamphlet
+{ 8
+}
+{ 9
+}
+
+// CLARISEED
+{ 10
+type s "plant"
+area s "Shore"
+}
+// GORGON SEED - got through angry_lounger
+{ 11
+type s "plant"
+area s "Shore"
+}
+
+// RED EYE MARBLE
+{ 12
+type s "plant"
+area s "Canyon"
+}
+
+// FUNGUS SHEARS
+{ 13
+}
+// Fungus bits
+{ 14
+}
+// Fungus matches
+{ 15
+}
+// empty vial
+{ 16
+}
+
+// bay/trent map UNUSED
+{ 17
+type s "MAP"
+path s "sprites/ui/map/hill_bay_trent.png"
+w i 48
+h i 48
+}
+// World map
+{ 18
+type s "MAP"
+path s "sprites/ui/map/world_map_in.png"
+w i 192
+h i 192
+}
+// earth silo
+{ 19
+type s "MAP"
+path s "sprites/ui/map/world_map_in.png"
+w i 112
+h i 112
+}
+// air silo
+{ 20
+type s "MAP"
+path s "sprites/ui/map/world_map_in.png"
+w i 112
+h i 112
+}
+// sea silo
+{ 21
+type s "MAP"
+path s "sprites/ui/map/world_map_in.png"
+w i 112
+h i 112
+}
+
+// Crowbar for boulders in PASS
+{ 22
+}
+
+// Earth/Beast bombs
+{ 23
+}
+
+// Air/Bird bombs
+{ 24
+}
+
+// Sea/Fish bombs
+{ 25
+}
+
+// Map to Tunnel
+{ 26
+type s "MAP"
+path s "sprites/ui/map/tunnel_map.png"
+w i 192
+h i 192
+}
+
+// cactys perfume
+{ 27
+}
+// dark coin half
+{ 28
+}
+// light coin half
+{ 29
+}
+
+// postgame communication device
+{ 30
+}
+
+
+// POSTGAME ORBS */
+// Rouge orb
+{ 31
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 31
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+
+// City orb
+{ 32
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 32
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+
+// Shoreplace orb
+{ 33
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 33
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// Canyonplace orb
+{ 34
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 34
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// Windhill orb
+{ 35
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 35
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// River orb
+{ 36
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 36
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// Woods orb
+{ 37
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 37
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// Basin orb
+{ 38
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 38
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// desert beast orb
+{ 39
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 39	
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// blue rock bird orb
+{ 40
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 40
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// shallowlands fish orb
+{ 41
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 41
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// everdry stone
+{ 42
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 42
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// everwet stone
+{ 43
+item_path s "sprites/ui/inventory_items.png"
+item_anim ia 43
+item_fr i 2
+item_w i 28
+item_h i 28
+}
+// note-reader
+{ 44
+}
+
+// tissue sample
+{ 45
+}
+
+// jane's datacard
+{ 46
+}
+
+// Lift key
+{ 47
+}
+
+
+// Map to lopez
+{ 48
+type s "MAP"
+path s "sprites/ui/map/lopez_map.png"
+w i 192
+h i 192
+}
+
+// Key for hill
+{ 49
+}
+
+
+// World map set 2
+{ 50
+type s "MAP"
+path s "sprites/ui/map/world_map_in2.png"
+w i 192
+h i 192
+}
+
+// kv nort
+{ 51
+type s "MAP"
+path s "sprites/ui/map/world_map_north.png"
+w i 192
+h i 192
+}
+
+// kv south
+{ 52
+type s "MAP"
+path s "sprites/ui/map/world_map_south.png"
+w i 160
+h i 192
+}

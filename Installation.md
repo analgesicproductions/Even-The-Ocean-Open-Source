@@ -1,15 +1,3 @@
-
-Progress Log
-* 9/16 - Figured out compilation, libraries, installation. Cleaned up old names and some unneeded files.
-
-[[#Step 1 Installing Haxe]]
-[[#Step 2 Install required C++ compiler stuff]]
-[[#Step 3 Install Haxelibs]]
-[[#Step 4 Fix hxcpp]]
-[[#Step 5 Clone/Download this repo]]
-[[#Step 6 Install FlashDevelop]]
-[[#Step 7 Hit "Compile" And Pray]]
-
 ## Installation
 
 * This is only tested on Windows 7 and 10.

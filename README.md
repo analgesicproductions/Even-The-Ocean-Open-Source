@@ -1,6 +1,6 @@
-This is a complete repository of Even the Ocean, the 2016 game made by Analgesic Productions, compiled by original programmer and co-developer Melos Han-Tani in September 2023. Find me on Twitter https://twitter.com/han_tani! Check out this account's other projects for other things I've open sourced from my games.
+This is a complete repository of Even the Ocean, the 2016 game made by Analgesic Productions, compiled by original programmer and co-developer Melos Han-Tani in September 2023. Find me on Twitter https://twitter.com/han_tani! Check out this account's other projects for other things I've 99%-open sourced from my games. Note this is technically not Open Source because there's a clause preventing usage that would screw me over as an independent developer. But for most reasonable use cases it's effectively open source.
 
-Blog post with details about why I open-sourced: https://melodicambient.substack.com/p/i-open-sourced-even-the-ocean-2016
+Blog post with details about why I 99%-open-sourced: https://melodicambient.substack.com/p/i-open-sourced-even-the-ocean-2016
 
 Trailer for Even the Ocean: https://www.youtube.com/watch?v=luzhLHNVpzQ
 

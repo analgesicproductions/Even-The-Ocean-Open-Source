@@ -986,7 +986,7 @@ ENDSCENE
 
 SCENE lib_intro
 %%aliph%% %%speaker%none%%La biblioteca está cerrada ahora. Estará abierta en unos días.
-%%aliph%% %%speaker%none%%%%yn%Ir%-1%Hablar con bibliotecario%-1%Mirar libros%-1: s1: city, lib_talk_g1_1_first%Caja de donaciones%-1:s1:city, lib_talk_g2_1 %%Es la biblioteca local ...
+%%aliph%% %%speaker%none%%%%yn%Ir%-1%Hablar con bibliotecario%-1%Mirar libros%-1:s1:city, lib_talk_g1_1_first%Caja de donaciones%-1:s1:city,lib_talk_g2_1%%Es la biblioteca local...
 %%aliph%% %%speaker%none%%%%yn%No importa%-1%Restview Beach%-1: e9%Dreamdram Canyon%-1:e12%Boreas Heights%-1:e13%Riverton%-1: e15%Magdal Woods%-1:e14%Oscar Basin%-1:e16 %% Son aquellas guías de viaje ... ¿cuál debería leer?
 ENDSCENE
 
@@ -1110,13 +1110,13 @@ SCENE lib_donate
 ENDSCENE
 
 SCENE train_lo_choice
-%%aliph%% %%speaker%none%% %%yn%Entrada a la ciudad%-1%Murex Park%-1%Cementerio%-1%Desguace%-1%Biblioteca (Cerrado)%- 1:e29:0% Biblioteca%-1: e29: 1%No importa%-1 %%Una de las estaciones de Ground Line. Hmm ... ¿a dónde?
+%%aliph%% %%speaker%none%% %%yn%Entrada a la ciudad%-1%Murex Park%-1%Cementerio%-1%Desguace%-1%Biblioteca (Cerrado)%-1:e29:0%Biblioteca%-1:e29:1%No importa%-1%%Una de las estaciones de Ground Line. Hmm... ¿a dónde?
 %%aliph%% %%speaker%none%%Parece que esa estación está bajo mantenimiento en este momento. Tendré que volver en otro momento.
 %%aliph%% %%speaker%none%%No creo que haya nada en el desguace que necesite.
 ENDSCENE
 
 SCENE train_hi_choice
-%%aliph%% %%speaker%none%% %%yn%Entrada a la Ciudad%-1%Apex Plaza%-1%Museo de Arte (Cerrado)%- 1:e29:0%Museo de Arte%-1:e29:1%Patio Windsweep%-1:e29:1% Patio Windsweep (Cerrado) %-1:e29:0%Towsweep Towers (no disponible)%-1: e37:0%Windsweep Towers%-1:e37:1%No importa%-1 %%Una estación de lujo en la línea Apex. ¿A donde debería ir?
+%%aliph%% %%speaker%none%% %%yn%Entrada a la Ciudad%-1%Apex Plaza%-1%Museo de Arte (Cerrado)%-1:e29:0%Museo de Arte%-1:e29:1%Patio Windsweep%-1:e29:1%Patio Windsweep (Cerrado)%-1:e29:0%Towsweep Towers (no disponible)%-1:e37:0%Windsweep Towers%-1:e37:1%No importa%-1%%Una estación de lujo en la línea Apex. ¿A donde debería ir?
 %%aliph%% %%speaker%none%%Parece que esa estación está bajo mantenimiento en este momento. Tendré que volver en otro momento.
 %%aliph%% %%speaker%none%% %%yn%Estación de Tren%-1%Windsweep Towers%-1%Patio%-1%No importa%-1%%Estoy en el distrito comercial, una elegante zona comercial y residencial. ¿A donde?
 %%aliph%% %%speaker%none%%Es uno de los edificios de apartamentos más caros de Whiteforge. Parece un poco excesivo, y el portero no deja entrar a nadie sin una tarjeta de identificación.
